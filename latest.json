@@ -1,11 +1,11 @@
 {
-  "version": 569,
-  "versionName": "260512-1820",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v569/memoair-v569-260512-1820-slim.apk",
-  "sizeBytes": 35091589,
-  "sha256": "c99319bff4242466f18873d34d9f5ea80d7c5c635b89acd672fe0aa59c3f54b9",
-  "changelog": "v569：⌨️ 加 U+FE0F 强制 emoji 呈现，跟 🎙 / 📎 视觉同档",
-  "userFacingChangelog": "聊天里的键盘图标改成跟麦克风、回形针一样的彩色 emoji",
+  "version": 570,
+  "versionName": "260512-1851",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v570/memoair-v570-260512-1851-slim.apk",
+  "sizeBytes": 35095685,
+  "sha256": "d8f97d930458f7e59364b39b140d0c223b714b7d68a31c4c2c25b5a10027d25c",
+  "changelog": "v570：新 TodoIntentDetector——'记一下/帮我记一下/记下来 X' 谐音容忍直接入待办，不走 LLM",
+  "userFacingChangelog": "聊天里说『记一下 X』或谐音变体，AI 立刻把 X 记成待办，不再走对话兜一圈；含时间词自动设提醒",
   "recentReleases": [
     {
       "version": 552,
@@ -84,8 +84,14 @@
       "versionName": "260512-1820",
       "userFacingChangelog": "聊天里的键盘图标改成跟麦克风、回形针一样的彩色 emoji",
       "publishedAtMs": 1778581406000
+    },
+    {
+      "version": 570,
+      "versionName": "260512-1851",
+      "userFacingChangelog": "聊天里说『记一下 X』或谐音变体，AI 立刻把 X 记成待办，不再走对话兜一圈；含时间词自动设提醒",
+      "publishedAtMs": 1778583183000
     }
   ],
-  "publishedAtMs": 1778581406000,
+  "publishedAtMs": 1778583183000,
   "minSupported": 0
 }
