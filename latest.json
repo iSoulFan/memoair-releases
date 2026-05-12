@@ -1,11 +1,11 @@
 {
-  "version": 612,
-  "versionName": "260513-0635",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v612/memoair-v612-260513-0635-slim.apk",
-  "sizeBytes": 35132605,
-  "sha256": "8a7cc4a22d7ff7a62c726d842de2ecebf607d603ad0696583f4706a0d5c60fee",
-  "changelog": "分享逻辑：展开态分享长图、折叠态分享相片",
-  "userFacingChangelog": "展开「那天的事」长按分享 → 分享整张长图（双线刊头 + 头图 + 全文）；折叠态拾梦相片长按 → 分享相片原图。",
+  "version": 613,
+  "versionName": "260513-0643",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v613/memoair-v613-260513-0643-slim.apk",
+  "sizeBytes": 35136701,
+  "sha256": "7aa0b69ff8f34ed3d8b2d5a9ee7d3fc5b25ca916f94e1447759bd80a685ba4e5",
+  "changelog": "卡片主题去重",
+  "userFacingChangelog": "卡片生成时优先挑跟最近 12 张不同的主题，避免连续几天反复讲同一个话题；只有素材实在重叠时才会复用、且换个角度。",
   "recentReleases": [
     {
       "version": 552,
@@ -294,8 +294,14 @@
       "versionName": "260513-0635",
       "userFacingChangelog": "展开「那天的事」长按分享 → 分享整张长图（双线刊头 + 头图 + 全文）；折叠态拾梦相片长按 → 分享相片原图。",
       "publishedAtMs": 1778625587000
+    },
+    {
+      "version": 613,
+      "versionName": "260513-0643",
+      "userFacingChangelog": "卡片生成时优先挑跟最近 12 张不同的主题，避免连续几天反复讲同一个话题；只有素材实在重叠时才会复用、且换个角度。",
+      "publishedAtMs": 1778626045000
     }
   ],
-  "publishedAtMs": 1778625587000,
+  "publishedAtMs": 1778626045000,
   "minSupported": 0
 }
