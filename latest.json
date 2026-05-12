@@ -1,11 +1,11 @@
 {
-  "version": 574,
-  "versionName": "260512-1941",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v574/memoair-v574-260512-1941-slim.apk",
+  "version": 575,
+  "versionName": "260512-2003",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v575/memoair-v575-260512-2003-slim.apk",
   "sizeBytes": 35095685,
-  "sha256": "6b35525edd7b2a054b6f8aaa35ece28ad1bfe57d8795d0d4cae1f34e46eccf5e",
-  "changelog": "v574：录音源默认走 VOICE_RECOGNITION（多麦 + 降噪 + 波束成形）；设置里加「走系统语音管线」开关可切回裸 MIC；深色模式同步修复",
-  "userFacingChangelog": "录音默认让系统帮忙做降噪，多麦克风手机（Find N6 等）转写应该更干净；如果出现「悄悄话被吞 / 远端的人没录到」去设置 → 录音 → 关掉「走系统语音管线」即可；深色模式切换不生效 bug 修复",
+  "sha256": "bfe23fadc9ecf5248c352e85feb44efdf0c25205a024c85da4c3a7d9736d50fa",
+  "changelog": "v575：录音源开关文案重写——「调动全部麦克风一起拾音」+ 暖色块「这几种情况要关掉」清单",
+  "userFacingChangelog": "录音设置那个开关名字变直白了——「调动全部麦克风一起拾音」，下面用暖色块讲清楚什么时候要关",
   "recentReleases": [
     {
       "version": 552,
@@ -114,8 +114,14 @@
       "versionName": "260512-1941",
       "userFacingChangelog": "录音默认让系统帮忙做降噪，多麦克风手机（Find N6 等）转写应该更干净；如果出现「悄悄话被吞 / 远端的人没录到」去设置 → 录音 → 关掉「走系统语音管线」即可；深色模式切换不生效 bug 修复",
       "publishedAtMs": 1778586187000
+    },
+    {
+      "version": 575,
+      "versionName": "260512-2003",
+      "userFacingChangelog": "录音设置那个开关名字变直白了——「调动全部麦克风一起拾音」，下面用暖色块讲清楚什么时候要关",
+      "publishedAtMs": 1778587756000
     }
   ],
-  "publishedAtMs": 1778586187000,
+  "publishedAtMs": 1778587756000,
   "minSupported": 0
 }
