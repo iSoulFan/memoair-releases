@@ -1,11 +1,11 @@
 {
-  "version": 590,
-  "versionName": "260512-2311",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v590/memoair-v590-260512-2311-slim.apk",
+  "version": 591,
+  "versionName": "260512-2318",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v591/memoair-v591-260512-2318-slim.apk",
   "sizeBytes": 35107973,
-  "sha256": "e50187c22a3dbdbd44b90d9d384ca2e1d5692496dde6bed3268c04f464f9ec14",
-  "changelog": "v590：修 LocalDate.ofInstant API 34+ 兼容 bug——账本/愿望/成就 tab 在 Android 14 以下不再崩",
-  "userFacingChangelog": "鸿蒙沙盒 / Android <14 进入账本/愿望/成就 tab 会崩的问题修了；老 Android 用户也受益",
+  "sha256": "cacb616a43ceff5def6532ae1b425818d9dcd33e8c29818d753877ac95bb89a7",
+  "changelog": "v591：声纹平静/兴奋段加长 ≈ 30s + 录制中支持「读完了」提前结束",
+  "userFacingChangelog": "声纹平静和兴奋段台词改长了，采样量更够；30 秒录制中念完可以点「✓ 读完了」直接结束，不用干等",
   "recentReleases": [
     {
       "version": 552,
@@ -210,8 +210,14 @@
       "versionName": "260512-2311",
       "userFacingChangelog": "鸿蒙沙盒 / Android <14 进入账本/愿望/成就 tab 会崩的问题修了；老 Android 用户也受益",
       "publishedAtMs": 1778599221000
+    },
+    {
+      "version": 591,
+      "versionName": "260512-2318",
+      "userFacingChangelog": "声纹平静和兴奋段台词改长了，采样量更够；30 秒录制中念完可以点「✓ 读完了」直接结束，不用干等",
+      "publishedAtMs": 1778599252000
     }
   ],
-  "publishedAtMs": 1778599221000,
+  "publishedAtMs": 1778599252000,
   "minSupported": 0
 }
