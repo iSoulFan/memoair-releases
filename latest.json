@@ -1,11 +1,11 @@
 {
-  "version": 571,
-  "versionName": "260512-1907",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v571/memoair-v571-260512-1907-slim.apk",
+  "version": 572,
+  "versionName": "260512-1912",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v572/memoair-v572-260512-1912-slim.apk",
   "sizeBytes": 35095685,
-  "sha256": "5cc43ddd9714f638447a26f6e9b67db605768bc09f33fecaf634036049b0e7aa",
-  "changelog": "v571：开机引导未完成时禁止 autoStart 录音，避免 onboarding 期间产生转写 / 记忆 / 纪要",
-  "userFacingChangelog": "首次安装时引导没走完不再偷偷开始录音；走完最后一步「进入记得」后才正式开录",
+  "sha256": "ced9a3a5eda5f96bd00cd3fec30c23df4ee74365448d404d9d4190de39893b40",
+  "changelog": "v572：头像裁剪 sheet 在折叠屏展开宽屏时 viewport 限到 360dp，底部按钮不再被挤出可视区",
+  "userFacingChangelog": "折叠屏展开后头像裁剪页的「取消 / 保存」按钮不再被遮住",
   "recentReleases": [
     {
       "version": 552,
@@ -96,8 +96,14 @@
       "versionName": "260512-1907",
       "userFacingChangelog": "首次安装时引导没走完不再偷偷开始录音；走完最后一步「进入记得」后才正式开录",
       "publishedAtMs": 1778584177000
+    },
+    {
+      "version": 572,
+      "versionName": "260512-1912",
+      "userFacingChangelog": "折叠屏展开后头像裁剪页的「取消 / 保存」按钮不再被遮住",
+      "publishedAtMs": 1778584514000
     }
   ],
-  "publishedAtMs": 1778584177000,
+  "publishedAtMs": 1778584514000,
   "minSupported": 0
 }
