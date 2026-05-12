@@ -1,11 +1,11 @@
 {
-  "version": 581,
-  "versionName": "260512-2108",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v581/memoair-v581-260512-2108-slim.apk",
+  "version": 582,
+  "versionName": "260512-2115",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v582/memoair-v582-260512-2115-slim.apk",
   "sizeBytes": 35099781,
-  "sha256": "8eeb54afa7c595fedf20c363d9daf0d857de594fa7899207d2693929c5b86579",
-  "changelog": "v581：📎 加音频上传——本地 MediaCodec 解码 + Sherpa offline 转写 → 纪要 + 长期记忆，不留本地拷贝",
-  "userFacingChangelog": "📎 现在能选录音文件了（mp3/m4a/wav/...）；用你手机本地的语音模型转写，结果同样存成纪要 + 长期记忆，原文件位置和你给录音留的拷贝都不动",
+  "sha256": "cca17c443f3a34b229717623e69b6c2da00ac742774a83acd7b0b87a0e01e001",
+  "changelog": "v582：聊天多选 UI 重做——气泡左移让槽位，左槽 24dp Warm 圆 checkbox；多选时隐藏卡片 chip 避免误点",
+  "userFacingChangelog": "聊天多选界面更好看了：选中圈在最左边，气泡整体向右让位置；带时光卡片的消息也能干净地参与多选",
   "recentReleases": [
     {
       "version": 552,
@@ -156,8 +156,14 @@
       "versionName": "260512-2108",
       "userFacingChangelog": "📎 现在能选录音文件了（mp3/m4a/wav/...）；用你手机本地的语音模型转写，结果同样存成纪要 + 长期记忆，原文件位置和你给录音留的拷贝都不动",
       "publishedAtMs": 1778591566000
+    },
+    {
+      "version": 582,
+      "versionName": "260512-2115",
+      "userFacingChangelog": "聊天多选界面更好看了：选中圈在最左边，气泡整体向右让位置；带时光卡片的消息也能干净地参与多选",
+      "publishedAtMs": 1778592336000
     }
   ],
-  "publishedAtMs": 1778591566000,
+  "publishedAtMs": 1778592336000,
   "minSupported": 0
 }
