@@ -1,10 +1,19 @@
 {
-  "version": 550,
-  "versionName": "260512-1306",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v550/memoair-v550-260512-1306-slim.apk",
-  "sizeBytes": 28552712,
-  "sha256": "8d0b03c1b8a3ffb6e403cdd51b35c6695e7409f580bb1ba6d4816451dbae7ca3",
-  "changelog": "v550: OTA \u53cc\u901a\u9053 fallback\uff08\u4e3b\u6302\u81ea\u52a8\u8d70\u5907\uff09+ \u6309\u94ae\u6587\u6848\u6539\u6210'\u770b\u770b\u6709\u6ca1\u6709\u65b0\u7248\u672c'",
-  "publishedAtMs": 1778562586000,
+  "version": 552,
+  "versionName": "260512-1322",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v552/memoair-v552-260512-1322-slim.apk",
+  "sizeBytes": 28556808,
+  "sha256": "ae1d88bcd19aaa7e379e24292362356994fc717aa1b33cbc7a2e2213ceef84d5",
+  "changelog": "v552: 接入机主给的 OtaHttpClient — SNI strip 绕阿里云盾 + 主通道切回 memomind:49443",
+  "userFacingChangelog": "✨ 检查更新现在能看到从你装的版本到最新版的全部新东西啦 · 文案也更人话了 🎁",
+  "recentReleases": [
+    {
+      "version": 552,
+      "versionName": "260512-1322",
+      "userFacingChangelog": "✨ 检查更新现在能看到从你装的版本到最新版的全部新东西啦 · 文案也更人话了 🎁",
+      "publishedAtMs": 1778563567000
+    }
+  ],
+  "publishedAtMs": 1778563567000,
   "minSupported": 0
 }
