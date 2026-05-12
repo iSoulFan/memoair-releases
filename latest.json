@@ -1,11 +1,11 @@
 {
-  "version": 583,
-  "versionName": "260512-2130",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v583/memoair-v583-260512-2130-slim.apk",
+  "version": 584,
+  "versionName": "260512-2147",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v584/memoair-v584-260512-2147-slim.apk",
   "sizeBytes": 35103877,
-  "sha256": "c8aee3927701ea0d097c0a9900ff7a72414ba2d478e6a3f3aad9349723c20186",
-  "changelog": "v583：MeetingNavChip 完整链路（DB 加列 + Nav Bus + chip + 双层消费）；聊天滚回底部箭头",
-  "userFacingChangelog": "导入文档/录音后会有'去看这份纪要→'按钮直接跳过去；聊天里往上翻多了「↓」一键回最新",
+  "sha256": "2d36f9e79b90d4a1ef761176f02b8cb76f6a146bc2785d742ab6909c95191c89",
+  "changelog": "v584：多模板声纹——同一个人录多段不同状态（平静/兴奋/走动），匹配取最大相似度，漏率减半",
+  "userFacingChangelog": "声纹设置里多了「补录新模板」按钮——同一人录 2-3 个不同状态，匹配你的话准很多；现状从「单模板 + 0.35 宽阈值」升级到「多模板 + 同阈值」漏率显著下降",
   "recentReleases": [
     {
       "version": 552,
@@ -168,8 +168,14 @@
       "versionName": "260512-2130",
       "userFacingChangelog": "导入文档/录音后会有'去看这份纪要→'按钮直接跳过去；聊天里往上翻多了「↓」一键回最新",
       "publishedAtMs": 1778593191000
+    },
+    {
+      "version": 584,
+      "versionName": "260512-2147",
+      "userFacingChangelog": "声纹设置里多了「补录新模板」按钮——同一人录 2-3 个不同状态，匹配你的话准很多；现状从「单模板 + 0.35 宽阈值」升级到「多模板 + 同阈值」漏率显著下降",
+      "publishedAtMs": 1778594531000
     }
   ],
-  "publishedAtMs": 1778593191000,
+  "publishedAtMs": 1778594531000,
   "minSupported": 0
 }
