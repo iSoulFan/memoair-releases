@@ -1,11 +1,11 @@
 {
-  "version": 564,
-  "versionName": "260512-1620",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v564/memoair-v564-260512-1620-slim.apk",
-  "sizeBytes": 28573360,
-  "sha256": "5b2cb1f188fa00154458d37033558bd08d7a69d01271ff606c2f476600abe744",
-  "changelog": "v564：待办/愿望/账本 tab 都加下拉刷新；todos/wishes 去重换成 bigram Jaccard 模糊匹配",
-  "userFacingChangelog": "待办、愿望、账本现在都能下拉刷新抽今日的；同一件事 LLM 措辞略不同也不再被当作两条记下来",
+  "version": 565,
+  "versionName": "260512-1634",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v565/memoair-v565-260512-1634-slim.apk",
+  "sizeBytes": 28573304,
+  "sha256": "3a1021d3ae0b2895b4f47c317f6673faf4eb9fb5b6f10964d38ec16cad4d3c32",
+  "changelog": "v565：拍立得 widget 重做——单图（不轮播）、相纸薄边 + 方形圆角填满、点进 App 定位卡片、USER_PRESENT 每次解锁换一张、深色模式",
+  "userFacingChangelog": "桌面拾梦相片小部件改成一张铺满，跟应用内一致；点一下进 App 看那张卡；解锁手机会换下一张",
   "recentReleases": [
     {
       "version": 552,
@@ -54,8 +54,14 @@
       "versionName": "260512-1620",
       "userFacingChangelog": "待办、愿望、账本现在都能下拉刷新抽今日的；同一件事 LLM 措辞略不同也不再被当作两条记下来",
       "publishedAtMs": 1778574170000
+    },
+    {
+      "version": 565,
+      "versionName": "260512-1634",
+      "userFacingChangelog": "桌面拾梦相片小部件改成一张铺满，跟应用内一致；点一下进 App 看那张卡；解锁手机会换下一张",
+      "publishedAtMs": 1778575028000
     }
   ],
-  "publishedAtMs": 1778574170000,
+  "publishedAtMs": 1778575028000,
   "minSupported": 0
 }
