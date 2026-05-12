@@ -1,11 +1,11 @@
 {
-  "version": 606,
-  "versionName": "260513-0105",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v606/memoair-v606-260513-0105-slim.apk",
-  "sizeBytes": 35128509,
-  "sha256": "a1b2ac66333a207f43500a1c2422a4d2b7726d0e1a7f3cb56833f6c2f1601b17",
-  "changelog": "v606",
-  "userFacingChangelog": "桌面 widget 的「新内容」提示挪到照片底部当悬浮胶囊（半透黑底 + 白衬线字），相片本身的边框和圆角回到之前精心对齐过的版本，不再被改样。",
+  "version": 607,
+  "versionName": "260513-0118",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v607/memoair-v607-260513-0118-slim.apk",
+  "sizeBytes": 35124413,
+  "sha256": "c3b6491683f25f3b5e1875dd9563994ddb60ef8c752f86bda99e9e373930dd13",
+  "changelog": "widget 浮条样式更新 + 桌面拍立得点击逻辑更顺",
+  "userFacingChangelog": "桌面拍立得有新内容时浮条更优雅、字号更清楚；点开拍立得现在直接落到时光最新，不再绕路。",
   "recentReleases": [
     {
       "version": 552,
@@ -276,8 +276,14 @@
       "versionName": "260513-0105",
       "userFacingChangelog": "桌面 widget 的「新内容」提示挪到照片底部当悬浮胶囊（半透黑底 + 白衬线字），相片本身的边框和圆角回到之前精心对齐过的版本，不再被改样。",
       "publishedAtMs": 1778605632000
+    },
+    {
+      "version": 607,
+      "versionName": "260513-0118",
+      "userFacingChangelog": "桌面拍立得有新内容时浮条更优雅、字号更清楚；点开拍立得现在直接落到时光最新，不再绕路。",
+      "publishedAtMs": 1778606640000
     }
   ],
-  "publishedAtMs": 1778605632000,
+  "publishedAtMs": 1778606640000,
   "minSupported": 0
 }
