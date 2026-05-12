@@ -1,11 +1,11 @@
 {
-  "version": 585,
-  "versionName": "260512-2207",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v585/memoair-v585-260512-2207-slim.apk",
+  "version": 586,
+  "versionName": "260512-2213",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v586/memoair-v586-260512-2213-slim.apk",
   "sizeBytes": 35107973,
-  "sha256": "af6412e3a6f1e7c15d94ccd9f5523a00ee8e0a9deab9e7d0d8b0d08359ad831b",
-  "changelog": "v585：3 段情绪化声纹引导（自然/平静/兴奋）+ 每段独立指引文案 + 「再录一段更准」（不用补录这种词）",
-  "userFacingChangelog": "声纹设置里 AI 会依次教你录平静、兴奋两段不同语气的样本——每段配相应文案；3 段录满后按钮自动消失",
+  "sha256": "1c4bb6a386480299d19c5996aa7be90f047c45cabf16d0af851c81fb512abe8d",
+  "changelog": "v586：IdentityIntentDetector 大幅收紧——拿掉「我是 X」规则；capture 4 字上限；首字停用词列表",
+  "userFacingChangelog": "「我是说...」「我是觉得...」之类不再被错抓成名字记到长期记忆里；只剩「我叫 X / 叫我 X」这种明确的自报家门才触发",
   "recentReleases": [
     {
       "version": 552,
@@ -180,8 +180,14 @@
       "versionName": "260512-2207",
       "userFacingChangelog": "声纹设置里 AI 会依次教你录平静、兴奋两段不同语气的样本——每段配相应文案；3 段录满后按钮自动消失",
       "publishedAtMs": 1778595600000
+    },
+    {
+      "version": 586,
+      "versionName": "260512-2213",
+      "userFacingChangelog": "「我是说...」「我是觉得...」之类不再被错抓成名字记到长期记忆里；只剩「我叫 X / 叫我 X」这种明确的自报家门才触发",
+      "publishedAtMs": 1778596574000
     }
   ],
-  "publishedAtMs": 1778595600000,
+  "publishedAtMs": 1778596574000,
   "minSupported": 0
 }
