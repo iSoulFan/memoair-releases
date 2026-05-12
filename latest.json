@@ -1,11 +1,11 @@
 {
-  "version": 587,
-  "versionName": "260512-2241",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v587/memoair-v587-260512-2241-slim.apk",
+  "version": 588,
+  "versionName": "260512-2257",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v588/memoair-v588-260512-2257-slim.apk",
   "sizeBytes": 35107973,
-  "sha256": "8c70347a5cbe16a27fea5a879a1d04ffab3f0b6f06070b0be3dbac8fc1c178d8",
-  "changelog": "v587：OTA 加 GitHub 镜像通道（gh-proxy / ghfast / mirror.ghproxy）—— manifest 拉取 + APK 下载都先走镜像再走直连",
-  "userFacingChangelog": "OTA 大陆速度应该快 5-10×：先试 GitHub 镜像，再回直连，任一失败自动切下一个",
+  "sha256": "f427338b6eee989d18f9c39d5d6a482557e80799bdcee2e8176c686872f2dc81",
+  "changelog": "v588：音频上传 OOM 修复——10 分钟时长闸 + 中间数组及时释放",
+  "userFacingChangelog": "上传歌曲 / 长音频不再闪退；超过 10 分钟会给清晰提示",
   "recentReleases": [
     {
       "version": 552,
@@ -192,8 +192,14 @@
       "versionName": "260512-2241",
       "userFacingChangelog": "OTA 大陆速度应该快 5-10×：先试 GitHub 镜像，再回直连，任一失败自动切下一个",
       "publishedAtMs": 1778597661000
+    },
+    {
+      "version": 588,
+      "versionName": "260512-2257",
+      "userFacingChangelog": "上传歌曲 / 长音频不再闪退；超过 10 分钟会给清晰提示",
+      "publishedAtMs": 1778598496000
     }
   ],
-  "publishedAtMs": 1778597661000,
+  "publishedAtMs": 1778598496000,
   "minSupported": 0
 }
