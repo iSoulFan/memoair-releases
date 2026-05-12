@@ -1,19 +1,25 @@
 {
-  "version": 552,
-  "versionName": "260512-1322",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v552/memoair-v552-260512-1322-slim.apk",
+  "version": 553,
+  "versionName": "260512-1328",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v553/memoair-v553-260512-1328-slim.apk",
   "sizeBytes": 28556808,
-  "sha256": "ae1d88bcd19aaa7e379e24292362356994fc717aa1b33cbc7a2e2213ceef84d5",
-  "changelog": "v552: 接入机主给的 OtaHttpClient — SNI strip 绕阿里云盾 + 主通道切回 memomind:49443",
-  "userFacingChangelog": "✨ 检查更新现在能看到从你装的版本到最新版的全部新东西啦 · 文案也更人话了 🎁",
+  "sha256": "c0af06b72c98b1e2735165371532833f4432abe31e7cc810172eb6085b719a1d",
+  "changelog": "v553: baseline 候选 — OTA 端到端通路确认 (memomind:49443 主 / GitHub 备 / SNI strip / 累积 changelog / 大按钮弹窗)",
+  "userFacingChangelog": "🎈 这一版打算作为'传播基线'——朋友首装这一版，以后所有更新自动跟进，不用再手动发包啦",
   "recentReleases": [
     {
       "version": 552,
       "versionName": "260512-1322",
       "userFacingChangelog": "✨ 检查更新现在能看到从你装的版本到最新版的全部新东西啦 · 文案也更人话了 🎁",
       "publishedAtMs": 1778563567000
+    },
+    {
+      "version": 553,
+      "versionName": "260512-1328",
+      "userFacingChangelog": "🎈 这一版打算作为'传播基线'——朋友首装这一版，以后所有更新自动跟进，不用再手动发包啦",
+      "publishedAtMs": 1778563820000
     }
   ],
-  "publishedAtMs": 1778563567000,
+  "publishedAtMs": 1778563820000,
   "minSupported": 0
 }
