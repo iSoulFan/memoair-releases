@@ -1,11 +1,11 @@
 {
-  "version": 586,
-  "versionName": "260512-2213",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v586/memoair-v586-260512-2213-slim.apk",
+  "version": 587,
+  "versionName": "260512-2241",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v587/memoair-v587-260512-2241-slim.apk",
   "sizeBytes": 35107973,
-  "sha256": "1c4bb6a386480299d19c5996aa7be90f047c45cabf16d0af851c81fb512abe8d",
-  "changelog": "v586：IdentityIntentDetector 大幅收紧——拿掉「我是 X」规则；capture 4 字上限；首字停用词列表",
-  "userFacingChangelog": "「我是说...」「我是觉得...」之类不再被错抓成名字记到长期记忆里；只剩「我叫 X / 叫我 X」这种明确的自报家门才触发",
+  "sha256": "8c70347a5cbe16a27fea5a879a1d04ffab3f0b6f06070b0be3dbac8fc1c178d8",
+  "changelog": "v587：OTA 加 GitHub 镜像通道（gh-proxy / ghfast / mirror.ghproxy）—— manifest 拉取 + APK 下载都先走镜像再走直连",
+  "userFacingChangelog": "OTA 大陆速度应该快 5-10×：先试 GitHub 镜像，再回直连，任一失败自动切下一个",
   "recentReleases": [
     {
       "version": 552,
@@ -186,8 +186,14 @@
       "versionName": "260512-2213",
       "userFacingChangelog": "「我是说...」「我是觉得...」之类不再被错抓成名字记到长期记忆里；只剩「我叫 X / 叫我 X」这种明确的自报家门才触发",
       "publishedAtMs": 1778596574000
+    },
+    {
+      "version": 587,
+      "versionName": "260512-2241",
+      "userFacingChangelog": "OTA 大陆速度应该快 5-10×：先试 GitHub 镜像，再回直连，任一失败自动切下一个",
+      "publishedAtMs": 1778597661000
     }
   ],
-  "publishedAtMs": 1778596574000,
+  "publishedAtMs": 1778597661000,
   "minSupported": 0
 }
