@@ -1,11 +1,11 @@
 {
-  "version": 613,
-  "versionName": "260513-0643",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v613/memoair-v613-260513-0643-slim.apk",
+  "version": 614,
+  "versionName": "260513-0654",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v614/memoair-v614-260513-0654-slim.apk",
   "sizeBytes": 35136701,
-  "sha256": "7aa0b69ff8f34ed3d8b2d5a9ee7d3fc5b25ca916f94e1447759bd80a685ba4e5",
-  "changelog": "卡片主题去重",
-  "userFacingChangelog": "卡片生成时优先挑跟最近 12 张不同的主题，避免连续几天反复讲同一个话题；只有素材实在重叠时才会复用、且换个角度。",
+  "sha256": "99148d8853933bdb573e31aeb436687460c636927253f10160fa2123e3af229e",
+  "changelog": "给 AI 起名字",
+  "userFacingChangelog": "在 chat 里说「叫你 XX / 称呼你为 XX / 你叫 XX」，AI 会记住并以后自报家门时**完整**用这个名字——中英文混排也逐字输出，不会再丢字母。",
   "recentReleases": [
     {
       "version": 552,
@@ -300,8 +300,14 @@
       "versionName": "260513-0643",
       "userFacingChangelog": "卡片生成时优先挑跟最近 12 张不同的主题，避免连续几天反复讲同一个话题；只有素材实在重叠时才会复用、且换个角度。",
       "publishedAtMs": 1778626045000
+    },
+    {
+      "version": 614,
+      "versionName": "260513-0654",
+      "userFacingChangelog": "在 chat 里说「叫你 XX / 称呼你为 XX / 你叫 XX」，AI 会记住并以后自报家门时**完整**用这个名字——中英文混排也逐字输出，不会再丢字母。",
+      "publishedAtMs": 1778626636000
     }
   ],
-  "publishedAtMs": 1778626045000,
+  "publishedAtMs": 1778626636000,
   "minSupported": 0
 }
