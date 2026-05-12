@@ -1,11 +1,11 @@
 {
-  "version": 602,
-  "versionName": "260513-0047",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v602/memoair-v602-260513-0047-slim.apk",
+  "version": 605,
+  "versionName": "260513-0058",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v605/memoair-v605-260513-0058-slim.apk",
   "sizeBytes": 35124357,
-  "sha256": "be1cf1c9a3dc908f7cf5b89cac2e661209b7b58d6fe10e7714675008247d5c2a",
-  "changelog": "v602",
-  "userFacingChangelog": "录音设置「多麦克风拾音」开关字体跟整页统一；桌面 widget 介绍文案按新逻辑重写（默认今日最新 / 点过 App 后随机回顾）；保活引导加了「打开系统设置」按钮去搜「自启动」（OPPO / 小米这种厂商系统自启动开关不在应用详情里）。",
+  "sha256": "513fc27b293d6d387202efdc30e2128141c2bc74629c41dfc8995a938c275310",
+  "changelog": "v605",
+  "userFacingChangelog": "桌面 widget 底部多了一句小提示：有新内容时会告诉你「📸 新的拾梦相片 / ✉️ 新的人生来信 / 🍀 新的微光时刻」等等；点进去看完会自动消失。底部 Tab 你已经在的那个再点一下 = 回到最新（不用双击）。",
   "recentReleases": [
     {
       "version": 552,
@@ -264,8 +264,14 @@
       "versionName": "260513-0047",
       "userFacingChangelog": "录音设置「多麦克风拾音」开关字体跟整页统一；桌面 widget 介绍文案按新逻辑重写（默认今日最新 / 点过 App 后随机回顾）；保活引导加了「打开系统设置」按钮去搜「自启动」（OPPO / 小米这种厂商系统自启动开关不在应用详情里）。",
       "publishedAtMs": 1778604638000
+    },
+    {
+      "version": 605,
+      "versionName": "260513-0058",
+      "userFacingChangelog": "桌面 widget 底部多了一句小提示：有新内容时会告诉你「📸 新的拾梦相片 / ✉️ 新的人生来信 / 🍀 新的微光时刻」等等；点进去看完会自动消失。底部 Tab 你已经在的那个再点一下 = 回到最新（不用双击）。",
+      "publishedAtMs": 1778605320000
     }
   ],
-  "publishedAtMs": 1778604638000,
+  "publishedAtMs": 1778605320000,
   "minSupported": 0
 }
