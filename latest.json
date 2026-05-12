@@ -1,11 +1,11 @@
 {
-  "version": 591,
-  "versionName": "260512-2318",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v591/memoair-v591-260512-2318-slim.apk",
-  "sizeBytes": 35107973,
-  "sha256": "cacb616a43ceff5def6532ae1b425818d9dcd33e8c29818d753877ac95bb89a7",
-  "changelog": "v591：声纹平静/兴奋段加长 ≈ 30s + 录制中支持「读完了」提前结束",
-  "userFacingChangelog": "声纹平静和兴奋段台词改长了，采样量更够；30 秒录制中念完可以点「✓ 读完了」直接结束，不用干等",
+  "version": 592,
+  "versionName": "260512-2333",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v592/memoair-v592-260512-2333-slim.apk",
+  "sizeBytes": 35120261,
+  "sha256": "19e7294b9d3f6cb65c7319a7965430aad2a29e6c8b893ab4e452fb88a706671e",
+  "changelog": "v592：兴趣金句推送（6 领域 95 条 attribution 齐全）+ OTA 镜像顺序优化 + 256KB buffer + 3.5s 速度门",
+  "userFacingChangelog": "歌词推送现在会按你的兴趣（投资 / 设计 / 文学 / 创业 / 思想 / 体育）挑名人金句；OTA 下载用更快的镜像，慢镜像 3.5 秒自动切走",
   "recentReleases": [
     {
       "version": 552,
@@ -216,8 +216,14 @@
       "versionName": "260512-2318",
       "userFacingChangelog": "声纹平静和兴奋段台词改长了，采样量更够；30 秒录制中念完可以点「✓ 读完了」直接结束，不用干等",
       "publishedAtMs": 1778599252000
+    },
+    {
+      "version": 592,
+      "versionName": "260512-2333",
+      "userFacingChangelog": "歌词推送现在会按你的兴趣（投资 / 设计 / 文学 / 创业 / 思想 / 体育）挑名人金句；OTA 下载用更快的镜像，慢镜像 3.5 秒自动切走",
+      "publishedAtMs": 1778600488000
     }
   ],
-  "publishedAtMs": 1778599252000,
+  "publishedAtMs": 1778600488000,
   "minSupported": 0
 }
