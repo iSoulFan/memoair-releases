@@ -1,11 +1,11 @@
 {
-  "version": 554,
-  "versionName": "260512-1406",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v554/memoair-v554-260512-1406-slim.apk",
-  "sizeBytes": 28561072,
-  "sha256": "31d5de9112f4815facb5dbf27c633a68b5b45acf1176bc099f85aa315bd12128",
-  "changelog": "v554: 桌面 widget — 拾梦相片小部件",
-  "userFacingChangelog": "📸 桌面长按加 widget → 找「记得」→ 拖「拾梦相片 · 今日」，今天每张拾梦相片自动轮播在桌面",
+  "version": 558,
+  "versionName": "260512-1516",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v558/memoair-v558-260512-1516-slim.apk",
+  "sizeBytes": 28573360,
+  "sha256": "17d1b725eb69b67bd911bd971dc785fff2aa10661ae65165b358e21ede627e54",
+  "changelog": "v558：纪要 tab 加下拉刷新；首页语音改胶囊'按住说话'按下零延迟弹窗；松手转写完才发；AI 回复中也允许继续发文字/语音（排队）",
+  "userFacingChangelog": "纪要可以下拉刷新了；首页语音按钮做成胶囊「按住说话」，按下立刻给反馈，提前松手也会等转写完再自动发；AI 边回边能继续输入。",
   "recentReleases": [
     {
       "version": 552,
@@ -24,8 +24,14 @@
       "versionName": "260512-1406",
       "userFacingChangelog": "📸 桌面长按加 widget → 找「记得」→ 拖「拾梦相片 · 今日」，今天每张拾梦相片自动轮播在桌面",
       "publishedAtMs": 1778566093000
+    },
+    {
+      "version": 558,
+      "versionName": "260512-1516",
+      "userFacingChangelog": "纪要可以下拉刷新了；首页语音按钮做成胶囊「按住说话」，按下立刻给反馈，提前松手也会等转写完再自动发；AI 边回边能继续输入。",
+      "publishedAtMs": 1778570314000
     }
   ],
-  "publishedAtMs": 1778566093000,
+  "publishedAtMs": 1778570314000,
   "minSupported": 0
 }
