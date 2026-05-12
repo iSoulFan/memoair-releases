@@ -1,11 +1,11 @@
 {
-  "version": 582,
-  "versionName": "260512-2115",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v582/memoair-v582-260512-2115-slim.apk",
-  "sizeBytes": 35099781,
-  "sha256": "cca17c443f3a34b229717623e69b6c2da00ac742774a83acd7b0b87a0e01e001",
-  "changelog": "v582：聊天多选 UI 重做——气泡左移让槽位，左槽 24dp Warm 圆 checkbox；多选时隐藏卡片 chip 避免误点",
-  "userFacingChangelog": "聊天多选界面更好看了：选中圈在最左边，气泡整体向右让位置；带时光卡片的消息也能干净地参与多选",
+  "version": 583,
+  "versionName": "260512-2130",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v583/memoair-v583-260512-2130-slim.apk",
+  "sizeBytes": 35103877,
+  "sha256": "c8aee3927701ea0d097c0a9900ff7a72414ba2d478e6a3f3aad9349723c20186",
+  "changelog": "v583：MeetingNavChip 完整链路（DB 加列 + Nav Bus + chip + 双层消费）；聊天滚回底部箭头",
+  "userFacingChangelog": "导入文档/录音后会有'去看这份纪要→'按钮直接跳过去；聊天里往上翻多了「↓」一键回最新",
   "recentReleases": [
     {
       "version": 552,
@@ -162,8 +162,14 @@
       "versionName": "260512-2115",
       "userFacingChangelog": "聊天多选界面更好看了：选中圈在最左边，气泡整体向右让位置；带时光卡片的消息也能干净地参与多选",
       "publishedAtMs": 1778592336000
+    },
+    {
+      "version": 583,
+      "versionName": "260512-2130",
+      "userFacingChangelog": "导入文档/录音后会有'去看这份纪要→'按钮直接跳过去；聊天里往上翻多了「↓」一键回最新",
+      "publishedAtMs": 1778593191000
     }
   ],
-  "publishedAtMs": 1778592336000,
+  "publishedAtMs": 1778593191000,
   "minSupported": 0
 }
