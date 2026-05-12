@@ -1,11 +1,11 @@
 {
-  "version": 588,
-  "versionName": "260512-2257",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v588/memoair-v588-260512-2257-slim.apk",
+  "version": 589,
+  "versionName": "260512-2305",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v589/memoair-v589-260512-2305-slim.apk",
   "sizeBytes": 35107973,
-  "sha256": "f427338b6eee989d18f9c39d5d6a482557e80799bdcee2e8176c686872f2dc81",
-  "changelog": "v588：音频上传 OOM 修复——10 分钟时长闸 + 中间数组及时释放",
-  "userFacingChangelog": "上传歌曲 / 长音频不再闪退；超过 10 分钟会给清晰提示",
+  "sha256": "6dd8024e7673dd5521e80798352aebd69c1c26e6ca4871f25450a99a2e3a57b7",
+  "changelog": "v589：编辑用户气泡 → AI 自动重发；卡片分享图 UNSPECIFIED 重测彻底修复被切",
+  "userFacingChangelog": "编辑自己说过的话 AI 会重新回复；时光卡片分享图长内容（知识发芽 / 长纪要）不再被切掉底",
   "recentReleases": [
     {
       "version": 552,
@@ -198,8 +198,14 @@
       "versionName": "260512-2257",
       "userFacingChangelog": "上传歌曲 / 长音频不再闪退；超过 10 分钟会给清晰提示",
       "publishedAtMs": 1778598496000
+    },
+    {
+      "version": 589,
+      "versionName": "260512-2305",
+      "userFacingChangelog": "编辑自己说过的话 AI 会重新回复；时光卡片分享图长内容（知识发芽 / 长纪要）不再被切掉底",
+      "publishedAtMs": 1778598923000
     }
   ],
-  "publishedAtMs": 1778598496000,
+  "publishedAtMs": 1778598923000,
   "minSupported": 0
 }
