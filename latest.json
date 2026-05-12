@@ -1,11 +1,11 @@
 {
-  "version": 592,
-  "versionName": "260512-2333",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v592/memoair-v592-260512-2333-slim.apk",
+  "version": 593,
+  "versionName": "260512-2341",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v593/memoair-v593-260512-2341-slim.apk",
   "sizeBytes": 35120261,
-  "sha256": "19e7294b9d3f6cb65c7319a7965430aad2a29e6c8b893ab4e452fb88a706671e",
-  "changelog": "v592：兴趣金句推送（6 领域 95 条 attribution 齐全）+ OTA 镜像顺序优化 + 256KB buffer + 3.5s 速度门",
-  "userFacingChangelog": "歌词推送现在会按你的兴趣（投资 / 设计 / 文学 / 创业 / 思想 / 体育）挑名人金句；OTA 下载用更快的镜像，慢镜像 3.5 秒自动切走",
+  "sha256": "48a9f4de2c92a5eb825f500facf1584ff3decf8c212bdf22902e979f0e91abfe",
+  "changelog": "v593：📎 chooser sheet（文本 / 录音二选一）+ MeetingNavChip 一步到位（SharedFlow→StateFlow）+ 📎 字号 18→16",
+  "userFacingChangelog": "📎 点开先选文本还是录音；点纪要 chip 直接跳进「行动→纪要」子 tab；📎 emoji 字号微调",
   "recentReleases": [
     {
       "version": 552,
@@ -222,8 +222,14 @@
       "versionName": "260512-2333",
       "userFacingChangelog": "歌词推送现在会按你的兴趣（投资 / 设计 / 文学 / 创业 / 思想 / 体育）挑名人金句；OTA 下载用更快的镜像，慢镜像 3.5 秒自动切走",
       "publishedAtMs": 1778600488000
+    },
+    {
+      "version": 593,
+      "versionName": "260512-2341",
+      "userFacingChangelog": "📎 点开先选文本还是录音；点纪要 chip 直接跳进「行动→纪要」子 tab；📎 emoji 字号微调",
+      "publishedAtMs": 1778600881000
     }
   ],
-  "publishedAtMs": 1778600488000,
+  "publishedAtMs": 1778600881000,
   "minSupported": 0
 }
