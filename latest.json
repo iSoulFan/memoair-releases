@@ -1,11 +1,11 @@
 {
-  "version": 579,
-  "versionName": "260512-2039",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v579/memoair-v579-260512-2039-slim.apk",
+  "version": 580,
+  "versionName": "260512-2104",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v580/memoair-v580-260512-2104-slim.apk",
   "sizeBytes": 35095685,
-  "sha256": "2510da521ce1865f63e395adbff7b318a0aa604ba6c71049e13f9238460a4d80",
-  "changelog": "v579：widget 暗色相框改成中暖灰；AI 知道自己运行版本号",
-  "userFacingChangelog": "桌面 widget 深色相框看得清了；AI 问到自己版本不再瞎说",
+  "sha256": "2362170176f543c4bdb1c9b2b9815975637acf2f9a038604525d6c319266aa74",
+  "changelog": "v580：文档上传 4 修——立刻发用户气泡 / 去掉烂链接 / 纪要标签'文件' / prompt 必出 5+ 条记忆",
+  "userFacingChangelog": "上传文档现在会先发一条「📎 文件名」让你知道送进去了；点完不再报'卡片被删除'，AI 文案讲清楚去哪看；纪要标签固定显示'文件'",
   "recentReleases": [
     {
       "version": 552,
@@ -144,8 +144,14 @@
       "versionName": "260512-2039",
       "userFacingChangelog": "桌面 widget 深色相框看得清了；AI 问到自己版本不再瞎说",
       "publishedAtMs": 1778590265000
+    },
+    {
+      "version": 580,
+      "versionName": "260512-2104",
+      "userFacingChangelog": "上传文档现在会先发一条「📎 文件名」让你知道送进去了；点完不再报'卡片被删除'，AI 文案讲清楚去哪看；纪要标签固定显示'文件'",
+      "publishedAtMs": 1778591159000
     }
   ],
-  "publishedAtMs": 1778590265000,
+  "publishedAtMs": 1778591159000,
   "minSupported": 0
 }
