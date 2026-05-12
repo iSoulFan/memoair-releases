@@ -1,11 +1,11 @@
 {
-  "version": 595,
-  "versionName": "260513-0009",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v595/memoair-v595-260513-0009-slim.apk",
+  "version": 597,
+  "versionName": "260513-0013",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v597/memoair-v597-260513-0013-slim.apk",
   "sizeBytes": 35124357,
-  "sha256": "e6a65245b23aec441ebac13fa2471e9938a641ee2b5ac54dd1d59101da4e7606",
-  "changelog": "v595：Tab 单击 0ms 反应 + 动画恢复 160ms + 单击当前 Tab 滚顶 + Meetings tab 接 NavBus 自动展开 + widget 兜底广播 + 文案改诚实",
-  "userFacingChangelog": "底部 Tab 单击反应不再卡（之前等 300ms 双击窗口）；动画也回来了；点纪要 chip 会自动跳进去并展开；widget 多挂兜底广播",
+  "sha256": "57f2d16593526b79e2e82a624a751267a8ac40f277d3f0c0af03e50d1c168ce8",
+  "changelog": "v597：📎 弹窗主文案升格（沉淀知识库 / 长期记忆）+ TodoRow 加「去看那份纪要」chip + widget 跨日回退看昨日",
+  "userFacingChangelog": "📎 上传弹窗主文案改成「把你的重要文件交给「记得」」；待办点开来源会显示「去看那份纪要」按钮直接跳过去；桌面 widget 凌晨过 0 点不再显示「今天还没冲洗」，自动回退看昨天的相片",
   "recentReleases": [
     {
       "version": 552,
@@ -240,8 +240,14 @@
       "versionName": "260513-0009",
       "userFacingChangelog": "底部 Tab 单击反应不再卡（之前等 300ms 双击窗口）；动画也回来了；点纪要 chip 会自动跳进去并展开；widget 多挂兜底广播",
       "publishedAtMs": 1778602425000
+    },
+    {
+      "version": 597,
+      "versionName": "260513-0013",
+      "userFacingChangelog": "📎 上传弹窗主文案改成「把你的重要文件交给「记得」」；待办点开来源会显示「去看那份纪要」按钮直接跳过去；桌面 widget 凌晨过 0 点不再显示「今天还没冲洗」，自动回退看昨天的相片",
+      "publishedAtMs": 1778602534000
     }
   ],
-  "publishedAtMs": 1778602425000,
+  "publishedAtMs": 1778602534000,
   "minSupported": 0
 }
