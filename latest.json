@@ -1,11 +1,11 @@
 {
-  "version": 560,
-  "versionName": "260512-1545",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v560/memoair-v560-260512-1545-slim.apk",
+  "version": 562,
+  "versionName": "260512-1554",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v562/memoair-v562-260512-1554-slim.apk",
   "sizeBytes": 28569264,
-  "sha256": "23b1d42bd7fb88f2194e469b5794999d0149ae18b727251a2e7715a44256f931",
-  "changelog": "v560：纪要 tab + 设置页都换成 B 方案下拉刷新（呼吸式衬线大字 / 大概 15 秒提示）；身份探测正则收紧，'我是程序员/男的/中国人'不再误触发记下来",
-  "userFacingChangelog": "纪要和设置页下拉都换成了呼吸式衬线字提示，进度更清楚；'我是程序员/男的/中国人'这种不再被误当成名字记下来。",
+  "sha256": "f8404fea58a502afb0ecadc7593d59cee46dc1a54d9d022b2e375118a49c857a",
+  "changelog": "v562：OTA 主 URL 切到 memomind.cloud:443（boss 服务端 :443 SNI-strip 已通）；下拉刷新内容跟着下移，给文案留干净留白",
+  "userFacingChangelog": "OTA 通道换到标准 :443 端口，朋友的运营商屏 :49443 应该绕过去了；纪要/设置下拉时卡片会顺势下移，下拉动效不再糊在卡片上",
   "recentReleases": [
     {
       "version": 552,
@@ -36,8 +36,14 @@
       "versionName": "260512-1545",
       "userFacingChangelog": "纪要和设置页下拉都换成了呼吸式衬线字提示，进度更清楚；'我是程序员/男的/中国人'这种不再被误当成名字记下来。",
       "publishedAtMs": 1778572156000
+    },
+    {
+      "version": 562,
+      "versionName": "260512-1554",
+      "userFacingChangelog": "OTA 通道换到标准 :443 端口，朋友的运营商屏 :49443 应该绕过去了；纪要/设置下拉时卡片会顺势下移，下拉动效不再糊在卡片上",
+      "publishedAtMs": 1778572583000
     }
   ],
-  "publishedAtMs": 1778572156000,
+  "publishedAtMs": 1778572583000,
   "minSupported": 0
 }
