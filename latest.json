@@ -1,18 +1,12 @@
 {
-  "version": 617,
-  "versionName": "260513-0745",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v617/memoair-v617-260513-0745-slim.apk",
-  "sizeBytes": 35144893,
-  "sha256": "78f8d6966983536a1505e10f3395c6b97cb5c85b0bb5274ca00586740da5d917",
-  "changelog": "勿扰倒计时灵动岛 + 已完成筛选",
-  "userFacingChangelog": "长按录音胶囊：胶囊本体丝滑变成圆角矩形面板（灵动岛风格 morph + 轻震动），选 1/2/4 小时或今上午/今下午，倒计时到点自动恢复录音；胶囊上实时显示剩余时间。待办筛选多了「已完成」一档。",
+  "version": 618,
+  "versionName": "260513-0754",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v618/memoair-v618-260513-0754-slim.apk",
+  "sizeBytes": 35140797,
+  "sha256": "145b644285bdb797de5f07d6d6f44a27af75e63e039cdffeb980bc718e2a993d",
+  "changelog": "勿扰胶囊 morph 修复",
+  "userFacingChangelog": "长按录音胶囊后展开成圆角矩形面板的过程更稳更顺滑了。",
   "recentReleases": [
-    {
-      "version": 558,
-      "versionName": "260512-1516",
-      "userFacingChangelog": "纪要可以下拉刷新了；首页语音按钮做成胶囊「按住说话」，按下立刻给反馈，提前松手也会等转写完再自动发；AI 边回边能继续输入。",
-      "publishedAtMs": 1778570314000
-    },
     {
       "version": 560,
       "versionName": "260512-1545",
@@ -306,8 +300,14 @@
       "versionName": "260513-0745",
       "userFacingChangelog": "长按录音胶囊：胶囊本体丝滑变成圆角矩形面板（灵动岛风格 morph + 轻震动），选 1/2/4 小时或今上午/今下午，倒计时到点自动恢复录音；胶囊上实时显示剩余时间。待办筛选多了「已完成」一档。",
       "publishedAtMs": 1778629825000
+    },
+    {
+      "version": 618,
+      "versionName": "260513-0754",
+      "userFacingChangelog": "长按录音胶囊后展开成圆角矩形面板的过程更稳更顺滑了。",
+      "publishedAtMs": 1778630146000
     }
   ],
-  "publishedAtMs": 1778629825000,
+  "publishedAtMs": 1778630146000,
   "minSupported": 0
 }
