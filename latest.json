@@ -1,11 +1,11 @@
 {
-  "version": 599,
-  "versionName": "260513-0027",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v599/memoair-v599-260513-0027-slim.apk",
+  "version": 601,
+  "versionName": "260513-0037",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v601/memoair-v601-260513-0037-slim.apk",
   "sizeBytes": 35124357,
-  "sha256": "f335c032daa2131294df735202e516aa3be03cbbfc0f1dbc3243b3105333367a",
-  "changelog": "v599：📎 弹窗主文案改成「沉淀成你的本地知识库」（去掉吓人的'交给'+ 去掉无效 ** markdown）+ widget 两段式（Fresh→Rotating）+ 音频源副标统一字体",
-  "userFacingChangelog": "上传弹窗文案改成强调'本地知识库'更让人安心；桌面 widget 一天里默认显示今日新照片，点进 App 后开始随机轮播历史相片；录音源开关副标字体跟其它设置统一",
+  "sha256": "9e066c21132c794eb9df2169b205724aa249889a4119edb34f5ad5d907c37dba",
+  "changelog": "v601",
+  "userFacingChangelog": "现在在设置里下拉刷新、或点「看看有没有新版本」按钮，都能看到从你这个版本到最新版本之间的累积更新内容；上传弹窗文案更清楚了。",
   "recentReleases": [
     {
       "version": 552,
@@ -252,8 +252,14 @@
       "versionName": "260513-0027",
       "userFacingChangelog": "上传弹窗文案改成强调'本地知识库'更让人安心；桌面 widget 一天里默认显示今日新照片，点进 App 后开始随机轮播历史相片；录音源开关副标字体跟其它设置统一",
       "publishedAtMs": 1778603456000
+    },
+    {
+      "version": 601,
+      "versionName": "260513-0037",
+      "userFacingChangelog": "现在在设置里下拉刷新、或点「看看有没有新版本」按钮，都能看到从你这个版本到最新版本之间的累积更新内容；上传弹窗文案更清楚了。",
+      "publishedAtMs": 1778604080000
     }
   ],
-  "publishedAtMs": 1778603456000,
+  "publishedAtMs": 1778604080000,
   "minSupported": 0
 }
