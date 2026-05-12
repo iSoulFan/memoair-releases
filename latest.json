@@ -1,11 +1,11 @@
 {
-  "version": 577,
-  "versionName": "260512-2022",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v577/memoair-v577-260512-2022-slim.apk",
+  "version": 578,
+  "versionName": "260512-2034",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v578/memoair-v578-260512-2034-slim.apk",
   "sizeBytes": 35095685,
-  "sha256": "975d17a82a0183fe89fbecc254b873627dc262e43dbe9a7c50e528159a825660",
-  "changelog": "v577：录音源开关下面的'哪几种情况要关掉'改成默认折叠",
-  "userFacingChangelog": "录音设置里那段说明现在默认折叠了，需要看的时候点一下「哪几种情况要把它关掉？ ›」展开",
+  "sha256": "9cab1b3250e18f9bce803e1370d328bb12bec789273f636c0d0b108ed454c1e4",
+  "changelog": "v578：桌面小部件从调试菜单挪出（外观分组）；声纹默认阈值 0.50 → 0.35 减少漏自己",
+  "userFacingChangelog": "桌面小部件指引现在普通用户也能看到（设置→外观→桌面小部件）；声纹默认松了一档，自己的话不会被误判成别人那么多了",
   "recentReleases": [
     {
       "version": 552,
@@ -132,8 +132,14 @@
       "versionName": "260512-2022",
       "userFacingChangelog": "录音设置里那段说明现在默认折叠了，需要看的时候点一下「哪几种情况要把它关掉？ ›」展开",
       "publishedAtMs": 1778588657000
+    },
+    {
+      "version": 578,
+      "versionName": "260512-2034",
+      "userFacingChangelog": "桌面小部件指引现在普通用户也能看到（设置→外观→桌面小部件）；声纹默认松了一档，自己的话不会被误判成别人那么多了",
+      "publishedAtMs": 1778589606000
     }
   ],
-  "publishedAtMs": 1778588657000,
+  "publishedAtMs": 1778589606000,
   "minSupported": 0
 }
