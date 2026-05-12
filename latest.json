@@ -1,9 +1,9 @@
 {
-  "version": 539,
-  "versionName": "260512-1116",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v539/memoair-v539-260512-1116-slim.apk",
+  "version": 540,
+  "versionName": "260512-1126",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v540/memoair-v540-260512-1126-slim.apk",
   "sizeBytes": 28548616,
-  "changelog": "OTA v1：闭环上线，以后版本都能自动推",
-  "publishedAtMs": 1778555878000,
+  "changelog": "v540: \u4fee OTA \u901a\u9053 \u2014 workers.dev \u5728\u5927\u9646 DNS \u88ab\u6c61\u67d3\uff0c\u6539\u8d70 github raw \u76f4\u8fde",
+  "publishedAtMs": 1778556487000,
   "minSupported": 0
 }
