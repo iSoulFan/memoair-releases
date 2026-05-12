@@ -1,11 +1,11 @@
 {
-  "version": 558,
-  "versionName": "260512-1516",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v558/memoair-v558-260512-1516-slim.apk",
-  "sizeBytes": 28573360,
-  "sha256": "17d1b725eb69b67bd911bd971dc785fff2aa10661ae65165b358e21ede627e54",
-  "changelog": "v558：纪要 tab 加下拉刷新；首页语音改胶囊'按住说话'按下零延迟弹窗；松手转写完才发；AI 回复中也允许继续发文字/语音（排队）",
-  "userFacingChangelog": "纪要可以下拉刷新了；首页语音按钮做成胶囊「按住说话」，按下立刻给反馈，提前松手也会等转写完再自动发；AI 边回边能继续输入。",
+  "version": 560,
+  "versionName": "260512-1545",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v560/memoair-v560-260512-1545-slim.apk",
+  "sizeBytes": 28569264,
+  "sha256": "23b1d42bd7fb88f2194e469b5794999d0149ae18b727251a2e7715a44256f931",
+  "changelog": "v560：纪要 tab + 设置页都换成 B 方案下拉刷新（呼吸式衬线大字 / 大概 15 秒提示）；身份探测正则收紧，'我是程序员/男的/中国人'不再误触发记下来",
+  "userFacingChangelog": "纪要和设置页下拉都换成了呼吸式衬线字提示，进度更清楚；'我是程序员/男的/中国人'这种不再被误当成名字记下来。",
   "recentReleases": [
     {
       "version": 552,
@@ -30,8 +30,14 @@
       "versionName": "260512-1516",
       "userFacingChangelog": "纪要可以下拉刷新了；首页语音按钮做成胶囊「按住说话」，按下立刻给反馈，提前松手也会等转写完再自动发；AI 边回边能继续输入。",
       "publishedAtMs": 1778570314000
+    },
+    {
+      "version": 560,
+      "versionName": "260512-1545",
+      "userFacingChangelog": "纪要和设置页下拉都换成了呼吸式衬线字提示，进度更清楚；'我是程序员/男的/中国人'这种不再被误当成名字记下来。",
+      "publishedAtMs": 1778572156000
     }
   ],
-  "publishedAtMs": 1778570314000,
+  "publishedAtMs": 1778572156000,
   "minSupported": 0
 }
