@@ -1,11 +1,11 @@
 {
-  "version": 563,
-  "versionName": "260512-1606",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v563/memoair-v563-260512-1606-slim.apk",
+  "version": 564,
+  "versionName": "260512-1620",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v564/memoair-v564-260512-1620-slim.apk",
   "sizeBytes": 28573360,
-  "sha256": "d6832c143dd97a303d723c916ab68bf3babbc9e0d321f00051c52f30e53c628b",
-  "changelog": "v563：会议去重从精确 title 改成 bigram Jaccard 模糊匹配，'需求评审会/需求评审会议' 不再被当作两条",
-  "userFacingChangelog": "手动抽纪要不再出现重复会议——同一场会议哪怕 LLM 给的标题/正文每次略有不同，也会识别并跳过",
+  "sha256": "5b2cb1f188fa00154458d37033558bd08d7a69d01271ff606c2f476600abe744",
+  "changelog": "v564：待办/愿望/账本 tab 都加下拉刷新；todos/wishes 去重换成 bigram Jaccard 模糊匹配",
+  "userFacingChangelog": "待办、愿望、账本现在都能下拉刷新抽今日的；同一件事 LLM 措辞略不同也不再被当作两条记下来",
   "recentReleases": [
     {
       "version": 552,
@@ -48,8 +48,14 @@
       "versionName": "260512-1606",
       "userFacingChangelog": "手动抽纪要不再出现重复会议——同一场会议哪怕 LLM 给的标题/正文每次略有不同，也会识别并跳过",
       "publishedAtMs": 1778573310000
+    },
+    {
+      "version": 564,
+      "versionName": "260512-1620",
+      "userFacingChangelog": "待办、愿望、账本现在都能下拉刷新抽今日的；同一件事 LLM 措辞略不同也不再被当作两条记下来",
+      "publishedAtMs": 1778574170000
     }
   ],
-  "publishedAtMs": 1778573310000,
+  "publishedAtMs": 1778574170000,
   "minSupported": 0
 }
