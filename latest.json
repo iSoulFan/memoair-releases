@@ -1,11 +1,11 @@
 {
-  "version": 573,
-  "versionName": "260512-1924",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v573/memoair-v573-260512-1924-slim.apk",
+  "version": 574,
+  "versionName": "260512-1941",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v574/memoair-v574-260512-1941-slim.apk",
   "sizeBytes": 35095685,
-  "sha256": "8bba628696c5cf35f171d58ddcd8ba0c4d4eb67e7f575b1c22cecbe7d7d0fbbe",
-  "changelog": "v573：待办提醒文案重写——「自动加日历」改成「顺手丢一份到系统日历」，每条开关下面加灰色副标解释",
-  "userFacingChangelog": "设置里待办提醒那两个开关现在每个都有解释；'同步到系统日历' 改成 '顺手丢一份到系统日历'，说清楚需不需要权限",
+  "sha256": "6b35525edd7b2a054b6f8aaa35ece28ad1bfe57d8795d0d4cae1f34e46eccf5e",
+  "changelog": "v574：录音源默认走 VOICE_RECOGNITION（多麦 + 降噪 + 波束成形）；设置里加「走系统语音管线」开关可切回裸 MIC；深色模式同步修复",
+  "userFacingChangelog": "录音默认让系统帮忙做降噪，多麦克风手机（Find N6 等）转写应该更干净；如果出现「悄悄话被吞 / 远端的人没录到」去设置 → 录音 → 关掉「走系统语音管线」即可；深色模式切换不生效 bug 修复",
   "recentReleases": [
     {
       "version": 552,
@@ -108,8 +108,14 @@
       "versionName": "260512-1924",
       "userFacingChangelog": "设置里待办提醒那两个开关现在每个都有解释；'同步到系统日历' 改成 '顺手丢一份到系统日历'，说清楚需不需要权限",
       "publishedAtMs": 1778585187000
+    },
+    {
+      "version": 574,
+      "versionName": "260512-1941",
+      "userFacingChangelog": "录音默认让系统帮忙做降噪，多麦克风手机（Find N6 等）转写应该更干净；如果出现「悄悄话被吞 / 远端的人没录到」去设置 → 录音 → 关掉「走系统语音管线」即可；深色模式切换不生效 bug 修复",
+      "publishedAtMs": 1778586187000
     }
   ],
-  "publishedAtMs": 1778585187000,
+  "publishedAtMs": 1778586187000,
   "minSupported": 0
 }
