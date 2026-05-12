@@ -1,11 +1,11 @@
 {
-  "version": 567,
-  "versionName": "260512-1654",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v567/memoair-v567-260512-1654-slim.apk",
-  "sizeBytes": 28577400,
-  "sha256": "ceada15bec102a2b33ff6620f67c193ea9986fea23182fa966faffcbd7451728",
-  "changelog": "v567：聊天消息长按菜单加多选；多选支持批量删除 + 分享图片（鼠尾草绿+米白纸卡气泡 + 落款，跟 App 内 1:1）；widget 圆角随 density 算成 22dp",
-  "userFacingChangelog": "对话消息长按菜单多了「多选」；多选可以批量删 / 分享成图片（图片样式跟 App 里气泡一样，下方有「该截图由 记得App 生成」落款）；桌面 widget 圆角调大了",
+  "version": 568,
+  "versionName": "260512-1720",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v568/memoair-v568-260512-1720-slim.apk",
+  "sizeBytes": 35091589,
+  "sha256": "e7c063e633db79fd5005b6a80bb5edf7182be1bfe9bc0680cf15424e49f51f1a",
+  "changelog": "v568：聊天输入栏右侧加 📎 上传文档；PDF（pdfbox-android 本地）/ DOCX / TXT / MD 等；LLM 双输出 → 自动生成纪要 + 长期记忆 + chat 推送",
+  "userFacingChangelog": "聊天里多了 📎 按钮，上传 PDF / Word / TXT / Markdown 等文档；AI 会读完同时生成一份纪要 + 5-15 条长期记忆，对话里推消息提示",
   "recentReleases": [
     {
       "version": 552,
@@ -72,8 +72,14 @@
       "versionName": "260512-1654",
       "userFacingChangelog": "对话消息长按菜单多了「多选」；多选可以批量删 / 分享成图片（图片样式跟 App 里气泡一样，下方有「该截图由 记得App 生成」落款）；桌面 widget 圆角调大了",
       "publishedAtMs": 1778576324000
+    },
+    {
+      "version": 568,
+      "versionName": "260512-1720",
+      "userFacingChangelog": "聊天里多了 📎 按钮，上传 PDF / Word / TXT / Markdown 等文档；AI 会读完同时生成一份纪要 + 5-15 条长期记忆，对话里推消息提示",
+      "publishedAtMs": 1778577801000
     }
   ],
-  "publishedAtMs": 1778576324000,
+  "publishedAtMs": 1778577801000,
   "minSupported": 0
 }
