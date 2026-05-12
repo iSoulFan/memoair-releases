@@ -1,11 +1,11 @@
 {
-  "version": 565,
-  "versionName": "260512-1634",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v565/memoair-v565-260512-1634-slim.apk",
+  "version": 566,
+  "versionName": "260512-1642",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v566/memoair-v566-260512-1642-slim.apk",
   "sizeBytes": 28573304,
-  "sha256": "3a1021d3ae0b2895b4f47c317f6673faf4eb9fb5b6f10964d38ec16cad4d3c32",
-  "changelog": "v565：拍立得 widget 重做——单图（不轮播）、相纸薄边 + 方形圆角填满、点进 App 定位卡片、USER_PRESENT 每次解锁换一张、深色模式",
-  "userFacingChangelog": "桌面拾梦相片小部件改成一张铺满，跟应用内一致；点一下进 App 看那张卡；解锁手机会换下一张",
+  "sha256": "2faf8f1b97852037167ecfd3eff327abcafdc3fa67bda46e150220bca177b6b9",
+  "changelog": "v566：OTA 改成 N 通道兜底（memomind:443 → memomind:49443 → GitHub raw 顺序尝试）；全挂时错误带 host + 真实异常",
+  "userFacingChangelog": "OTA 通道加固——任何一条 URL 通就 OK；之前两条 memomind 都被挡时也会自动退到 GitHub",
   "recentReleases": [
     {
       "version": 552,
@@ -60,8 +60,14 @@
       "versionName": "260512-1634",
       "userFacingChangelog": "桌面拾梦相片小部件改成一张铺满，跟应用内一致；点一下进 App 看那张卡；解锁手机会换下一张",
       "publishedAtMs": 1778575028000
+    },
+    {
+      "version": 566,
+      "versionName": "260512-1642",
+      "userFacingChangelog": "OTA 通道加固——任何一条 URL 通就 OK；之前两条 memomind 都被挡时也会自动退到 GitHub",
+      "publishedAtMs": 1778575435000
     }
   ],
-  "publishedAtMs": 1778575028000,
+  "publishedAtMs": 1778575435000,
   "minSupported": 0
 }
