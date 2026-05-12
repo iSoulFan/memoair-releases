@@ -1,10 +1,10 @@
 {
-  "version": 544,
-  "versionName": "260512-1216",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v544/memoair-v544-260512-1216-slim.apk",
+  "version": 545,
+  "versionName": "260512-1228",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v545/memoair-v545-260512-1228-slim.apk",
   "sizeBytes": 28548616,
-  "sha256": "528e7a84d2bb4288988143ce6f7559c84f4b87039e6d75154d19732c458f3548",
-  "changelog": "v544: OTA \u56de\u6eda\u5230 GitHub raw\uff08memomind.cloud TLS \u5927\u9646\u88ab RST \u6392\u67e5\u4e2d\uff09+ \u6bcf\u65e5 20:00 push \u901a\u9053 + chat OTA chip",
-  "publishedAtMs": 1778559491000,
+  "sha256": "4f82e3a0a3685f2fe6c51ce8a1828f322168ecf0cc9c8061427f624f0f4bcd33",
+  "changelog": "v545: \u52a0\u81ea\u52a8\u68c0\u67e5\u5f00\u5173\uff08\u9ed8\u8ba4\u5f00\uff09+ \u5173\u4e8e\u9875\u6392\u7248\u7edf\u4e00 SerifCN",
+  "publishedAtMs": 1778560218000,
   "minSupported": 0
 }
