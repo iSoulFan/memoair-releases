@@ -1,11 +1,11 @@
 {
-  "version": 608,
-  "versionName": "260513-0137",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v608/memoair-v608-260513-0137-slim.apk",
+  "version": 612,
+  "versionName": "260513-0635",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v612/memoair-v612-260513-0635-slim.apk",
   "sizeBytes": 35132605,
-  "sha256": "accad619af3a11cfe1601a0e0d230e00523b46d98224986ffee75786c231c322",
-  "changelog": "OTA 下载条 + 可取消",
-  "userFacingChangelog": "点「现在更新」后中间会出现一个细线进度条——能看到 MB / 百分比，想停就点取消下载。",
+  "sha256": "8a7cc4a22d7ff7a62c726d842de2ecebf607d603ad0696583f4706a0d5c60fee",
+  "changelog": "分享逻辑：展开态分享长图、折叠态分享相片",
+  "userFacingChangelog": "展开「那天的事」长按分享 → 分享整张长图（双线刊头 + 头图 + 全文）；折叠态拾梦相片长按 → 分享相片原图。",
   "recentReleases": [
     {
       "version": 552,
@@ -288,8 +288,14 @@
       "versionName": "260513-0137",
       "userFacingChangelog": "点「现在更新」后中间会出现一个细线进度条——能看到 MB / 百分比，想停就点取消下载。",
       "publishedAtMs": 1778607582000
+    },
+    {
+      "version": 612,
+      "versionName": "260513-0635",
+      "userFacingChangelog": "展开「那天的事」长按分享 → 分享整张长图（双线刊头 + 头图 + 全文）；折叠态拾梦相片长按 → 分享相片原图。",
+      "publishedAtMs": 1778625587000
     }
   ],
-  "publishedAtMs": 1778607582000,
+  "publishedAtMs": 1778625587000,
   "minSupported": 0
 }
