@@ -1,11 +1,11 @@
 {
-  "version": 578,
-  "versionName": "260512-2034",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v578/memoair-v578-260512-2034-slim.apk",
+  "version": 579,
+  "versionName": "260512-2039",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v579/memoair-v579-260512-2039-slim.apk",
   "sizeBytes": 35095685,
-  "sha256": "9cab1b3250e18f9bce803e1370d328bb12bec789273f636c0d0b108ed454c1e4",
-  "changelog": "v578：桌面小部件从调试菜单挪出（外观分组）；声纹默认阈值 0.50 → 0.35 减少漏自己",
-  "userFacingChangelog": "桌面小部件指引现在普通用户也能看到（设置→外观→桌面小部件）；声纹默认松了一档，自己的话不会被误判成别人那么多了",
+  "sha256": "2510da521ce1865f63e395adbff7b318a0aa604ba6c71049e13f9238460a4d80",
+  "changelog": "v579：widget 暗色相框 #2A2520 → #4A4540 中暖灰；AI system prompt 注入当前 iteration 让 AI 知道自己版本号",
+  "userFacingChangelog": "桌面 widget 在深色模式下相框边能看清楚了；AI 问我升到最新了吗会先报当前版本，不再瞎猜",
   "recentReleases": [
     {
       "version": 552,
@@ -138,8 +138,14 @@
       "versionName": "260512-2034",
       "userFacingChangelog": "桌面小部件指引现在普通用户也能看到（设置→外观→桌面小部件）；声纹默认松了一档，自己的话不会被误判成别人那么多了",
       "publishedAtMs": 1778589606000
+    },
+    {
+      "version": 579,
+      "versionName": "260512-2039",
+      "userFacingChangelog": "桌面 widget 在深色模式下相框边能看清楚了；AI 问我升到最新了吗会先报当前版本，不再瞎猜",
+      "publishedAtMs": 1778589993000
     }
   ],
-  "publishedAtMs": 1778589606000,
+  "publishedAtMs": 1778589993000,
   "minSupported": 0
 }
