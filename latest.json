@@ -1,18 +1,12 @@
 {
-  "version": 615,
-  "versionName": "260513-0722",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v615/memoair-v615-260513-0722-slim.apk",
-  "sizeBytes": 35136701,
-  "sha256": "93c40ba7af8f7eb77ee978a29472498ebd5141066aedb5420941a62b8d93ab63",
-  "changelog": "分享拍立得 · 跟着你左右滑后看到的那张",
-  "userFacingChangelog": "多图堆叠时长按分享——之前不论你切到第几张，分享出来的永远是最新那张；现在分享的就是当前你眼前的这张。",
+  "version": 616,
+  "versionName": "260513-0728",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v616/memoair-v616-260513-0728-slim.apk",
+  "sizeBytes": 35140797,
+  "sha256": "b0c8d6ce776655b9bd1e6cf0edfc0adb976d4364f453f225c1cf51c92e359be3",
+  "changelog": "几小时内勿扰",
+  "userFacingChangelog": "长按录音胶囊，灵动岛风格弹一个圆角矩形面板——1 小时 / 2 小时 / 4 小时 / 今上午 / 今下午，选一个就静默到那个点，时间到自动续录。胶囊上显示剩余倒计时。",
   "recentReleases": [
-    {
-      "version": 553,
-      "versionName": "260512-1328",
-      "userFacingChangelog": "🎈 这一版打算作为'传播基线'——朋友首装这一版，以后所有更新自动跟进，不用再手动发包啦",
-      "publishedAtMs": 1778563820000
-    },
     {
       "version": 554,
       "versionName": "260512-1406",
@@ -306,8 +300,14 @@
       "versionName": "260513-0722",
       "userFacingChangelog": "多图堆叠时长按分享——之前不论你切到第几张，分享出来的永远是最新那张；现在分享的就是当前你眼前的这张。",
       "publishedAtMs": 1778628218000
+    },
+    {
+      "version": 616,
+      "versionName": "260513-0728",
+      "userFacingChangelog": "长按录音胶囊，灵动岛风格弹一个圆角矩形面板——1 小时 / 2 小时 / 4 小时 / 今上午 / 今下午，选一个就静默到那个点，时间到自动续录。胶囊上显示剩余倒计时。",
+      "publishedAtMs": 1778628657000
     }
   ],
-  "publishedAtMs": 1778628218000,
+  "publishedAtMs": 1778628657000,
   "minSupported": 0
 }
