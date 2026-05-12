@@ -1,11 +1,11 @@
 {
-  "version": 575,
-  "versionName": "260512-2003",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v575/memoair-v575-260512-2003-slim.apk",
+  "version": 576,
+  "versionName": "260512-2015",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v576/memoair-v576-260512-2015-slim.apk",
   "sizeBytes": 35095685,
-  "sha256": "bfe23fadc9ecf5248c352e85feb44efdf0c25205a024c85da4c3a7d9736d50fa",
-  "changelog": "v575：录音源开关文案重写——「调动全部麦克风一起拾音」+ 暖色块「这几种情况要关掉」清单",
-  "userFacingChangelog": "录音设置那个开关名字变直白了——「调动全部麦克风一起拾音」，下面用暖色块讲清楚什么时候要关",
+  "sha256": "a75a627b0f0476e8fab67a7ae312501ebc9f4641448d6eae5e5336240b4e7ced",
+  "changelog": "v576：行动 tab 大字 header 修复——过期 todo 不再霸占；每分钟自动 tick；兜底文案池按日轮转",
+  "userFacingChangelog": "行动页那个大字会动了：过期的待办不再卡在顶上；没事可显示时也会按日子换文案",
   "recentReleases": [
     {
       "version": 552,
@@ -120,8 +120,14 @@
       "versionName": "260512-2003",
       "userFacingChangelog": "录音设置那个开关名字变直白了——「调动全部麦克风一起拾音」，下面用暖色块讲清楚什么时候要关",
       "publishedAtMs": 1778587756000
+    },
+    {
+      "version": 576,
+      "versionName": "260512-2015",
+      "userFacingChangelog": "行动页那个大字会动了：过期的待办不再卡在顶上；没事可显示时也会按日子换文案",
+      "publishedAtMs": 1778588258000
     }
   ],
-  "publishedAtMs": 1778587756000,
+  "publishedAtMs": 1778588258000,
   "minSupported": 0
 }
