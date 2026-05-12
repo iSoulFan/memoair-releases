@@ -1,11 +1,11 @@
 {
-  "version": 553,
-  "versionName": "260512-1328",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v553/memoair-v553-260512-1328-slim.apk",
-  "sizeBytes": 28556808,
-  "sha256": "c0af06b72c98b1e2735165371532833f4432abe31e7cc810172eb6085b719a1d",
-  "changelog": "v553: baseline 候选 — OTA 端到端通路确认 (memomind:49443 主 / GitHub 备 / SNI strip / 累积 changelog / 大按钮弹窗)",
-  "userFacingChangelog": "🎈 这一版打算作为'传播基线'——朋友首装这一版，以后所有更新自动跟进，不用再手动发包啦",
+  "version": 554,
+  "versionName": "260512-1406",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v554/memoair-v554-260512-1406-slim.apk",
+  "sizeBytes": 28561072,
+  "sha256": "31d5de9112f4815facb5dbf27c633a68b5b45acf1176bc099f85aa315bd12128",
+  "changelog": "v554: 桌面 widget — 拾梦相片小部件",
+  "userFacingChangelog": "📸 桌面长按加 widget → 找「记得」→ 拖「拾梦相片 · 今日」，今天每张拾梦相片自动轮播在桌面",
   "recentReleases": [
     {
       "version": 552,
@@ -18,8 +18,14 @@
       "versionName": "260512-1328",
       "userFacingChangelog": "🎈 这一版打算作为'传播基线'——朋友首装这一版，以后所有更新自动跟进，不用再手动发包啦",
       "publishedAtMs": 1778563820000
+    },
+    {
+      "version": 554,
+      "versionName": "260512-1406",
+      "userFacingChangelog": "📸 桌面长按加 widget → 找「记得」→ 拖「拾梦相片 · 今日」，今天每张拾梦相片自动轮播在桌面",
+      "publishedAtMs": 1778566093000
     }
   ],
-  "publishedAtMs": 1778563820000,
+  "publishedAtMs": 1778566093000,
   "minSupported": 0
 }
