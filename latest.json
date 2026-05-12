@@ -4,8 +4,8 @@
   "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v579/memoair-v579-260512-2039-slim.apk",
   "sizeBytes": 35095685,
   "sha256": "2510da521ce1865f63e395adbff7b318a0aa604ba6c71049e13f9238460a4d80",
-  "changelog": "v579：widget 暗色相框 #2A2520 → #4A4540 中暖灰；AI system prompt 注入当前 iteration 让 AI 知道自己版本号",
-  "userFacingChangelog": "桌面 widget 在深色模式下相框边能看清楚了；AI 问我升到最新了吗会先报当前版本，不再瞎猜",
+  "changelog": "v579：widget 暗色相框改成中暖灰；AI 知道自己运行版本号",
+  "userFacingChangelog": "桌面 widget 深色相框看得清了；AI 问到自己版本不再瞎说",
   "recentReleases": [
     {
       "version": 552,
@@ -142,10 +142,10 @@
     {
       "version": 579,
       "versionName": "260512-2039",
-      "userFacingChangelog": "桌面 widget 在深色模式下相框边能看清楚了；AI 问我升到最新了吗会先报当前版本，不再瞎猜",
-      "publishedAtMs": 1778589993000
+      "userFacingChangelog": "桌面 widget 深色相框看得清了；AI 问到自己版本不再瞎说",
+      "publishedAtMs": 1778590265000
     }
   ],
-  "publishedAtMs": 1778589993000,
+  "publishedAtMs": 1778590265000,
   "minSupported": 0
 }
