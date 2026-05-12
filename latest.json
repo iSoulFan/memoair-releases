@@ -1,11 +1,11 @@
 {
-  "version": 566,
-  "versionName": "260512-1642",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v566/memoair-v566-260512-1642-slim.apk",
-  "sizeBytes": 28573304,
-  "sha256": "2faf8f1b97852037167ecfd3eff327abcafdc3fa67bda46e150220bca177b6b9",
-  "changelog": "v566：OTA 改成 N 通道兜底（memomind:443 → memomind:49443 → GitHub raw 顺序尝试）；全挂时错误带 host + 真实异常",
-  "userFacingChangelog": "OTA 通道加固——任何一条 URL 通就 OK；之前两条 memomind 都被挡时也会自动退到 GitHub",
+  "version": 567,
+  "versionName": "260512-1654",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v567/memoair-v567-260512-1654-slim.apk",
+  "sizeBytes": 28577400,
+  "sha256": "ceada15bec102a2b33ff6620f67c193ea9986fea23182fa966faffcbd7451728",
+  "changelog": "v567：聊天消息长按菜单加多选；多选支持批量删除 + 分享图片（鼠尾草绿+米白纸卡气泡 + 落款，跟 App 内 1:1）；widget 圆角随 density 算成 22dp",
+  "userFacingChangelog": "对话消息长按菜单多了「多选」；多选可以批量删 / 分享成图片（图片样式跟 App 里气泡一样，下方有「该截图由 记得App 生成」落款）；桌面 widget 圆角调大了",
   "recentReleases": [
     {
       "version": 552,
@@ -66,8 +66,14 @@
       "versionName": "260512-1642",
       "userFacingChangelog": "OTA 通道加固——任何一条 URL 通就 OK；之前两条 memomind 都被挡时也会自动退到 GitHub",
       "publishedAtMs": 1778575435000
+    },
+    {
+      "version": 567,
+      "versionName": "260512-1654",
+      "userFacingChangelog": "对话消息长按菜单多了「多选」；多选可以批量删 / 分享成图片（图片样式跟 App 里气泡一样，下方有「该截图由 记得App 生成」落款）；桌面 widget 圆角调大了",
+      "publishedAtMs": 1778576324000
     }
   ],
-  "publishedAtMs": 1778575435000,
+  "publishedAtMs": 1778576324000,
   "minSupported": 0
 }
