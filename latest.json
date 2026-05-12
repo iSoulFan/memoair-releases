@@ -1,11 +1,11 @@
 {
-  "version": 580,
-  "versionName": "260512-2104",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v580/memoair-v580-260512-2104-slim.apk",
-  "sizeBytes": 35095685,
-  "sha256": "2362170176f543c4bdb1c9b2b9815975637acf2f9a038604525d6c319266aa74",
-  "changelog": "v580：文档上传 4 修——立刻发用户气泡 / 去掉烂链接 / 纪要标签'文件' / prompt 必出 5+ 条记忆",
-  "userFacingChangelog": "上传文档现在会先发一条「📎 文件名」让你知道送进去了；点完不再报'卡片被删除'，AI 文案讲清楚去哪看；纪要标签固定显示'文件'",
+  "version": 581,
+  "versionName": "260512-2108",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v581/memoair-v581-260512-2108-slim.apk",
+  "sizeBytes": 35099781,
+  "sha256": "8eeb54afa7c595fedf20c363d9daf0d857de594fa7899207d2693929c5b86579",
+  "changelog": "v581：📎 加音频上传——本地 MediaCodec 解码 + Sherpa offline 转写 → 纪要 + 长期记忆，不留本地拷贝",
+  "userFacingChangelog": "📎 现在能选录音文件了（mp3/m4a/wav/...）；用你手机本地的语音模型转写，结果同样存成纪要 + 长期记忆，原文件位置和你给录音留的拷贝都不动",
   "recentReleases": [
     {
       "version": 552,
@@ -150,8 +150,14 @@
       "versionName": "260512-2104",
       "userFacingChangelog": "上传文档现在会先发一条「📎 文件名」让你知道送进去了；点完不再报'卡片被删除'，AI 文案讲清楚去哪看；纪要标签固定显示'文件'",
       "publishedAtMs": 1778591159000
+    },
+    {
+      "version": 581,
+      "versionName": "260512-2108",
+      "userFacingChangelog": "📎 现在能选录音文件了（mp3/m4a/wav/...）；用你手机本地的语音模型转写，结果同样存成纪要 + 长期记忆，原文件位置和你给录音留的拷贝都不动",
+      "publishedAtMs": 1778591566000
     }
   ],
-  "publishedAtMs": 1778591159000,
+  "publishedAtMs": 1778591566000,
   "minSupported": 0
 }
