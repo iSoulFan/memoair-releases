@@ -1,11 +1,11 @@
 {
-  "version": 584,
-  "versionName": "260512-2147",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v584/memoair-v584-260512-2147-slim.apk",
-  "sizeBytes": 35103877,
-  "sha256": "2d36f9e79b90d4a1ef761176f02b8cb76f6a146bc2785d742ab6909c95191c89",
-  "changelog": "v584：多模板声纹——同一个人录多段不同状态（平静/兴奋/走动），匹配取最大相似度，漏率减半",
-  "userFacingChangelog": "声纹设置里多了「补录新模板」按钮——同一人录 2-3 个不同状态，匹配你的话准很多；现状从「单模板 + 0.35 宽阈值」升级到「多模板 + 同阈值」漏率显著下降",
+  "version": 585,
+  "versionName": "260512-2207",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v585/memoair-v585-260512-2207-slim.apk",
+  "sizeBytes": 35107973,
+  "sha256": "af6412e3a6f1e7c15d94ccd9f5523a00ee8e0a9deab9e7d0d8b0d08359ad831b",
+  "changelog": "v585：3 段情绪化声纹引导（自然/平静/兴奋）+ 每段独立指引文案 + 「再录一段更准」（不用补录这种词）",
+  "userFacingChangelog": "声纹设置里 AI 会依次教你录平静、兴奋两段不同语气的样本——每段配相应文案；3 段录满后按钮自动消失",
   "recentReleases": [
     {
       "version": 552,
@@ -174,8 +174,14 @@
       "versionName": "260512-2147",
       "userFacingChangelog": "声纹设置里多了「补录新模板」按钮——同一人录 2-3 个不同状态，匹配你的话准很多；现状从「单模板 + 0.35 宽阈值」升级到「多模板 + 同阈值」漏率显著下降",
       "publishedAtMs": 1778594531000
+    },
+    {
+      "version": 585,
+      "versionName": "260512-2207",
+      "userFacingChangelog": "声纹设置里 AI 会依次教你录平静、兴奋两段不同语气的样本——每段配相应文案；3 段录满后按钮自动消失",
+      "publishedAtMs": 1778595600000
     }
   ],
-  "publishedAtMs": 1778594531000,
+  "publishedAtMs": 1778595600000,
   "minSupported": 0
 }
