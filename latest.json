@@ -1,11 +1,11 @@
 {
-  "version": 562,
-  "versionName": "260512-1554",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v562/memoair-v562-260512-1554-slim.apk",
-  "sizeBytes": 28569264,
-  "sha256": "f8404fea58a502afb0ecadc7593d59cee46dc1a54d9d022b2e375118a49c857a",
-  "changelog": "v562：OTA 主 URL 切到 memomind.cloud:443（boss 服务端 :443 SNI-strip 已通）；下拉刷新内容跟着下移，给文案留干净留白",
-  "userFacingChangelog": "OTA 通道换到标准 :443 端口，朋友的运营商屏 :49443 应该绕过去了；纪要/设置下拉时卡片会顺势下移，下拉动效不再糊在卡片上",
+  "version": 563,
+  "versionName": "260512-1606",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v563/memoair-v563-260512-1606-slim.apk",
+  "sizeBytes": 28573360,
+  "sha256": "d6832c143dd97a303d723c916ab68bf3babbc9e0d321f00051c52f30e53c628b",
+  "changelog": "v563：会议去重从精确 title 改成 bigram Jaccard 模糊匹配，'需求评审会/需求评审会议' 不再被当作两条",
+  "userFacingChangelog": "手动抽纪要不再出现重复会议——同一场会议哪怕 LLM 给的标题/正文每次略有不同，也会识别并跳过",
   "recentReleases": [
     {
       "version": 552,
@@ -42,8 +42,14 @@
       "versionName": "260512-1554",
       "userFacingChangelog": "OTA 通道换到标准 :443 端口，朋友的运营商屏 :49443 应该绕过去了；纪要/设置下拉时卡片会顺势下移，下拉动效不再糊在卡片上",
       "publishedAtMs": 1778572583000
+    },
+    {
+      "version": 563,
+      "versionName": "260512-1606",
+      "userFacingChangelog": "手动抽纪要不再出现重复会议——同一场会议哪怕 LLM 给的标题/正文每次略有不同，也会识别并跳过",
+      "publishedAtMs": 1778573310000
     }
   ],
-  "publishedAtMs": 1778572583000,
+  "publishedAtMs": 1778573310000,
   "minSupported": 0
 }
