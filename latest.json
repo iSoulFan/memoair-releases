@@ -1,11 +1,11 @@
 {
-  "version": 607,
-  "versionName": "260513-0118",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v607/memoair-v607-260513-0118-slim.apk",
-  "sizeBytes": 35124413,
-  "sha256": "c3b6491683f25f3b5e1875dd9563994ddb60ef8c752f86bda99e9e373930dd13",
-  "changelog": "widget 浮条样式更新 + 桌面拍立得点击逻辑更顺",
-  "userFacingChangelog": "桌面拍立得有新内容时浮条更优雅、字号更清楚；点开拍立得现在直接落到时光最新，不再绕路。",
+  "version": 608,
+  "versionName": "260513-0137",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v608/memoair-v608-260513-0137-slim.apk",
+  "sizeBytes": 35132605,
+  "sha256": "accad619af3a11cfe1601a0e0d230e00523b46d98224986ffee75786c231c322",
+  "changelog": "OTA 下载条 + 可取消",
+  "userFacingChangelog": "点「现在更新」后中间会出现一个细线进度条——能看到 MB / 百分比，想停就点取消下载。",
   "recentReleases": [
     {
       "version": 552,
@@ -282,8 +282,14 @@
       "versionName": "260513-0118",
       "userFacingChangelog": "桌面拍立得有新内容时浮条更优雅、字号更清楚；点开拍立得现在直接落到时光最新，不再绕路。",
       "publishedAtMs": 1778606640000
+    },
+    {
+      "version": 608,
+      "versionName": "260513-0137",
+      "userFacingChangelog": "点「现在更新」后中间会出现一个细线进度条——能看到 MB / 百分比，想停就点取消下载。",
+      "publishedAtMs": 1778607582000
     }
   ],
-  "publishedAtMs": 1778606640000,
+  "publishedAtMs": 1778607582000,
   "minSupported": 0
 }
