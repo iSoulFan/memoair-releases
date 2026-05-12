@@ -1,18 +1,12 @@
 {
-  "version": 614,
-  "versionName": "260513-0654",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v614/memoair-v614-260513-0654-slim.apk",
+  "version": 615,
+  "versionName": "260513-0722",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v615/memoair-v615-260513-0722-slim.apk",
   "sizeBytes": 35136701,
-  "sha256": "99148d8853933bdb573e31aeb436687460c636927253f10160fa2123e3af229e",
-  "changelog": "给 AI 起名字",
-  "userFacingChangelog": "在 chat 里说「叫你 XX / 称呼你为 XX / 你叫 XX」，AI 会记住并以后自报家门时**完整**用这个名字——中英文混排也逐字输出，不会再丢字母。",
+  "sha256": "93c40ba7af8f7eb77ee978a29472498ebd5141066aedb5420941a62b8d93ab63",
+  "changelog": "分享拍立得 · 跟着你左右滑后看到的那张",
+  "userFacingChangelog": "多图堆叠时长按分享——之前不论你切到第几张，分享出来的永远是最新那张；现在分享的就是当前你眼前的这张。",
   "recentReleases": [
-    {
-      "version": 552,
-      "versionName": "260512-1322",
-      "userFacingChangelog": "✨ 检查更新现在能看到从你装的版本到最新版的全部新东西啦 · 文案也更人话了 🎁",
-      "publishedAtMs": 1778563567000
-    },
     {
       "version": 553,
       "versionName": "260512-1328",
@@ -306,8 +300,14 @@
       "versionName": "260513-0654",
       "userFacingChangelog": "在 chat 里说「叫你 XX / 称呼你为 XX / 你叫 XX」，AI 会记住并以后自报家门时**完整**用这个名字——中英文混排也逐字输出，不会再丢字母。",
       "publishedAtMs": 1778626636000
+    },
+    {
+      "version": 615,
+      "versionName": "260513-0722",
+      "userFacingChangelog": "多图堆叠时长按分享——之前不论你切到第几张，分享出来的永远是最新那张；现在分享的就是当前你眼前的这张。",
+      "publishedAtMs": 1778628218000
     }
   ],
-  "publishedAtMs": 1778626636000,
+  "publishedAtMs": 1778628218000,
   "minSupported": 0
 }
