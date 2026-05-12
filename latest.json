@@ -1,11 +1,11 @@
 {
-  "version": 605,
-  "versionName": "260513-0058",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v605/memoair-v605-260513-0058-slim.apk",
-  "sizeBytes": 35124357,
-  "sha256": "513fc27b293d6d387202efdc30e2128141c2bc74629c41dfc8995a938c275310",
-  "changelog": "v605",
-  "userFacingChangelog": "桌面 widget 底部多了一句小提示：有新内容时会告诉你「📸 新的拾梦相片 / ✉️ 新的人生来信 / 🍀 新的微光时刻」等等；点进去看完会自动消失。底部 Tab 你已经在的那个再点一下 = 回到最新（不用双击）。",
+  "version": 606,
+  "versionName": "260513-0105",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v606/memoair-v606-260513-0105-slim.apk",
+  "sizeBytes": 35128509,
+  "sha256": "a1b2ac66333a207f43500a1c2422a4d2b7726d0e1a7f3cb56833f6c2f1601b17",
+  "changelog": "v606",
+  "userFacingChangelog": "桌面 widget 的「新内容」提示挪到照片底部当悬浮胶囊（半透黑底 + 白衬线字），相片本身的边框和圆角回到之前精心对齐过的版本，不再被改样。",
   "recentReleases": [
     {
       "version": 552,
@@ -270,8 +270,14 @@
       "versionName": "260513-0058",
       "userFacingChangelog": "桌面 widget 底部多了一句小提示：有新内容时会告诉你「📸 新的拾梦相片 / ✉️ 新的人生来信 / 🍀 新的微光时刻」等等；点进去看完会自动消失。底部 Tab 你已经在的那个再点一下 = 回到最新（不用双击）。",
       "publishedAtMs": 1778605320000
+    },
+    {
+      "version": 606,
+      "versionName": "260513-0105",
+      "userFacingChangelog": "桌面 widget 的「新内容」提示挪到照片底部当悬浮胶囊（半透黑底 + 白衬线字），相片本身的边框和圆角回到之前精心对齐过的版本，不再被改样。",
+      "publishedAtMs": 1778605632000
     }
   ],
-  "publishedAtMs": 1778605320000,
+  "publishedAtMs": 1778605632000,
   "minSupported": 0
 }
