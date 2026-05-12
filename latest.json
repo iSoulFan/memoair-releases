@@ -1,11 +1,11 @@
 {
-  "version": 568,
-  "versionName": "260512-1720",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v568/memoair-v568-260512-1720-slim.apk",
+  "version": 569,
+  "versionName": "260512-1820",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v569/memoair-v569-260512-1820-slim.apk",
   "sizeBytes": 35091589,
-  "sha256": "e7c063e633db79fd5005b6a80bb5edf7182be1bfe9bc0680cf15424e49f51f1a",
-  "changelog": "v568：聊天输入栏右侧加 📎 上传文档；PDF（pdfbox-android 本地）/ DOCX / TXT / MD 等；LLM 双输出 → 自动生成纪要 + 长期记忆 + chat 推送",
-  "userFacingChangelog": "聊天里多了 📎 按钮，上传 PDF / Word / TXT / Markdown 等文档；AI 会读完同时生成一份纪要 + 5-15 条长期记忆，对话里推消息提示",
+  "sha256": "c99319bff4242466f18873d34d9f5ea80d7c5c635b89acd672fe0aa59c3f54b9",
+  "changelog": "v569：⌨️ 加 U+FE0F 强制 emoji 呈现，跟 🎙 / 📎 视觉同档",
+  "userFacingChangelog": "聊天里的键盘图标改成跟麦克风、回形针一样的彩色 emoji",
   "recentReleases": [
     {
       "version": 552,
@@ -78,8 +78,14 @@
       "versionName": "260512-1720",
       "userFacingChangelog": "聊天里多了 📎 按钮，上传 PDF / Word / TXT / Markdown 等文档；AI 会读完同时生成一份纪要 + 5-15 条长期记忆，对话里推消息提示",
       "publishedAtMs": 1778577801000
+    },
+    {
+      "version": 569,
+      "versionName": "260512-1820",
+      "userFacingChangelog": "聊天里的键盘图标改成跟麦克风、回形针一样的彩色 emoji",
+      "publishedAtMs": 1778581406000
     }
   ],
-  "publishedAtMs": 1778577801000,
+  "publishedAtMs": 1778581406000,
   "minSupported": 0
 }
