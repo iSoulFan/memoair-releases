@@ -1,11 +1,11 @@
 {
-  "version": 570,
-  "versionName": "260512-1851",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v570/memoair-v570-260512-1851-slim.apk",
+  "version": 571,
+  "versionName": "260512-1907",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v571/memoair-v571-260512-1907-slim.apk",
   "sizeBytes": 35095685,
-  "sha256": "d8f97d930458f7e59364b39b140d0c223b714b7d68a31c4c2c25b5a10027d25c",
-  "changelog": "v570：新 TodoIntentDetector——'记一下/帮我记一下/记下来 X' 谐音容忍直接入待办，不走 LLM",
-  "userFacingChangelog": "聊天里说『记一下 X』或谐音变体，AI 立刻把 X 记成待办，不再走对话兜一圈；含时间词自动设提醒",
+  "sha256": "5cc43ddd9714f638447a26f6e9b67db605768bc09f33fecaf634036049b0e7aa",
+  "changelog": "v571：开机引导未完成时禁止 autoStart 录音，避免 onboarding 期间产生转写 / 记忆 / 纪要",
+  "userFacingChangelog": "首次安装时引导没走完不再偷偷开始录音；走完最后一步「进入记得」后才正式开录",
   "recentReleases": [
     {
       "version": 552,
@@ -90,8 +90,14 @@
       "versionName": "260512-1851",
       "userFacingChangelog": "聊天里说『记一下 X』或谐音变体，AI 立刻把 X 记成待办，不再走对话兜一圈；含时间词自动设提醒",
       "publishedAtMs": 1778583183000
+    },
+    {
+      "version": 571,
+      "versionName": "260512-1907",
+      "userFacingChangelog": "首次安装时引导没走完不再偷偷开始录音；走完最后一步「进入记得」后才正式开录",
+      "publishedAtMs": 1778584177000
     }
   ],
-  "publishedAtMs": 1778583183000,
+  "publishedAtMs": 1778584177000,
   "minSupported": 0
 }
