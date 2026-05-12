@@ -1,10 +1,10 @@
 {
-  "version": 548,
-  "versionName": "260512-1254",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v548/memoair-v548-260512-1254-slim.apk",
+  "version": 550,
+  "versionName": "260512-1306",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v550/memoair-v550-260512-1306-slim.apk",
   "sizeBytes": 28552712,
-  "sha256": "c38e3a99714ecf39734a3b6804d71b9f19085a7f36c14927f92faa4fbbf214b6",
-  "changelog": "v548: admin \u70b9 chat \u5927\u5b57\u5feb\u901f\u68c0\u67e5\u66f4\u65b0\uff08\u670b\u53cb\u8d26\u53f7\u65e0\u6548\uff09",
-  "publishedAtMs": 1778561754000,
+  "sha256": "8d0b03c1b8a3ffb6e403cdd51b35c6695e7409f580bb1ba6d4816451dbae7ca3",
+  "changelog": "v550: OTA \u53cc\u901a\u9053 fallback\uff08\u4e3b\u6302\u81ea\u52a8\u8d70\u5907\uff09+ \u6309\u94ae\u6587\u6848\u6539\u6210'\u770b\u770b\u6709\u6ca1\u6709\u65b0\u7248\u672c'",
+  "publishedAtMs": 1778562586000,
   "minSupported": 0
 }
