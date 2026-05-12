@@ -1,11 +1,11 @@
 {
-  "version": 572,
-  "versionName": "260512-1912",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v572/memoair-v572-260512-1912-slim.apk",
+  "version": 573,
+  "versionName": "260512-1924",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v573/memoair-v573-260512-1924-slim.apk",
   "sizeBytes": 35095685,
-  "sha256": "ced9a3a5eda5f96bd00cd3fec30c23df4ee74365448d404d9d4190de39893b40",
-  "changelog": "v572：头像裁剪 sheet 在折叠屏展开宽屏时 viewport 限到 360dp，底部按钮不再被挤出可视区",
-  "userFacingChangelog": "折叠屏展开后头像裁剪页的「取消 / 保存」按钮不再被遮住",
+  "sha256": "8bba628696c5cf35f171d58ddcd8ba0c4d4eb67e7f575b1c22cecbe7d7d0fbbe",
+  "changelog": "v573：待办提醒文案重写——「自动加日历」改成「顺手丢一份到系统日历」，每条开关下面加灰色副标解释",
+  "userFacingChangelog": "设置里待办提醒那两个开关现在每个都有解释；'同步到系统日历' 改成 '顺手丢一份到系统日历'，说清楚需不需要权限",
   "recentReleases": [
     {
       "version": 552,
@@ -102,8 +102,14 @@
       "versionName": "260512-1912",
       "userFacingChangelog": "折叠屏展开后头像裁剪页的「取消 / 保存」按钮不再被遮住",
       "publishedAtMs": 1778584514000
+    },
+    {
+      "version": 573,
+      "versionName": "260512-1924",
+      "userFacingChangelog": "设置里待办提醒那两个开关现在每个都有解释；'同步到系统日历' 改成 '顺手丢一份到系统日历'，说清楚需不需要权限",
+      "publishedAtMs": 1778585187000
     }
   ],
-  "publishedAtMs": 1778584514000,
+  "publishedAtMs": 1778585187000,
   "minSupported": 0
 }
