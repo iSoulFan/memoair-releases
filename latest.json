@@ -1,11 +1,11 @@
 {
-  "version": 576,
-  "versionName": "260512-2015",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v576/memoair-v576-260512-2015-slim.apk",
+  "version": 577,
+  "versionName": "260512-2022",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v577/memoair-v577-260512-2022-slim.apk",
   "sizeBytes": 35095685,
-  "sha256": "a75a627b0f0476e8fab67a7ae312501ebc9f4641448d6eae5e5336240b4e7ced",
-  "changelog": "v576：行动 tab 大字 header 修复——过期 todo 不再霸占；每分钟自动 tick；兜底文案池按日轮转",
-  "userFacingChangelog": "行动页那个大字会动了：过期的待办不再卡在顶上；没事可显示时也会按日子换文案",
+  "sha256": "975d17a82a0183fe89fbecc254b873627dc262e43dbe9a7c50e528159a825660",
+  "changelog": "v577：录音源开关下面的'哪几种情况要关掉'改成默认折叠",
+  "userFacingChangelog": "录音设置里那段说明现在默认折叠了，需要看的时候点一下「哪几种情况要把它关掉？ ›」展开",
   "recentReleases": [
     {
       "version": 552,
@@ -126,8 +126,14 @@
       "versionName": "260512-2015",
       "userFacingChangelog": "行动页那个大字会动了：过期的待办不再卡在顶上；没事可显示时也会按日子换文案",
       "publishedAtMs": 1778588258000
+    },
+    {
+      "version": 577,
+      "versionName": "260512-2022",
+      "userFacingChangelog": "录音设置里那段说明现在默认折叠了，需要看的时候点一下「哪几种情况要把它关掉？ ›」展开",
+      "publishedAtMs": 1778588657000
     }
   ],
-  "publishedAtMs": 1778588258000,
+  "publishedAtMs": 1778588657000,
   "minSupported": 0
 }
