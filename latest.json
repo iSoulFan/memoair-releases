@@ -1,18 +1,12 @@
 {
-  "version": 630,
-  "versionName": "260513-1142",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v630/memoair-v630-260513-1142-slim.apk",
+  "version": 631,
+  "versionName": "260513-1154",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v631/memoair-v631-260513-1154-slim.apk",
   "sizeBytes": 35157406,
-  "sha256": "0ee28d103f7f2db5ce1a0b28b57ef362e44a6aecd10fe06fb9682966a60e7d0f",
-  "changelog": "桌面拍立得边角遮罩",
-  "userFacingChangelog": "桌面 widget 照片本身保持方形，叠一层米色相框遮罩把四个角盖成圆角——圆角值跟 launcher 外圆角同步缩放，任意尺寸内外都协调。",
+  "sha256": "58f78894b56b92a148d29b8d78fd07deb8a3ffa038c30c6a38fb7e992c4ad4d8",
+  "changelog": "修桌面 widget 载入失败",
+  "userFacingChangelog": "v630 widget xml 里用了 RemoteViews 不允许的 <View> 元素 + clipToOutline 属性，导致桌面 widget 载入报错。换成允许的 FrameLayout 容器，圆角遮罩效果不变。",
   "recentReleases": [
-    {
-      "version": 573,
-      "versionName": "260512-1924",
-      "userFacingChangelog": "设置里待办提醒那两个开关现在每个都有解释；'同步到系统日历' 改成 '顺手丢一份到系统日历'，说清楚需不需要权限",
-      "publishedAtMs": 1778585187000
-    },
     {
       "version": 574,
       "versionName": "260512-1941",
@@ -306,8 +300,14 @@
       "versionName": "260513-1142",
       "userFacingChangelog": "桌面 widget 照片本身保持方形，叠一层米色相框遮罩把四个角盖成圆角——圆角值跟 launcher 外圆角同步缩放，任意尺寸内外都协调。",
       "publishedAtMs": 1778643865000
+    },
+    {
+      "version": 631,
+      "versionName": "260513-1154",
+      "userFacingChangelog": "v630 widget xml 里用了 RemoteViews 不允许的 <View> 元素 + clipToOutline 属性，导致桌面 widget 载入报错。换成允许的 FrameLayout 容器，圆角遮罩效果不变。",
+      "publishedAtMs": 1778644602000
     }
   ],
-  "publishedAtMs": 1778643865000,
+  "publishedAtMs": 1778644602000,
   "minSupported": 0
 }
