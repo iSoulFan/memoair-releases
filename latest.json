@@ -1,18 +1,12 @@
 {
-  "version": 643,
-  "versionName": "260514-0232",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v643/memoair-v643-260514-0232-slim.apk",
+  "version": 644,
+  "versionName": "260514-0238",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v644/memoair-v644-260514-0238-slim.apk",
   "sizeBytes": 35169750,
-  "sha256": "74c485e7eb363dc96133bfaaffa5fce00d939f7b20ca5fcff2ebe1410b593cd1",
-  "changelog": "AI 在对话里能完整说出你的英文名了（之前被两道过滤都吃掉显示空白）/ 隐藏纪要时模糊区域跟卡片完全对齐，上方间距不再被吃掉 / 调试菜单解锁震动 / 拾梦相片小部件深色模式相纸更显边框",
+  "sha256": "abf968d674a7ffa5f3b4a17b9cbc8206e16465c45646a9ae3c4832ea8251bf3a",
+  "changelog": "AI 在对话里能完整说出你的英文名 / 「清空本地数据」收进「我的数据」子目录、不再占根目录 / 声纹板块直接显示「应用声纹过滤」开关，发现卡片少时可临时关掉 / 隐藏纪要时模糊区域跟卡片完全对齐 / 调试解锁震动 / 拾梦相片小部件深色模式相纸更显边框",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 585,
-      "versionName": "260512-2207",
-      "userFacingChangelog": "声纹设置里 AI 会依次教你录平静、兴奋两段不同语气的样本——每段配相应文案；3 段录满后按钮自动消失",
-      "publishedAtMs": 1778595600000
-    },
     {
       "version": 586,
       "versionName": "260512-2213",
@@ -306,8 +300,14 @@
       "versionName": "260514-0232",
       "userFacingChangelog": "",
       "publishedAtMs": 1778697360000
+    },
+    {
+      "version": 644,
+      "versionName": "260514-0238",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778697758000
     }
   ],
-  "publishedAtMs": 1778697360000,
+  "publishedAtMs": 1778697758000,
   "minSupported": 0
 }
