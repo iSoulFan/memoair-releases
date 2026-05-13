@@ -1,18 +1,12 @@
 {
-  "version": 631,
-  "versionName": "260513-1154",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v631/memoair-v631-260513-1154-slim.apk",
+  "version": 633,
+  "versionName": "260513-1204",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v633/memoair-v633-260513-1204-slim.apk",
   "sizeBytes": 35157406,
-  "sha256": "58f78894b56b92a148d29b8d78fd07deb8a3ffa038c30c6a38fb7e992c4ad4d8",
-  "changelog": "修桌面 widget 载入失败",
-  "userFacingChangelog": "v630 widget xml 里用了 RemoteViews 不允许的 <View> 元素 + clipToOutline 属性，导致桌面 widget 载入报错。换成允许的 FrameLayout 容器，圆角遮罩效果不变。",
+  "sha256": "02229b9d1a70b7a217722b7771a6f29fc6c1dfa88122e4b04a4bfd20b228d991",
+  "changelog": "桌面拍立得圆角 + 隐私印章 + 英语学习升级",
+  "userFacingChangelog": "桌面 widget 拍立得圆角按 widget 实际宽度动态算（2×2 小圆角 / 4×4 大圆角），任意尺寸都跟系统外圆角协调；卡片隐私锁印章换成衬线斜体「private」纯文字（待办 / 纪要这种窄卡只一行字）；英语学习生成的单词不再教 remind 这种基础词，转向 idiom / phrasal verb / 地道升级（用户说我提醒他会教 give heads-up 不是 remind）。",
   "recentReleases": [
-    {
-      "version": 574,
-      "versionName": "260512-1941",
-      "userFacingChangelog": "录音默认让系统帮忙做降噪，多麦克风手机（Find N6 等）转写应该更干净；如果出现「悄悄话被吞 / 远端的人没录到」去设置 → 录音 → 关掉「走系统语音管线」即可；深色模式切换不生效 bug 修复",
-      "publishedAtMs": 1778586187000
-    },
     {
       "version": 575,
       "versionName": "260512-2003",
@@ -306,8 +300,14 @@
       "versionName": "260513-1154",
       "userFacingChangelog": "v630 widget xml 里用了 RemoteViews 不允许的 <View> 元素 + clipToOutline 属性，导致桌面 widget 载入报错。换成允许的 FrameLayout 容器，圆角遮罩效果不变。",
       "publishedAtMs": 1778644602000
+    },
+    {
+      "version": 633,
+      "versionName": "260513-1204",
+      "userFacingChangelog": "桌面 widget 拍立得圆角按 widget 实际宽度动态算（2×2 小圆角 / 4×4 大圆角），任意尺寸都跟系统外圆角协调；卡片隐私锁印章换成衬线斜体「private」纯文字（待办 / 纪要这种窄卡只一行字）；英语学习生成的单词不再教 remind 这种基础词，转向 idiom / phrasal verb / 地道升级（用户说我提醒他会教 give heads-up 不是 remind）。",
+      "publishedAtMs": 1778645242000
     }
   ],
-  "publishedAtMs": 1778644602000,
+  "publishedAtMs": 1778645242000,
   "minSupported": 0
 }
