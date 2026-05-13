@@ -1,18 +1,12 @@
 {
-  "version": 627,
-  "versionName": "260513-1123",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v627/memoair-v627-260513-1123-slim.apk",
-  "sizeBytes": 35153085,
-  "sha256": "6eace77827e0399185647157b1015902a8e782e468889448bf8d62a99e71489b",
-  "changelog": "BETA 标 + 语音唤醒开关",
-  "userFacingChangelog": "「语音唤醒」上加了 BETA 标且默认关，开了再生效，描述里写明普通用户不建议开；「账本」tab 加 BETA 角标；「急急国王」下加灰色小字提示",
+  "version": 628,
+  "versionName": "260513-1130",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v628/memoair-v628-260513-1130-slim.apk",
+  "sizeBytes": 35157294,
+  "sha256": "e246988a0326659c2924bcd9a6a1def2668f863af81e5302d1462d7357d06531",
+  "changelog": "桌面拍立得圆角自适应 + 开关换小尺寸",
+  "userFacingChangelog": "桌面拍立得 widget 拉到 4×4 后内外圆角不和谐——现在 paper 圆角用 Android 系统的 inner_radius dimen，跟 launcher 外圆角自动同步缩放，任意尺寸都协调。OTA 设置里「自动检查 / 急急国王」的开关换成规范的小开关，跟其它设置统一。",
   "recentReleases": [
-    {
-      "version": 570,
-      "versionName": "260512-1851",
-      "userFacingChangelog": "聊天里说『记一下 X』或谐音变体，AI 立刻把 X 记成待办，不再走对话兜一圈；含时间词自动设提醒",
-      "publishedAtMs": 1778583183000
-    },
     {
       "version": 571,
       "versionName": "260512-1907",
@@ -306,8 +300,14 @@
       "versionName": "260513-1123",
       "userFacingChangelog": "「语音唤醒」上加了 BETA 标且默认关，开了再生效，描述里写明普通用户不建议开；「账本」tab 加 BETA 角标；「急急国王」下加灰色小字提示",
       "publishedAtMs": 1778642748000
+    },
+    {
+      "version": 628,
+      "versionName": "260513-1130",
+      "userFacingChangelog": "桌面拍立得 widget 拉到 4×4 后内外圆角不和谐——现在 paper 圆角用 Android 系统的 inner_radius dimen，跟 launcher 外圆角自动同步缩放，任意尺寸都协调。OTA 设置里「自动检查 / 急急国王」的开关换成规范的小开关，跟其它设置统一。",
+      "publishedAtMs": 1778643116000
     }
   ],
-  "publishedAtMs": 1778642748000,
+  "publishedAtMs": 1778643116000,
   "minSupported": 0
 }
