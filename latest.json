@@ -1,18 +1,12 @@
 {
-  "version": 636,
-  "versionName": "260513-1337",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v636/memoair-v636-260513-1337-slim.apk",
+  "version": 637,
+  "versionName": "260513-1347",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v637/memoair-v637-260513-1347-slim.apk",
   "sizeBytes": 35161558,
-  "sha256": "df672713ace062853d4469d7ce1683c9a8afb13fa96ffb1a28fd743916e7bc28",
-  "changelog": "4×4 圆角调小",
-  "userFacingChangelog": "4×4 widget 圆角降一档：paper 36→28dp，photo 28→22dp，跟外圆角更贴。",
+  "sha256": "854c2c1e0c13fa06908b445b180cda50b26b088091473ebb29d8267f7e878ace",
+  "changelog": "完美同心切圆角",
+  "userFacingChangelog": "圆角按几何公式 photo_R = paper_R − padding 算，paper 和 photo 圆弧永远共圆心；4×4 paper 圆角再降一档跟 2×2 一致（28→22dp），4×4 widget 整体大、相对外圆角看起来就更方一点。",
   "recentReleases": [
-    {
-      "version": 578,
-      "versionName": "260512-2034",
-      "userFacingChangelog": "桌面小部件指引现在普通用户也能看到（设置→外观→桌面小部件）；声纹默认松了一档，自己的话不会被误判成别人那么多了",
-      "publishedAtMs": 1778589606000
-    },
     {
       "version": 579,
       "versionName": "260512-2039",
@@ -306,8 +300,14 @@
       "versionName": "260513-1337",
       "userFacingChangelog": "4×4 widget 圆角降一档：paper 36→28dp，photo 28→22dp，跟外圆角更贴。",
       "publishedAtMs": 1778650705000
+    },
+    {
+      "version": 637,
+      "versionName": "260513-1347",
+      "userFacingChangelog": "圆角按几何公式 photo_R = paper_R − padding 算，paper 和 photo 圆弧永远共圆心；4×4 paper 圆角再降一档跟 2×2 一致（28→22dp），4×4 widget 整体大、相对外圆角看起来就更方一点。",
+      "publishedAtMs": 1778651302000
     }
   ],
-  "publishedAtMs": 1778650705000,
+  "publishedAtMs": 1778651302000,
   "minSupported": 0
 }
