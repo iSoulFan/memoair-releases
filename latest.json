@@ -3,8 +3,8 @@
   "versionName": "260513-2232",
   "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v638/memoair-v638-260513-2232-slim.apk",
   "sizeBytes": 35161558,
-  "sha256": "e449b4651b1b44a74c3a914c63d573a80d92feb1d61417cce01c833f4bf4a7e5",
-  "changelog": "主屏小部件相纸边框加深、文案位置上移 / 待办开了「同步到日历」后到点自动写进系统日历 + 系统提醒、不用再手动确认 / 分享卡片右下小字微调",
+  "sha256": "3ccfad55e9c8929ebfeb825e5d86cdeecd485019f0d66749851b9e98d047ef7d",
+  "changelog": "主屏小部件相纸边框加深、文案位置上移 / 待办开了「同步到日历」后到点自动写进系统日历 + 系统提醒，不用再手动确认 / 人生来信不会再瞎编 — 匹配度低时宁可不写也不硬编 / 分享卡片右下小字微调",
   "userFacingChangelog": "",
   "recentReleases": [
     {
@@ -305,9 +305,9 @@
       "version": 638,
       "versionName": "260513-2232",
       "userFacingChangelog": "",
-      "publishedAtMs": 1778683468000
+      "publishedAtMs": 1778683821000
     }
   ],
-  "publishedAtMs": 1778683468000,
+  "publishedAtMs": 1778683821000,
   "minSupported": 0
 }
