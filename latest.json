@@ -1,18 +1,12 @@
 {
-  "version": 618,
-  "versionName": "260513-0754",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v618/memoair-v618-260513-0754-slim.apk",
-  "sizeBytes": 35140797,
-  "sha256": "145b644285bdb797de5f07d6d6f44a27af75e63e039cdffeb980bc718e2a993d",
-  "changelog": "勿扰胶囊 morph 修复",
-  "userFacingChangelog": "长按录音胶囊后展开成圆角矩形面板的过程更稳更顺滑了。",
+  "version": 619,
+  "versionName": "260513-0759",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v619/memoair-v619-260513-0759-slim.apk",
+  "sizeBytes": 35144893,
+  "sha256": "0ed99aa877c760d806b1cad63e8911ea6e8812dd4ddb512377bb14b5ce83723e",
+  "changelog": "我的数据 + 隐私实况",
+  "userFacingChangelog": "设置顶部新加「我的数据」分组，三件事合一起：① 隐私实况 — 看到本地存了多少 / 上云 0 字节；② 隐私规则 — 不录的话题 / 时段（原录音和隐私里的功能搬上来了）；③ 我的数据 · 导出 / 导入 — 摘要数字 + 友好按钮 + 一句承诺，原进阶",
   "recentReleases": [
-    {
-      "version": 560,
-      "versionName": "260512-1545",
-      "userFacingChangelog": "纪要和设置页下拉都换成了呼吸式衬线字提示，进度更清楚；'我是程序员/男的/中国人'这种不再被误当成名字记下来。",
-      "publishedAtMs": 1778572156000
-    },
     {
       "version": 562,
       "versionName": "260512-1554",
@@ -306,8 +300,14 @@
       "versionName": "260513-0754",
       "userFacingChangelog": "长按录音胶囊后展开成圆角矩形面板的过程更稳更顺滑了。",
       "publishedAtMs": 1778630146000
+    },
+    {
+      "version": 619,
+      "versionName": "260513-0759",
+      "userFacingChangelog": "设置顶部新加「我的数据」分组，三件事合一起：① 隐私实况 — 看到本地存了多少 / 上云 0 字节；② 隐私规则 — 不录的话题 / 时段（原录音和隐私里的功能搬上来了）；③ 我的数据 · 导出 / 导入 — 摘要数字 + 友好按钮 + 一句承诺，原进阶",
+      "publishedAtMs": 1778630793000
     }
   ],
-  "publishedAtMs": 1778630146000,
+  "publishedAtMs": 1778630793000,
   "minSupported": 0
 }
