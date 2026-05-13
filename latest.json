@@ -1,18 +1,12 @@
 {
-  "version": 642,
-  "versionName": "260514-0223",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v642/memoair-v642-260514-0223-slim.apk",
+  "version": 643,
+  "versionName": "260514-0232",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v643/memoair-v643-260514-0232-slim.apk",
   "sizeBytes": 35169750,
-  "sha256": "169be6eabbfce8f63623674d39d1ebaeb764ba872110ae0ec1be24f0c0a7b25d",
-  "changelog": "你问 AI「我叫什么 / 我的英文名是啥」时它会如实回答了 / 上传文档前明确告知支持类型 + 大小上限 / 反馈 toast 改到屏幕底部贴近交互位置 / 调试菜单解锁多了震动反馈 / 拾梦相片小部件深色模式换深灰相纸更显边框",
+  "sha256": "74c485e7eb363dc96133bfaaffa5fce00d939f7b20ca5fcff2ebe1410b593cd1",
+  "changelog": "AI 在对话里能完整说出你的英文名了（之前被两道过滤都吃掉显示空白）/ 隐藏纪要时模糊区域跟卡片完全对齐，上方间距不再被吃掉 / 调试菜单解锁震动 / 拾梦相片小部件深色模式相纸更显边框",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 584,
-      "versionName": "260512-2147",
-      "userFacingChangelog": "声纹设置里多了「补录新模板」按钮——同一人录 2-3 个不同状态，匹配你的话准很多；现状从「单模板 + 0.35 宽阈值」升级到「多模板 + 同阈值」漏率显著下降",
-      "publishedAtMs": 1778594531000
-    },
     {
       "version": 585,
       "versionName": "260512-2207",
@@ -306,8 +300,14 @@
       "versionName": "260514-0223",
       "userFacingChangelog": "",
       "publishedAtMs": 1778696778000
+    },
+    {
+      "version": 643,
+      "versionName": "260514-0232",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778697360000
     }
   ],
-  "publishedAtMs": 1778696778000,
+  "publishedAtMs": 1778697360000,
   "minSupported": 0
 }
