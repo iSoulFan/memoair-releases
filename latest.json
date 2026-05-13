@@ -1,18 +1,12 @@
 {
-  "version": 622,
-  "versionName": "260513-0824",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v622/memoair-v622-260513-0824-slim.apk",
+  "version": 623,
+  "versionName": "260513-0827",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v623/memoair-v623-260513-0827-slim.apk",
   "sizeBytes": 35148989,
-  "sha256": "402765388a9a47038e36c30abe492634464b4dfc88f40091e50885c0b0fd103e",
-  "changelog": "OTA 下载文案",
-  "userFacingChangelog": "下载进度条上面文案改了。",
+  "sha256": "ec57642cfd76cfaa55fc9b2b69e8530bb2cc4eb9d43f1395cf814349763719da",
+  "changelog": "OTA 进度文案 + 自动检查层级",
+  "userFacingChangelog": "OTA 下载条文案换成更轻松的；关于页里「自动检查更新」开关收纳了「急急国王」作为子开关——只有自动检查开着时才会出现急急国王，两个开关样式严格对齐。",
   "recentReleases": [
-    {
-      "version": 565,
-      "versionName": "260512-1634",
-      "userFacingChangelog": "桌面拾梦相片小部件改成一张铺满，跟应用内一致；点一下进 App 看那张卡；解锁手机会换下一张",
-      "publishedAtMs": 1778575028000
-    },
     {
       "version": 566,
       "versionName": "260512-1642",
@@ -306,8 +300,14 @@
       "versionName": "260513-0824",
       "userFacingChangelog": "下载进度条上面文案改了。",
       "publishedAtMs": 1778631965000
+    },
+    {
+      "version": 623,
+      "versionName": "260513-0827",
+      "userFacingChangelog": "OTA 下载条文案换成更轻松的；关于页里「自动检查更新」开关收纳了「急急国王」作为子开关——只有自动检查开着时才会出现急急国王，两个开关样式严格对齐。",
+      "publishedAtMs": 1778632206000
     }
   ],
-  "publishedAtMs": 1778631965000,
+  "publishedAtMs": 1778632206000,
   "minSupported": 0
 }
