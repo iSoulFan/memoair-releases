@@ -3,8 +3,8 @@
   "versionName": "260514-0130",
   "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v640/memoair-v640-260514-0130-slim.apk",
   "sizeBytes": 35161558,
-  "sha256": "3f7ccf252775a527ac2ea3a71d8cad8369f924a9118ee00a5bdfc3d138c40287",
-  "changelog": "「关于」整页清爽：去掉重复标题、署名挪到版权前、间距拉开 / 「清空所有本地数据」按钮风格跟其他子项统一 / 声纹判定阈值上限收到 0.55（之前自己调过偏高会导致一整天没新卡片，已经自动救回到 0.40 推荐区）/ 拾梦相片小部件深色模式下边框更明显 / 4×4 小部件圆角更克制、边框收窄",
+  "sha256": "6ff6e38c8fd3644e45af82b7c75d16b4b1f0f9a09de610c200e30745bf1183c8",
+  "changelog": "「关于」整页清爽：去掉重复标题、署名挪到版权前、间距拉开 / 「清空所有本地数据」按钮风格跟其他子项统一 / 「声纹识别」加 BETA 标 + 标题里的括号去掉 + 新增折叠提示「新卡片变少 → 试试关掉声纹识别」 / 声纹判定阈值上限收到 0.55，之前自己调过偏高的会被自动救回 0.40 推荐区 / 拾梦相片小部件深色模式下边框更明显 / 4×4 小部件圆角更克制、边框收窄",
   "userFacingChangelog": "",
   "recentReleases": [
     {
@@ -305,9 +305,9 @@
       "version": 640,
       "versionName": "260514-0130",
       "userFacingChangelog": "",
-      "publishedAtMs": 1778693972000
+      "publishedAtMs": 1778694272000
     }
   ],
-  "publishedAtMs": 1778693972000,
+  "publishedAtMs": 1778694272000,
   "minSupported": 0
 }
