@@ -1,18 +1,12 @@
 {
-  "version": 639,
-  "versionName": "260514-0041",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v639/memoair-v639-260514-0041-slim.apk",
+  "version": 640,
+  "versionName": "260514-0130",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v640/memoair-v640-260514-0130-slim.apk",
   "sizeBytes": 35161558,
-  "sha256": "314bd76b04c0a9f0efcb085c93f08f51cb9bb48323f1f38a06fa90678e6d9cca",
-  "changelog": "对话里让 AI 改 / 重生 / 重写卡片时，第一遍就真改 — 不再要催第二遍",
+  "sha256": "2c9e0b17f788a300e1111b0c013c8cb641c74355e9b3219da706b32528c40cf9",
+  "changelog": "「关于」整页清爽：去掉重复标题、署名挪到版权前、间距拉开 / 「清空所有本地数据」按钮风格跟其他子项统一 / 声纹判定阈值上限收到 0.55（之前自己调过偏高会导致一整天没新卡片，已经自动救回到 0.40 推荐区）/ 拾梦相片小部件深色模式下边框更明显",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 581,
-      "versionName": "260512-2108",
-      "userFacingChangelog": "📎 现在能选录音文件了（mp3/m4a/wav/...）；用你手机本地的语音模型转写，结果同样存成纪要 + 长期记忆，原文件位置和你给录音留的拷贝都不动",
-      "publishedAtMs": 1778591566000
-    },
     {
       "version": 582,
       "versionName": "260512-2115",
@@ -306,8 +300,14 @@
       "versionName": "260514-0041",
       "userFacingChangelog": "",
       "publishedAtMs": 1778690548000
+    },
+    {
+      "version": 640,
+      "versionName": "260514-0130",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778693619000
     }
   ],
-  "publishedAtMs": 1778690548000,
+  "publishedAtMs": 1778693619000,
   "minSupported": 0
 }
