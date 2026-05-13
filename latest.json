@@ -1,18 +1,12 @@
 {
-  "version": 629,
-  "versionName": "260513-1135",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v629/memoair-v629-260513-1135-slim.apk",
-  "sizeBytes": 35157294,
-  "sha256": "5708ab2bdc6b96a4d9231c7590e0f23bd7376493ee1f8b6247fe0f3f3e5ca65f",
-  "changelog": "OTA 通道修复",
-  "userFacingChangelog": "memomind 服务器之前磁盘满了导致 scp 推送失败，OTA 主通道一直拿不到新 manifest——你看到的是旧版的「最新」。现在清了 12GB，主通道恢复。",
+  "version": 630,
+  "versionName": "260513-1142",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v630/memoair-v630-260513-1142-slim.apk",
+  "sizeBytes": 35157406,
+  "sha256": "0ee28d103f7f2db5ce1a0b28b57ef362e44a6aecd10fe06fb9682966a60e7d0f",
+  "changelog": "桌面拍立得边角遮罩",
+  "userFacingChangelog": "桌面 widget 照片本身保持方形，叠一层米色相框遮罩把四个角盖成圆角——圆角值跟 launcher 外圆角同步缩放，任意尺寸内外都协调。",
   "recentReleases": [
-    {
-      "version": 572,
-      "versionName": "260512-1912",
-      "userFacingChangelog": "折叠屏展开后头像裁剪页的「取消 / 保存」按钮不再被遮住",
-      "publishedAtMs": 1778584514000
-    },
     {
       "version": 573,
       "versionName": "260512-1924",
@@ -306,8 +300,14 @@
       "versionName": "260513-1135",
       "userFacingChangelog": "memomind 服务器之前磁盘满了导致 scp 推送失败，OTA 主通道一直拿不到新 manifest——你看到的是旧版的「最新」。现在清了 12GB，主通道恢复。",
       "publishedAtMs": 1778643605000
+    },
+    {
+      "version": 630,
+      "versionName": "260513-1142",
+      "userFacingChangelog": "桌面 widget 照片本身保持方形，叠一层米色相框遮罩把四个角盖成圆角——圆角值跟 launcher 外圆角同步缩放，任意尺寸内外都协调。",
+      "publishedAtMs": 1778643865000
     }
   ],
-  "publishedAtMs": 1778643605000,
+  "publishedAtMs": 1778643865000,
   "minSupported": 0
 }
