@@ -1,18 +1,12 @@
 {
-  "version": 633,
-  "versionName": "260513-1204",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v633/memoair-v633-260513-1204-slim.apk",
+  "version": 634,
+  "versionName": "260513-1215",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v634/memoair-v634-260513-1215-slim.apk",
   "sizeBytes": 35157406,
-  "sha256": "02229b9d1a70b7a217722b7771a6f29fc6c1dfa88122e4b04a4bfd20b228d991",
-  "changelog": "桌面拍立得圆角 + 隐私印章 + 英语学习升级",
-  "userFacingChangelog": "桌面 widget 拍立得圆角按 widget 实际宽度动态算（2×2 小圆角 / 4×4 大圆角），任意尺寸都跟系统外圆角协调；卡片隐私锁印章换成衬线斜体「private」纯文字（待办 / 纪要这种窄卡只一行字）；英语学习生成的单词不再教 remind 这种基础词，转向 idiom / phrasal verb / 地道升级（用户说我提醒他会教 give heads-up 不是 remind）。",
+  "sha256": "90ed6056d85648187cc9168cd135f609dc9461e5e09d38cc1590bee999eacc10",
+  "changelog": "拍立得圆角终极方案",
+  "userFacingChangelog": "桌面拍立得不再分层圆角不和谐——整张相纸 + 内嵌照片合成成一张 bitmap，paper 圆角和 photo 圆角都按 widget 实际大小算（paper 跟系统外圆角接近、photo 略小让嵌套感出来）。widget 加上去后大小锁定不能拉，避免 resize 时圆角错位。",
   "recentReleases": [
-    {
-      "version": 575,
-      "versionName": "260512-2003",
-      "userFacingChangelog": "录音设置那个开关名字变直白了——「调动全部麦克风一起拾音」，下面用暖色块讲清楚什么时候要关",
-      "publishedAtMs": 1778587756000
-    },
     {
       "version": 576,
       "versionName": "260512-2015",
@@ -306,8 +300,14 @@
       "versionName": "260513-1204",
       "userFacingChangelog": "桌面 widget 拍立得圆角按 widget 实际宽度动态算（2×2 小圆角 / 4×4 大圆角），任意尺寸都跟系统外圆角协调；卡片隐私锁印章换成衬线斜体「private」纯文字（待办 / 纪要这种窄卡只一行字）；英语学习生成的单词不再教 remind 这种基础词，转向 idiom / phrasal verb / 地道升级（用户说我提醒他会教 give heads-up 不是 remind）。",
       "publishedAtMs": 1778645242000
+    },
+    {
+      "version": 634,
+      "versionName": "260513-1215",
+      "userFacingChangelog": "桌面拍立得不再分层圆角不和谐——整张相纸 + 内嵌照片合成成一张 bitmap，paper 圆角和 photo 圆角都按 widget 实际大小算（paper 跟系统外圆角接近、photo 略小让嵌套感出来）。widget 加上去后大小锁定不能拉，避免 resize 时圆角错位。",
+      "publishedAtMs": 1778645827000
     }
   ],
-  "publishedAtMs": 1778645242000,
+  "publishedAtMs": 1778645827000,
   "minSupported": 0
 }
