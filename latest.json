@@ -1,18 +1,12 @@
 {
-  "version": 623,
-  "versionName": "260513-0827",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v623/memoair-v623-260513-0827-slim.apk",
+  "version": 624,
+  "versionName": "260513-1025",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v624/memoair-v624-260513-1025-slim.apk",
   "sizeBytes": 35148989,
-  "sha256": "ec57642cfd76cfaa55fc9b2b69e8530bb2cc4eb9d43f1395cf814349763719da",
-  "changelog": "OTA 进度文案 + 自动检查层级",
-  "userFacingChangelog": "OTA 下载条文案换成更轻松的；关于页里「自动检查更新」开关收纳了「急急国王」作为子开关——只有自动检查开着时才会出现急急国王，两个开关样式严格对齐。",
+  "sha256": "e5ee49ab789aee0e65146796d16e0cc846e41bd1dc7c6a923137132c3c0f9fea",
+  "changelog": "勿扰 → 休息 + 文案整理",
+  "userFacingChangelog": "长按胶囊设的「勿扰」改名「休息」，胶囊上写「休息 1h23m」，通知栏写「休息中 · 没在录音 · 剩 X 自动恢复」，菜单里「解除勿扰」改成「结束休息」。OTA 自动检查的「急急国王」收进了「自动检查」开关里面（开了才出现）。「我的数据 · 导出 / 导入」section 改名「我的数据」。",
   "recentReleases": [
-    {
-      "version": 566,
-      "versionName": "260512-1642",
-      "userFacingChangelog": "OTA 通道加固——任何一条 URL 通就 OK；之前两条 memomind 都被挡时也会自动退到 GitHub",
-      "publishedAtMs": 1778575435000
-    },
     {
       "version": 567,
       "versionName": "260512-1654",
@@ -306,8 +300,14 @@
       "versionName": "260513-0827",
       "userFacingChangelog": "OTA 下载条文案换成更轻松的；关于页里「自动检查更新」开关收纳了「急急国王」作为子开关——只有自动检查开着时才会出现急急国王，两个开关样式严格对齐。",
       "publishedAtMs": 1778632206000
+    },
+    {
+      "version": 624,
+      "versionName": "260513-1025",
+      "userFacingChangelog": "长按胶囊设的「勿扰」改名「休息」，胶囊上写「休息 1h23m」，通知栏写「休息中 · 没在录音 · 剩 X 自动恢复」，菜单里「解除勿扰」改成「结束休息」。OTA 自动检查的「急急国王」收进了「自动检查」开关里面（开了才出现）。「我的数据 · 导出 / 导入」section 改名「我的数据」。",
+      "publishedAtMs": 1778639260000
     }
   ],
-  "publishedAtMs": 1778632206000,
+  "publishedAtMs": 1778639260000,
   "minSupported": 0
 }
