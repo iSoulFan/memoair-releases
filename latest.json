@@ -1,18 +1,12 @@
 {
-  "version": 624,
-  "versionName": "260513-1025",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v624/memoair-v624-260513-1025-slim.apk",
-  "sizeBytes": 35148989,
-  "sha256": "e5ee49ab789aee0e65146796d16e0cc846e41bd1dc7c6a923137132c3c0f9fea",
-  "changelog": "勿扰 → 休息 + 文案整理",
-  "userFacingChangelog": "长按胶囊设的「勿扰」改名「休息」，胶囊上写「休息 1h23m」，通知栏写「休息中 · 没在录音 · 剩 X 自动恢复」，菜单里「解除勿扰」改成「结束休息」。OTA 自动检查的「急急国王」收进了「自动检查」开关里面（开了才出现）。「我的数据 · 导出 / 导入」section 改名「我的数据」。",
+  "version": 625,
+  "versionName": "260513-1034",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v625/memoair-v625-260513-1034-slim.apk",
+  "sizeBytes": 35153085,
+  "sha256": "d124dc29d6fbd4b32fea54a7d9f4a933ee952842f8ebb6943e531239595ed5b9",
+  "changelog": "语音唤醒词：记得帮我",
+  "userFacingChangelog": "对着记得说「记得帮我...」后面跟一句话，记得会立刻把后面那句给 AI 处理 → 回复入 chat → 系统通知弹给你，点开就能看到完整回复。先做问答路径，不会自动写卡片 / 待办（AI 会建议你打开聊天页落库）。",
   "recentReleases": [
-    {
-      "version": 567,
-      "versionName": "260512-1654",
-      "userFacingChangelog": "对话消息长按菜单多了「多选」；多选可以批量删 / 分享成图片（图片样式跟 App 里气泡一样，下方有「该截图由 记得App 生成」落款）；桌面 widget 圆角调大了",
-      "publishedAtMs": 1778576324000
-    },
     {
       "version": 568,
       "versionName": "260512-1720",
@@ -306,8 +300,14 @@
       "versionName": "260513-1025",
       "userFacingChangelog": "长按胶囊设的「勿扰」改名「休息」，胶囊上写「休息 1h23m」，通知栏写「休息中 · 没在录音 · 剩 X 自动恢复」，菜单里「解除勿扰」改成「结束休息」。OTA 自动检查的「急急国王」收进了「自动检查」开关里面（开了才出现）。「我的数据 · 导出 / 导入」section 改名「我的数据」。",
       "publishedAtMs": 1778639260000
+    },
+    {
+      "version": 625,
+      "versionName": "260513-1034",
+      "userFacingChangelog": "对着记得说「记得帮我...」后面跟一句话，记得会立刻把后面那句给 AI 处理 → 回复入 chat → 系统通知弹给你，点开就能看到完整回复。先做问答路径，不会自动写卡片 / 待办（AI 会建议你打开聊天页落库）。",
+      "publishedAtMs": 1778639787000
     }
   ],
-  "publishedAtMs": 1778639260000,
+  "publishedAtMs": 1778639787000,
   "minSupported": 0
 }
