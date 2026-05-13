@@ -1,18 +1,12 @@
 {
-  "version": 645,
-  "versionName": "260514-0324",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v645/memoair-v645-260514-0324-slim.apk",
-  "sizeBytes": 35169750,
-  "sha256": "0d7ffd4ddcdd78fecf2f48997c570d40a4d18ff34da9c085f2d136f3a06d28c6",
-  "changelog": "隐藏愿望时模糊区域跟卡片完全对齐 / 「清空本地数据」收进「我的数据」子目录、不再占根目录 / 声纹板块直接显示「应用声纹过滤」开关 / AI 在对话里能完整说出你的英文名",
+  "version": 646,
+  "versionName": "260514-0342",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v646/memoair-v646-260514-0342-slim.apk",
+  "sizeBytes": 35177942,
+  "sha256": "fb3324fceb54fea7d89634e7a6bf684a85c4d8f20ff9e8875cf66957268917e1",
+  "changelog": "「登场过的人」里每个头像点开后新增「✎ 语音描述这个人」入口——直接对着说一段，AI 会把别称 / 印象 / 关系 自动写进这张卡，不会瞎编 / 你说聊到自己的事（爱好 / 习惯 / 新身份）AI 会真把它写到「本人卡」里，不再嘴上「记下了」其实没动",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 587,
-      "versionName": "260512-2241",
-      "userFacingChangelog": "OTA 大陆速度应该快 5-10×：先试 GitHub 镜像，再回直连，任一失败自动切下一个",
-      "publishedAtMs": 1778597661000
-    },
     {
       "version": 588,
       "versionName": "260512-2257",
@@ -306,8 +300,14 @@
       "versionName": "260514-0324",
       "userFacingChangelog": "",
       "publishedAtMs": 1778700519000
+    },
+    {
+      "version": 646,
+      "versionName": "260514-0342",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778701544000
     }
   ],
-  "publishedAtMs": 1778700519000,
+  "publishedAtMs": 1778701544000,
   "minSupported": 0
 }
