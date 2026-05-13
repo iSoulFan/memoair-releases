@@ -1,18 +1,12 @@
 {
-  "version": 626,
-  "versionName": "260513-1038",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v626/memoair-v626-260513-1038-slim.apk",
+  "version": 627,
+  "versionName": "260513-1123",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v627/memoair-v627-260513-1123-slim.apk",
   "sizeBytes": 35153085,
-  "sha256": "4273e82bd5aea53729a11173f9499d191e5f34518a8b5b15792a9c6aed94982f",
-  "changelog": "大文档防 OOM",
-  "userFacingChangelog": "导文档前先看大小：文档（PDF/DOCX/TXT）超 30MB / 音频超 200MB 会直接告诉你「太大」并建议怎么压；不再傻乎乎硬解然后崩。同时开了 largeHeap 让能处理的文档更稳。",
+  "sha256": "6eace77827e0399185647157b1015902a8e782e468889448bf8d62a99e71489b",
+  "changelog": "BETA 标 + 语音唤醒开关",
+  "userFacingChangelog": "「语音唤醒」上加了 BETA 标且默认关，开了再生效，描述里写明普通用户不建议开；「账本」tab 加 BETA 角标；「急急国王」下加灰色小字提示",
   "recentReleases": [
-    {
-      "version": 569,
-      "versionName": "260512-1820",
-      "userFacingChangelog": "聊天里的键盘图标改成跟麦克风、回形针一样的彩色 emoji",
-      "publishedAtMs": 1778581406000
-    },
     {
       "version": 570,
       "versionName": "260512-1851",
@@ -306,8 +300,14 @@
       "versionName": "260513-1038",
       "userFacingChangelog": "导文档前先看大小：文档（PDF/DOCX/TXT）超 30MB / 音频超 200MB 会直接告诉你「太大」并建议怎么压；不再傻乎乎硬解然后崩。同时开了 largeHeap 让能处理的文档更稳。",
       "publishedAtMs": 1778639968000
+    },
+    {
+      "version": 627,
+      "versionName": "260513-1123",
+      "userFacingChangelog": "「语音唤醒」上加了 BETA 标且默认关，开了再生效，描述里写明普通用户不建议开；「账本」tab 加 BETA 角标；「急急国王」下加灰色小字提示",
+      "publishedAtMs": 1778642748000
     }
   ],
-  "publishedAtMs": 1778639968000,
+  "publishedAtMs": 1778642748000,
   "minSupported": 0
 }
