@@ -1,18 +1,12 @@
 {
-  "version": 641,
-  "versionName": "260514-0157",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v641/memoair-v641-260514-0157-slim.apk",
+  "version": 642,
+  "versionName": "260514-0223",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v642/memoair-v642-260514-0223-slim.apk",
   "sizeBytes": 35169750,
-  "sha256": "45c79ff25399f20e03bb4d15737511ff8970eb018c7fd1ec9febbaffa314d5d5",
-  "changelog": "你问 AI「我叫什么」「我的英文名是啥」时它能如实告诉你了 / 上传文档前明确告知支持类型 + 大小上限（PDF / Word / TXT / Markdown 单份 30 MB；音频 200 MB）/ 反馈 toast 改到屏幕底部贴近交互位置 / 调试菜单解锁多了震动反馈 / 拾梦相片小部件深色模式换成深灰相纸更显边框",
+  "sha256": "169be6eabbfce8f63623674d39d1ebaeb764ba872110ae0ec1be24f0c0a7b25d",
+  "changelog": "你问 AI「我叫什么 / 我的英文名是啥」时它会如实回答了 / 上传文档前明确告知支持类型 + 大小上限 / 反馈 toast 改到屏幕底部贴近交互位置 / 调试菜单解锁多了震动反馈 / 拾梦相片小部件深色模式换深灰相纸更显边框",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 583,
-      "versionName": "260512-2130",
-      "userFacingChangelog": "导入文档/录音后会有'去看这份纪要→'按钮直接跳过去；聊天里往上翻多了「↓」一键回最新",
-      "publishedAtMs": 1778593191000
-    },
     {
       "version": 584,
       "versionName": "260512-2147",
@@ -306,8 +300,14 @@
       "versionName": "260514-0157",
       "userFacingChangelog": "",
       "publishedAtMs": 1778696254000
+    },
+    {
+      "version": 642,
+      "versionName": "260514-0223",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778696778000
     }
   ],
-  "publishedAtMs": 1778696254000,
+  "publishedAtMs": 1778696778000,
   "minSupported": 0
 }
