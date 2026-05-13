@@ -1,18 +1,12 @@
 {
-  "version": 620,
-  "versionName": "260513-0812",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v620/memoair-v620-260513-0812-slim.apk",
-  "sizeBytes": 35144893,
-  "sha256": "7ebc86ea978c96ccd35ad6b309c5d47b7c81701ff03d419ea464f175f558d0de",
-  "changelog": "展开聊聊 + 跳转气泡可多选删除",
-  "userFacingChangelog": "AI / 主动推送消息长按 → 多了一个『展开聊聊』菜单项，AI 会用这条消息为引子展开讲一段；下面带的跳转 chip（卡片 / 纪要）现在也能长按 → 多选或删除整条消息。",
+  "version": 621,
+  "versionName": "260513-0819",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v621/memoair-v621-260513-0819-slim.apk",
+  "sizeBytes": 35148989,
+  "sha256": "4cd1d1d8c5e77b7976789c4e6e80af066d4fad2d300ac3ff7b0ee3617efaab0e",
+  "changelog": "急急国王 + 数据规整",
+  "userFacingChangelog": "关于页加了「急急国王」开关——默认关，开了每次打开 App 都强制拉一次更新。「清空所有本地数据」从关于里挪到「我的数据」分组下成独立 section；隐私规则里加上了「隐私是这样保护的」完整说明。",
   "recentReleases": [
-    {
-      "version": 563,
-      "versionName": "260512-1606",
-      "userFacingChangelog": "手动抽纪要不再出现重复会议——同一场会议哪怕 LLM 给的标题/正文每次略有不同，也会识别并跳过",
-      "publishedAtMs": 1778573310000
-    },
     {
       "version": 564,
       "versionName": "260512-1620",
@@ -306,8 +300,14 @@
       "versionName": "260513-0812",
       "userFacingChangelog": "AI / 主动推送消息长按 → 多了一个『展开聊聊』菜单项，AI 会用这条消息为引子展开讲一段；下面带的跳转 chip（卡片 / 纪要）现在也能长按 → 多选或删除整条消息。",
       "publishedAtMs": 1778631302000
+    },
+    {
+      "version": 621,
+      "versionName": "260513-0819",
+      "userFacingChangelog": "关于页加了「急急国王」开关——默认关，开了每次打开 App 都强制拉一次更新。「清空所有本地数据」从关于里挪到「我的数据」分组下成独立 section；隐私规则里加上了「隐私是这样保护的」完整说明。",
+      "publishedAtMs": 1778631719000
     }
   ],
-  "publishedAtMs": 1778631302000,
+  "publishedAtMs": 1778631719000,
   "minSupported": 0
 }
