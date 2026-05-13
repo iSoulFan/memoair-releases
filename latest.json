@@ -1,18 +1,12 @@
 {
-  "version": 619,
-  "versionName": "260513-0759",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v619/memoair-v619-260513-0759-slim.apk",
+  "version": 620,
+  "versionName": "260513-0812",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v620/memoair-v620-260513-0812-slim.apk",
   "sizeBytes": 35144893,
-  "sha256": "0ed99aa877c760d806b1cad63e8911ea6e8812dd4ddb512377bb14b5ce83723e",
-  "changelog": "我的数据 + 隐私实况",
-  "userFacingChangelog": "设置顶部新加「我的数据」分组，三件事合一起：① 隐私实况 — 看到本地存了多少 / 上云 0 字节；② 隐私规则 — 不录的话题 / 时段（原录音和隐私里的功能搬上来了）；③ 我的数据 · 导出 / 导入 — 摘要数字 + 友好按钮 + 一句承诺，原进阶",
+  "sha256": "7ebc86ea978c96ccd35ad6b309c5d47b7c81701ff03d419ea464f175f558d0de",
+  "changelog": "展开聊聊 + 跳转气泡可多选删除",
+  "userFacingChangelog": "AI / 主动推送消息长按 → 多了一个『展开聊聊』菜单项，AI 会用这条消息为引子展开讲一段；下面带的跳转 chip（卡片 / 纪要）现在也能长按 → 多选或删除整条消息。",
   "recentReleases": [
-    {
-      "version": 562,
-      "versionName": "260512-1554",
-      "userFacingChangelog": "OTA 通道换到标准 :443 端口，朋友的运营商屏 :49443 应该绕过去了；纪要/设置下拉时卡片会顺势下移，下拉动效不再糊在卡片上",
-      "publishedAtMs": 1778572583000
-    },
     {
       "version": 563,
       "versionName": "260512-1606",
@@ -306,8 +300,14 @@
       "versionName": "260513-0759",
       "userFacingChangelog": "设置顶部新加「我的数据」分组，三件事合一起：① 隐私实况 — 看到本地存了多少 / 上云 0 字节；② 隐私规则 — 不录的话题 / 时段（原录音和隐私里的功能搬上来了）；③ 我的数据 · 导出 / 导入 — 摘要数字 + 友好按钮 + 一句承诺，原进阶",
       "publishedAtMs": 1778630793000
+    },
+    {
+      "version": 620,
+      "versionName": "260513-0812",
+      "userFacingChangelog": "AI / 主动推送消息长按 → 多了一个『展开聊聊』菜单项，AI 会用这条消息为引子展开讲一段；下面带的跳转 chip（卡片 / 纪要）现在也能长按 → 多选或删除整条消息。",
+      "publishedAtMs": 1778631302000
     }
   ],
-  "publishedAtMs": 1778630793000,
+  "publishedAtMs": 1778631302000,
   "minSupported": 0
 }
