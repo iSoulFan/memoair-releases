@@ -1,18 +1,12 @@
 {
-  "version": 637,
-  "versionName": "260513-1347",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v637/memoair-v637-260513-1347-slim.apk",
+  "version": 638,
+  "versionName": "260513-2232",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v638/memoair-v638-260513-2232-slim.apk",
   "sizeBytes": 35161558,
-  "sha256": "854c2c1e0c13fa06908b445b180cda50b26b088091473ebb29d8267f7e878ace",
-  "changelog": "完美同心切圆角",
-  "userFacingChangelog": "圆角按几何公式 photo_R = paper_R − padding 算，paper 和 photo 圆弧永远共圆心；4×4 paper 圆角再降一档跟 2×2 一致（28→22dp），4×4 widget 整体大、相对外圆角看起来就更方一点。",
+  "sha256": "e449b4651b1b44a74c3a914c63d573a80d92feb1d61417cce01c833f4bf4a7e5",
+  "changelog": "主屏小部件相纸边框加深、文案位置上移 / 待办开了「同步到日历」后到点自动写进系统日历 + 系统提醒、不用再手动确认 / 分享卡片右下小字微调",
+  "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 579,
-      "versionName": "260512-2039",
-      "userFacingChangelog": "桌面 widget 深色相框看得清了；AI 问到自己版本不再瞎说",
-      "publishedAtMs": 1778590265000
-    },
     {
       "version": 580,
       "versionName": "260512-2104",
@@ -306,8 +300,14 @@
       "versionName": "260513-1347",
       "userFacingChangelog": "圆角按几何公式 photo_R = paper_R − padding 算，paper 和 photo 圆弧永远共圆心；4×4 paper 圆角再降一档跟 2×2 一致（28→22dp），4×4 widget 整体大、相对外圆角看起来就更方一点。",
       "publishedAtMs": 1778651302000
+    },
+    {
+      "version": 638,
+      "versionName": "260513-2232",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778683468000
     }
   ],
-  "publishedAtMs": 1778651302000,
+  "publishedAtMs": 1778683468000,
   "minSupported": 0
 }
