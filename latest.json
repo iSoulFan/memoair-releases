@@ -1,18 +1,12 @@
 {
-  "version": 635,
-  "versionName": "260513-1323",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v635/memoair-v635-260513-1323-slim.apk",
+  "version": 636,
+  "versionName": "260513-1337",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v636/memoair-v636-260513-1337-slim.apk",
   "sizeBytes": 35161558,
-  "sha256": "6692ea0d5cee9ab4072c4031aad4c09ea9c13ede06acdeb049de45e1d912dcf3",
-  "changelog": "拾梦相片拆成 2×2 / 4×4 两个 widget",
-  "userFacingChangelog": "桌面 widget 列表里现在有两个：「拾梦相片 · 2×2」「拾梦相片 · 4×4」。各自圆角写死同心切外圆角——2×2 paper 22dp + photo 14dp；4×4 paper 36dp + photo 28dp。加上去后大小锁定不能拉。",
+  "sha256": "df672713ace062853d4469d7ce1683c9a8afb13fa96ffb1a28fd743916e7bc28",
+  "changelog": "4×4 圆角调小",
+  "userFacingChangelog": "4×4 widget 圆角降一档：paper 36→28dp，photo 28→22dp，跟外圆角更贴。",
   "recentReleases": [
-    {
-      "version": 577,
-      "versionName": "260512-2022",
-      "userFacingChangelog": "录音设置里那段说明现在默认折叠了，需要看的时候点一下「哪几种情况要把它关掉？ ›」展开",
-      "publishedAtMs": 1778588657000
-    },
     {
       "version": 578,
       "versionName": "260512-2034",
@@ -306,8 +300,14 @@
       "versionName": "260513-1323",
       "userFacingChangelog": "桌面 widget 列表里现在有两个：「拾梦相片 · 2×2」「拾梦相片 · 4×4」。各自圆角写死同心切外圆角——2×2 paper 22dp + photo 14dp；4×4 paper 36dp + photo 28dp。加上去后大小锁定不能拉。",
       "publishedAtMs": 1778649925000
+    },
+    {
+      "version": 636,
+      "versionName": "260513-1337",
+      "userFacingChangelog": "4×4 widget 圆角降一档：paper 36→28dp，photo 28→22dp，跟外圆角更贴。",
+      "publishedAtMs": 1778650705000
     }
   ],
-  "publishedAtMs": 1778649925000,
+  "publishedAtMs": 1778650705000,
   "minSupported": 0
 }
