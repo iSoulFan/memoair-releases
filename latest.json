@@ -1,18 +1,12 @@
 {
-  "version": 638,
-  "versionName": "260513-2232",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v638/memoair-v638-260513-2232-slim.apk",
+  "version": 639,
+  "versionName": "260514-0041",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v639/memoair-v639-260514-0041-slim.apk",
   "sizeBytes": 35161558,
-  "sha256": "3ccfad55e9c8929ebfeb825e5d86cdeecd485019f0d66749851b9e98d047ef7d",
-  "changelog": "主屏小部件相纸边框加深、文案位置上移 / 待办开了「同步到日历」后到点自动写进系统日历 + 系统提醒，不用再手动确认 / 人生来信不会再瞎编 — 匹配度低时宁可不写也不硬编 / 分享卡片右下小字微调",
+  "sha256": "314bd76b04c0a9f0efcb085c93f08f51cb9bb48323f1f38a06fa90678e6d9cca",
+  "changelog": "对话里让 AI 改 / 重生 / 重写卡片时，第一遍就真改 — 不再要催第二遍",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 580,
-      "versionName": "260512-2104",
-      "userFacingChangelog": "上传文档现在会先发一条「📎 文件名」让你知道送进去了；点完不再报'卡片被删除'，AI 文案讲清楚去哪看；纪要标签固定显示'文件'",
-      "publishedAtMs": 1778591159000
-    },
     {
       "version": 581,
       "versionName": "260512-2108",
@@ -306,8 +300,14 @@
       "versionName": "260513-2232",
       "userFacingChangelog": "",
       "publishedAtMs": 1778683821000
+    },
+    {
+      "version": 639,
+      "versionName": "260514-0041",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778690548000
     }
   ],
-  "publishedAtMs": 1778683821000,
+  "publishedAtMs": 1778690548000,
   "minSupported": 0
 }
