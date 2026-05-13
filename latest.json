@@ -1,18 +1,12 @@
 {
-  "version": 644,
-  "versionName": "260514-0238",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v644/memoair-v644-260514-0238-slim.apk",
+  "version": 645,
+  "versionName": "260514-0324",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v645/memoair-v645-260514-0324-slim.apk",
   "sizeBytes": 35169750,
-  "sha256": "abf968d674a7ffa5f3b4a17b9cbc8206e16465c45646a9ae3c4832ea8251bf3a",
-  "changelog": "AI 在对话里能完整说出你的英文名 / 「清空本地数据」收进「我的数据」子目录、不再占根目录 / 声纹板块直接显示「应用声纹过滤」开关，发现卡片少时可临时关掉 / 隐藏纪要时模糊区域跟卡片完全对齐 / 调试解锁震动 / 拾梦相片小部件深色模式相纸更显边框",
+  "sha256": "0d7ffd4ddcdd78fecf2f48997c570d40a4d18ff34da9c085f2d136f3a06d28c6",
+  "changelog": "隐藏愿望时模糊区域跟卡片完全对齐 / 「清空本地数据」收进「我的数据」子目录、不再占根目录 / 声纹板块直接显示「应用声纹过滤」开关 / AI 在对话里能完整说出你的英文名",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 586,
-      "versionName": "260512-2213",
-      "userFacingChangelog": "「我是说...」「我是觉得...」之类不再被错抓成名字记到长期记忆里；只剩「我叫 X / 叫我 X」这种明确的自报家门才触发",
-      "publishedAtMs": 1778596574000
-    },
     {
       "version": 587,
       "versionName": "260512-2241",
@@ -306,8 +300,14 @@
       "versionName": "260514-0238",
       "userFacingChangelog": "",
       "publishedAtMs": 1778697758000
+    },
+    {
+      "version": 645,
+      "versionName": "260514-0324",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778700519000
     }
   ],
-  "publishedAtMs": 1778697758000,
+  "publishedAtMs": 1778700519000,
   "minSupported": 0
 }
