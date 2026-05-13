@@ -2,9 +2,9 @@
   "version": 641,
   "versionName": "260514-0157",
   "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v641/memoair-v641-260514-0157-slim.apk",
-  "sizeBytes": 35165654,
-  "sha256": "79e608912605e9a236dda8e1a66c70045ebc5147f76c8e74294952392484fc3f",
-  "changelog": "你说「我叫 X，英文名叫 Y」一句话里两个名字都能识别 + 自动合并到「登场过的人」里的本人卡 / 后续 AI 抽到的谐音昵称（比如真名「范林佳」对应的「林佳」）自动归并到本人卡，不再单独成新条目 / 上传文档前明确告知支持类型 + 30 MB 上限 / 反馈 toast 改到屏幕底部贴近交互位置（之前点完上传按钮根本看不到顶部 toast）",
+  "sizeBytes": 35169750,
+  "sha256": "45c79ff25399f20e03bb4d15737511ff8970eb018c7fd1ec9febbaffa314d5d5",
+  "changelog": "你问 AI「我叫什么」「我的英文名是啥」时它能如实告诉你了 / 上传文档前明确告知支持类型 + 大小上限（PDF / Word / TXT / Markdown 单份 30 MB；音频 200 MB）/ 反馈 toast 改到屏幕底部贴近交互位置 / 调试菜单解锁多了震动反馈 / 拾梦相片小部件深色模式换成深灰相纸更显边框",
   "userFacingChangelog": "",
   "recentReleases": [
     {
@@ -305,9 +305,9 @@
       "version": 641,
       "versionName": "260514-0157",
       "userFacingChangelog": "",
-      "publishedAtMs": 1778695203000
+      "publishedAtMs": 1778696254000
     }
   ],
-  "publishedAtMs": 1778695203000,
+  "publishedAtMs": 1778696254000,
   "minSupported": 0
 }
