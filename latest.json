@@ -1,18 +1,12 @@
 {
-  "version": 621,
-  "versionName": "260513-0819",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v621/memoair-v621-260513-0819-slim.apk",
+  "version": 622,
+  "versionName": "260513-0824",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v622/memoair-v622-260513-0824-slim.apk",
   "sizeBytes": 35148989,
-  "sha256": "4cd1d1d8c5e77b7976789c4e6e80af066d4fad2d300ac3ff7b0ee3617efaab0e",
-  "changelog": "急急国王 + 数据规整",
-  "userFacingChangelog": "关于页加了「急急国王」开关——默认关，开了每次打开 App 都强制拉一次更新。「清空所有本地数据」从关于里挪到「我的数据」分组下成独立 section；隐私规则里加上了「隐私是这样保护的」完整说明。",
+  "sha256": "402765388a9a47038e36c30abe492634464b4dfc88f40091e50885c0b0fd103e",
+  "changelog": "OTA 下载文案",
+  "userFacingChangelog": "下载进度条上面文案改了。",
   "recentReleases": [
-    {
-      "version": 564,
-      "versionName": "260512-1620",
-      "userFacingChangelog": "待办、愿望、账本现在都能下拉刷新抽今日的；同一件事 LLM 措辞略不同也不再被当作两条记下来",
-      "publishedAtMs": 1778574170000
-    },
     {
       "version": 565,
       "versionName": "260512-1634",
@@ -306,8 +300,14 @@
       "versionName": "260513-0819",
       "userFacingChangelog": "关于页加了「急急国王」开关——默认关，开了每次打开 App 都强制拉一次更新。「清空所有本地数据」从关于里挪到「我的数据」分组下成独立 section；隐私规则里加上了「隐私是这样保护的」完整说明。",
       "publishedAtMs": 1778631719000
+    },
+    {
+      "version": 622,
+      "versionName": "260513-0824",
+      "userFacingChangelog": "下载进度条上面文案改了。",
+      "publishedAtMs": 1778631965000
     }
   ],
-  "publishedAtMs": 1778631719000,
+  "publishedAtMs": 1778631965000,
   "minSupported": 0
 }
