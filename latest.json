@@ -1,18 +1,12 @@
 {
-  "version": 658,
-  "versionName": "260514-1228",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v658/memoair-v658-260514-1228-slim.apk",
+  "version": 659,
+  "versionName": "260514-1516",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v659/memoair-v659-260514-1516-slim.apk",
   "sizeBytes": 35194326,
-  "sha256": "dc97c29b1ca1fcf95df63bde88a525fdf2639b7384e047ba49f89ee45b85657b",
-  "changelog": "语音唤醒入口收起 + 通知回退（仍会 silent 识别 + 落到待办里，可以在 chat 里看到）；手点闹钟开提醒、自动同步到日历后直接 Toast 反馈",
+  "sha256": "4c94ba83b9463e53bae4b7c4d1f1360fbe0b4c5282ace1d8e321a99f45e351e8",
+  "changelog": "对话里直接说定时待办时，避免之后又冒出一条没时间的重复待办；同时被动录音抽出待办时也能正确认出'明晚 7 点'这种说法的时间",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 605,
-      "versionName": "260513-0058",
-      "userFacingChangelog": "桌面 widget 底部多了一句小提示：有新内容时会告诉你「📸 新的拾梦相片 / ✉️ 新的人生来信 / 🍀 新的微光时刻」等等；点进去看完会自动消失。底部 Tab 你已经在的那个再点一下 = 回到最新（不用双击）。",
-      "publishedAtMs": 1778605320000
-    },
     {
       "version": 606,
       "versionName": "260513-0105",
@@ -306,8 +300,14 @@
       "versionName": "260514-1228",
       "userFacingChangelog": "",
       "publishedAtMs": 1778733301000
+    },
+    {
+      "version": 659,
+      "versionName": "260514-1516",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778743066000
     }
   ],
-  "publishedAtMs": 1778733301000,
+  "publishedAtMs": 1778743066000,
   "minSupported": 0
 }
