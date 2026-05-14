@@ -1,18 +1,12 @@
 {
-  "version": 659,
-  "versionName": "260514-1516",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v659/memoair-v659-260514-1516-slim.apk",
+  "version": 660,
+  "versionName": "260514-1558",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v660/memoair-v660-260514-1558-slim.apk",
   "sizeBytes": 35194326,
-  "sha256": "4c94ba83b9463e53bae4b7c4d1f1360fbe0b4c5282ace1d8e321a99f45e351e8",
-  "changelog": "对话里直接说定时待办时，避免之后又冒出一条没时间的重复待办；同时被动录音抽出待办时也能正确认出'明晚 7 点'这种说法的时间",
+  "sha256": "3989f9b7e6f231a3fa2ff2c21d9bad7bf2a9c0765ceb65bebd1be69c82e966cc",
+  "changelog": "人物卡底部「🪞 其实这就是我」入口的显示判断修了：之前在「登场过的人」里看到的同名重复卡里找不到这个入口，现在能正常合到本人卡了；金句区文案全部按句拆行展示，读起来更清气",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 606,
-      "versionName": "260513-0105",
-      "userFacingChangelog": "桌面 widget 的「新内容」提示挪到照片底部当悬浮胶囊（半透黑底 + 白衬线字），相片本身的边框和圆角回到之前精心对齐过的版本，不再被改样。",
-      "publishedAtMs": 1778605632000
-    },
     {
       "version": 607,
       "versionName": "260513-0118",
@@ -306,8 +300,14 @@
       "versionName": "260514-1516",
       "userFacingChangelog": "",
       "publishedAtMs": 1778743066000
+    },
+    {
+      "version": 660,
+      "versionName": "260514-1558",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778745749000
     }
   ],
-  "publishedAtMs": 1778743066000,
+  "publishedAtMs": 1778745749000,
   "minSupported": 0
 }
