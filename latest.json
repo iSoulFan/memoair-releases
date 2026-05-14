@@ -1,18 +1,12 @@
 {
-  "version": 657,
-  "versionName": "260514-1210",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v657/memoair-v657-260514-1210-slim.apk",
+  "version": 658,
+  "versionName": "260514-1228",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v658/memoair-v658-260514-1228-slim.apk",
   "sizeBytes": 35194326,
-  "sha256": "3f27d612f4713b1d03dd1243ed704ce20892c58017c6899508bcc2e5b85fb755",
-  "changelog": "App 不开也能正常出卡 + 抽人物 + 软推早晚问候——所有每日后台任务改走闹钟唤醒（厂商系统省电策略再也冻不住了） / 待办同步日历更稳：日历权限会同时请求读 + 写（OPPO 上漏了 read 导致一直报「没默认日历」），ContentResolver 同步失败时自动弹起系统日历 App 让你点保存而不是死报错",
+  "sha256": "dc97c29b1ca1fcf95df63bde88a525fdf2639b7384e047ba49f89ee45b85657b",
+  "changelog": "语音唤醒入口收起 + 通知回退（仍会 silent 识别 + 落到待办里，可以在 chat 里看到）；手点闹钟开提醒、自动同步到日历后直接 Toast 反馈",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 602,
-      "versionName": "260513-0047",
-      "userFacingChangelog": "录音设置「多麦克风拾音」开关字体跟整页统一；桌面 widget 介绍文案按新逻辑重写（默认今日最新 / 点过 App 后随机回顾）；保活引导加了「打开系统设置」按钮去搜「自启动」（OPPO / 小米这种厂商系统自启动开关不在应用详情里）。",
-      "publishedAtMs": 1778604638000
-    },
     {
       "version": 605,
       "versionName": "260513-0058",
@@ -306,8 +300,14 @@
       "versionName": "260514-1210",
       "userFacingChangelog": "",
       "publishedAtMs": 1778732073000
+    },
+    {
+      "version": 658,
+      "versionName": "260514-1228",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778733301000
     }
   ],
-  "publishedAtMs": 1778732073000,
+  "publishedAtMs": 1778733301000,
   "minSupported": 0
 }
