@@ -1,18 +1,12 @@
 {
-  "version": 646,
-  "versionName": "260514-0342",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v646/memoair-v646-260514-0342-slim.apk",
+  "version": 647,
+  "versionName": "260514-0950",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v647/memoair-v647-260514-0950-slim.apk",
   "sizeBytes": 35177942,
-  "sha256": "fb3324fceb54fea7d89634e7a6bf684a85c4d8f20ff9e8875cf66957268917e1",
-  "changelog": "「登场过的人」里每个头像点开后新增「✎ 语音描述这个人」入口——直接对着说一段，AI 会把别称 / 印象 / 关系 自动写进这张卡，不会瞎编 / 你说聊到自己的事（爱好 / 习惯 / 新身份）AI 会真把它写到「本人卡」里，不再嘴上「记下了」其实没动",
+  "sha256": "c0f6fdd44aca49ff8f5b38bbd3e9b72cc5e45be3c792dc72ca538320346b301b",
+  "changelog": "细节打磨 + 后台稳定性优化",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 588,
-      "versionName": "260512-2257",
-      "userFacingChangelog": "上传歌曲 / 长音频不再闪退；超过 10 分钟会给清晰提示",
-      "publishedAtMs": 1778598496000
-    },
     {
       "version": 589,
       "versionName": "260512-2305",
@@ -306,8 +300,14 @@
       "versionName": "260514-0342",
       "userFacingChangelog": "",
       "publishedAtMs": 1778701544000
+    },
+    {
+      "version": 647,
+      "versionName": "260514-0950",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778723653000
     }
   ],
-  "publishedAtMs": 1778701544000,
+  "publishedAtMs": 1778723653000,
   "minSupported": 0
 }
