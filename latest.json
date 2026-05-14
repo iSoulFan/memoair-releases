@@ -1,18 +1,12 @@
 {
-  "version": 651,
-  "versionName": "260514-1058",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v651/memoair-v651-260514-1058-slim.apk",
+  "version": 652,
+  "versionName": "260514-1108",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v652/memoair-v652-260514-1108-slim.apk",
   "sizeBytes": 35190230,
-  "sha256": "685da7033cd528137f7e734742a7ee7d88b85d3a1979d570f7efd8cc6d97762e",
-  "changelog": "每天晚上 8 点的「有新版」提醒终于稳了 —— 朋友的手机不打开 App 也能准时收到 / chat 里说「记一下下午 3 点 X」也能看到「📋 去看那条待办」chip 跳到位 / 待办首次创建时第一次弹「日历权限」对话框，授权后到点提醒 + 自动写进系统日历 / 「记得帮我看一下 X 天气」这类提问不再被误识别成待办",
+  "sha256": "76a2dae715a3e2431f2319dce92832c484f6653bcb015cd0d9b9356a34ae413d",
+  "changelog": "「我的 → 登场过的人」长按某个头像，菜单里直接多了「✎ 语音描述 TA」入口 / 描述卡更简洁：按住说话 → 出字可编辑 → 三按钮（取消 / AI 润色 / 直接记下） / 短一句也能被理解：「这个人就是我呀」自动合并到本人卡 / 详情卡底部新加「🪞 其实这就是我」独立入口",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 593,
-      "versionName": "260512-2341",
-      "userFacingChangelog": "📎 点开先选文本还是录音；点纪要 chip 直接跳进「行动→纪要」子 tab；📎 emoji 字号微调",
-      "publishedAtMs": 1778600881000
-    },
     {
       "version": 594,
       "versionName": "260512-2349",
@@ -306,8 +300,14 @@
       "versionName": "260514-1058",
       "userFacingChangelog": "",
       "publishedAtMs": 1778727712000
+    },
+    {
+      "version": 652,
+      "versionName": "260514-1108",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778728753000
     }
   ],
-  "publishedAtMs": 1778727712000,
+  "publishedAtMs": 1778728753000,
   "minSupported": 0
 }
