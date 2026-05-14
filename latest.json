@@ -1,18 +1,12 @@
 {
-  "version": 654,
-  "versionName": "260514-1139",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v654/memoair-v654-260514-1139-slim.apk",
+  "version": 655,
+  "versionName": "260514-1147",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v655/memoair-v655-260514-1147-slim.apk",
   "sizeBytes": 35194326,
-  "sha256": "660085feb466d9fea7efdde5bc735e70d54f7cac03c2681f5127e4a486933f15",
-  "changelog": "新增语音唤醒词「帮我记一下 X」——没时间的事也能直接落到待办先记着 / wake-word 触发段太短时会等一段相邻录音再识别（VAD 切碎导致后半截丢的问题修了）/ wake-word 短答能查最近 48 小时的转写了——「昨天跟肖总聊了啥」能直接答 / chat 里点「📋 去看那条待办」chip 真的会跳到「行动 → 待办」并定位 / 「关于 → 记得 App」子菜单恢复，彩蛋图 + 版本 + 署名 + 版权都收里面默认折叠",
+  "sha256": "bc045ef9cea54a5a1e4c76b52c89bec1589412b1ed537c60248f650a295c2a95",
+  "changelog": "声纹设置里那行「应用过滤到下游产物」换成人话：「把别人的声音剔出去」，开着 / 关着的状态也说人话",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 597,
-      "versionName": "260513-0013",
-      "userFacingChangelog": "📎 上传弹窗主文案改成「把你的重要文件交给「记得」」；待办点开来源会显示「去看那份纪要」按钮直接跳过去；桌面 widget 凌晨过 0 点不再显示「今天还没冲洗」，自动回退看昨天的相片",
-      "publishedAtMs": 1778602534000
-    },
     {
       "version": 599,
       "versionName": "260513-0027",
@@ -306,8 +300,14 @@
       "versionName": "260514-1139",
       "userFacingChangelog": "",
       "publishedAtMs": 1778730285000
+    },
+    {
+      "version": 655,
+      "versionName": "260514-1147",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778730503000
     }
   ],
-  "publishedAtMs": 1778730285000,
+  "publishedAtMs": 1778730503000,
   "minSupported": 0
 }
