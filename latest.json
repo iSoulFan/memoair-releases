@@ -1,18 +1,12 @@
 {
-  "version": 649,
-  "versionName": "260514-1035",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v649/memoair-v649-260514-1035-slim.apk",
+  "version": 650,
+  "versionName": "260514-1039",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v650/memoair-v650-260514-1039-slim.apk",
   "sizeBytes": 35186134,
-  "sha256": "2a7ba2b77dc5a3868574b7634e99ce958440f139d56264ffcb45b784ea1c862d",
-  "changelog": "「记得帮我/记得提醒」语音功能教学文案更详细了——会引导你先去开关 + 说清楚 1 分钟延迟 / AI 在 chat 里建好待办后，「📋 去看那条待办」chip 拆到单独一条主动推送下面，不再跟 AI 回复的 3 个回复 chip 挤在一起看着混乱",
+  "sha256": "fd2d11dcb381e2d41decfec916c8efaa9379726346f028e27cf01280c534f270",
+  "changelog": "新功能上手提示改成「省着随机发」——每天最多一条、随机挑一条还没看过的、没事就先憋着以后再发，不会一次性轰炸",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 591,
-      "versionName": "260512-2318",
-      "userFacingChangelog": "声纹平静和兴奋段台词改长了，采样量更够；30 秒录制中念完可以点「✓ 读完了」直接结束，不用干等",
-      "publishedAtMs": 1778599252000
-    },
     {
       "version": 592,
       "versionName": "260512-2333",
@@ -306,8 +300,14 @@
       "versionName": "260514-1035",
       "userFacingChangelog": "",
       "publishedAtMs": 1778726230000
+    },
+    {
+      "version": 650,
+      "versionName": "260514-1039",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778726462000
     }
   ],
-  "publishedAtMs": 1778726230000,
+  "publishedAtMs": 1778726462000,
   "minSupported": 0
 }
