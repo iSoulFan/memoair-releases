@@ -1,18 +1,12 @@
 {
-  "version": 653,
-  "versionName": "260514-1122",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v653/memoair-v653-260514-1122-slim.apk",
+  "version": 654,
+  "versionName": "260514-1139",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v654/memoair-v654-260514-1139-slim.apk",
   "sizeBytes": 35194326,
-  "sha256": "9796cdee356362d549f0e8e86cf60966b5a847c2cf9965e3818caa62e2015f7e",
-  "changelog": "你对着说「记得帮我看一下成都天气」AI 不会再回「记下了，打开聊天页落库」这种不沾边的话——遇到查实时信息时会直接告诉你「我没法实时联网查」+ 建议你用对应 App，不会再让你跳来跳去拿答案",
+  "sha256": "660085feb466d9fea7efdde5bc735e70d54f7cac03c2681f5127e4a486933f15",
+  "changelog": "新增语音唤醒词「帮我记一下 X」——没时间的事也能直接落到待办先记着 / wake-word 触发段太短时会等一段相邻录音再识别（VAD 切碎导致后半截丢的问题修了）/ wake-word 短答能查最近 48 小时的转写了——「昨天跟肖总聊了啥」能直接答 / chat 里点「📋 去看那条待办」chip 真的会跳到「行动 → 待办」并定位 / 「关于 → 记得 App」子菜单恢复，彩蛋图 + 版本 + 署名 + 版权都收里面默认折叠",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 595,
-      "versionName": "260513-0009",
-      "userFacingChangelog": "底部 Tab 单击反应不再卡（之前等 300ms 双击窗口）；动画也回来了；点纪要 chip 会自动跳进去并展开；widget 多挂兜底广播",
-      "publishedAtMs": 1778602425000
-    },
     {
       "version": 597,
       "versionName": "260513-0013",
@@ -306,8 +300,14 @@
       "versionName": "260514-1122",
       "userFacingChangelog": "",
       "publishedAtMs": 1778729070000
+    },
+    {
+      "version": 654,
+      "versionName": "260514-1139",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778730285000
     }
   ],
-  "publishedAtMs": 1778729070000,
+  "publishedAtMs": 1778730285000,
   "minSupported": 0
 }
