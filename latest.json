@@ -1,18 +1,12 @@
 {
-  "version": 647,
-  "versionName": "260514-0950",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v647/memoair-v647-260514-0950-slim.apk",
-  "sizeBytes": 35177942,
-  "sha256": "c0f6fdd44aca49ff8f5b38bbd3e9b72cc5e45be3c792dc72ca538320346b301b",
-  "changelog": "细节打磨 + 后台稳定性优化",
+  "version": 648,
+  "versionName": "260514-1027",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v648/memoair-v648-260514-1027-slim.apk",
+  "sizeBytes": 35186134,
+  "sha256": "674154e09974f563f7d26e5d8f749db8116300c530d566fdaa074640ed20fbff",
+  "changelog": "🎙️ 现在你直接对着说一句「记得提醒我下午 3 点订机票」/「记得帮我明天 9 点交报告」——AI 会立刻帮你建好待办、设到点提醒（升级到闹钟级，勿扰下也响），同步进系统日历，不用打开 App / chat 里 AI 创建的待办下方会出现一张「📋 去看那条待办 ›」chip，点一下直接跳到这条 / 在「登场过的人」里某张卡其实是你本人 → 长按头像那一行有「🪞 其实这就是我 · 合到本人卡」一键合并",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 589,
-      "versionName": "260512-2305",
-      "userFacingChangelog": "编辑自己说过的话 AI 会重新回复；时光卡片分享图长内容（知识发芽 / 长纪要）不再被切掉底",
-      "publishedAtMs": 1778598923000
-    },
     {
       "version": 590,
       "versionName": "260512-2311",
@@ -306,8 +300,14 @@
       "versionName": "260514-0950",
       "userFacingChangelog": "",
       "publishedAtMs": 1778723653000
+    },
+    {
+      "version": 648,
+      "versionName": "260514-1027",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778725721000
     }
   ],
-  "publishedAtMs": 1778723653000,
+  "publishedAtMs": 1778725721000,
   "minSupported": 0
 }
