@@ -1,18 +1,12 @@
 {
-  "version": 648,
-  "versionName": "260514-1027",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v648/memoair-v648-260514-1027-slim.apk",
+  "version": 649,
+  "versionName": "260514-1035",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v649/memoair-v649-260514-1035-slim.apk",
   "sizeBytes": 35186134,
-  "sha256": "674154e09974f563f7d26e5d8f749db8116300c530d566fdaa074640ed20fbff",
-  "changelog": "🎙️ 现在你直接对着说一句「记得提醒我下午 3 点订机票」/「记得帮我明天 9 点交报告」——AI 会立刻帮你建好待办、设到点提醒（升级到闹钟级，勿扰下也响），同步进系统日历，不用打开 App / chat 里 AI 创建的待办下方会出现一张「📋 去看那条待办 ›」chip，点一下直接跳到这条 / 在「登场过的人」里某张卡其实是你本人 → 长按头像那一行有「🪞 其实这就是我 · 合到本人卡」一键合并",
+  "sha256": "2a7ba2b77dc5a3868574b7634e99ce958440f139d56264ffcb45b784ea1c862d",
+  "changelog": "「记得帮我/记得提醒」语音功能教学文案更详细了——会引导你先去开关 + 说清楚 1 分钟延迟 / AI 在 chat 里建好待办后，「📋 去看那条待办」chip 拆到单独一条主动推送下面，不再跟 AI 回复的 3 个回复 chip 挤在一起看着混乱",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 590,
-      "versionName": "260512-2311",
-      "userFacingChangelog": "鸿蒙沙盒 / Android <14 进入账本/愿望/成就 tab 会崩的问题修了；老 Android 用户也受益",
-      "publishedAtMs": 1778599221000
-    },
     {
       "version": 591,
       "versionName": "260512-2318",
@@ -306,8 +300,14 @@
       "versionName": "260514-1027",
       "userFacingChangelog": "",
       "publishedAtMs": 1778725721000
+    },
+    {
+      "version": 649,
+      "versionName": "260514-1035",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778726230000
     }
   ],
-  "publishedAtMs": 1778725721000,
+  "publishedAtMs": 1778726230000,
   "minSupported": 0
 }
