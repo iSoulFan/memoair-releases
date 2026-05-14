@@ -1,18 +1,12 @@
 {
-  "version": 655,
-  "versionName": "260514-1147",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v655/memoair-v655-260514-1147-slim.apk",
-  "sizeBytes": 35194326,
-  "sha256": "bc045ef9cea54a5a1e4c76b52c89bec1589412b1ed537c60248f650a295c2a95",
-  "changelog": "声纹设置里那行「应用过滤到下游产物」换成人话：「把别人的声音剔出去」，开着 / 关着的状态也说人话",
+  "version": 656,
+  "versionName": "260514-1159",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v656/memoair-v656-260514-1159-slim.apk",
+  "sizeBytes": 35198422,
+  "sha256": "d2512dcd604fa9c35755c0d83ee457fe1608be4a22acf55b7351c16817f79364",
+  "changelog": "首启时朋友会被弹一次「通知权限」请求 —— 没拿这条 Android 13+ 所有提醒都是静默失败 / 待办没同步到日历时会回一条提示告诉你为什么、怎么修，不再「图标亮但日历里没东西」 / 「记得帮我」语音唤醒等下一段录音的体验改顺了（不会再死等 45 秒）/ AI 查「昨天聊了啥」会用关键词召回相关录音再总结回复，不会再 dump 原文",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 599,
-      "versionName": "260513-0027",
-      "userFacingChangelog": "上传弹窗文案改成强调'本地知识库'更让人安心；桌面 widget 一天里默认显示今日新照片，点进 App 后开始随机轮播历史相片；录音源开关副标字体跟其它设置统一",
-      "publishedAtMs": 1778603456000
-    },
     {
       "version": 601,
       "versionName": "260513-0037",
@@ -306,8 +300,14 @@
       "versionName": "260514-1147",
       "userFacingChangelog": "",
       "publishedAtMs": 1778730503000
+    },
+    {
+      "version": 656,
+      "versionName": "260514-1159",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778731275000
     }
   ],
-  "publishedAtMs": 1778730503000,
+  "publishedAtMs": 1778731275000,
   "minSupported": 0
 }
