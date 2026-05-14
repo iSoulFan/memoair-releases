@@ -1,18 +1,12 @@
 {
-  "version": 650,
-  "versionName": "260514-1039",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v650/memoair-v650-260514-1039-slim.apk",
-  "sizeBytes": 35186134,
-  "sha256": "fd2d11dcb381e2d41decfec916c8efaa9379726346f028e27cf01280c534f270",
-  "changelog": "新功能上手提示改成「省着随机发」——每天最多一条、随机挑一条还没看过的、没事就先憋着以后再发，不会一次性轰炸",
+  "version": 651,
+  "versionName": "260514-1058",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v651/memoair-v651-260514-1058-slim.apk",
+  "sizeBytes": 35190230,
+  "sha256": "685da7033cd528137f7e734742a7ee7d88b85d3a1979d570f7efd8cc6d97762e",
+  "changelog": "每天晚上 8 点的「有新版」提醒终于稳了 —— 朋友的手机不打开 App 也能准时收到 / chat 里说「记一下下午 3 点 X」也能看到「📋 去看那条待办」chip 跳到位 / 待办首次创建时第一次弹「日历权限」对话框，授权后到点提醒 + 自动写进系统日历 / 「记得帮我看一下 X 天气」这类提问不再被误识别成待办",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 592,
-      "versionName": "260512-2333",
-      "userFacingChangelog": "歌词推送现在会按你的兴趣（投资 / 设计 / 文学 / 创业 / 思想 / 体育）挑名人金句；OTA 下载用更快的镜像，慢镜像 3.5 秒自动切走",
-      "publishedAtMs": 1778600488000
-    },
     {
       "version": 593,
       "versionName": "260512-2341",
@@ -306,8 +300,14 @@
       "versionName": "260514-1039",
       "userFacingChangelog": "",
       "publishedAtMs": 1778726462000
+    },
+    {
+      "version": 651,
+      "versionName": "260514-1058",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778727712000
     }
   ],
-  "publishedAtMs": 1778726462000,
+  "publishedAtMs": 1778727712000,
   "minSupported": 0
 }
