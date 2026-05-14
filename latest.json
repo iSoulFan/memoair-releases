@@ -1,18 +1,12 @@
 {
-  "version": 652,
-  "versionName": "260514-1108",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v652/memoair-v652-260514-1108-slim.apk",
-  "sizeBytes": 35190230,
-  "sha256": "76a2dae715a3e2431f2319dce92832c484f6653bcb015cd0d9b9356a34ae413d",
-  "changelog": "「我的 → 登场过的人」长按某个头像，菜单里直接多了「✎ 语音描述 TA」入口 / 描述卡更简洁：按住说话 → 出字可编辑 → 三按钮（取消 / AI 润色 / 直接记下） / 短一句也能被理解：「这个人就是我呀」自动合并到本人卡 / 详情卡底部新加「🪞 其实这就是我」独立入口",
+  "version": 653,
+  "versionName": "260514-1122",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v653/memoair-v653-260514-1122-slim.apk",
+  "sizeBytes": 35194326,
+  "sha256": "9796cdee356362d549f0e8e86cf60966b5a847c2cf9965e3818caa62e2015f7e",
+  "changelog": "你对着说「记得帮我看一下成都天气」AI 不会再回「记下了，打开聊天页落库」这种不沾边的话——遇到查实时信息时会直接告诉你「我没法实时联网查」+ 建议你用对应 App，不会再让你跳来跳去拿答案",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 594,
-      "versionName": "260512-2349",
-      "userFacingChangelog": "底部 Tab 切换不再有动画，秒切；桌面 widget 解锁不换的兜底加强（部分 ROM 拦广播也会有 30 分钟自动换）",
-      "publishedAtMs": 1778601371000
-    },
     {
       "version": 595,
       "versionName": "260513-0009",
@@ -306,8 +300,14 @@
       "versionName": "260514-1108",
       "userFacingChangelog": "",
       "publishedAtMs": 1778728753000
+    },
+    {
+      "version": 653,
+      "versionName": "260514-1122",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778729070000
     }
   ],
-  "publishedAtMs": 1778728753000,
+  "publishedAtMs": 1778729070000,
   "minSupported": 0
 }
