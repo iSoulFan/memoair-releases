@@ -1,18 +1,12 @@
 {
-  "version": 661,
-  "versionName": "260514-2031",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v661/memoair-v661-260514-2031-slim.apk",
-  "sizeBytes": 35202518,
-  "sha256": "e45f7b16be07c076858d2619e157075335ee702a81ed7b1f68066dd7e6deb311",
-  "changelog": "在「我的 → 我的数据 → 隐私规则」里加了「忘记这段」——选一段日期时间范围，可以一键把那段时间里的转写、长期记忆、时光卡片一起忘掉",
+  "version": 662,
+  "versionName": "260514-2258",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v662/memoair-v662-260514-2258-slim.apk",
+  "sizeBytes": 35218996,
+  "sha256": "e02b52b6b781b8bab625f07705422d4f28dc7454fd70c020e95d147b92ea5841",
+  "changelog": "「我的 → 我的数据」下新增「选择忘记」：里面两种选法——「忘记那段」按时间段，「忘记那事」按一件具体的事让 AI 找出关联让你勾选确认后再删；改人物名字时会自动级联更新所有提到这个名字的卡片、纪要和长期记忆（只改名字字面）；如果你在登场过的人里看到自己英文名 / 中文名各一张本人卡，启动后会自动合并成一张",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 608,
-      "versionName": "260513-0137",
-      "userFacingChangelog": "点「现在更新」后中间会出现一个细线进度条——能看到 MB / 百分比，想停就点取消下载。",
-      "publishedAtMs": 1778607582000
-    },
     {
       "version": 612,
       "versionName": "260513-0635",
@@ -306,8 +300,14 @@
       "versionName": "260514-2031",
       "userFacingChangelog": "",
       "publishedAtMs": 1778761959000
+    },
+    {
+      "version": 662,
+      "versionName": "260514-2258",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778771681000
     }
   ],
-  "publishedAtMs": 1778761959000,
+  "publishedAtMs": 1778771681000,
   "minSupported": 0
 }
