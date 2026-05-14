@@ -4,7 +4,7 @@
   "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v662/memoair-v662-260514-2258-slim.apk",
   "sizeBytes": 35218996,
   "sha256": "e02b52b6b781b8bab625f07705422d4f28dc7454fd70c020e95d147b92ea5841",
-  "changelog": "「我的 → 我的数据」下新增「选择忘记」：里面两种选法——「忘记那段」按时间段，「忘记那事」按一件具体的事让 AI 找出关联让你勾选确认后再删；改人物名字时会自动级联更新所有提到这个名字的卡片、纪要和长期记忆（只改名字字面）；如果你在登场过的人里看到自己英文名 / 中文名各一张本人卡，启动后会自动合并成一张",
+  "changelog": "「我的 → 我的数据」新增「选择忘记」：忘记那段（按时间段）/ 忘记那事（说一件事 AI 找出关联让你勾选确认后再删）；改人物名字会级联更新所有提到这个名字的卡片、纪要和长期记忆（只改字面）；App 启动后会自动把英文名/中文名各自一张本人卡合并成一张",
   "userFacingChangelog": "",
   "recentReleases": [
     {
@@ -305,9 +305,9 @@
       "version": 662,
       "versionName": "260514-2258",
       "userFacingChangelog": "",
-      "publishedAtMs": 1778771681000
+      "publishedAtMs": 1778771857000
     }
   ],
-  "publishedAtMs": 1778771681000,
+  "publishedAtMs": 1778771857000,
   "minSupported": 0
 }
