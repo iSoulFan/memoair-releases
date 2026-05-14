@@ -1,18 +1,12 @@
 {
-  "version": 662,
-  "versionName": "260514-2258",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v662/memoair-v662-260514-2258-slim.apk",
+  "version": 663,
+  "versionName": "260515-0026",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v663/memoair-v663-260515-0026-slim.apk",
   "sizeBytes": 35218996,
-  "sha256": "e02b52b6b781b8bab625f07705422d4f28dc7454fd70c020e95d147b92ea5841",
-  "changelog": "「我的 → 我的数据」新增「选择忘记」：忘记那段（按时间段）/ 忘记那事（说一件事 AI 找出关联让你勾选确认后再删）；改人物名字会级联更新所有提到这个名字的卡片、纪要和长期记忆（只改字面）；App 启动后会自动把英文名/中文名各自一张本人卡合并成一张",
+  "sha256": "8fa760b2c4d176b5b6f77bfe7ca093fbb495bd40a337750bfc346d56199e77d4",
+  "changelog": "如果你在登场过的人里看到自己有两张同名卡（中文名/英文名各一张），现在头像会跟上面「我的」那张共用同一张图、不再分裂；改人名级联升级——主名 + 所有别名都跑一遍，纪要里写哪个都能被替换，改完弹 toast 告诉你同步了多少处；暗色模式下分享图的米白色外框换成深灰，不再刺眼",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 612,
-      "versionName": "260513-0635",
-      "userFacingChangelog": "展开「那天的事」长按分享 → 分享整张长图（双线刊头 + 头图 + 全文）；折叠态拾梦相片长按 → 分享相片原图。",
-      "publishedAtMs": 1778625587000
-    },
     {
       "version": 613,
       "versionName": "260513-0643",
@@ -306,8 +300,14 @@
       "versionName": "260514-2258",
       "userFacingChangelog": "",
       "publishedAtMs": 1778771857000
+    },
+    {
+      "version": 663,
+      "versionName": "260515-0026",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778776221000
     }
   ],
-  "publishedAtMs": 1778771857000,
+  "publishedAtMs": 1778776221000,
   "minSupported": 0
 }
