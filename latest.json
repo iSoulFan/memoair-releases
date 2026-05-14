@@ -1,18 +1,12 @@
 {
-  "version": 660,
-  "versionName": "260514-1558",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v660/memoair-v660-260514-1558-slim.apk",
-  "sizeBytes": 35194326,
-  "sha256": "3989f9b7e6f231a3fa2ff2c21d9bad7bf2a9c0765ceb65bebd1be69c82e966cc",
-  "changelog": "人物卡底部「🪞 其实这就是我」入口的显示判断修了：之前在「登场过的人」里看到的同名重复卡里找不到这个入口，现在能正常合到本人卡了；金句区文案全部按句拆行展示，读起来更清气",
+  "version": 661,
+  "versionName": "260514-2031",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v661/memoair-v661-260514-2031-slim.apk",
+  "sizeBytes": 35202518,
+  "sha256": "e45f7b16be07c076858d2619e157075335ee702a81ed7b1f68066dd7e6deb311",
+  "changelog": "在「我的 → 我的数据 → 隐私规则」里加了「忘记这段」——选一段日期时间范围，可以一键把那段时间里的转写、长期记忆、时光卡片一起忘掉",
   "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 607,
-      "versionName": "260513-0118",
-      "userFacingChangelog": "桌面拍立得有新内容时浮条更优雅、字号更清楚；点开拍立得现在直接落到时光最新，不再绕路。",
-      "publishedAtMs": 1778606640000
-    },
     {
       "version": 608,
       "versionName": "260513-0137",
@@ -306,8 +300,14 @@
       "versionName": "260514-1558",
       "userFacingChangelog": "",
       "publishedAtMs": 1778745749000
+    },
+    {
+      "version": 661,
+      "versionName": "260514-2031",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1778761959000
     }
   ],
-  "publishedAtMs": 1778745749000,
+  "publishedAtMs": 1778761959000,
   "minSupported": 0
 }
