@@ -1,18 +1,12 @@
 {
-  "version": 670,
-  "versionName": "260515-1836",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v670/memoair-v670-260515-1836-slim.apk",
+  "version": 671,
+  "versionName": "260515-1923",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v671/memoair-v671-260515-1923-slim.apk",
   "sizeBytes": 35223092,
-  "sha256": "cc6b97f6647964b63c9ba03011d6da69dd646359bf82f9f23a954be54bcb5555",
-  "changelog": "OTA manifest 只走 GitHub 镜像——memomind.cloud 从客户端 manifest URL 列表里移除；APK 文件仍可放任意服务器，sha256 由 GitHub manifest 决定。publish_ota 加 asset 校验防上次那种静默 404",
-  "userFacingChangelog": "更新通道改走 GitHub 镜像更稳更快",
+  "sha256": "be898cb513ceaaf1b254bf86fba23c9cb885cc000d560947fe8d512f6e69610c",
+  "changelog": "备份导入加内容签名去重——除 id 外所有列归一化 hash，已存在的内容跳过，新内容剥 id 让 SQLite 自动分配；重叠备份/重复导入不再产生重复行 / 不撞主键",
+  "userFacingChangelog": "重复导入备份不再产生重复条目",
   "recentReleases": [
-    {
-      "version": 620,
-      "versionName": "260513-0812",
-      "userFacingChangelog": "AI / 主动推送消息长按 → 多了一个『展开聊聊』菜单项，AI 会用这条消息为引子展开讲一段；下面带的跳转 chip（卡片 / 纪要）现在也能长按 → 多选或删除整条消息。",
-      "publishedAtMs": 1778631302000
-    },
     {
       "version": 621,
       "versionName": "260513-0819",
@@ -306,8 +300,14 @@
       "versionName": "260515-1836",
       "userFacingChangelog": "更新通道改走 GitHub 镜像更稳更快",
       "publishedAtMs": 1778841697000
+    },
+    {
+      "version": 671,
+      "versionName": "260515-1923",
+      "userFacingChangelog": "重复导入备份不再产生重复条目",
+      "publishedAtMs": 1778844423000
     }
   ],
-  "publishedAtMs": 1778841697000,
+  "publishedAtMs": 1778844423000,
   "minSupported": 0
 }
