@@ -4,8 +4,8 @@
   "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v673/memoair-v673-260515-2052-slim.apk",
   "sizeBytes": 35227188,
   "sha256": "4317b050b4a739ad0e34fe1944c70862121b623a4b1021feb19bbd433a5eb762",
-  "changelog": "chat 里已经过期的新版到了OTA 提示卡片自动清理——LaunchedEffect 扫消息，解析第",
-  "userFacingChangelog": "N",
+  "changelog": "chat 里已经过期的 OTA 提示卡片自动清理——LaunchedEffect 扫消息，解析 第 N 版 ，N ≤ 当前 ITERATION 就 deleteChatMessage 整条消失",
+  "userFacingChangelog": "更新装完后 chat 里的更新提示卡片会自动消失",
   "recentReleases": [
     {
       "version": 623,
@@ -304,10 +304,10 @@
     {
       "version": 673,
       "versionName": "260515-2052",
-      "userFacingChangelog": "N",
-      "publishedAtMs": 1778850248000
+      "userFacingChangelog": "更新装完后 chat 里的更新提示卡片会自动消失",
+      "publishedAtMs": 1778850768000
     }
   ],
-  "publishedAtMs": 1778850248000,
+  "publishedAtMs": 1778850768000,
   "minSupported": 0
 }
