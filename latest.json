@@ -1,18 +1,12 @@
 {
-  "version": 668,
-  "versionName": "260515-1647",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v668/memoair-v668-260515-1647-slim.apk",
+  "version": 669,
+  "versionName": "260515-1737",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v669/memoair-v669-260515-1737-slim.apk",
   "sizeBytes": 35223092,
-  "sha256": "11e59fae21cb1d7ef01ee6200c47de46210b23cbe8a56b1802d6fe60546608bd",
-  "changelog": "自动备份加保留期：每次写完一份后扫目录，按 mtime 倒序删超出保留数的最老 zip；UI 加 3/7/14/30/全部 选择条，默认 7 份",
-  "userFacingChangelog": "自动备份不再无止境堆——可以设保留最近几份",
+  "sha256": "10134eff4808fec5386946f7ff64649b6c9c1711431e296f1c988e29d809dd98",
+  "changelog": "拾梦相片 fix：scene prompt 加禁带（图表/流程图/思维导图/决策树/概念框架/英文文字标签/抽象比喻）+ CardImageGen 后处理过滤命中禁词时重试一次，仍命中走凉茶兜底",
+  "userFacingChangelog": "拾梦相片不再画奇怪的思维导图了",
   "recentReleases": [
-    {
-      "version": 618,
-      "versionName": "260513-0754",
-      "userFacingChangelog": "长按录音胶囊后展开成圆角矩形面板的过程更稳更顺滑了。",
-      "publishedAtMs": 1778630146000
-    },
     {
       "version": 619,
       "versionName": "260513-0759",
@@ -306,8 +300,14 @@
       "versionName": "260515-1647",
       "userFacingChangelog": "自动备份不再无止境堆——可以设保留最近几份",
       "publishedAtMs": 1778835053000
+    },
+    {
+      "version": 669,
+      "versionName": "260515-1737",
+      "userFacingChangelog": "拾梦相片不再画奇怪的思维导图了",
+      "publishedAtMs": 1778838515000
     }
   ],
-  "publishedAtMs": 1778835053000,
+  "publishedAtMs": 1778838515000,
   "minSupported": 0
 }
