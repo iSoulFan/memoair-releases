@@ -1,18 +1,12 @@
 {
-  "version": 671,
-  "versionName": "260515-1923",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v671/memoair-v671-260515-1923-slim.apk",
+  "version": 672,
+  "versionName": "260515-2004",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v672/memoair-v672-260515-2004-slim.apk",
   "sizeBytes": 35223092,
-  "sha256": "be898cb513ceaaf1b254bf86fba23c9cb885cc000d560947fe8d512f6e69610c",
-  "changelog": "备份导入加内容签名去重——除 id 外所有列归一化 hash，已存在的内容跳过，新内容剥 id 让 SQLite 自动分配；重叠备份/重复导入不再产生重复行 / 不撞主键",
-  "userFacingChangelog": "重复导入备份不再产生重复条目",
+  "sha256": "033f85297d9675bac38d29bd600482bb40d63e3b1cb840a3efb52bd01e05c5d5",
+  "changelog": "备份恢复跨包路径修复——dump 时把 filesDir 绝对路径替换成占位符，restore 时换回当前包；老备份按正则兜底。这样从正式版备份恢复到测试版（或反过来）时拾梦相片图片不会丢",
+  "userFacingChangelog": "稳定性提升",
   "recentReleases": [
-    {
-      "version": 621,
-      "versionName": "260513-0819",
-      "userFacingChangelog": "关于页加了「急急国王」开关——默认关，开了每次打开 App 都强制拉一次更新。「清空所有本地数据」从关于里挪到「我的数据」分组下成独立 section；隐私规则里加上了「隐私是这样保护的」完整说明。",
-      "publishedAtMs": 1778631719000
-    },
     {
       "version": 622,
       "versionName": "260513-0824",
@@ -306,8 +300,14 @@
       "versionName": "260515-1923",
       "userFacingChangelog": "重复导入备份不再产生重复条目",
       "publishedAtMs": 1778844423000
+    },
+    {
+      "version": 672,
+      "versionName": "260515-2004",
+      "userFacingChangelog": "稳定性提升",
+      "publishedAtMs": 1778847661000
     }
   ],
-  "publishedAtMs": 1778844423000,
+  "publishedAtMs": 1778847661000,
   "minSupported": 0
 }
