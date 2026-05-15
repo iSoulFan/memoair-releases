@@ -1,18 +1,12 @@
 {
-  "version": 669,
-  "versionName": "260515-1737",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v669/memoair-v669-260515-1737-slim.apk",
+  "version": 670,
+  "versionName": "260515-1836",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v670/memoair-v670-260515-1836-slim.apk",
   "sizeBytes": 35223092,
-  "sha256": "10134eff4808fec5386946f7ff64649b6c9c1711431e296f1c988e29d809dd98",
-  "changelog": "拾梦相片 fix：scene prompt 加禁带（图表/流程图/思维导图/决策树/概念框架/英文文字标签/抽象比喻）+ CardImageGen 后处理过滤命中禁词时重试一次，仍命中走凉茶兜底",
-  "userFacingChangelog": "拾梦相片不再画奇怪的思维导图了",
+  "sha256": "cc6b97f6647964b63c9ba03011d6da69dd646359bf82f9f23a954be54bcb5555",
+  "changelog": "OTA manifest 只走 GitHub 镜像——memomind.cloud 从客户端 manifest URL 列表里移除；APK 文件仍可放任意服务器，sha256 由 GitHub manifest 决定。publish_ota 加 asset 校验防上次那种静默 404",
+  "userFacingChangelog": "更新通道改走 GitHub 镜像更稳更快",
   "recentReleases": [
-    {
-      "version": 619,
-      "versionName": "260513-0759",
-      "userFacingChangelog": "设置顶部新加「我的数据」分组，三件事合一起：① 隐私实况 — 看到本地存了多少 / 上云 0 字节；② 隐私规则 — 不录的话题 / 时段（原录音和隐私里的功能搬上来了）；③ 我的数据 · 导出 / 导入 — 摘要数字 + 友好按钮 + 一句承诺，原进阶",
-      "publishedAtMs": 1778630793000
-    },
     {
       "version": 620,
       "versionName": "260513-0812",
@@ -306,8 +300,14 @@
       "versionName": "260515-1737",
       "userFacingChangelog": "拾梦相片不再画奇怪的思维导图了",
       "publishedAtMs": 1778838515000
+    },
+    {
+      "version": 670,
+      "versionName": "260515-1836",
+      "userFacingChangelog": "更新通道改走 GitHub 镜像更稳更快",
+      "publishedAtMs": 1778841697000
     }
   ],
-  "publishedAtMs": 1778838515000,
+  "publishedAtMs": 1778841697000,
   "minSupported": 0
 }
