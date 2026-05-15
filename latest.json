@@ -1,18 +1,12 @@
 {
-  "version": 667,
-  "versionName": "260515-1633",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v667/memoair-v667-260515-1633-slim.apk",
-  "sizeBytes": 35218996,
-  "sha256": "2ce3e4c7ba4ca5af6dea68e1b977bd731ddb2fd76e366db0adb043aec31f71bf",
-  "changelog": "备份/恢复 fix：dump 加 __pref_long_keys__ sidecar 让 restore 精确区分 Int/Long；老备份按 key 名（_ms/_at/epoch/_until 等）兜底，避免 ClassCastException(Integer→Long)",
-  "userFacingChangelog": "稳定性提升",
+  "version": 668,
+  "versionName": "260515-1647",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v668/memoair-v668-260515-1647-slim.apk",
+  "sizeBytes": 35223092,
+  "sha256": "11e59fae21cb1d7ef01ee6200c47de46210b23cbe8a56b1802d6fe60546608bd",
+  "changelog": "自动备份加保留期：每次写完一份后扫目录，按 mtime 倒序删超出保留数的最老 zip；UI 加 3/7/14/30/全部 选择条，默认 7 份",
+  "userFacingChangelog": "自动备份不再无止境堆——可以设保留最近几份",
   "recentReleases": [
-    {
-      "version": 617,
-      "versionName": "260513-0745",
-      "userFacingChangelog": "长按录音胶囊：胶囊本体丝滑变成圆角矩形面板（灵动岛风格 morph + 轻震动），选 1/2/4 小时或今上午/今下午，倒计时到点自动恢复录音；胶囊上实时显示剩余时间。待办筛选多了「已完成」一档。",
-      "publishedAtMs": 1778629825000
-    },
     {
       "version": 618,
       "versionName": "260513-0754",
@@ -306,8 +300,14 @@
       "versionName": "260515-1633",
       "userFacingChangelog": "稳定性提升",
       "publishedAtMs": 1778834241000
+    },
+    {
+      "version": 668,
+      "versionName": "260515-1647",
+      "userFacingChangelog": "自动备份不再无止境堆——可以设保留最近几份",
+      "publishedAtMs": 1778835053000
     }
   ],
-  "publishedAtMs": 1778834241000,
+  "publishedAtMs": 1778835053000,
   "minSupported": 0
 }
