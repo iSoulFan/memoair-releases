@@ -1,18 +1,12 @@
 {
-  "version": 665,
-  "versionName": "260515-1449",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v665/memoair-v665-260515-1449-slim.apk",
+  "version": 666,
+  "versionName": "260515-1504",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v666/memoair-v666-260515-1504-slim.apk",
   "sizeBytes": 35218996,
-  "sha256": "ca7646c038294d1731cc2a2b40d53cab4874896fac3f11e2abcb1fe510ebd6c1",
-  "changelog": "opus-4-7 模型请求自动跳过 deprecated 的 temperature 字段",
-  "userFacingChangelog": "稳定性提升，细节打磨",
+  "sha256": "f8fea8e6a60ecabcf525c8bcf297b4ccc9c0fd7317c810113a399597989f7879",
+  "changelog": "修了上一版 opus-4.7 兼容判断错位（模型名写法是 4.7 不是 4-7）；备份扩到 13 类：人物档案、花费记录、声纹白名单、关系印象 / 互动 / 挂照、加密 BYOK 真值、主题 / 唤醒词 / 勿扰等设置一并入档",
+  "userFacingChangelog": "稳定性提升；备份功能更完整，换手机或重装能恢复更多东西",
   "recentReleases": [
-    {
-      "version": 615,
-      "versionName": "260513-0722",
-      "userFacingChangelog": "多图堆叠时长按分享——之前不论你切到第几张，分享出来的永远是最新那张；现在分享的就是当前你眼前的这张。",
-      "publishedAtMs": 1778628218000
-    },
     {
       "version": 616,
       "versionName": "260513-0728",
@@ -306,8 +300,14 @@
       "versionName": "260515-1449",
       "userFacingChangelog": "稳定性提升，细节打磨",
       "publishedAtMs": 1778827850000
+    },
+    {
+      "version": 666,
+      "versionName": "260515-1504",
+      "userFacingChangelog": "稳定性提升；备份功能更完整，换手机或重装能恢复更多东西",
+      "publishedAtMs": 1778829208000
     }
   ],
-  "publishedAtMs": 1778827850000,
+  "publishedAtMs": 1778829208000,
   "minSupported": 0
 }
