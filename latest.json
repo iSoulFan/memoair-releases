@@ -1,18 +1,12 @@
 {
-  "version": 672,
-  "versionName": "260515-2004",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v672/memoair-v672-260515-2004-slim.apk",
-  "sizeBytes": 35223092,
-  "sha256": "033f85297d9675bac38d29bd600482bb40d63e3b1cb840a3efb52bd01e05c5d5",
-  "changelog": "备份恢复跨包路径修复——dump 时把 filesDir 绝对路径替换成占位符，restore 时换回当前包；老备份按正则兜底。这样从正式版备份恢复到测试版（或反过来）时拾梦相片图片不会丢",
-  "userFacingChangelog": "稳定性提升",
+  "version": 673,
+  "versionName": "260515-2052",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v673/memoair-v673-260515-2052-slim.apk",
+  "sizeBytes": 35227188,
+  "sha256": "4317b050b4a739ad0e34fe1944c70862121b623a4b1021feb19bbd433a5eb762",
+  "changelog": "chat 里已经过期的新版到了OTA 提示卡片自动清理——LaunchedEffect 扫消息，解析第",
+  "userFacingChangelog": "N",
   "recentReleases": [
-    {
-      "version": 622,
-      "versionName": "260513-0824",
-      "userFacingChangelog": "下载进度条上面文案改了。",
-      "publishedAtMs": 1778631965000
-    },
     {
       "version": 623,
       "versionName": "260513-0827",
@@ -306,8 +300,14 @@
       "versionName": "260515-2004",
       "userFacingChangelog": "稳定性提升",
       "publishedAtMs": 1778847661000
+    },
+    {
+      "version": 673,
+      "versionName": "260515-2052",
+      "userFacingChangelog": "N",
+      "publishedAtMs": 1778850248000
     }
   ],
-  "publishedAtMs": 1778847661000,
+  "publishedAtMs": 1778850248000,
   "minSupported": 0
 }
