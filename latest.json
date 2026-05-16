@@ -1,18 +1,12 @@
 {
-  "version": 674,
-  "versionName": "260515-2140",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v674/memoair-v674-260515-2140-slim.apk",
+  "version": 675,
+  "versionName": "260516-1308",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v675/memoair-v675-260516-1308-slim.apk",
   "sizeBytes": 35227188,
-  "sha256": "74dba0530f9674294fcd50543b4ea18d592a8953118f58d57c7ec426e6289fb5",
-  "changelog": "备份导入完自动重启 App——头像 / 各种 Store 的 singleton 缓存失效，新数据立即生效",
+  "sha256": "b7bfa1776a2404e37567dbc2ec7a580819a231a014b62a87e3a3d2480f138691",
+  "changelog": "下架语音唤醒 tip（记得提醒 / 记得帮我 / 帮我记一下）——v658 已经隐藏设置入口，朋友看到 WhatsNew tip 指向不存在的开关入口很困惑；非 admin 一律不触发 WakeWordExecutor",
   "userFacingChangelog": "稳定性提升",
   "recentReleases": [
-    {
-      "version": 624,
-      "versionName": "260513-1025",
-      "userFacingChangelog": "长按胶囊设的「勿扰」改名「休息」，胶囊上写「休息 1h23m」，通知栏写「休息中 · 没在录音 · 剩 X 自动恢复」，菜单里「解除勿扰」改成「结束休息」。OTA 自动检查的「急急国王」收进了「自动检查」开关里面（开了才出现）。「我的数据 · 导出 / 导入」section 改名「我的数据」。",
-      "publishedAtMs": 1778639260000
-    },
     {
       "version": 625,
       "versionName": "260513-1034",
@@ -306,8 +300,14 @@
       "versionName": "260515-2140",
       "userFacingChangelog": "稳定性提升",
       "publishedAtMs": 1778852851000
+    },
+    {
+      "version": 675,
+      "versionName": "260516-1308",
+      "userFacingChangelog": "稳定性提升",
+      "publishedAtMs": 1778908398000
     }
   ],
-  "publishedAtMs": 1778852851000,
+  "publishedAtMs": 1778908398000,
   "minSupported": 0
 }
