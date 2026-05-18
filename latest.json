@@ -1,18 +1,12 @@
 {
-  "version": 676,
-  "versionName": "260516-1648",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v676/memoair-v676-260516-1648-slim.apk",
-  "sizeBytes": 35223092,
-  "sha256": "cd17df1b1687c754517653d8690dcdd7bbd4a76811e8388618a07ecefa180ad3",
-  "changelog": "DailyEcho 主动推送重新设计——3 段必有：原话引用 + 具体反应（我做了啥）+ 接下来动作；不再 ≤30 字哑谜，给完整能读懂的小消息",
-  "userFacingChangelog": "主动推送消息更完整能看懂",
+  "version": 677,
+  "versionName": "260519-0214",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v677/memoair-v677-260519-0214-slim.apk",
+  "sizeBytes": 35231284,
+  "sha256": "c673f831b33a198363ae9585c615c399dacb346d90aeb40d66a53d3811ce05c8",
+  "changelog": "v677：人物模块强化 - 共现追踪 / 分类 / 合并建议 / chat prompt 优化",
+  "userFacingChangelog": "记得这一版认人更准了——能看出哪些名字是同一个人、跟谁常一起出现、能给关系打分类",
   "recentReleases": [
-    {
-      "version": 626,
-      "versionName": "260513-1038",
-      "userFacingChangelog": "导文档前先看大小：文档（PDF/DOCX/TXT）超 30MB / 音频超 200MB 会直接告诉你「太大」并建议怎么压；不再傻乎乎硬解然后崩。同时开了 largeHeap 让能处理的文档更稳。",
-      "publishedAtMs": 1778639968000
-    },
     {
       "version": 627,
       "versionName": "260513-1123",
@@ -306,8 +300,14 @@
       "versionName": "260516-1648",
       "userFacingChangelog": "主动推送消息更完整能看懂",
       "publishedAtMs": 1778921612000
+    },
+    {
+      "version": 677,
+      "versionName": "260519-0214",
+      "userFacingChangelog": "记得这一版认人更准了——能看出哪些名字是同一个人、跟谁常一起出现、能给关系打分类",
+      "publishedAtMs": 1779128303000
     }
   ],
-  "publishedAtMs": 1778921612000,
+  "publishedAtMs": 1779128303000,
   "minSupported": 0
 }
