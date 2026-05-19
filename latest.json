@@ -1,18 +1,12 @@
 {
-  "version": 677,
-  "versionName": "260519-0214",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v677/memoair-v677-260519-0214-slim.apk",
-  "sizeBytes": 35231284,
-  "sha256": "c673f831b33a198363ae9585c615c399dacb346d90aeb40d66a53d3811ce05c8",
-  "changelog": "v677：人物模块强化 - 共现追踪 / 分类 / 合并建议 / chat prompt 优化",
-  "userFacingChangelog": "记得这一版认人更准了——能看出哪些名字是同一个人、跟谁常一起出现、能给关系打分类",
+  "version": 678,
+  "versionName": "260519-1041",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v678/memoair-v678-260519-1041-slim.apk",
+  "sizeBytes": 35243572,
+  "sha256": "6b93836c9e8c193849c2f99477fa344ea9c2dab500bd5963c6cc82c4c84c04c3",
+  "changelog": "v678：人物详情 UI v2 重构 - 10 section 压成 4 + 视觉化 + 中性色",
+  "userFacingChangelog": "记得的人物详情页换了一版——视觉化关系网 + 30 天能量环 + AI 摘要合并成一张大卡，页面没那么散了",
   "recentReleases": [
-    {
-      "version": 627,
-      "versionName": "260513-1123",
-      "userFacingChangelog": "「语音唤醒」上加了 BETA 标且默认关，开了再生效，描述里写明普通用户不建议开；「账本」tab 加 BETA 角标；「急急国王」下加灰色小字提示",
-      "publishedAtMs": 1778642748000
-    },
     {
       "version": 628,
       "versionName": "260513-1130",
@@ -306,8 +300,14 @@
       "versionName": "260519-0214",
       "userFacingChangelog": "记得这一版认人更准了——能看出哪些名字是同一个人、跟谁常一起出现、能给关系打分类",
       "publishedAtMs": 1779128303000
+    },
+    {
+      "version": 678,
+      "versionName": "260519-1041",
+      "userFacingChangelog": "记得的人物详情页换了一版——视觉化关系网 + 30 天能量环 + AI 摘要合并成一张大卡，页面没那么散了",
+      "publishedAtMs": 1779158650000
     }
   ],
-  "publishedAtMs": 1779128303000,
+  "publishedAtMs": 1779158650000,
   "minSupported": 0
 }
