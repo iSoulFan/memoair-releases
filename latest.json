@@ -1,18 +1,12 @@
 {
-  "version": 678,
-  "versionName": "260519-1041",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v678/memoair-v678-260519-1041-slim.apk",
-  "sizeBytes": 35243572,
-  "sha256": "6b93836c9e8c193849c2f99477fa344ea9c2dab500bd5963c6cc82c4c84c04c3",
-  "changelog": "v678：人物详情 UI v2 重构 - 10 section 压成 4 + 视觉化 + 中性色",
-  "userFacingChangelog": "记得的人物详情页换了一版——视觉化关系网 + 30 天能量环 + AI 摘要合并成一张大卡，页面没那么散了",
+  "version": 679,
+  "versionName": "260520-0713",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v679/memoair-v679-260520-0713-slim.apk",
+  "sizeBytes": 35247668,
+  "sha256": "06777fdec046b6d90246e25723c8216f3197b9816330f3b64b5f595553de2026",
+  "changelog": "v679：拾梦相片 widget 加显示模式选择",
+  "userFacingChangelog": "现在可以在设置→拾梦相片小部件里选『今日相片』还是『随机往日』；今日还没生成时也不会空着（自动回退到历史轮播）",
   "recentReleases": [
-    {
-      "version": 628,
-      "versionName": "260513-1130",
-      "userFacingChangelog": "桌面拍立得 widget 拉到 4×4 后内外圆角不和谐——现在 paper 圆角用 Android 系统的 inner_radius dimen，跟 launcher 外圆角自动同步缩放，任意尺寸都协调。OTA 设置里「自动检查 / 急急国王」的开关换成规范的小开关，跟其它设置统一。",
-      "publishedAtMs": 1778643116000
-    },
     {
       "version": 629,
       "versionName": "260513-1135",
@@ -306,8 +300,14 @@
       "versionName": "260519-1041",
       "userFacingChangelog": "记得的人物详情页换了一版——视觉化关系网 + 30 天能量环 + AI 摘要合并成一张大卡，页面没那么散了",
       "publishedAtMs": 1779158650000
+    },
+    {
+      "version": 679,
+      "versionName": "260520-0713",
+      "userFacingChangelog": "现在可以在设置→拾梦相片小部件里选『今日相片』还是『随机往日』；今日还没生成时也不会空着（自动回退到历史轮播）",
+      "publishedAtMs": 1779232955000
     }
   ],
-  "publishedAtMs": 1779158650000,
+  "publishedAtMs": 1779232955000,
   "minSupported": 0
 }
