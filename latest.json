@@ -1,18 +1,12 @@
 {
-  "version": 686,
-  "versionName": "260520-2307",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v686/memoair-v686-260520-2307-slim.apk",
-  "sizeBytes": 35251764,
-  "sha256": "01a3016e90569b939778965d7e4717c44c32626329802f5931e18fa85bcb9131",
-  "changelog": "v686：待办跨源去重",
-  "userFacingChangelog": "待办里『纪要待办』+『自由待办』之前各管各的去重，结果重复的『买菜』『今天买菜』『买点菜』都进了——现在按标题语义比一遍，重复的不再多记。",
+  "version": 687,
+  "versionName": "260521-0009",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v687/memoair-v687-260521-0009-slim.apk",
+  "sizeBytes": 35264212,
+  "sha256": "fde83a0fb1bfec04cbc9e974a45290185a87517eed5f25fa3c0114794a42871d",
+  "changelog": "v687：关系镜像 T1+T3 防张冠李戴——加声纹聚类区分多人在场 + 两步抽取（事实→镜像）+ evidence_quote 校验",
+  "userFacingChangelog": "关系镜像识人更准：先按声纹区分'同一个人 vs 不同的人'，再让 AI 把声纹簇对到具体名字；最后用原话核对，避免把别人说的话张冠李戴。",
   "recentReleases": [
-    {
-      "version": 636,
-      "versionName": "260513-1337",
-      "userFacingChangelog": "4×4 widget 圆角降一档：paper 36→28dp，photo 28→22dp，跟外圆角更贴。",
-      "publishedAtMs": 1778650705000
-    },
     {
       "version": 637,
       "versionName": "260513-1347",
@@ -306,8 +300,14 @@
       "versionName": "260520-2307",
       "userFacingChangelog": "待办里『纪要待办』+『自由待办』之前各管各的去重，结果重复的『买菜』『今天买菜』『买点菜』都进了——现在按标题语义比一遍，重复的不再多记。",
       "publishedAtMs": 1779289998000
+    },
+    {
+      "version": 687,
+      "versionName": "260521-0009",
+      "userFacingChangelog": "关系镜像识人更准：先按声纹区分'同一个人 vs 不同的人'，再让 AI 把声纹簇对到具体名字；最后用原话核对，避免把别人说的话张冠李戴。",
+      "publishedAtMs": 1779293600000
     }
   ],
-  "publishedAtMs": 1779289998000,
+  "publishedAtMs": 1779293600000,
   "minSupported": 0
 }
