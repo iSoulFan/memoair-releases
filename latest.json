@@ -1,18 +1,12 @@
 {
-  "version": 685,
-  "versionName": "260520-1412",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v685/memoair-v685-260520-1412-slim.apk",
-  "sizeBytes": 35247668,
-  "sha256": "91453d8bf93dc6d7f1fcaf54b1a7252f251c3b0af492f565117bf82b964133eb",
-  "changelog": "v685：还原拍立得边框 + 修水印根因 + 下线账本",
-  "userFacingChangelog": "记得这一版几个修：拍立得边框完整恢复；今天起新生成的图不再有右下角『AI 生成』水印（根因是序列化漏字段）；账本功能下线，AI 不再帮你记账。",
+  "version": 686,
+  "versionName": "260520-2307",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v686/memoair-v686-260520-2307-slim.apk",
+  "sizeBytes": 35251764,
+  "sha256": "01a3016e90569b939778965d7e4717c44c32626329802f5931e18fa85bcb9131",
+  "changelog": "v686：待办跨源去重",
+  "userFacingChangelog": "待办里『纪要待办』+『自由待办』之前各管各的去重，结果重复的『买菜』『今天买菜』『买点菜』都进了——现在按标题语义比一遍，重复的不再多记。",
   "recentReleases": [
-    {
-      "version": 635,
-      "versionName": "260513-1323",
-      "userFacingChangelog": "桌面 widget 列表里现在有两个：「拾梦相片 · 2×2」「拾梦相片 · 4×4」。各自圆角写死同心切外圆角——2×2 paper 22dp + photo 14dp；4×4 paper 36dp + photo 28dp。加上去后大小锁定不能拉。",
-      "publishedAtMs": 1778649925000
-    },
     {
       "version": 636,
       "versionName": "260513-1337",
@@ -306,8 +300,14 @@
       "versionName": "260520-1412",
       "userFacingChangelog": "记得这一版几个修：拍立得边框完整恢复；今天起新生成的图不再有右下角『AI 生成』水印（根因是序列化漏字段）；账本功能下线，AI 不再帮你记账。",
       "publishedAtMs": 1779257883000
+    },
+    {
+      "version": 686,
+      "versionName": "260520-2307",
+      "userFacingChangelog": "待办里『纪要待办』+『自由待办』之前各管各的去重，结果重复的『买菜』『今天买菜』『买点菜』都进了——现在按标题语义比一遍，重复的不再多记。",
+      "publishedAtMs": 1779289998000
     }
   ],
-  "publishedAtMs": 1779257883000,
+  "publishedAtMs": 1779289998000,
   "minSupported": 0
 }
