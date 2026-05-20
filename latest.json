@@ -1,18 +1,12 @@
 {
-  "version": 679,
-  "versionName": "260520-0713",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v679/memoair-v679-260520-0713-slim.apk",
+  "version": 680,
+  "versionName": "260520-0854",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v680/memoair-v680-260520-0854-slim.apk",
   "sizeBytes": 35247668,
-  "sha256": "06777fdec046b6d90246e25723c8216f3197b9816330f3b64b5f595553de2026",
-  "changelog": "v679：拾梦相片 widget 加显示模式选择",
-  "userFacingChangelog": "现在可以在设置→拾梦相片小部件里选『今日相片』还是『随机往日』；今日还没生成时也不会空着（自动回退到历史轮播）",
+  "sha256": "b87dee5d5277f09742cd82d352dff88f2142f9db9802e44a5dddead786009afc",
+  "changelog": "v680：拾梦相片『再拍一张』额度 3 → 2",
+  "userFacingChangelog": "每张拾梦相片现在能再拍 2 次（之前是 3 次）。",
   "recentReleases": [
-    {
-      "version": 629,
-      "versionName": "260513-1135",
-      "userFacingChangelog": "memomind 服务器之前磁盘满了导致 scp 推送失败，OTA 主通道一直拿不到新 manifest——你看到的是旧版的「最新」。现在清了 12GB，主通道恢复。",
-      "publishedAtMs": 1778643605000
-    },
     {
       "version": 630,
       "versionName": "260513-1142",
@@ -306,8 +300,14 @@
       "versionName": "260520-0713",
       "userFacingChangelog": "现在可以在设置→拾梦相片小部件里选『今日相片』还是『随机往日』；今日还没生成时也不会空着（自动回退到历史轮播）",
       "publishedAtMs": 1779232955000
+    },
+    {
+      "version": 680,
+      "versionName": "260520-0854",
+      "userFacingChangelog": "每张拾梦相片现在能再拍 2 次（之前是 3 次）。",
+      "publishedAtMs": 1779238782000
     }
   ],
-  "publishedAtMs": 1779232955000,
+  "publishedAtMs": 1779238782000,
   "minSupported": 0
 }
