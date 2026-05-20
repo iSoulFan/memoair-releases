@@ -1,18 +1,12 @@
 {
-  "version": 680,
-  "versionName": "260520-0854",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v680/memoair-v680-260520-0854-slim.apk",
+  "version": 681,
+  "versionName": "260520-1020",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v681/memoair-v681-260520-1020-slim.apk",
   "sizeBytes": 35247668,
-  "sha256": "b87dee5d5277f09742cd82d352dff88f2142f9db9802e44a5dddead786009afc",
-  "changelog": "v680：拾梦相片『再拍一张』额度 3 → 2",
-  "userFacingChangelog": "每张拾梦相片现在能再拍 2 次（之前是 3 次）。",
+  "sha256": "78c72160da1b3a88f8b836890c321560adebc1676f947c88c3509d578aed79fd",
+  "changelog": "v681：人名同音异字 post-process 拉回标准名",
+  "userFacingChangelog": "卡片 / 会议纪要里如果出现近似名（徐博/徐波），现在会自动校准成已登场的标准名。",
   "recentReleases": [
-    {
-      "version": 630,
-      "versionName": "260513-1142",
-      "userFacingChangelog": "桌面 widget 照片本身保持方形，叠一层米色相框遮罩把四个角盖成圆角——圆角值跟 launcher 外圆角同步缩放，任意尺寸内外都协调。",
-      "publishedAtMs": 1778643865000
-    },
     {
       "version": 631,
       "versionName": "260513-1154",
@@ -306,8 +300,14 @@
       "versionName": "260520-0854",
       "userFacingChangelog": "每张拾梦相片现在能再拍 2 次（之前是 3 次）。",
       "publishedAtMs": 1779238782000
+    },
+    {
+      "version": 681,
+      "versionName": "260520-1020",
+      "userFacingChangelog": "卡片 / 会议纪要里如果出现近似名（徐博/徐波），现在会自动校准成已登场的标准名。",
+      "publishedAtMs": 1779246802000
     }
   ],
-  "publishedAtMs": 1779238782000,
+  "publishedAtMs": 1779246802000,
   "minSupported": 0
 }
