@@ -1,18 +1,12 @@
 {
-  "version": 687,
-  "versionName": "260521-0009",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v687/memoair-v687-260521-0009-slim.apk",
+  "version": 688,
+  "versionName": "260521-0753",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v688/memoair-v688-260521-0753-slim.apk",
   "sizeBytes": 35264212,
-  "sha256": "fde83a0fb1bfec04cbc9e974a45290185a87517eed5f25fa3c0114794a42871d",
-  "changelog": "v687：关系镜像 T1+T3 防张冠李戴——加声纹聚类区分多人在场 + 两步抽取（事实→镜像）+ evidence_quote 校验",
-  "userFacingChangelog": "关系镜像识人更准：先按声纹区分'同一个人 vs 不同的人'，再让 AI 把声纹簇对到具体名字；最后用原话核对，避免把别人说的话张冠李戴。",
+  "sha256": "cdc00fd84f419d120a7ddebdeec17ecca2d47fb8663c2f8fb0dcccac793c2a0c",
+  "changelog": "v688：人物合并保留头像 + 拾梦相片图片生成失败时自动重试一次",
+  "userFacingChangelog": "1. 合并两个人物时，会自动保留其中已有头像的那个头像；2. 拾梦相片图片生成偶发抖动时自动重试一次，少出现『有相框没有图』的情况。",
   "recentReleases": [
-    {
-      "version": 637,
-      "versionName": "260513-1347",
-      "userFacingChangelog": "圆角按几何公式 photo_R = paper_R − padding 算，paper 和 photo 圆弧永远共圆心；4×4 paper 圆角再降一档跟 2×2 一致（28→22dp），4×4 widget 整体大、相对外圆角看起来就更方一点。",
-      "publishedAtMs": 1778651302000
-    },
     {
       "version": 638,
       "versionName": "260513-2232",
@@ -306,8 +300,14 @@
       "versionName": "260521-0009",
       "userFacingChangelog": "关系镜像识人更准：先按声纹区分'同一个人 vs 不同的人'，再让 AI 把声纹簇对到具体名字；最后用原话核对，避免把别人说的话张冠李戴。",
       "publishedAtMs": 1779293600000
+    },
+    {
+      "version": 688,
+      "versionName": "260521-0753",
+      "userFacingChangelog": "1. 合并两个人物时，会自动保留其中已有头像的那个头像；2. 拾梦相片图片生成偶发抖动时自动重试一次，少出现『有相框没有图』的情况。",
+      "publishedAtMs": 1779321474000
     }
   ],
-  "publishedAtMs": 1779293600000,
+  "publishedAtMs": 1779321474000,
   "minSupported": 0
 }
