@@ -1,18 +1,12 @@
 {
-  "version": 683,
-  "versionName": "260520-1228",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v683/memoair-v683-260520-1228-slim.apk",
+  "version": 684,
+  "versionName": "260520-1258",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v684/memoair-v684-260520-1258-slim.apk",
   "sizeBytes": 35247668,
-  "sha256": "daa017d95002b874384f568991eec8237ad3d9e62d9c3379c48a81460e714f85",
-  "changelog": "v683：开机向导后不轰炸 tip + 锁竖屏 + widget 设置文案精简",
-  "userFacingChangelog": "记得这一版有几个静悄悄的修：刚装完用的时候不会再给你弹一堆『新功能介绍』；屏幕只允许竖屏；桌面小部件设置里的解释更短。",
+  "sha256": "41296b0b7f27238025a0df86064baad4f350edcdc76377a283f7aac72c8e0813",
+  "changelog": "v684：拾梦相片『AI 生成』水印在 App 内隐藏",
+  "userFacingChangelog": "App 里看不到右下角的『AI 生成』小水印了；长按下载原图 / 折叠态分享出去的图仍带——保留来源标识。",
   "recentReleases": [
-    {
-      "version": 633,
-      "versionName": "260513-1204",
-      "userFacingChangelog": "桌面 widget 拍立得圆角按 widget 实际宽度动态算（2×2 小圆角 / 4×4 大圆角），任意尺寸都跟系统外圆角协调；卡片隐私锁印章换成衬线斜体「private」纯文字（待办 / 纪要这种窄卡只一行字）；英语学习生成的单词不再教 remind 这种基础词，转向 idiom / phrasal verb / 地道升级（用户说我提醒他会教 give heads-up 不是 remind）。",
-      "publishedAtMs": 1778645242000
-    },
     {
       "version": 634,
       "versionName": "260513-1215",
@@ -306,8 +300,14 @@
       "versionName": "260520-1228",
       "userFacingChangelog": "记得这一版有几个静悄悄的修：刚装完用的时候不会再给你弹一堆『新功能介绍』；屏幕只允许竖屏；桌面小部件设置里的解释更短。",
       "publishedAtMs": 1779251781000
+    },
+    {
+      "version": 684,
+      "versionName": "260520-1258",
+      "userFacingChangelog": "App 里看不到右下角的『AI 生成』小水印了；长按下载原图 / 折叠态分享出去的图仍带——保留来源标识。",
+      "publishedAtMs": 1779253720000
     }
   ],
-  "publishedAtMs": 1779251781000,
+  "publishedAtMs": 1779253720000,
   "minSupported": 0
 }
