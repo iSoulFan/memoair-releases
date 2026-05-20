@@ -1,18 +1,12 @@
 {
-  "version": 681,
-  "versionName": "260520-1020",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v681/memoair-v681-260520-1020-slim.apk",
+  "version": 683,
+  "versionName": "260520-1228",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v683/memoair-v683-260520-1228-slim.apk",
   "sizeBytes": 35247668,
-  "sha256": "78c72160da1b3a88f8b836890c321560adebc1676f947c88c3509d578aed79fd",
-  "changelog": "v681：人名同音异字 post-process 拉回标准名",
-  "userFacingChangelog": "卡片 / 会议纪要里如果出现近似名（徐博/徐波），现在会自动校准成已登场的标准名。",
+  "sha256": "daa017d95002b874384f568991eec8237ad3d9e62d9c3379c48a81460e714f85",
+  "changelog": "v683：开机向导后不轰炸 tip + 锁竖屏 + widget 设置文案精简",
+  "userFacingChangelog": "记得这一版有几个静悄悄的修：刚装完用的时候不会再给你弹一堆『新功能介绍』；屏幕只允许竖屏；桌面小部件设置里的解释更短。",
   "recentReleases": [
-    {
-      "version": 631,
-      "versionName": "260513-1154",
-      "userFacingChangelog": "v630 widget xml 里用了 RemoteViews 不允许的 <View> 元素 + clipToOutline 属性，导致桌面 widget 载入报错。换成允许的 FrameLayout 容器，圆角遮罩效果不变。",
-      "publishedAtMs": 1778644602000
-    },
     {
       "version": 633,
       "versionName": "260513-1204",
@@ -306,8 +300,14 @@
       "versionName": "260520-1020",
       "userFacingChangelog": "卡片 / 会议纪要里如果出现近似名（徐博/徐波），现在会自动校准成已登场的标准名。",
       "publishedAtMs": 1779246802000
+    },
+    {
+      "version": 683,
+      "versionName": "260520-1228",
+      "userFacingChangelog": "记得这一版有几个静悄悄的修：刚装完用的时候不会再给你弹一堆『新功能介绍』；屏幕只允许竖屏；桌面小部件设置里的解释更短。",
+      "publishedAtMs": 1779251781000
     }
   ],
-  "publishedAtMs": 1779246802000,
+  "publishedAtMs": 1779251781000,
   "minSupported": 0
 }
