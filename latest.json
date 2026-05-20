@@ -1,18 +1,12 @@
 {
-  "version": 684,
-  "versionName": "260520-1258",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v684/memoair-v684-260520-1258-slim.apk",
+  "version": 685,
+  "versionName": "260520-1412",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v685/memoair-v685-260520-1412-slim.apk",
   "sizeBytes": 35247668,
-  "sha256": "41296b0b7f27238025a0df86064baad4f350edcdc76377a283f7aac72c8e0813",
-  "changelog": "v684：拾梦相片『AI 生成』水印在 App 内隐藏",
-  "userFacingChangelog": "App 里看不到右下角的『AI 生成』小水印了；长按下载原图 / 折叠态分享出去的图仍带——保留来源标识。",
+  "sha256": "91453d8bf93dc6d7f1fcaf54b1a7252f251c3b0af492f565117bf82b964133eb",
+  "changelog": "v685：还原拍立得边框 + 修水印根因 + 下线账本",
+  "userFacingChangelog": "记得这一版几个修：拍立得边框完整恢复；今天起新生成的图不再有右下角『AI 生成』水印（根因是序列化漏字段）；账本功能下线，AI 不再帮你记账。",
   "recentReleases": [
-    {
-      "version": 634,
-      "versionName": "260513-1215",
-      "userFacingChangelog": "桌面拍立得不再分层圆角不和谐——整张相纸 + 内嵌照片合成成一张 bitmap，paper 圆角和 photo 圆角都按 widget 实际大小算（paper 跟系统外圆角接近、photo 略小让嵌套感出来）。widget 加上去后大小锁定不能拉，避免 resize 时圆角错位。",
-      "publishedAtMs": 1778645827000
-    },
     {
       "version": 635,
       "versionName": "260513-1323",
@@ -306,8 +300,14 @@
       "versionName": "260520-1258",
       "userFacingChangelog": "App 里看不到右下角的『AI 生成』小水印了；长按下载原图 / 折叠态分享出去的图仍带——保留来源标识。",
       "publishedAtMs": 1779253720000
+    },
+    {
+      "version": 685,
+      "versionName": "260520-1412",
+      "userFacingChangelog": "记得这一版几个修：拍立得边框完整恢复；今天起新生成的图不再有右下角『AI 生成』水印（根因是序列化漏字段）；账本功能下线，AI 不再帮你记账。",
+      "publishedAtMs": 1779257883000
     }
   ],
-  "publishedAtMs": 1779253720000,
+  "publishedAtMs": 1779257883000,
   "minSupported": 0
 }
