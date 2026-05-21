@@ -1,18 +1,12 @@
 {
-  "version": 690,
-  "versionName": "260521-0832",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v690/memoair-v690-260521-0832-slim.apk",
+  "version": 691,
+  "versionName": "260521-1047",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v691/memoair-v691-260521-1047-slim.apk",
   "sizeBytes": 35264212,
-  "sha256": "836f0e1263c9cfea96aefcd7d8806b63a763f18c84b5578907bcb4aa07e99425",
-  "changelog": "v690：豆包文生图接口 size 阈值升级——1664×936 被新最小值 3.69M 像素拒，换成 2560×1440（同 16:9）",
-  "userFacingChangelog": "拾梦相片图片生成接口今天升级最小图像尺寸，旧设置直接被拒，已切换到符合新阈值的同比例尺寸。",
+  "sha256": "8b5c2e37a677ff04e795a9eb36f9f0c2e6efe0df3fe904822dec16369a451d2d",
+  "changelog": "v691：Timeline 滑动 + 录音功耗优化——O(N²) 卡片查找 → Map / Polaroid LRU 24→48 / 背景层 half-res / 声纹短句 1s 阈值",
+  "userFacingChangelog": "App 整体跑得更顺：时光列表滑动不再掉帧，长时间录音电池更耐用、机身不发烫。",
   "recentReleases": [
-    {
-      "version": 640,
-      "versionName": "260514-0130",
-      "userFacingChangelog": "",
-      "publishedAtMs": 1778694272000
-    },
     {
       "version": 641,
       "versionName": "260514-0157",
@@ -306,8 +300,14 @@
       "versionName": "260521-0832",
       "userFacingChangelog": "拾梦相片图片生成接口今天升级最小图像尺寸，旧设置直接被拒，已切换到符合新阈值的同比例尺寸。",
       "publishedAtMs": 1779323624000
+    },
+    {
+      "version": 691,
+      "versionName": "260521-1047",
+      "userFacingChangelog": "App 整体跑得更顺：时光列表滑动不再掉帧，长时间录音电池更耐用、机身不发烫。",
+      "publishedAtMs": 1779331761000
     }
   ],
-  "publishedAtMs": 1779323624000,
+  "publishedAtMs": 1779331761000,
   "minSupported": 0
 }
