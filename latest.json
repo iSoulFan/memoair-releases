@@ -1,18 +1,12 @@
 {
-  "version": 689,
-  "versionName": "260521-0815",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v689/memoair-v689-260521-0815-slim.apk",
+  "version": 690,
+  "versionName": "260521-0832",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v690/memoair-v690-260521-0832-slim.apk",
   "sizeBytes": 35264212,
-  "sha256": "c303000094188af832eeb42b1e2f0e1d7e831e1bff81c1351f97fa4e6eb32c59",
-  "changelog": "v689：拾梦相片『再拍一张』失败不再扣额度——之前生成失败照样扣 1 次额度，现在改成只有真的拍到新图才扣",
-  "userFacingChangelog": "拾梦相片『再拍一张』失败不再白扣一次额度——之前生成失败也照扣，现在只有真的拍到新图才扣。",
+  "sha256": "836f0e1263c9cfea96aefcd7d8806b63a763f18c84b5578907bcb4aa07e99425",
+  "changelog": "v690：豆包文生图接口 size 阈值升级——1664×936 被新最小值 3.69M 像素拒，换成 2560×1440（同 16:9）",
+  "userFacingChangelog": "拾梦相片图片生成接口今天升级最小图像尺寸，旧设置直接被拒，已切换到符合新阈值的同比例尺寸。",
   "recentReleases": [
-    {
-      "version": 639,
-      "versionName": "260514-0041",
-      "userFacingChangelog": "",
-      "publishedAtMs": 1778690548000
-    },
     {
       "version": 640,
       "versionName": "260514-0130",
@@ -306,8 +300,14 @@
       "versionName": "260521-0815",
       "userFacingChangelog": "拾梦相片『再拍一张』失败不再白扣一次额度——之前生成失败也照扣，现在只有真的拍到新图才扣。",
       "publishedAtMs": 1779322768000
+    },
+    {
+      "version": 690,
+      "versionName": "260521-0832",
+      "userFacingChangelog": "拾梦相片图片生成接口今天升级最小图像尺寸，旧设置直接被拒，已切换到符合新阈值的同比例尺寸。",
+      "publishedAtMs": 1779323624000
     }
   ],
-  "publishedAtMs": 1779322768000,
+  "publishedAtMs": 1779323624000,
   "minSupported": 0
 }
