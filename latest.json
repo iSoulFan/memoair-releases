@@ -1,18 +1,12 @@
 {
-  "version": 692,
-  "versionName": "260521-1058",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v692/memoair-v692-260521-1058-slim.apk",
+  "version": 693,
+  "versionName": "260521-1116",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v693/memoair-v693-260521-1116-slim.apk",
   "sizeBytes": 35272404,
-  "sha256": "2543e3ff6273f7ef40e6d54cea9875503fb635a77c75cc162c186084027e7546",
-  "changelog": "v692：本机存储清理工具——隐私统计加'立刻清理一次'按钮，清卡死音频段/老语义索引/老声纹/相片孤儿 + SQLite VACUUM",
-  "userFacingChangelog": "新增本机存储清理工具：设置 → 隐私统计里多了'立刻清理一次'按钮，安全清掉用不上的索引数据和卡死的临时文件，跑半年的 App 也能瘦回去。卡片、转写文本、记忆、人物全保留。",
+  "sha256": "c185d1ada8136b8b349c2410c0cd719afbc8da506439791079751be98016609f",
+  "changelog": "v693：DataJanitor 改成每周自动后台跑——隐私统计只显示'上次清理：释放 X MB · N 天前'信任痕迹，撤掉手动按钮",
+  "userFacingChangelog": "本机存储自动清理：每周后台跑一次，电量不低 + 设备闲置时才触发。设置 → 隐私统计 多了一行『上次自动清理』给你看跑过没。",
   "recentReleases": [
-    {
-      "version": 642,
-      "versionName": "260514-0223",
-      "userFacingChangelog": "",
-      "publishedAtMs": 1778696778000
-    },
     {
       "version": 643,
       "versionName": "260514-0232",
@@ -306,8 +300,14 @@
       "versionName": "260521-1058",
       "userFacingChangelog": "新增本机存储清理工具：设置 → 隐私统计里多了'立刻清理一次'按钮，安全清掉用不上的索引数据和卡死的临时文件，跑半年的 App 也能瘦回去。卡片、转写文本、记忆、人物全保留。",
       "publishedAtMs": 1779332541000
+    },
+    {
+      "version": 693,
+      "versionName": "260521-1116",
+      "userFacingChangelog": "本机存储自动清理：每周后台跑一次，电量不低 + 设备闲置时才触发。设置 → 隐私统计 多了一行『上次自动清理』给你看跑过没。",
+      "publishedAtMs": 1779333488000
     }
   ],
-  "publishedAtMs": 1779332541000,
+  "publishedAtMs": 1779333488000,
   "minSupported": 0
 }
