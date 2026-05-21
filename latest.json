@@ -1,18 +1,12 @@
 {
-  "version": 688,
-  "versionName": "260521-0753",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v688/memoair-v688-260521-0753-slim.apk",
+  "version": 689,
+  "versionName": "260521-0815",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v689/memoair-v689-260521-0815-slim.apk",
   "sizeBytes": 35264212,
-  "sha256": "cdc00fd84f419d120a7ddebdeec17ecca2d47fb8663c2f8fb0dcccac793c2a0c",
-  "changelog": "v688：人物合并保留头像 + 拾梦相片图片生成失败时自动重试一次",
-  "userFacingChangelog": "1. 合并两个人物时，会自动保留其中已有头像的那个头像；2. 拾梦相片图片生成偶发抖动时自动重试一次，少出现『有相框没有图』的情况。",
+  "sha256": "c303000094188af832eeb42b1e2f0e1d7e831e1bff81c1351f97fa4e6eb32c59",
+  "changelog": "v689：拾梦相片『再拍一张』失败不再扣额度——之前生成失败照样扣 1 次额度，现在改成只有真的拍到新图才扣",
+  "userFacingChangelog": "拾梦相片『再拍一张』失败不再白扣一次额度——之前生成失败也照扣，现在只有真的拍到新图才扣。",
   "recentReleases": [
-    {
-      "version": 638,
-      "versionName": "260513-2232",
-      "userFacingChangelog": "",
-      "publishedAtMs": 1778683821000
-    },
     {
       "version": 639,
       "versionName": "260514-0041",
@@ -306,8 +300,14 @@
       "versionName": "260521-0753",
       "userFacingChangelog": "1. 合并两个人物时，会自动保留其中已有头像的那个头像；2. 拾梦相片图片生成偶发抖动时自动重试一次，少出现『有相框没有图』的情况。",
       "publishedAtMs": 1779321474000
+    },
+    {
+      "version": 689,
+      "versionName": "260521-0815",
+      "userFacingChangelog": "拾梦相片『再拍一张』失败不再白扣一次额度——之前生成失败也照扣，现在只有真的拍到新图才扣。",
+      "publishedAtMs": 1779322768000
     }
   ],
-  "publishedAtMs": 1779321474000,
+  "publishedAtMs": 1779322768000,
   "minSupported": 0
 }
