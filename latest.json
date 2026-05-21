@@ -1,18 +1,12 @@
 {
-  "version": 693,
-  "versionName": "260521-1116",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v693/memoair-v693-260521-1116-slim.apk",
+  "version": 694,
+  "versionName": "260521-1148",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v694/memoair-v694-260521-1148-slim.apk",
   "sizeBytes": 35272404,
-  "sha256": "c185d1ada8136b8b349c2410c0cd719afbc8da506439791079751be98016609f",
-  "changelog": "v693：DataJanitor 改成每周自动后台跑——隐私统计只显示'上次清理：释放 X MB · N 天前'信任痕迹，撤掉手动按钮",
-  "userFacingChangelog": "本机存储自动清理：每周后台跑一次，电量不低 + 设备闲置时才触发。设置 → 隐私统计 多了一行『上次自动清理』给你看跑过没。",
+  "sha256": "acb6ada60bacd9794da84427878068ef7d6a7a6b53017a220960c951fea31004",
+  "changelog": "v694：simplify code review fix——3 个潜在 bug 修复 + 关系镜像 normalize 性能 4 → 1 次 DB 查询 + 删 70 行重复代码",
+  "userFacingChangelog": "代码内部清理：关系镜像生成更快、人物合并保留头像更可靠、卡片清理避免误删活图。用户面无明显变化。",
   "recentReleases": [
-    {
-      "version": 643,
-      "versionName": "260514-0232",
-      "userFacingChangelog": "",
-      "publishedAtMs": 1778697360000
-    },
     {
       "version": 644,
       "versionName": "260514-0238",
@@ -306,8 +300,14 @@
       "versionName": "260521-1116",
       "userFacingChangelog": "本机存储自动清理：每周后台跑一次，电量不低 + 设备闲置时才触发。设置 → 隐私统计 多了一行『上次自动清理』给你看跑过没。",
       "publishedAtMs": 1779333488000
+    },
+    {
+      "version": 694,
+      "versionName": "260521-1148",
+      "userFacingChangelog": "代码内部清理：关系镜像生成更快、人物合并保留头像更可靠、卡片清理避免误删活图。用户面无明显变化。",
+      "publishedAtMs": 1779335413000
     }
   ],
-  "publishedAtMs": 1779333488000,
+  "publishedAtMs": 1779335413000,
   "minSupported": 0
 }
