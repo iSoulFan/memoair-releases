@@ -1,18 +1,12 @@
 {
-  "version": 694,
-  "versionName": "260521-1148",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v694/memoair-v694-260521-1148-slim.apk",
+  "version": 695,
+  "versionName": "260521-1838",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v695/memoair-v695-260521-1838-slim.apk",
   "sizeBytes": 35272404,
-  "sha256": "acb6ada60bacd9794da84427878068ef7d6a7a6b53017a220960c951fea31004",
-  "changelog": "v694：simplify code review fix——3 个潜在 bug 修复 + 关系镜像 normalize 性能 4 → 1 次 DB 查询 + 删 70 行重复代码",
-  "userFacingChangelog": "代码内部清理：关系镜像生成更快、人物合并保留头像更可靠、卡片清理避免误删活图。用户面无明显变化。",
+  "sha256": "6e7ee3bd812abed6b6b5624cad997514f2041b347e35113311fc3e6e108c2d93",
+  "changelog": "v695：微光时刻视角铁律修复 + 老用户声纹阈值 0.35→0.30 一次性迁移",
+  "userFacingChangelog": "微光时刻里『你』视角错乱修了：现在严格指你本人，咖啡师/家人/路人一律用名字或第三人称。声纹判定默认阈值放宽了一点（0.35→0.30），老用户也自动调过来了。",
   "recentReleases": [
-    {
-      "version": 644,
-      "versionName": "260514-0238",
-      "userFacingChangelog": "",
-      "publishedAtMs": 1778697758000
-    },
     {
       "version": 645,
       "versionName": "260514-0324",
@@ -306,8 +300,14 @@
       "versionName": "260521-1148",
       "userFacingChangelog": "代码内部清理：关系镜像生成更快、人物合并保留头像更可靠、卡片清理避免误删活图。用户面无明显变化。",
       "publishedAtMs": 1779335413000
+    },
+    {
+      "version": 695,
+      "versionName": "260521-1838",
+      "userFacingChangelog": "微光时刻里『你』视角错乱修了：现在严格指你本人，咖啡师/家人/路人一律用名字或第三人称。声纹判定默认阈值放宽了一点（0.35→0.30），老用户也自动调过来了。",
+      "publishedAtMs": 1779360184000
     }
   ],
-  "publishedAtMs": 1779335413000,
+  "publishedAtMs": 1779360184000,
   "minSupported": 0
 }
