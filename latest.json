@@ -1,18 +1,12 @@
 {
-  "version": 691,
-  "versionName": "260521-1047",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v691/memoair-v691-260521-1047-slim.apk",
-  "sizeBytes": 35264212,
-  "sha256": "8b5c2e37a677ff04e795a9eb36f9f0c2e6efe0df3fe904822dec16369a451d2d",
-  "changelog": "v691：Timeline 滑动 + 录音功耗优化——O(N²) 卡片查找 → Map / Polaroid LRU 24→48 / 背景层 half-res / 声纹短句 1s 阈值",
-  "userFacingChangelog": "App 整体跑得更顺：时光列表滑动不再掉帧，长时间录音电池更耐用、机身不发烫。",
+  "version": 692,
+  "versionName": "260521-1058",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v692/memoair-v692-260521-1058-slim.apk",
+  "sizeBytes": 35272404,
+  "sha256": "2543e3ff6273f7ef40e6d54cea9875503fb635a77c75cc162c186084027e7546",
+  "changelog": "v692：本机存储清理工具——隐私统计加'立刻清理一次'按钮，清卡死音频段/老语义索引/老声纹/相片孤儿 + SQLite VACUUM",
+  "userFacingChangelog": "新增本机存储清理工具：设置 → 隐私统计里多了'立刻清理一次'按钮，安全清掉用不上的索引数据和卡死的临时文件，跑半年的 App 也能瘦回去。卡片、转写文本、记忆、人物全保留。",
   "recentReleases": [
-    {
-      "version": 641,
-      "versionName": "260514-0157",
-      "userFacingChangelog": "",
-      "publishedAtMs": 1778696254000
-    },
     {
       "version": 642,
       "versionName": "260514-0223",
@@ -306,8 +300,14 @@
       "versionName": "260521-1047",
       "userFacingChangelog": "App 整体跑得更顺：时光列表滑动不再掉帧，长时间录音电池更耐用、机身不发烫。",
       "publishedAtMs": 1779331761000
+    },
+    {
+      "version": 692,
+      "versionName": "260521-1058",
+      "userFacingChangelog": "新增本机存储清理工具：设置 → 隐私统计里多了'立刻清理一次'按钮，安全清掉用不上的索引数据和卡死的临时文件，跑半年的 App 也能瘦回去。卡片、转写文本、记忆、人物全保留。",
+      "publishedAtMs": 1779332541000
     }
   ],
-  "publishedAtMs": 1779331761000,
+  "publishedAtMs": 1779332541000,
   "minSupported": 0
 }
