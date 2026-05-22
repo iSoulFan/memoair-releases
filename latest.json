@@ -1,18 +1,12 @@
 {
-  "version": 695,
-  "versionName": "260521-1838",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v695/memoair-v695-260521-1838-slim.apk",
+  "version": 696,
+  "versionName": "260522-1033",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v696/memoair-v696-260522-1033-slim.apk",
   "sizeBytes": 35272404,
-  "sha256": "6e7ee3bd812abed6b6b5624cad997514f2041b347e35113311fc3e6e108c2d93",
-  "changelog": "v695：微光时刻视角铁律修复 + 老用户声纹阈值 0.35→0.30 一次性迁移",
-  "userFacingChangelog": "微光时刻里『你』视角错乱修了：现在严格指你本人，咖啡师/家人/路人一律用名字或第三人称。声纹判定默认阈值放宽了一点（0.35→0.30），老用户也自动调过来了。",
+  "sha256": "69083f1aaf685a8c1a8ff14ece80b6579c30d8775634484abefd3e452643b41e",
+  "changelog": "v696：拍立得快速滑卡停 + 时光大标题占位符泄漏 + 对话漏 action JSON 三连修",
+  "userFacingChangelog": "三个 bug 一起修：拍立得连刷不再卡；时光页大标题不再显示『<索引数字>|』；对话里 AI 改卡片时不再漏出内部 JSON。",
   "recentReleases": [
-    {
-      "version": 645,
-      "versionName": "260514-0324",
-      "userFacingChangelog": "",
-      "publishedAtMs": 1778700519000
-    },
     {
       "version": 646,
       "versionName": "260514-0342",
@@ -306,8 +300,14 @@
       "versionName": "260521-1838",
       "userFacingChangelog": "微光时刻里『你』视角错乱修了：现在严格指你本人，咖啡师/家人/路人一律用名字或第三人称。声纹判定默认阈值放宽了一点（0.35→0.30），老用户也自动调过来了。",
       "publishedAtMs": 1779360184000
+    },
+    {
+      "version": 696,
+      "versionName": "260522-1033",
+      "userFacingChangelog": "三个 bug 一起修：拍立得连刷不再卡；时光页大标题不再显示『<索引数字>|』；对话里 AI 改卡片时不再漏出内部 JSON。",
+      "publishedAtMs": 1779417765000
     }
   ],
-  "publishedAtMs": 1779360184000,
+  "publishedAtMs": 1779417765000,
   "minSupported": 0
 }
