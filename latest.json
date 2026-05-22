@@ -1,18 +1,12 @@
 {
-  "version": 699,
-  "versionName": "260522-1130",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v699/memoair-v699-260522-1130-slim.apk",
+  "version": 700,
+  "versionName": "260522-1144",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v700/memoair-v700-260522-1144-slim.apk",
   "sizeBytes": 35276500,
-  "sha256": "e29e37349e1c83c493b24412f2278e80b9991e28cb93f8fc93de741487d8135c",
-  "changelog": "v699：桌面相片 widget 4x4 清晰度提升 + chat 新支持只换图 (regenerate_card_image) + OTA 弹窗文案",
-  "userFacingChangelog": "三件事：桌面 4x4 相片小部件更清晰；聊天里说『换张图/换猫品种』时 AI 会真的只换图（文字保留）；升级弹窗文案改了。",
+  "sha256": "3b9b9d323015018696f02813f0ac2d09b6dbdbc3a6b475a3b1407ab0f8a50a76",
+  "changelog": "v700：桌面 widget 4×4 真清晰修——inSampleSize 算法 bug + BitmapShader 缺 bilinear 插值",
+  "userFacingChangelog": "桌面拾梦相片 widget 这次真清晰了。之前一直糊是解码采样算法选错了 + 缩放走最近邻没开 bilinear。装上后请长按 widget 移除再加回来，强制 launcher 丢缓存。",
   "recentReleases": [
-    {
-      "version": 649,
-      "versionName": "260514-1035",
-      "userFacingChangelog": "",
-      "publishedAtMs": 1778726230000
-    },
     {
       "version": 650,
       "versionName": "260514-1039",
@@ -306,8 +300,14 @@
       "versionName": "260522-1130",
       "userFacingChangelog": "三件事：桌面 4x4 相片小部件更清晰；聊天里说『换张图/换猫品种』时 AI 会真的只换图（文字保留）；升级弹窗文案改了。",
       "publishedAtMs": 1779420737000
+    },
+    {
+      "version": 700,
+      "versionName": "260522-1144",
+      "userFacingChangelog": "桌面拾梦相片 widget 这次真清晰了。之前一直糊是解码采样算法选错了 + 缩放走最近邻没开 bilinear。装上后请长按 widget 移除再加回来，强制 launcher 丢缓存。",
+      "publishedAtMs": 1779421578000
     }
   ],
-  "publishedAtMs": 1779420737000,
+  "publishedAtMs": 1779421578000,
   "minSupported": 0
 }
