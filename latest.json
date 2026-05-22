@@ -1,18 +1,12 @@
 {
-  "version": 705,
-  "versionName": "260522-2126",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v705/memoair-v705-260522-2126-slim.apk",
+  "version": 706,
+  "versionName": "260522-2148",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v706/memoair-v706-260522-2148-slim.apk",
   "sizeBytes": 35346308,
-  "sha256": "0cfffdbd53b8fb91ea36bb56cbc99fbe8549c007c53928cf49bc86db928cf5c2",
-  "changelog": "v705：成就生成诊断挪到调试日志（不再 Toast）\n\n之前 LLM / 出图失败会弹 Toast，但所有用户都能看到，不合适放生产。\n现在所有失败 + 成功节点都写到设置 → 关于 → 调试 · 高级设置 → 调试 · 成就生成日志里。\n最近 50 条 · 内存缓存（重启清空）· admin 看就行。\n\nCardImageGen 的用户面 Toast 也砍了——只剩 logcat + AchievementDebugLog。\n\n下次成就页有问题，去这里抓一段日志给我，不用再截 Toast。",
-  "userFacingChangelog": "修了点进成就一直 loading 的情况——失败时给兜底文章。诊断信息挪到调试菜单里。",
+  "sha256": "6e22ec302d92df871ce5f6acfd8eb56432db054cce0596c3154dd6961ee96962",
+  "changelog": "v706：成就生成完发对话消息 · 点击直跳成就页\n\n1. 成就写好后 → 自动在对话里发一条「🎉 成就写好啦——「XXX」」+ 一个'去看这份成就'卡片\n   点 chip：自动切到 行动 → 成就 + 弹详情页（跟点徽章一样）\n\n2. 知识发芽卡片消息符号统一\n   之前是 ✿（typographic 字符），跟其他卡 emoji 风格不一致——改成 🌱 跟桌面 widget 一致\n\n3. DB 加 chat_messages.relatedWishId 字段（MIGRATION_22_23 idempotent）",
+  "userFacingChangelog": "成就写好啦会在对话里发条消息提醒你，点一下就直接跳到成就页。",
   "recentReleases": [
-    {
-      "version": 655,
-      "versionName": "260514-1147",
-      "userFacingChangelog": "",
-      "publishedAtMs": 1778730503000
-    },
     {
       "version": 656,
       "versionName": "260514-1159",
@@ -306,8 +300,14 @@
       "versionName": "260522-2126",
       "userFacingChangelog": "修了点进成就一直 loading 的情况——失败时给兜底文章。诊断信息挪到调试菜单里。",
       "publishedAtMs": 1779456540000
+    },
+    {
+      "version": 706,
+      "versionName": "260522-2148",
+      "userFacingChangelog": "成就写好啦会在对话里发条消息提醒你，点一下就直接跳到成就页。",
+      "publishedAtMs": 1779457847000
     }
   ],
-  "publishedAtMs": 1779456540000,
+  "publishedAtMs": 1779457847000,
   "minSupported": 0
 }
