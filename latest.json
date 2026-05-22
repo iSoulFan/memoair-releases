@@ -1,18 +1,12 @@
 {
-  "version": 698,
-  "versionName": "260522-1118",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v698/memoair-v698-260522-1118-slim.apk",
-  "sizeBytes": 35272404,
-  "sha256": "957df26254bc1017b09e92ca2527686caa8a43d56248c59d8c7f869a36af860b",
-  "changelog": "v698：chat regenerate_card 走 force=true 绕开 anchor 防重 + 失败文案去工程味",
-  "userFacingChangelog": "聊天里让 AI 重写卡片不再因为『每天唯一』规则被拦；失败提示也改成了人话。",
+  "version": 699,
+  "versionName": "260522-1130",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v699/memoair-v699-260522-1130-slim.apk",
+  "sizeBytes": 35276500,
+  "sha256": "e29e37349e1c83c493b24412f2278e80b9991e28cb93f8fc93de741487d8135c",
+  "changelog": "v699：桌面相片 widget 4x4 清晰度提升 + chat 新支持只换图 (regenerate_card_image) + OTA 弹窗文案",
+  "userFacingChangelog": "三件事：桌面 4x4 相片小部件更清晰；聊天里说『换张图/换猫品种』时 AI 会真的只换图（文字保留）；升级弹窗文案改了。",
   "recentReleases": [
-    {
-      "version": 648,
-      "versionName": "260514-1027",
-      "userFacingChangelog": "",
-      "publishedAtMs": 1778725721000
-    },
     {
       "version": 649,
       "versionName": "260514-1035",
@@ -306,8 +300,14 @@
       "versionName": "260522-1118",
       "userFacingChangelog": "聊天里让 AI 重写卡片不再因为『每天唯一』规则被拦；失败提示也改成了人话。",
       "publishedAtMs": 1779420027000
+    },
+    {
+      "version": 699,
+      "versionName": "260522-1130",
+      "userFacingChangelog": "三件事：桌面 4x4 相片小部件更清晰；聊天里说『换张图/换猫品种』时 AI 会真的只换图（文字保留）；升级弹窗文案改了。",
+      "publishedAtMs": 1779420737000
     }
   ],
-  "publishedAtMs": 1779420027000,
+  "publishedAtMs": 1779420737000,
   "minSupported": 0
 }
