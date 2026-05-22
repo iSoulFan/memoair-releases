@@ -1,18 +1,12 @@
 {
-  "version": 697,
-  "versionName": "260522-1058",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v697/memoair-v697-260522-1058-slim.apk",
+  "version": 698,
+  "versionName": "260522-1118",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v698/memoair-v698-260522-1118-slim.apk",
   "sizeBytes": 35272404,
-  "sha256": "7ccf3645196ed6615d580ab6b707f10133a2b31e55e5e843ffc463e0a76014d0",
-  "changelog": "v697 baseline：聊天 typing indicator 流式期间不再空白气泡 + 设置文案去工程味 14 处",
-  "userFacingChangelog": "对话过程中底部会显示『正在写』+三点动画，不再让你对着空气泡干等。设置里若干工程化文案改成人话。",
+  "sha256": "957df26254bc1017b09e92ca2527686caa8a43d56248c59d8c7f869a36af860b",
+  "changelog": "v698：chat regenerate_card 走 force=true 绕开 anchor 防重 + 失败文案去工程味",
+  "userFacingChangelog": "聊天里让 AI 重写卡片不再因为『每天唯一』规则被拦；失败提示也改成了人话。",
   "recentReleases": [
-    {
-      "version": 647,
-      "versionName": "260514-0950",
-      "userFacingChangelog": "",
-      "publishedAtMs": 1778723653000
-    },
     {
       "version": 648,
       "versionName": "260514-1027",
@@ -306,8 +300,14 @@
       "versionName": "260522-1058",
       "userFacingChangelog": "对话过程中底部会显示『正在写』+三点动画，不再让你对着空气泡干等。设置里若干工程化文案改成人话。",
       "publishedAtMs": 1779418849000
+    },
+    {
+      "version": 698,
+      "versionName": "260522-1118",
+      "userFacingChangelog": "聊天里让 AI 重写卡片不再因为『每天唯一』规则被拦；失败提示也改成了人话。",
+      "publishedAtMs": 1779420027000
     }
   ],
-  "publishedAtMs": 1779418849000,
+  "publishedAtMs": 1779420027000,
   "minSupported": 0
 }
