@@ -1,18 +1,12 @@
 {
-  "version": 702,
-  "versionName": "260522-1450",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v702/memoair-v702-260522-1450-slim.apk",
-  "sizeBytes": 35276500,
-  "sha256": "4a40a823e54a068459cc056729846c6a19b3c6fde76b3b12ad6b2d74231475e8",
-  "changelog": "v702：时光/行动顶字大字改用『新的XXX』未读引导，没有新内容就显示『时光』/『行动』",
-  "userFacingChangelog": "时光和行动两个 tab 的顶字大字改了：有新内容时显示『新的拾梦相片』『新的待办』这种简短引导；都看过了就显示『时光』『行动』。",
+  "version": 703,
+  "versionName": "260522-2105",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v703/memoair-v703-260522-2105-slim.apk",
+  "sizeBytes": 35342212,
+  "sha256": "4eb79eace66655f0610ce5ef08d2a6a125d064fec0436a93f238087e30691c6a",
+  "changelog": "（无 changelog）",
+  "userFacingChangelog": "",
   "recentReleases": [
-    {
-      "version": 652,
-      "versionName": "260514-1108",
-      "userFacingChangelog": "",
-      "publishedAtMs": 1778728753000
-    },
     {
       "version": 653,
       "versionName": "260514-1122",
@@ -306,8 +300,14 @@
       "versionName": "260522-1450",
       "userFacingChangelog": "时光和行动两个 tab 的顶字大字改了：有新内容时显示『新的拾梦相片』『新的待办』这种简短引导；都看过了就显示『时光』『行动』。",
       "publishedAtMs": 1779432900000
+    },
+    {
+      "version": 703,
+      "versionName": "260522-2105",
+      "userFacingChangelog": "",
+      "publishedAtMs": 1779455242000
     }
   ],
-  "publishedAtMs": 1779432900000,
+  "publishedAtMs": 1779455242000,
   "minSupported": 0
 }
