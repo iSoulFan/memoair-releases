@@ -1,18 +1,12 @@
 {
-  "version": 701,
-  "versionName": "260522-1156",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v701/memoair-v701-260522-1156-slim.apk",
+  "version": 702,
+  "versionName": "260522-1450",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v702/memoair-v702-260522-1450-slim.apk",
   "sizeBytes": 35276500,
-  "sha256": "35f7d1b39747f642d6ad41f01cad7a4cd96f837bed47ae0ca7b5060df4226042",
-  "changelog": "v701：直板锁竖屏 + 平板/折叠屏展开放开 + 4×4 widget 真清晰修 + chat 新支持只换图 + 文案去工程味",
-  "userFacingChangelog": "横向折叠屏（华为 Pura X / Mate X 等）展开后可以横屏用了，普通直板仍锁竖。桌面拾梦相片 4×4 小部件清晰度真的修好了。聊天里可以让 AI 只换相片图（『换猫品种』那种）。",
+  "sha256": "4a40a823e54a068459cc056729846c6a19b3c6fde76b3b12ad6b2d74231475e8",
+  "changelog": "v702：时光/行动顶字大字改用『新的XXX』未读引导，没有新内容就显示『时光』/『行动』",
+  "userFacingChangelog": "时光和行动两个 tab 的顶字大字改了：有新内容时显示『新的拾梦相片』『新的待办』这种简短引导；都看过了就显示『时光』『行动』。",
   "recentReleases": [
-    {
-      "version": 651,
-      "versionName": "260514-1058",
-      "userFacingChangelog": "",
-      "publishedAtMs": 1778727712000
-    },
     {
       "version": 652,
       "versionName": "260514-1108",
@@ -306,8 +300,14 @@
       "versionName": "260522-1156",
       "userFacingChangelog": "横向折叠屏（华为 Pura X / Mate X 等）展开后可以横屏用了，普通直板仍锁竖。桌面拾梦相片 4×4 小部件清晰度真的修好了。聊天里可以让 AI 只换相片图（『换猫品种』那种）。",
       "publishedAtMs": 1779423206000
+    },
+    {
+      "version": 702,
+      "versionName": "260522-1450",
+      "userFacingChangelog": "时光和行动两个 tab 的顶字大字改了：有新内容时显示『新的拾梦相片』『新的待办』这种简短引导；都看过了就显示『时光』『行动』。",
+      "publishedAtMs": 1779432900000
     }
   ],
-  "publishedAtMs": 1779423206000,
+  "publishedAtMs": 1779432900000,
   "minSupported": 0
 }
