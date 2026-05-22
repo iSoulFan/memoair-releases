@@ -1,18 +1,12 @@
 {
-  "version": 706,
-  "versionName": "260522-2148",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v706/memoair-v706-260522-2148-slim.apk",
+  "version": 707,
+  "versionName": "260522-2212",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v707/memoair-v707-260522-2212-slim.apk",
   "sizeBytes": 35346308,
-  "sha256": "6e22ec302d92df871ce5f6acfd8eb56432db054cce0596c3154dd6961ee96962",
-  "changelog": "v706：成就生成完发对话消息 · 点击直跳成就页\n\n1. 成就写好后 → 自动在对话里发一条「🎉 成就写好啦——「XXX」」+ 一个'去看这份成就'卡片\n   点 chip：自动切到 行动 → 成就 + 弹详情页（跟点徽章一样）\n\n2. 知识发芽卡片消息符号统一\n   之前是 ✿（typographic 字符），跟其他卡 emoji 风格不一致——改成 🌱 跟桌面 widget 一致\n\n3. DB 加 chat_messages.relatedWishId 字段（MIGRATION_22_23 idempotent）",
-  "userFacingChangelog": "成就写好啦会在对话里发条消息提醒你，点一下就直接跳到成就页。",
+  "sha256": "258922d40e75b8e0b173a797209c4c09386d0831dbfaf25ef3de274e5c7d3f85",
+  "changelog": "v707：成就生成提速 · 去除等待提示\n\n诊断：之前等好几分钟出不来的根因\n- CardImageGen readTimeout=120s × 2 attempts × 2 HTTP calls = 单次出图最坏 480s\n- AchievementGenerator 没外层 timeout，LLM 那段 90s 之外没保护\n- 总最坏 runOnce ~570s（接近 10 分钟）\n\n修了三处：\n1. CardImageGen readTimeout 120s → 45s · 加 callTimeout 50s · connectTimeout 15s → 10s\n   单次出图最坏 ~91.5s · 比之前快 5 倍\n2. AchievementGenerator 整个 runOnce 加外层 withTimeout(130s)\n   超时一律走兜底文案 + 无图存盘 + 发消息——用户最多等 130s 就能看到 chat 里的 chip\n3. Congrats phase 砍掉所有 loading 提示\n   用户进成就第一屏只看到「恭喜你完成了 XXX」+ 击败 X% + 鼓励语——没有'正在写'之类的话\n   真出来后 chat 里自动有「🎉 去看这份成就」chip 提醒，那个才是入口\n\n跟之前的差别：\n- 之前：进成就 → 转圈圈 → 等几分钟 → 也许出来 / 也许永远不出来\n- 现在：进成就 → 看到首屏鼓励 → 关掉 → 几十秒到 130s 后对话里弹消息提醒",
+  "userFacingChangelog": "成就生成的等待提示去掉了——真写好了在对话里发消息提醒你，点一下就跳过去。",
   "recentReleases": [
-    {
-      "version": 656,
-      "versionName": "260514-1159",
-      "userFacingChangelog": "",
-      "publishedAtMs": 1778731275000
-    },
     {
       "version": 657,
       "versionName": "260514-1210",
@@ -306,8 +300,14 @@
       "versionName": "260522-2148",
       "userFacingChangelog": "成就写好啦会在对话里发条消息提醒你，点一下就直接跳到成就页。",
       "publishedAtMs": 1779457847000
+    },
+    {
+      "version": 707,
+      "versionName": "260522-2212",
+      "userFacingChangelog": "成就生成的等待提示去掉了——真写好了在对话里发消息提醒你，点一下就跳过去。",
+      "publishedAtMs": 1779459308000
     }
   ],
-  "publishedAtMs": 1779457847000,
+  "publishedAtMs": 1779459308000,
   "minSupported": 0
 }
