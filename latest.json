@@ -1,18 +1,12 @@
 {
-  "version": 707,
-  "versionName": "260522-2212",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v707/memoair-v707-260522-2212-slim.apk",
+  "version": 708,
+  "versionName": "260522-2228",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v708/memoair-v708-260522-2228-slim.apk",
   "sizeBytes": 35346308,
-  "sha256": "258922d40e75b8e0b173a797209c4c09386d0831dbfaf25ef3de274e5c7d3f85",
-  "changelog": "v707：成就生成提速 · 去除等待提示\n\n诊断：之前等好几分钟出不来的根因\n- CardImageGen readTimeout=120s × 2 attempts × 2 HTTP calls = 单次出图最坏 480s\n- AchievementGenerator 没外层 timeout，LLM 那段 90s 之外没保护\n- 总最坏 runOnce ~570s（接近 10 分钟）\n\n修了三处：\n1. CardImageGen readTimeout 120s → 45s · 加 callTimeout 50s · connectTimeout 15s → 10s\n   单次出图最坏 ~91.5s · 比之前快 5 倍\n2. AchievementGenerator 整个 runOnce 加外层 withTimeout(130s)\n   超时一律走兜底文案 + 无图存盘 + 发消息——用户最多等 130s 就能看到 chat 里的 chip\n3. Congrats phase 砍掉所有 loading 提示\n   用户进成就第一屏只看到「恭喜你完成了 XXX」+ 击败 X% + 鼓励语——没有'正在写'之类的话\n   真出来后 chat 里自动有「🎉 去看这份成就」chip 提醒，那个才是入口\n\n跟之前的差别：\n- 之前：进成就 → 转圈圈 → 等几分钟 → 也许出来 / 也许永远不出来\n- 现在：进成就 → 看到首屏鼓励 → 关掉 → 几十秒到 130s 后对话里弹消息提醒",
-  "userFacingChangelog": "成就生成的等待提示去掉了——真写好了在对话里发消息提醒你，点一下就跳过去。",
+  "sha256": "e6642f3d9853d4803f5c1a7e93fe6825bca7f1ef9f0d039cba4198e70552446a",
+  "changelog": "v708：彻底治成就生成卡几分钟 + 抢跑生成\n\n根因（v707 仍漏的）：CardImageGen 用同步 http.newCall().execute()\n- execute() 是阻塞调用，coroutine cancel 它根本不响应\n- v707 加了 callTimeout=50s 但每次 doFetchOnce 含 POST + GET 两次 call\n- 单次 doFetchOnce 最坏 ~100s × 2 attempts × 1.5s 退避 = 单次出图最坏 201s\n- 外层 withTimeout(130s) 触发后 coroutine 卡在 execute()，直到 OkHttp callTimeout 才解绑\n\n修了\n1. CardImageGen 改 enqueue + suspendCancellableCoroutine\n   · 新 awaitCall(req) helper 把 OkHttp call 包成可取消 suspend\n   · withTimeout 一触发立即 call.cancel()，IO 线程立刻释放\n   · 外层 130s 现在是真的硬上限，不再是摆设\n\n2. eager 生成\n   · 用户点「✓ 我做到了」那一刻 → SuggestionsScreen 立刻 scope.launch AchievementGenerator.ensure\n   · 800ms 后启动（等 setWishDone 落库稳态）\n   · 庆祝动效 + 跳成就 tab 走完（~2.4s），narrative 大概率已经在写或写完\n   · 之前用户主动开 sheet 才 lazy 触发；现在 lazy 路径只是兜底（_inFlight 挡住），eager 已经在跑\n\n预期体验\n- 点「✓ 我做到了」 → 庆祝动效 → 自动跳成就 tab → 进成就 sheet（首屏鼓励内容）\n- 此时 narrative 可能已写好（30s 内）或还在写\n- 写好后对话里自动弹 chip\n- 最坏 130s 强制兜底——再也不会几分钟",
+  "userFacingChangelog": "点'我做到了'就开始抢着写成就——不用等开成就页才生成。彻底修了之前卡几分钟的问题。",
   "recentReleases": [
-    {
-      "version": 657,
-      "versionName": "260514-1210",
-      "userFacingChangelog": "",
-      "publishedAtMs": 1778732073000
-    },
     {
       "version": 658,
       "versionName": "260514-1228",
@@ -306,8 +300,14 @@
       "versionName": "260522-2212",
       "userFacingChangelog": "成就生成的等待提示去掉了——真写好了在对话里发消息提醒你，点一下就跳过去。",
       "publishedAtMs": 1779459308000
+    },
+    {
+      "version": 708,
+      "versionName": "260522-2228",
+      "userFacingChangelog": "点'我做到了'就开始抢着写成就——不用等开成就页才生成。彻底修了之前卡几分钟的问题。",
+      "publishedAtMs": 1779461385000
     }
   ],
-  "publishedAtMs": 1779459308000,
+  "publishedAtMs": 1779461385000,
   "minSupported": 0
 }
