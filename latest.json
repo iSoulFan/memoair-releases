@@ -1,18 +1,12 @@
 {
-  "version": 696,
-  "versionName": "260522-1033",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v696/memoair-v696-260522-1033-slim.apk",
+  "version": 697,
+  "versionName": "260522-1058",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v697/memoair-v697-260522-1058-slim.apk",
   "sizeBytes": 35272404,
-  "sha256": "69083f1aaf685a8c1a8ff14ece80b6579c30d8775634484abefd3e452643b41e",
-  "changelog": "v696：拍立得快速滑卡停 + 时光大标题占位符泄漏 + 对话漏 action JSON 三连修",
-  "userFacingChangelog": "三个 bug 一起修：拍立得连刷不再卡；时光页大标题不再显示『<索引数字>|』；对话里 AI 改卡片时不再漏出内部 JSON。",
+  "sha256": "7ccf3645196ed6615d580ab6b707f10133a2b31e55e5e843ffc463e0a76014d0",
+  "changelog": "v697 baseline：聊天 typing indicator 流式期间不再空白气泡 + 设置文案去工程味 14 处",
+  "userFacingChangelog": "对话过程中底部会显示『正在写』+三点动画，不再让你对着空气泡干等。设置里若干工程化文案改成人话。",
   "recentReleases": [
-    {
-      "version": 646,
-      "versionName": "260514-0342",
-      "userFacingChangelog": "",
-      "publishedAtMs": 1778701544000
-    },
     {
       "version": 647,
       "versionName": "260514-0950",
@@ -306,8 +300,14 @@
       "versionName": "260522-1033",
       "userFacingChangelog": "三个 bug 一起修：拍立得连刷不再卡；时光页大标题不再显示『<索引数字>|』；对话里 AI 改卡片时不再漏出内部 JSON。",
       "publishedAtMs": 1779417765000
+    },
+    {
+      "version": 697,
+      "versionName": "260522-1058",
+      "userFacingChangelog": "对话过程中底部会显示『正在写』+三点动画，不再让你对着空气泡干等。设置里若干工程化文案改成人话。",
+      "publishedAtMs": 1779418849000
     }
   ],
-  "publishedAtMs": 1779417765000,
+  "publishedAtMs": 1779418849000,
   "minSupported": 0
 }
