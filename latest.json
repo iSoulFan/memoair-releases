@@ -1,18 +1,12 @@
 {
-  "version": 700,
-  "versionName": "260522-1144",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v700/memoair-v700-260522-1144-slim.apk",
+  "version": 701,
+  "versionName": "260522-1156",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v701/memoair-v701-260522-1156-slim.apk",
   "sizeBytes": 35276500,
-  "sha256": "3b9b9d323015018696f02813f0ac2d09b6dbdbc3a6b475a3b1407ab0f8a50a76",
-  "changelog": "v700：桌面 widget 4×4 真清晰修——inSampleSize 算法 bug + BitmapShader 缺 bilinear 插值",
-  "userFacingChangelog": "桌面拾梦相片 widget 这次真清晰了。之前一直糊是解码采样算法选错了 + 缩放走最近邻没开 bilinear。装上后请长按 widget 移除再加回来，强制 launcher 丢缓存。",
+  "sha256": "35f7d1b39747f642d6ad41f01cad7a4cd96f837bed47ae0ca7b5060df4226042",
+  "changelog": "v701：直板锁竖屏 + 平板/折叠屏展开放开 + 4×4 widget 真清晰修 + chat 新支持只换图 + 文案去工程味",
+  "userFacingChangelog": "横向折叠屏（华为 Pura X / Mate X 等）展开后可以横屏用了，普通直板仍锁竖。桌面拾梦相片 4×4 小部件清晰度真的修好了。聊天里可以让 AI 只换相片图（『换猫品种』那种）。",
   "recentReleases": [
-    {
-      "version": 650,
-      "versionName": "260514-1039",
-      "userFacingChangelog": "",
-      "publishedAtMs": 1778726462000
-    },
     {
       "version": 651,
       "versionName": "260514-1058",
@@ -306,8 +300,14 @@
       "versionName": "260522-1144",
       "userFacingChangelog": "桌面拾梦相片 widget 这次真清晰了。之前一直糊是解码采样算法选错了 + 缩放走最近邻没开 bilinear。装上后请长按 widget 移除再加回来，强制 launcher 丢缓存。",
       "publishedAtMs": 1779421578000
+    },
+    {
+      "version": 701,
+      "versionName": "260522-1156",
+      "userFacingChangelog": "横向折叠屏（华为 Pura X / Mate X 等）展开后可以横屏用了，普通直板仍锁竖。桌面拾梦相片 4×4 小部件清晰度真的修好了。聊天里可以让 AI 只换相片图（『换猫品种』那种）。",
+      "publishedAtMs": 1779423206000
     }
   ],
-  "publishedAtMs": 1779421578000,
+  "publishedAtMs": 1779423206000,
   "minSupported": 0
 }
