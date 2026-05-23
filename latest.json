@@ -1,18 +1,12 @@
 {
-  "version": 714,
-  "versionName": "260523-1053",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v714/memoair-v714-260523-1053-slim.apk",
-  "sizeBytes": 35350404,
-  "sha256": "1652973c02ebdadeaef4e0ae67313f05dc93dc19f4407b072bc480d9db6ea2a4",
-  "changelog": "\"$CHANGELOG\"",
-  "userFacingChangelog": "\"$USER_FACING\"",
+  "version": 715,
+  "versionName": "260524-0307",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v715/memoair-v715-260524-0307-slim.apk",
+  "sizeBytes": 35354500,
+  "sha256": "24663668a3a64223e895ef138bf92d5157fab0345d88e62ce4453136ce97043f",
+  "changelog": "v715：愿望陪跑进度条对齐 · 成就详情打开/分享更顺滑 · 网络抖动多了「再试一次」 · chat 排队更可靠",
+  "userFacingChangelog": "• 愿望陪跑：进度条与实际题数对齐\n• 成就详情：打开 / 分享更顺滑\n• 网络抖动后可以「再试一次」",
   "recentReleases": [
-    {
-      "version": 664,
-      "versionName": "260515-1158",
-      "userFacingChangelog": "",
-      "publishedAtMs": 1778817676000
-    },
     {
       "version": 665,
       "versionName": "260515-1449",
@@ -307,8 +301,15 @@
       "userFacingChangelog": "\"$USER_FACING\"",
       "changelog": "\"$CHANGELOG\"",
       "publishedAtMs": 1779504938000
+    },
+    {
+      "version": 715,
+      "versionName": "260524-0307",
+      "userFacingChangelog": "• 愿望陪跑：进度条与实际题数对齐\n• 成就详情：打开 / 分享更顺滑\n• 网络抖动后可以「再试一次」",
+      "changelog": "v715：愿望陪跑进度条对齐 · 成就详情打开/分享更顺滑 · 网络抖动多了「再试一次」 · chat 排队更可靠",
+      "publishedAtMs": 1779563458000
     }
   ],
-  "publishedAtMs": 1779504938000,
+  "publishedAtMs": 1779563458000,
   "minSupported": 0
 }
