@@ -1,18 +1,12 @@
 {
-  "version": 712,
-  "versionName": "260523-0731",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v712/memoair-v712-260523-0731-slim.apk",
+  "version": 713,
+  "versionName": "260523-1035",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v713/memoair-v713-260523-1035-slim.apk",
   "sizeBytes": 35350404,
-  "sha256": "207febf062882adad7a2b15ffedd6b7a0856347a06d7fc2c84b282fac09e10a6",
+  "sha256": "86c3139d3430ef7194e98a6490d41d831e2a0674acb28c9cf009698f51abe109",
   "changelog": "\"$CHANGELOG\"",
   "userFacingChangelog": "\"$USER_FACING\"",
   "recentReleases": [
-    {
-      "version": 662,
-      "versionName": "260514-2258",
-      "userFacingChangelog": "",
-      "publishedAtMs": 1778771857000
-    },
     {
       "version": 663,
       "versionName": "260515-0026",
@@ -306,8 +300,14 @@
       "versionName": "260523-0731",
       "userFacingChangelog": "\"$USER_FACING\"",
       "publishedAtMs": 1779492943000
+    },
+    {
+      "version": 713,
+      "versionName": "260523-1035",
+      "userFacingChangelog": "\"$USER_FACING\"",
+      "publishedAtMs": 1779504222000
     }
   ],
-  "publishedAtMs": 1779492943000,
+  "publishedAtMs": 1779504222000,
   "minSupported": 0
 }
