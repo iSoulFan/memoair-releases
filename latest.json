@@ -1,18 +1,12 @@
 {
-  "version": 718,
-  "versionName": "260524-1220",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v718/memoair-v718-260524-1220-slim.apk",
+  "version": 719,
+  "versionName": "260524-1231",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v719/memoair-v719-260524-1231-slim.apk",
   "sizeBytes": 35407880,
-  "sha256": "8a80d92a549e834e0de9c1e294ec2b70811edacd772b03ac31c96317bd06e11d",
-  "changelog": "v718：开机引导『帮我留在后台』页面重做——跳转跳到位 + UI 不再错位 + 文案精简",
-  "userFacingChangelog": "• 开机引导『帮我留在后台』全部重做：\n• 点「跳」按钮真能跳到自启动管理页（之前只能跳到 App 详情页要再翻一层）\n• 文案精简：每行只显示步骤名 + 跳按钮，详细做法点 ⓘ 展开\n• 底部不再被「下一步」按钮遮住一半",
+  "sha256": "fb5a6aa6785ef36d1470954a404eb8bfa92f84bb143065a67f82fef14c4feb74",
+  "changelog": "v719：调试菜单加「重看开机引导」入口——可反复演示，不写状态",
+  "userFacingChangelog": "• 设置 → 关于 → 调试 · 高级设置 里多了「重看开机引导」\n• 演示模式：可以反复过一遍开机引导，不动你已有的昵称 / 声纹 / onboarding 状态\n• 右上角随时点「退出演示」回到设置",
   "recentReleases": [
-    {
-      "version": 668,
-      "versionName": "260515-1647",
-      "userFacingChangelog": "自动备份不再无止境堆——可以设保留最近几份",
-      "publishedAtMs": 1778835053000
-    },
     {
       "version": 669,
       "versionName": "260515-1737",
@@ -311,8 +305,15 @@
       "userFacingChangelog": "• 开机引导『帮我留在后台』全部重做：\n• 点「跳」按钮真能跳到自启动管理页（之前只能跳到 App 详情页要再翻一层）\n• 文案精简：每行只显示步骤名 + 跳按钮，详细做法点 ⓘ 展开\n• 底部不再被「下一步」按钮遮住一半",
       "changelog": "v718：开机引导『帮我留在后台』页面重做——跳转跳到位 + UI 不再错位 + 文案精简",
       "publishedAtMs": 1779596563000
+    },
+    {
+      "version": 719,
+      "versionName": "260524-1231",
+      "userFacingChangelog": "• 设置 → 关于 → 调试 · 高级设置 里多了「重看开机引导」\n• 演示模式：可以反复过一遍开机引导，不动你已有的昵称 / 声纹 / onboarding 状态\n• 右上角随时点「退出演示」回到设置",
+      "changelog": "v719：调试菜单加「重看开机引导」入口——可反复演示，不写状态",
+      "publishedAtMs": 1779597244000
     }
   ],
-  "publishedAtMs": 1779596563000,
+  "publishedAtMs": 1779597244000,
   "minSupported": 0
 }
