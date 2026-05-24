@@ -1,18 +1,12 @@
 {
-  "version": 723,
-  "versionName": "260524-1824",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v723/memoair-v723-260524-1824-slim.apk",
-  "sizeBytes": 35411976,
-  "sha256": "27c2a29dae534ac10b26130477b9a085a4b68811e9303568da1e8e130e419274",
-  "changelog": "v723：关系镜像抽取质量大修——quote 残句门槛 + 带上下文 + AI 找不到诚实承认",
-  "userFacingChangelog": "• 关系镜像不再抽出「明天去拿下了再」这种残句——加了客户端 + prompt 双层门槛\n• Stage A 抽 fact 时强制带前后文，Stage B 写 mirror 时基于上下文，不再瞎编\n• 你在 chat 里问「原文呢」AI 找不到时会直说「这条片段抽得太短我找不回原文，建议忽略这条解读」，不再硬编",
+  "version": 724,
+  "versionName": "260524-1841",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v724/memoair-v724-260524-1841-slim.apk",
+  "sizeBytes": 35416072,
+  "sha256": "78a4b1c9685c7f4ffa487dcb28cd364e6a9e20e47f7023f9c46c802242717305",
+  "changelog": "v724：关系镜像 transcript 精确锚点——chat 问原文时直接看那条转写，不再瞎搜瞎编",
+  "userFacingChangelog": "• 关系镜像每条 mirror 现在挂着「来源 transcript id」\n• 你在卡里长按 → 找它聊聊 → 问「原文呢」，AI 直接拿那条转写完整内容（含前后 90 秒同时段对话）作答，不再 emit search 关键词搜\n• 老 mirror 不带 id 时仍走 fallback search 路径（v723 的诚实承认 fail-gracefully 兜底）",
   "recentReleases": [
-    {
-      "version": 673,
-      "versionName": "260515-2052",
-      "userFacingChangelog": "更新装完后 chat 里的更新提示卡片会自动消失",
-      "publishedAtMs": 1778850768000
-    },
     {
       "version": 674,
       "versionName": "260515-2140",
@@ -316,8 +310,15 @@
       "userFacingChangelog": "• 关系镜像不再抽出「明天去拿下了再」这种残句——加了客户端 + prompt 双层门槛\n• Stage A 抽 fact 时强制带前后文，Stage B 写 mirror 时基于上下文，不再瞎编\n• 你在 chat 里问「原文呢」AI 找不到时会直说「这条片段抽得太短我找不回原文，建议忽略这条解读」，不再硬编",
       "changelog": "v723：关系镜像抽取质量大修——quote 残句门槛 + 带上下文 + AI 找不到诚实承认",
       "publishedAtMs": 1779618418000
+    },
+    {
+      "version": 724,
+      "versionName": "260524-1841",
+      "userFacingChangelog": "• 关系镜像每条 mirror 现在挂着「来源 transcript id」\n• 你在卡里长按 → 找它聊聊 → 问「原文呢」，AI 直接拿那条转写完整内容（含前后 90 秒同时段对话）作答，不再 emit search 关键词搜\n• 老 mirror 不带 id 时仍走 fallback search 路径（v723 的诚实承认 fail-gracefully 兜底）",
+      "changelog": "v724：关系镜像 transcript 精确锚点——chat 问原文时直接看那条转写，不再瞎搜瞎编",
+      "publishedAtMs": 1779619366000
     }
   ],
-  "publishedAtMs": 1779618418000,
+  "publishedAtMs": 1779619366000,
   "minSupported": 0
 }
