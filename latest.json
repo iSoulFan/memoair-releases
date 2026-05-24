@@ -1,18 +1,12 @@
 {
-  "version": 717,
-  "versionName": "260524-1119",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v717/memoair-v717-260524-1119-slim.apk",
+  "version": 718,
+  "versionName": "260524-1220",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v718/memoair-v718-260524-1220-slim.apk",
   "sizeBytes": 35407880,
-  "sha256": "fdfb0a9ba3891fece3937e8397c6d85324211da3bcd0dee0be4a243c692a995a",
-  "changelog": "/Users/latiao/Desktop/memoair-apks/memoair-v717-260524-1119-slim.apk",
-  "userFacingChangelog": "",
+  "sha256": "8a80d92a549e834e0de9c1e294ec2b70811edacd772b03ac31c96317bd06e11d",
+  "changelog": "v718：开机引导『帮我留在后台』页面重做——跳转跳到位 + UI 不再错位 + 文案精简",
+  "userFacingChangelog": "• 开机引导『帮我留在后台』全部重做：\n• 点「跳」按钮真能跳到自启动管理页（之前只能跳到 App 详情页要再翻一层）\n• 文案精简：每行只显示步骤名 + 跳按钮，详细做法点 ⓘ 展开\n• 底部不再被「下一步」按钮遮住一半",
   "recentReleases": [
-    {
-      "version": 667,
-      "versionName": "260515-1633",
-      "userFacingChangelog": "稳定性提升",
-      "publishedAtMs": 1778834241000
-    },
     {
       "version": 668,
       "versionName": "260515-1647",
@@ -310,8 +304,15 @@
       "userFacingChangelog": "",
       "changelog": "/Users/latiao/Desktop/memoair-apks/memoair-v717-260524-1119-slim.apk",
       "publishedAtMs": 1779592967000
+    },
+    {
+      "version": 718,
+      "versionName": "260524-1220",
+      "userFacingChangelog": "• 开机引导『帮我留在后台』全部重做：\n• 点「跳」按钮真能跳到自启动管理页（之前只能跳到 App 详情页要再翻一层）\n• 文案精简：每行只显示步骤名 + 跳按钮，详细做法点 ⓘ 展开\n• 底部不再被「下一步」按钮遮住一半",
+      "changelog": "v718：开机引导『帮我留在后台』页面重做——跳转跳到位 + UI 不再错位 + 文案精简",
+      "publishedAtMs": 1779596563000
     }
   ],
-  "publishedAtMs": 1779592967000,
+  "publishedAtMs": 1779596563000,
   "minSupported": 0
 }
