@@ -1,18 +1,12 @@
 {
-  "version": 715,
-  "versionName": "260524-0307",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v715/memoair-v715-260524-0307-slim.apk",
+  "version": 716,
+  "versionName": "260524-0946",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v716/memoair-v716-260524-0946-slim.apk",
   "sizeBytes": 35354500,
-  "sha256": "24663668a3a64223e895ef138bf92d5157fab0345d88e62ce4453136ce97043f",
-  "changelog": "v715：愿望陪跑进度条对齐 · 成就详情打开/分享更顺滑 · 网络抖动多了「再试一次」 · chat 排队更可靠",
-  "userFacingChangelog": "• 愿望陪跑：进度条与实际题数对齐\n• 成就详情：打开 / 分享更顺滑\n• 网络抖动后可以「再试一次」",
+  "sha256": "b3357ac1f38615763dae3c63171cb97231df4c280514c8074d6b47ea848cc0a5",
+  "changelog": "v716：AI 引用你说过的话时会做轻度清洗——谐音错字 + 口水词，数字/人名/否定词绝不动",
+  "userFacingChangelog": "• AI 引用你说过的话时，自动修一下 ASR 谐音错字和「那个那个」口水词\n• 数字、人名、否定词全部保留——不会改你的意思\n• 卡片 + 对话里都生效",
   "recentReleases": [
-    {
-      "version": 665,
-      "versionName": "260515-1449",
-      "userFacingChangelog": "稳定性提升，细节打磨",
-      "publishedAtMs": 1778827850000
-    },
     {
       "version": 666,
       "versionName": "260515-1504",
@@ -308,8 +302,15 @@
       "userFacingChangelog": "• 愿望陪跑：进度条与实际题数对齐\n• 成就详情：打开 / 分享更顺滑\n• 网络抖动后可以「再试一次」",
       "changelog": "v715：愿望陪跑进度条对齐 · 成就详情打开/分享更顺滑 · 网络抖动多了「再试一次」 · chat 排队更可靠",
       "publishedAtMs": 1779563458000
+    },
+    {
+      "version": 716,
+      "versionName": "260524-0946",
+      "userFacingChangelog": "• AI 引用你说过的话时，自动修一下 ASR 谐音错字和「那个那个」口水词\n• 数字、人名、否定词全部保留——不会改你的意思\n• 卡片 + 对话里都生效",
+      "changelog": "v716：AI 引用你说过的话时会做轻度清洗——谐音错字 + 口水词，数字/人名/否定词绝不动",
+      "publishedAtMs": 1779587353000
     }
   ],
-  "publishedAtMs": 1779563458000,
+  "publishedAtMs": 1779587353000,
   "minSupported": 0
 }
