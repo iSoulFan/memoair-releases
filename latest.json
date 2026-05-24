@@ -1,18 +1,12 @@
 {
-  "version": 726,
-  "versionName": "260524-2319",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v726/memoair-v726-260524-2319-slim.apk",
+  "version": 727,
+  "versionName": "260525-0106",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v727/memoair-v727-260525-0106-slim.apk",
   "sizeBytes": 35420168,
-  "sha256": "8b733dc0d0a9c09dec6f353642af6bd46070e061dcc5ec7ce22d84fcb51e513a",
-  "changelog": "v726：待办→纪要返回回到原 todo 位置",
-  "userFacingChangelog": "• 从待办点「去看那份纪要」跳过去后，左滑切回 / 系统返回手势回到待办时，列表自动滚回原来那条待办的位置",
+  "sha256": "031686ae3e2fe0bcd62fc7c9e995abf1a4931db65d96e06ff7782563ae41519b",
+  "changelog": "v727：待办时间识别 + ⏰ 预填",
+  "userFacingChangelog": "• 「明天晚上7点半去换电」这种待办抽出来直接挂到点提醒——之前 LLM 识别了时间但没解到 dueAtEpochMs（缺一个 ISO_LOCAL_DATE_TIME fallback）\n• 万一 LLM 偷懒没返时间字段，客户端会再用中文时间正则从 title 兜底解析\n• 没时间的待办点 ⏰+ 时，如果 title 里能解到时间，sheet 顶部会有「✦ 建议: 明天 19:30」高亮 chip 一键采用",
   "recentReleases": [
-    {
-      "version": 676,
-      "versionName": "260516-1648",
-      "userFacingChangelog": "主动推送消息更完整能看懂",
-      "publishedAtMs": 1778921612000
-    },
     {
       "version": 677,
       "versionName": "260519-0214",
@@ -319,8 +313,15 @@
       "userFacingChangelog": "• 从待办点「去看那份纪要」跳过去后，左滑切回 / 系统返回手势回到待办时，列表自动滚回原来那条待办的位置",
       "changelog": "v726：待办→纪要返回回到原 todo 位置",
       "publishedAtMs": 1779636235000
+    },
+    {
+      "version": 727,
+      "versionName": "260525-0106",
+      "userFacingChangelog": "• 「明天晚上7点半去换电」这种待办抽出来直接挂到点提醒——之前 LLM 识别了时间但没解到 dueAtEpochMs（缺一个 ISO_LOCAL_DATE_TIME fallback）\n• 万一 LLM 偷懒没返时间字段，客户端会再用中文时间正则从 title 兜底解析\n• 没时间的待办点 ⏰+ 时，如果 title 里能解到时间，sheet 顶部会有「✦ 建议: 明天 19:30」高亮 chip 一键采用",
+      "changelog": "v727：待办时间识别 + ⏰ 预填",
+      "publishedAtMs": 1779642529000
     }
   ],
-  "publishedAtMs": 1779636235000,
+  "publishedAtMs": 1779642529000,
   "minSupported": 0
 }
