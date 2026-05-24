@@ -1,18 +1,12 @@
 {
-  "version": 727,
-  "versionName": "260525-0106",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v727/memoair-v727-260525-0106-slim.apk",
-  "sizeBytes": 35420168,
-  "sha256": "031686ae3e2fe0bcd62fc7c9e995abf1a4931db65d96e06ff7782563ae41519b",
-  "changelog": "v727：待办时间识别 + ⏰ 预填",
-  "userFacingChangelog": "• 「明天晚上7点半去换电」这种待办抽出来直接挂到点提醒——之前 LLM 识别了时间但没解到 dueAtEpochMs（缺一个 ISO_LOCAL_DATE_TIME fallback）\n• 万一 LLM 偷懒没返时间字段，客户端会再用中文时间正则从 title 兜底解析\n• 没时间的待办点 ⏰+ 时，如果 title 里能解到时间，sheet 顶部会有「✦ 建议: 明天 19:30」高亮 chip 一键采用",
+  "version": 728,
+  "versionName": "260525-0130",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v728/memoair-v728-260525-0130-slim.apk",
+  "sizeBytes": 35428360,
+  "sha256": "be871cc1bc0f6c20463d2abb25199e729f34afdc6ed6999068e8ea2461cdb8b5",
+  "changelog": "v728：声纹识别 Phase 1+2 一气推完——同源注册 / 调试可视化 / 用户标注 / 个性化分类器",
+  "userFacingChangelog": "• 声纹注册改成跟当前录音偏好同 source（治本根因，之前 MIC 注册 + VOICE_RECOGNITION 录音频谱不匹配）\n• 调试菜单加「声纹判定明细」面板：每段 cosine + 阈值 + tier 一目了然，定位误判\n• 面板里每行可点击切换 tier（无 → 我 → 他 → 不确定 → 无）—— 标注覆盖 AI 判定，立刻影响 chat 召回\n• 个性化声纹分类器：你标 6 段「我」+ 6 段「他」自动训练；之后 cosine 40% + 分类器 60% 融合判定，越标越准",
   "recentReleases": [
-    {
-      "version": 677,
-      "versionName": "260519-0214",
-      "userFacingChangelog": "记得这一版认人更准了——能看出哪些名字是同一个人、跟谁常一起出现、能给关系打分类",
-      "publishedAtMs": 1779128303000
-    },
     {
       "version": 678,
       "versionName": "260519-1041",
@@ -320,8 +314,15 @@
       "userFacingChangelog": "• 「明天晚上7点半去换电」这种待办抽出来直接挂到点提醒——之前 LLM 识别了时间但没解到 dueAtEpochMs（缺一个 ISO_LOCAL_DATE_TIME fallback）\n• 万一 LLM 偷懒没返时间字段，客户端会再用中文时间正则从 title 兜底解析\n• 没时间的待办点 ⏰+ 时，如果 title 里能解到时间，sheet 顶部会有「✦ 建议: 明天 19:30」高亮 chip 一键采用",
       "changelog": "v727：待办时间识别 + ⏰ 预填",
       "publishedAtMs": 1779642529000
+    },
+    {
+      "version": 728,
+      "versionName": "260525-0130",
+      "userFacingChangelog": "• 声纹注册改成跟当前录音偏好同 source（治本根因，之前 MIC 注册 + VOICE_RECOGNITION 录音频谱不匹配）\n• 调试菜单加「声纹判定明细」面板：每段 cosine + 阈值 + tier 一目了然，定位误判\n• 面板里每行可点击切换 tier（无 → 我 → 他 → 不确定 → 无）—— 标注覆盖 AI 判定，立刻影响 chat 召回\n• 个性化声纹分类器：你标 6 段「我」+ 6 段「他」自动训练；之后 cosine 40% + 分类器 60% 融合判定，越标越准",
+      "changelog": "v728：声纹识别 Phase 1+2 一气推完——同源注册 / 调试可视化 / 用户标注 / 个性化分类器",
+      "publishedAtMs": 1779644012000
     }
   ],
-  "publishedAtMs": 1779642529000,
+  "publishedAtMs": 1779644012000,
   "minSupported": 0
 }
