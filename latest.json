@@ -1,18 +1,12 @@
 {
-  "version": 719,
-  "versionName": "260524-1231",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v719/memoair-v719-260524-1231-slim.apk",
+  "version": 720,
+  "versionName": "260524-1250",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v720/memoair-v720-260524-1250-slim.apk",
   "sizeBytes": 35407880,
-  "sha256": "fb5a6aa6785ef36d1470954a404eb8bfa92f84bb143065a67f82fef14c4feb74",
-  "changelog": "v719：调试菜单加「重看开机引导」入口——可反复演示，不写状态",
-  "userFacingChangelog": "• 设置 → 关于 → 调试 · 高级设置 里多了「重看开机引导」\n• 演示模式：可以反复过一遍开机引导，不动你已有的昵称 / 声纹 / onboarding 状态\n• 右上角随时点「退出演示」回到设置",
+  "sha256": "4ac522da4f6f52211cd976c96db1677514f9a1e860b157b6bef03af80254688b",
+  "changelog": "v720：开机引导多个修复——按钮不超屏 / 文案精修 / 电池状态识别 / OPPO 跳转兜底",
+  "userFacingChangelog": "• 演示模式下「下一步」按钮不再超出屏幕、昵称页恢复居中\n• 「怎么叫你」→「怎么称呼你」、通知文案「时光胶片」→「拾梦相片」\n• 电池页所有步骤说明永远展开（不再藏在 ⓘ 后面）\n• 电池优化已配的步骤右侧显示「✓ 已完成」（每次进 onboarding 自动检测）\n• OPPO 自启动跳转失败兜底到设置主页 + 提示「在搜索栏搜『自启动』」",
   "recentReleases": [
-    {
-      "version": 669,
-      "versionName": "260515-1737",
-      "userFacingChangelog": "拾梦相片不再画奇怪的思维导图了",
-      "publishedAtMs": 1778838515000
-    },
     {
       "version": 670,
       "versionName": "260515-1836",
@@ -312,8 +306,15 @@
       "userFacingChangelog": "• 设置 → 关于 → 调试 · 高级设置 里多了「重看开机引导」\n• 演示模式：可以反复过一遍开机引导，不动你已有的昵称 / 声纹 / onboarding 状态\n• 右上角随时点「退出演示」回到设置",
       "changelog": "v719：调试菜单加「重看开机引导」入口——可反复演示，不写状态",
       "publishedAtMs": 1779597244000
+    },
+    {
+      "version": 720,
+      "versionName": "260524-1250",
+      "userFacingChangelog": "• 演示模式下「下一步」按钮不再超出屏幕、昵称页恢复居中\n• 「怎么叫你」→「怎么称呼你」、通知文案「时光胶片」→「拾梦相片」\n• 电池页所有步骤说明永远展开（不再藏在 ⓘ 后面）\n• 电池优化已配的步骤右侧显示「✓ 已完成」（每次进 onboarding 自动检测）\n• OPPO 自启动跳转失败兜底到设置主页 + 提示「在搜索栏搜『自启动』」",
+      "changelog": "v720：开机引导多个修复——按钮不超屏 / 文案精修 / 电池状态识别 / OPPO 跳转兜底",
+      "publishedAtMs": 1779598399000
     }
   ],
-  "publishedAtMs": 1779597244000,
+  "publishedAtMs": 1779598399000,
   "minSupported": 0
 }
