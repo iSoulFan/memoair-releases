@@ -1,18 +1,12 @@
 {
-  "version": 720,
-  "versionName": "260524-1250",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v720/memoair-v720-260524-1250-slim.apk",
-  "sizeBytes": 35407880,
-  "sha256": "4ac522da4f6f52211cd976c96db1677514f9a1e860b157b6bef03af80254688b",
-  "changelog": "v720：开机引导多个修复——按钮不超屏 / 文案精修 / 电池状态识别 / OPPO 跳转兜底",
-  "userFacingChangelog": "• 演示模式下「下一步」按钮不再超出屏幕、昵称页恢复居中\n• 「怎么叫你」→「怎么称呼你」、通知文案「时光胶片」→「拾梦相片」\n• 电池页所有步骤说明永远展开（不再藏在 ⓘ 后面）\n• 电池优化已配的步骤右侧显示「✓ 已完成」（每次进 onboarding 自动检测）\n• OPPO 自启动跳转失败兜底到设置主页 + 提示「在搜索栏搜『自启动』」",
+  "version": 721,
+  "versionName": "260524-1303",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v721/memoair-v721-260524-1303-slim.apk",
+  "sizeBytes": 35411976,
+  "sha256": "8d36076b306ecdb6c6275907381d8a757de8880c66fdf5187ff2c1841bc7bb10",
+  "changelog": "v721：自启动跳转 Toast 接力 + 昵称页对齐与文案",
+  "userFacingChangelog": "• 跳设置后的 Toast 接力 4 条（≈14s）—— 一步步教你搜什么、选什么、开什么、回哪里\n• 昵称页「下一步」按钮跟其他步骤等高了\n• 昵称下方文案改成「填一个吧——我在卡片 / 信里写到你时会用这个称呼，比一直叫『你』亲一点」",
   "recentReleases": [
-    {
-      "version": 670,
-      "versionName": "260515-1836",
-      "userFacingChangelog": "更新通道改走 GitHub 镜像更稳更快",
-      "publishedAtMs": 1778841697000
-    },
     {
       "version": 671,
       "versionName": "260515-1923",
@@ -313,8 +307,15 @@
       "userFacingChangelog": "• 演示模式下「下一步」按钮不再超出屏幕、昵称页恢复居中\n• 「怎么叫你」→「怎么称呼你」、通知文案「时光胶片」→「拾梦相片」\n• 电池页所有步骤说明永远展开（不再藏在 ⓘ 后面）\n• 电池优化已配的步骤右侧显示「✓ 已完成」（每次进 onboarding 自动检测）\n• OPPO 自启动跳转失败兜底到设置主页 + 提示「在搜索栏搜『自启动』」",
       "changelog": "v720：开机引导多个修复——按钮不超屏 / 文案精修 / 电池状态识别 / OPPO 跳转兜底",
       "publishedAtMs": 1779598399000
+    },
+    {
+      "version": 721,
+      "versionName": "260524-1303",
+      "userFacingChangelog": "• 跳设置后的 Toast 接力 4 条（≈14s）—— 一步步教你搜什么、选什么、开什么、回哪里\n• 昵称页「下一步」按钮跟其他步骤等高了\n• 昵称下方文案改成「填一个吧——我在卡片 / 信里写到你时会用这个称呼，比一直叫『你』亲一点」",
+      "changelog": "v721：自启动跳转 Toast 接力 + 昵称页对齐与文案",
+      "publishedAtMs": 1779599132000
     }
   ],
-  "publishedAtMs": 1779598399000,
+  "publishedAtMs": 1779599132000,
   "minSupported": 0
 }
