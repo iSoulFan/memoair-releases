@@ -1,18 +1,12 @@
 {
-  "version": 722,
-  "versionName": "260524-1713",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v722/memoair-v722-260524-1713-slim.apk",
+  "version": 723,
+  "versionName": "260524-1824",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v723/memoair-v723-260524-1824-slim.apk",
   "sizeBytes": 35411976,
-  "sha256": "d75cddf47951943ed289654df9e9cc893f065e58286d0bdcd7b46b461f94b14d",
-  "changelog": "v722：chat 上下文锚定 + 内部指令不再漏给用户",
-  "userFacingChangelog": "• 在某张卡里聊「原文呢 / 怎么回事 / 展开说」时，AI 锚定到这张卡的内容，不再误抓上面别的卡片推送\n• 修了 search_transcripts 内部指令漏出 bug——「上面是原始片段，不要复制粘贴给用户...」这种内心 OS 不再发出来",
+  "sha256": "27c2a29dae534ac10b26130477b9a085a4b68811e9303568da1e8e130e419274",
+  "changelog": "v723：关系镜像抽取质量大修——quote 残句门槛 + 带上下文 + AI 找不到诚实承认",
+  "userFacingChangelog": "• 关系镜像不再抽出「明天去拿下了再」这种残句——加了客户端 + prompt 双层门槛\n• Stage A 抽 fact 时强制带前后文，Stage B 写 mirror 时基于上下文，不再瞎编\n• 你在 chat 里问「原文呢」AI 找不到时会直说「这条片段抽得太短我找不回原文，建议忽略这条解读」，不再硬编",
   "recentReleases": [
-    {
-      "version": 672,
-      "versionName": "260515-2004",
-      "userFacingChangelog": "稳定性提升",
-      "publishedAtMs": 1778847661000
-    },
     {
       "version": 673,
       "versionName": "260515-2052",
@@ -315,8 +309,15 @@
       "userFacingChangelog": "• 在某张卡里聊「原文呢 / 怎么回事 / 展开说」时，AI 锚定到这张卡的内容，不再误抓上面别的卡片推送\n• 修了 search_transcripts 内部指令漏出 bug——「上面是原始片段，不要复制粘贴给用户...」这种内心 OS 不再发出来",
       "changelog": "v722：chat 上下文锚定 + 内部指令不再漏给用户",
       "publishedAtMs": 1779614159000
+    },
+    {
+      "version": 723,
+      "versionName": "260524-1824",
+      "userFacingChangelog": "• 关系镜像不再抽出「明天去拿下了再」这种残句——加了客户端 + prompt 双层门槛\n• Stage A 抽 fact 时强制带前后文，Stage B 写 mirror 时基于上下文，不再瞎编\n• 你在 chat 里问「原文呢」AI 找不到时会直说「这条片段抽得太短我找不回原文，建议忽略这条解读」，不再硬编",
+      "changelog": "v723：关系镜像抽取质量大修——quote 残句门槛 + 带上下文 + AI 找不到诚实承认",
+      "publishedAtMs": 1779618418000
     }
   ],
-  "publishedAtMs": 1779614159000,
+  "publishedAtMs": 1779618418000,
   "minSupported": 0
 }
