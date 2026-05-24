@@ -1,18 +1,12 @@
 {
-  "version": 716,
-  "versionName": "260524-0946",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v716/memoair-v716-260524-0946-slim.apk",
-  "sizeBytes": 35354500,
-  "sha256": "b3357ac1f38615763dae3c63171cb97231df4c280514c8074d6b47ea848cc0a5",
-  "changelog": "v716：AI 引用你说过的话时会做轻度清洗——谐音错字 + 口水词，数字/人名/否定词绝不动",
-  "userFacingChangelog": "• AI 引用你说过的话时，自动修一下 ASR 谐音错字和「那个那个」口水词\n• 数字、人名、否定词全部保留——不会改你的意思\n• 卡片 + 对话里都生效",
+  "version": 717,
+  "versionName": "260524-1107",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v717/memoair-v717-260524-1107-slim.apk",
+  "sizeBytes": 35407880,
+  "sha256": "1b0e385cff7ec1857fbd2bb419479fe43a0ef48e10fdc076dfb4ca0a28a30083",
+  "changelog": "v717：人名矫正三层加固——白名单收紧 + 拼音同音双门槛 + 互为变体冲突回避（不张冠李戴）",
+  "userFacingChangelog": "• AI 引用你说过的话里出现的人名，矫正更稳了\n• 「老周」和「老朱」这种字面像但读音不同的，绝不互换\n• 只对你手动确认 / 高频出现的人才矫正——刚抽到一次的新人名不动",
   "recentReleases": [
-    {
-      "version": 666,
-      "versionName": "260515-1504",
-      "userFacingChangelog": "稳定性提升；备份功能更完整，换手机或重装能恢复更多东西",
-      "publishedAtMs": 1778829208000
-    },
     {
       "version": 667,
       "versionName": "260515-1633",
@@ -309,8 +303,15 @@
       "userFacingChangelog": "• AI 引用你说过的话时，自动修一下 ASR 谐音错字和「那个那个」口水词\n• 数字、人名、否定词全部保留——不会改你的意思\n• 卡片 + 对话里都生效",
       "changelog": "v716：AI 引用你说过的话时会做轻度清洗——谐音错字 + 口水词，数字/人名/否定词绝不动",
       "publishedAtMs": 1779587353000
+    },
+    {
+      "version": 717,
+      "versionName": "260524-1107",
+      "userFacingChangelog": "• AI 引用你说过的话里出现的人名，矫正更稳了\n• 「老周」和「老朱」这种字面像但读音不同的，绝不互换\n• 只对你手动确认 / 高频出现的人才矫正——刚抽到一次的新人名不动",
+      "changelog": "v717：人名矫正三层加固——白名单收紧 + 拼音同音双门槛 + 互为变体冲突回避（不张冠李戴）",
+      "publishedAtMs": 1779592151000
     }
   ],
-  "publishedAtMs": 1779587353000,
+  "publishedAtMs": 1779592151000,
   "minSupported": 0
 }
