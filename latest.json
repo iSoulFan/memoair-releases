@@ -1,18 +1,12 @@
 {
-  "version": 724,
-  "versionName": "260524-1841",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v724/memoair-v724-260524-1841-slim.apk",
-  "sizeBytes": 35416072,
-  "sha256": "78a4b1c9685c7f4ffa487dcb28cd364e6a9e20e47f7023f9c46c802242717305",
-  "changelog": "v724：关系镜像 transcript 精确锚点——chat 问原文时直接看那条转写，不再瞎搜瞎编",
-  "userFacingChangelog": "• 关系镜像每条 mirror 现在挂着「来源 transcript id」\n• 你在卡里长按 → 找它聊聊 → 问「原文呢」，AI 直接拿那条转写完整内容（含前后 90 秒同时段对话）作答，不再 emit search 关键词搜\n• 老 mirror 不带 id 时仍走 fallback search 路径（v723 的诚实承认 fail-gracefully 兜底）",
+  "version": 725,
+  "versionName": "260524-1854",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v725/memoair-v725-260524-1854-slim.apk",
+  "sizeBytes": 35420168,
+  "sha256": "013f955905c9b2d92be40aea5dcf30abaf6978349ab6a3641f5a7751cad5dec0",
+  "changelog": "v725：关系镜像 LLM 自评 confidence + 低质量整条丢",
+  "userFacingChangelog": "• 关系镜像 Stage B 让 LLM 自评 confidence（high / low）\n• 素材含糊、只能含混写、靠「也许 / 可能 / 让模糊变清晰」这种保底措辞 → 标 low\n• 客户端自动丢掉所有 low——根本不让靠不住的解读到用户面前\n• 治本：用户不再追问原文找不到，是因为根本看不到这条 mirror 了",
   "recentReleases": [
-    {
-      "version": 674,
-      "versionName": "260515-2140",
-      "userFacingChangelog": "稳定性提升",
-      "publishedAtMs": 1778852851000
-    },
     {
       "version": 675,
       "versionName": "260516-1308",
@@ -317,8 +311,15 @@
       "userFacingChangelog": "• 关系镜像每条 mirror 现在挂着「来源 transcript id」\n• 你在卡里长按 → 找它聊聊 → 问「原文呢」，AI 直接拿那条转写完整内容（含前后 90 秒同时段对话）作答，不再 emit search 关键词搜\n• 老 mirror 不带 id 时仍走 fallback search 路径（v723 的诚实承认 fail-gracefully 兜底）",
       "changelog": "v724：关系镜像 transcript 精确锚点——chat 问原文时直接看那条转写，不再瞎搜瞎编",
       "publishedAtMs": 1779619366000
+    },
+    {
+      "version": 725,
+      "versionName": "260524-1854",
+      "userFacingChangelog": "• 关系镜像 Stage B 让 LLM 自评 confidence（high / low）\n• 素材含糊、只能含混写、靠「也许 / 可能 / 让模糊变清晰」这种保底措辞 → 标 low\n• 客户端自动丢掉所有 low——根本不让靠不住的解读到用户面前\n• 治本：用户不再追问原文找不到，是因为根本看不到这条 mirror 了",
+      "changelog": "v725：关系镜像 LLM 自评 confidence + 低质量整条丢",
+      "publishedAtMs": 1779620236000
     }
   ],
-  "publishedAtMs": 1779619366000,
+  "publishedAtMs": 1779620236000,
   "minSupported": 0
 }
