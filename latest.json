@@ -1,11 +1,11 @@
 {
   "version": 717,
-  "versionName": "260524-1107",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v717/memoair-v717-260524-1107-slim.apk",
+  "versionName": "260524-1119",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v717/memoair-v717-260524-1119-slim.apk",
   "sizeBytes": 35407880,
-  "sha256": "1b0e385cff7ec1857fbd2bb419479fe43a0ef48e10fdc076dfb4ca0a28a30083",
-  "changelog": "v717：人名矫正三层加固——白名单收紧 + 拼音同音双门槛 + 互为变体冲突回避（不张冠李戴）",
-  "userFacingChangelog": "• AI 引用你说过的话里出现的人名，矫正更稳了\n• 「老周」和「老朱」这种字面像但读音不同的，绝不互换\n• 只对你手动确认 / 高频出现的人才矫正——刚抽到一次的新人名不动",
+  "sha256": "fdfb0a9ba3891fece3937e8397c6d85324211da3bcd0dee0be4a243c692a995a",
+  "changelog": "/Users/latiao/Desktop/memoair-apks/memoair-v717-260524-1119-slim.apk",
+  "userFacingChangelog": "",
   "recentReleases": [
     {
       "version": 667,
@@ -306,12 +306,12 @@
     },
     {
       "version": 717,
-      "versionName": "260524-1107",
-      "userFacingChangelog": "• AI 引用你说过的话里出现的人名，矫正更稳了\n• 「老周」和「老朱」这种字面像但读音不同的，绝不互换\n• 只对你手动确认 / 高频出现的人才矫正——刚抽到一次的新人名不动",
-      "changelog": "v717：人名矫正三层加固——白名单收紧 + 拼音同音双门槛 + 互为变体冲突回避（不张冠李戴）",
-      "publishedAtMs": 1779592151000
+      "versionName": "260524-1119",
+      "userFacingChangelog": "",
+      "changelog": "/Users/latiao/Desktop/memoair-apks/memoair-v717-260524-1119-slim.apk",
+      "publishedAtMs": 1779592967000
     }
   ],
-  "publishedAtMs": 1779592151000,
+  "publishedAtMs": 1779592967000,
   "minSupported": 0
 }
