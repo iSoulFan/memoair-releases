@@ -1,18 +1,12 @@
 {
-  "version": 721,
-  "versionName": "260524-1303",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v721/memoair-v721-260524-1303-slim.apk",
+  "version": 722,
+  "versionName": "260524-1713",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v722/memoair-v722-260524-1713-slim.apk",
   "sizeBytes": 35411976,
-  "sha256": "8d36076b306ecdb6c6275907381d8a757de8880c66fdf5187ff2c1841bc7bb10",
-  "changelog": "v721：自启动跳转 Toast 接力 + 昵称页对齐与文案",
-  "userFacingChangelog": "• 跳设置后的 Toast 接力 4 条（≈14s）—— 一步步教你搜什么、选什么、开什么、回哪里\n• 昵称页「下一步」按钮跟其他步骤等高了\n• 昵称下方文案改成「填一个吧——我在卡片 / 信里写到你时会用这个称呼，比一直叫『你』亲一点」",
+  "sha256": "d75cddf47951943ed289654df9e9cc893f065e58286d0bdcd7b46b461f94b14d",
+  "changelog": "v722：chat 上下文锚定 + 内部指令不再漏给用户",
+  "userFacingChangelog": "• 在某张卡里聊「原文呢 / 怎么回事 / 展开说」时，AI 锚定到这张卡的内容，不再误抓上面别的卡片推送\n• 修了 search_transcripts 内部指令漏出 bug——「上面是原始片段，不要复制粘贴给用户...」这种内心 OS 不再发出来",
   "recentReleases": [
-    {
-      "version": 671,
-      "versionName": "260515-1923",
-      "userFacingChangelog": "重复导入备份不再产生重复条目",
-      "publishedAtMs": 1778844423000
-    },
     {
       "version": 672,
       "versionName": "260515-2004",
@@ -314,8 +308,15 @@
       "userFacingChangelog": "• 跳设置后的 Toast 接力 4 条（≈14s）—— 一步步教你搜什么、选什么、开什么、回哪里\n• 昵称页「下一步」按钮跟其他步骤等高了\n• 昵称下方文案改成「填一个吧——我在卡片 / 信里写到你时会用这个称呼，比一直叫『你』亲一点」",
       "changelog": "v721：自启动跳转 Toast 接力 + 昵称页对齐与文案",
       "publishedAtMs": 1779599132000
+    },
+    {
+      "version": 722,
+      "versionName": "260524-1713",
+      "userFacingChangelog": "• 在某张卡里聊「原文呢 / 怎么回事 / 展开说」时，AI 锚定到这张卡的内容，不再误抓上面别的卡片推送\n• 修了 search_transcripts 内部指令漏出 bug——「上面是原始片段，不要复制粘贴给用户...」这种内心 OS 不再发出来",
+      "changelog": "v722：chat 上下文锚定 + 内部指令不再漏给用户",
+      "publishedAtMs": 1779614159000
     }
   ],
-  "publishedAtMs": 1779599132000,
+  "publishedAtMs": 1779614159000,
   "minSupported": 0
 }
