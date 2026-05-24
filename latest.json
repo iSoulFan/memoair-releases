@@ -1,18 +1,12 @@
 {
-  "version": 725,
-  "versionName": "260524-1854",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v725/memoair-v725-260524-1854-slim.apk",
+  "version": 726,
+  "versionName": "260524-2319",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v726/memoair-v726-260524-2319-slim.apk",
   "sizeBytes": 35420168,
-  "sha256": "013f955905c9b2d92be40aea5dcf30abaf6978349ab6a3641f5a7751cad5dec0",
-  "changelog": "v725：关系镜像 LLM 自评 confidence + 低质量整条丢",
-  "userFacingChangelog": "• 关系镜像 Stage B 让 LLM 自评 confidence（high / low）\n• 素材含糊、只能含混写、靠「也许 / 可能 / 让模糊变清晰」这种保底措辞 → 标 low\n• 客户端自动丢掉所有 low——根本不让靠不住的解读到用户面前\n• 治本：用户不再追问原文找不到，是因为根本看不到这条 mirror 了",
+  "sha256": "8b733dc0d0a9c09dec6f353642af6bd46070e061dcc5ec7ce22d84fcb51e513a",
+  "changelog": "v726：待办→纪要返回回到原 todo 位置",
+  "userFacingChangelog": "• 从待办点「去看那份纪要」跳过去后，左滑切回 / 系统返回手势回到待办时，列表自动滚回原来那条待办的位置",
   "recentReleases": [
-    {
-      "version": 675,
-      "versionName": "260516-1308",
-      "userFacingChangelog": "稳定性提升",
-      "publishedAtMs": 1778908398000
-    },
     {
       "version": 676,
       "versionName": "260516-1648",
@@ -318,8 +312,15 @@
       "userFacingChangelog": "• 关系镜像 Stage B 让 LLM 自评 confidence（high / low）\n• 素材含糊、只能含混写、靠「也许 / 可能 / 让模糊变清晰」这种保底措辞 → 标 low\n• 客户端自动丢掉所有 low——根本不让靠不住的解读到用户面前\n• 治本：用户不再追问原文找不到，是因为根本看不到这条 mirror 了",
       "changelog": "v725：关系镜像 LLM 自评 confidence + 低质量整条丢",
       "publishedAtMs": 1779620236000
+    },
+    {
+      "version": 726,
+      "versionName": "260524-2319",
+      "userFacingChangelog": "• 从待办点「去看那份纪要」跳过去后，左滑切回 / 系统返回手势回到待办时，列表自动滚回原来那条待办的位置",
+      "changelog": "v726：待办→纪要返回回到原 todo 位置",
+      "publishedAtMs": 1779636235000
     }
   ],
-  "publishedAtMs": 1779620236000,
+  "publishedAtMs": 1779636235000,
   "minSupported": 0
 }
