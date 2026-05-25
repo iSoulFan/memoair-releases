@@ -1,18 +1,12 @@
 {
-  "version": 737,
-  "versionName": "260525-1634",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v737/memoair-v737-260525-1634-slim.apk",
-  "sizeBytes": 35448896,
-  "sha256": "5fa302bec6d651bf1d31d0da450bbca39488c0f2e0d25f65bd678fefbd732171",
-  "changelog": "v737：设置 dim 联动扩到顶层所有项",
-  "userFacingChangelog": "• 设置主页任一项展开时其他全部淡到 28% 透明度（v736 只覆盖了「调试·高级设置」内部，现在所有顶层 row 也联动）",
+  "version": 738,
+  "versionName": "260525-1645",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v738/memoair-v738-260525-1645-slim.apk",
+  "sizeBytes": 35444800,
+  "sha256": "4ec6690f023b5babdd0a42ff0ed1e4a1ad5167103dfa068f05bcd7adb7cf7274",
+  "changelog": "v738：设置 dim 改成「展开链路全亮 + 其他全淡」模型",
+  "userFacingChangelog": "• 设置里任意板块展开后：自己 + 板块内所有子菜单全亮，其他板块全淡 28%\n• 比如展开「我的数据」→ 隐私实况 / 备份 / 选择忘记等子菜单都亮，录音 / 主题 / 调试等其他顶层 row 都淡",
   "recentReleases": [
-    {
-      "version": 687,
-      "versionName": "260521-0009",
-      "userFacingChangelog": "关系镜像识人更准：先按声纹区分'同一个人 vs 不同的人'，再让 AI 把声纹簇对到具体名字；最后用原话核对，避免把别人说的话张冠李戴。",
-      "publishedAtMs": 1779293600000
-    },
     {
       "version": 688,
       "versionName": "260521-0753",
@@ -329,8 +323,15 @@
       "userFacingChangelog": "• 设置主页任一项展开时其他全部淡到 28% 透明度（v736 只覆盖了「调试·高级设置」内部，现在所有顶层 row 也联动）",
       "changelog": "v737：设置 dim 联动扩到顶层所有项",
       "publishedAtMs": 1779698301000
+    },
+    {
+      "version": 738,
+      "versionName": "260525-1645",
+      "userFacingChangelog": "• 设置里任意板块展开后：自己 + 板块内所有子菜单全亮，其他板块全淡 28%\n• 比如展开「我的数据」→ 隐私实况 / 备份 / 选择忘记等子菜单都亮，录音 / 主题 / 调试等其他顶层 row 都淡",
+      "changelog": "v738：设置 dim 改成「展开链路全亮 + 其他全淡」模型",
+      "publishedAtMs": 1779698886000
     }
   ],
-  "publishedAtMs": 1779698301000,
+  "publishedAtMs": 1779698886000,
   "minSupported": 0
 }
