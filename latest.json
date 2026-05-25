@@ -1,18 +1,12 @@
 {
-  "version": 735,
-  "versionName": "260525-1413",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v735/memoair-v735-260525-1413-slim.apk",
+  "version": 736,
+  "versionName": "260525-1601",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v736/memoair-v736-260525-1601-slim.apk",
   "sizeBytes": 35444800,
-  "sha256": "bb48de1cea5b73e48ac2ade42adbb6cb33d383dd3b363c5f50ea55c5789b46c7",
-  "changelog": "v735：纪要按「有没有产出」判，独白型工作复盘也算",
-  "userFacingChangelog": "• 纪要不再按「几个人在说」抽，改按「有没有结论 / 决议 / 下一步 / todo」\n• 你独自想方案 5 分钟 + 最后拍板「明天先 X」也会被记下来\n• 满屏「也许 / 可能 / 再说 / 哎」没结论的几分钟漫游，会被直接跳过",
+  "sha256": "89bbeb3af2de20b9233f2ce78cff334dc91d392f5d44af2716cd9c0e12346e90",
+  "changelog": "v736：设置折叠项展开时其他自动淡化",
+  "userFacingChangelog": "• 设置 → 高级里点开某项后，其他兄弟项自动淡到 28% 透明度\n• 视线天然聚焦展开项，收回时也立刻知道刚才点的是哪个",
   "recentReleases": [
-    {
-      "version": 685,
-      "versionName": "260520-1412",
-      "userFacingChangelog": "记得这一版几个修：拍立得边框完整恢复；今天起新生成的图不再有右下角『AI 生成』水印（根因是序列化漏字段）；账本功能下线，AI 不再帮你记账。",
-      "publishedAtMs": 1779257883000
-    },
     {
       "version": 686,
       "versionName": "260520-2307",
@@ -327,8 +321,15 @@
       "userFacingChangelog": "• 纪要不再按「几个人在说」抽，改按「有没有结论 / 决议 / 下一步 / todo」\n• 你独自想方案 5 分钟 + 最后拍板「明天先 X」也会被记下来\n• 满屏「也许 / 可能 / 再说 / 哎」没结论的几分钟漫游，会被直接跳过",
       "changelog": "v735：纪要按「有没有产出」判，独白型工作复盘也算",
       "publishedAtMs": 1779689724000
+    },
+    {
+      "version": 736,
+      "versionName": "260525-1601",
+      "userFacingChangelog": "• 设置 → 高级里点开某项后，其他兄弟项自动淡到 28% 透明度\n• 视线天然聚焦展开项，收回时也立刻知道刚才点的是哪个",
+      "changelog": "v736：设置折叠项展开时其他自动淡化",
+      "publishedAtMs": 1779696249000
     }
   ],
-  "publishedAtMs": 1779689724000,
+  "publishedAtMs": 1779696249000,
   "minSupported": 0
 }
