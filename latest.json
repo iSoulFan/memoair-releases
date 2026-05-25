@@ -1,18 +1,12 @@
 {
-  "version": 734,
-  "versionName": "260525-1255",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v734/memoair-v734-260525-1255-slim.apk",
+  "version": 735,
+  "versionName": "260525-1413",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v735/memoair-v735-260525-1413-slim.apk",
   "sizeBytes": 35444800,
-  "sha256": "83dab235f35118490f86aa50b150d861f15caa500d69ff774051863b67bf4732",
-  "changelog": "v734：吐槽通道副标字体跟其他 row 一致 + 换行",
-  "userFacingChangelog": "• 「我想要吐槽」下面的小字字体改成 Mono 跟其他设置 row 副标统一\n• 「想到什么说什么，越详细越好」换到第二行",
+  "sha256": "bb48de1cea5b73e48ac2ade42adbb6cb33d383dd3b363c5f50ea55c5789b46c7",
+  "changelog": "v735：纪要按「有没有产出」判，独白型工作复盘也算",
+  "userFacingChangelog": "• 纪要不再按「几个人在说」抽，改按「有没有结论 / 决议 / 下一步 / todo」\n• 你独自想方案 5 分钟 + 最后拍板「明天先 X」也会被记下来\n• 满屏「也许 / 可能 / 再说 / 哎」没结论的几分钟漫游，会被直接跳过",
   "recentReleases": [
-    {
-      "version": 684,
-      "versionName": "260520-1258",
-      "userFacingChangelog": "App 里看不到右下角的『AI 生成』小水印了；长按下载原图 / 折叠态分享出去的图仍带——保留来源标识。",
-      "publishedAtMs": 1779253720000
-    },
     {
       "version": 685,
       "versionName": "260520-1412",
@@ -326,8 +320,15 @@
       "userFacingChangelog": "• 「我想要吐槽」下面的小字字体改成 Mono 跟其他设置 row 副标统一\n• 「想到什么说什么，越详细越好」换到第二行",
       "changelog": "v734：吐槽通道副标字体跟其他 row 一致 + 换行",
       "publishedAtMs": 1779685085000
+    },
+    {
+      "version": 735,
+      "versionName": "260525-1413",
+      "userFacingChangelog": "• 纪要不再按「几个人在说」抽，改按「有没有结论 / 决议 / 下一步 / todo」\n• 你独自想方案 5 分钟 + 最后拍板「明天先 X」也会被记下来\n• 满屏「也许 / 可能 / 再说 / 哎」没结论的几分钟漫游，会被直接跳过",
+      "changelog": "v735：纪要按「有没有产出」判，独白型工作复盘也算",
+      "publishedAtMs": 1779689724000
     }
   ],
-  "publishedAtMs": 1779685085000,
+  "publishedAtMs": 1779689724000,
   "minSupported": 0
 }
