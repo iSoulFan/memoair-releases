@@ -1,18 +1,12 @@
 {
-  "version": 738,
-  "versionName": "260525-1645",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v738/memoair-v738-260525-1645-slim.apk",
-  "sizeBytes": 35444800,
-  "sha256": "4ec6690f023b5babdd0a42ff0ed1e4a1ad5167103dfa068f05bcd7adb7cf7274",
-  "changelog": "v738：设置 dim 改成「展开链路全亮 + 其他全淡」模型",
-  "userFacingChangelog": "• 设置里任意板块展开后：自己 + 板块内所有子菜单全亮，其他板块全淡 28%\n• 比如展开「我的数据」→ 隐私实况 / 备份 / 选择忘记等子菜单都亮，录音 / 主题 / 调试等其他顶层 row 都淡",
+  "version": 739,
+  "versionName": "260525-1652",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v739/memoair-v739-260525-1652-slim.apk",
+  "sizeBytes": 35448896,
+  "sha256": "ae4673d58e9f7c9115d9d516303fd0bebfe4b25d99ed4af953266389e03e3b6b",
+  "changelog": "v739：「我擅长什么」改成跟吐槽同款两件套",
+  "userFacingChangelog": "• 设置 → 我擅长什么 弹窗简化：输入框 + 三态大按钮（开始说话 → 说完了 → ✦ 让 AI 整理并保存）\n• 去掉冗长说明 / 分隔线 / 双按钮，跟「我想要吐槽」一致的极简风",
   "recentReleases": [
-    {
-      "version": 688,
-      "versionName": "260521-0753",
-      "userFacingChangelog": "1. 合并两个人物时，会自动保留其中已有头像的那个头像；2. 拾梦相片图片生成偶发抖动时自动重试一次，少出现『有相框没有图』的情况。",
-      "publishedAtMs": 1779321474000
-    },
     {
       "version": 689,
       "versionName": "260521-0815",
@@ -330,8 +324,15 @@
       "userFacingChangelog": "• 设置里任意板块展开后：自己 + 板块内所有子菜单全亮，其他板块全淡 28%\n• 比如展开「我的数据」→ 隐私实况 / 备份 / 选择忘记等子菜单都亮，录音 / 主题 / 调试等其他顶层 row 都淡",
       "changelog": "v738：设置 dim 改成「展开链路全亮 + 其他全淡」模型",
       "publishedAtMs": 1779698886000
+    },
+    {
+      "version": 739,
+      "versionName": "260525-1652",
+      "userFacingChangelog": "• 设置 → 我擅长什么 弹窗简化：输入框 + 三态大按钮（开始说话 → 说完了 → ✦ 让 AI 整理并保存）\n• 去掉冗长说明 / 分隔线 / 双按钮，跟「我想要吐槽」一致的极简风",
+      "changelog": "v739：「我擅长什么」改成跟吐槽同款两件套",
+      "publishedAtMs": 1779699332000
     }
   ],
-  "publishedAtMs": 1779698886000,
+  "publishedAtMs": 1779699332000,
   "minSupported": 0
 }
