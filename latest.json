@@ -1,18 +1,12 @@
 {
-  "version": 740,
-  "versionName": "260526-0058",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v740/memoair-v740-260526-0058-slim.apk",
+  "version": 741,
+  "versionName": "260526-0109",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v741/memoair-v741-260526-0109-slim.apk",
   "sizeBytes": 35448896,
-  "sha256": "e57fb37739a8992cd8004dc4c6ccfd05cc96118580a3a66c3cabfc702ac0b60c",
-  "changelog": "v740：隐私关键词删除联动重抽 + 反馈两步确认",
-  "userFacingChangelog": "• 删除隐私不录关键词时，自动重抽今天 + 昨天的会议纪要——曾被关键词拦掉的会议有机会找回（Toast 会显示「正在重抽…」）\n• 对话里识别到吐槽 / 反馈意图时，AI 会先把准备发送的内容预览给你，确认「行 / 嗯」之后才发出去；不再擅自发送",
+  "sha256": "1f2eaec8715c2e6e999d316a54e3a0ee430f2cfc33d239832dc471a27877f49a",
+  "changelog": "把「我想要吐槽」面板和录音三开关面板也纳入 dim 联动 — 其他 section 展开时它们也会跟着变淡",
+  "userFacingChangelog": "其他设置展开时，「我想要吐槽」和录音板块也会跟着变淡了——不再单独亮一块儿",
   "recentReleases": [
-    {
-      "version": 690,
-      "versionName": "260521-0832",
-      "userFacingChangelog": "拾梦相片图片生成接口今天升级最小图像尺寸，旧设置直接被拒，已切换到符合新阈值的同比例尺寸。",
-      "publishedAtMs": 1779323624000
-    },
     {
       "version": 691,
       "versionName": "260521-1047",
@@ -332,8 +326,15 @@
       "userFacingChangelog": "• 删除隐私不录关键词时，自动重抽今天 + 昨天的会议纪要——曾被关键词拦掉的会议有机会找回（Toast 会显示「正在重抽…」）\n• 对话里识别到吐槽 / 反馈意图时，AI 会先把准备发送的内容预览给你，确认「行 / 嗯」之后才发出去；不再擅自发送",
       "changelog": "v740：隐私关键词删除联动重抽 + 反馈两步确认",
       "publishedAtMs": 1779728609000
+    },
+    {
+      "version": 741,
+      "versionName": "260526-0109",
+      "userFacingChangelog": "其他设置展开时，「我想要吐槽」和录音板块也会跟着变淡了——不再单独亮一块儿",
+      "changelog": "把「我想要吐槽」面板和录音三开关面板也纳入 dim 联动 — 其他 section 展开时它们也会跟着变淡",
+      "publishedAtMs": 1779729184000
     }
   ],
-  "publishedAtMs": 1779728609000,
+  "publishedAtMs": 1779729184000,
   "minSupported": 0
 }
