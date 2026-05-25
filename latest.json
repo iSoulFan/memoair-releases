@@ -1,18 +1,12 @@
 {
-  "version": 731,
-  "versionName": "260525-1113",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v731/memoair-v731-260525-1113-slim.apk",
-  "sizeBytes": 35440704,
-  "sha256": "1e1f4a252f36f5c5a53166fee812efcb5a59449510f14fb503e39390a131792d",
-  "changelog": "v731：吐槽通道改 inline 三态按钮",
-  "userFacingChangelog": "• 设置里「我想要吐槽」点行直接展开 inline 大按钮\n• 三态：🎙 点击开始说话吐槽 → ⏹ 说完了（停录音） → ↗ 说完了，你马上看（送出）\n• 不再跳二级页；录音过程实时显示听写文字",
+  "version": 733,
+  "versionName": "260525-1210",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v733/memoair-v733-260525-1210-slim.apk",
+  "sizeBytes": 35444800,
+  "sha256": "78b612aadbc31fc5e1270798ed8db220ec20be5e5ed9b40a68438ca6b91cc16c",
+  "changelog": "v733：吐槽通道 UI 一致性 + 文案细化",
+  "userFacingChangelog": "• 设置「我想要吐槽」右边箭头样式跟其他 row 一致\n• 副标精修：「想要」→「想要新功能」、「想到啥说啥」→「想到什么说什么，越详细越好」\n• 大按钮统一黑底白字（只录音中变红给在录信号）",
   "recentReleases": [
-    {
-      "version": 681,
-      "versionName": "260520-1020",
-      "userFacingChangelog": "卡片 / 会议纪要里如果出现近似名（徐博/徐波），现在会自动校准成已登场的标准名。",
-      "publishedAtMs": 1779246802000
-    },
     {
       "version": 683,
       "versionName": "260520-1228",
@@ -324,8 +318,15 @@
       "userFacingChangelog": "• 设置里「我想要吐槽」点行直接展开 inline 大按钮\n• 三态：🎙 点击开始说话吐槽 → ⏹ 说完了（停录音） → ↗ 说完了，你马上看（送出）\n• 不再跳二级页；录音过程实时显示听写文字",
       "changelog": "v731：吐槽通道改 inline 三态按钮",
       "publishedAtMs": 1779678991000
+    },
+    {
+      "version": 733,
+      "versionName": "260525-1210",
+      "userFacingChangelog": "• 设置「我想要吐槽」右边箭头样式跟其他 row 一致\n• 副标精修：「想要」→「想要新功能」、「想到啥说啥」→「想到什么说什么，越详细越好」\n• 大按钮统一黑底白字（只录音中变红给在录信号）",
+      "changelog": "v733：吐槽通道 UI 一致性 + 文案细化",
+      "publishedAtMs": 1779682371000
     }
   ],
-  "publishedAtMs": 1779678991000,
+  "publishedAtMs": 1779682371000,
   "minSupported": 0
 }
