@@ -1,18 +1,12 @@
 {
-  "version": 741,
-  "versionName": "260526-0109",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v741/memoair-v741-260526-0109-slim.apk",
+  "version": 742,
+  "versionName": "260526-0130",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v742/memoair-v742-260526-0130-slim.apk",
   "sizeBytes": 35448896,
-  "sha256": "1f2eaec8715c2e6e999d316a54e3a0ee430f2cfc33d239832dc471a27877f49a",
-  "changelog": "把「我想要吐槽」面板和录音三开关面板也纳入 dim 联动 — 其他 section 展开时它们也会跟着变淡",
-  "userFacingChangelog": "其他设置展开时，「我想要吐槽」和录音板块也会跟着变淡了——不再单独亮一块儿",
+  "sha256": "45a13288ea64af50103977c6d2ef21082d965daeb893b605a2b3dc530c7fc534",
+  "changelog": "x742：dim 联动覆盖到 masthead + 我擅长什么 + 单例展开（展开 A 自动关 B）",
+  "userFacingChangelog": "现在设置里任意展开一项，其他全部变淡（包括头像那行和「我擅长什么」）；同一时刻只允许展开一项，开新的会自动收起旧的",
   "recentReleases": [
-    {
-      "version": 691,
-      "versionName": "260521-1047",
-      "userFacingChangelog": "App 整体跑得更顺：时光列表滑动不再掉帧，长时间录音电池更耐用、机身不发烫。",
-      "publishedAtMs": 1779331761000
-    },
     {
       "version": 692,
       "versionName": "260521-1058",
@@ -333,8 +327,15 @@
       "userFacingChangelog": "其他设置展开时，「我想要吐槽」和录音板块也会跟着变淡了——不再单独亮一块儿",
       "changelog": "把「我想要吐槽」面板和录音三开关面板也纳入 dim 联动 — 其他 section 展开时它们也会跟着变淡",
       "publishedAtMs": 1779729184000
+    },
+    {
+      "version": 742,
+      "versionName": "260526-0130",
+      "userFacingChangelog": "现在设置里任意展开一项，其他全部变淡（包括头像那行和「我擅长什么」）；同一时刻只允许展开一项，开新的会自动收起旧的",
+      "changelog": "x742：dim 联动覆盖到 masthead + 我擅长什么 + 单例展开（展开 A 自动关 B）",
+      "publishedAtMs": 1779730443000
     }
   ],
-  "publishedAtMs": 1779729184000,
+  "publishedAtMs": 1779730443000,
   "minSupported": 0
 }
