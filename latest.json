@@ -1,18 +1,12 @@
 {
-  "version": 729,
-  "versionName": "260525-1033",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v729/memoair-v729-260525-1033-slim.apk",
-  "sizeBytes": 35440704,
-  "sha256": "18ce291adfc718445c01129e20303a01e0b33ac2ff3b54646769047c62623fda",
-  "changelog": "v729：新增「专属你的产品吐槽通道」入口",
-  "userFacingChangelog": "• 设置里新增「专属你的产品吐槽通道」——录音/文字两种方式都行，吐槽直接送到我（不读 App 内任何数据）\n• 顶部 6 条引导：亮点 / 戳中 / 卡壳 / 吐槽 / 缺什么 / 怎么改",
+  "version": 730,
+  "versionName": "260525-1055",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v730/memoair-v730-260525-1055-slim.apk",
+  "sizeBytes": 35436608,
+  "sha256": "d2566961fb83cc9651480fd66827e188b1fbe299c32b31b18dbed467fc41998f",
+  "changelog": "v730：吐槽通道精简 + chat 内自动反馈",
+  "userFacingChangelog": "• 设置入口「告诉作者一句」—— 不好用 / 想要 / 有 bug / 搞不懂 / 教我做事\n• 点开后直接是大按钮：点一次开始 → 实时转写 → 再点结束 → 可改输入框 → 发送\n• chat 里直接吐槽功能 / 报 bug / 许愿 / 问怎么用 —— AI 会自动帮你发给作者，附带情境说明",
   "recentReleases": [
-    {
-      "version": 679,
-      "versionName": "260520-0713",
-      "userFacingChangelog": "现在可以在设置→拾梦相片小部件里选『今日相片』还是『随机往日』；今日还没生成时也不会空着（自动回退到历史轮播）",
-      "publishedAtMs": 1779232955000
-    },
     {
       "version": 680,
       "versionName": "260520-0854",
@@ -322,8 +316,15 @@
       "userFacingChangelog": "• 设置里新增「专属你的产品吐槽通道」——录音/文字两种方式都行，吐槽直接送到我（不读 App 内任何数据）\n• 顶部 6 条引导：亮点 / 戳中 / 卡壳 / 吐槽 / 缺什么 / 怎么改",
       "changelog": "v729：新增「专属你的产品吐槽通道」入口",
       "publishedAtMs": 1779676567000
+    },
+    {
+      "version": 730,
+      "versionName": "260525-1055",
+      "userFacingChangelog": "• 设置入口「告诉作者一句」—— 不好用 / 想要 / 有 bug / 搞不懂 / 教我做事\n• 点开后直接是大按钮：点一次开始 → 实时转写 → 再点结束 → 可改输入框 → 发送\n• chat 里直接吐槽功能 / 报 bug / 许愿 / 问怎么用 —— AI 会自动帮你发给作者，附带情境说明",
+      "changelog": "v730：吐槽通道精简 + chat 内自动反馈",
+      "publishedAtMs": 1779677903000
     }
   ],
-  "publishedAtMs": 1779676567000,
+  "publishedAtMs": 1779677903000,
   "minSupported": 0
 }
