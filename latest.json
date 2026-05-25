@@ -1,18 +1,12 @@
 {
-  "version": 736,
-  "versionName": "260525-1601",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v736/memoair-v736-260525-1601-slim.apk",
-  "sizeBytes": 35444800,
-  "sha256": "89bbeb3af2de20b9233f2ce78cff334dc91d392f5d44af2716cd9c0e12346e90",
-  "changelog": "v736：设置折叠项展开时其他自动淡化",
-  "userFacingChangelog": "• 设置 → 高级里点开某项后，其他兄弟项自动淡到 28% 透明度\n• 视线天然聚焦展开项，收回时也立刻知道刚才点的是哪个",
+  "version": 737,
+  "versionName": "260525-1634",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v737/memoair-v737-260525-1634-slim.apk",
+  "sizeBytes": 35448896,
+  "sha256": "5fa302bec6d651bf1d31d0da450bbca39488c0f2e0d25f65bd678fefbd732171",
+  "changelog": "v737：设置 dim 联动扩到顶层所有项",
+  "userFacingChangelog": "• 设置主页任一项展开时其他全部淡到 28% 透明度（v736 只覆盖了「调试·高级设置」内部，现在所有顶层 row 也联动）",
   "recentReleases": [
-    {
-      "version": 686,
-      "versionName": "260520-2307",
-      "userFacingChangelog": "待办里『纪要待办』+『自由待办』之前各管各的去重，结果重复的『买菜』『今天买菜』『买点菜』都进了——现在按标题语义比一遍，重复的不再多记。",
-      "publishedAtMs": 1779289998000
-    },
     {
       "version": 687,
       "versionName": "260521-0009",
@@ -328,8 +322,15 @@
       "userFacingChangelog": "• 设置 → 高级里点开某项后，其他兄弟项自动淡到 28% 透明度\n• 视线天然聚焦展开项，收回时也立刻知道刚才点的是哪个",
       "changelog": "v736：设置折叠项展开时其他自动淡化",
       "publishedAtMs": 1779696249000
+    },
+    {
+      "version": 737,
+      "versionName": "260525-1634",
+      "userFacingChangelog": "• 设置主页任一项展开时其他全部淡到 28% 透明度（v736 只覆盖了「调试·高级设置」内部，现在所有顶层 row 也联动）",
+      "changelog": "v737：设置 dim 联动扩到顶层所有项",
+      "publishedAtMs": 1779698301000
     }
   ],
-  "publishedAtMs": 1779696249000,
+  "publishedAtMs": 1779698301000,
   "minSupported": 0
 }
