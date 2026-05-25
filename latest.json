@@ -1,18 +1,12 @@
 {
-  "version": 739,
-  "versionName": "260525-1652",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v739/memoair-v739-260525-1652-slim.apk",
+  "version": 740,
+  "versionName": "260526-0058",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v740/memoair-v740-260526-0058-slim.apk",
   "sizeBytes": 35448896,
-  "sha256": "ae4673d58e9f7c9115d9d516303fd0bebfe4b25d99ed4af953266389e03e3b6b",
-  "changelog": "v739：「我擅长什么」改成跟吐槽同款两件套",
-  "userFacingChangelog": "• 设置 → 我擅长什么 弹窗简化：输入框 + 三态大按钮（开始说话 → 说完了 → ✦ 让 AI 整理并保存）\n• 去掉冗长说明 / 分隔线 / 双按钮，跟「我想要吐槽」一致的极简风",
+  "sha256": "e57fb37739a8992cd8004dc4c6ccfd05cc96118580a3a66c3cabfc702ac0b60c",
+  "changelog": "v740：隐私关键词删除联动重抽 + 反馈两步确认",
+  "userFacingChangelog": "• 删除隐私不录关键词时，自动重抽今天 + 昨天的会议纪要——曾被关键词拦掉的会议有机会找回（Toast 会显示「正在重抽…」）\n• 对话里识别到吐槽 / 反馈意图时，AI 会先把准备发送的内容预览给你，确认「行 / 嗯」之后才发出去；不再擅自发送",
   "recentReleases": [
-    {
-      "version": 689,
-      "versionName": "260521-0815",
-      "userFacingChangelog": "拾梦相片『再拍一张』失败不再白扣一次额度——之前生成失败也照扣，现在只有真的拍到新图才扣。",
-      "publishedAtMs": 1779322768000
-    },
     {
       "version": 690,
       "versionName": "260521-0832",
@@ -331,8 +325,15 @@
       "userFacingChangelog": "• 设置 → 我擅长什么 弹窗简化：输入框 + 三态大按钮（开始说话 → 说完了 → ✦ 让 AI 整理并保存）\n• 去掉冗长说明 / 分隔线 / 双按钮，跟「我想要吐槽」一致的极简风",
       "changelog": "v739：「我擅长什么」改成跟吐槽同款两件套",
       "publishedAtMs": 1779699332000
+    },
+    {
+      "version": 740,
+      "versionName": "260526-0058",
+      "userFacingChangelog": "• 删除隐私不录关键词时，自动重抽今天 + 昨天的会议纪要——曾被关键词拦掉的会议有机会找回（Toast 会显示「正在重抽…」）\n• 对话里识别到吐槽 / 反馈意图时，AI 会先把准备发送的内容预览给你，确认「行 / 嗯」之后才发出去；不再擅自发送",
+      "changelog": "v740：隐私关键词删除联动重抽 + 反馈两步确认",
+      "publishedAtMs": 1779728609000
     }
   ],
-  "publishedAtMs": 1779699332000,
+  "publishedAtMs": 1779728609000,
   "minSupported": 0
 }
