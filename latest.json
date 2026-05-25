@@ -1,18 +1,12 @@
 {
-  "version": 733,
-  "versionName": "260525-1210",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v733/memoair-v733-260525-1210-slim.apk",
+  "version": 734,
+  "versionName": "260525-1255",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v734/memoair-v734-260525-1255-slim.apk",
   "sizeBytes": 35444800,
-  "sha256": "78b612aadbc31fc5e1270798ed8db220ec20be5e5ed9b40a68438ca6b91cc16c",
-  "changelog": "v733：吐槽通道 UI 一致性 + 文案细化",
-  "userFacingChangelog": "• 设置「我想要吐槽」右边箭头样式跟其他 row 一致\n• 副标精修：「想要」→「想要新功能」、「想到啥说啥」→「想到什么说什么，越详细越好」\n• 大按钮统一黑底白字（只录音中变红给在录信号）",
+  "sha256": "83dab235f35118490f86aa50b150d861f15caa500d69ff774051863b67bf4732",
+  "changelog": "v734：吐槽通道副标字体跟其他 row 一致 + 换行",
+  "userFacingChangelog": "• 「我想要吐槽」下面的小字字体改成 Mono 跟其他设置 row 副标统一\n• 「想到什么说什么，越详细越好」换到第二行",
   "recentReleases": [
-    {
-      "version": 683,
-      "versionName": "260520-1228",
-      "userFacingChangelog": "记得这一版有几个静悄悄的修：刚装完用的时候不会再给你弹一堆『新功能介绍』；屏幕只允许竖屏；桌面小部件设置里的解释更短。",
-      "publishedAtMs": 1779251781000
-    },
     {
       "version": 684,
       "versionName": "260520-1258",
@@ -325,8 +319,15 @@
       "userFacingChangelog": "• 设置「我想要吐槽」右边箭头样式跟其他 row 一致\n• 副标精修：「想要」→「想要新功能」、「想到啥说啥」→「想到什么说什么，越详细越好」\n• 大按钮统一黑底白字（只录音中变红给在录信号）",
       "changelog": "v733：吐槽通道 UI 一致性 + 文案细化",
       "publishedAtMs": 1779682371000
+    },
+    {
+      "version": 734,
+      "versionName": "260525-1255",
+      "userFacingChangelog": "• 「我想要吐槽」下面的小字字体改成 Mono 跟其他设置 row 副标统一\n• 「想到什么说什么，越详细越好」换到第二行",
+      "changelog": "v734：吐槽通道副标字体跟其他 row 一致 + 换行",
+      "publishedAtMs": 1779685085000
     }
   ],
-  "publishedAtMs": 1779682371000,
+  "publishedAtMs": 1779685085000,
   "minSupported": 0
 }
