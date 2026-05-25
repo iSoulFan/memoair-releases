@@ -1,18 +1,12 @@
 {
-  "version": 730,
-  "versionName": "260525-1055",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v730/memoair-v730-260525-1055-slim.apk",
-  "sizeBytes": 35436608,
-  "sha256": "d2566961fb83cc9651480fd66827e188b1fbe299c32b31b18dbed467fc41998f",
-  "changelog": "v730：吐槽通道精简 + chat 内自动反馈",
-  "userFacingChangelog": "• 设置入口「告诉作者一句」—— 不好用 / 想要 / 有 bug / 搞不懂 / 教我做事\n• 点开后直接是大按钮：点一次开始 → 实时转写 → 再点结束 → 可改输入框 → 发送\n• chat 里直接吐槽功能 / 报 bug / 许愿 / 问怎么用 —— AI 会自动帮你发给作者，附带情境说明",
+  "version": 731,
+  "versionName": "260525-1113",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v731/memoair-v731-260525-1113-slim.apk",
+  "sizeBytes": 35440704,
+  "sha256": "1e1f4a252f36f5c5a53166fee812efcb5a59449510f14fb503e39390a131792d",
+  "changelog": "v731：吐槽通道改 inline 三态按钮",
+  "userFacingChangelog": "• 设置里「我想要吐槽」点行直接展开 inline 大按钮\n• 三态：🎙 点击开始说话吐槽 → ⏹ 说完了（停录音） → ↗ 说完了，你马上看（送出）\n• 不再跳二级页；录音过程实时显示听写文字",
   "recentReleases": [
-    {
-      "version": 680,
-      "versionName": "260520-0854",
-      "userFacingChangelog": "每张拾梦相片现在能再拍 2 次（之前是 3 次）。",
-      "publishedAtMs": 1779238782000
-    },
     {
       "version": 681,
       "versionName": "260520-1020",
@@ -323,8 +317,15 @@
       "userFacingChangelog": "• 设置入口「告诉作者一句」—— 不好用 / 想要 / 有 bug / 搞不懂 / 教我做事\n• 点开后直接是大按钮：点一次开始 → 实时转写 → 再点结束 → 可改输入框 → 发送\n• chat 里直接吐槽功能 / 报 bug / 许愿 / 问怎么用 —— AI 会自动帮你发给作者，附带情境说明",
       "changelog": "v730：吐槽通道精简 + chat 内自动反馈",
       "publishedAtMs": 1779677903000
+    },
+    {
+      "version": 731,
+      "versionName": "260525-1113",
+      "userFacingChangelog": "• 设置里「我想要吐槽」点行直接展开 inline 大按钮\n• 三态：🎙 点击开始说话吐槽 → ⏹ 说完了（停录音） → ↗ 说完了，你马上看（送出）\n• 不再跳二级页；录音过程实时显示听写文字",
+      "changelog": "v731：吐槽通道改 inline 三态按钮",
+      "publishedAtMs": 1779678991000
     }
   ],
-  "publishedAtMs": 1779677903000,
+  "publishedAtMs": 1779678991000,
   "minSupported": 0
 }
