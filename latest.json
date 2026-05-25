@@ -1,18 +1,12 @@
 {
-  "version": 742,
-  "versionName": "260526-0130",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v742/memoair-v742-260526-0130-slim.apk",
-  "sizeBytes": 35448896,
-  "sha256": "45a13288ea64af50103977c6d2ef21082d965daeb893b605a2b3dc530c7fc534",
-  "changelog": "x742：dim 联动覆盖到 masthead + 我擅长什么 + 单例展开（展开 A 自动关 B）",
-  "userFacingChangelog": "现在设置里任意展开一项，其他全部变淡（包括头像那行和「我擅长什么」）；同一时刻只允许展开一项，开新的会自动收起旧的",
+  "version": 743,
+  "versionName": "260526-0153",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v743/memoair-v743-260526-0153-slim.apk",
+  "sizeBytes": 35452992,
+  "sha256": "f6720fb29269c90f2b19f28d72a733b5b12168b822e1d543e1c33ebcee83632e",
+  "changelog": "x743：chat 加 summarize_time_window action（用户给时段→拉那段转写→出纪要）+ 我擅长什么改 inline 展开",
+  "userFacingChangelog": "AI 现在能按你给的时段（『总结一下今早10点到12点的会』）准确拉那段录音出纪要，不再用关键词模糊匹配；「我擅长什么」也从弹窗改成了展开式",
   "recentReleases": [
-    {
-      "version": 692,
-      "versionName": "260521-1058",
-      "userFacingChangelog": "新增本机存储清理工具：设置 → 隐私统计里多了'立刻清理一次'按钮，安全清掉用不上的索引数据和卡死的临时文件，跑半年的 App 也能瘦回去。卡片、转写文本、记忆、人物全保留。",
-      "publishedAtMs": 1779332541000
-    },
     {
       "version": 693,
       "versionName": "260521-1116",
@@ -334,8 +328,15 @@
       "userFacingChangelog": "现在设置里任意展开一项，其他全部变淡（包括头像那行和「我擅长什么」）；同一时刻只允许展开一项，开新的会自动收起旧的",
       "changelog": "x742：dim 联动覆盖到 masthead + 我擅长什么 + 单例展开（展开 A 自动关 B）",
       "publishedAtMs": 1779730443000
+    },
+    {
+      "version": 743,
+      "versionName": "260526-0153",
+      "userFacingChangelog": "AI 现在能按你给的时段（『总结一下今早10点到12点的会』）准确拉那段录音出纪要，不再用关键词模糊匹配；「我擅长什么」也从弹窗改成了展开式",
+      "changelog": "x743：chat 加 summarize_time_window action（用户给时段→拉那段转写→出纪要）+ 我擅长什么改 inline 展开",
+      "publishedAtMs": 1779731906000
     }
   ],
-  "publishedAtMs": 1779730443000,
+  "publishedAtMs": 1779731906000,
   "minSupported": 0
 }
