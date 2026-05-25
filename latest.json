@@ -1,18 +1,12 @@
 {
-  "version": 728,
-  "versionName": "260525-0130",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v728/memoair-v728-260525-0130-slim.apk",
-  "sizeBytes": 35428360,
-  "sha256": "be871cc1bc0f6c20463d2abb25199e729f34afdc6ed6999068e8ea2461cdb8b5",
-  "changelog": "v728：声纹识别 Phase 1+2 一气推完——同源注册 / 调试可视化 / 用户标注 / 个性化分类器",
-  "userFacingChangelog": "• 声纹注册改成跟当前录音偏好同 source（治本根因，之前 MIC 注册 + VOICE_RECOGNITION 录音频谱不匹配）\n• 调试菜单加「声纹判定明细」面板：每段 cosine + 阈值 + tier 一目了然，定位误判\n• 面板里每行可点击切换 tier（无 → 我 → 他 → 不确定 → 无）—— 标注覆盖 AI 判定，立刻影响 chat 召回\n• 个性化声纹分类器：你标 6 段「我」+ 6 段「他」自动训练；之后 cosine 40% + 分类器 60% 融合判定，越标越准",
+  "version": 729,
+  "versionName": "260525-1033",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v729/memoair-v729-260525-1033-slim.apk",
+  "sizeBytes": 35440704,
+  "sha256": "18ce291adfc718445c01129e20303a01e0b33ac2ff3b54646769047c62623fda",
+  "changelog": "v729：新增「专属你的产品吐槽通道」入口",
+  "userFacingChangelog": "• 设置里新增「专属你的产品吐槽通道」——录音/文字两种方式都行，吐槽直接送到我（不读 App 内任何数据）\n• 顶部 6 条引导：亮点 / 戳中 / 卡壳 / 吐槽 / 缺什么 / 怎么改",
   "recentReleases": [
-    {
-      "version": 678,
-      "versionName": "260519-1041",
-      "userFacingChangelog": "记得的人物详情页换了一版——视觉化关系网 + 30 天能量环 + AI 摘要合并成一张大卡，页面没那么散了",
-      "publishedAtMs": 1779158650000
-    },
     {
       "version": 679,
       "versionName": "260520-0713",
@@ -321,8 +315,15 @@
       "userFacingChangelog": "• 声纹注册改成跟当前录音偏好同 source（治本根因，之前 MIC 注册 + VOICE_RECOGNITION 录音频谱不匹配）\n• 调试菜单加「声纹判定明细」面板：每段 cosine + 阈值 + tier 一目了然，定位误判\n• 面板里每行可点击切换 tier（无 → 我 → 他 → 不确定 → 无）—— 标注覆盖 AI 判定，立刻影响 chat 召回\n• 个性化声纹分类器：你标 6 段「我」+ 6 段「他」自动训练；之后 cosine 40% + 分类器 60% 融合判定，越标越准",
       "changelog": "v728：声纹识别 Phase 1+2 一气推完——同源注册 / 调试可视化 / 用户标注 / 个性化分类器",
       "publishedAtMs": 1779644012000
+    },
+    {
+      "version": 729,
+      "versionName": "260525-1033",
+      "userFacingChangelog": "• 设置里新增「专属你的产品吐槽通道」——录音/文字两种方式都行，吐槽直接送到我（不读 App 内任何数据）\n• 顶部 6 条引导：亮点 / 戳中 / 卡壳 / 吐槽 / 缺什么 / 怎么改",
+      "changelog": "v729：新增「专属你的产品吐槽通道」入口",
+      "publishedAtMs": 1779676567000
     }
   ],
-  "publishedAtMs": 1779644012000,
+  "publishedAtMs": 1779676567000,
   "minSupported": 0
 }
