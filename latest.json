@@ -1,18 +1,12 @@
 {
-  "version": 743,
-  "versionName": "260526-0153",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v743/memoair-v743-260526-0153-slim.apk",
-  "sizeBytes": 35452992,
-  "sha256": "f6720fb29269c90f2b19f28d72a733b5b12168b822e1d543e1c33ebcee83632e",
-  "changelog": "x743：chat 加 summarize_time_window action（用户给时段→拉那段转写→出纪要）+ 我擅长什么改 inline 展开",
-  "userFacingChangelog": "AI 现在能按你给的时段（『总结一下今早10点到12点的会』）准确拉那段录音出纪要，不再用关键词模糊匹配；「我擅长什么」也从弹窗改成了展开式",
+  "version": 744,
+  "versionName": "260526-0913",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v744/memoair-v744-260526-0913-slim.apk",
+  "sizeBytes": 35457088,
+  "sha256": "74f967a3c9f4d7fa6b8b0a5e68c8c6ed6732d7ba0338a6a8f36ad22c4c6fef40",
+  "changelog": "x744：「我擅长什么」展开自身要 active dim 高亮——拆 SelfProfileSection 外层 passive Column",
+  "userFacingChangelog": "「我擅长什么」展开后自身高亮，跟其他设置展开行为一致",
   "recentReleases": [
-    {
-      "version": 693,
-      "versionName": "260521-1116",
-      "userFacingChangelog": "本机存储自动清理：每周后台跑一次，电量不低 + 设备闲置时才触发。设置 → 隐私统计 多了一行『上次自动清理』给你看跑过没。",
-      "publishedAtMs": 1779333488000
-    },
     {
       "version": 694,
       "versionName": "260521-1148",
@@ -335,8 +329,15 @@
       "userFacingChangelog": "AI 现在能按你给的时段（『总结一下今早10点到12点的会』）准确拉那段录音出纪要，不再用关键词模糊匹配；「我擅长什么」也从弹窗改成了展开式",
       "changelog": "x743：chat 加 summarize_time_window action（用户给时段→拉那段转写→出纪要）+ 我擅长什么改 inline 展开",
       "publishedAtMs": 1779731906000
+    },
+    {
+      "version": 744,
+      "versionName": "260526-0913",
+      "userFacingChangelog": "「我擅长什么」展开后自身高亮，跟其他设置展开行为一致",
+      "changelog": "x744：「我擅长什么」展开自身要 active dim 高亮——拆 SelfProfileSection 外层 passive Column",
+      "publishedAtMs": 1779758148000
     }
   ],
-  "publishedAtMs": 1779731906000,
+  "publishedAtMs": 1779758148000,
   "minSupported": 0
 }
