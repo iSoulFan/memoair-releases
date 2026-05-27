@@ -1,18 +1,12 @@
 {
-  "version": 752,
-  "versionName": "260528-0008",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v752/memoair-v752-260528-0008-slim.apk",
+  "version": 753,
+  "versionName": "260528-0020",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v753/memoair-v753-260528-0020-slim.apk",
   "sizeBytes": 35481664,
-  "sha256": "532e84d3fb06e7aca336a70956872d472abf7531d1fc63e2bf7f122373c606b2",
-  "changelog": "今日整理小卡按设计稿对齐：emoji 换成 📋 / 📝 / ✨，三行严格左对齐；文案改成「N 条新待办 / N 份新纪要 / N 个新愿望」；预览换行用引号包住前几条标题、用顿号连接；顶部 kicker 从「今日整理」改成「发现新增」。",
-  "userFacingChangelog": "今日整理小卡按设计稿对齐：emoji 换成 📋 / 📝 / ✨，三行严格左对齐；文案改成「N 条新待办 / N 份新纪要 / N 个新愿望」；预览换行用引号包住前几条标题、用顿号连接；顶部 kicker 从「今日整理」改成「发现新增」。",
+  "sha256": "8cfb283d6f3dfd9ccb9739bd8ebce1d28f52fe500e7f60568358b330218598d0",
+  "changelog": "今日整理小卡顶部文案：发现新增 → 新的行动",
+  "userFacingChangelog": "今日整理小卡顶部文案：发现新增 → 新的行动",
   "recentReleases": [
-    {
-      "version": 700,
-      "versionName": "260522-1144",
-      "userFacingChangelog": "桌面拾梦相片 widget 这次真清晰了。之前一直糊是解码采样算法选错了 + 缩放走最近邻没开 bilinear。装上后请长按 widget 移除再加回来，强制 launcher 丢缓存。",
-      "publishedAtMs": 1779421578000
-    },
     {
       "version": 701,
       "versionName": "260522-1156",
@@ -342,8 +336,15 @@
       "userFacingChangelog": "今日整理小卡按设计稿对齐：emoji 换成 📋 / 📝 / ✨，三行严格左对齐；文案改成「N 条新待办 / N 份新纪要 / N 个新愿望」；预览换行用引号包住前几条标题、用顿号连接；顶部 kicker 从「今日整理」改成「发现新增」。",
       "changelog": "今日整理小卡按设计稿对齐：emoji 换成 📋 / 📝 / ✨，三行严格左对齐；文案改成「N 条新待办 / N 份新纪要 / N 个新愿望」；预览换行用引号包住前几条标题、用顿号连接；顶部 kicker 从「今日整理」改成「发现新增」。",
       "publishedAtMs": 1779898593000
+    },
+    {
+      "version": 753,
+      "versionName": "260528-0020",
+      "userFacingChangelog": "今日整理小卡顶部文案：发现新增 → 新的行动",
+      "changelog": "今日整理小卡顶部文案：发现新增 → 新的行动",
+      "publishedAtMs": 1779899249000
     }
   ],
-  "publishedAtMs": 1779898593000,
+  "publishedAtMs": 1779899249000,
   "minSupported": 0
 }
