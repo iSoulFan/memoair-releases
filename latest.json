@@ -4,8 +4,8 @@
   "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v748/memoair-v748-260527-1909-slim.apk",
   "sizeBytes": 35481664,
   "sha256": "1abc72b9bbdbefba670d3bca229afe5c09cb01ebde37491159140c779b7998d9",
-  "changelog": "x748 digest push: TodayNewStore + DigestPushOrchestrator + ChatMasthead chip/sheet + DigestCard MessageBubble + auto enqueue + bumpTodayNew + SuggestionsNavBus 扩 SubTab",
-  "userFacingChangelog": "✨ 今日新增聚合卡：午休 12:30 / 下班 18:30 把当天给你整理出来的待办、纪要、愿望合成一张卡，省得到处翻\n🔢 主屏右上角多了「今日 N」提示，点开能直接跳到对应板块",
+  "changelog": "每天午饭后和下班前，给你把这一天攒下的事整成一张小卡发到对话里——不用专门去翻。\n主屏右上多了个「今日」小灯，亮着说明又给你整理出了新的事，点一下就能去看。",
+  "userFacingChangelog": "每天午饭后和下班前，给你把这一天攒下的事整成一张小卡发到对话里——不用专门去翻。\n主屏右上多了个「今日」小灯，亮着说明又给你整理出了新的事，点一下就能去看。",
   "recentReleases": [
     {
       "version": 697,
@@ -336,8 +336,8 @@
     {
       "version": 748,
       "versionName": "260527-1909",
-      "userFacingChangelog": "✨ 今日新增聚合卡：午休 12:30 / 下班 18:30 把当天给你整理出来的待办、纪要、愿望合成一张卡，省得到处翻\n🔢 主屏右上角多了「今日 N」提示，点开能直接跳到对应板块",
-      "changelog": "x748 digest push: TodayNewStore + DigestPushOrchestrator + ChatMasthead chip/sheet + DigestCard MessageBubble + auto enqueue + bumpTodayNew + SuggestionsNavBus 扩 SubTab",
+      "userFacingChangelog": "每天午饭后和下班前，给你把这一天攒下的事整成一张小卡发到对话里——不用专门去翻。\n主屏右上多了个「今日」小灯，亮着说明又给你整理出了新的事，点一下就能去看。",
+      "changelog": "每天午饭后和下班前，给你把这一天攒下的事整成一张小卡发到对话里——不用专门去翻。\n主屏右上多了个「今日」小灯，亮着说明又给你整理出了新的事，点一下就能去看。",
       "publishedAtMs": 1779885737000
     }
   ],
