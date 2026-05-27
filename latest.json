@@ -1,18 +1,12 @@
 {
-  "version": 744,
-  "versionName": "260526-0913",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v744/memoair-v744-260526-0913-slim.apk",
-  "sizeBytes": 35457088,
-  "sha256": "74f967a3c9f4d7fa6b8b0a5e68c8c6ed6732d7ba0338a6a8f36ad22c4c6fef40",
-  "changelog": "x744：「我擅长什么」展开自身要 active dim 高亮——拆 SelfProfileSection 外层 passive Column",
-  "userFacingChangelog": "「我擅长什么」展开后自身高亮，跟其他设置展开行为一致",
+  "version": 746,
+  "versionName": "260527-1706",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v746/memoair-v746-260527-1706-slim.apk",
+  "sizeBytes": 35469376,
+  "sha256": "46c607514e59e416bd0f0a88bda63502d98a9f2dd514131893a43e78316dede4",
+  "changelog": "v746：chat 话题隔离正式上线——30 分钟 idle 切话题 + 上一段始终显示 + SessionBreakRow 分隔线 + ↑接着上面聊 chip",
+  "userFacingChangelog": "聊天现在会按话题自动分段：半小时没说话再发就开新一段，AI 不会被前面的话题带偏；上一段还能在视野里看到，想接着上面继续聊点 ↑ 接着上面聊 就行",
   "recentReleases": [
-    {
-      "version": 694,
-      "versionName": "260521-1148",
-      "userFacingChangelog": "代码内部清理：关系镜像生成更快、人物合并保留头像更可靠、卡片清理避免误删活图。用户面无明显变化。",
-      "publishedAtMs": 1779335413000
-    },
     {
       "version": 695,
       "versionName": "260521-1838",
@@ -336,8 +330,15 @@
       "userFacingChangelog": "「我擅长什么」展开后自身高亮，跟其他设置展开行为一致",
       "changelog": "x744：「我擅长什么」展开自身要 active dim 高亮——拆 SelfProfileSection 外层 passive Column",
       "publishedAtMs": 1779758148000
+    },
+    {
+      "version": 746,
+      "versionName": "260527-1706",
+      "userFacingChangelog": "聊天现在会按话题自动分段：半小时没说话再发就开新一段，AI 不会被前面的话题带偏；上一段还能在视野里看到，想接着上面继续聊点 ↑ 接着上面聊 就行",
+      "changelog": "v746：chat 话题隔离正式上线——30 分钟 idle 切话题 + 上一段始终显示 + SessionBreakRow 分隔线 + ↑接着上面聊 chip",
+      "publishedAtMs": 1779873240000
     }
   ],
-  "publishedAtMs": 1779758148000,
+  "publishedAtMs": 1779873240000,
   "minSupported": 0
 }
