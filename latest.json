@@ -1,18 +1,12 @@
 {
-  "version": 746,
-  "versionName": "260527-1706",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v746/memoair-v746-260527-1706-slim.apk",
+  "version": 747,
+  "versionName": "260527-1728",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v747/memoair-v747-260527-1728-slim.apk",
   "sizeBytes": 35469376,
-  "sha256": "46c607514e59e416bd0f0a88bda63502d98a9f2dd514131893a43e78316dede4",
-  "changelog": "v746：chat 话题隔离正式上线——30 分钟 idle 切话题 + 上一段始终显示 + SessionBreakRow 分隔线 + ↑接着上面聊 chip",
-  "userFacingChangelog": "聊天现在会按话题自动分段：半小时没说话再发就开新一段，AI 不会被前面的话题带偏；上一段还能在视野里看到，想接着上面继续聊点 ↑ 接着上面聊 就行",
+  "sha256": "ca9634a46a7874711f4629f7be2a5ccd096847c333f345f145833566d842c728",
+  "changelog": "对话顶部未读角标自适应清零",
+  "userFacingChangelog": "对话顶部的未读小角标会更稳地清零了。",
   "recentReleases": [
-    {
-      "version": 695,
-      "versionName": "260521-1838",
-      "userFacingChangelog": "微光时刻里『你』视角错乱修了：现在严格指你本人，咖啡师/家人/路人一律用名字或第三人称。声纹判定默认阈值放宽了一点（0.35→0.30），老用户也自动调过来了。",
-      "publishedAtMs": 1779360184000
-    },
     {
       "version": 696,
       "versionName": "260522-1033",
@@ -337,8 +331,15 @@
       "userFacingChangelog": "聊天现在会按话题自动分段：半小时没说话再发就开新一段，AI 不会被前面的话题带偏；上一段还能在视野里看到，想接着上面继续聊点 ↑ 接着上面聊 就行",
       "changelog": "v746：chat 话题隔离正式上线——30 分钟 idle 切话题 + 上一段始终显示 + SessionBreakRow 分隔线 + ↑接着上面聊 chip",
       "publishedAtMs": 1779873240000
+    },
+    {
+      "version": 747,
+      "versionName": "260527-1728",
+      "userFacingChangelog": "对话顶部的未读小角标会更稳地清零了。",
+      "changelog": "对话顶部未读角标自适应清零",
+      "publishedAtMs": 1779874496000
     }
   ],
-  "publishedAtMs": 1779873240000,
+  "publishedAtMs": 1779874496000,
   "minSupported": 0
 }
