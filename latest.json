@@ -1,18 +1,12 @@
 {
-  "version": 748,
-  "versionName": "260527-1909",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v748/memoair-v748-260527-1909-slim.apk",
+  "version": 749,
+  "versionName": "260527-2115",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v749/memoair-v749-260527-2115-slim.apk",
   "sizeBytes": 35481664,
-  "sha256": "1abc72b9bbdbefba670d3bca229afe5c09cb01ebde37491159140c779b7998d9",
-  "changelog": "每天午饭后和下班前，给你把这一天攒下的事整成一张小卡发到对话里——不用专门去翻。\n主屏右上多了个「今日」小灯，亮着说明又给你整理出了新的事，点一下就能去看。",
-  "userFacingChangelog": "每天午饭后和下班前，给你把这一天攒下的事整成一张小卡发到对话里——不用专门去翻。\n主屏右上多了个「今日」小灯，亮着说明又给你整理出了新的事，点一下就能去看。",
+  "sha256": "3bbc01ad412aa542a42b812368ccb99edb211968ab206db91a96117fa075b5e3",
+  "changelog": "闲了 30 分钟后再开 app，最近一条 AI 回复底下的第三个快捷按钮就是「↑ 接着上面聊」——点了下一条发出去会顺着之前那段聊，不被新话题切走。",
+  "userFacingChangelog": "闲了 30 分钟后再开 app，最近一条 AI 回复底下的第三个快捷按钮就是「↑ 接着上面聊」——点了下一条发出去会顺着之前那段聊，不被新话题切走。",
   "recentReleases": [
-    {
-      "version": 697,
-      "versionName": "260522-1058",
-      "userFacingChangelog": "对话过程中底部会显示『正在写』+三点动画，不再让你对着空气泡干等。设置里若干工程化文案改成人话。",
-      "publishedAtMs": 1779418849000
-    },
     {
       "version": 698,
       "versionName": "260522-1118",
@@ -339,8 +333,15 @@
       "userFacingChangelog": "每天午饭后和下班前，给你把这一天攒下的事整成一张小卡发到对话里——不用专门去翻。\n主屏右上多了个「今日」小灯，亮着说明又给你整理出了新的事，点一下就能去看。",
       "changelog": "每天午饭后和下班前，给你把这一天攒下的事整成一张小卡发到对话里——不用专门去翻。\n主屏右上多了个「今日」小灯，亮着说明又给你整理出了新的事，点一下就能去看。",
       "publishedAtMs": 1779885737000
+    },
+    {
+      "version": 749,
+      "versionName": "260527-2115",
+      "userFacingChangelog": "闲了 30 分钟后再开 app，最近一条 AI 回复底下的第三个快捷按钮就是「↑ 接着上面聊」——点了下一条发出去会顺着之前那段聊，不被新话题切走。",
+      "changelog": "闲了 30 分钟后再开 app，最近一条 AI 回复底下的第三个快捷按钮就是「↑ 接着上面聊」——点了下一条发出去会顺着之前那段聊，不被新话题切走。",
+      "publishedAtMs": 1779889616000
     }
   ],
-  "publishedAtMs": 1779885737000,
+  "publishedAtMs": 1779889616000,
   "minSupported": 0
 }
