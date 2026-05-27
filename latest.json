@@ -1,18 +1,12 @@
 {
-  "version": 750,
-  "versionName": "260527-2250",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v750/memoair-v750-260527-2250-slim.apk",
+  "version": 752,
+  "versionName": "260528-0008",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v752/memoair-v752-260528-0008-slim.apk",
   "sizeBytes": 35481664,
-  "sha256": "16c2c5a14652bf40dde05095fee3f2160b97346fdf03bbebb57196c3639160ec",
-  "changelog": "愿望陪跑里已经有计划的时候，原来重新做一份计划按钮换成更多提问",
-  "userFacingChangelog": "→",
+  "sha256": "532e84d3fb06e7aca336a70956872d472abf7531d1fc63e2bf7f122373c606b2",
+  "changelog": "今日整理小卡按设计稿对齐：emoji 换成 📋 / 📝 / ✨，三行严格左对齐；文案改成「N 条新待办 / N 份新纪要 / N 个新愿望」；预览换行用引号包住前几条标题、用顿号连接；顶部 kicker 从「今日整理」改成「发现新增」。",
+  "userFacingChangelog": "今日整理小卡按设计稿对齐：emoji 换成 📋 / 📝 / ✨，三行严格左对齐；文案改成「N 条新待办 / N 份新纪要 / N 个新愿望」；预览换行用引号包住前几条标题、用顿号连接；顶部 kicker 从「今日整理」改成「发现新增」。",
   "recentReleases": [
-    {
-      "version": 699,
-      "versionName": "260522-1130",
-      "userFacingChangelog": "三件事：桌面 4x4 相片小部件更清晰；聊天里说『换张图/换猫品种』时 AI 会真的只换图（文字保留）；升级弹窗文案改了。",
-      "publishedAtMs": 1779420737000
-    },
     {
       "version": 700,
       "versionName": "260522-1144",
@@ -341,8 +335,15 @@
       "userFacingChangelog": "→",
       "changelog": "愿望陪跑里已经有计划的时候，原来重新做一份计划按钮换成更多提问",
       "publishedAtMs": 1779894068000
+    },
+    {
+      "version": 752,
+      "versionName": "260528-0008",
+      "userFacingChangelog": "今日整理小卡按设计稿对齐：emoji 换成 📋 / 📝 / ✨，三行严格左对齐；文案改成「N 条新待办 / N 份新纪要 / N 个新愿望」；预览换行用引号包住前几条标题、用顿号连接；顶部 kicker 从「今日整理」改成「发现新增」。",
+      "changelog": "今日整理小卡按设计稿对齐：emoji 换成 📋 / 📝 / ✨，三行严格左对齐；文案改成「N 条新待办 / N 份新纪要 / N 个新愿望」；预览换行用引号包住前几条标题、用顿号连接；顶部 kicker 从「今日整理」改成「发现新增」。",
+      "publishedAtMs": 1779898593000
     }
   ],
-  "publishedAtMs": 1779894068000,
+  "publishedAtMs": 1779898593000,
   "minSupported": 0
 }
