@@ -1,18 +1,12 @@
 {
-  "version": 749,
-  "versionName": "260527-2115",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v749/memoair-v749-260527-2115-slim.apk",
+  "version": 750,
+  "versionName": "260527-2250",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v750/memoair-v750-260527-2250-slim.apk",
   "sizeBytes": 35481664,
-  "sha256": "3bbc01ad412aa542a42b812368ccb99edb211968ab206db91a96117fa075b5e3",
-  "changelog": "闲了 30 分钟后再开 app，最近一条 AI 回复底下的第三个快捷按钮就是「↑ 接着上面聊」——点了下一条发出去会顺着之前那段聊，不被新话题切走。",
-  "userFacingChangelog": "闲了 30 分钟后再开 app，最近一条 AI 回复底下的第三个快捷按钮就是「↑ 接着上面聊」——点了下一条发出去会顺着之前那段聊，不被新话题切走。",
+  "sha256": "16c2c5a14652bf40dde05095fee3f2160b97346fdf03bbebb57196c3639160ec",
+  "changelog": "愿望陪跑里已经有计划的时候，原来重新做一份计划按钮换成更多提问",
+  "userFacingChangelog": "→",
   "recentReleases": [
-    {
-      "version": 698,
-      "versionName": "260522-1118",
-      "userFacingChangelog": "聊天里让 AI 重写卡片不再因为『每天唯一』规则被拦；失败提示也改成了人话。",
-      "publishedAtMs": 1779420027000
-    },
     {
       "version": 699,
       "versionName": "260522-1130",
@@ -340,8 +334,15 @@
       "userFacingChangelog": "闲了 30 分钟后再开 app，最近一条 AI 回复底下的第三个快捷按钮就是「↑ 接着上面聊」——点了下一条发出去会顺着之前那段聊，不被新话题切走。",
       "changelog": "闲了 30 分钟后再开 app，最近一条 AI 回复底下的第三个快捷按钮就是「↑ 接着上面聊」——点了下一条发出去会顺着之前那段聊，不被新话题切走。",
       "publishedAtMs": 1779889616000
+    },
+    {
+      "version": 750,
+      "versionName": "260527-2250",
+      "userFacingChangelog": "→",
+      "changelog": "愿望陪跑里已经有计划的时候，原来重新做一份计划按钮换成更多提问",
+      "publishedAtMs": 1779894068000
     }
   ],
-  "publishedAtMs": 1779889616000,
+  "publishedAtMs": 1779894068000,
   "minSupported": 0
 }
