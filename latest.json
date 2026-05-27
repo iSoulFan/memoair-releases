@@ -1,18 +1,12 @@
 {
-  "version": 747,
-  "versionName": "260527-1728",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v747/memoair-v747-260527-1728-slim.apk",
-  "sizeBytes": 35469376,
-  "sha256": "ca9634a46a7874711f4629f7be2a5ccd096847c333f345f145833566d842c728",
-  "changelog": "对话顶部未读角标自适应清零",
-  "userFacingChangelog": "对话顶部的未读小角标会更稳地清零了。",
+  "version": 748,
+  "versionName": "260527-1909",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v748/memoair-v748-260527-1909-slim.apk",
+  "sizeBytes": 35481664,
+  "sha256": "1abc72b9bbdbefba670d3bca229afe5c09cb01ebde37491159140c779b7998d9",
+  "changelog": "x748 digest push: TodayNewStore + DigestPushOrchestrator + ChatMasthead chip/sheet + DigestCard MessageBubble + auto enqueue + bumpTodayNew + SuggestionsNavBus 扩 SubTab",
+  "userFacingChangelog": "✨ 今日新增聚合卡：午休 12:30 / 下班 18:30 把当天给你整理出来的待办、纪要、愿望合成一张卡，省得到处翻\n🔢 主屏右上角多了「今日 N」提示，点开能直接跳到对应板块",
   "recentReleases": [
-    {
-      "version": 696,
-      "versionName": "260522-1033",
-      "userFacingChangelog": "三个 bug 一起修：拍立得连刷不再卡；时光页大标题不再显示『<索引数字>|』；对话里 AI 改卡片时不再漏出内部 JSON。",
-      "publishedAtMs": 1779417765000
-    },
     {
       "version": 697,
       "versionName": "260522-1058",
@@ -338,8 +332,15 @@
       "userFacingChangelog": "对话顶部的未读小角标会更稳地清零了。",
       "changelog": "对话顶部未读角标自适应清零",
       "publishedAtMs": 1779874496000
+    },
+    {
+      "version": 748,
+      "versionName": "260527-1909",
+      "userFacingChangelog": "✨ 今日新增聚合卡：午休 12:30 / 下班 18:30 把当天给你整理出来的待办、纪要、愿望合成一张卡，省得到处翻\n🔢 主屏右上角多了「今日 N」提示，点开能直接跳到对应板块",
+      "changelog": "x748 digest push: TodayNewStore + DigestPushOrchestrator + ChatMasthead chip/sheet + DigestCard MessageBubble + auto enqueue + bumpTodayNew + SuggestionsNavBus 扩 SubTab",
+      "publishedAtMs": 1779885737000
     }
   ],
-  "publishedAtMs": 1779874496000,
+  "publishedAtMs": 1779885737000,
   "minSupported": 0
 }
