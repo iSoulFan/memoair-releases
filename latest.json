@@ -1,12 +1,18 @@
 {
-  "version": 751,
-  "versionName": "260527-2317",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v751/memoair-v751-260527-2317-slim.apk",
+  "version": 750,
+  "versionName": "260527-2250",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v750/memoair-v750-260527-2250-slim.apk",
   "sizeBytes": 35481664,
-  "sha256": "6fd2096d82d0f6cb996d2e50286ba44ce8df2ba339052b4e8ff44e544632879b",
-  "changelog": "对话顶栏不再放今日新增提示，整理推送只在午休 12:30 / 下班 18:30 弹一张卡，配色跟之前的主动起话题保持一致。已经有计划的愿望，再打开拆解步骤时按钮叫更多提问——点了 AI 会再问一题，答完按钮变更新计划重做。",
-  "userFacingChangelog": "对话顶栏不再放今日新增提示，整理推送只在午休 12:30 / 下班 18:30 弹一张卡，配色跟之前的主动起话题保持一致。已经有计划的愿望，再打开拆解步骤时按钮叫更多提问——点了 AI 会再问一题，答完按钮变更新计划重做。",
+  "sha256": "16c2c5a14652bf40dde05095fee3f2160b97346fdf03bbebb57196c3639160ec",
+  "changelog": "愿望陪跑里已经有计划的时候，原来重新做一份计划按钮换成更多提问",
+  "userFacingChangelog": "→",
   "recentReleases": [
+    {
+      "version": 699,
+      "versionName": "260522-1130",
+      "userFacingChangelog": "三件事：桌面 4x4 相片小部件更清晰；聊天里说『换张图/换猫品种』时 AI 会真的只换图（文字保留）；升级弹窗文案改了。",
+      "publishedAtMs": 1779420737000
+    },
     {
       "version": 700,
       "versionName": "260522-1144",
@@ -335,15 +341,8 @@
       "userFacingChangelog": "→",
       "changelog": "愿望陪跑里已经有计划的时候，原来重新做一份计划按钮换成更多提问",
       "publishedAtMs": 1779894068000
-    },
-    {
-      "version": 751,
-      "versionName": "260527-2317",
-      "userFacingChangelog": "对话顶栏不再放今日新增提示，整理推送只在午休 12:30 / 下班 18:30 弹一张卡，配色跟之前的主动起话题保持一致。已经有计划的愿望，再打开拆解步骤时按钮叫更多提问——点了 AI 会再问一题，答完按钮变更新计划重做。",
-      "changelog": "对话顶栏不再放今日新增提示，整理推送只在午休 12:30 / 下班 18:30 弹一张卡，配色跟之前的主动起话题保持一致。已经有计划的愿望，再打开拆解步骤时按钮叫更多提问——点了 AI 会再问一题，答完按钮变更新计划重做。",
-      "publishedAtMs": 1779896527000
     }
   ],
-  "publishedAtMs": 1779896527000,
+  "publishedAtMs": 1779894068000,
   "minSupported": 0
 }
