@@ -1,18 +1,12 @@
 {
-  "version": 753,
-  "versionName": "260528-0020",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v753-260528-0020-slim.apk",
+  "version": 754,
+  "versionName": "260528-0235",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v754-260528-0235-slim.apk",
   "sizeBytes": 35481664,
-  "sha256": "8cfb283d6f3dfd9ccb9739bd8ebce1d28f52fe500e7f60568358b330218598d0",
-  "changelog": "今日整理小卡顶部文案：发现新增 → 新的行动",
-  "userFacingChangelog": "今日整理小卡顶部文案：发现新增 → 新的行动",
+  "sha256": "10b19c927ce05cf4596eebf103d32435511333ccecd13d59db44386ead344d10",
+  "changelog": "人生来信落款不再以「在」字开头——读起来更顺",
+  "userFacingChangelog": "人生来信落款不再以「在」字开头——读起来更顺",
   "recentReleases": [
-    {
-      "version": 701,
-      "versionName": "260522-1156",
-      "userFacingChangelog": "横向折叠屏（华为 Pura X / Mate X 等）展开后可以横屏用了，普通直板仍锁竖。桌面拾梦相片 4×4 小部件清晰度真的修好了。聊天里可以让 AI 只换相片图（『换猫品种』那种）。",
-      "publishedAtMs": 1779423206000
-    },
     {
       "version": 702,
       "versionName": "260522-1450",
@@ -343,8 +337,15 @@
       "userFacingChangelog": "今日整理小卡顶部文案：发现新增 → 新的行动",
       "changelog": "今日整理小卡顶部文案：发现新增 → 新的行动",
       "publishedAtMs": 1779899249000
+    },
+    {
+      "version": 754,
+      "versionName": "260528-0235",
+      "userFacingChangelog": "人生来信落款不再以「在」字开头——读起来更顺",
+      "changelog": "人生来信落款不再以「在」字开头——读起来更顺",
+      "publishedAtMs": 1779907145009
     }
   ],
-  "publishedAtMs": 1779899249000,
+  "publishedAtMs": 1779907145009,
   "minSupported": 0
 }
