@@ -1,18 +1,12 @@
 {
-  "version": 754,
-  "versionName": "260528-0235",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v754/memoair-v754-260528-0235-slim.apk",
-  "sizeBytes": 35481664,
-  "sha256": "10b19c927ce05cf4596eebf103d32435511333ccecd13d59db44386ead344d10",
-  "changelog": "人生来信落款不再以「在」字开头——读起来更顺",
-  "userFacingChangelog": "人生来信落款不再以「在」字开头——读起来更顺",
+  "version": 755,
+  "versionName": "260528-0941",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v755/memoair-v755-260528-0941-slim.apk",
+  "sizeBytes": 35485760,
+  "sha256": "b12318e5fa57454ab5bc74f2aa7b7a032d53912f47053294d75d6308443d870c",
+  "changelog": "主动起话题里那种「我记下了…」「记到长期记忆了」的确认条不再推了——记忆是后台的事，不该每次都在对话顶部播报",
+  "userFacingChangelog": "主动起话题里那种「我记下了…」「记到长期记忆了」的确认条不再推了——记忆是后台的事，不该每次都在对话顶部播报",
   "recentReleases": [
-    {
-      "version": 702,
-      "versionName": "260522-1450",
-      "userFacingChangelog": "时光和行动两个 tab 的顶字大字改了：有新内容时显示『新的拾梦相片』『新的待办』这种简短引导；都看过了就显示『时光』『行动』。",
-      "publishedAtMs": 1779432900000
-    },
     {
       "version": 703,
       "versionName": "260522-2105",
@@ -344,8 +338,15 @@
       "userFacingChangelog": "人生来信落款不再以「在」字开头——读起来更顺",
       "changelog": "人生来信落款不再以「在」字开头——读起来更顺",
       "publishedAtMs": 1779907145009
+    },
+    {
+      "version": 755,
+      "versionName": "260528-0941",
+      "userFacingChangelog": "主动起话题里那种「我记下了…」「记到长期记忆了」的确认条不再推了——记忆是后台的事，不该每次都在对话顶部播报",
+      "changelog": "主动起话题里那种「我记下了…」「记到长期记忆了」的确认条不再推了——记忆是后台的事，不该每次都在对话顶部播报",
+      "publishedAtMs": 1779933472187
     }
   ],
-  "publishedAtMs": 1779907145009,
+  "publishedAtMs": 1779933472187,
   "minSupported": 0
 }
