@@ -1,18 +1,12 @@
 {
-  "version": 755,
-  "versionName": "260528-0941",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v755/memoair-v755-260528-0941-slim.apk",
+  "version": 756,
+  "versionName": "260528-1917",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v756/memoair-v756-260528-1917-slim.apk",
   "sizeBytes": 35485760,
-  "sha256": "b12318e5fa57454ab5bc74f2aa7b7a032d53912f47053294d75d6308443d870c",
-  "changelog": "主动起话题里那种「我记下了…」「记到长期记忆了」的确认条不再推了——记忆是后台的事，不该每次都在对话顶部播报",
-  "userFacingChangelog": "主动起话题里那种「我记下了…」「记到长期记忆了」的确认条不再推了——记忆是后台的事，不该每次都在对话顶部播报",
+  "sha256": "63eac3499d758b7f569de543ad282d65979ad5324123bd09119249e0efb1f554",
+  "changelog": "今日整理小卡里 0 条的那类不再占一行——有几类显示几类，更清爽",
+  "userFacingChangelog": "今日整理小卡里 0 条的那类不再占一行——有几类显示几类，更清爽",
   "recentReleases": [
-    {
-      "version": 703,
-      "versionName": "260522-2105",
-      "userFacingChangelog": "",
-      "publishedAtMs": 1779455242000
-    },
     {
       "version": 704,
       "versionName": "260522-2118",
@@ -345,8 +339,15 @@
       "userFacingChangelog": "主动起话题里那种「我记下了…」「记到长期记忆了」的确认条不再推了——记忆是后台的事，不该每次都在对话顶部播报",
       "changelog": "主动起话题里那种「我记下了…」「记到长期记忆了」的确认条不再推了——记忆是后台的事，不该每次都在对话顶部播报",
       "publishedAtMs": 1779933472187
+    },
+    {
+      "version": 756,
+      "versionName": "260528-1917",
+      "userFacingChangelog": "今日整理小卡里 0 条的那类不再占一行——有几类显示几类，更清爽",
+      "changelog": "今日整理小卡里 0 条的那类不再占一行——有几类显示几类，更清爽",
+      "publishedAtMs": 1779967524000
     }
   ],
-  "publishedAtMs": 1779933472187,
+  "publishedAtMs": 1779967524000,
   "minSupported": 0
 }
