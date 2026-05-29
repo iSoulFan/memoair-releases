@@ -1,18 +1,12 @@
 {
-  "version": 756,
-  "versionName": "260528-1917",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v756/memoair-v756-260528-1917-slim.apk",
-  "sizeBytes": 35485760,
-  "sha256": "63eac3499d758b7f569de543ad282d65979ad5324123bd09119249e0efb1f554",
-  "changelog": "今日整理小卡里 0 条的那类不再占一行——有几类显示几类，更清爽",
-  "userFacingChangelog": "今日整理小卡里 0 条的那类不再占一行——有几类显示几类，更清爽",
+  "version": 759,
+  "versionName": "260529-1303",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v759/memoair-v759-260529-1303-slim.apk",
+  "sizeBytes": 35493952,
+  "sha256": "1b66be481ce7974cf055d71b334d447de82951df2cc49425b26db42748191479",
+  "changelog": "x757-759 纪要质量治理（owner 拍板，已真机验 MIGRATION_25_26）：会议纪要三分类 participated/overheard/self_talk（声纹链路；无声纹按 markdown 涉及人员判 self_talk，拿不准兜 participated）+ 待办分流（overheard→staged 暂存，不自动进主列表/不进 digest 推送）+ 待办板旁听暂存常驻小条（实时 COUNT + [+] 转正）+ 纪要列表参与角色筛选 chip 常驻（默认我参与）+ 排序与显示按事件开始时间 COALESCE(eventStartEpochMs,createdAtEpochMs)，老纪要从 markdown 回填最早 HH:mm + 卡片时间行显示时间段/角色 + 文案：涉及人员、称机主为我。DB v25→v26 加 meetings.participation/eventStartEpochMs + todos.staged。",
+  "userFacingChangelog": "· 会议纪要新增「我参与 / 我旁听 / 自言自语」分类筛选，默认只看跟我有关的，列表清爽很多\n· 我只是旁听到的待办不再硬塞进清单，攒在待办板顶部的小条里，需要再一键加进来\n· 纪要现在按事情真实发生的时间段来排列和显示，不再按生成时刻错位",
   "recentReleases": [
-    {
-      "version": 704,
-      "versionName": "260522-2118",
-      "userFacingChangelog": "新增愿望陪跑计划 + 成就板块；修了点进成就一直 loading 的卡死问题。",
-      "publishedAtMs": 1779456027000
-    },
     {
       "version": 705,
       "versionName": "260522-2126",
@@ -346,8 +340,15 @@
       "userFacingChangelog": "今日整理小卡里 0 条的那类不再占一行——有几类显示几类，更清爽",
       "changelog": "今日整理小卡里 0 条的那类不再占一行——有几类显示几类，更清爽",
       "publishedAtMs": 1779967524000
+    },
+    {
+      "version": 759,
+      "versionName": "260529-1303",
+      "userFacingChangelog": "· 会议纪要新增「我参与 / 我旁听 / 自言自语」分类筛选，默认只看跟我有关的，列表清爽很多\n· 我只是旁听到的待办不再硬塞进清单，攒在待办板顶部的小条里，需要再一键加进来\n· 纪要现在按事情真实发生的时间段来排列和显示，不再按生成时刻错位",
+      "changelog": "x757-759 纪要质量治理（owner 拍板，已真机验 MIGRATION_25_26）：会议纪要三分类 participated/overheard/self_talk（声纹链路；无声纹按 markdown 涉及人员判 self_talk，拿不准兜 participated）+ 待办分流（overheard→staged 暂存，不自动进主列表/不进 digest 推送）+ 待办板旁听暂存常驻小条（实时 COUNT + [+] 转正）+ 纪要列表参与角色筛选 chip 常驻（默认我参与）+ 排序与显示按事件开始时间 COALESCE(eventStartEpochMs,createdAtEpochMs)，老纪要从 markdown 回填最早 HH:mm + 卡片时间行显示时间段/角色 + 文案：涉及人员、称机主为我。DB v25→v26 加 meetings.participation/eventStartEpochMs + todos.staged。",
+      "publishedAtMs": 1780031461000
     }
   ],
-  "publishedAtMs": 1779967524000,
+  "publishedAtMs": 1780031461000,
   "minSupported": 0
 }
