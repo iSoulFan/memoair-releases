@@ -1,18 +1,12 @@
 {
-  "version": 759,
-  "versionName": "260529-1303",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v759/memoair-v759-260529-1303-slim.apk",
+  "version": 760,
+  "versionName": "260529-1335",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v760/memoair-v760-260529-1335-slim.apk",
   "sizeBytes": 35493952,
-  "sha256": "1b66be481ce7974cf055d71b334d447de82951df2cc49425b26db42748191479",
-  "changelog": "x757-759 纪要质量治理（owner 拍板，已真机验 MIGRATION_25_26）：会议纪要三分类 participated/overheard/self_talk（声纹链路；无声纹按 markdown 涉及人员判 self_talk，拿不准兜 participated）+ 待办分流（overheard→staged 暂存，不自动进主列表/不进 digest 推送）+ 待办板旁听暂存常驻小条（实时 COUNT + [+] 转正）+ 纪要列表参与角色筛选 chip 常驻（默认我参与）+ 排序与显示按事件开始时间 COALESCE(eventStartEpochMs,createdAtEpochMs)，老纪要从 markdown 回填最早 HH:mm + 卡片时间行显示时间段/角色 + 文案：涉及人员、称机主为我。DB v25→v26 加 meetings.participation/eventStartEpochMs + todos.staged。",
-  "userFacingChangelog": "· 会议纪要新增「我参与 / 我旁听 / 自言自语」分类筛选，默认只看跟我有关的，列表清爽很多\n· 我只是旁听到的待办不再硬塞进清单，攒在待办板顶部的小条里，需要再一键加进来\n· 纪要现在按事情真实发生的时间段来排列和显示，不再按生成时刻错位",
+  "sha256": "ca65eee92a47d98d16a78b31a5711b4487f921e7191c77b2faaad81e5e418a8e",
+  "changelog": "v760 修两个回归：① 主动推送'汇报存档动作'（我记下了/记到长期记忆）—— SoftPushOrchestrator 脆子串黑名单换成 storageAckRe 正则硬兜底；prompt 规则保留。② OTA 弹窗 + 升级推送代码层改为优先 userFacingChangelog（MemoAirRoot/ProactivePush），撤销 v713'优先技术版'——技术 changelog 只进 GitHub Release notes。无 schema 变更。",
+  "userFacingChangelog": "· 主动消息更克制了，只在真正值得说的时候才找你，不再为后台小动作刷屏",
   "recentReleases": [
-    {
-      "version": 705,
-      "versionName": "260522-2126",
-      "userFacingChangelog": "修了点进成就一直 loading 的情况——失败时给兜底文章。诊断信息挪到调试菜单里。",
-      "publishedAtMs": 1779456540000
-    },
     {
       "version": 706,
       "versionName": "260522-2148",
@@ -347,8 +341,15 @@
       "userFacingChangelog": "· 会议纪要新增「我参与 / 我旁听 / 自言自语」分类筛选，默认只看跟我有关的，列表清爽很多\n· 我只是旁听到的待办不再硬塞进清单，攒在待办板顶部的小条里，需要再一键加进来\n· 纪要现在按事情真实发生的时间段来排列和显示，不再按生成时刻错位",
       "changelog": "x757-759 纪要质量治理（owner 拍板，已真机验 MIGRATION_25_26）：会议纪要三分类 participated/overheard/self_talk（声纹链路；无声纹按 markdown 涉及人员判 self_talk，拿不准兜 participated）+ 待办分流（overheard→staged 暂存，不自动进主列表/不进 digest 推送）+ 待办板旁听暂存常驻小条（实时 COUNT + [+] 转正）+ 纪要列表参与角色筛选 chip 常驻（默认我参与）+ 排序与显示按事件开始时间 COALESCE(eventStartEpochMs,createdAtEpochMs)，老纪要从 markdown 回填最早 HH:mm + 卡片时间行显示时间段/角色 + 文案：涉及人员、称机主为我。DB v25→v26 加 meetings.participation/eventStartEpochMs + todos.staged。",
       "publishedAtMs": 1780031461000
+    },
+    {
+      "version": 760,
+      "versionName": "260529-1335",
+      "userFacingChangelog": "· 主动消息更克制了，只在真正值得说的时候才找你，不再为后台小动作刷屏",
+      "changelog": "v760 修两个回归：① 主动推送'汇报存档动作'（我记下了/记到长期记忆）—— SoftPushOrchestrator 脆子串黑名单换成 storageAckRe 正则硬兜底；prompt 规则保留。② OTA 弹窗 + 升级推送代码层改为优先 userFacingChangelog（MemoAirRoot/ProactivePush），撤销 v713'优先技术版'——技术 changelog 只进 GitHub Release notes。无 schema 变更。",
+      "publishedAtMs": 1780033059000
     }
   ],
-  "publishedAtMs": 1780031461000,
+  "publishedAtMs": 1780033059000,
   "minSupported": 0
 }
