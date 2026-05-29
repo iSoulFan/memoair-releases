@@ -1,19 +1,13 @@
 {
-  "version": 793,
-  "versionName": "260530-0032",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v793/memoair-v793-260530-0032-slim.apk",
+  "version": 794,
+  "versionName": "260530-0048",
+  "downloadUrl": "https://memomind.cloud:49443/memoair-ota/memoair-v794-260530-0048-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v794/memoair-v794-260530-0048-slim.apk",
   "sizeBytes": 35588160,
-  "sha256": "8766d0265dfed707740a423d0fc71eaeb57303e853f016b3829c1981cddfec2e",
-  "changelog": "x822 修人生来信落款病句「在 X 的我」。根因：落款不是 card.signature（x753 改错了路径，剥的是另一处死代码 SignedOff），真正落款是 TimelineScreen 里的 moodLine——来自 LetterMoodStore 生成 + 一组「在…的我」模板。三处都修：①模板去掉「在」前缀；②渲染时硬剥 moodLine 首字「在」兜底（覆盖已缓存的旧值）；③LetterMoodStore prompt 改成「X 的我」直接起手+禁「在」开头、输出过滤去掉 startsWith(在) 要求并 removePrefix(在)。无 DB migration。",
-  "userFacingChangelog": "修好了人生来信落款那句病句——以前总是「在 X 的我」读着别扭，现在直接是「X 的我」。",
+  "sha256": "ffa54ece0d67bd743609130a019948b3a85b8fb23d24bf2909c05567fafb8eaa",
+  "changelog": "x822 OTA 下载源改 memomind 主源 + GitHub 兜底。manifest 新增 fallbackUrl 字段（GitHub URL）；downloadUrl 改 memomind（国内快）。客户端 OtaChecker：先试 downloadUrl(memomind 单点)，失败退 fallbackUrl(GitHub)+GITHUB_MIRRORS 多镜像；老 manifest 无 fallbackUrl 自动兼容。publish_ota.sh：memomind 前台 scp 作主源、GitHub release 后台异步上传作兜底镜像（不阻塞 publish，修发布越来越慢）；scp 失败自动退回 GitHub 主源前台路径。manifest authority 仍永远 GitHub，downloadUrl 指 memomind 仅字节流 sha256 锁定，信任边界不变。无 DB migration。",
+  "userFacingChangelog": "更新下载换到了更快的国内服务器，下载和安装会快一些。",
   "recentReleases": [
-    {
-      "version": 715,
-      "versionName": "260524-0307",
-      "userFacingChangelog": "• 愿望陪跑：进度条与实际题数对齐\n• 成就详情：打开 / 分享更顺滑\n• 网络抖动后可以「再试一次」",
-      "changelog": "v715：愿望陪跑进度条对齐 · 成就详情打开/分享更顺滑 · 网络抖动多了「再试一次」 · chat 排队更可靠",
-      "publishedAtMs": 1779563458000
-    },
     {
       "version": 716,
       "versionName": "260524-0946",
@@ -356,8 +350,15 @@
       "userFacingChangelog": "修好了人生来信落款那句病句——以前总是「在 X 的我」读着别扭，现在直接是「X 的我」。",
       "changelog": "x822 修人生来信落款病句「在 X 的我」。根因：落款不是 card.signature（x753 改错了路径，剥的是另一处死代码 SignedOff），真正落款是 TimelineScreen 里的 moodLine——来自 LetterMoodStore 生成 + 一组「在…的我」模板。三处都修：①模板去掉「在」前缀；②渲染时硬剥 moodLine 首字「在」兜底（覆盖已缓存的旧值）；③LetterMoodStore prompt 改成「X 的我」直接起手+禁「在」开头、输出过滤去掉 startsWith(在) 要求并 removePrefix(在)。无 DB migration。",
       "publishedAtMs": 1780072651000
+    },
+    {
+      "version": 794,
+      "versionName": "260530-0048",
+      "userFacingChangelog": "更新下载换到了更快的国内服务器，下载和安装会快一些。",
+      "changelog": "x822 OTA 下载源改 memomind 主源 + GitHub 兜底。manifest 新增 fallbackUrl 字段（GitHub URL）；downloadUrl 改 memomind（国内快）。客户端 OtaChecker：先试 downloadUrl(memomind 单点)，失败退 fallbackUrl(GitHub)+GITHUB_MIRRORS 多镜像；老 manifest 无 fallbackUrl 自动兼容。publish_ota.sh：memomind 前台 scp 作主源、GitHub release 后台异步上传作兜底镜像（不阻塞 publish，修发布越来越慢）；scp 失败自动退回 GitHub 主源前台路径。manifest authority 仍永远 GitHub，downloadUrl 指 memomind 仅字节流 sha256 锁定，信任边界不变。无 DB migration。",
+      "publishedAtMs": 1780073422000
     }
   ],
-  "publishedAtMs": 1780072651000,
+  "publishedAtMs": 1780073422000,
   "minSupported": 0
 }
