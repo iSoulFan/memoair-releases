@@ -1,18 +1,12 @@
 {
-  "version": 787,
-  "versionName": "260529-2140",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v787/memoair-v787-260529-2140-slim.apk",
-  "sizeBytes": 35584064,
-  "sha256": "a19ce7ea4b82fad6e93f47e86ad4e2125d9bcb3d2fbd7519d09c241b429ede67",
-  "changelog": "x817 移植 beta 第三功能：抉择（Choices）tab。夜间 23:00 MirrorScan 自动扫近 30 天在纠结的二选一→A/B 红蓝对抗+5档投票+实时倾向条+双 SWOT 分析+可加待办+分享图；条件显示（loadChoiceSnapshot≥1 才插 tab，纪要右愿望左）；语音/手动加抉择走 ChoicesNavBus 发现卡片；LockedItemsStore/LockableCard 增 String-key 重载；SharedPrefs 存储无 DB migration。",
-  "userFacingChangelog": "新增「抉择」——它会留意你最近反复纠结的二选一，把两个选项摆出来、一条条帮你打分，再理出更想要哪边，还能生成利弊分析。在「行动」里纠结的事攒够了，这个板块就会自己出现。",
+  "version": 788,
+  "versionName": "260529-2159",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v788/memoair-v788-260529-2159-slim.apk",
+  "sizeBytes": 35588160,
+  "sha256": "19cd16beae5d6987fcd4a99185e6f66dabdd833f457cfcea8a26f7a19beb0132",
+  "changelog": "x818 七项改动：①记忆区语音按钮改成与对话首页「按住说话」长 pill 完全一致(SunkenInk/OnSunkenInk/SerifCN14sp/字间距0.3/按住即录上滑取消)、圆角对齐左侧搜索框12dp(VoiceFabSheet 加 pillStyle/pillCorner 可选参数)；②待办已完成区排序跟随顶部时间筛选方向；③成就未点开时放射光芒持续旋转、点开后停(AchievementOpenedStore 持久化 opened 集合，EmojiBadge spin 参数)；④成就详情页删 emoji 下旧生图描述词 caption；⑤详情页 emoji 后流动花瓣背景动效面积×2(EmojiBadge petalScale)；⑥对话打通抉择：新增 add_choice action(严格两步确认→choiceFromUserText 拆 A/B 落库→发可点跳抉择 tab 功能气泡)，教学写进运行时 system prompt 未碰机密 HEAD；⑦首次 OTA 抉择功能后打开 app 后台扫一遍，有抉择就推一条功能介绍气泡(一次性 gate)。均无 DB migration。",
+  "userFacingChangelog": "现在可以在聊天里直接说一件你正在纠结的「A 还是 B」，我会先跟你确认，然后帮你加成一张「抉择」卡，陪你一条条理清更想要哪边。另外成就刚解锁还没点开时，背后的光芒会一直流转着提醒你去看看。",
   "recentReleases": [
-    {
-      "version": 710,
-      "versionName": "260522-2305",
-      "userFacingChangelog": "\"$USER_FACING\"",
-      "publishedAtMs": 1779462443000
-    },
     {
       "version": 711,
       "versionName": "260523-0203",
@@ -352,8 +346,15 @@
       "userFacingChangelog": "新增「抉择」——它会留意你最近反复纠结的二选一，把两个选项摆出来、一条条帮你打分，再理出更想要哪边，还能生成利弊分析。在「行动」里纠结的事攒够了，这个板块就会自己出现。",
       "changelog": "x817 移植 beta 第三功能：抉择（Choices）tab。夜间 23:00 MirrorScan 自动扫近 30 天在纠结的二选一→A/B 红蓝对抗+5档投票+实时倾向条+双 SWOT 分析+可加待办+分享图；条件显示（loadChoiceSnapshot≥1 才插 tab，纪要右愿望左）；语音/手动加抉择走 ChoicesNavBus 发现卡片；LockedItemsStore/LockableCard 增 String-key 重载；SharedPrefs 存储无 DB migration。",
       "publishedAtMs": 1780062238000
+    },
+    {
+      "version": 788,
+      "versionName": "260529-2159",
+      "userFacingChangelog": "现在可以在聊天里直接说一件你正在纠结的「A 还是 B」，我会先跟你确认，然后帮你加成一张「抉择」卡，陪你一条条理清更想要哪边。另外成就刚解锁还没点开时，背后的光芒会一直流转着提醒你去看看。",
+      "changelog": "x818 七项改动：①记忆区语音按钮改成与对话首页「按住说话」长 pill 完全一致(SunkenInk/OnSunkenInk/SerifCN14sp/字间距0.3/按住即录上滑取消)、圆角对齐左侧搜索框12dp(VoiceFabSheet 加 pillStyle/pillCorner 可选参数)；②待办已完成区排序跟随顶部时间筛选方向；③成就未点开时放射光芒持续旋转、点开后停(AchievementOpenedStore 持久化 opened 集合，EmojiBadge spin 参数)；④成就详情页删 emoji 下旧生图描述词 caption；⑤详情页 emoji 后流动花瓣背景动效面积×2(EmojiBadge petalScale)；⑥对话打通抉择：新增 add_choice action(严格两步确认→choiceFromUserText 拆 A/B 落库→发可点跳抉择 tab 功能气泡)，教学写进运行时 system prompt 未碰机密 HEAD；⑦首次 OTA 抉择功能后打开 app 后台扫一遍，有抉择就推一条功能介绍气泡(一次性 gate)。均无 DB migration。",
+      "publishedAtMs": 1780063420000
     }
   ],
-  "publishedAtMs": 1780062238000,
+  "publishedAtMs": 1780063420000,
   "minSupported": 0
 }
