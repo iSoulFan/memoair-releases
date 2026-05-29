@@ -1,18 +1,12 @@
 {
-  "version": 788,
-  "versionName": "260529-2159",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v788/memoair-v788-260529-2159-slim.apk",
+  "version": 789,
+  "versionName": "260529-2222",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v789/memoair-v789-260529-2222-slim.apk",
   "sizeBytes": 35588160,
-  "sha256": "19cd16beae5d6987fcd4a99185e6f66dabdd833f457cfcea8a26f7a19beb0132",
-  "changelog": "x818 七项改动：①记忆区语音按钮改成与对话首页「按住说话」长 pill 完全一致(SunkenInk/OnSunkenInk/SerifCN14sp/字间距0.3/按住即录上滑取消)、圆角对齐左侧搜索框12dp(VoiceFabSheet 加 pillStyle/pillCorner 可选参数)；②待办已完成区排序跟随顶部时间筛选方向；③成就未点开时放射光芒持续旋转、点开后停(AchievementOpenedStore 持久化 opened 集合，EmojiBadge spin 参数)；④成就详情页删 emoji 下旧生图描述词 caption；⑤详情页 emoji 后流动花瓣背景动效面积×2(EmojiBadge petalScale)；⑥对话打通抉择：新增 add_choice action(严格两步确认→choiceFromUserText 拆 A/B 落库→发可点跳抉择 tab 功能气泡)，教学写进运行时 system prompt 未碰机密 HEAD；⑦首次 OTA 抉择功能后打开 app 后台扫一遍，有抉择就推一条功能介绍气泡(一次性 gate)。均无 DB migration。",
-  "userFacingChangelog": "现在可以在聊天里直接说一件你正在纠结的「A 还是 B」，我会先跟你确认，然后帮你加成一张「抉择」卡，陪你一条条理清更想要哪边。另外成就刚解锁还没点开时，背后的光芒会一直流转着提醒你去看看。",
+  "sha256": "6a4d7ae245117dbf941098e9ab978341390b0b11018d90387dfda2a7fb0c3430",
+  "changelog": "x819 成就详情第二阶段(FullPhase)排版+内容 1:1 还原 beta AchievementPage：新增 AchievementTopHeader(🏆+星级+恭喜坚持N天+前缀emoji)；顺序 TopHeader→HeroBadge→居中标题→StatsRow(天耗时|立下/达成)→BeatCard(WarmGlow 稀有度+phrase)→narrative(+采访收尾 SageDeep 分隔)→采访邀请卡→分享按钮；hero 落地 EmojiBadge(frame300/glyph0.52/槽178)保留 petalScale=2f 放大花瓣(owner 红线)；caption 维持删除；两阶段外壳不动；清理无用 HeroPolaroid/buildMetaLine/AchievementBitmapCache/decodeAchievementBitmap。无 DB migration。",
+  "userFacingChangelog": "成就详情页的排版重新打磨了一遍——顶部成就框、星级、坚持天数、立下/达成日期、稀有度和成就故事都按更顺眼的版式重排了；emoji 后面那圈流动光晕保留。",
   "recentReleases": [
-    {
-      "version": 711,
-      "versionName": "260523-0203",
-      "userFacingChangelog": "\"$USER_FACING\"",
-      "publishedAtMs": 1779473170000
-    },
     {
       "version": 712,
       "versionName": "260523-0731",
@@ -353,8 +347,15 @@
       "userFacingChangelog": "现在可以在聊天里直接说一件你正在纠结的「A 还是 B」，我会先跟你确认，然后帮你加成一张「抉择」卡，陪你一条条理清更想要哪边。另外成就刚解锁还没点开时，背后的光芒会一直流转着提醒你去看看。",
       "changelog": "x818 七项改动：①记忆区语音按钮改成与对话首页「按住说话」长 pill 完全一致(SunkenInk/OnSunkenInk/SerifCN14sp/字间距0.3/按住即录上滑取消)、圆角对齐左侧搜索框12dp(VoiceFabSheet 加 pillStyle/pillCorner 可选参数)；②待办已完成区排序跟随顶部时间筛选方向；③成就未点开时放射光芒持续旋转、点开后停(AchievementOpenedStore 持久化 opened 集合，EmojiBadge spin 参数)；④成就详情页删 emoji 下旧生图描述词 caption；⑤详情页 emoji 后流动花瓣背景动效面积×2(EmojiBadge petalScale)；⑥对话打通抉择：新增 add_choice action(严格两步确认→choiceFromUserText 拆 A/B 落库→发可点跳抉择 tab 功能气泡)，教学写进运行时 system prompt 未碰机密 HEAD；⑦首次 OTA 抉择功能后打开 app 后台扫一遍，有抉择就推一条功能介绍气泡(一次性 gate)。均无 DB migration。",
       "publishedAtMs": 1780063420000
+    },
+    {
+      "version": 789,
+      "versionName": "260529-2222",
+      "userFacingChangelog": "成就详情页的排版重新打磨了一遍——顶部成就框、星级、坚持天数、立下/达成日期、稀有度和成就故事都按更顺眼的版式重排了；emoji 后面那圈流动光晕保留。",
+      "changelog": "x819 成就详情第二阶段(FullPhase)排版+内容 1:1 还原 beta AchievementPage：新增 AchievementTopHeader(🏆+星级+恭喜坚持N天+前缀emoji)；顺序 TopHeader→HeroBadge→居中标题→StatsRow(天耗时|立下/达成)→BeatCard(WarmGlow 稀有度+phrase)→narrative(+采访收尾 SageDeep 分隔)→采访邀请卡→分享按钮；hero 落地 EmojiBadge(frame300/glyph0.52/槽178)保留 petalScale=2f 放大花瓣(owner 红线)；caption 维持删除；两阶段外壳不动；清理无用 HeroPolaroid/buildMetaLine/AchievementBitmapCache/decodeAchievementBitmap。无 DB migration。",
+      "publishedAtMs": 1780065080000
     }
   ],
-  "publishedAtMs": 1780063420000,
+  "publishedAtMs": 1780065080000,
   "minSupported": 0
 }
