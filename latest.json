@@ -1,18 +1,12 @@
 {
-  "version": 761,
-  "versionName": "260529-1438",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v761/memoair-v761-260529-1438-slim.apk",
-  "sizeBytes": 35498048,
-  "sha256": "1b648beff599b084f5f8efdcd91a44e06e30ac710057aa567ac50b8fb4dd7eff",
-  "changelog": "x761 对话检索治理（杀杜撰+治不相关，直接上正式版）：① 修 bge 非对称——query 加检索指令前缀(TextEmbedder.embed asQuery)，cosine 才有意义。② 召回三层门 ChatRecall（绝对地板 FLOOR=0.62 + top-gap 0.06 + 模糊带 LLM yes/no 判定，≥0.72 直放，宁缺毋滥）替掉 cosine top-K 全塞；关键词 FTS 降级为语义零命中时兜底；全空注入「没找到」让 AI 老实说不硬凑。③ 杀杜撰：新增 quote action——AI 只给 transcript #id+match，App 从 DB 程序化截原文 substring 一字不改拼进气泡（不过 LLM）；fmtLine 行首加 #id；system prompt 重构成 ①找到→②总结(标明转述)→③逐字引用(只走 quote)，禁手敲引文。阈值 v1 偏严、为常量，调参需 rebuild。无 schema 变更。",
-  "userFacingChangelog": "· 问「我之前说过啥 / 那天聊了啥」时更准了——只给真正相关的记录，没有就直说没找到，不再翻一堆不相关的旧记录硬凑\n· 引用你说过的原话时一字不改，直接从你的记忆原文里取，不再是 AI 凭印象复述",
+  "version": 782,
+  "versionName": "260529-1931",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v782/memoair-v782-260529-1931-slim.apk",
+  "sizeBytes": 35510336,
+  "sha256": "7e4699b6e2181f999c25a2ae6781b4e41f9ddafc704b974803fb8fa8872477c0",
+  "changelog": "v760→782 批次：① 对话检索治理(x761)：语义召回三层门(地板+top-gap+LLM判定)、时段查询关全局召回去跨天噪音、quote action 程序化截原文禁杜撰、引用全角「」归一化、找不到老实说。② 纪要质量治理后续：分类合并为「我有发言(participated+self_talk)/我在旁听(overheard)」(声纹对部分用户区分不可靠)、薄纪要门(真实说话量 REAL_SPEECH_MIN + 正文实质 bodyChars 跟 UI stripTodoSection 清单对齐 + worthNote)、薄纪要待办转自由待办、分段原则(禁乱合并/剔跑题)、时间区间去重(重合≥60%判重，抓重抽变体)。③ 旁听暂存小条：忽略(dismissed 字段, v27 migration)、点行展开出处+跳原纪要并展开卡片、[+]加入。④ 纪要/待办多选删除；确认框统一 MemoConfirmDialog 规范样式；账本残留文案清除。DB v25→v26→v27(participation/eventStartEpochMs/staged/dismissed)，已真机验迁移不崩。",
+  "userFacingChangelog": "· 会议纪要更干净了——按「我有发言 / 我在旁听」分类，默认只看跟你有关的；没实质内容的、重复的不再往里堆\n· 旁听到的待办单独收在待办板顶部小条里，要不要随你，不想看一键忽略\n· 问「我那天说了啥 / 之前聊过啥」更准——只给真正相关的，引用你的原话一字不改，找不到会直接说没有\n· 纪要、待办现在都能多选批量删了",
   "recentReleases": [
-    {
-      "version": 707,
-      "versionName": "260522-2212",
-      "userFacingChangelog": "成就生成的等待提示去掉了——真写好了在对话里发消息提醒你，点一下就跳过去。",
-      "publishedAtMs": 1779459308000
-    },
     {
       "version": 708,
       "versionName": "260522-2228",
@@ -349,8 +343,15 @@
       "userFacingChangelog": "· 问「我之前说过啥 / 那天聊了啥」时更准了——只给真正相关的记录，没有就直说没找到，不再翻一堆不相关的旧记录硬凑\n· 引用你说过的原话时一字不改，直接从你的记忆原文里取，不再是 AI 凭印象复述",
       "changelog": "x761 对话检索治理（杀杜撰+治不相关，直接上正式版）：① 修 bge 非对称——query 加检索指令前缀(TextEmbedder.embed asQuery)，cosine 才有意义。② 召回三层门 ChatRecall（绝对地板 FLOOR=0.62 + top-gap 0.06 + 模糊带 LLM yes/no 判定，≥0.72 直放，宁缺毋滥）替掉 cosine top-K 全塞；关键词 FTS 降级为语义零命中时兜底；全空注入「没找到」让 AI 老实说不硬凑。③ 杀杜撰：新增 quote action——AI 只给 transcript #id+match，App 从 DB 程序化截原文 substring 一字不改拼进气泡（不过 LLM）；fmtLine 行首加 #id；system prompt 重构成 ①找到→②总结(标明转述)→③逐字引用(只走 quote)，禁手敲引文。阈值 v1 偏严、为常量，调参需 rebuild。无 schema 变更。",
       "publishedAtMs": 1780036813000
+    },
+    {
+      "version": 782,
+      "versionName": "260529-1931",
+      "userFacingChangelog": "· 会议纪要更干净了——按「我有发言 / 我在旁听」分类，默认只看跟你有关的；没实质内容的、重复的不再往里堆\n· 旁听到的待办单独收在待办板顶部小条里，要不要随你，不想看一键忽略\n· 问「我那天说了啥 / 之前聊过啥」更准——只给真正相关的，引用你的原话一字不改，找不到会直接说没有\n· 纪要、待办现在都能多选批量删了",
+      "changelog": "v760→782 批次：① 对话检索治理(x761)：语义召回三层门(地板+top-gap+LLM判定)、时段查询关全局召回去跨天噪音、quote action 程序化截原文禁杜撰、引用全角「」归一化、找不到老实说。② 纪要质量治理后续：分类合并为「我有发言(participated+self_talk)/我在旁听(overheard)」(声纹对部分用户区分不可靠)、薄纪要门(真实说话量 REAL_SPEECH_MIN + 正文实质 bodyChars 跟 UI stripTodoSection 清单对齐 + worthNote)、薄纪要待办转自由待办、分段原则(禁乱合并/剔跑题)、时间区间去重(重合≥60%判重，抓重抽变体)。③ 旁听暂存小条：忽略(dismissed 字段, v27 migration)、点行展开出处+跳原纪要并展开卡片、[+]加入。④ 纪要/待办多选删除；确认框统一 MemoConfirmDialog 规范样式；账本残留文案清除。DB v25→v26→v27(participation/eventStartEpochMs/staged/dismissed)，已真机验迁移不崩。",
+      "publishedAtMs": 1780054874000
     }
   ],
-  "publishedAtMs": 1780036813000,
+  "publishedAtMs": 1780054874000,
   "minSupported": 0
 }
