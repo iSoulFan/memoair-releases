@@ -1,18 +1,12 @@
 {
-  "version": 782,
-  "versionName": "260529-1931",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v782/memoair-v782-260529-1931-slim.apk",
+  "version": 785,
+  "versionName": "260529-2036",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v785/memoair-v785-260529-2036-slim.apk",
   "sizeBytes": 35510336,
-  "sha256": "7e4699b6e2181f999c25a2ae6781b4e41f9ddafc704b974803fb8fa8872477c0",
-  "changelog": "v760→782 批次：① 对话检索治理(x761)：语义召回三层门(地板+top-gap+LLM判定)、时段查询关全局召回去跨天噪音、quote action 程序化截原文禁杜撰、引用全角「」归一化、找不到老实说。② 纪要质量治理后续：分类合并为「我有发言(participated+self_talk)/我在旁听(overheard)」(声纹对部分用户区分不可靠)、薄纪要门(真实说话量 REAL_SPEECH_MIN + 正文实质 bodyChars 跟 UI stripTodoSection 清单对齐 + worthNote)、薄纪要待办转自由待办、分段原则(禁乱合并/剔跑题)、时间区间去重(重合≥60%判重，抓重抽变体)。③ 旁听暂存小条：忽略(dismissed 字段, v27 migration)、点行展开出处+跳原纪要并展开卡片、[+]加入。④ 纪要/待办多选删除；确认框统一 MemoConfirmDialog 规范样式；账本残留文案清除。DB v25→v26→v27(participation/eventStartEpochMs/staged/dismissed)，已真机验迁移不崩。",
-  "userFacingChangelog": "· 会议纪要更干净了——按「我有发言 / 我在旁听」分类，默认只看跟你有关的；没实质内容的、重复的不再往里堆\n· 旁听到的待办单独收在待办板顶部小条里，要不要随你，不想看一键忽略\n· 问「我那天说了啥 / 之前聊过啥」更准——只给真正相关的，引用你的原话一字不改，找不到会直接说没有\n· 纪要、待办现在都能多选批量删了",
+  "sha256": "504164afd28008de5ef31c4a3b967cba6e7a07e9b716858a7e0be8142f17fea0",
+  "changelog": "x817 测试版→正式版移植(批次一,#1#2)：① 长期记忆样式——SettingsScreen.MemoryBlock 套用 beta feature/memory 的 MemoryCard/FilterChipRow/SearchBar/buildMemoryMenuActions/MemoryView（新增 feature/memory/MemoryStyle.kt）；chip=全部/我记的(钉住+手动)/更多；三字重要性；🎙VoiceFabSheet 加一条；搜索行在上分类行在下；不加 tab、不带专辑、无 migration。② 成就 emoji 徽章——新增 EmojiBadge.kt（逐字照搬）；AchievementBadge 整组弃 30 套手绘改 EmojiBadge(mindful)；AchievementGenerator 去 AI 出图(img/prompt=null、不跑 CardImageGen、narrative 好即 ready)，旧 achievementImagePath 字段保留不读、无 migration；AchievementDetailSheet 的 HeroPolaroid 改 EmojiBadge 呼吸大图（保留 wishesLoaded/ready 守卫）。#3 抉择 tab 体量大、单独后推。",
+  "userFacingChangelog": "· 成就徽章焕新——即时生成的精致 emoji 徽章，不用再等 AI 画图，更快也更稳\n· 长期记忆（在「设置」里）换了更清爽的卡片样式：分类筛选 + 语音随手记一条 + 一眼看出重要性",
   "recentReleases": [
-    {
-      "version": 708,
-      "versionName": "260522-2228",
-      "userFacingChangelog": "点'我做到了'就开始抢着写成就——不用等开成就页才生成。彻底修了之前卡几分钟的问题。",
-      "publishedAtMs": 1779461385000
-    },
     {
       "version": 709,
       "versionName": "260522-2251",
@@ -350,8 +344,15 @@
       "userFacingChangelog": "· 会议纪要更干净了——按「我有发言 / 我在旁听」分类，默认只看跟你有关的；没实质内容的、重复的不再往里堆\n· 旁听到的待办单独收在待办板顶部小条里，要不要随你，不想看一键忽略\n· 问「我那天说了啥 / 之前聊过啥」更准——只给真正相关的，引用你的原话一字不改，找不到会直接说没有\n· 纪要、待办现在都能多选批量删了",
       "changelog": "v760→782 批次：① 对话检索治理(x761)：语义召回三层门(地板+top-gap+LLM判定)、时段查询关全局召回去跨天噪音、quote action 程序化截原文禁杜撰、引用全角「」归一化、找不到老实说。② 纪要质量治理后续：分类合并为「我有发言(participated+self_talk)/我在旁听(overheard)」(声纹对部分用户区分不可靠)、薄纪要门(真实说话量 REAL_SPEECH_MIN + 正文实质 bodyChars 跟 UI stripTodoSection 清单对齐 + worthNote)、薄纪要待办转自由待办、分段原则(禁乱合并/剔跑题)、时间区间去重(重合≥60%判重，抓重抽变体)。③ 旁听暂存小条：忽略(dismissed 字段, v27 migration)、点行展开出处+跳原纪要并展开卡片、[+]加入。④ 纪要/待办多选删除；确认框统一 MemoConfirmDialog 规范样式；账本残留文案清除。DB v25→v26→v27(participation/eventStartEpochMs/staged/dismissed)，已真机验迁移不崩。",
       "publishedAtMs": 1780054874000
+    },
+    {
+      "version": 785,
+      "versionName": "260529-2036",
+      "userFacingChangelog": "· 成就徽章焕新——即时生成的精致 emoji 徽章，不用再等 AI 画图，更快也更稳\n· 长期记忆（在「设置」里）换了更清爽的卡片样式：分类筛选 + 语音随手记一条 + 一眼看出重要性",
+      "changelog": "x817 测试版→正式版移植(批次一,#1#2)：① 长期记忆样式——SettingsScreen.MemoryBlock 套用 beta feature/memory 的 MemoryCard/FilterChipRow/SearchBar/buildMemoryMenuActions/MemoryView（新增 feature/memory/MemoryStyle.kt）；chip=全部/我记的(钉住+手动)/更多；三字重要性；🎙VoiceFabSheet 加一条；搜索行在上分类行在下；不加 tab、不带专辑、无 migration。② 成就 emoji 徽章——新增 EmojiBadge.kt（逐字照搬）；AchievementBadge 整组弃 30 套手绘改 EmojiBadge(mindful)；AchievementGenerator 去 AI 出图(img/prompt=null、不跑 CardImageGen、narrative 好即 ready)，旧 achievementImagePath 字段保留不读、无 migration；AchievementDetailSheet 的 HeroPolaroid 改 EmojiBadge 呼吸大图（保留 wishesLoaded/ready 守卫）。#3 抉择 tab 体量大、单独后推。",
+      "publishedAtMs": 1780058592000
     }
   ],
-  "publishedAtMs": 1780054874000,
+  "publishedAtMs": 1780058592000,
   "minSupported": 0
 }
