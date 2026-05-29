@@ -1,18 +1,12 @@
 {
-  "version": 791,
-  "versionName": "260529-2312",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v791/memoair-v791-260529-2312-slim.apk",
+  "version": 792,
+  "versionName": "260529-2343",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v792/memoair-v792-260529-2343-slim.apk",
   "sizeBytes": 35588160,
-  "sha256": "070e9316bfba8ab44a0d76f69683465bc438188d06bcea6ef987f95ca28695f4",
-  "changelog": "x820+x821 合并发布。x820 四项 UI：纪要三档筛选改跑道滑块(浅灰中性 thumb 平滑滑动，默认我有发言)；抉择 tab 恢复·数量；成就详情 DetailTopBar 加 statusBarsPadding 避开状态栏；HeroBadge 花瓣 petalScale 2f→1.5f。x821 抉择扫描修复：①停掉「每次版本变就重扫」(重复根因)——maybeScanAfterUpdate 改为无 LLM 就地折叠去重，真扫只留夜间 runIfDue；②maybeIntroPush 不再即时扫只读 snapshot；③去重升级 sameChoice=summary 近似 OR A/B 选项对近似(含左右互换)，mergeChoices/dedupeExistingChoices 都用；④修示例错觉：scanChoiceCandidates/choiceFromUserText/ChatScreen add_choice 三处提示词去掉北京/深圳示例词、强制 optionA/B 逐字用用户原话禁套示例词；⑤scan prompt 排除把「聊 App 开发/测试功能」扫成抉择。无 DB migration。",
-  "userFacingChangelog": "修了「抉择」的两个问题：一是同一件纠结事重复冒出好几张卡，现在会自动合并、也不再因为频繁更新而重复扫描；二是你在对话里说的抉择，选项会严格按你的原话来（之前可能被示例带跑、把成都写成了北京）。另外纪要的「全部/我有发言/我在旁听」换成了更轻的滑块，成就详情页顶部按钮也不再被状态栏挡住。",
+  "sha256": "6590e25ac1f18c9c8a976d024a9040635329b5354e1e70e0b01338f286dcd4c6",
+  "changelog": "x822 五项修复。①人生来信回到 22:00（不放 23:59/午夜）；改为：非来信卡若在 22:00 后才生成(夜里 catch-up)，钳到来信槽位前 1 分钟，保证人生来信永远是当天最后一张。②人生来信选材避让：注入当天已生成的微光时刻/拾梦相片/念念不忘，要求来信别复述同一件事、换角度或写更深一层(修连续两天来信与微光时刻撞同一件事)。③纪要三档跑道滑块：深灰实底改成透明底+细 hairline 线框、thumb 改浅灰(alpha0.045)+更淡线框，跟上面 chip 的白底线框统一、压低明度不抢戏。④抉择「自定义一条」黑实底→白底红线框。⑤关于页「更新状态」改为优先 userFacingChangelog(人话)、空才退技术版——修正式版关于页冒出工程文 changelog(对齐 v760 硬保障)。⑥成就详情还原 beta 单页翻转流：删 Congrats/Full 两套割裂排版，改单页 AchievementPage+FlipHero(🎉 进场→1.2s 后 rotationY 翻转成主题 emoji 徽章)，一阶二阶同高同排版；保留 petalScale1.5/statusBarsPadding/无 caption。无 DB migration。",
+  "userFacingChangelog": "几处打磨：成就详情页改成了庆祝 🎉 翻转成你的成就 emoji 的动画，前后一致更顺；人生来信稳定排在一天的最后，也不再跟当天的微光时刻讲重复的事；纪要顶部的筛选滑块换成更轻的线框样式；抉择卡的「自定义一条」按钮也调柔和了。关于页的更新说明现在也只给你看人话版本。",
   "recentReleases": [
-    {
-      "version": 713,
-      "versionName": "260523-1035",
-      "userFacingChangelog": "\"$USER_FACING\"",
-      "publishedAtMs": 1779504222000
-    },
     {
       "version": 714,
       "versionName": "260523-1053",
@@ -355,8 +349,15 @@
       "userFacingChangelog": "修了「抉择」的两个问题：一是同一件纠结事重复冒出好几张卡，现在会自动合并、也不再因为频繁更新而重复扫描；二是你在对话里说的抉择，选项会严格按你的原话来（之前可能被示例带跑、把成都写成了北京）。另外纪要的「全部/我有发言/我在旁听」换成了更轻的滑块，成就详情页顶部按钮也不再被状态栏挡住。",
       "changelog": "x820+x821 合并发布。x820 四项 UI：纪要三档筛选改跑道滑块(浅灰中性 thumb 平滑滑动，默认我有发言)；抉择 tab 恢复·数量；成就详情 DetailTopBar 加 statusBarsPadding 避开状态栏；HeroBadge 花瓣 petalScale 2f→1.5f。x821 抉择扫描修复：①停掉「每次版本变就重扫」(重复根因)——maybeScanAfterUpdate 改为无 LLM 就地折叠去重，真扫只留夜间 runIfDue；②maybeIntroPush 不再即时扫只读 snapshot；③去重升级 sameChoice=summary 近似 OR A/B 选项对近似(含左右互换)，mergeChoices/dedupeExistingChoices 都用；④修示例错觉：scanChoiceCandidates/choiceFromUserText/ChatScreen add_choice 三处提示词去掉北京/深圳示例词、强制 optionA/B 逐字用用户原话禁套示例词；⑤scan prompt 排除把「聊 App 开发/测试功能」扫成抉择。无 DB migration。",
       "publishedAtMs": 1780067987000
+    },
+    {
+      "version": 792,
+      "versionName": "260529-2343",
+      "userFacingChangelog": "几处打磨：成就详情页改成了庆祝 🎉 翻转成你的成就 emoji 的动画，前后一致更顺；人生来信稳定排在一天的最后，也不再跟当天的微光时刻讲重复的事；纪要顶部的筛选滑块换成更轻的线框样式；抉择卡的「自定义一条」按钮也调柔和了。关于页的更新说明现在也只给你看人话版本。",
+      "changelog": "x822 五项修复。①人生来信回到 22:00（不放 23:59/午夜）；改为：非来信卡若在 22:00 后才生成(夜里 catch-up)，钳到来信槽位前 1 分钟，保证人生来信永远是当天最后一张。②人生来信选材避让：注入当天已生成的微光时刻/拾梦相片/念念不忘，要求来信别复述同一件事、换角度或写更深一层(修连续两天来信与微光时刻撞同一件事)。③纪要三档跑道滑块：深灰实底改成透明底+细 hairline 线框、thumb 改浅灰(alpha0.045)+更淡线框，跟上面 chip 的白底线框统一、压低明度不抢戏。④抉择「自定义一条」黑实底→白底红线框。⑤关于页「更新状态」改为优先 userFacingChangelog(人话)、空才退技术版——修正式版关于页冒出工程文 changelog(对齐 v760 硬保障)。⑥成就详情还原 beta 单页翻转流：删 Congrats/Full 两套割裂排版，改单页 AchievementPage+FlipHero(🎉 进场→1.2s 后 rotationY 翻转成主题 emoji 徽章)，一阶二阶同高同排版；保留 petalScale1.5/statusBarsPadding/无 caption。无 DB migration。",
+      "publishedAtMs": 1780069880000
     }
   ],
-  "publishedAtMs": 1780067987000,
+  "publishedAtMs": 1780069880000,
   "minSupported": 0
 }
