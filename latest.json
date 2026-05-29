@@ -1,20 +1,12 @@
 {
-  "version": 794,
-  "versionName": "260530-0048",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v794/memoair-v794-260530-0048-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v794/memoair-v794-260530-0048-slim.apk",
-  "sizeBytes": 35588160,
-  "sha256": "ffa54ece0d67bd743609130a019948b3a85b8fb23d24bf2909c05567fafb8eaa",
-  "changelog": "x822 OTA 下载源改 memomind 主源 + GitHub 兜底。manifest 新增 fallbackUrl 字段（GitHub URL）；downloadUrl 改 memomind（国内快）。客户端 OtaChecker：先试 downloadUrl(memomind 单点)，失败退 fallbackUrl(GitHub)+GITHUB_MIRRORS 多镜像；老 manifest 无 fallbackUrl 自动兼容。publish_ota.sh：memomind 前台 scp 作主源、GitHub release 后台异步上传作兜底镜像（不阻塞 publish，修发布越来越慢）；scp 失败自动退回 GitHub 主源前台路径。manifest authority 仍永远 GitHub，downloadUrl 指 memomind 仅字节流 sha256 锁定，信任边界不变。无 DB migration。",
-  "userFacingChangelog": "更新下载换到了更快的国内服务器，下载和安装会快一些。",
+  "version": 795,
+  "versionName": "260530-0146",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v795/memoair-v795-260530-0146-slim.apk",
+  "sizeBytes": 35592256,
+  "sha256": "ad88ce8796b45764afe2cbe71e00093c145a7a87c2736c31cb7976ecf3111a75",
+  "changelog": "x822 强化对话 add_choice 触发：扩充'何时用'触发措辞（我要选A还是B/选哪个/二选一/很犹豫/纠结/拿不定/不知道该…还是…）+ 加优先级——当下二选一纠结时优先走抉择确认，别只顾回忆检索而漏掉；拿不准两边就第一步顺便问。修 owner 反馈'对话里很难发起抉择、有时拿回忆说事'。提示词改动，无 DB migration。OTA 仍 GitHub 主源（memomind 主源已回滚，待钟sir 修服务端）。",
+  "userFacingChangelog": "在聊天里说『我在 A 和 B 之间很犹豫』这类话，现在会更主动地帮你发起「抉择」、先跟你确认再加卡，不会再答非所问。",
   "recentReleases": [
-    {
-      "version": 716,
-      "versionName": "260524-0946",
-      "userFacingChangelog": "• AI 引用你说过的话时，自动修一下 ASR 谐音错字和「那个那个」口水词\n• 数字、人名、否定词全部保留——不会改你的意思\n• 卡片 + 对话里都生效",
-      "changelog": "v716：AI 引用你说过的话时会做轻度清洗——谐音错字 + 口水词，数字/人名/否定词绝不动",
-      "publishedAtMs": 1779587353000
-    },
     {
       "version": 717,
       "versionName": "260524-1119",
@@ -357,8 +349,15 @@
       "userFacingChangelog": "更新下载换到了更快的国内服务器，下载和安装会快一些。",
       "changelog": "x822 OTA 下载源改 memomind 主源 + GitHub 兜底。manifest 新增 fallbackUrl 字段（GitHub URL）；downloadUrl 改 memomind（国内快）。客户端 OtaChecker：先试 downloadUrl(memomind 单点)，失败退 fallbackUrl(GitHub)+GITHUB_MIRRORS 多镜像；老 manifest 无 fallbackUrl 自动兼容。publish_ota.sh：memomind 前台 scp 作主源、GitHub release 后台异步上传作兜底镜像（不阻塞 publish，修发布越来越慢）；scp 失败自动退回 GitHub 主源前台路径。manifest authority 仍永远 GitHub，downloadUrl 指 memomind 仅字节流 sha256 锁定，信任边界不变。无 DB migration。",
       "publishedAtMs": 1780073422000
+    },
+    {
+      "version": 795,
+      "versionName": "260530-0146",
+      "userFacingChangelog": "在聊天里说『我在 A 和 B 之间很犹豫』这类话，现在会更主动地帮你发起「抉择」、先跟你确认再加卡，不会再答非所问。",
+      "changelog": "x822 强化对话 add_choice 触发：扩充'何时用'触发措辞（我要选A还是B/选哪个/二选一/很犹豫/纠结/拿不定/不知道该…还是…）+ 加优先级——当下二选一纠结时优先走抉择确认，别只顾回忆检索而漏掉；拿不准两边就第一步顺便问。修 owner 反馈'对话里很难发起抉择、有时拿回忆说事'。提示词改动，无 DB migration。OTA 仍 GitHub 主源（memomind 主源已回滚，待钟sir 修服务端）。",
+      "publishedAtMs": 1780077109000
     }
   ],
-  "publishedAtMs": 1780073422000,
+  "publishedAtMs": 1780077109000,
   "minSupported": 0
 }
