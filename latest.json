@@ -1,18 +1,12 @@
 {
-  "version": 760,
-  "versionName": "260529-1335",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v760/memoair-v760-260529-1335-slim.apk",
-  "sizeBytes": 35493952,
-  "sha256": "ca65eee92a47d98d16a78b31a5711b4487f921e7191c77b2faaad81e5e418a8e",
-  "changelog": "v760 修两个回归：① 主动推送'汇报存档动作'（我记下了/记到长期记忆）—— SoftPushOrchestrator 脆子串黑名单换成 storageAckRe 正则硬兜底；prompt 规则保留。② OTA 弹窗 + 升级推送代码层改为优先 userFacingChangelog（MemoAirRoot/ProactivePush），撤销 v713'优先技术版'——技术 changelog 只进 GitHub Release notes。无 schema 变更。",
-  "userFacingChangelog": "· 主动消息更克制了，只在真正值得说的时候才找你，不再为后台小动作刷屏",
+  "version": 761,
+  "versionName": "260529-1438",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v761/memoair-v761-260529-1438-slim.apk",
+  "sizeBytes": 35498048,
+  "sha256": "1b648beff599b084f5f8efdcd91a44e06e30ac710057aa567ac50b8fb4dd7eff",
+  "changelog": "x761 对话检索治理（杀杜撰+治不相关，直接上正式版）：① 修 bge 非对称——query 加检索指令前缀(TextEmbedder.embed asQuery)，cosine 才有意义。② 召回三层门 ChatRecall（绝对地板 FLOOR=0.62 + top-gap 0.06 + 模糊带 LLM yes/no 判定，≥0.72 直放，宁缺毋滥）替掉 cosine top-K 全塞；关键词 FTS 降级为语义零命中时兜底；全空注入「没找到」让 AI 老实说不硬凑。③ 杀杜撰：新增 quote action——AI 只给 transcript #id+match，App 从 DB 程序化截原文 substring 一字不改拼进气泡（不过 LLM）；fmtLine 行首加 #id；system prompt 重构成 ①找到→②总结(标明转述)→③逐字引用(只走 quote)，禁手敲引文。阈值 v1 偏严、为常量，调参需 rebuild。无 schema 变更。",
+  "userFacingChangelog": "· 问「我之前说过啥 / 那天聊了啥」时更准了——只给真正相关的记录，没有就直说没找到，不再翻一堆不相关的旧记录硬凑\n· 引用你说过的原话时一字不改，直接从你的记忆原文里取，不再是 AI 凭印象复述",
   "recentReleases": [
-    {
-      "version": 706,
-      "versionName": "260522-2148",
-      "userFacingChangelog": "成就写好啦会在对话里发条消息提醒你，点一下就直接跳到成就页。",
-      "publishedAtMs": 1779457847000
-    },
     {
       "version": 707,
       "versionName": "260522-2212",
@@ -348,8 +342,15 @@
       "userFacingChangelog": "· 主动消息更克制了，只在真正值得说的时候才找你，不再为后台小动作刷屏",
       "changelog": "v760 修两个回归：① 主动推送'汇报存档动作'（我记下了/记到长期记忆）—— SoftPushOrchestrator 脆子串黑名单换成 storageAckRe 正则硬兜底；prompt 规则保留。② OTA 弹窗 + 升级推送代码层改为优先 userFacingChangelog（MemoAirRoot/ProactivePush），撤销 v713'优先技术版'——技术 changelog 只进 GitHub Release notes。无 schema 变更。",
       "publishedAtMs": 1780033059000
+    },
+    {
+      "version": 761,
+      "versionName": "260529-1438",
+      "userFacingChangelog": "· 问「我之前说过啥 / 那天聊了啥」时更准了——只给真正相关的记录，没有就直说没找到，不再翻一堆不相关的旧记录硬凑\n· 引用你说过的原话时一字不改，直接从你的记忆原文里取，不再是 AI 凭印象复述",
+      "changelog": "x761 对话检索治理（杀杜撰+治不相关，直接上正式版）：① 修 bge 非对称——query 加检索指令前缀(TextEmbedder.embed asQuery)，cosine 才有意义。② 召回三层门 ChatRecall（绝对地板 FLOOR=0.62 + top-gap 0.06 + 模糊带 LLM yes/no 判定，≥0.72 直放，宁缺毋滥）替掉 cosine top-K 全塞；关键词 FTS 降级为语义零命中时兜底；全空注入「没找到」让 AI 老实说不硬凑。③ 杀杜撰：新增 quote action——AI 只给 transcript #id+match，App 从 DB 程序化截原文 substring 一字不改拼进气泡（不过 LLM）；fmtLine 行首加 #id；system prompt 重构成 ①找到→②总结(标明转述)→③逐字引用(只走 quote)，禁手敲引文。阈值 v1 偏严、为常量，调参需 rebuild。无 schema 变更。",
+      "publishedAtMs": 1780036813000
     }
   ],
-  "publishedAtMs": 1780033059000,
+  "publishedAtMs": 1780036813000,
   "minSupported": 0
 }
