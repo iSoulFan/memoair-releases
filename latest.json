@@ -1,19 +1,12 @@
 {
-  "version": 792,
-  "versionName": "260529-2343",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v792/memoair-v792-260529-2343-slim.apk",
+  "version": 793,
+  "versionName": "260530-0032",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v793/memoair-v793-260530-0032-slim.apk",
   "sizeBytes": 35588160,
-  "sha256": "6590e25ac1f18c9c8a976d024a9040635329b5354e1e70e0b01338f286dcd4c6",
-  "changelog": "x822 五项修复。①人生来信回到 22:00（不放 23:59/午夜）；改为：非来信卡若在 22:00 后才生成(夜里 catch-up)，钳到来信槽位前 1 分钟，保证人生来信永远是当天最后一张。②人生来信选材避让：注入当天已生成的微光时刻/拾梦相片/念念不忘，要求来信别复述同一件事、换角度或写更深一层(修连续两天来信与微光时刻撞同一件事)。③纪要三档跑道滑块：深灰实底改成透明底+细 hairline 线框、thumb 改浅灰(alpha0.045)+更淡线框，跟上面 chip 的白底线框统一、压低明度不抢戏。④抉择「自定义一条」黑实底→白底红线框。⑤关于页「更新状态」改为优先 userFacingChangelog(人话)、空才退技术版——修正式版关于页冒出工程文 changelog(对齐 v760 硬保障)。⑥成就详情还原 beta 单页翻转流：删 Congrats/Full 两套割裂排版，改单页 AchievementPage+FlipHero(🎉 进场→1.2s 后 rotationY 翻转成主题 emoji 徽章)，一阶二阶同高同排版；保留 petalScale1.5/statusBarsPadding/无 caption。无 DB migration。",
-  "userFacingChangelog": "几处打磨：成就详情页改成了庆祝 🎉 翻转成你的成就 emoji 的动画，前后一致更顺；人生来信稳定排在一天的最后，也不再跟当天的微光时刻讲重复的事；纪要顶部的筛选滑块换成更轻的线框样式；抉择卡的「自定义一条」按钮也调柔和了。关于页的更新说明现在也只给你看人话版本。",
+  "sha256": "8766d0265dfed707740a423d0fc71eaeb57303e853f016b3829c1981cddfec2e",
+  "changelog": "x822 修人生来信落款病句「在 X 的我」。根因：落款不是 card.signature（x753 改错了路径，剥的是另一处死代码 SignedOff），真正落款是 TimelineScreen 里的 moodLine——来自 LetterMoodStore 生成 + 一组「在…的我」模板。三处都修：①模板去掉「在」前缀；②渲染时硬剥 moodLine 首字「在」兜底（覆盖已缓存的旧值）；③LetterMoodStore prompt 改成「X 的我」直接起手+禁「在」开头、输出过滤去掉 startsWith(在) 要求并 removePrefix(在)。无 DB migration。",
+  "userFacingChangelog": "修好了人生来信落款那句病句——以前总是「在 X 的我」读着别扭，现在直接是「X 的我」。",
   "recentReleases": [
-    {
-      "version": 714,
-      "versionName": "260523-1053",
-      "userFacingChangelog": "\"$USER_FACING\"",
-      "changelog": "\"$CHANGELOG\"",
-      "publishedAtMs": 1779504938000
-    },
     {
       "version": 715,
       "versionName": "260524-0307",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "几处打磨：成就详情页改成了庆祝 🎉 翻转成你的成就 emoji 的动画，前后一致更顺；人生来信稳定排在一天的最后，也不再跟当天的微光时刻讲重复的事；纪要顶部的筛选滑块换成更轻的线框样式；抉择卡的「自定义一条」按钮也调柔和了。关于页的更新说明现在也只给你看人话版本。",
       "changelog": "x822 五项修复。①人生来信回到 22:00（不放 23:59/午夜）；改为：非来信卡若在 22:00 后才生成(夜里 catch-up)，钳到来信槽位前 1 分钟，保证人生来信永远是当天最后一张。②人生来信选材避让：注入当天已生成的微光时刻/拾梦相片/念念不忘，要求来信别复述同一件事、换角度或写更深一层(修连续两天来信与微光时刻撞同一件事)。③纪要三档跑道滑块：深灰实底改成透明底+细 hairline 线框、thumb 改浅灰(alpha0.045)+更淡线框，跟上面 chip 的白底线框统一、压低明度不抢戏。④抉择「自定义一条」黑实底→白底红线框。⑤关于页「更新状态」改为优先 userFacingChangelog(人话)、空才退技术版——修正式版关于页冒出工程文 changelog(对齐 v760 硬保障)。⑥成就详情还原 beta 单页翻转流：删 Congrats/Full 两套割裂排版，改单页 AchievementPage+FlipHero(🎉 进场→1.2s 后 rotationY 翻转成主题 emoji 徽章)，一阶二阶同高同排版；保留 petalScale1.5/statusBarsPadding/无 caption。无 DB migration。",
       "publishedAtMs": 1780069880000
+    },
+    {
+      "version": 793,
+      "versionName": "260530-0032",
+      "userFacingChangelog": "修好了人生来信落款那句病句——以前总是「在 X 的我」读着别扭，现在直接是「X 的我」。",
+      "changelog": "x822 修人生来信落款病句「在 X 的我」。根因：落款不是 card.signature（x753 改错了路径，剥的是另一处死代码 SignedOff），真正落款是 TimelineScreen 里的 moodLine——来自 LetterMoodStore 生成 + 一组「在…的我」模板。三处都修：①模板去掉「在」前缀；②渲染时硬剥 moodLine 首字「在」兜底（覆盖已缓存的旧值）；③LetterMoodStore prompt 改成「X 的我」直接起手+禁「在」开头、输出过滤去掉 startsWith(在) 要求并 removePrefix(在)。无 DB migration。",
+      "publishedAtMs": 1780072651000
     }
   ],
-  "publishedAtMs": 1780069880000,
+  "publishedAtMs": 1780072651000,
   "minSupported": 0
 }
