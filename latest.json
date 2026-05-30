@@ -1,19 +1,12 @@
 {
-  "version": 803,
-  "versionName": "260530-1121",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v803/memoair-v803-260530-1121-slim.apk",
+  "version": 804,
+  "versionName": "260530-1218",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v804/memoair-v804-260530-1218-slim.apk",
   "sizeBytes": 35600448,
-  "sha256": "f512865154f85fb5b373f36de6c798b5220d3fabf0a85f9c3d27721d8d579c38",
-  "changelog": "x832 三修：①第一段长震改极淡间歇脉冲(马达下限用间隙换更轻体感)；②修对话/时光顶部状态栏白条——x832 的状态栏冻结(consume+padding)改成仅动画播放时生效，平时边到边让高斯模糊额头盖住状态栏；③修切系统黑暗模式重放调试预设图——DebugPrintTrigger.consume 一次性消费 tick(Activity 重建不重放)，并删除随机预设图 makeDebugPrintImage(本不该存在)。无 DB migration。",
-  "userFacingChangelog": "修了几个小问题，开场动画和顶部显示更稳了。",
+  "sha256": "4a08509b05231467d2cbf98f77879c9546fdcce2948520f9ced9e674ef20d41f",
+  "changelog": "x832 开场动画出场补偿：关闭动画时 printCard 立刻清空但状态栏异步恢复会上跳一帧——加 printExiting，dismiss/tap 时保持冻结 360ms(覆盖状态栏恢复)再撤，与进场 320ms 补偿对称，去掉关闭瞬间一帧上跳。无 DB migration。",
+  "userFacingChangelog": "开场动画收尾更顺滑了。",
   "recentReleases": [
-    {
-      "version": 725,
-      "versionName": "260524-1854",
-      "userFacingChangelog": "• 关系镜像 Stage B 让 LLM 自评 confidence（high / low）\n• 素材含糊、只能含混写、靠「也许 / 可能 / 让模糊变清晰」这种保底措辞 → 标 low\n• 客户端自动丢掉所有 low——根本不让靠不住的解读到用户面前\n• 治本：用户不再追问原文找不到，是因为根本看不到这条 mirror 了",
-      "changelog": "v725：关系镜像 LLM 自评 confidence + 低质量整条丢",
-      "publishedAtMs": 1779620236000
-    },
     {
       "version": 726,
       "versionName": "260524-2319",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "修了几个小问题，开场动画和顶部显示更稳了。",
       "changelog": "x832 三修：①第一段长震改极淡间歇脉冲(马达下限用间隙换更轻体感)；②修对话/时光顶部状态栏白条——x832 的状态栏冻结(consume+padding)改成仅动画播放时生效，平时边到边让高斯模糊额头盖住状态栏；③修切系统黑暗模式重放调试预设图——DebugPrintTrigger.consume 一次性消费 tick(Activity 重建不重放)，并删除随机预设图 makeDebugPrintImage(本不该存在)。无 DB migration。",
       "publishedAtMs": 1780112101000
+    },
+    {
+      "version": 804,
+      "versionName": "260530-1218",
+      "userFacingChangelog": "开场动画收尾更顺滑了。",
+      "changelog": "x832 开场动画出场补偿：关闭动画时 printCard 立刻清空但状态栏异步恢复会上跳一帧——加 printExiting，dismiss/tap 时保持冻结 360ms(覆盖状态栏恢复)再撤，与进场 320ms 补偿对称，去掉关闭瞬间一帧上跳。无 DB migration。",
+      "publishedAtMs": 1780114857000
     }
   ],
-  "publishedAtMs": 1780112101000,
+  "publishedAtMs": 1780114857000,
   "minSupported": 0
 }
