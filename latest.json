@@ -1,19 +1,12 @@
 {
-  "version": 805,
-  "versionName": "260530-1229",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v805/memoair-v805-260530-1229-slim.apk",
+  "version": 806,
+  "versionName": "260530-1320",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v806/memoair-v806-260530-1320-slim.apk",
   "sizeBytes": 35600448,
-  "sha256": "99f0e3de34c6f96dac9e4d02fa96b3837318d3c9035106751d0f7ea3e1773e1b",
-  "changelog": "x832 出片振动改细碎砂感：第一段长震从稀疏大间隙(12ms+120ms≈8次/秒，过山车感)改高频密排短脉冲(9ms+16ms≈40次/秒，幅度9/255)，靠密集小间隙形成砂砂细震、单点无起伏；脱口短振不变。无 DB migration。",
-  "userFacingChangelog": "开场动画的震动手感更细腻了。",
+  "sha256": "074c3c0c99b449699a0d04203dd96c180684e9fe6c2466542bb928d337e0eb7c",
+  "changelog": "x833 时光小部件防剧透：Today 模式不再直接显示今天新生成的拾梦相片(会在看冲印动画前剧透)，改为按 DailyPrintGate.seenId 显示「动画已揭晓的最新那天」的相片(看动画前=昨天那天的 1-N 张，看完今天动画后 onAnimationDone markSeen+broadcastRefresh 才切今天)；新增 newestRevealedReportDate helper；4×4 继承 2×2 共用逻辑自动覆盖。无 DB migration。",
+  "userFacingChangelog": "桌面小部件的拾梦相片调整了：早上你看冲印动画之前，小部件先挂着昨天的相片；等你看过今天的动画、相片揭晓后，它才换成今天的——不会被小部件提前剧透。",
   "recentReleases": [
-    {
-      "version": 727,
-      "versionName": "260525-0106",
-      "userFacingChangelog": "• 「明天晚上7点半去换电」这种待办抽出来直接挂到点提醒——之前 LLM 识别了时间但没解到 dueAtEpochMs（缺一个 ISO_LOCAL_DATE_TIME fallback）\n• 万一 LLM 偷懒没返时间字段，客户端会再用中文时间正则从 title 兜底解析\n• 没时间的待办点 ⏰+ 时，如果 title 里能解到时间，sheet 顶部会有「✦ 建议: 明天 19:30」高亮 chip 一键采用",
-      "changelog": "v727：待办时间识别 + ⏰ 预填",
-      "publishedAtMs": 1779642529000
-    },
     {
       "version": 728,
       "versionName": "260525-0130",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "开场动画的震动手感更细腻了。",
       "changelog": "x832 出片振动改细碎砂感：第一段长震从稀疏大间隙(12ms+120ms≈8次/秒，过山车感)改高频密排短脉冲(9ms+16ms≈40次/秒，幅度9/255)，靠密集小间隙形成砂砂细震、单点无起伏；脱口短振不变。无 DB migration。",
       "publishedAtMs": 1780115519000
+    },
+    {
+      "version": 806,
+      "versionName": "260530-1320",
+      "userFacingChangelog": "桌面小部件的拾梦相片调整了：早上你看冲印动画之前，小部件先挂着昨天的相片；等你看过今天的动画、相片揭晓后，它才换成今天的——不会被小部件提前剧透。",
+      "changelog": "x833 时光小部件防剧透：Today 模式不再直接显示今天新生成的拾梦相片(会在看冲印动画前剧透)，改为按 DailyPrintGate.seenId 显示「动画已揭晓的最新那天」的相片(看动画前=昨天那天的 1-N 张，看完今天动画后 onAnimationDone markSeen+broadcastRefresh 才切今天)；新增 newestRevealedReportDate helper；4×4 继承 2×2 共用逻辑自动覆盖。无 DB migration。",
+      "publishedAtMs": 1780118625000
     }
   ],
-  "publishedAtMs": 1780115519000,
+  "publishedAtMs": 1780118625000,
   "minSupported": 0
 }
