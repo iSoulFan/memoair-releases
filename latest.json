@@ -1,19 +1,12 @@
 {
-  "version": 799,
-  "versionName": "260530-1036",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v799/memoair-v799-260530-1036-slim.apk",
+  "version": 800,
+  "versionName": "260530-1051",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v800/memoair-v800-260530-1051-slim.apk",
   "sizeBytes": 35600448,
-  "sha256": "320dafc58bba73c460c1232e967796d4809004a1199a33d7c0bfc3d50acf88ec",
-  "changelog": "x832 拍立得动画：①删 res/raw/polaroid_print.m4a + 去掉 MediaPlayer，暂不播声音。②加振动卡点（VIBRATE 权限）：慢吐段 2300ms 持续轻振(幅度46/无幅度控制走轻脉冲串)→到出口 cancel 停一拍→220ms 静默→脱口单记短振 55ms/幅度200，做出脱口爽脆感；离场 onDispose 兜底停振。③触发改成退后台回前台也重评：MemoAirRoot 触发 LaunchedEffect 加 AppForeground.inForeground 作 key（false→true 重判），app 常驻后台时早上唤回前台不用杀进程即可播；调试「下次打开 App 播放」同理生效。无 DB migration。",
-  "userFacingChangelog": "拍立得动画这次去掉了声音，改成手震反馈——吐片时机器持续轻微震动，相片脱口那一下单独短震一记。另外不用杀后台重进了：退到后台再回来（比如早上醒来唤回 App）就会自动播。",
+  "sha256": "180e626651ab79c4aba421be05faa0a582de22b9041cdf6ca0d9f7c7280233be",
+  "changelog": "x832 ①开场动画振动调参：持续轻振延后到相片露头(launch+delay340)、幅度 24/255 极轻；脱口短振加重满幅 62ms。②修「退后台再回前台」不触发动画——之前用 collectAsStateWithLifecycle(inForeground) 探前台返回，后台停收集回前台值没变→effect 不重跑，只有杀进程才触发。改成 DisposableEffect 直接监听 Lifecycle ON_RESUME，每次回前台都重判一次（门控仍保证一天一次）；调试「下次打开 App 播放」同理生效。无 DB migration。",
+  "userFacingChangelog": "优化了开场动画的手感和触发，体验更顺。",
   "recentReleases": [
-    {
-      "version": 721,
-      "versionName": "260524-1303",
-      "userFacingChangelog": "• 跳设置后的 Toast 接力 4 条（≈14s）—— 一步步教你搜什么、选什么、开什么、回哪里\n• 昵称页「下一步」按钮跟其他步骤等高了\n• 昵称下方文案改成「填一个吧——我在卡片 / 信里写到你时会用这个称呼，比一直叫『你』亲一点」",
-      "changelog": "v721：自启动跳转 Toast 接力 + 昵称页对齐与文案",
-      "publishedAtMs": 1779599132000
-    },
     {
       "version": 722,
       "versionName": "260524-1713",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "拍立得动画这次去掉了声音，改成手震反馈——吐片时机器持续轻微震动，相片脱口那一下单独短震一记。另外不用杀后台重进了：退到后台再回来（比如早上醒来唤回 App）就会自动播。",
       "changelog": "x832 拍立得动画：①删 res/raw/polaroid_print.m4a + 去掉 MediaPlayer，暂不播声音。②加振动卡点（VIBRATE 权限）：慢吐段 2300ms 持续轻振(幅度46/无幅度控制走轻脉冲串)→到出口 cancel 停一拍→220ms 静默→脱口单记短振 55ms/幅度200，做出脱口爽脆感；离场 onDispose 兜底停振。③触发改成退后台回前台也重评：MemoAirRoot 触发 LaunchedEffect 加 AppForeground.inForeground 作 key（false→true 重判），app 常驻后台时早上唤回前台不用杀进程即可播；调试「下次打开 App 播放」同理生效。无 DB migration。",
       "publishedAtMs": 1780108743000
+    },
+    {
+      "version": 800,
+      "versionName": "260530-1051",
+      "userFacingChangelog": "优化了开场动画的手感和触发，体验更顺。",
+      "changelog": "x832 ①开场动画振动调参：持续轻振延后到相片露头(launch+delay340)、幅度 24/255 极轻；脱口短振加重满幅 62ms。②修「退后台再回前台」不触发动画——之前用 collectAsStateWithLifecycle(inForeground) 探前台返回，后台停收集回前台值没变→effect 不重跑，只有杀进程才触发。改成 DisposableEffect 直接监听 Lifecycle ON_RESUME，每次回前台都重判一次（门控仍保证一天一次）；调试「下次打开 App 播放」同理生效。无 DB migration。",
+      "publishedAtMs": 1780109914000
     }
   ],
-  "publishedAtMs": 1780108743000,
+  "publishedAtMs": 1780109914000,
   "minSupported": 0
 }
