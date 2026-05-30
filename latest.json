@@ -1,19 +1,12 @@
 {
-  "version": 804,
-  "versionName": "260530-1218",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v804/memoair-v804-260530-1218-slim.apk",
+  "version": 805,
+  "versionName": "260530-1229",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v805/memoair-v805-260530-1229-slim.apk",
   "sizeBytes": 35600448,
-  "sha256": "4a08509b05231467d2cbf98f77879c9546fdcce2948520f9ced9e674ef20d41f",
-  "changelog": "x832 开场动画出场补偿：关闭动画时 printCard 立刻清空但状态栏异步恢复会上跳一帧——加 printExiting，dismiss/tap 时保持冻结 360ms(覆盖状态栏恢复)再撤，与进场 320ms 补偿对称，去掉关闭瞬间一帧上跳。无 DB migration。",
-  "userFacingChangelog": "开场动画收尾更顺滑了。",
+  "sha256": "99f0e3de34c6f96dac9e4d02fa96b3837318d3c9035106751d0f7ea3e1773e1b",
+  "changelog": "x832 出片振动改细碎砂感：第一段长震从稀疏大间隙(12ms+120ms≈8次/秒，过山车感)改高频密排短脉冲(9ms+16ms≈40次/秒，幅度9/255)，靠密集小间隙形成砂砂细震、单点无起伏；脱口短振不变。无 DB migration。",
+  "userFacingChangelog": "开场动画的震动手感更细腻了。",
   "recentReleases": [
-    {
-      "version": 726,
-      "versionName": "260524-2319",
-      "userFacingChangelog": "• 从待办点「去看那份纪要」跳过去后，左滑切回 / 系统返回手势回到待办时，列表自动滚回原来那条待办的位置",
-      "changelog": "v726：待办→纪要返回回到原 todo 位置",
-      "publishedAtMs": 1779636235000
-    },
     {
       "version": 727,
       "versionName": "260525-0106",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "开场动画收尾更顺滑了。",
       "changelog": "x832 开场动画出场补偿：关闭动画时 printCard 立刻清空但状态栏异步恢复会上跳一帧——加 printExiting，dismiss/tap 时保持冻结 360ms(覆盖状态栏恢复)再撤，与进场 320ms 补偿对称，去掉关闭瞬间一帧上跳。无 DB migration。",
       "publishedAtMs": 1780114857000
+    },
+    {
+      "version": 805,
+      "versionName": "260530-1229",
+      "userFacingChangelog": "开场动画的震动手感更细腻了。",
+      "changelog": "x832 出片振动改细碎砂感：第一段长震从稀疏大间隙(12ms+120ms≈8次/秒，过山车感)改高频密排短脉冲(9ms+16ms≈40次/秒，幅度9/255)，靠密集小间隙形成砂砂细震、单点无起伏；脱口短振不变。无 DB migration。",
+      "publishedAtMs": 1780115519000
     }
   ],
-  "publishedAtMs": 1780114857000,
+  "publishedAtMs": 1780115519000,
   "minSupported": 0
 }
