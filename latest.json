@@ -1,19 +1,12 @@
 {
-  "version": 801,
-  "versionName": "260530-1107",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v801/memoair-v801-260530-1107-slim.apk",
+  "version": 802,
+  "versionName": "260530-1115",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v802/memoair-v802-260530-1115-slim.apk",
   "sizeBytes": 35600448,
-  "sha256": "121d0f13d9e424b84c7322d3fba2719e2ce7b0b7745ddb8b9ee681fbac238eac",
-  "changelog": "x832 开场动画振动再微调：起振延后 340→500ms；第一段长震幅度 24→14/255 更轻；脱口短振不变(满幅 62ms)。无 DB migration。",
-  "userFacingChangelog": "开场动画的手感又打磨了一点。",
+  "sha256": "1be292a491cceff9aeb16ff29025c25e2531b0cf1a100dda399ba6731faf1ba0",
+  "changelog": "x832 开场动画长震再调：起振 500→660ms 更晚、幅度 14→9/255 更轻（时长 1640 仍在出口停）；脱口短振不变。无 DB migration。",
+  "userFacingChangelog": "开场动画手感继续打磨。",
   "recentReleases": [
-    {
-      "version": 723,
-      "versionName": "260524-1824",
-      "userFacingChangelog": "• 关系镜像不再抽出「明天去拿下了再」这种残句——加了客户端 + prompt 双层门槛\n• Stage A 抽 fact 时强制带前后文，Stage B 写 mirror 时基于上下文，不再瞎编\n• 你在 chat 里问「原文呢」AI 找不到时会直说「这条片段抽得太短我找不回原文，建议忽略这条解读」，不再硬编",
-      "changelog": "v723：关系镜像抽取质量大修——quote 残句门槛 + 带上下文 + AI 找不到诚实承认",
-      "publishedAtMs": 1779618418000
-    },
     {
       "version": 724,
       "versionName": "260524-1841",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "开场动画的手感又打磨了一点。",
       "changelog": "x832 开场动画振动再微调：起振延后 340→500ms；第一段长震幅度 24→14/255 更轻；脱口短振不变(满幅 62ms)。无 DB migration。",
       "publishedAtMs": 1780110612000
+    },
+    {
+      "version": 802,
+      "versionName": "260530-1115",
+      "userFacingChangelog": "开场动画手感继续打磨。",
+      "changelog": "x832 开场动画长震再调：起振 500→660ms 更晚、幅度 14→9/255 更轻（时长 1640 仍在出口停）；脱口短振不变。无 DB migration。",
+      "publishedAtMs": 1780111047000
     }
   ],
-  "publishedAtMs": 1780110612000,
+  "publishedAtMs": 1780111047000,
   "minSupported": 0
 }
