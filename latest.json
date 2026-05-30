@@ -1,19 +1,12 @@
 {
-  "version": 798,
-  "versionName": "260530-1019",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v798/memoair-v798-260530-1019-slim.apk",
-  "sizeBytes": 35657848,
-  "sha256": "686b1c7fec0cf042b0250ff7af1acb1d545bafcc8f3bd72f6c96710900007660",
-  "changelog": "x832 拾梦相片打印动画调试加第二个钮「下次打开 App 播放」：DailyPrintGate.resetForReplay 清掉 seenId+playedDate → 下次开 app 走真实首开触发再播一次。无 DB migration。",
-  "userFacingChangelog": "调试区给拾梦相片动画加了个「下次打开 App 播放」的按钮，方便你按真实开场效果反复看。",
+  "version": 799,
+  "versionName": "260530-1036",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v799/memoair-v799-260530-1036-slim.apk",
+  "sizeBytes": 35600448,
+  "sha256": "320dafc58bba73c460c1232e967796d4809004a1199a33d7c0bfc3d50acf88ec",
+  "changelog": "x832 拍立得动画：①删 res/raw/polaroid_print.m4a + 去掉 MediaPlayer，暂不播声音。②加振动卡点（VIBRATE 权限）：慢吐段 2300ms 持续轻振(幅度46/无幅度控制走轻脉冲串)→到出口 cancel 停一拍→220ms 静默→脱口单记短振 55ms/幅度200，做出脱口爽脆感；离场 onDispose 兜底停振。③触发改成退后台回前台也重评：MemoAirRoot 触发 LaunchedEffect 加 AppForeground.inForeground 作 key（false→true 重判），app 常驻后台时早上唤回前台不用杀进程即可播；调试「下次打开 App 播放」同理生效。无 DB migration。",
+  "userFacingChangelog": "拍立得动画这次去掉了声音，改成手震反馈——吐片时机器持续轻微震动，相片脱口那一下单独短震一记。另外不用杀后台重进了：退到后台再回来（比如早上醒来唤回 App）就会自动播。",
   "recentReleases": [
-    {
-      "version": 720,
-      "versionName": "260524-1250",
-      "userFacingChangelog": "• 演示模式下「下一步」按钮不再超出屏幕、昵称页恢复居中\n• 「怎么叫你」→「怎么称呼你」、通知文案「时光胶片」→「拾梦相片」\n• 电池页所有步骤说明永远展开（不再藏在 ⓘ 后面）\n• 电池优化已配的步骤右侧显示「✓ 已完成」（每次进 onboarding 自动检测）\n• OPPO 自启动跳转失败兜底到设置主页 + 提示「在搜索栏搜『自启动』」",
-      "changelog": "v720：开机引导多个修复——按钮不超屏 / 文案精修 / 电池状态识别 / OPPO 跳转兜底",
-      "publishedAtMs": 1779598399000
-    },
     {
       "version": 721,
       "versionName": "260524-1303",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "调试区给拾梦相片动画加了个「下次打开 App 播放」的按钮，方便你按真实开场效果反复看。",
       "changelog": "x832 拾梦相片打印动画调试加第二个钮「下次打开 App 播放」：DailyPrintGate.resetForReplay 清掉 seenId+playedDate → 下次开 app 走真实首开触发再播一次。无 DB migration。",
       "publishedAtMs": 1780107670000
+    },
+    {
+      "version": 799,
+      "versionName": "260530-1036",
+      "userFacingChangelog": "拍立得动画这次去掉了声音，改成手震反馈——吐片时机器持续轻微震动，相片脱口那一下单独短震一记。另外不用杀后台重进了：退到后台再回来（比如早上醒来唤回 App）就会自动播。",
+      "changelog": "x832 拍立得动画：①删 res/raw/polaroid_print.m4a + 去掉 MediaPlayer，暂不播声音。②加振动卡点（VIBRATE 权限）：慢吐段 2300ms 持续轻振(幅度46/无幅度控制走轻脉冲串)→到出口 cancel 停一拍→220ms 静默→脱口单记短振 55ms/幅度200，做出脱口爽脆感；离场 onDispose 兜底停振。③触发改成退后台回前台也重评：MemoAirRoot 触发 LaunchedEffect 加 AppForeground.inForeground 作 key（false→true 重判），app 常驻后台时早上唤回前台不用杀进程即可播；调试「下次打开 App 播放」同理生效。无 DB migration。",
+      "publishedAtMs": 1780108743000
     }
   ],
-  "publishedAtMs": 1780107670000,
+  "publishedAtMs": 1780108743000,
   "minSupported": 0
 }
