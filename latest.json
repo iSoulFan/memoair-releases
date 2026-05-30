@@ -1,19 +1,12 @@
 {
-  "version": 806,
-  "versionName": "260530-1320",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v806/memoair-v806-260530-1320-slim.apk",
-  "sizeBytes": 35600448,
-  "sha256": "074c3c0c99b449699a0d04203dd96c180684e9fe6c2466542bb928d337e0eb7c",
-  "changelog": "x833 时光小部件防剧透：Today 模式不再直接显示今天新生成的拾梦相片(会在看冲印动画前剧透)，改为按 DailyPrintGate.seenId 显示「动画已揭晓的最新那天」的相片(看动画前=昨天那天的 1-N 张，看完今天动画后 onAnimationDone markSeen+broadcastRefresh 才切今天)；新增 newestRevealedReportDate helper；4×4 继承 2×2 共用逻辑自动覆盖。无 DB migration。",
-  "userFacingChangelog": "桌面小部件的拾梦相片调整了：早上你看冲印动画之前，小部件先挂着昨天的相片；等你看过今天的动画、相片揭晓后，它才换成今天的——不会被小部件提前剧透。",
+  "version": 807,
+  "versionName": "260530-2209",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v807/memoair-v807-260530-2209-slim.apk",
+  "sizeBytes": 35608640,
+  "sha256": "c0326e024ce7212fac2cc16c999e0eefed554e9049d227c988e09e9764c37f74",
+  "changelog": "v807：新增「麦克风来源」录音输入设备选择（设置→录音）。AudioInputDevices 枚举 GET_DEVICES_INPUTS；RecordingService.applyPreferredInput 对选定设备 setPreferredDevice，蓝牙额外 setCommunicationDevice(API31+)/startBluetoothSco 激活 SCO + 收尾对称释放；默认「自动」=系统默认内置麦，行为不变。opt-in 不影响既有用户。",
+  "userFacingChangelog": "现在可以在「设置 → 录音 → 麦克风来源」里选用蓝牙 / USB 外接麦克风来录音了。",
   "recentReleases": [
-    {
-      "version": 728,
-      "versionName": "260525-0130",
-      "userFacingChangelog": "• 声纹注册改成跟当前录音偏好同 source（治本根因，之前 MIC 注册 + VOICE_RECOGNITION 录音频谱不匹配）\n• 调试菜单加「声纹判定明细」面板：每段 cosine + 阈值 + tier 一目了然，定位误判\n• 面板里每行可点击切换 tier（无 → 我 → 他 → 不确定 → 无）—— 标注覆盖 AI 判定，立刻影响 chat 召回\n• 个性化声纹分类器：你标 6 段「我」+ 6 段「他」自动训练；之后 cosine 40% + 分类器 60% 融合判定，越标越准",
-      "changelog": "v728：声纹识别 Phase 1+2 一气推完——同源注册 / 调试可视化 / 用户标注 / 个性化分类器",
-      "publishedAtMs": 1779644012000
-    },
     {
       "version": 729,
       "versionName": "260525-1033",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "桌面小部件的拾梦相片调整了：早上你看冲印动画之前，小部件先挂着昨天的相片；等你看过今天的动画、相片揭晓后，它才换成今天的——不会被小部件提前剧透。",
       "changelog": "x833 时光小部件防剧透：Today 模式不再直接显示今天新生成的拾梦相片(会在看冲印动画前剧透)，改为按 DailyPrintGate.seenId 显示「动画已揭晓的最新那天」的相片(看动画前=昨天那天的 1-N 张，看完今天动画后 onAnimationDone markSeen+broadcastRefresh 才切今天)；新增 newestRevealedReportDate helper；4×4 继承 2×2 共用逻辑自动覆盖。无 DB migration。",
       "publishedAtMs": 1780118625000
+    },
+    {
+      "version": 807,
+      "versionName": "260530-2209",
+      "userFacingChangelog": "现在可以在「设置 → 录音 → 麦克风来源」里选用蓝牙 / USB 外接麦克风来录音了。",
+      "changelog": "v807：新增「麦克风来源」录音输入设备选择（设置→录音）。AudioInputDevices 枚举 GET_DEVICES_INPUTS；RecordingService.applyPreferredInput 对选定设备 setPreferredDevice，蓝牙额外 setCommunicationDevice(API31+)/startBluetoothSco 激活 SCO + 收尾对称释放；默认「自动」=系统默认内置麦，行为不变。opt-in 不影响既有用户。",
+      "publishedAtMs": 1780150335000
     }
   ],
-  "publishedAtMs": 1780118625000,
+  "publishedAtMs": 1780150335000,
   "minSupported": 0
 }
