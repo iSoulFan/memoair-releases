@@ -1,19 +1,12 @@
 {
-  "version": 808,
-  "versionName": "260530-2232",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v808/memoair-v808-260530-2232-slim.apk",
-  "sizeBytes": 35608640,
-  "sha256": "456d665ac2b9e04681f9e7749233af1a9cc7975b08c44e867961341a7d4872c7",
-  "changelog": "v808：录音设备路由真实化 + 胶囊设备指示。RecordingService 读 AudioRecord.routedDevice 上报 RecordingController.activeInput（真实设备而非用户意图）；蓝牙路由改 setCommunicationDevice/SCO 建链后轮询≤2s 再 setPreferredDevice，收尾对称释放；每段开头刷新 routedDevice 纠正显示。录音胶囊：计时数字外接麦→绿/手机麦→红；长按菜单顶部加「录音设备」切换区（emoji + ✓选中 + 绿点·使用中实时标注）。",
-  "userFacingChangelog": "录音胶囊长按可直接切换麦克风了：用外接麦时计时数字变绿、手机麦时变红，一眼看出正在用哪个麦。",
+  "version": 809,
+  "versionName": "260530-2338",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v809/memoair-v809-260530-2338-slim.apk",
+  "sizeBytes": 35612736,
+  "sha256": "0af4e3e585bbd4e2ea980085642686ece38e17cd3be91bcd5ea0d5e4a5db322d",
+  "changelog": "v809：录音设备选择重做。① 设备身份按 AudioDeviceInfo.id 修同名两行同时打勾；只枚举外接设备（内置=自动行），按 address(蓝牙MAC)→name+type 跨重连匹配。② 蓝牙无声 bug：构造 AudioRecord 前先激活 SCO 等建链≤2s，蓝牙用 VOICE_COMMUNICATION 源。③ 切设备走 ACTION_RESTART 无缝重启录音循环不停成待机。④ 胶囊短按出弹窗/长按进看板；闪烁灯外接→绿手机→红、计时数字回中性。⑤ 长按菜单+设置加实时电平条+蓝牙电量。",
+  "userFacingChangelog": "录音胶囊和设置里的麦克风选择更准了：每次只有一个设备被选中，多了一条实时音量条——选完麦能直接看到它有没有收到声音；蓝牙麦录不到声的问题也修了。",
   "recentReleases": [
-    {
-      "version": 730,
-      "versionName": "260525-1055",
-      "userFacingChangelog": "• 设置入口「告诉作者一句」—— 不好用 / 想要 / 有 bug / 搞不懂 / 教我做事\n• 点开后直接是大按钮：点一次开始 → 实时转写 → 再点结束 → 可改输入框 → 发送\n• chat 里直接吐槽功能 / 报 bug / 许愿 / 问怎么用 —— AI 会自动帮你发给作者，附带情境说明",
-      "changelog": "v730：吐槽通道精简 + chat 内自动反馈",
-      "publishedAtMs": 1779677903000
-    },
     {
       "version": 731,
       "versionName": "260525-1113",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "录音胶囊长按可直接切换麦克风了：用外接麦时计时数字变绿、手机麦时变红，一眼看出正在用哪个麦。",
       "changelog": "v808：录音设备路由真实化 + 胶囊设备指示。RecordingService 读 AudioRecord.routedDevice 上报 RecordingController.activeInput（真实设备而非用户意图）；蓝牙路由改 setCommunicationDevice/SCO 建链后轮询≤2s 再 setPreferredDevice，收尾对称释放；每段开头刷新 routedDevice 纠正显示。录音胶囊：计时数字外接麦→绿/手机麦→红；长按菜单顶部加「录音设备」切换区（emoji + ✓选中 + 绿点·使用中实时标注）。",
       "publishedAtMs": 1780151705000
+    },
+    {
+      "version": 809,
+      "versionName": "260530-2338",
+      "userFacingChangelog": "录音胶囊和设置里的麦克风选择更准了：每次只有一个设备被选中，多了一条实时音量条——选完麦能直接看到它有没有收到声音；蓝牙麦录不到声的问题也修了。",
+      "changelog": "v809：录音设备选择重做。① 设备身份按 AudioDeviceInfo.id 修同名两行同时打勾；只枚举外接设备（内置=自动行），按 address(蓝牙MAC)→name+type 跨重连匹配。② 蓝牙无声 bug：构造 AudioRecord 前先激活 SCO 等建链≤2s，蓝牙用 VOICE_COMMUNICATION 源。③ 切设备走 ACTION_RESTART 无缝重启录音循环不停成待机。④ 胶囊短按出弹窗/长按进看板；闪烁灯外接→绿手机→红、计时数字回中性。⑤ 长按菜单+设置加实时电平条+蓝牙电量。",
+      "publishedAtMs": 1780155783000
     }
   ],
-  "publishedAtMs": 1780151705000,
+  "publishedAtMs": 1780155783000,
   "minSupported": 0
 }
