@@ -1,19 +1,12 @@
 {
-  "version": 807,
-  "versionName": "260530-2209",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v807/memoair-v807-260530-2209-slim.apk",
+  "version": 808,
+  "versionName": "260530-2232",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v808/memoair-v808-260530-2232-slim.apk",
   "sizeBytes": 35608640,
-  "sha256": "c0326e024ce7212fac2cc16c999e0eefed554e9049d227c988e09e9764c37f74",
-  "changelog": "v807：新增「麦克风来源」录音输入设备选择（设置→录音）。AudioInputDevices 枚举 GET_DEVICES_INPUTS；RecordingService.applyPreferredInput 对选定设备 setPreferredDevice，蓝牙额外 setCommunicationDevice(API31+)/startBluetoothSco 激活 SCO + 收尾对称释放；默认「自动」=系统默认内置麦，行为不变。opt-in 不影响既有用户。",
-  "userFacingChangelog": "现在可以在「设置 → 录音 → 麦克风来源」里选用蓝牙 / USB 外接麦克风来录音了。",
+  "sha256": "456d665ac2b9e04681f9e7749233af1a9cc7975b08c44e867961341a7d4872c7",
+  "changelog": "v808：录音设备路由真实化 + 胶囊设备指示。RecordingService 读 AudioRecord.routedDevice 上报 RecordingController.activeInput（真实设备而非用户意图）；蓝牙路由改 setCommunicationDevice/SCO 建链后轮询≤2s 再 setPreferredDevice，收尾对称释放；每段开头刷新 routedDevice 纠正显示。录音胶囊：计时数字外接麦→绿/手机麦→红；长按菜单顶部加「录音设备」切换区（emoji + ✓选中 + 绿点·使用中实时标注）。",
+  "userFacingChangelog": "录音胶囊长按可直接切换麦克风了：用外接麦时计时数字变绿、手机麦时变红，一眼看出正在用哪个麦。",
   "recentReleases": [
-    {
-      "version": 729,
-      "versionName": "260525-1033",
-      "userFacingChangelog": "• 设置里新增「专属你的产品吐槽通道」——录音/文字两种方式都行，吐槽直接送到我（不读 App 内任何数据）\n• 顶部 6 条引导：亮点 / 戳中 / 卡壳 / 吐槽 / 缺什么 / 怎么改",
-      "changelog": "v729：新增「专属你的产品吐槽通道」入口",
-      "publishedAtMs": 1779676567000
-    },
     {
       "version": 730,
       "versionName": "260525-1055",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "现在可以在「设置 → 录音 → 麦克风来源」里选用蓝牙 / USB 外接麦克风来录音了。",
       "changelog": "v807：新增「麦克风来源」录音输入设备选择（设置→录音）。AudioInputDevices 枚举 GET_DEVICES_INPUTS；RecordingService.applyPreferredInput 对选定设备 setPreferredDevice，蓝牙额外 setCommunicationDevice(API31+)/startBluetoothSco 激活 SCO + 收尾对称释放；默认「自动」=系统默认内置麦，行为不变。opt-in 不影响既有用户。",
       "publishedAtMs": 1780150335000
+    },
+    {
+      "version": 808,
+      "versionName": "260530-2232",
+      "userFacingChangelog": "录音胶囊长按可直接切换麦克风了：用外接麦时计时数字变绿、手机麦时变红，一眼看出正在用哪个麦。",
+      "changelog": "v808：录音设备路由真实化 + 胶囊设备指示。RecordingService 读 AudioRecord.routedDevice 上报 RecordingController.activeInput（真实设备而非用户意图）；蓝牙路由改 setCommunicationDevice/SCO 建链后轮询≤2s 再 setPreferredDevice，收尾对称释放；每段开头刷新 routedDevice 纠正显示。录音胶囊：计时数字外接麦→绿/手机麦→红；长按菜单顶部加「录音设备」切换区（emoji + ✓选中 + 绿点·使用中实时标注）。",
+      "publishedAtMs": 1780151705000
     }
   ],
-  "publishedAtMs": 1780150335000,
+  "publishedAtMs": 1780151705000,
   "minSupported": 0
 }
