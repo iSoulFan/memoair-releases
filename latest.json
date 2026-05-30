@@ -1,19 +1,12 @@
 {
-  "version": 797,
-  "versionName": "260530-1007",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v797/memoair-v797-260530-1007-slim.apk",
+  "version": 798,
+  "versionName": "260530-1019",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v798/memoair-v798-260530-1019-slim.apk",
   "sizeBytes": 35657848,
-  "sha256": "24838377e4a9f4354a3dc6512ddee904a42c12407940873ce5287256dcda8293",
-  "changelog": "x832 修时光内层筛选 pager 跳转半页 bug。从 chat 功能消息(拾梦相片/抉择等可点卡)跳进时光时，外层切 tab 与内层 pager 同时 animateScroll → 内层被打断卡在「收藏↔全部」半页。TimelineScreen pendingTarget 的 inner pager 推全部页由 animateScrollToPage(1) 改瞬时 scrollToPage(1)，绝不停半页。无 DB migration。",
-  "userFacingChangelog": "修了个小毛病：从聊天里点卡片跳进「时光」时，偶尔会卡在两个筛选页中间的半截画面——现在会干脆利落地停在「全部」页。",
+  "sha256": "686b1c7fec0cf042b0250ff7af1acb1d545bafcc8f3bd72f6c96710900007660",
+  "changelog": "x832 拾梦相片打印动画调试加第二个钮「下次打开 App 播放」：DailyPrintGate.resetForReplay 清掉 seenId+playedDate → 下次开 app 走真实首开触发再播一次。无 DB migration。",
+  "userFacingChangelog": "调试区给拾梦相片动画加了个「下次打开 App 播放」的按钮，方便你按真实开场效果反复看。",
   "recentReleases": [
-    {
-      "version": 719,
-      "versionName": "260524-1231",
-      "userFacingChangelog": "• 设置 → 关于 → 调试 · 高级设置 里多了「重看开机引导」\n• 演示模式：可以反复过一遍开机引导，不动你已有的昵称 / 声纹 / onboarding 状态\n• 右上角随时点「退出演示」回到设置",
-      "changelog": "v719：调试菜单加「重看开机引导」入口——可反复演示，不写状态",
-      "publishedAtMs": 1779597244000
-    },
     {
       "version": 720,
       "versionName": "260524-1250",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "修了个小毛病：从聊天里点卡片跳进「时光」时，偶尔会卡在两个筛选页中间的半截画面——现在会干脆利落地停在「全部」页。",
       "changelog": "x832 修时光内层筛选 pager 跳转半页 bug。从 chat 功能消息(拾梦相片/抉择等可点卡)跳进时光时，外层切 tab 与内层 pager 同时 animateScroll → 内层被打断卡在「收藏↔全部」半页。TimelineScreen pendingTarget 的 inner pager 推全部页由 animateScrollToPage(1) 改瞬时 scrollToPage(1)，绝不停半页。无 DB migration。",
       "publishedAtMs": 1780107176000
+    },
+    {
+      "version": 798,
+      "versionName": "260530-1019",
+      "userFacingChangelog": "调试区给拾梦相片动画加了个「下次打开 App 播放」的按钮，方便你按真实开场效果反复看。",
+      "changelog": "x832 拾梦相片打印动画调试加第二个钮「下次打开 App 播放」：DailyPrintGate.resetForReplay 清掉 seenId+playedDate → 下次开 app 走真实首开触发再播一次。无 DB migration。",
+      "publishedAtMs": 1780107670000
     }
   ],
-  "publishedAtMs": 1780107176000,
+  "publishedAtMs": 1780107670000,
   "minSupported": 0
 }
