@@ -1,19 +1,12 @@
 {
-  "version": 800,
-  "versionName": "260530-1051",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v800/memoair-v800-260530-1051-slim.apk",
+  "version": 801,
+  "versionName": "260530-1107",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v801/memoair-v801-260530-1107-slim.apk",
   "sizeBytes": 35600448,
-  "sha256": "180e626651ab79c4aba421be05faa0a582de22b9041cdf6ca0d9f7c7280233be",
-  "changelog": "x832 ①开场动画振动调参：持续轻振延后到相片露头(launch+delay340)、幅度 24/255 极轻；脱口短振加重满幅 62ms。②修「退后台再回前台」不触发动画——之前用 collectAsStateWithLifecycle(inForeground) 探前台返回，后台停收集回前台值没变→effect 不重跑，只有杀进程才触发。改成 DisposableEffect 直接监听 Lifecycle ON_RESUME，每次回前台都重判一次（门控仍保证一天一次）；调试「下次打开 App 播放」同理生效。无 DB migration。",
-  "userFacingChangelog": "优化了开场动画的手感和触发，体验更顺。",
+  "sha256": "121d0f13d9e424b84c7322d3fba2719e2ce7b0b7745ddb8b9ee681fbac238eac",
+  "changelog": "x832 开场动画振动再微调：起振延后 340→500ms；第一段长震幅度 24→14/255 更轻；脱口短振不变(满幅 62ms)。无 DB migration。",
+  "userFacingChangelog": "开场动画的手感又打磨了一点。",
   "recentReleases": [
-    {
-      "version": 722,
-      "versionName": "260524-1713",
-      "userFacingChangelog": "• 在某张卡里聊「原文呢 / 怎么回事 / 展开说」时，AI 锚定到这张卡的内容，不再误抓上面别的卡片推送\n• 修了 search_transcripts 内部指令漏出 bug——「上面是原始片段，不要复制粘贴给用户...」这种内心 OS 不再发出来",
-      "changelog": "v722：chat 上下文锚定 + 内部指令不再漏给用户",
-      "publishedAtMs": 1779614159000
-    },
     {
       "version": 723,
       "versionName": "260524-1824",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "优化了开场动画的手感和触发，体验更顺。",
       "changelog": "x832 ①开场动画振动调参：持续轻振延后到相片露头(launch+delay340)、幅度 24/255 极轻；脱口短振加重满幅 62ms。②修「退后台再回前台」不触发动画——之前用 collectAsStateWithLifecycle(inForeground) 探前台返回，后台停收集回前台值没变→effect 不重跑，只有杀进程才触发。改成 DisposableEffect 直接监听 Lifecycle ON_RESUME，每次回前台都重判一次（门控仍保证一天一次）；调试「下次打开 App 播放」同理生效。无 DB migration。",
       "publishedAtMs": 1780109914000
+    },
+    {
+      "version": 801,
+      "versionName": "260530-1107",
+      "userFacingChangelog": "开场动画的手感又打磨了一点。",
+      "changelog": "x832 开场动画振动再微调：起振延后 340→500ms；第一段长震幅度 24→14/255 更轻；脱口短振不变(满幅 62ms)。无 DB migration。",
+      "publishedAtMs": 1780110612000
     }
   ],
-  "publishedAtMs": 1780109914000,
+  "publishedAtMs": 1780110612000,
   "minSupported": 0
 }
