@@ -1,19 +1,12 @@
 {
-  "version": 824,
-  "versionName": "260601-2347",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v824/memoair-v824-260601-2347-slim.apk",
+  "version": 825,
+  "versionName": "260602-0038",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v825/memoair-v825-260602-0038-slim.apk",
   "sizeBytes": 35620768,
-  "sha256": "0d632a9915c11065f8bdf19093bbc739ef3fe46200b11bf9fc2e9a91c297f02c",
-  "changelog": "v824 = v823(AI硬件管理，眼镜Air/搭子Pin，全 isAdmin 门控，普通用户零硬件痕迹；看板挪调试；硬件页无连续记录/VAD开关；示例设备数据) + 设置文案3处微调：①「历史记录管理」回退为「长期记忆」②「多麦克风拾音」改「手机多麦拾音」（区别于硬件麦）③连续记录模式的「后台不稳定」提示并入说明小字、不再单独成行。",
-  "userFacingChangelog": "一些设置文案和细节打磨，体验更顺手一点。",
+  "sha256": "65e9e530b56a771384ca3506b2772e48755cfd668eca3a37148665862c60ed7a",
+  "changelog": "界面细节打磨与稳定性优化。",
+  "userFacingChangelog": "界面细节打磨，体验更顺手一点。",
   "recentReleases": [
-    {
-      "version": 744,
-      "versionName": "260526-0913",
-      "userFacingChangelog": "「我擅长什么」展开后自身高亮，跟其他设置展开行为一致",
-      "changelog": "x744：「我擅长什么」展开自身要 active dim 高亮——拆 SelfProfileSection 外层 passive Column",
-      "publishedAtMs": 1779758148000
-    },
     {
       "version": 746,
       "versionName": "260527-1706",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "一些设置文案和细节打磨，体验更顺手一点。",
       "changelog": "v824 = v823(AI硬件管理，眼镜Air/搭子Pin，全 isAdmin 门控，普通用户零硬件痕迹；看板挪调试；硬件页无连续记录/VAD开关；示例设备数据) + 设置文案3处微调：①「历史记录管理」回退为「长期记忆」②「多麦克风拾音」改「手机多麦拾音」（区别于硬件麦）③连续记录模式的「后台不稳定」提示并入说明小字、不再单独成行。",
       "publishedAtMs": 1780329010000
+    },
+    {
+      "version": 825,
+      "versionName": "260602-0038",
+      "userFacingChangelog": "界面细节打磨，体验更顺手一点。",
+      "changelog": "界面细节打磨与稳定性优化。",
+      "publishedAtMs": 1780332026000
     }
   ],
-  "publishedAtMs": 1780329010000,
+  "publishedAtMs": 1780332026000,
   "minSupported": 0
 }
