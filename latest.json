@@ -1,19 +1,12 @@
 {
-  "version": 817,
-  "versionName": "260601-1209",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v817/memoair-v817-260601-1209-slim.apk",
+  "version": 818,
+  "versionName": "260601-1333",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v818/memoair-v818-260601-1333-slim.apk",
   "sizeBytes": 35625024,
-  "sha256": "ee3e320a8033523e2e95edf8b37094ad330e95544d3588ab96a22d74bd007bdb",
-  "changelog": "v817：内容很少的那天不再硬出图——「那天的事」生成前先判断内容量，太少就留空不出图不写日报（省 token）。",
-  "userFacingChangelog": "内容很少的那天，时光不再硬凑一张没意义的照片，直接留空。",
+  "sha256": "589458996c329299dff07f7aaeea9c61c511f274b146319e42d6035cc74cdefb",
+  "changelog": "v818：承接 v817——内容不足那天跳过出图/日报后，在「对话」补一条温馨说明消息（昨天大概说了几段几字、为什么没出图、🌱 鼓励多记），每天最多一条。",
+  "userFacingChangelog": "内容很少的那天，记得会在对话里轻轻跟你说一声、提醒你多记点，而不是硬凑一张照片。",
   "recentReleases": [
-    {
-      "version": 738,
-      "versionName": "260525-1645",
-      "userFacingChangelog": "• 设置里任意板块展开后：自己 + 板块内所有子菜单全亮，其他板块全淡 28%\n• 比如展开「我的数据」→ 隐私实况 / 备份 / 选择忘记等子菜单都亮，录音 / 主题 / 调试等其他顶层 row 都淡",
-      "changelog": "v738：设置 dim 改成「展开链路全亮 + 其他全淡」模型",
-      "publishedAtMs": 1779698886000
-    },
     {
       "version": 739,
       "versionName": "260525-1652",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "内容很少的那天，时光不再硬凑一张没意义的照片，直接留空。",
       "changelog": "v817：内容很少的那天不再硬出图——「那天的事」生成前先判断内容量，太少就留空不出图不写日报（省 token）。",
       "publishedAtMs": 1780287118000
+    },
+    {
+      "version": 818,
+      "versionName": "260601-1333",
+      "userFacingChangelog": "内容很少的那天，记得会在对话里轻轻跟你说一声、提醒你多记点，而不是硬凑一张照片。",
+      "changelog": "v818：承接 v817——内容不足那天跳过出图/日报后，在「对话」补一条温馨说明消息（昨天大概说了几段几字、为什么没出图、🌱 鼓励多记），每天最多一条。",
+      "publishedAtMs": 1780292260000
     }
   ],
-  "publishedAtMs": 1780287118000,
+  "publishedAtMs": 1780292260000,
   "minSupported": 0
 }
