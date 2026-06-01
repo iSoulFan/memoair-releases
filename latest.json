@@ -1,19 +1,12 @@
 {
-  "version": 812,
-  "versionName": "260601-1027",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v812/memoair-v812-260601-1027-slim.apk",
-  "sizeBytes": 35612736,
-  "sha256": "118d880936eea0d1088ffc79bb921fd3a7fdf05b2d01fef1d079e70c0d6dc845",
-  "changelog": "v812：蓝牙麦SCO链路通但无声修复。诊断确认 routedDevice=蓝牙SCO 但电平静音——缺 MODE_IN_COMMUNICATION。activateScoFor 现在先存 savedAudioMode 再切 am.mode=MODE_IN_COMMUNICATION 才起 SCO/setCommunicationDevice，建链后多 delay 500ms 结算再开 AudioRecord；releaseScoIfActive 恢复 mode。加 MODIFY_AUDIO_SETTINGS 权限。这是豆包能录/微信不能录的真实差异（切没切通讯模式）。蓝牙通道 0识别/1通话 都受益，建议优先试通话。",
-  "userFacingChangelog": "蓝牙麦克风兼容性优化。",
+  "version": 813,
+  "versionName": "260601-1040",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v813/memoair-v813-260601-1040-slim.apk",
+  "sizeBytes": 35625024,
+  "sha256": "a43e792f827be9b8d0571715b40afa87da3cb02dc932fdaa5bb369c00336310b",
+  "changelog": "v813：蓝牙麦 SCO 强建链（老接口 startBluetoothSco 主动拉起 + 等 SCO_AUDIO_STATE_CONNECTED 广播）+ 诊断行加 SCO 连接态；对话人设预设（6 内置 + 自定义 CRUD，org.json 持久化，设置→对话人设 顶部药丸选择+保存+删除）。",
+  "userFacingChangelog": "新增「对话人设」预设：设置→对话人设 里一键套用温暖知己/毒舌损友/理性顾问等风格，也能把自己调好的设定存成专属人设、随时切换。",
   "recentReleases": [
-    {
-      "version": 735,
-      "versionName": "260525-1413",
-      "userFacingChangelog": "• 纪要不再按「几个人在说」抽，改按「有没有结论 / 决议 / 下一步 / todo」\n• 你独自想方案 5 分钟 + 最后拍板「明天先 X」也会被记下来\n• 满屏「也许 / 可能 / 再说 / 哎」没结论的几分钟漫游，会被直接跳过",
-      "changelog": "v735：纪要按「有没有产出」判，独白型工作复盘也算",
-      "publishedAtMs": 1779689724000
-    },
     {
       "version": 736,
       "versionName": "260525-1601",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "蓝牙麦克风兼容性优化。",
       "changelog": "v812：蓝牙麦SCO链路通但无声修复。诊断确认 routedDevice=蓝牙SCO 但电平静音——缺 MODE_IN_COMMUNICATION。activateScoFor 现在先存 savedAudioMode 再切 am.mode=MODE_IN_COMMUNICATION 才起 SCO/setCommunicationDevice，建链后多 delay 500ms 结算再开 AudioRecord；releaseScoIfActive 恢复 mode。加 MODIFY_AUDIO_SETTINGS 权限。这是豆包能录/微信不能录的真实差异（切没切通讯模式）。蓝牙通道 0识别/1通话 都受益，建议优先试通话。",
       "publishedAtMs": 1780281040000
+    },
+    {
+      "version": 813,
+      "versionName": "260601-1040",
+      "userFacingChangelog": "新增「对话人设」预设：设置→对话人设 里一键套用温暖知己/毒舌损友/理性顾问等风格，也能把自己调好的设定存成专属人设、随时切换。",
+      "changelog": "v813：蓝牙麦 SCO 强建链（老接口 startBluetoothSco 主动拉起 + 等 SCO_AUDIO_STATE_CONNECTED 广播）+ 诊断行加 SCO 连接态；对话人设预设（6 内置 + 自定义 CRUD，org.json 持久化，设置→对话人设 顶部药丸选择+保存+删除）。",
+      "publishedAtMs": 1780282271000
     }
   ],
-  "publishedAtMs": 1780281040000,
+  "publishedAtMs": 1780282271000,
   "minSupported": 0
 }
