@@ -1,19 +1,12 @@
 {
-  "version": 818,
-  "versionName": "260601-1333",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v818/memoair-v818-260601-1333-slim.apk",
-  "sizeBytes": 35625024,
-  "sha256": "589458996c329299dff07f7aaeea9c61c511f274b146319e42d6035cc74cdefb",
-  "changelog": "v818：承接 v817——内容不足那天跳过出图/日报后，在「对话」补一条温馨说明消息（昨天大概说了几段几字、为什么没出图、🌱 鼓励多记），每天最多一条。",
-  "userFacingChangelog": "内容很少的那天，记得会在对话里轻轻跟你说一声、提醒你多记点，而不是硬凑一张照片。",
+  "version": 819,
+  "versionName": "260601-1822",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v819/memoair-v819-260601-1822-slim.apk",
+  "sizeBytes": 35592096,
+  "sha256": "974197c3182c48a11dd0aefb76de34a23fec50fbc5544153c9b9fe4d69503d8d",
+  "changelog": "v819：移除关于页与开机向导的彩蛋（合规考虑）；调试入口改为长按版本号；声纹识别归入录音板块。",
+  "userFacingChangelog": "细节打磨与设置整理。",
   "recentReleases": [
-    {
-      "version": 739,
-      "versionName": "260525-1652",
-      "userFacingChangelog": "• 设置 → 我擅长什么 弹窗简化：输入框 + 三态大按钮（开始说话 → 说完了 → ✦ 让 AI 整理并保存）\n• 去掉冗长说明 / 分隔线 / 双按钮，跟「我想要吐槽」一致的极简风",
-      "changelog": "v739：「我擅长什么」改成跟吐槽同款两件套",
-      "publishedAtMs": 1779699332000
-    },
     {
       "version": 740,
       "versionName": "260526-0058",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "内容很少的那天，记得会在对话里轻轻跟你说一声、提醒你多记点，而不是硬凑一张照片。",
       "changelog": "v818：承接 v817——内容不足那天跳过出图/日报后，在「对话」补一条温馨说明消息（昨天大概说了几段几字、为什么没出图、🌱 鼓励多记），每天最多一条。",
       "publishedAtMs": 1780292260000
+    },
+    {
+      "version": 819,
+      "versionName": "260601-1822",
+      "userFacingChangelog": "细节打磨与设置整理。",
+      "changelog": "v819：移除关于页与开机向导的彩蛋（合规考虑）；调试入口改为长按版本号；声纹识别归入录音板块。",
+      "publishedAtMs": 1780309520000
     }
   ],
-  "publishedAtMs": 1780292260000,
+  "publishedAtMs": 1780309520000,
   "minSupported": 0
 }
