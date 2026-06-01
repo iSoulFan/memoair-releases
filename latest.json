@@ -1,19 +1,12 @@
 {
-  "version": 821,
-  "versionName": "260601-1910",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v821/memoair-v821-260601-1910-slim.apk",
+  "version": 822,
+  "versionName": "260601-1943",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v822/memoair-v822-260601-1943-slim.apk",
   "sizeBytes": 35596192,
-  "sha256": "456ec3f19e4edb7ee3c4975c07f6e76800d2d54aedba08b3e0d0910864c919f2",
-  "changelog": "v821：录音设置整理 + 文案合规化 + 分设备声纹（手机/蓝牙各一套，换设备识别更准）。",
-  "userFacingChangelog": "录音设置整理得更清爽；用不同麦克风（手机 / 蓝牙）可分别录一套声纹，换设备后识别更准。",
+  "sha256": "65787f822fb3107da01b51ce93b50f47db701358ae9a53e67c2b9c172b43b6d1",
+  "changelog": "v822：录音设置文案微调 + 麦克风来源精简（去 USB）。",
+  "userFacingChangelog": "细节打磨。",
   "recentReleases": [
-    {
-      "version": 742,
-      "versionName": "260526-0130",
-      "userFacingChangelog": "现在设置里任意展开一项，其他全部变淡（包括头像那行和「我擅长什么」）；同一时刻只允许展开一项，开新的会自动收起旧的",
-      "changelog": "x742：dim 联动覆盖到 masthead + 我擅长什么 + 单例展开（展开 A 自动关 B）",
-      "publishedAtMs": 1779730443000
-    },
     {
       "version": 743,
       "versionName": "260526-0153",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "录音设置整理得更清爽；用不同麦克风（手机 / 蓝牙）可分别录一套声纹，换设备后识别更准。",
       "changelog": "v821：录音设置整理 + 文案合规化 + 分设备声纹（手机/蓝牙各一套，换设备识别更准）。",
       "publishedAtMs": 1780312400000
+    },
+    {
+      "version": 822,
+      "versionName": "260601-1943",
+      "userFacingChangelog": "细节打磨。",
+      "changelog": "v822：录音设置文案微调 + 麦克风来源精简（去 USB）。",
+      "publishedAtMs": 1780314385000
     }
   ],
-  "publishedAtMs": 1780312400000,
+  "publishedAtMs": 1780314385000,
   "minSupported": 0
 }
