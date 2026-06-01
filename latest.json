@@ -1,19 +1,12 @@
 {
-  "version": 820,
-  "versionName": "260601-1842",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v820/memoair-v820-260601-1842-slim.apk",
-  "sizeBytes": 35592096,
-  "sha256": "77614035f46a9c4ec9276eded23514a2f04118fa3a7a2f923dc723bf53be1273",
-  "changelog": "v820：修录音设置里「麦克风来源」展开后变淡 / 不一致的小毛病。",
-  "userFacingChangelog": "细节打磨。",
+  "version": 821,
+  "versionName": "260601-1910",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v821/memoair-v821-260601-1910-slim.apk",
+  "sizeBytes": 35596192,
+  "sha256": "456ec3f19e4edb7ee3c4975c07f6e76800d2d54aedba08b3e0d0910864c919f2",
+  "changelog": "v821：录音设置整理 + 文案合规化 + 分设备声纹（手机/蓝牙各一套，换设备识别更准）。",
+  "userFacingChangelog": "录音设置整理得更清爽；用不同麦克风（手机 / 蓝牙）可分别录一套声纹，换设备后识别更准。",
   "recentReleases": [
-    {
-      "version": 741,
-      "versionName": "260526-0109",
-      "userFacingChangelog": "其他设置展开时，「我想要吐槽」和录音板块也会跟着变淡了——不再单独亮一块儿",
-      "changelog": "把「我想要吐槽」面板和录音三开关面板也纳入 dim 联动 — 其他 section 展开时它们也会跟着变淡",
-      "publishedAtMs": 1779729184000
-    },
     {
       "version": 742,
       "versionName": "260526-0130",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "细节打磨。",
       "changelog": "v820：修录音设置里「麦克风来源」展开后变淡 / 不一致的小毛病。",
       "publishedAtMs": 1780310734000
+    },
+    {
+      "version": 821,
+      "versionName": "260601-1910",
+      "userFacingChangelog": "录音设置整理得更清爽；用不同麦克风（手机 / 蓝牙）可分别录一套声纹，换设备后识别更准。",
+      "changelog": "v821：录音设置整理 + 文案合规化 + 分设备声纹（手机/蓝牙各一套，换设备识别更准）。",
+      "publishedAtMs": 1780312400000
     }
   ],
-  "publishedAtMs": 1780310734000,
+  "publishedAtMs": 1780312400000,
   "minSupported": 0
 }
