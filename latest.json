@@ -1,19 +1,12 @@
 {
-  "version": 811,
-  "versionName": "260601-1001",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v811/memoair-v811-260601-1001-slim.apk",
+  "version": 812,
+  "versionName": "260601-1027",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v812/memoair-v812-260601-1027-slim.apk",
   "sizeBytes": 35612736,
-  "sha256": "85033c2e78d76cb61e9966209623a898f8f679b90f63d31f2d2adb336c50435a",
-  "changelog": "v811：蓝牙麦录不到声诊断。ActiveInput 加 routedType；蓝牙通道区下加诊断行「选中 <type> → 实录 <type>」(AudioInputDevices.typeName)。用于定位三通道全静音：实录=内置麦→系统拒绝路由到该设备(只能走USB接收器)；实录=蓝牙SCO/LE但电平条不动→链路通但设备未出声(需 MODE_IN_COMMUNICATION/SCO广播态等更强SCO建链)。诊断结论决定下一步，不再盲猜。",
-  "userFacingChangelog": "细节优化与稳定性提升。",
+  "sha256": "118d880936eea0d1088ffc79bb921fd3a7fdf05b2d01fef1d079e70c0d6dc845",
+  "changelog": "v812：蓝牙麦SCO链路通但无声修复。诊断确认 routedDevice=蓝牙SCO 但电平静音——缺 MODE_IN_COMMUNICATION。activateScoFor 现在先存 savedAudioMode 再切 am.mode=MODE_IN_COMMUNICATION 才起 SCO/setCommunicationDevice，建链后多 delay 500ms 结算再开 AudioRecord；releaseScoIfActive 恢复 mode。加 MODIFY_AUDIO_SETTINGS 权限。这是豆包能录/微信不能录的真实差异（切没切通讯模式）。蓝牙通道 0识别/1通话 都受益，建议优先试通话。",
+  "userFacingChangelog": "蓝牙麦克风兼容性优化。",
   "recentReleases": [
-    {
-      "version": 734,
-      "versionName": "260525-1255",
-      "userFacingChangelog": "• 「我想要吐槽」下面的小字字体改成 Mono 跟其他设置 row 副标统一\n• 「想到什么说什么，越详细越好」换到第二行",
-      "changelog": "v734：吐槽通道副标字体跟其他 row 一致 + 换行",
-      "publishedAtMs": 1779685085000
-    },
     {
       "version": 735,
       "versionName": "260525-1413",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "细节优化与稳定性提升。",
       "changelog": "v811：蓝牙麦录不到声诊断。ActiveInput 加 routedType；蓝牙通道区下加诊断行「选中 <type> → 实录 <type>」(AudioInputDevices.typeName)。用于定位三通道全静音：实录=内置麦→系统拒绝路由到该设备(只能走USB接收器)；实录=蓝牙SCO/LE但电平条不动→链路通但设备未出声(需 MODE_IN_COMMUNICATION/SCO广播态等更强SCO建链)。诊断结论决定下一步，不再盲猜。",
       "publishedAtMs": 1780279447000
+    },
+    {
+      "version": 812,
+      "versionName": "260601-1027",
+      "userFacingChangelog": "蓝牙麦克风兼容性优化。",
+      "changelog": "v812：蓝牙麦SCO链路通但无声修复。诊断确认 routedDevice=蓝牙SCO 但电平静音——缺 MODE_IN_COMMUNICATION。activateScoFor 现在先存 savedAudioMode 再切 am.mode=MODE_IN_COMMUNICATION 才起 SCO/setCommunicationDevice，建链后多 delay 500ms 结算再开 AudioRecord；releaseScoIfActive 恢复 mode。加 MODIFY_AUDIO_SETTINGS 权限。这是豆包能录/微信不能录的真实差异（切没切通讯模式）。蓝牙通道 0识别/1通话 都受益，建议优先试通话。",
+      "publishedAtMs": 1780281040000
     }
   ],
-  "publishedAtMs": 1780279447000,
+  "publishedAtMs": 1780281040000,
   "minSupported": 0
 }
