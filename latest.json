@@ -1,19 +1,12 @@
 {
-  "version": 822,
-  "versionName": "260601-1943",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v822/memoair-v822-260601-1943-slim.apk",
-  "sizeBytes": 35596192,
-  "sha256": "65787f822fb3107da01b51ce93b50f47db701358ae9a53e67c2b9c172b43b6d1",
-  "changelog": "v822：录音设置文案微调 + 麦克风来源精简（去 USB）。",
-  "userFacingChangelog": "细节打磨。",
+  "version": 824,
+  "versionName": "260601-2347",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v824/memoair-v824-260601-2347-slim.apk",
+  "sizeBytes": 35620768,
+  "sha256": "0d632a9915c11065f8bdf19093bbc739ef3fe46200b11bf9fc2e9a91c297f02c",
+  "changelog": "v824 = v823(AI硬件管理，眼镜Air/搭子Pin，全 isAdmin 门控，普通用户零硬件痕迹；看板挪调试；硬件页无连续记录/VAD开关；示例设备数据) + 设置文案3处微调：①「历史记录管理」回退为「长期记忆」②「多麦克风拾音」改「手机多麦拾音」（区别于硬件麦）③连续记录模式的「后台不稳定」提示并入说明小字、不再单独成行。",
+  "userFacingChangelog": "一些设置文案和细节打磨，体验更顺手一点。",
   "recentReleases": [
-    {
-      "version": 743,
-      "versionName": "260526-0153",
-      "userFacingChangelog": "AI 现在能按你给的时段（『总结一下今早10点到12点的会』）准确拉那段录音出纪要，不再用关键词模糊匹配；「我擅长什么」也从弹窗改成了展开式",
-      "changelog": "x743：chat 加 summarize_time_window action（用户给时段→拉那段转写→出纪要）+ 我擅长什么改 inline 展开",
-      "publishedAtMs": 1779731906000
-    },
     {
       "version": 744,
       "versionName": "260526-0913",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "细节打磨。",
       "changelog": "v822：录音设置文案微调 + 麦克风来源精简（去 USB）。",
       "publishedAtMs": 1780314385000
+    },
+    {
+      "version": 824,
+      "versionName": "260601-2347",
+      "userFacingChangelog": "一些设置文案和细节打磨，体验更顺手一点。",
+      "changelog": "v824 = v823(AI硬件管理，眼镜Air/搭子Pin，全 isAdmin 门控，普通用户零硬件痕迹；看板挪调试；硬件页无连续记录/VAD开关；示例设备数据) + 设置文案3处微调：①「历史记录管理」回退为「长期记忆」②「多麦克风拾音」改「手机多麦拾音」（区别于硬件麦）③连续记录模式的「后台不稳定」提示并入说明小字、不再单独成行。",
+      "publishedAtMs": 1780329010000
     }
   ],
-  "publishedAtMs": 1780314385000,
+  "publishedAtMs": 1780329010000,
   "minSupported": 0
 }
