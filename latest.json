@@ -1,19 +1,12 @@
 {
-  "version": 809,
-  "versionName": "260530-2338",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v809/memoair-v809-260530-2338-slim.apk",
+  "version": 810,
+  "versionName": "260601-0948",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v810/memoair-v810-260601-0948-slim.apk",
   "sizeBytes": 35612736,
-  "sha256": "0af4e3e585bbd4e2ea980085642686ece38e17cd3be91bcd5ea0d5e4a5db322d",
-  "changelog": "v809：录音设备选择重做。① 设备身份按 AudioDeviceInfo.id 修同名两行同时打勾；只枚举外接设备（内置=自动行），按 address(蓝牙MAC)→name+type 跨重连匹配。② 蓝牙无声 bug：构造 AudioRecord 前先激活 SCO 等建链≤2s，蓝牙用 VOICE_COMMUNICATION 源。③ 切设备走 ACTION_RESTART 无缝重启录音循环不停成待机。④ 胶囊短按出弹窗/长按进看板；闪烁灯外接→绿手机→红、计时数字回中性。⑤ 长按菜单+设置加实时电平条+蓝牙电量。",
-  "userFacingChangelog": "录音胶囊和设置里的麦克风选择更准了：每次只有一个设备被选中，多了一条实时音量条——选完麦能直接看到它有没有收到声音；蓝牙麦录不到声的问题也修了。",
+  "sha256": "97f953f788a004b748a5863e3658fc44ca1209a4760e94cdb58daddedee5122d",
+  "changelog": "v810：蓝牙麦加「通道」三选一（识别=setCommunicationDevice+VOICE_RECOGNITION 默认 / 通话=setCommunicationDevice+VOICE_COMMUNICATION / 直连=仅 setPreferredDevice 不锁通讯设备+VOICE_RECOGNITION）。不同蓝牙麦只认其中某条（如微信输入法走不通但豆包能录），用户对着实时电平条切到能动的那条。AudioSourcePrefs.btChannel 持久化；切换走 restartInputDevice 无缝生效。胶囊长按菜单 + 设置都加了通道切换 pill（选中蓝牙麦时才显示）。",
+  "userFacingChangelog": "蓝牙麦如果录不到声，现在可以在录音设备菜单里切换「蓝牙通道」（识别/通话/直连），对着实时音量条切到能让条子动起来的那条就行。",
   "recentReleases": [
-    {
-      "version": 731,
-      "versionName": "260525-1113",
-      "userFacingChangelog": "• 设置里「我想要吐槽」点行直接展开 inline 大按钮\n• 三态：🎙 点击开始说话吐槽 → ⏹ 说完了（停录音） → ↗ 说完了，你马上看（送出）\n• 不再跳二级页；录音过程实时显示听写文字",
-      "changelog": "v731：吐槽通道改 inline 三态按钮",
-      "publishedAtMs": 1779678991000
-    },
     {
       "version": 733,
       "versionName": "260525-1210",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "录音胶囊和设置里的麦克风选择更准了：每次只有一个设备被选中，多了一条实时音量条——选完麦能直接看到它有没有收到声音；蓝牙麦录不到声的问题也修了。",
       "changelog": "v809：录音设备选择重做。① 设备身份按 AudioDeviceInfo.id 修同名两行同时打勾；只枚举外接设备（内置=自动行），按 address(蓝牙MAC)→name+type 跨重连匹配。② 蓝牙无声 bug：构造 AudioRecord 前先激活 SCO 等建链≤2s，蓝牙用 VOICE_COMMUNICATION 源。③ 切设备走 ACTION_RESTART 无缝重启录音循环不停成待机。④ 胶囊短按出弹窗/长按进看板；闪烁灯外接→绿手机→红、计时数字回中性。⑤ 长按菜单+设置加实时电平条+蓝牙电量。",
       "publishedAtMs": 1780155783000
+    },
+    {
+      "version": 810,
+      "versionName": "260601-0948",
+      "userFacingChangelog": "蓝牙麦如果录不到声，现在可以在录音设备菜单里切换「蓝牙通道」（识别/通话/直连），对着实时音量条切到能让条子动起来的那条就行。",
+      "changelog": "v810：蓝牙麦加「通道」三选一（识别=setCommunicationDevice+VOICE_RECOGNITION 默认 / 通话=setCommunicationDevice+VOICE_COMMUNICATION / 直连=仅 setPreferredDevice 不锁通讯设备+VOICE_RECOGNITION）。不同蓝牙麦只认其中某条（如微信输入法走不通但豆包能录），用户对着实时电平条切到能动的那条。AudioSourcePrefs.btChannel 持久化；切换走 restartInputDevice 无缝生效。胶囊长按菜单 + 设置都加了通道切换 pill（选中蓝牙麦时才显示）。",
+      "publishedAtMs": 1780278642000
     }
   ],
-  "publishedAtMs": 1780155783000,
+  "publishedAtMs": 1780278642000,
   "minSupported": 0
 }
