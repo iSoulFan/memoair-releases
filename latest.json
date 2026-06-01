@@ -1,19 +1,12 @@
 {
-  "version": 819,
-  "versionName": "260601-1822",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v819/memoair-v819-260601-1822-slim.apk",
+  "version": 820,
+  "versionName": "260601-1842",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v820/memoair-v820-260601-1842-slim.apk",
   "sizeBytes": 35592096,
-  "sha256": "974197c3182c48a11dd0aefb76de34a23fec50fbc5544153c9b9fe4d69503d8d",
-  "changelog": "v819：移除关于页与开机向导的彩蛋（合规考虑）；调试入口改为长按版本号；声纹识别归入录音板块。",
-  "userFacingChangelog": "细节打磨与设置整理。",
+  "sha256": "77614035f46a9c4ec9276eded23514a2f04118fa3a7a2f923dc723bf53be1273",
+  "changelog": "v820：修录音设置里「麦克风来源」展开后变淡 / 不一致的小毛病。",
+  "userFacingChangelog": "细节打磨。",
   "recentReleases": [
-    {
-      "version": 740,
-      "versionName": "260526-0058",
-      "userFacingChangelog": "• 删除隐私不录关键词时，自动重抽今天 + 昨天的会议纪要——曾被关键词拦掉的会议有机会找回（Toast 会显示「正在重抽…」）\n• 对话里识别到吐槽 / 反馈意图时，AI 会先把准备发送的内容预览给你，确认「行 / 嗯」之后才发出去；不再擅自发送",
-      "changelog": "v740：隐私关键词删除联动重抽 + 反馈两步确认",
-      "publishedAtMs": 1779728609000
-    },
     {
       "version": 741,
       "versionName": "260526-0109",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "细节打磨与设置整理。",
       "changelog": "v819：移除关于页与开机向导的彩蛋（合规考虑）；调试入口改为长按版本号；声纹识别归入录音板块。",
       "publishedAtMs": 1780309520000
+    },
+    {
+      "version": 820,
+      "versionName": "260601-1842",
+      "userFacingChangelog": "细节打磨。",
+      "changelog": "v820：修录音设置里「麦克风来源」展开后变淡 / 不一致的小毛病。",
+      "publishedAtMs": 1780310734000
     }
   ],
-  "publishedAtMs": 1780309520000,
+  "publishedAtMs": 1780310734000,
   "minSupported": 0
 }
