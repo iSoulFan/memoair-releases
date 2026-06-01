@@ -1,19 +1,12 @@
 {
-  "version": 813,
-  "versionName": "260601-1040",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v813/memoair-v813-260601-1040-slim.apk",
+  "version": 816,
+  "versionName": "260601-1129",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v816/memoair-v816-260601-1129-slim.apk",
   "sizeBytes": 35625024,
-  "sha256": "a43e792f827be9b8d0571715b40afa87da3cb02dc932fdaa5bb369c00336310b",
-  "changelog": "v813：蓝牙麦 SCO 强建链（老接口 startBluetoothSco 主动拉起 + 等 SCO_AUDIO_STATE_CONNECTED 广播）+ 诊断行加 SCO 连接态；对话人设预设（6 内置 + 自定义 CRUD，org.json 持久化，设置→对话人设 顶部药丸选择+保存+删除）。",
-  "userFacingChangelog": "新增「对话人设」预设：设置→对话人设 里一键套用温暖知己/毒舌损友/理性顾问等风格，也能把自己调好的设定存成专属人设、随时切换。",
+  "sha256": "10de88a895804d4193da117ccb78d9d64a9426fbce514c884aea77fb1df7f8f8",
+  "changelog": "v816：录音胶囊收回动画换很快的 spring（刚度 2400/2600 无回弹）。含 v814/815 累积：调试转写流加当前输入设备权威读数、胶囊计时显示更快纠正实际录音设备。",
+  "userFacingChangelog": "细节打磨。",
   "recentReleases": [
-    {
-      "version": 736,
-      "versionName": "260525-1601",
-      "userFacingChangelog": "• 设置 → 高级里点开某项后，其他兄弟项自动淡到 28% 透明度\n• 视线天然聚焦展开项，收回时也立刻知道刚才点的是哪个",
-      "changelog": "v736：设置折叠项展开时其他自动淡化",
-      "publishedAtMs": 1779696249000
-    },
     {
       "version": 737,
       "versionName": "260525-1634",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "新增「对话人设」预设：设置→对话人设 里一键套用温暖知己/毒舌损友/理性顾问等风格，也能把自己调好的设定存成专属人设、随时切换。",
       "changelog": "v813：蓝牙麦 SCO 强建链（老接口 startBluetoothSco 主动拉起 + 等 SCO_AUDIO_STATE_CONNECTED 广播）+ 诊断行加 SCO 连接态；对话人设预设（6 内置 + 自定义 CRUD，org.json 持久化，设置→对话人设 顶部药丸选择+保存+删除）。",
       "publishedAtMs": 1780282271000
+    },
+    {
+      "version": 816,
+      "versionName": "260601-1129",
+      "userFacingChangelog": "细节打磨。",
+      "changelog": "v816：录音胶囊收回动画换很快的 spring（刚度 2400/2600 无回弹）。含 v814/815 累积：调试转写流加当前输入设备权威读数、胶囊计时显示更快纠正实际录音设备。",
+      "publishedAtMs": 1780284865000
     }
   ],
-  "publishedAtMs": 1780282271000,
+  "publishedAtMs": 1780284865000,
   "minSupported": 0
 }
