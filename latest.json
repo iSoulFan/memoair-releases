@@ -1,19 +1,12 @@
 {
-  "version": 810,
-  "versionName": "260601-0948",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v810/memoair-v810-260601-0948-slim.apk",
+  "version": 811,
+  "versionName": "260601-1001",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v811/memoair-v811-260601-1001-slim.apk",
   "sizeBytes": 35612736,
-  "sha256": "97f953f788a004b748a5863e3658fc44ca1209a4760e94cdb58daddedee5122d",
-  "changelog": "v810：蓝牙麦加「通道」三选一（识别=setCommunicationDevice+VOICE_RECOGNITION 默认 / 通话=setCommunicationDevice+VOICE_COMMUNICATION / 直连=仅 setPreferredDevice 不锁通讯设备+VOICE_RECOGNITION）。不同蓝牙麦只认其中某条（如微信输入法走不通但豆包能录），用户对着实时电平条切到能动的那条。AudioSourcePrefs.btChannel 持久化；切换走 restartInputDevice 无缝生效。胶囊长按菜单 + 设置都加了通道切换 pill（选中蓝牙麦时才显示）。",
-  "userFacingChangelog": "蓝牙麦如果录不到声，现在可以在录音设备菜单里切换「蓝牙通道」（识别/通话/直连），对着实时音量条切到能让条子动起来的那条就行。",
+  "sha256": "85033c2e78d76cb61e9966209623a898f8f679b90f63d31f2d2adb336c50435a",
+  "changelog": "v811：蓝牙麦录不到声诊断。ActiveInput 加 routedType；蓝牙通道区下加诊断行「选中 <type> → 实录 <type>」(AudioInputDevices.typeName)。用于定位三通道全静音：实录=内置麦→系统拒绝路由到该设备(只能走USB接收器)；实录=蓝牙SCO/LE但电平条不动→链路通但设备未出声(需 MODE_IN_COMMUNICATION/SCO广播态等更强SCO建链)。诊断结论决定下一步，不再盲猜。",
+  "userFacingChangelog": "细节优化与稳定性提升。",
   "recentReleases": [
-    {
-      "version": 733,
-      "versionName": "260525-1210",
-      "userFacingChangelog": "• 设置「我想要吐槽」右边箭头样式跟其他 row 一致\n• 副标精修：「想要」→「想要新功能」、「想到啥说啥」→「想到什么说什么，越详细越好」\n• 大按钮统一黑底白字（只录音中变红给在录信号）",
-      "changelog": "v733：吐槽通道 UI 一致性 + 文案细化",
-      "publishedAtMs": 1779682371000
-    },
     {
       "version": 734,
       "versionName": "260525-1255",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "蓝牙麦如果录不到声，现在可以在录音设备菜单里切换「蓝牙通道」（识别/通话/直连），对着实时音量条切到能让条子动起来的那条就行。",
       "changelog": "v810：蓝牙麦加「通道」三选一（识别=setCommunicationDevice+VOICE_RECOGNITION 默认 / 通话=setCommunicationDevice+VOICE_COMMUNICATION / 直连=仅 setPreferredDevice 不锁通讯设备+VOICE_RECOGNITION）。不同蓝牙麦只认其中某条（如微信输入法走不通但豆包能录），用户对着实时电平条切到能动的那条。AudioSourcePrefs.btChannel 持久化；切换走 restartInputDevice 无缝生效。胶囊长按菜单 + 设置都加了通道切换 pill（选中蓝牙麦时才显示）。",
       "publishedAtMs": 1780278642000
+    },
+    {
+      "version": 811,
+      "versionName": "260601-1001",
+      "userFacingChangelog": "细节优化与稳定性提升。",
+      "changelog": "v811：蓝牙麦录不到声诊断。ActiveInput 加 routedType；蓝牙通道区下加诊断行「选中 <type> → 实录 <type>」(AudioInputDevices.typeName)。用于定位三通道全静音：实录=内置麦→系统拒绝路由到该设备(只能走USB接收器)；实录=蓝牙SCO/LE但电平条不动→链路通但设备未出声(需 MODE_IN_COMMUNICATION/SCO广播态等更强SCO建链)。诊断结论决定下一步，不再盲猜。",
+      "publishedAtMs": 1780279447000
     }
   ],
-  "publishedAtMs": 1780278642000,
+  "publishedAtMs": 1780279447000,
   "minSupported": 0
 }
