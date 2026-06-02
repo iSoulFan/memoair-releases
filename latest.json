@@ -1,19 +1,12 @@
 {
-  "version": 828,
-  "versionName": "260602-1348",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v828/memoair-v828-260602-1348-slim.apk",
-  "sizeBytes": 35624864,
-  "sha256": "ea8c72a1a9f6ca745d3a6d6132d1e8f361b93449b1946eff33f94fac9f7d6b59",
-  "changelog": "录音设备静音守护：外接麦/硬件设备正在用、且连续3分钟收不到电平时，主动推一条通知提醒检查电量/开关/蓝牙（仅外接设备触发，手机内置麦不报；隐私静音/勿扰时段不报；30分钟节流；阈值<0.01、时长/节流为经验常量待真机调）。",
-  "userFacingChangelog": "用外接麦克风/蓝牙设备录音时，如果长时间收不到声音，「记得」会提醒你检查一下设备。",
+  "version": 831,
+  "versionName": "260602-1523",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v831/memoair-v831-260602-1523-slim.apk",
+  "sizeBytes": 35641248,
+  "sha256": "7a8a8a7af1aaa9dad38e52917058581c7a7543839d5d01c67f4ea61a75c17f89",
+  "changelog": "会议纪要结构化可视化（v829-831）：抽取多吐 keyPoints/topics 结构化字段（DB v27→28 增量加 visualJson 列，向后兼容、老纪要回退 markdown）；纪要详情前置「核心结论卡（带边框）+ 议题彩卡」，下方纪要概述/讨论要点/纪要待办统一无衬线板块标题 + 分隔线区分；展开态大抬头（标题+日期+涉及人员，去参与chip）；正文剥重复抬头、会议概述→纪要概述、去折叠默认展开。",
+  "userFacingChangelog": "会议纪要换了全新视图：核心结论和议题卡片一眼看完，纪要概述、讨论要点、待办分块更清楚。",
   "recentReleases": [
-    {
-      "version": 749,
-      "versionName": "260527-2115",
-      "userFacingChangelog": "闲了 30 分钟后再开 app，最近一条 AI 回复底下的第三个快捷按钮就是「↑ 接着上面聊」——点了下一条发出去会顺着之前那段聊，不被新话题切走。",
-      "changelog": "闲了 30 分钟后再开 app，最近一条 AI 回复底下的第三个快捷按钮就是「↑ 接着上面聊」——点了下一条发出去会顺着之前那段聊，不被新话题切走。",
-      "publishedAtMs": 1779889616000
-    },
     {
       "version": 750,
       "versionName": "260527-2250",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "用外接麦克风/蓝牙设备录音时，如果长时间收不到声音，「记得」会提醒你检查一下设备。",
       "changelog": "录音设备静音守护：外接麦/硬件设备正在用、且连续3分钟收不到电平时，主动推一条通知提醒检查电量/开关/蓝牙（仅外接设备触发，手机内置麦不报；隐私静音/勿扰时段不报；30分钟节流；阈值<0.01、时长/节流为经验常量待真机调）。",
       "publishedAtMs": 1780379388000
+    },
+    {
+      "version": 831,
+      "versionName": "260602-1523",
+      "userFacingChangelog": "会议纪要换了全新视图：核心结论和议题卡片一眼看完，纪要概述、讨论要点、待办分块更清楚。",
+      "changelog": "会议纪要结构化可视化（v829-831）：抽取多吐 keyPoints/topics 结构化字段（DB v27→28 增量加 visualJson 列，向后兼容、老纪要回退 markdown）；纪要详情前置「核心结论卡（带边框）+ 议题彩卡」，下方纪要概述/讨论要点/纪要待办统一无衬线板块标题 + 分隔线区分；展开态大抬头（标题+日期+涉及人员，去参与chip）；正文剥重复抬头、会议概述→纪要概述、去折叠默认展开。",
+      "publishedAtMs": 1780385201000
     }
   ],
-  "publishedAtMs": 1780379388000,
+  "publishedAtMs": 1780385201000,
   "minSupported": 0
 }
