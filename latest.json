@@ -1,19 +1,12 @@
 {
-  "version": 848,
-  "versionName": "260602-2254",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v848/memoair-v848-260602-2254-slim.apk",
+  "version": 849,
+  "versionName": "260602-2319",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v849/memoair-v849-260602-2319-slim.apk",
   "sizeBytes": 35690400,
-  "sha256": "5d4fa301275f8c7ba5d6ef5e1625ae1bbeae697a187990bea21aad2dc8e1a2ec",
-  "changelog": "①纪要展开页深色模式适配（MeetingDetailContent 是 App 展开 + 分享长图单一事实源）：把写死浅色 hex 全换主题感知——bodyBg/neutralHeaderBg/tableHeaderBg 按 Q.isDark 切深底，titleInk=Q.Ink、bodyInk=Q.InkSoft、cardBorder=Q.Hairline、bullet=Q.InkMuted、tableCell=Q.Surface；4 色议题/时间轴 palette 加 dark 深染底+提亮强调字。深色下不再纯白卡。②时光 chip 拖动排序撤除（拖拽在时光跟主 pager 始终抢不赢手势，owner 决定移除）：移除 ≡ 手柄 → 排序态进不去、拖拽死代码不触发；时光回到纯筛选标签+收藏。③行动 tab 拖排序回退到 v844 真机验证版（排序态去 horizontalScroll + detectDragGestures + cur=draggingIndex），叠加 MemoAirRoot 排序时禁主 pager 横滑兜底。④（上版）抉择删卡计数不减一已修。",
-  "userFacingChangelog": "深色模式下纪要展开页的配色修好了。",
+  "sha256": "d9d17c08c4b9bc8c0f745b0d4dc86fe41604bb9e9ae48033b1053324b3c06752",
+  "changelog": "抉择两 bug：①删掉的抉择隔天重扫又被推送——removeChoiceCandidate 之前只 remove 不进 hiddenKeys，而 mergeChoices 只按 hiddenKeys 排除；key=stableChoiceKey(summary|A|B) 内容确定性，故删除时同时加进 hiddenKeys → 重扫不再复活（= 永久抑制，符合用户对『删除』的预期；hideChoiceCandidate 本就无调用方）。②新扫出的抉择排在板块第 3 不是第 1——mergeChoices 之前  把新的拼末尾，改 （从新到旧，跟 addChoiceCandidate 的 prepend 对齐）。",
+  "userFacingChangelog": "抉择删掉后不会再被重新推送了，新抉择也排在最前面。",
   "recentReleases": [
-    {
-      "version": 793,
-      "versionName": "260530-0032",
-      "userFacingChangelog": "修好了人生来信落款那句病句——以前总是「在 X 的我」读着别扭，现在直接是「X 的我」。",
-      "changelog": "x822 修人生来信落款病句「在 X 的我」。根因：落款不是 card.signature（x753 改错了路径，剥的是另一处死代码 SignedOff），真正落款是 TimelineScreen 里的 moodLine——来自 LetterMoodStore 生成 + 一组「在…的我」模板。三处都修：①模板去掉「在」前缀；②渲染时硬剥 moodLine 首字「在」兜底（覆盖已缓存的旧值）；③LetterMoodStore prompt 改成「X 的我」直接起手+禁「在」开头、输出过滤去掉 startsWith(在) 要求并 removePrefix(在)。无 DB migration。",
-      "publishedAtMs": 1780072651000
-    },
     {
       "version": 794,
       "versionName": "260530-0048",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "深色模式下纪要展开页的配色修好了。",
       "changelog": "①纪要展开页深色模式适配（MeetingDetailContent 是 App 展开 + 分享长图单一事实源）：把写死浅色 hex 全换主题感知——bodyBg/neutralHeaderBg/tableHeaderBg 按 Q.isDark 切深底，titleInk=Q.Ink、bodyInk=Q.InkSoft、cardBorder=Q.Hairline、bullet=Q.InkMuted、tableCell=Q.Surface；4 色议题/时间轴 palette 加 dark 深染底+提亮强调字。深色下不再纯白卡。②时光 chip 拖动排序撤除（拖拽在时光跟主 pager 始终抢不赢手势，owner 决定移除）：移除 ≡ 手柄 → 排序态进不去、拖拽死代码不触发；时光回到纯筛选标签+收藏。③行动 tab 拖排序回退到 v844 真机验证版（排序态去 horizontalScroll + detectDragGestures + cur=draggingIndex），叠加 MemoAirRoot 排序时禁主 pager 横滑兜底。④（上版）抉择删卡计数不减一已修。",
       "publishedAtMs": 1780412506000
+    },
+    {
+      "version": 849,
+      "versionName": "260602-2319",
+      "userFacingChangelog": "抉择删掉后不会再被重新推送了，新抉择也排在最前面。",
+      "changelog": "抉择两 bug：①删掉的抉择隔天重扫又被推送——removeChoiceCandidate 之前只 remove 不进 hiddenKeys，而 mergeChoices 只按 hiddenKeys 排除；key=stableChoiceKey(summary|A|B) 内容确定性，故删除时同时加进 hiddenKeys → 重扫不再复活（= 永久抑制，符合用户对『删除』的预期；hideChoiceCandidate 本就无调用方）。②新扫出的抉择排在板块第 3 不是第 1——mergeChoices 之前  把新的拼末尾，改 （从新到旧，跟 addChoiceCandidate 的 prepend 对齐）。",
+      "publishedAtMs": 1780413752000
     }
   ],
-  "publishedAtMs": 1780412506000,
+  "publishedAtMs": 1780413752000,
   "minSupported": 0
 }
