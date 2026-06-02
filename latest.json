@@ -1,19 +1,12 @@
 {
-  "version": 831,
-  "versionName": "260602-1523",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v831/memoair-v831-260602-1523-slim.apk",
-  "sizeBytes": 35641248,
-  "sha256": "7a8a8a7af1aaa9dad38e52917058581c7a7543839d5d01c67f4ea61a75c17f89",
-  "changelog": "会议纪要结构化可视化（v829-831）：抽取多吐 keyPoints/topics 结构化字段（DB v27→28 增量加 visualJson 列，向后兼容、老纪要回退 markdown）；纪要详情前置「核心结论卡（带边框）+ 议题彩卡」，下方纪要概述/讨论要点/纪要待办统一无衬线板块标题 + 分隔线区分；展开态大抬头（标题+日期+涉及人员，去参与chip）；正文剥重复抬头、会议概述→纪要概述、去折叠默认展开。",
-  "userFacingChangelog": "会议纪要换了全新视图：核心结论和议题卡片一眼看完，纪要概述、讨论要点、待办分块更清楚。",
+  "version": 832,
+  "versionName": "260602-1557",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v832/memoair-v832-260602-1557-slim.apk",
+  "sizeBytes": 35661728,
+  "sha256": "25618fe8d40e48b6b23d198fe8f16bd1480f0e3011ec05b077235b1dd69c041c",
+  "changelog": "纪要新增 timeline/table 两种条件触发结构块（有先后顺序→流程时间轴竖排编号；多对象对比→横滑表格；搭现有抽取一次，prompt 加可选字段、宁缺毋滥）；纪要分享长图抽 MeetingDetailContent 共享 composable 复用展开态布局（改一处两边同步）；展开态正文/加粗全无衬线、去顶部分类小方块、底部右下「分享图片」+「删除」；拾梦相片「再拍一张照片」改每张每自然日一次（PolaroidDailyRegenGate）；daily_report_scene 生图提示词加内容安全约束禁昆虫/血腥/恶心。",
+  "userFacingChangelog": "会议纪要遇到流程或对比内容，会自动排成时间轴或表格；纪要分享图同步了新样式；拾梦相片每天可以重拍一张。",
   "recentReleases": [
-    {
-      "version": 750,
-      "versionName": "260527-2250",
-      "userFacingChangelog": "→",
-      "changelog": "愿望陪跑里已经有计划的时候，原来重新做一份计划按钮换成更多提问",
-      "publishedAtMs": 1779894068000
-    },
     {
       "version": 752,
       "versionName": "260528-0008",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "会议纪要换了全新视图：核心结论和议题卡片一眼看完，纪要概述、讨论要点、待办分块更清楚。",
       "changelog": "会议纪要结构化可视化（v829-831）：抽取多吐 keyPoints/topics 结构化字段（DB v27→28 增量加 visualJson 列，向后兼容、老纪要回退 markdown）；纪要详情前置「核心结论卡（带边框）+ 议题彩卡」，下方纪要概述/讨论要点/纪要待办统一无衬线板块标题 + 分隔线区分；展开态大抬头（标题+日期+涉及人员，去参与chip）；正文剥重复抬头、会议概述→纪要概述、去折叠默认展开。",
       "publishedAtMs": 1780385201000
+    },
+    {
+      "version": 832,
+      "versionName": "260602-1557",
+      "userFacingChangelog": "会议纪要遇到流程或对比内容，会自动排成时间轴或表格；纪要分享图同步了新样式；拾梦相片每天可以重拍一张。",
+      "changelog": "纪要新增 timeline/table 两种条件触发结构块（有先后顺序→流程时间轴竖排编号；多对象对比→横滑表格；搭现有抽取一次，prompt 加可选字段、宁缺毋滥）；纪要分享长图抽 MeetingDetailContent 共享 composable 复用展开态布局（改一处两边同步）；展开态正文/加粗全无衬线、去顶部分类小方块、底部右下「分享图片」+「删除」；拾梦相片「再拍一张照片」改每张每自然日一次（PolaroidDailyRegenGate）；daily_report_scene 生图提示词加内容安全约束禁昆虫/血腥/恶心。",
+      "publishedAtMs": 1780387217000
     }
   ],
-  "publishedAtMs": 1780385201000,
+  "publishedAtMs": 1780387217000,
   "minSupported": 0
 }
