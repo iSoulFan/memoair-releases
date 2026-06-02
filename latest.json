@@ -1,19 +1,12 @@
 {
-  "version": 841,
-  "versionName": "260602-1939",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v841/memoair-v841-260602-1939-slim.apk",
-  "sizeBytes": 35694496,
-  "sha256": "c5d9e49c63ae949515ce00275b6ed23f07b35d71577f275521f6d98fd191ac7b",
-  "changelog": "纪要抉择并入 + 收藏星标/排序细节：① 纪要识别到二选一纠结时右下加「开始抉择」按钮(choiceFromUserText 生成+跳抉择tab，无 choice 不显示)②放宽抉择扫描(明确求抉择即使一次也识别)③排序确认 ✓ 去掉线框、只留无衬线墨色勾④纪要折叠卡标题字重 Bold→Medium(太重)⑤收藏 ★ 从右侧挪到标题前缀(金色，占一字符)。",
-  "userFacingChangelog": "会议纪要里聊到纠结的选择题，右下角一键「开始抉择」；收藏的星标挪到标题前面更清楚；一些排序/字重细节打磨。",
+  "version": 842,
+  "versionName": "260602-2006",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v842/memoair-v842-260602-2006-slim.apk",
+  "sizeBytes": 35678112,
+  "sha256": "2424255c20aac04e680b612e1360f3b40774cc228e6c3bfad979cad918b3b3a3",
+  "changelog": "修复 v841 进 App 闪退：MeetingExtractor.extractMeetingsForDay 里 inline 塞了 keyPoints/topics/timeline/tables/trees/choice 全套解析+人名归一，方法寄存器爆到 v286，R8 minify 产出非法字节码 → 运行时 java.lang.VerifyError（类 n0 方法 d）→ 默认落纪要 tab 渲染即崩。修法：把可视化组装抽成独立 suspend fun buildMinutesVisualJson 给主方法减负。真机验证：装 v842 启动落纪要 tab 进程存活、crash buffer 零 VerifyError。v841 release 作废、v842 顶上。",
+  "userFacingChangelog": "提升了稳定性。",
   "recentReleases": [
-    {
-      "version": 785,
-      "versionName": "260529-2036",
-      "userFacingChangelog": "· 成就徽章焕新——即时生成的精致 emoji 徽章，不用再等 AI 画图，更快也更稳\n· 长期记忆（在「设置」里）换了更清爽的卡片样式：分类筛选 + 语音随手记一条 + 一眼看出重要性",
-      "changelog": "x817 测试版→正式版移植(批次一,#1#2)：① 长期记忆样式——SettingsScreen.MemoryBlock 套用 beta feature/memory 的 MemoryCard/FilterChipRow/SearchBar/buildMemoryMenuActions/MemoryView（新增 feature/memory/MemoryStyle.kt）；chip=全部/我记的(钉住+手动)/更多；三字重要性；🎙VoiceFabSheet 加一条；搜索行在上分类行在下；不加 tab、不带专辑、无 migration。② 成就 emoji 徽章——新增 EmojiBadge.kt（逐字照搬）；AchievementBadge 整组弃 30 套手绘改 EmojiBadge(mindful)；AchievementGenerator 去 AI 出图(img/prompt=null、不跑 CardImageGen、narrative 好即 ready)，旧 achievementImagePath 字段保留不读、无 migration；AchievementDetailSheet 的 HeroPolaroid 改 EmojiBadge 呼吸大图（保留 wishesLoaded/ready 守卫）。#3 抉择 tab 体量大、单独后推。",
-      "publishedAtMs": 1780058592000
-    },
     {
       "version": 787,
       "versionName": "260529-2140",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "会议纪要里聊到纠结的选择题，右下角一键「开始抉择」；收藏的星标挪到标题前面更清楚；一些排序/字重细节打磨。",
       "changelog": "纪要抉择并入 + 收藏星标/排序细节：① 纪要识别到二选一纠结时右下加「开始抉择」按钮(choiceFromUserText 生成+跳抉择tab，无 choice 不显示)②放宽抉择扫描(明确求抉择即使一次也识别)③排序确认 ✓ 去掉线框、只留无衬线墨色勾④纪要折叠卡标题字重 Bold→Medium(太重)⑤收藏 ★ 从右侧挪到标题前缀(金色，占一字符)。",
       "publishedAtMs": 1780401225000
+    },
+    {
+      "version": 842,
+      "versionName": "260602-2006",
+      "userFacingChangelog": "提升了稳定性。",
+      "changelog": "修复 v841 进 App 闪退：MeetingExtractor.extractMeetingsForDay 里 inline 塞了 keyPoints/topics/timeline/tables/trees/choice 全套解析+人名归一，方法寄存器爆到 v286，R8 minify 产出非法字节码 → 运行时 java.lang.VerifyError（类 n0 方法 d）→ 默认落纪要 tab 渲染即崩。修法：把可视化组装抽成独立 suspend fun buildMinutesVisualJson 给主方法减负。真机验证：装 v842 启动落纪要 tab 进程存活、crash buffer 零 VerifyError。v841 release 作废、v842 顶上。",
+      "publishedAtMs": 1780402207000
     }
   ],
-  "publishedAtMs": 1780401225000,
+  "publishedAtMs": 1780402207000,
   "minSupported": 0
 }
