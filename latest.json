@@ -1,19 +1,12 @@
 {
-  "version": 826,
-  "versionName": "260602-1017",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v826/memoair-v826-260602-1017-slim.apk",
-  "sizeBytes": 35620768,
-  "sha256": "5038fed08be5f7fec291cd13ac89a1d81e79b6ca3edb233249a04faf1d9abb47",
-  "changelog": "界面细节打磨与稳定性优化。",
-  "userFacingChangelog": "界面细节打磨，体验更顺手一点。",
+  "version": 827,
+  "versionName": "260602-1301",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v827/memoair-v827-260602-1301-slim.apk",
+  "sizeBytes": 35624864,
+  "sha256": "bc635c9bf2c88a0974edcb21b039871ff3778b3a650a46064b444ccaf463e9c3",
+  "changelog": "拾梦相片单击直接展开「那天的事」（原来要长按菜单里点）；录音设备弹窗背景改纯白、去掉蓝牙通道下的说明/诊断文案、切设备后持续无声约4s在音量条右侧提示「建议切换」。",
+  "userFacingChangelog": "拾梦相片轻点一下，就能展开那天的事；一些界面细节打磨。",
   "recentReleases": [
-    {
-      "version": 747,
-      "versionName": "260527-1728",
-      "userFacingChangelog": "对话顶部的未读小角标会更稳地清零了。",
-      "changelog": "对话顶部未读角标自适应清零",
-      "publishedAtMs": 1779874496000
-    },
     {
       "version": 748,
       "versionName": "260527-1909",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "界面细节打磨，体验更顺手一点。",
       "changelog": "界面细节打磨与稳定性优化。",
       "publishedAtMs": 1780366826000
+    },
+    {
+      "version": 827,
+      "versionName": "260602-1301",
+      "userFacingChangelog": "拾梦相片轻点一下，就能展开那天的事；一些界面细节打磨。",
+      "changelog": "拾梦相片单击直接展开「那天的事」（原来要长按菜单里点）；录音设备弹窗背景改纯白、去掉蓝牙通道下的说明/诊断文案、切设备后持续无声约4s在音量条右侧提示「建议切换」。",
+      "publishedAtMs": 1780376747000
     }
   ],
-  "publishedAtMs": 1780366826000,
+  "publishedAtMs": 1780376747000,
   "minSupported": 0
 }
