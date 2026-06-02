@@ -1,19 +1,12 @@
 {
-  "version": 850,
-  "versionName": "260603-0048",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v850/memoair-v850-260603-0048-slim.apk",
+  "version": 851,
+  "versionName": "260603-0057",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v851/memoair-v851-260603-0057-slim.apk",
   "sizeBytes": 35690400,
-  "sha256": "deed66b0e0016ae90375ddc8debf8e4a0f49292bd74a34002b32591b4f062d84",
-  "changelog": "纪要下拉刷新/空状态文案修正：实际 extractMeetingsForDay 扫的是当天 00:00→24:00 整天（早改成按天，'近4小时/过去4小时'是旧窗口设计的残留错文案，让用户以为晚上的会过4小时会丢）。refreshingLabel 改'今天一整天的录音'；EmptyState 说明改'从当天录音里抽 + 频率设置1~3次 + 晚上下拉补抽扫整天不会丢'。自动扫描时间点 12:30/18:30（FrequencyPrefs 默认2次，1次=18:30、3次=+22:30）不变。",
-  "userFacingChangelog": "会议纪要的刷新说明改清楚了：下拉刷新扫的是今天一整天的录音，晚上的会也能补抽出来。",
+  "sha256": "75b6d885d9aafaba56ece5485bd1cb43870a1322087bcb8a2a8057948a2af489",
+  "changelog": "①对话 summarize_time_window 报『LLM 返回无法解析』修复：MeetingSynthesizer/MeetingExtractor MAX_TOKENS 4096→8192——纪要 prompt 加 keyPoints/topics/timeline/表格/脑图 结构化字段后输出 JSON 撑过 4096 被截断→parseLenient 返回 null。定时扫描同样受益（之前截断会静默丢当天纪要）。②跨夜会议丢失修复：下拉刷新 triggerExtract 由只扫 daysAgo=0 改为同时扫 0+1（今天+昨天），昨晚的会第二天也能补抽（入库指纹去重，不重复）；toast 报两天新增之和、双失败才报错。空状态/刷新文案同步（v850 起已纠正 4 小时旧文案）。",
+  "userFacingChangelog": "对话里让 AI 总结某个时段的会议不再报错了；下拉刷新现在会顺带补抽昨天的会，晚上的会跨夜也不会丢。",
   "recentReleases": [
-    {
-      "version": 795,
-      "versionName": "260530-0146",
-      "userFacingChangelog": "在聊天里说『我在 A 和 B 之间很犹豫』这类话，现在会更主动地帮你发起「抉择」、先跟你确认再加卡，不会再答非所问。",
-      "changelog": "x822 强化对话 add_choice 触发：扩充'何时用'触发措辞（我要选A还是B/选哪个/二选一/很犹豫/纠结/拿不定/不知道该…还是…）+ 加优先级——当下二选一纠结时优先走抉择确认，别只顾回忆检索而漏掉；拿不准两边就第一步顺便问。修 owner 反馈'对话里很难发起抉择、有时拿回忆说事'。提示词改动，无 DB migration。OTA 仍 GitHub 主源（memomind 主源已回滚，待钟sir 修服务端）。",
-      "publishedAtMs": 1780077109000
-    },
     {
       "version": 796,
       "versionName": "260530-0549",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "会议纪要的刷新说明改清楚了：下拉刷新扫的是今天一整天的录音，晚上的会也能补抽出来。",
       "changelog": "纪要下拉刷新/空状态文案修正：实际 extractMeetingsForDay 扫的是当天 00:00→24:00 整天（早改成按天，'近4小时/过去4小时'是旧窗口设计的残留错文案，让用户以为晚上的会过4小时会丢）。refreshingLabel 改'今天一整天的录音'；EmptyState 说明改'从当天录音里抽 + 频率设置1~3次 + 晚上下拉补抽扫整天不会丢'。自动扫描时间点 12:30/18:30（FrequencyPrefs 默认2次，1次=18:30、3次=+22:30）不变。",
       "publishedAtMs": 1780418992000
+    },
+    {
+      "version": 851,
+      "versionName": "260603-0057",
+      "userFacingChangelog": "对话里让 AI 总结某个时段的会议不再报错了；下拉刷新现在会顺带补抽昨天的会，晚上的会跨夜也不会丢。",
+      "changelog": "①对话 summarize_time_window 报『LLM 返回无法解析』修复：MeetingSynthesizer/MeetingExtractor MAX_TOKENS 4096→8192——纪要 prompt 加 keyPoints/topics/timeline/表格/脑图 结构化字段后输出 JSON 撑过 4096 被截断→parseLenient 返回 null。定时扫描同样受益（之前截断会静默丢当天纪要）。②跨夜会议丢失修复：下拉刷新 triggerExtract 由只扫 daysAgo=0 改为同时扫 0+1（今天+昨天），昨晚的会第二天也能补抽（入库指纹去重，不重复）；toast 报两天新增之和、双失败才报错。空状态/刷新文案同步（v850 起已纠正 4 小时旧文案）。",
+      "publishedAtMs": 1780419625000
     }
   ],
-  "publishedAtMs": 1780418992000,
+  "publishedAtMs": 1780419625000,
   "minSupported": 0
 }
