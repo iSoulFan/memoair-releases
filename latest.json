@@ -1,19 +1,12 @@
 {
-  "version": 842,
-  "versionName": "260602-2006",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v842/memoair-v842-260602-2006-slim.apk",
-  "sizeBytes": 35678112,
-  "sha256": "2424255c20aac04e680b612e1360f3b40774cc228e6c3bfad979cad918b3b3a3",
-  "changelog": "修复 v841 进 App 闪退：MeetingExtractor.extractMeetingsForDay 里 inline 塞了 keyPoints/topics/timeline/tables/trees/choice 全套解析+人名归一，方法寄存器爆到 v286，R8 minify 产出非法字节码 → 运行时 java.lang.VerifyError（类 n0 方法 d）→ 默认落纪要 tab 渲染即崩。修法：把可视化组装抽成独立 suspend fun buildMinutesVisualJson 给主方法减负。真机验证：装 v842 启动落纪要 tab 进程存活、crash buffer 零 VerifyError。v841 release 作废、v842 顶上。",
-  "userFacingChangelog": "提升了稳定性。",
+  "version": 843,
+  "versionName": "260602-2021",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v843/memoair-v843-260602-2021-slim.apk",
+  "sizeBytes": 35686304,
+  "sha256": "14829df9fd953365763ace482ccfbc80831f23ecf087943cabdf51ffc9d9b2bf",
+  "changelog": "① 行动页点 ≡ 进排序模式时弹设计规范 Toast「拖动可调整上面 Tab 的顺序」(复用 screenToast，TopCenter 胶囊 1.8s 自动消)②「≡+拖动排序」整套复刻到时光页筛选 chip 行：新 TimelineChipOrderPrefs(memoair_timeline_chip_order，存 CardKind.tag，reconcile 调和) + LazyRow 末尾 ≡ 手柄 + 进排序弹 toast「拖动可调整上面分类的顺序」+ kind chips jiggle 抖动 + detectDragGestures 横向拖拽重排(排序态 userScrollEnabled=false，ReorderableKindChip 抽独立 composable、moveKindChip 顶层函数避免方法过大 R8 坑) + 点外确认 + 收藏 fav chip 固定第一不参与排序；chip↔pager/筛选按 kind 身份 indexOf 联动重排不串。真机验证：装 v843 启动+切 tab 进程存活零崩。",
+  "userFacingChangelog": "行动页拖动排序时多了个提示；时光页的分类标签现在也能自己拖动排序了。",
   "recentReleases": [
-    {
-      "version": 787,
-      "versionName": "260529-2140",
-      "userFacingChangelog": "新增「抉择」——它会留意你最近反复纠结的二选一，把两个选项摆出来、一条条帮你打分，再理出更想要哪边，还能生成利弊分析。在「行动」里纠结的事攒够了，这个板块就会自己出现。",
-      "changelog": "x817 移植 beta 第三功能：抉择（Choices）tab。夜间 23:00 MirrorScan 自动扫近 30 天在纠结的二选一→A/B 红蓝对抗+5档投票+实时倾向条+双 SWOT 分析+可加待办+分享图；条件显示（loadChoiceSnapshot≥1 才插 tab，纪要右愿望左）；语音/手动加抉择走 ChoicesNavBus 发现卡片；LockedItemsStore/LockableCard 增 String-key 重载；SharedPrefs 存储无 DB migration。",
-      "publishedAtMs": 1780062238000
-    },
     {
       "version": 788,
       "versionName": "260529-2159",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "提升了稳定性。",
       "changelog": "修复 v841 进 App 闪退：MeetingExtractor.extractMeetingsForDay 里 inline 塞了 keyPoints/topics/timeline/tables/trees/choice 全套解析+人名归一，方法寄存器爆到 v286，R8 minify 产出非法字节码 → 运行时 java.lang.VerifyError（类 n0 方法 d）→ 默认落纪要 tab 渲染即崩。修法：把可视化组装抽成独立 suspend fun buildMinutesVisualJson 给主方法减负。真机验证：装 v842 启动落纪要 tab 进程存活、crash buffer 零 VerifyError。v841 release 作废、v842 顶上。",
       "publishedAtMs": 1780402207000
+    },
+    {
+      "version": 843,
+      "versionName": "260602-2021",
+      "userFacingChangelog": "行动页拖动排序时多了个提示；时光页的分类标签现在也能自己拖动排序了。",
+      "changelog": "① 行动页点 ≡ 进排序模式时弹设计规范 Toast「拖动可调整上面 Tab 的顺序」(复用 screenToast，TopCenter 胶囊 1.8s 自动消)②「≡+拖动排序」整套复刻到时光页筛选 chip 行：新 TimelineChipOrderPrefs(memoair_timeline_chip_order，存 CardKind.tag，reconcile 调和) + LazyRow 末尾 ≡ 手柄 + 进排序弹 toast「拖动可调整上面分类的顺序」+ kind chips jiggle 抖动 + detectDragGestures 横向拖拽重排(排序态 userScrollEnabled=false，ReorderableKindChip 抽独立 composable、moveKindChip 顶层函数避免方法过大 R8 坑) + 点外确认 + 收藏 fav chip 固定第一不参与排序；chip↔pager/筛选按 kind 身份 indexOf 联动重排不串。真机验证：装 v843 启动+切 tab 进程存活零崩。",
+      "publishedAtMs": 1780403217000
     }
   ],
-  "publishedAtMs": 1780402207000,
+  "publishedAtMs": 1780403217000,
   "minSupported": 0
 }
