@@ -1,19 +1,12 @@
 {
-  "version": 825,
-  "versionName": "260602-0038",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v825/memoair-v825-260602-0038-slim.apk",
+  "version": 826,
+  "versionName": "260602-1017",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v826/memoair-v826-260602-1017-slim.apk",
   "sizeBytes": 35620768,
-  "sha256": "65e9e530b56a771384ca3506b2772e48755cfd668eca3a37148665862c60ed7a",
+  "sha256": "5038fed08be5f7fec291cd13ac89a1d81e79b6ca3edb233249a04faf1d9abb47",
   "changelog": "界面细节打磨与稳定性优化。",
   "userFacingChangelog": "界面细节打磨，体验更顺手一点。",
   "recentReleases": [
-    {
-      "version": 746,
-      "versionName": "260527-1706",
-      "userFacingChangelog": "聊天现在会按话题自动分段：半小时没说话再发就开新一段，AI 不会被前面的话题带偏；上一段还能在视野里看到，想接着上面继续聊点 ↑ 接着上面聊 就行",
-      "changelog": "v746：chat 话题隔离正式上线——30 分钟 idle 切话题 + 上一段始终显示 + SessionBreakRow 分隔线 + ↑接着上面聊 chip",
-      "publishedAtMs": 1779873240000
-    },
     {
       "version": 747,
       "versionName": "260527-1728",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "界面细节打磨，体验更顺手一点。",
       "changelog": "界面细节打磨与稳定性优化。",
       "publishedAtMs": 1780332026000
+    },
+    {
+      "version": 826,
+      "versionName": "260602-1017",
+      "userFacingChangelog": "界面细节打磨，体验更顺手一点。",
+      "changelog": "界面细节打磨与稳定性优化。",
+      "publishedAtMs": 1780366826000
     }
   ],
-  "publishedAtMs": 1780332026000,
+  "publishedAtMs": 1780366826000,
   "minSupported": 0
 }
