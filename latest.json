@@ -1,19 +1,12 @@
 {
-  "version": 836,
-  "versionName": "260602-1704",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v836/memoair-v836-260602-1704-slim.apk",
-  "sizeBytes": 35661728,
-  "sha256": "e0cf8a460127aa90984fe5055d98994b8d52a30d60ac950cb5bba805da567165",
-  "changelog": "纪要卡片配色纠正：恢复议题卡 header + 时间轴编号圈的彩色 pastel（上轮误删）；卡片正文底色 #F7F8FA(偏蓝)→#F5F5F5 中性灰；核心结论从'白底+accent竖条'改回议题卡同款卡片结构（中性灰 header band + 💡 核心结论标题 + body），与下方卡片一致；分享长图最外框 #FBFBF5 米白→#FFFFFF 纯白。改在共享 MeetingDetailContent + MeetingShareImageRenderer。",
-  "userFacingChangelog": "会议纪要卡片配色和样式再打磨：卡片更统一、分享图边框纯白。",
+  "version": 837,
+  "versionName": "260602-1734",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v837/memoair-v837-260602-1734-slim.apk",
+  "sizeBytes": 35686304,
+  "sha256": "522d17c12771d8bd3e356988439e751d5f8ee53c13a11c79d1a7cc33d650b3f8",
+  "changelog": "纪要加第三种条件触发结构块：脑图/架构图(层级树)。MinutesVisual 加 trees 字段(两层 root+branches[{title,points}])，meeting_minutes prompt 加 trees 可选字段(层级拆解/架构才出、宁缺毋滥)，MeetingExtractor 解析。MeetingVisualSection 表格之后渲染竖版缩进树+连接线(根节点中性灰小卡 + 左侧贯穿竖线 + tick 连每个分支 + 分支要点 bullets，全中性无色相无衬线)。条件触发、搭现有抽取一次、低 token。改在共享 MeetingDetailContent→App+分享图同步。",
+  "userFacingChangelog": "会议纪要遇到层级拆解或架构类内容，会自动排成脑图/架构图。",
   "recentReleases": [
-    {
-      "version": 756,
-      "versionName": "260528-1917",
-      "userFacingChangelog": "今日整理小卡里 0 条的那类不再占一行——有几类显示几类，更清爽",
-      "changelog": "今日整理小卡里 0 条的那类不再占一行——有几类显示几类，更清爽",
-      "publishedAtMs": 1779967524000
-    },
     {
       "version": 759,
       "versionName": "260529-1303",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "会议纪要卡片配色和样式再打磨：卡片更统一、分享图边框纯白。",
       "changelog": "纪要卡片配色纠正：恢复议题卡 header + 时间轴编号圈的彩色 pastel（上轮误删）；卡片正文底色 #F7F8FA(偏蓝)→#F5F5F5 中性灰；核心结论从'白底+accent竖条'改回议题卡同款卡片结构（中性灰 header band + 💡 核心结论标题 + body），与下方卡片一致；分享长图最外框 #FBFBF5 米白→#FFFFFF 纯白。改在共享 MeetingDetailContent + MeetingShareImageRenderer。",
       "publishedAtMs": 1780391258000
+    },
+    {
+      "version": 837,
+      "versionName": "260602-1734",
+      "userFacingChangelog": "会议纪要遇到层级拆解或架构类内容，会自动排成脑图/架构图。",
+      "changelog": "纪要加第三种条件触发结构块：脑图/架构图(层级树)。MinutesVisual 加 trees 字段(两层 root+branches[{title,points}])，meeting_minutes prompt 加 trees 可选字段(层级拆解/架构才出、宁缺毋滥)，MeetingExtractor 解析。MeetingVisualSection 表格之后渲染竖版缩进树+连接线(根节点中性灰小卡 + 左侧贯穿竖线 + tick 连每个分支 + 分支要点 bullets，全中性无色相无衬线)。条件触发、搭现有抽取一次、低 token。改在共享 MeetingDetailContent→App+分享图同步。",
+      "publishedAtMs": 1780393018000
     }
   ],
-  "publishedAtMs": 1780391258000,
+  "publishedAtMs": 1780393018000,
   "minSupported": 0
 }
