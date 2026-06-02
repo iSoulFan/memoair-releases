@@ -1,19 +1,12 @@
 {
-  "version": 846,
-  "versionName": "260602-2133",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v846/memoair-v846-260602-2133-slim.apk",
+  "version": 847,
+  "versionName": "260602-2157",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v847/memoair-v847-260602-2157-slim.apk",
   "sizeBytes": 35690400,
-  "sha256": "7ca8193bf8e55e210a3bd54f2ec99361f465fc0bab7f7736699c062a636601bd",
-  "changelog": "chip 拖拽手势改在 Initial pass 抢断（关键修复）：v845 在 Main pass consume 仍输给祖先——子节点 Main 虽先于父，但主 HorizontalPager 的 drag 检测把手势抢走导致『拖动直接划走整页』。改为 awaitPointerEvent(PointerEventPass.Initial) 里 consume 水平位移：Initial 在 Main 之前派发，子节点在 Initial 先吃掉事件 → Main pass 跑到 chip 行 horizontalScroll / 主 Pager 时拿到的已是 consumed → 既不横滚也不翻页，拖拽稳生效。行动 + 时光两页同改。保留 horizontalScroll（防 chip 挤变形）。",
-  "userFacingChangelog": "时光页分类标签拖动排序修好了。",
+  "sha256": "3b5285e61a042a0b17d1c9de669a4b3ca6cb9647120237e293c60074133a1e18",
+  "changelog": "①抉择删除计数 bug：removeChoiceCandidate/hideChoiceCandidate 改完 snapshot 没 ChoiceSnapshotBus.bump()（addChoiceCandidate 有），导致删卡后抉择 tab 旁数字不减——两处补 bump，跟 add 对齐。②拖排序『拖 chip 反被主 pager 翻页』确定性兜底：MemoAirRoot 加 reorderActive 状态，行动/时光经 onReorderModeChange 回调置位，主 HorizontalPager userScrollEnabled=!reorderActive → 排序时主 pager 物理禁横滑，从根上消除『划走整页』。配合 chip Initial-pass consume + 保留 horizontalScroll（防挤变形）。reorderActive 在退出排序/切走 tab 时复位，无卡死。",
+  "userFacingChangelog": "排序拖动更稳了，修了几个细节。",
   "recentReleases": [
-    {
-      "version": 791,
-      "versionName": "260529-2312",
-      "userFacingChangelog": "修了「抉择」的两个问题：一是同一件纠结事重复冒出好几张卡，现在会自动合并、也不再因为频繁更新而重复扫描；二是你在对话里说的抉择，选项会严格按你的原话来（之前可能被示例带跑、把成都写成了北京）。另外纪要的「全部/我有发言/我在旁听」换成了更轻的滑块，成就详情页顶部按钮也不再被状态栏挡住。",
-      "changelog": "x820+x821 合并发布。x820 四项 UI：纪要三档筛选改跑道滑块(浅灰中性 thumb 平滑滑动，默认我有发言)；抉择 tab 恢复·数量；成就详情 DetailTopBar 加 statusBarsPadding 避开状态栏；HeroBadge 花瓣 petalScale 2f→1.5f。x821 抉择扫描修复：①停掉「每次版本变就重扫」(重复根因)——maybeScanAfterUpdate 改为无 LLM 就地折叠去重，真扫只留夜间 runIfDue；②maybeIntroPush 不再即时扫只读 snapshot；③去重升级 sameChoice=summary 近似 OR A/B 选项对近似(含左右互换)，mergeChoices/dedupeExistingChoices 都用；④修示例错觉：scanChoiceCandidates/choiceFromUserText/ChatScreen add_choice 三处提示词去掉北京/深圳示例词、强制 optionA/B 逐字用用户原话禁套示例词；⑤scan prompt 排除把「聊 App 开发/测试功能」扫成抉择。无 DB migration。",
-      "publishedAtMs": 1780067987000
-    },
     {
       "version": 792,
       "versionName": "260529-2343",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "时光页分类标签拖动排序修好了。",
       "changelog": "chip 拖拽手势改在 Initial pass 抢断（关键修复）：v845 在 Main pass consume 仍输给祖先——子节点 Main 虽先于父，但主 HorizontalPager 的 drag 检测把手势抢走导致『拖动直接划走整页』。改为 awaitPointerEvent(PointerEventPass.Initial) 里 consume 水平位移：Initial 在 Main 之前派发，子节点在 Initial 先吃掉事件 → Main pass 跑到 chip 行 horizontalScroll / 主 Pager 时拿到的已是 consumed → 既不横滚也不翻页，拖拽稳生效。行动 + 时光两页同改。保留 horizontalScroll（防 chip 挤变形）。",
       "publishedAtMs": 1780407318000
+    },
+    {
+      "version": 847,
+      "versionName": "260602-2157",
+      "userFacingChangelog": "排序拖动更稳了，修了几个细节。",
+      "changelog": "①抉择删除计数 bug：removeChoiceCandidate/hideChoiceCandidate 改完 snapshot 没 ChoiceSnapshotBus.bump()（addChoiceCandidate 有），导致删卡后抉择 tab 旁数字不减——两处补 bump，跟 add 对齐。②拖排序『拖 chip 反被主 pager 翻页』确定性兜底：MemoAirRoot 加 reorderActive 状态，行动/时光经 onReorderModeChange 回调置位，主 HorizontalPager userScrollEnabled=!reorderActive → 排序时主 pager 物理禁横滑，从根上消除『划走整页』。配合 chip Initial-pass consume + 保留 horizontalScroll（防挤变形）。reorderActive 在退出排序/切走 tab 时复位，无卡死。",
+      "publishedAtMs": 1780408800000
     }
   ],
-  "publishedAtMs": 1780407318000,
+  "publishedAtMs": 1780408800000,
   "minSupported": 0
 }
