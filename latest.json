@@ -1,19 +1,12 @@
 {
-  "version": 853,
-  "versionName": "260603-0118",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v853/memoair-v853-260603-0118-slim.apk",
+  "version": 854,
+  "versionName": "260603-0132",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v854/memoair-v854-260603-0132-slim.apk",
   "sizeBytes": 35690400,
-  "sha256": "ed57456b383fbe02fbac1e336c20705b8acaaba0673dd2b8658bf2578e5865b3",
-  "changelog": "纪要合并策略：meeting_minutes.txt 分段原则由『按话题拆细（宁可拆细不要硬合，每个话题一条）』改为『按场合合并（一条纪要=一场连续会议：时间连续+同批人即同一场，多话题用 topics 议题卡分节，只有真不同场合/换人换场景/长间隔>30min 才拆）』。根因：旧规则把 2.5h 连续会切成 10 条零碎纪要无可读性。owner 确认未自定义该 prompt（PromptStore 无 override，改 asset 生效）。无 schema 变更。",
-  "userFacingChangelog": "会议纪要不会再切得太碎了：一场连续的会（哪怕聊了好几件事）会合成一条，里面用议题卡分开，而不是切成一堆零散小纪要。",
+  "sha256": "c0621fb18937b9e939ed1e9f7c81722024aab1c7a12a9b7ce70aec1b9c768605",
+  "changelog": "①纪要合并阈值回收：分段原则的同场间隔判定 30 分钟→15 分钟（owner 反馈合并质量高但矫枉过正，明显隔开的两场被粘成一条）。②全部下拉刷新副标去掉秒数承诺：待办/纪要/愿望/记账『大概15秒/5秒』+ 设置 OTA 检查『通常1-2秒』→ 统一『稍等一会儿』（实际常比承诺久）；BreathingPullToRefresh doc 注释同步。③去『录音』概念：纪要下拉 refreshingLabel『正在翻你今天一整天的录音』→『正在找最近的会议纪要』；待办/愿望/记账『正在翻今天的转写』→『正在整理今天的记录』（产品内不暴露录音/转写）。",
+  "userFacingChangelog": "会议纪要合并不再过头了；下拉刷新的提示文案也调顺了。",
   "recentReleases": [
-    {
-      "version": 798,
-      "versionName": "260530-1019",
-      "userFacingChangelog": "调试区给拾梦相片动画加了个「下次打开 App 播放」的按钮，方便你按真实开场效果反复看。",
-      "changelog": "x832 拾梦相片打印动画调试加第二个钮「下次打开 App 播放」：DailyPrintGate.resetForReplay 清掉 seenId+playedDate → 下次开 app 走真实首开触发再播一次。无 DB migration。",
-      "publishedAtMs": 1780107670000
-    },
     {
       "version": 799,
       "versionName": "260530-1036",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "会议纪要不会再切得太碎了：一场连续的会（哪怕聊了好几件事）会合成一条，里面用议题卡分开，而不是切成一堆零散小纪要。",
       "changelog": "纪要合并策略：meeting_minutes.txt 分段原则由『按话题拆细（宁可拆细不要硬合，每个话题一条）』改为『按场合合并（一条纪要=一场连续会议：时间连续+同批人即同一场，多话题用 topics 议题卡分节，只有真不同场合/换人换场景/长间隔>30min 才拆）』。根因：旧规则把 2.5h 连续会切成 10 条零碎纪要无可读性。owner 确认未自定义该 prompt（PromptStore 无 override，改 asset 生效）。无 schema 变更。",
       "publishedAtMs": 1780420945000
+    },
+    {
+      "version": 854,
+      "versionName": "260603-0132",
+      "userFacingChangelog": "会议纪要合并不再过头了；下拉刷新的提示文案也调顺了。",
+      "changelog": "①纪要合并阈值回收：分段原则的同场间隔判定 30 分钟→15 分钟（owner 反馈合并质量高但矫枉过正，明显隔开的两场被粘成一条）。②全部下拉刷新副标去掉秒数承诺：待办/纪要/愿望/记账『大概15秒/5秒』+ 设置 OTA 检查『通常1-2秒』→ 统一『稍等一会儿』（实际常比承诺久）；BreathingPullToRefresh doc 注释同步。③去『录音』概念：纪要下拉 refreshingLabel『正在翻你今天一整天的录音』→『正在找最近的会议纪要』；待办/愿望/记账『正在翻今天的转写』→『正在整理今天的记录』（产品内不暴露录音/转写）。",
+      "publishedAtMs": 1780421820000
     }
   ],
-  "publishedAtMs": 1780420945000,
+  "publishedAtMs": 1780421820000,
   "minSupported": 0
 }
