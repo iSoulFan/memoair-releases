@@ -1,19 +1,12 @@
 {
-  "version": 854,
-  "versionName": "260603-0132",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v854/memoair-v854-260603-0132-slim.apk",
+  "version": 855,
+  "versionName": "260603-0145",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v855/memoair-v855-260603-0145-slim.apk",
   "sizeBytes": 35690400,
-  "sha256": "c0621fb18937b9e939ed1e9f7c81722024aab1c7a12a9b7ce70aec1b9c768605",
-  "changelog": "①纪要合并阈值回收：分段原则的同场间隔判定 30 分钟→15 分钟（owner 反馈合并质量高但矫枉过正，明显隔开的两场被粘成一条）。②全部下拉刷新副标去掉秒数承诺：待办/纪要/愿望/记账『大概15秒/5秒』+ 设置 OTA 检查『通常1-2秒』→ 统一『稍等一会儿』（实际常比承诺久）；BreathingPullToRefresh doc 注释同步。③去『录音』概念：纪要下拉 refreshingLabel『正在翻你今天一整天的录音』→『正在找最近的会议纪要』；待办/愿望/记账『正在翻今天的转写』→『正在整理今天的记录』（产品内不暴露录音/转写）。",
-  "userFacingChangelog": "会议纪要合并不再过头了；下拉刷新的提示文案也调顺了。",
+  "sha256": "3a464f190da19de70481f014060d75763e680357fa7e31a69dfbdf3b313b9d00",
+  "changelog": "纪要分段判据从'时间间隔卡分钟'改为'是不是同一摊事'：owner 反馈 15min 仍太粗（且 LLM 算不准间隔），删后重抽昨晚 2 场会仍合成 1 条。新规则=连续聊同一摊事(话题在同一件事里漂移)合一条；满足任一则拆：①明显停顿/间断 ②话题彻底换到不相关的新事(不同主题/目的/对象)。双向护栏：别因同场第二个议题就拆(那是议题卡)、也别把不相关两件事硬粘。时间间隔降为辅助参考、不精确卡分钟。",
+  "userFacingChangelog": "会议纪要的拆分更聪明了：按是不是同一件事来分，而不是死卡时间间隔。",
   "recentReleases": [
-    {
-      "version": 799,
-      "versionName": "260530-1036",
-      "userFacingChangelog": "拍立得动画这次去掉了声音，改成手震反馈——吐片时机器持续轻微震动，相片脱口那一下单独短震一记。另外不用杀后台重进了：退到后台再回来（比如早上醒来唤回 App）就会自动播。",
-      "changelog": "x832 拍立得动画：①删 res/raw/polaroid_print.m4a + 去掉 MediaPlayer，暂不播声音。②加振动卡点（VIBRATE 权限）：慢吐段 2300ms 持续轻振(幅度46/无幅度控制走轻脉冲串)→到出口 cancel 停一拍→220ms 静默→脱口单记短振 55ms/幅度200，做出脱口爽脆感；离场 onDispose 兜底停振。③触发改成退后台回前台也重评：MemoAirRoot 触发 LaunchedEffect 加 AppForeground.inForeground 作 key（false→true 重判），app 常驻后台时早上唤回前台不用杀进程即可播；调试「下次打开 App 播放」同理生效。无 DB migration。",
-      "publishedAtMs": 1780108743000
-    },
     {
       "version": 800,
       "versionName": "260530-1051",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "会议纪要合并不再过头了；下拉刷新的提示文案也调顺了。",
       "changelog": "①纪要合并阈值回收：分段原则的同场间隔判定 30 分钟→15 分钟（owner 反馈合并质量高但矫枉过正，明显隔开的两场被粘成一条）。②全部下拉刷新副标去掉秒数承诺：待办/纪要/愿望/记账『大概15秒/5秒』+ 设置 OTA 检查『通常1-2秒』→ 统一『稍等一会儿』（实际常比承诺久）；BreathingPullToRefresh doc 注释同步。③去『录音』概念：纪要下拉 refreshingLabel『正在翻你今天一整天的录音』→『正在找最近的会议纪要』；待办/愿望/记账『正在翻今天的转写』→『正在整理今天的记录』（产品内不暴露录音/转写）。",
       "publishedAtMs": 1780421820000
+    },
+    {
+      "version": 855,
+      "versionName": "260603-0145",
+      "userFacingChangelog": "会议纪要的拆分更聪明了：按是不是同一件事来分，而不是死卡时间间隔。",
+      "changelog": "纪要分段判据从'时间间隔卡分钟'改为'是不是同一摊事'：owner 反馈 15min 仍太粗（且 LLM 算不准间隔），删后重抽昨晚 2 场会仍合成 1 条。新规则=连续聊同一摊事(话题在同一件事里漂移)合一条；满足任一则拆：①明显停顿/间断 ②话题彻底换到不相关的新事(不同主题/目的/对象)。双向护栏：别因同场第二个议题就拆(那是议题卡)、也别把不相关两件事硬粘。时间间隔降为辅助参考、不精确卡分钟。",
+      "publishedAtMs": 1780422584000
     }
   ],
-  "publishedAtMs": 1780421820000,
+  "publishedAtMs": 1780422584000,
   "minSupported": 0
 }
