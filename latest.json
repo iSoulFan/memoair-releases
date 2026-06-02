@@ -1,19 +1,12 @@
 {
-  "version": 852,
-  "versionName": "260603-0107",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v852/memoair-v852-260603-0107-slim.apk",
+  "version": 853,
+  "versionName": "260603-0118",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v853/memoair-v853-260603-0118-slim.apk",
   "sizeBytes": 35690400,
-  "sha256": "1a1c3dca0be50b0d8c6a17ba72580f5732ffa78556d76beb1e39df0e65695588",
-  "changelog": "纪要不漏会的跨午夜补抽机制：新增 MeetingExtractor.catchUpYesterdayOncePerDay——按 SharedPreferences(catchup_done_ymd) 幂等，每个自然日首次调用补扫 daysAgo=1(昨天)一遍，失败不落盘可重试，入库指纹去重不产生重复。两处触发谁先谁补：①MainActivity 启动(APP_SCOPE，不依赖 WorkManager → 治 ColorOS 冻结，实现『第二天第一次打开 App 自动收昨晚的会』) ②MeetingExtractWorker 当天首跑。定时 12:30/18:30 仍只扫当天(快出当天纪要)，下拉刷新今天+昨天(即时手动)。根因：定时扫描永远 daysAgo=0，昨晚最后一次(18:30)之后的会跨午夜后无人自动抽。",
-  "userFacingChangelog": "晚上的会不会再漏了：第二天打开 App 会自动把昨晚开的会补抽进来，不用手动下拉。",
+  "sha256": "ed57456b383fbe02fbac1e336c20705b8acaaba0673dd2b8658bf2578e5865b3",
+  "changelog": "纪要合并策略：meeting_minutes.txt 分段原则由『按话题拆细（宁可拆细不要硬合，每个话题一条）』改为『按场合合并（一条纪要=一场连续会议：时间连续+同批人即同一场，多话题用 topics 议题卡分节，只有真不同场合/换人换场景/长间隔>30min 才拆）』。根因：旧规则把 2.5h 连续会切成 10 条零碎纪要无可读性。owner 确认未自定义该 prompt（PromptStore 无 override，改 asset 生效）。无 schema 变更。",
+  "userFacingChangelog": "会议纪要不会再切得太碎了：一场连续的会（哪怕聊了好几件事）会合成一条，里面用议题卡分开，而不是切成一堆零散小纪要。",
   "recentReleases": [
-    {
-      "version": 797,
-      "versionName": "260530-1007",
-      "userFacingChangelog": "修了个小毛病：从聊天里点卡片跳进「时光」时，偶尔会卡在两个筛选页中间的半截画面——现在会干脆利落地停在「全部」页。",
-      "changelog": "x832 修时光内层筛选 pager 跳转半页 bug。从 chat 功能消息(拾梦相片/抉择等可点卡)跳进时光时，外层切 tab 与内层 pager 同时 animateScroll → 内层被打断卡在「收藏↔全部」半页。TimelineScreen pendingTarget 的 inner pager 推全部页由 animateScrollToPage(1) 改瞬时 scrollToPage(1)，绝不停半页。无 DB migration。",
-      "publishedAtMs": 1780107176000
-    },
     {
       "version": 798,
       "versionName": "260530-1019",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "晚上的会不会再漏了：第二天打开 App 会自动把昨晚开的会补抽进来，不用手动下拉。",
       "changelog": "纪要不漏会的跨午夜补抽机制：新增 MeetingExtractor.catchUpYesterdayOncePerDay——按 SharedPreferences(catchup_done_ymd) 幂等，每个自然日首次调用补扫 daysAgo=1(昨天)一遍，失败不落盘可重试，入库指纹去重不产生重复。两处触发谁先谁补：①MainActivity 启动(APP_SCOPE，不依赖 WorkManager → 治 ColorOS 冻结，实现『第二天第一次打开 App 自动收昨晚的会』) ②MeetingExtractWorker 当天首跑。定时 12:30/18:30 仍只扫当天(快出当天纪要)，下拉刷新今天+昨天(即时手动)。根因：定时扫描永远 daysAgo=0，昨晚最后一次(18:30)之后的会跨午夜后无人自动抽。",
       "publishedAtMs": 1780420140000
+    },
+    {
+      "version": 853,
+      "versionName": "260603-0118",
+      "userFacingChangelog": "会议纪要不会再切得太碎了：一场连续的会（哪怕聊了好几件事）会合成一条，里面用议题卡分开，而不是切成一堆零散小纪要。",
+      "changelog": "纪要合并策略：meeting_minutes.txt 分段原则由『按话题拆细（宁可拆细不要硬合，每个话题一条）』改为『按场合合并（一条纪要=一场连续会议：时间连续+同批人即同一场，多话题用 topics 议题卡分节，只有真不同场合/换人换场景/长间隔>30min 才拆）』。根因：旧规则把 2.5h 连续会切成 10 条零碎纪要无可读性。owner 确认未自定义该 prompt（PromptStore 无 override，改 asset 生效）。无 schema 变更。",
+      "publishedAtMs": 1780420945000
     }
   ],
-  "publishedAtMs": 1780420140000,
+  "publishedAtMs": 1780420945000,
   "minSupported": 0
 }
