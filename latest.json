@@ -1,19 +1,12 @@
 {
-  "version": 837,
-  "versionName": "260602-1734",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v837/memoair-v837-260602-1734-slim.apk",
+  "version": 838,
+  "versionName": "260602-1850",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v838/memoair-v838-260602-1850-slim.apk",
   "sizeBytes": 35686304,
-  "sha256": "522d17c12771d8bd3e356988439e751d5f8ee53c13a11c79d1a7cc33d650b3f8",
-  "changelog": "纪要加第三种条件触发结构块：脑图/架构图(层级树)。MinutesVisual 加 trees 字段(两层 root+branches[{title,points}])，meeting_minutes prompt 加 trees 可选字段(层级拆解/架构才出、宁缺毋滥)，MeetingExtractor 解析。MeetingVisualSection 表格之后渲染竖版缩进树+连接线(根节点中性灰小卡 + 左侧贯穿竖线 + tick 连每个分支 + 分支要点 bullets，全中性无色相无衬线)。条件触发、搭现有抽取一次、低 token。改在共享 MeetingDetailContent→App+分享图同步。",
-  "userFacingChangelog": "会议纪要遇到层级拆解或架构类内容，会自动排成脑图/架构图。",
+  "sha256": "b820ccfe30bc2772413c180722afd6b468ce5ac9e998a33f0c910d700a857642",
+  "changelog": "纪要收藏功能(DB favorite 列 v28→29 增量迁移+columnExists守护；长按菜单收藏/取消收藏；折叠卡右上金色★星标；筛选加「收藏」chip 放最左、按 favorite 字段过滤)。待办+纪要两 Tab 卡片全文字改 SansSerif(MemoAirTypography 默认全 SerifCN，显式覆盖)，标题 Bold/SemiBold、正文 Normal、源引去 Italic。行动页子 Tab 默认顺序改纪要在前待办在后(改 VISIBLE_TABS 列表，NavBus 全按 indexOf 身份定位；修了 L219 双击底栏 index-0 硬编码→indexOf(Todos))。",
+  "userFacingChangelog": "会议纪要能收藏了（长按卡片打星，顶部多「收藏」筛选）；行动页纪要排到第一；待办和纪要卡片字体调整，看着更清爽。",
   "recentReleases": [
-    {
-      "version": 759,
-      "versionName": "260529-1303",
-      "userFacingChangelog": "· 会议纪要新增「我参与 / 我旁听 / 自言自语」分类筛选，默认只看跟我有关的，列表清爽很多\n· 我只是旁听到的待办不再硬塞进清单，攒在待办板顶部的小条里，需要再一键加进来\n· 纪要现在按事情真实发生的时间段来排列和显示，不再按生成时刻错位",
-      "changelog": "x757-759 纪要质量治理（owner 拍板，已真机验 MIGRATION_25_26）：会议纪要三分类 participated/overheard/self_talk（声纹链路；无声纹按 markdown 涉及人员判 self_talk，拿不准兜 participated）+ 待办分流（overheard→staged 暂存，不自动进主列表/不进 digest 推送）+ 待办板旁听暂存常驻小条（实时 COUNT + [+] 转正）+ 纪要列表参与角色筛选 chip 常驻（默认我参与）+ 排序与显示按事件开始时间 COALESCE(eventStartEpochMs,createdAtEpochMs)，老纪要从 markdown 回填最早 HH:mm + 卡片时间行显示时间段/角色 + 文案：涉及人员、称机主为我。DB v25→v26 加 meetings.participation/eventStartEpochMs + todos.staged。",
-      "publishedAtMs": 1780031461000
-    },
     {
       "version": 760,
       "versionName": "260529-1335",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "会议纪要遇到层级拆解或架构类内容，会自动排成脑图/架构图。",
       "changelog": "纪要加第三种条件触发结构块：脑图/架构图(层级树)。MinutesVisual 加 trees 字段(两层 root+branches[{title,points}])，meeting_minutes prompt 加 trees 可选字段(层级拆解/架构才出、宁缺毋滥)，MeetingExtractor 解析。MeetingVisualSection 表格之后渲染竖版缩进树+连接线(根节点中性灰小卡 + 左侧贯穿竖线 + tick 连每个分支 + 分支要点 bullets，全中性无色相无衬线)。条件触发、搭现有抽取一次、低 token。改在共享 MeetingDetailContent→App+分享图同步。",
       "publishedAtMs": 1780393018000
+    },
+    {
+      "version": 838,
+      "versionName": "260602-1850",
+      "userFacingChangelog": "会议纪要能收藏了（长按卡片打星，顶部多「收藏」筛选）；行动页纪要排到第一；待办和纪要卡片字体调整，看着更清爽。",
+      "changelog": "纪要收藏功能(DB favorite 列 v28→29 增量迁移+columnExists守护；长按菜单收藏/取消收藏；折叠卡右上金色★星标；筛选加「收藏」chip 放最左、按 favorite 字段过滤)。待办+纪要两 Tab 卡片全文字改 SansSerif(MemoAirTypography 默认全 SerifCN，显式覆盖)，标题 Bold/SemiBold、正文 Normal、源引去 Italic。行动页子 Tab 默认顺序改纪要在前待办在后(改 VISIBLE_TABS 列表，NavBus 全按 indexOf 身份定位；修了 L219 双击底栏 index-0 硬编码→indexOf(Todos))。",
+      "publishedAtMs": 1780397622000
     }
   ],
-  "publishedAtMs": 1780393018000,
+  "publishedAtMs": 1780397622000,
   "minSupported": 0
 }
