@@ -1,19 +1,12 @@
 {
-  "version": 834,
-  "versionName": "260602-1630",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v834/memoair-v834-260602-1630-slim.apk",
+  "version": 835,
+  "versionName": "260602-1652",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v835/memoair-v835-260602-1652-slim.apk",
   "sizeBytes": 35661728,
-  "sha256": "95e3dd29a2f604588e9a9948605c0675c9b258165583936485e056a44492541f",
-  "changelog": "纪要展开态下半部排版：SimpleMarkdown 加可选 gapScale 参数(默认1，别处零影响)，纪要 section 正文传 1.6f 撑开段落/每条要点/决议间距；MinutesSectionTitle 重设计=左侧 accent 竖条(#5C63C4)+无衬线Bold+淡分隔线，section 顶间距 20→22；「流程」从裸时间轴改成卡片样式(中性灰 header「🗺 流程」+边框圆角，跟议题卡成套)并加真·时间轴竖线(编号圆圈用连续 rail 串起、末步不画)。改在共享 MeetingDetailContent→App+分享图同步。",
-  "userFacingChangelog": "会议纪要展开后的排版更舒展：段落和要点间距拉开、流程做成带时间轴线的卡片、各板块标题更有设计感。",
+  "sha256": "ece674216c6cb8d05ac3b89fe300cd437899adc774b980848ae9b85c6186c940",
+  "changelog": "纪要展开态去色相+标题统一：议题卡 header / 时间轴编号圈从彩色 pastel 改中性浅灰(#EDEEF0)+墨色标题，删 4 色 palette 背景；核心结论改白底(#FFFFFF+1px边框)、眉头用板块标题同款 accent 竖条样式(去💡)；splitMarkdownSections 扩展识别独立成行的 **短标签**(≤12字)升格为板块标题，让 决议等子标题跟纪要概述/讨论要点/纪要待办 同走 MinutesSectionTitle、样式与上下间距一致。accent 竖条强调色(前景)保留。改在共享 MeetingDetailContent→App+分享图同步。",
+  "userFacingChangelog": "会议纪要展开后更统一干净：卡片改中性底色，核心结论白底，各板块标题样式和间距对齐一致。",
   "recentReleases": [
-    {
-      "version": 754,
-      "versionName": "260528-0235",
-      "userFacingChangelog": "人生来信落款不再以「在」字开头——读起来更顺",
-      "changelog": "人生来信落款不再以「在」字开头——读起来更顺",
-      "publishedAtMs": 1779907145009
-    },
     {
       "version": 755,
       "versionName": "260528-0941",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "会议纪要展开后的排版更舒展：段落和要点间距拉开、流程做成带时间轴线的卡片、各板块标题更有设计感。",
       "changelog": "纪要展开态下半部排版：SimpleMarkdown 加可选 gapScale 参数(默认1，别处零影响)，纪要 section 正文传 1.6f 撑开段落/每条要点/决议间距；MinutesSectionTitle 重设计=左侧 accent 竖条(#5C63C4)+无衬线Bold+淡分隔线，section 顶间距 20→22；「流程」从裸时间轴改成卡片样式(中性灰 header「🗺 流程」+边框圆角，跟议题卡成套)并加真·时间轴竖线(编号圆圈用连续 rail 串起、末步不画)。改在共享 MeetingDetailContent→App+分享图同步。",
       "publishedAtMs": 1780389293000
+    },
+    {
+      "version": 835,
+      "versionName": "260602-1652",
+      "userFacingChangelog": "会议纪要展开后更统一干净：卡片改中性底色，核心结论白底，各板块标题样式和间距对齐一致。",
+      "changelog": "纪要展开态去色相+标题统一：议题卡 header / 时间轴编号圈从彩色 pastel 改中性浅灰(#EDEEF0)+墨色标题，删 4 色 palette 背景；核心结论改白底(#FFFFFF+1px边框)、眉头用板块标题同款 accent 竖条样式(去💡)；splitMarkdownSections 扩展识别独立成行的 **短标签**(≤12字)升格为板块标题，让 决议等子标题跟纪要概述/讨论要点/纪要待办 同走 MinutesSectionTitle、样式与上下间距一致。accent 竖条强调色(前景)保留。改在共享 MeetingDetailContent→App+分享图同步。",
+      "publishedAtMs": 1780390504000
     }
   ],
-  "publishedAtMs": 1780389293000,
+  "publishedAtMs": 1780390504000,
   "minSupported": 0
 }
