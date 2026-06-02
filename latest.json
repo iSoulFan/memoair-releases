@@ -1,19 +1,12 @@
 {
-  "version": 840,
-  "versionName": "260602-1930",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v840/memoair-v840-260602-1930-slim.apk",
-  "sizeBytes": 35690400,
-  "sha256": "8551ead62b163f6a4b1f8db9a676e227cb16c1790065d77c430f2b91fceed4ec",
-  "changelog": "纪要/待办 UI 修正：① 待办+纪要折叠卡字体回退衬线(撤上版 SansSerif，MeetingDetailContent 展开态保持无衬线)② 收藏★跟 chevron› 合进同一 Row 居中对齐(原来错位)③ 纪要正文行距反转修复:lineHeight 25→20 收紧行内 + gapScale 1.6→2.6 拉开点间，让点↔点>点内行↔行④ Tab 排序模式 tabs 加 jiggle 抖动(±1.5°相邻反相位)提示可拖⑤ 排序确认按钮 Warm 实底→线框✓(透明+1px Hairline+墨色勾)⑥ 排序模式点 Tab 栏外区域=确认退出(透明 catcher)。",
-  "userFacingChangelog": "纪要/待办界面细节打磨：字体、行距更舒服；Tab 拖动排序更直观（进入有抖动提示、点空白即确认）。",
+  "version": 841,
+  "versionName": "260602-1939",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v841/memoair-v841-260602-1939-slim.apk",
+  "sizeBytes": 35694496,
+  "sha256": "c5d9e49c63ae949515ce00275b6ed23f07b35d71577f275521f6d98fd191ac7b",
+  "changelog": "纪要抉择并入 + 收藏星标/排序细节：① 纪要识别到二选一纠结时右下加「开始抉择」按钮(choiceFromUserText 生成+跳抉择tab，无 choice 不显示)②放宽抉择扫描(明确求抉择即使一次也识别)③排序确认 ✓ 去掉线框、只留无衬线墨色勾④纪要折叠卡标题字重 Bold→Medium(太重)⑤收藏 ★ 从右侧挪到标题前缀(金色，占一字符)。",
+  "userFacingChangelog": "会议纪要里聊到纠结的选择题，右下角一键「开始抉择」；收藏的星标挪到标题前面更清楚；一些排序/字重细节打磨。",
   "recentReleases": [
-    {
-      "version": 782,
-      "versionName": "260529-1931",
-      "userFacingChangelog": "· 会议纪要更干净了——按「我有发言 / 我在旁听」分类，默认只看跟你有关的；没实质内容的、重复的不再往里堆\n· 旁听到的待办单独收在待办板顶部小条里，要不要随你，不想看一键忽略\n· 问「我那天说了啥 / 之前聊过啥」更准——只给真正相关的，引用你的原话一字不改，找不到会直接说没有\n· 纪要、待办现在都能多选批量删了",
-      "changelog": "v760→782 批次：① 对话检索治理(x761)：语义召回三层门(地板+top-gap+LLM判定)、时段查询关全局召回去跨天噪音、quote action 程序化截原文禁杜撰、引用全角「」归一化、找不到老实说。② 纪要质量治理后续：分类合并为「我有发言(participated+self_talk)/我在旁听(overheard)」(声纹对部分用户区分不可靠)、薄纪要门(真实说话量 REAL_SPEECH_MIN + 正文实质 bodyChars 跟 UI stripTodoSection 清单对齐 + worthNote)、薄纪要待办转自由待办、分段原则(禁乱合并/剔跑题)、时间区间去重(重合≥60%判重，抓重抽变体)。③ 旁听暂存小条：忽略(dismissed 字段, v27 migration)、点行展开出处+跳原纪要并展开卡片、[+]加入。④ 纪要/待办多选删除；确认框统一 MemoConfirmDialog 规范样式；账本残留文案清除。DB v25→v26→v27(participation/eventStartEpochMs/staged/dismissed)，已真机验迁移不崩。",
-      "publishedAtMs": 1780054874000
-    },
     {
       "version": 785,
       "versionName": "260529-2036",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "纪要/待办界面细节打磨：字体、行距更舒服；Tab 拖动排序更直观（进入有抖动提示、点空白即确认）。",
       "changelog": "纪要/待办 UI 修正：① 待办+纪要折叠卡字体回退衬线(撤上版 SansSerif，MeetingDetailContent 展开态保持无衬线)② 收藏★跟 chevron› 合进同一 Row 居中对齐(原来错位)③ 纪要正文行距反转修复:lineHeight 25→20 收紧行内 + gapScale 1.6→2.6 拉开点间，让点↔点>点内行↔行④ Tab 排序模式 tabs 加 jiggle 抖动(±1.5°相邻反相位)提示可拖⑤ 排序确认按钮 Warm 实底→线框✓(透明+1px Hairline+墨色勾)⑥ 排序模式点 Tab 栏外区域=确认退出(透明 catcher)。",
       "publishedAtMs": 1780399964000
+    },
+    {
+      "version": 841,
+      "versionName": "260602-1939",
+      "userFacingChangelog": "会议纪要里聊到纠结的选择题，右下角一键「开始抉择」；收藏的星标挪到标题前面更清楚；一些排序/字重细节打磨。",
+      "changelog": "纪要抉择并入 + 收藏星标/排序细节：① 纪要识别到二选一纠结时右下加「开始抉择」按钮(choiceFromUserText 生成+跳抉择tab，无 choice 不显示)②放宽抉择扫描(明确求抉择即使一次也识别)③排序确认 ✓ 去掉线框、只留无衬线墨色勾④纪要折叠卡标题字重 Bold→Medium(太重)⑤收藏 ★ 从右侧挪到标题前缀(金色，占一字符)。",
+      "publishedAtMs": 1780401225000
     }
   ],
-  "publishedAtMs": 1780399964000,
+  "publishedAtMs": 1780401225000,
   "minSupported": 0
 }
