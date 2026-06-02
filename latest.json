@@ -1,19 +1,12 @@
 {
-  "version": 835,
-  "versionName": "260602-1652",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v835/memoair-v835-260602-1652-slim.apk",
+  "version": 836,
+  "versionName": "260602-1704",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v836/memoair-v836-260602-1704-slim.apk",
   "sizeBytes": 35661728,
-  "sha256": "ece674216c6cb8d05ac3b89fe300cd437899adc774b980848ae9b85c6186c940",
-  "changelog": "纪要展开态去色相+标题统一：议题卡 header / 时间轴编号圈从彩色 pastel 改中性浅灰(#EDEEF0)+墨色标题，删 4 色 palette 背景；核心结论改白底(#FFFFFF+1px边框)、眉头用板块标题同款 accent 竖条样式(去💡)；splitMarkdownSections 扩展识别独立成行的 **短标签**(≤12字)升格为板块标题，让 决议等子标题跟纪要概述/讨论要点/纪要待办 同走 MinutesSectionTitle、样式与上下间距一致。accent 竖条强调色(前景)保留。改在共享 MeetingDetailContent→App+分享图同步。",
-  "userFacingChangelog": "会议纪要展开后更统一干净：卡片改中性底色，核心结论白底，各板块标题样式和间距对齐一致。",
+  "sha256": "e0cf8a460127aa90984fe5055d98994b8d52a30d60ac950cb5bba805da567165",
+  "changelog": "纪要卡片配色纠正：恢复议题卡 header + 时间轴编号圈的彩色 pastel（上轮误删）；卡片正文底色 #F7F8FA(偏蓝)→#F5F5F5 中性灰；核心结论从'白底+accent竖条'改回议题卡同款卡片结构（中性灰 header band + 💡 核心结论标题 + body），与下方卡片一致；分享长图最外框 #FBFBF5 米白→#FFFFFF 纯白。改在共享 MeetingDetailContent + MeetingShareImageRenderer。",
+  "userFacingChangelog": "会议纪要卡片配色和样式再打磨：卡片更统一、分享图边框纯白。",
   "recentReleases": [
-    {
-      "version": 755,
-      "versionName": "260528-0941",
-      "userFacingChangelog": "主动起话题里那种「我记下了…」「记到长期记忆了」的确认条不再推了——记忆是后台的事，不该每次都在对话顶部播报",
-      "changelog": "主动起话题里那种「我记下了…」「记到长期记忆了」的确认条不再推了——记忆是后台的事，不该每次都在对话顶部播报",
-      "publishedAtMs": 1779933472187
-    },
     {
       "version": 756,
       "versionName": "260528-1917",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "会议纪要展开后更统一干净：卡片改中性底色，核心结论白底，各板块标题样式和间距对齐一致。",
       "changelog": "纪要展开态去色相+标题统一：议题卡 header / 时间轴编号圈从彩色 pastel 改中性浅灰(#EDEEF0)+墨色标题，删 4 色 palette 背景；核心结论改白底(#FFFFFF+1px边框)、眉头用板块标题同款 accent 竖条样式(去💡)；splitMarkdownSections 扩展识别独立成行的 **短标签**(≤12字)升格为板块标题，让 决议等子标题跟纪要概述/讨论要点/纪要待办 同走 MinutesSectionTitle、样式与上下间距一致。accent 竖条强调色(前景)保留。改在共享 MeetingDetailContent→App+分享图同步。",
       "publishedAtMs": 1780390504000
+    },
+    {
+      "version": 836,
+      "versionName": "260602-1704",
+      "userFacingChangelog": "会议纪要卡片配色和样式再打磨：卡片更统一、分享图边框纯白。",
+      "changelog": "纪要卡片配色纠正：恢复议题卡 header + 时间轴编号圈的彩色 pastel（上轮误删）；卡片正文底色 #F7F8FA(偏蓝)→#F5F5F5 中性灰；核心结论从'白底+accent竖条'改回议题卡同款卡片结构（中性灰 header band + 💡 核心结论标题 + body），与下方卡片一致；分享长图最外框 #FBFBF5 米白→#FFFFFF 纯白。改在共享 MeetingDetailContent + MeetingShareImageRenderer。",
+      "publishedAtMs": 1780391258000
     }
   ],
-  "publishedAtMs": 1780390504000,
+  "publishedAtMs": 1780391258000,
   "minSupported": 0
 }
