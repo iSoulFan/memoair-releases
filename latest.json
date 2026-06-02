@@ -1,19 +1,12 @@
 {
-  "version": 845,
-  "versionName": "260602-2107",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v845/memoair-v845-260602-2107-slim.apk",
+  "version": 846,
+  "versionName": "260602-2133",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v846/memoair-v846-260602-2133-slim.apk",
   "sizeBytes": 35690400,
-  "sha256": "7da4db43e286ef2c51c1a5a1e1e90ddef95a29b9438beacc5248dda23c8b0129",
-  "changelog": "排序拖拽 + 提示气泡重做（行动/时光两页 chip 排序）：①排序态保留 horizontalScroll（之前去横滚导致时光 chip 多了被 Row 余宽约束挤成竖条变形 + 手柄被推出屏外）②chip 拖拽改自定义手势 awaitEachGesture：awaitFirstDown(requireUnconsumed=false) 后只要 positionChange().x≠0 立刻 change.consume()，Main pass 子节点先于父 horizontalScroll 消费 → 拖拽稳赢横滚、又保留滚动不变形（替代之前 detectDragGestures 跟横滚抢手势导致时光拖不动）③时光 cur 用 getDragIdx() 活值（替代固定 kindIdx，换位后不再 snap back）④排序提示气泡 ReorderHintBubble（Suggestions internal，时光复用）：文案改『拖动上方板块 调整顺序』+ 朝上 Canvas 三角尖角指向手柄 + 圆角 10dp（去掉 999 胶囊的按钮感），锚到 TabBar/FilterRow boundsInRoot 底边右下、TopEnd 右对齐 ⑤切走顶 tab（isActive=settledPage==page）退出排序模式，修『切回来还在抖』。",
-  "userFacingChangelog": "时光页的分类标签也能拖动排序了；排序时的提示更清楚。",
+  "sha256": "7ca8193bf8e55e210a3bd54f2ec99361f465fc0bab7f7736699c062a636601bd",
+  "changelog": "chip 拖拽手势改在 Initial pass 抢断（关键修复）：v845 在 Main pass consume 仍输给祖先——子节点 Main 虽先于父，但主 HorizontalPager 的 drag 检测把手势抢走导致『拖动直接划走整页』。改为 awaitPointerEvent(PointerEventPass.Initial) 里 consume 水平位移：Initial 在 Main 之前派发，子节点在 Initial 先吃掉事件 → Main pass 跑到 chip 行 horizontalScroll / 主 Pager 时拿到的已是 consumed → 既不横滚也不翻页，拖拽稳生效。行动 + 时光两页同改。保留 horizontalScroll（防 chip 挤变形）。",
+  "userFacingChangelog": "时光页分类标签拖动排序修好了。",
   "recentReleases": [
-    {
-      "version": 789,
-      "versionName": "260529-2222",
-      "userFacingChangelog": "成就详情页的排版重新打磨了一遍——顶部成就框、星级、坚持天数、立下/达成日期、稀有度和成就故事都按更顺眼的版式重排了；emoji 后面那圈流动光晕保留。",
-      "changelog": "x819 成就详情第二阶段(FullPhase)排版+内容 1:1 还原 beta AchievementPage：新增 AchievementTopHeader(🏆+星级+恭喜坚持N天+前缀emoji)；顺序 TopHeader→HeroBadge→居中标题→StatsRow(天耗时|立下/达成)→BeatCard(WarmGlow 稀有度+phrase)→narrative(+采访收尾 SageDeep 分隔)→采访邀请卡→分享按钮；hero 落地 EmojiBadge(frame300/glyph0.52/槽178)保留 petalScale=2f 放大花瓣(owner 红线)；caption 维持删除；两阶段外壳不动；清理无用 HeroPolaroid/buildMetaLine/AchievementBitmapCache/decodeAchievementBitmap。无 DB migration。",
-      "publishedAtMs": 1780065080000
-    },
     {
       "version": 791,
       "versionName": "260529-2312",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "时光页的分类标签也能拖动排序了；排序时的提示更清楚。",
       "changelog": "排序拖拽 + 提示气泡重做（行动/时光两页 chip 排序）：①排序态保留 horizontalScroll（之前去横滚导致时光 chip 多了被 Row 余宽约束挤成竖条变形 + 手柄被推出屏外）②chip 拖拽改自定义手势 awaitEachGesture：awaitFirstDown(requireUnconsumed=false) 后只要 positionChange().x≠0 立刻 change.consume()，Main pass 子节点先于父 horizontalScroll 消费 → 拖拽稳赢横滚、又保留滚动不变形（替代之前 detectDragGestures 跟横滚抢手势导致时光拖不动）③时光 cur 用 getDragIdx() 活值（替代固定 kindIdx，换位后不再 snap back）④排序提示气泡 ReorderHintBubble（Suggestions internal，时光复用）：文案改『拖动上方板块 调整顺序』+ 朝上 Canvas 三角尖角指向手柄 + 圆角 10dp（去掉 999 胶囊的按钮感），锚到 TabBar/FilterRow boundsInRoot 底边右下、TopEnd 右对齐 ⑤切走顶 tab（isActive=settledPage==page）退出排序模式，修『切回来还在抖』。",
       "publishedAtMs": 1780406889000
+    },
+    {
+      "version": 846,
+      "versionName": "260602-2133",
+      "userFacingChangelog": "时光页分类标签拖动排序修好了。",
+      "changelog": "chip 拖拽手势改在 Initial pass 抢断（关键修复）：v845 在 Main pass consume 仍输给祖先——子节点 Main 虽先于父，但主 HorizontalPager 的 drag 检测把手势抢走导致『拖动直接划走整页』。改为 awaitPointerEvent(PointerEventPass.Initial) 里 consume 水平位移：Initial 在 Main 之前派发，子节点在 Initial 先吃掉事件 → Main pass 跑到 chip 行 horizontalScroll / 主 Pager 时拿到的已是 consumed → 既不横滚也不翻页，拖拽稳生效。行动 + 时光两页同改。保留 horizontalScroll（防 chip 挤变形）。",
+      "publishedAtMs": 1780407318000
     }
   ],
-  "publishedAtMs": 1780406889000,
+  "publishedAtMs": 1780407318000,
   "minSupported": 0
 }
