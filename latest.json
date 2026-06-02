@@ -1,19 +1,12 @@
 {
-  "version": 827,
-  "versionName": "260602-1301",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v827/memoair-v827-260602-1301-slim.apk",
+  "version": 828,
+  "versionName": "260602-1348",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v828/memoair-v828-260602-1348-slim.apk",
   "sizeBytes": 35624864,
-  "sha256": "bc635c9bf2c88a0974edcb21b039871ff3778b3a650a46064b444ccaf463e9c3",
-  "changelog": "拾梦相片单击直接展开「那天的事」（原来要长按菜单里点）；录音设备弹窗背景改纯白、去掉蓝牙通道下的说明/诊断文案、切设备后持续无声约4s在音量条右侧提示「建议切换」。",
-  "userFacingChangelog": "拾梦相片轻点一下，就能展开那天的事；一些界面细节打磨。",
+  "sha256": "ea8c72a1a9f6ca745d3a6d6132d1e8f361b93449b1946eff33f94fac9f7d6b59",
+  "changelog": "录音设备静音守护：外接麦/硬件设备正在用、且连续3分钟收不到电平时，主动推一条通知提醒检查电量/开关/蓝牙（仅外接设备触发，手机内置麦不报；隐私静音/勿扰时段不报；30分钟节流；阈值<0.01、时长/节流为经验常量待真机调）。",
+  "userFacingChangelog": "用外接麦克风/蓝牙设备录音时，如果长时间收不到声音，「记得」会提醒你检查一下设备。",
   "recentReleases": [
-    {
-      "version": 748,
-      "versionName": "260527-1909",
-      "userFacingChangelog": "每天午饭后和下班前，给你把这一天攒下的事整成一张小卡发到对话里——不用专门去翻。\n主屏右上多了个「今日」小灯，亮着说明又给你整理出了新的事，点一下就能去看。",
-      "changelog": "每天午饭后和下班前，给你把这一天攒下的事整成一张小卡发到对话里——不用专门去翻。\n主屏右上多了个「今日」小灯，亮着说明又给你整理出了新的事，点一下就能去看。",
-      "publishedAtMs": 1779885737000
-    },
     {
       "version": 749,
       "versionName": "260527-2115",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "拾梦相片轻点一下，就能展开那天的事；一些界面细节打磨。",
       "changelog": "拾梦相片单击直接展开「那天的事」（原来要长按菜单里点）；录音设备弹窗背景改纯白、去掉蓝牙通道下的说明/诊断文案、切设备后持续无声约4s在音量条右侧提示「建议切换」。",
       "publishedAtMs": 1780376747000
+    },
+    {
+      "version": 828,
+      "versionName": "260602-1348",
+      "userFacingChangelog": "用外接麦克风/蓝牙设备录音时，如果长时间收不到声音，「记得」会提醒你检查一下设备。",
+      "changelog": "录音设备静音守护：外接麦/硬件设备正在用、且连续3分钟收不到电平时，主动推一条通知提醒检查电量/开关/蓝牙（仅外接设备触发，手机内置麦不报；隐私静音/勿扰时段不报；30分钟节流；阈值<0.01、时长/节流为经验常量待真机调）。",
+      "publishedAtMs": 1780379388000
     }
   ],
-  "publishedAtMs": 1780376747000,
+  "publishedAtMs": 1780379388000,
   "minSupported": 0
 }
