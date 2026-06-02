@@ -1,19 +1,12 @@
 {
-  "version": 839,
-  "versionName": "260602-1900",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v839/memoair-v839-260602-1900-slim.apk",
+  "version": 840,
+  "versionName": "260602-1930",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v840/memoair-v840-260602-1930-slim.apk",
   "sizeBytes": 35690400,
-  "sha256": "27d4c55490ca5c4643975f83bdd0a0e6255e994d6a2f6425e22ca34bd97eb887",
-  "changelog": "行动页子 Tab 可拖动排序+持久化：TabBar 末尾加 ≡ 手柄，点击进排序模式(pager userScrollEnabled=false)，inline 横向 detectDragGestures 拖拽重排(SnapshotStateList，越过相邻中心即 onMove，被拖 chip zIndex+shadow 浮起)，退出 saveOrder。新 TabOrderPrefs(memoair_tab_order，存 Tab.name)，loadOrder 调和(保存序在前、新增追加、消失丢弃)。VISIBLE_TABS=live tabOrder 单一事实源，NavBus 全按 indexOf 身份不受影响，重排保持选中(scrollToPage by Tab identity)。",
-  "userFacingChangelog": "行动页的 Tab 可以自己拖动排序了——点最右边的 ≡ 进入排序、拖动调位置、再点完成。",
+  "sha256": "8551ead62b163f6a4b1f8db9a676e227cb16c1790065d77c430f2b91fceed4ec",
+  "changelog": "纪要/待办 UI 修正：① 待办+纪要折叠卡字体回退衬线(撤上版 SansSerif，MeetingDetailContent 展开态保持无衬线)② 收藏★跟 chevron› 合进同一 Row 居中对齐(原来错位)③ 纪要正文行距反转修复:lineHeight 25→20 收紧行内 + gapScale 1.6→2.6 拉开点间，让点↔点>点内行↔行④ Tab 排序模式 tabs 加 jiggle 抖动(±1.5°相邻反相位)提示可拖⑤ 排序确认按钮 Warm 实底→线框✓(透明+1px Hairline+墨色勾)⑥ 排序模式点 Tab 栏外区域=确认退出(透明 catcher)。",
+  "userFacingChangelog": "纪要/待办界面细节打磨：字体、行距更舒服；Tab 拖动排序更直观（进入有抖动提示、点空白即确认）。",
   "recentReleases": [
-    {
-      "version": 761,
-      "versionName": "260529-1438",
-      "userFacingChangelog": "· 问「我之前说过啥 / 那天聊了啥」时更准了——只给真正相关的记录，没有就直说没找到，不再翻一堆不相关的旧记录硬凑\n· 引用你说过的原话时一字不改，直接从你的记忆原文里取，不再是 AI 凭印象复述",
-      "changelog": "x761 对话检索治理（杀杜撰+治不相关，直接上正式版）：① 修 bge 非对称——query 加检索指令前缀(TextEmbedder.embed asQuery)，cosine 才有意义。② 召回三层门 ChatRecall（绝对地板 FLOOR=0.62 + top-gap 0.06 + 模糊带 LLM yes/no 判定，≥0.72 直放，宁缺毋滥）替掉 cosine top-K 全塞；关键词 FTS 降级为语义零命中时兜底；全空注入「没找到」让 AI 老实说不硬凑。③ 杀杜撰：新增 quote action——AI 只给 transcript #id+match，App 从 DB 程序化截原文 substring 一字不改拼进气泡（不过 LLM）；fmtLine 行首加 #id；system prompt 重构成 ①找到→②总结(标明转述)→③逐字引用(只走 quote)，禁手敲引文。阈值 v1 偏严、为常量，调参需 rebuild。无 schema 变更。",
-      "publishedAtMs": 1780036813000
-    },
     {
       "version": 782,
       "versionName": "260529-1931",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "行动页的 Tab 可以自己拖动排序了——点最右边的 ≡ 进入排序、拖动调位置、再点完成。",
       "changelog": "行动页子 Tab 可拖动排序+持久化：TabBar 末尾加 ≡ 手柄，点击进排序模式(pager userScrollEnabled=false)，inline 横向 detectDragGestures 拖拽重排(SnapshotStateList，越过相邻中心即 onMove，被拖 chip zIndex+shadow 浮起)，退出 saveOrder。新 TabOrderPrefs(memoair_tab_order，存 Tab.name)，loadOrder 调和(保存序在前、新增追加、消失丢弃)。VISIBLE_TABS=live tabOrder 单一事实源，NavBus 全按 indexOf 身份不受影响，重排保持选中(scrollToPage by Tab identity)。",
       "publishedAtMs": 1780398319000
+    },
+    {
+      "version": 840,
+      "versionName": "260602-1930",
+      "userFacingChangelog": "纪要/待办界面细节打磨：字体、行距更舒服；Tab 拖动排序更直观（进入有抖动提示、点空白即确认）。",
+      "changelog": "纪要/待办 UI 修正：① 待办+纪要折叠卡字体回退衬线(撤上版 SansSerif，MeetingDetailContent 展开态保持无衬线)② 收藏★跟 chevron› 合进同一 Row 居中对齐(原来错位)③ 纪要正文行距反转修复:lineHeight 25→20 收紧行内 + gapScale 1.6→2.6 拉开点间，让点↔点>点内行↔行④ Tab 排序模式 tabs 加 jiggle 抖动(±1.5°相邻反相位)提示可拖⑤ 排序确认按钮 Warm 实底→线框✓(透明+1px Hairline+墨色勾)⑥ 排序模式点 Tab 栏外区域=确认退出(透明 catcher)。",
+      "publishedAtMs": 1780399964000
     }
   ],
-  "publishedAtMs": 1780398319000,
+  "publishedAtMs": 1780399964000,
   "minSupported": 0
 }
