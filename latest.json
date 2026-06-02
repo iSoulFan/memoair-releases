@@ -1,19 +1,12 @@
 {
-  "version": 849,
-  "versionName": "260602-2319",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v849/memoair-v849-260602-2319-slim.apk",
+  "version": 850,
+  "versionName": "260603-0048",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v850/memoair-v850-260603-0048-slim.apk",
   "sizeBytes": 35690400,
-  "sha256": "d9d17c08c4b9bc8c0f745b0d4dc86fe41604bb9e9ae48033b1053324b3c06752",
-  "changelog": "抉择两 bug：①删掉的抉择隔天重扫又被推送——removeChoiceCandidate 之前只 remove 不进 hiddenKeys，而 mergeChoices 只按 hiddenKeys 排除；key=stableChoiceKey(summary|A|B) 内容确定性，故删除时同时加进 hiddenKeys → 重扫不再复活（= 永久抑制，符合用户对『删除』的预期；hideChoiceCandidate 本就无调用方）。②新扫出的抉择排在板块第 3 不是第 1——mergeChoices 之前  把新的拼末尾，改 （从新到旧，跟 addChoiceCandidate 的 prepend 对齐）。",
-  "userFacingChangelog": "抉择删掉后不会再被重新推送了，新抉择也排在最前面。",
+  "sha256": "deed66b0e0016ae90375ddc8debf8e4a0f49292bd74a34002b32591b4f062d84",
+  "changelog": "纪要下拉刷新/空状态文案修正：实际 extractMeetingsForDay 扫的是当天 00:00→24:00 整天（早改成按天，'近4小时/过去4小时'是旧窗口设计的残留错文案，让用户以为晚上的会过4小时会丢）。refreshingLabel 改'今天一整天的录音'；EmptyState 说明改'从当天录音里抽 + 频率设置1~3次 + 晚上下拉补抽扫整天不会丢'。自动扫描时间点 12:30/18:30（FrequencyPrefs 默认2次，1次=18:30、3次=+22:30）不变。",
+  "userFacingChangelog": "会议纪要的刷新说明改清楚了：下拉刷新扫的是今天一整天的录音，晚上的会也能补抽出来。",
   "recentReleases": [
-    {
-      "version": 794,
-      "versionName": "260530-0048",
-      "userFacingChangelog": "更新下载换到了更快的国内服务器，下载和安装会快一些。",
-      "changelog": "x822 OTA 下载源改 memomind 主源 + GitHub 兜底。manifest 新增 fallbackUrl 字段（GitHub URL）；downloadUrl 改 memomind（国内快）。客户端 OtaChecker：先试 downloadUrl(memomind 单点)，失败退 fallbackUrl(GitHub)+GITHUB_MIRRORS 多镜像；老 manifest 无 fallbackUrl 自动兼容。publish_ota.sh：memomind 前台 scp 作主源、GitHub release 后台异步上传作兜底镜像（不阻塞 publish，修发布越来越慢）；scp 失败自动退回 GitHub 主源前台路径。manifest authority 仍永远 GitHub，downloadUrl 指 memomind 仅字节流 sha256 锁定，信任边界不变。无 DB migration。",
-      "publishedAtMs": 1780073422000
-    },
     {
       "version": 795,
       "versionName": "260530-0146",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "抉择删掉后不会再被重新推送了，新抉择也排在最前面。",
       "changelog": "抉择两 bug：①删掉的抉择隔天重扫又被推送——removeChoiceCandidate 之前只 remove 不进 hiddenKeys，而 mergeChoices 只按 hiddenKeys 排除；key=stableChoiceKey(summary|A|B) 内容确定性，故删除时同时加进 hiddenKeys → 重扫不再复活（= 永久抑制，符合用户对『删除』的预期；hideChoiceCandidate 本就无调用方）。②新扫出的抉择排在板块第 3 不是第 1——mergeChoices 之前  把新的拼末尾，改 （从新到旧，跟 addChoiceCandidate 的 prepend 对齐）。",
       "publishedAtMs": 1780413752000
+    },
+    {
+      "version": 850,
+      "versionName": "260603-0048",
+      "userFacingChangelog": "会议纪要的刷新说明改清楚了：下拉刷新扫的是今天一整天的录音，晚上的会也能补抽出来。",
+      "changelog": "纪要下拉刷新/空状态文案修正：实际 extractMeetingsForDay 扫的是当天 00:00→24:00 整天（早改成按天，'近4小时/过去4小时'是旧窗口设计的残留错文案，让用户以为晚上的会过4小时会丢）。refreshingLabel 改'今天一整天的录音'；EmptyState 说明改'从当天录音里抽 + 频率设置1~3次 + 晚上下拉补抽扫整天不会丢'。自动扫描时间点 12:30/18:30（FrequencyPrefs 默认2次，1次=18:30、3次=+22:30）不变。",
+      "publishedAtMs": 1780418992000
     }
   ],
-  "publishedAtMs": 1780413752000,
+  "publishedAtMs": 1780418992000,
   "minSupported": 0
 }
