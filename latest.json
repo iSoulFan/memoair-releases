@@ -1,19 +1,12 @@
 {
-  "version": 856,
-  "versionName": "260603-0913",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v856/memoair-v856-260603-0913-slim.apk",
+  "version": 857,
+  "versionName": "260603-1127",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v857/memoair-v857-260603-1127-slim.apk",
   "sizeBytes": 35690400,
-  "sha256": "59dafddb058a8711b4e408776dbb19ab8808ee167fa0b517d7321607a41399b9",
-  "changelog": "纪要展开里'纪要概述/讨论要点'不走板块标题样式(无 accent 竖条+分隔线)修复。根因：prompt『每段会议的写法』要求模块写成 2. **纪要概述**：内容（编号+行内粗体+冒号外置+同行接正文），跟讨论点 1. **xxx**：… 格式完全一样，splitMarkdownSections 的 MD_HEADER_RE/MD_BOLD_LABEL_RE 都认不出 → 落进 SimpleMarkdown 当普通粗体。①prompt 改：模块一律用 ### 标题独立成行（第二行保留『涉及人员：』给 extractParticipantsLine，stripMeetingHeader 会从正文剥掉），明令禁止行内粗体模块标题。②解析器兜底：新增 MD_LABELED_SECTION_RE 只对 KNOWN_INLINE_SECTION_LABELS{纪要概述/会议概述/讨论要点}（绝不会是讨论点）把行内粗体也提成板块标题、冒号后正文回填；故意不含风险/决议/里程碑避免误伤讨论点小标题。",
-  "userFacingChangelog": "会议纪要展开里『纪要概述 / 讨论要点』这些小标题的样式统一了。",
+  "sha256": "30bebb0a93ef8de62cc492c5aefe575f32072305a7cc6c67da61d640a9b64b5b",
+  "changelog": "对话顶部下拉揭开上一个话题失效修复：Compose BOM 2024.12.01(=1.7.x) 起 NestedScrollSource.Drag 废弃改名 UserInput，用户拖动上报 UserInput，ChatScreen 顶部 reveal 的 nestedScroll onPostScroll 里  把所有真实下拉挡回 → pullAccumulator 永远累积不到 80dp 阈值 → 拉不动旧话题（提示『使劲往下拉』仍显示因为走 hasMorePreviousTopic 另一条件）。改为 UserInput（仍排除 fling=SideEffect 惯性误触）。全仓仅此一处用废弃枚举。",
+  "userFacingChangelog": "对话最上面下拉看上一个话题，修好了。",
   "recentReleases": [
-    {
-      "version": 801,
-      "versionName": "260530-1107",
-      "userFacingChangelog": "开场动画的手感又打磨了一点。",
-      "changelog": "x832 开场动画振动再微调：起振延后 340→500ms；第一段长震幅度 24→14/255 更轻；脱口短振不变(满幅 62ms)。无 DB migration。",
-      "publishedAtMs": 1780110612000
-    },
     {
       "version": 802,
       "versionName": "260530-1115",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "会议纪要展开里『纪要概述 / 讨论要点』这些小标题的样式统一了。",
       "changelog": "纪要展开里'纪要概述/讨论要点'不走板块标题样式(无 accent 竖条+分隔线)修复。根因：prompt『每段会议的写法』要求模块写成 2. **纪要概述**：内容（编号+行内粗体+冒号外置+同行接正文），跟讨论点 1. **xxx**：… 格式完全一样，splitMarkdownSections 的 MD_HEADER_RE/MD_BOLD_LABEL_RE 都认不出 → 落进 SimpleMarkdown 当普通粗体。①prompt 改：模块一律用 ### 标题独立成行（第二行保留『涉及人员：』给 extractParticipantsLine，stripMeetingHeader 会从正文剥掉），明令禁止行内粗体模块标题。②解析器兜底：新增 MD_LABELED_SECTION_RE 只对 KNOWN_INLINE_SECTION_LABELS{纪要概述/会议概述/讨论要点}（绝不会是讨论点）把行内粗体也提成板块标题、冒号后正文回填；故意不含风险/决议/里程碑避免误伤讨论点小标题。",
       "publishedAtMs": 1780449380000
+    },
+    {
+      "version": 857,
+      "versionName": "260603-1127",
+      "userFacingChangelog": "对话最上面下拉看上一个话题，修好了。",
+      "changelog": "对话顶部下拉揭开上一个话题失效修复：Compose BOM 2024.12.01(=1.7.x) 起 NestedScrollSource.Drag 废弃改名 UserInput，用户拖动上报 UserInput，ChatScreen 顶部 reveal 的 nestedScroll onPostScroll 里  把所有真实下拉挡回 → pullAccumulator 永远累积不到 80dp 阈值 → 拉不动旧话题（提示『使劲往下拉』仍显示因为走 hasMorePreviousTopic 另一条件）。改为 UserInput（仍排除 fling=SideEffect 惯性误触）。全仓仅此一处用废弃枚举。",
+      "publishedAtMs": 1780457507000
     }
   ],
-  "publishedAtMs": 1780449380000,
+  "publishedAtMs": 1780457507000,
   "minSupported": 0
 }
