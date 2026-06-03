@@ -1,19 +1,12 @@
 {
-  "version": 868,
-  "versionName": "260603-1814",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v868/memoair-v868-260603-1814-slim.apk",
+  "version": 869,
+  "versionName": "260603-1829",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v869/memoair-v869-260603-1829-slim.apk",
   "sizeBytes": 35530656,
-  "sha256": "85d6c02ddd6208cd5cf401a40231bcaedf09beb29e39e4c1d1a0937ca2344f50",
-  "changelog": "v868：全局品牌色翻盘——Q.Warm 家族(Warm/WarmSoft/WarmDeep/WarmGlow + AnchorAccent，也是 M3 primary/primaryContainer)暖琥珀→PI黄绿；另 sed 21 处写死琥珀字面量(#C5895C/#C99868/#8E7547/#D9B985/#F5E8DA 等)→黄绿；保留 CardSig 7 卡身份签名色(撤回误伤的念念不忘 c1)、Rose/Purple/Ink/WarmFilled",
-  "userFacingChangelog": "· 全新主色调：去掉旧的暖棕，全面换成「记忆黄绿」——Tab、按钮、开机引导、各种标记都统一了",
+  "sha256": "86d6509f64d5b333c8580cd476ec34192d043b90028efc1d551f63dd55b2da5e",
+  "changelog": "v869：通用 accent(Q.Warm 家族 + AnchorAccent)从亮黄绿改深橄榄绿 #6E9A7A(微光 Shimmering.c2)——字体/细边框可读性；亮黄绿 #7CC033 保留在 Q.Memory(录制点/连续记录开关/胶囊)；内容区 4 文件残留亮绿字面量一并改橄榄",
+  "userFacingChangelog": "· 文字和细线条的绿色改深了一档（更清楚耐看），鲜亮的黄绿只留给录制相关的指示",
   "recentReleases": [
-    {
-      "version": 809,
-      "versionName": "260530-2338",
-      "userFacingChangelog": "录音胶囊和设置里的麦克风选择更准了：每次只有一个设备被选中，多了一条实时音量条——选完麦能直接看到它有没有收到声音；蓝牙麦录不到声的问题也修了。",
-      "changelog": "v809：录音设备选择重做。① 设备身份按 AudioDeviceInfo.id 修同名两行同时打勾；只枚举外接设备（内置=自动行），按 address(蓝牙MAC)→name+type 跨重连匹配。② 蓝牙无声 bug：构造 AudioRecord 前先激活 SCO 等建链≤2s，蓝牙用 VOICE_COMMUNICATION 源。③ 切设备走 ACTION_RESTART 无缝重启录音循环不停成待机。④ 胶囊短按出弹窗/长按进看板；闪烁灯外接→绿手机→红、计时数字回中性。⑤ 长按菜单+设置加实时电平条+蓝牙电量。",
-      "publishedAtMs": 1780155783000
-    },
     {
       "version": 810,
       "versionName": "260601-0948",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 全新主色调：去掉旧的暖棕，全面换成「记忆黄绿」——Tab、按钮、开机引导、各种标记都统一了",
       "changelog": "v868：全局品牌色翻盘——Q.Warm 家族(Warm/WarmSoft/WarmDeep/WarmGlow + AnchorAccent，也是 M3 primary/primaryContainer)暖琥珀→PI黄绿；另 sed 21 处写死琥珀字面量(#C5895C/#C99868/#8E7547/#D9B985/#F5E8DA 等)→黄绿；保留 CardSig 7 卡身份签名色(撤回误伤的念念不忘 c1)、Rose/Purple/Ink/WarmFilled",
       "publishedAtMs": 1780481800000
+    },
+    {
+      "version": 869,
+      "versionName": "260603-1829",
+      "userFacingChangelog": "· 文字和细线条的绿色改深了一档（更清楚耐看），鲜亮的黄绿只留给录制相关的指示",
+      "changelog": "v869：通用 accent(Q.Warm 家族 + AnchorAccent)从亮黄绿改深橄榄绿 #6E9A7A(微光 Shimmering.c2)——字体/细边框可读性；亮黄绿 #7CC033 保留在 Q.Memory(录制点/连续记录开关/胶囊)；内容区 4 文件残留亮绿字面量一并改橄榄",
+      "publishedAtMs": 1780483058000
     }
   ],
-  "publishedAtMs": 1780481800000,
+  "publishedAtMs": 1780483058000,
   "minSupported": 0
 }
