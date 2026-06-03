@@ -1,19 +1,12 @@
 {
-  "version": 864,
-  "versionName": "260603-1732",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v864/memoair-v864-260603-1732-slim.apk",
-  "sizeBytes": 35522464,
-  "sha256": "f7e44150c9b802b99af7aed8ddd3493e061f982f2b1c82e1bee5f45a25af1972",
-  "changelog": "v864：图标定稿——胶囊右端直线拉通出框（圆头移出 200 边界外），外阴影再降一档(.24→.16/.14→.09)、内底阴影 .24→.16，描边不变",
-  "userFacingChangelog": "· App 图标细节打磨：右侧线条直接拉通出框，投影更轻透",
+  "version": 865,
+  "versionName": "260603-1750",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v865/memoair-v865-260603-1750-slim.apk",
+  "sizeBytes": 35530656,
+  "sha256": "1a97c719e98048e15bebff5cc675365c681f7e7e1d84094aa418cd8e1065fe8c",
+  "changelog": "v865：图标拖影再降一档+玻璃更透(.32)+加极淡绿晕(inset 绿.13 + 背景绿晕放大到 30%/36% 峰值降.40)；抉择 SWOT 四象限可点——点框揭示「聊一聊这个点」chip，点 chip 走 ChatPrefillBus.open(autoSend=true) 跳对话引用该点+自动发问展开",
+  "userFacingChangelog": "· App 图标再打磨：投影更轻、玻璃更通透，多了一点点绿的呼吸感\n· 抉择的 SWOT 分析：点任一格（优势/劣势/机会/威胁）就能「聊一聊这个点」，一点直接跳到对话里顺着展开聊",
   "recentReleases": [
-    {
-      "version": 805,
-      "versionName": "260530-1229",
-      "userFacingChangelog": "开场动画的震动手感更细腻了。",
-      "changelog": "x832 出片振动改细碎砂感：第一段长震从稀疏大间隙(12ms+120ms≈8次/秒，过山车感)改高频密排短脉冲(9ms+16ms≈40次/秒，幅度9/255)，靠密集小间隙形成砂砂细震、单点无起伏；脱口短振不变。无 DB migration。",
-      "publishedAtMs": 1780115519000
-    },
     {
       "version": 806,
       "versionName": "260530-1320",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· App 图标细节打磨：右侧线条直接拉通出框，投影更轻透",
       "changelog": "v864：图标定稿——胶囊右端直线拉通出框（圆头移出 200 边界外），外阴影再降一档(.24→.16/.14→.09)、内底阴影 .24→.16，描边不变",
       "publishedAtMs": 1780479308000
+    },
+    {
+      "version": 865,
+      "versionName": "260603-1750",
+      "userFacingChangelog": "· App 图标再打磨：投影更轻、玻璃更通透，多了一点点绿的呼吸感\n· 抉择的 SWOT 分析：点任一格（优势/劣势/机会/威胁）就能「聊一聊这个点」，一点直接跳到对话里顺着展开聊",
+      "changelog": "v865：图标拖影再降一档+玻璃更透(.32)+加极淡绿晕(inset 绿.13 + 背景绿晕放大到 30%/36% 峰值降.40)；抉择 SWOT 四象限可点——点框揭示「聊一聊这个点」chip，点 chip 走 ChatPrefillBus.open(autoSend=true) 跳对话引用该点+自动发问展开",
+      "publishedAtMs": 1780480364000
     }
   ],
-  "publishedAtMs": 1780479308000,
+  "publishedAtMs": 1780480364000,
   "minSupported": 0
 }
