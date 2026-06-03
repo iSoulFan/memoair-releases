@@ -1,19 +1,12 @@
 {
-  "version": 879,
-  "versionName": "260603-2308",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v879/memoair-v879-260603-2308-slim.apk",
+  "version": 880,
+  "versionName": "260604-0039",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v880/memoair-v880-260604-0039-slim.apk",
   "sizeBytes": 35547320,
-  "sha256": "ef132b2f13b07d7e890360baed229c1d2c3af5e2d884cdb2851baae4e13bb37a",
-  "changelog": "v879：修对话顶部「使劲往下拉露出上一话题」拉不动——根因 Android12+ 列表 stretch overscroll 在 onPostScroll 前吃掉 leftover 位移导致父级 available.y≈0、累加器到不了阈值；改成 onPreScroll 偷看累积(return Zero 不消费不破坏滚动/fling，仅 atTop+UserInput+available.y>0 计数，反向/离顶归零)，阈值 80→60dp",
-  "userFacingChangelog": "· 修好了对话顶部「使劲往下拉」露出上一个话题拉不动的问题",
+  "sha256": "7cffbc3d3660a4b29d662db1808a7c898d4dc37b87aff17760030f5e205934ae",
+  "changelog": "v880：修对话下拉露出上一话题真因——揭开协程(ChatScreen ~1653)的 pivot 链漏了 defaultPreviousTopic，跟 hasMorePreviousTopic(~1612)不一致，导致首次下拉 previousTopicBefore(当前话题)=已默认露出的那条上一话题，屏幕无新内容、体感拉不动。补 defaultPreviousTopic?.topic 让首拉从上上一条开始",
+  "userFacingChangelog": "· 修好了对话顶部下拉露出更早话题不生效的问题（之前下拉揭开的是已经显示着的那条）",
   "recentReleases": [
-    {
-      "version": 816,
-      "versionName": "260601-1129",
-      "userFacingChangelog": "细节打磨。",
-      "changelog": "v816：录音胶囊收回动画换很快的 spring（刚度 2400/2600 无回弹）。含 v814/815 累积：调试转写流加当前输入设备权威读数、胶囊计时显示更快纠正实际录音设备。",
-      "publishedAtMs": 1780284865000
-    },
     {
       "version": 817,
       "versionName": "260601-1209",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 修好了对话顶部「使劲往下拉」露出上一个话题拉不动的问题",
       "changelog": "v879：修对话顶部「使劲往下拉露出上一话题」拉不动——根因 Android12+ 列表 stretch overscroll 在 onPostScroll 前吃掉 leftover 位移导致父级 available.y≈0、累加器到不了阈值；改成 onPreScroll 偷看累积(return Zero 不消费不破坏滚动/fling，仅 atTop+UserInput+available.y>0 计数，反向/离顶归零)，阈值 80→60dp",
       "publishedAtMs": 1780499861000
+    },
+    {
+      "version": 880,
+      "versionName": "260604-0039",
+      "userFacingChangelog": "· 修好了对话顶部下拉露出更早话题不生效的问题（之前下拉揭开的是已经显示着的那条）",
+      "changelog": "v880：修对话下拉露出上一话题真因——揭开协程(ChatScreen ~1653)的 pivot 链漏了 defaultPreviousTopic，跟 hasMorePreviousTopic(~1612)不一致，导致首次下拉 previousTopicBefore(当前话题)=已默认露出的那条上一话题，屏幕无新内容、体感拉不动。补 defaultPreviousTopic?.topic 让首拉从上上一条开始",
+      "publishedAtMs": 1780504958000
     }
   ],
-  "publishedAtMs": 1780499861000,
+  "publishedAtMs": 1780504958000,
   "minSupported": 0
 }
