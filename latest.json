@@ -1,19 +1,12 @@
 {
-  "version": 865,
-  "versionName": "260603-1750",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v865/memoair-v865-260603-1750-slim.apk",
+  "version": 866,
+  "versionName": "260603-1754",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v866/memoair-v866-260603-1754-slim.apk",
   "sizeBytes": 35530656,
-  "sha256": "1a97c719e98048e15bebff5cc675365c681f7e7e1d84094aa418cd8e1065fe8c",
-  "changelog": "v865：图标拖影再降一档+玻璃更透(.32)+加极淡绿晕(inset 绿.13 + 背景绿晕放大到 30%/36% 峰值降.40)；抉择 SWOT 四象限可点——点框揭示「聊一聊这个点」chip，点 chip 走 ChatPrefillBus.open(autoSend=true) 跳对话引用该点+自动发问展开",
-  "userFacingChangelog": "· App 图标再打磨：投影更轻、玻璃更通透，多了一点点绿的呼吸感\n· 抉择的 SWOT 分析：点任一格（优势/劣势/机会/威胁）就能「聊一聊这个点」，一点直接跳到对话里顺着展开聊",
+  "sha256": "ede9a34ad12572d23b713b4b2c3ff0cc5f3241ae7ac3ba2ca2c23848b1743098",
+  "changelog": "v866：待办详情「来源」去掉折叠按钮（删 sourceExpanded 状态 + 「来源 ›」可点 chip），改为常驻显示——小标「来源」+ 下方完整引文直接展开",
+  "userFacingChangelog": "· 待办详情里的「来源」不用再点开了，直接显示出处",
   "recentReleases": [
-    {
-      "version": 806,
-      "versionName": "260530-1320",
-      "userFacingChangelog": "桌面小部件的拾梦相片调整了：早上你看冲印动画之前，小部件先挂着昨天的相片；等你看过今天的动画、相片揭晓后，它才换成今天的——不会被小部件提前剧透。",
-      "changelog": "x833 时光小部件防剧透：Today 模式不再直接显示今天新生成的拾梦相片(会在看冲印动画前剧透)，改为按 DailyPrintGate.seenId 显示「动画已揭晓的最新那天」的相片(看动画前=昨天那天的 1-N 张，看完今天动画后 onAnimationDone markSeen+broadcastRefresh 才切今天)；新增 newestRevealedReportDate helper；4×4 继承 2×2 共用逻辑自动覆盖。无 DB migration。",
-      "publishedAtMs": 1780118625000
-    },
     {
       "version": 807,
       "versionName": "260530-2209",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· App 图标再打磨：投影更轻、玻璃更通透，多了一点点绿的呼吸感\n· 抉择的 SWOT 分析：点任一格（优势/劣势/机会/威胁）就能「聊一聊这个点」，一点直接跳到对话里顺着展开聊",
       "changelog": "v865：图标拖影再降一档+玻璃更透(.32)+加极淡绿晕(inset 绿.13 + 背景绿晕放大到 30%/36% 峰值降.40)；抉择 SWOT 四象限可点——点框揭示「聊一聊这个点」chip，点 chip 走 ChatPrefillBus.open(autoSend=true) 跳对话引用该点+自动发问展开",
       "publishedAtMs": 1780480364000
+    },
+    {
+      "version": 866,
+      "versionName": "260603-1754",
+      "userFacingChangelog": "· 待办详情里的「来源」不用再点开了，直接显示出处",
+      "changelog": "v866：待办详情「来源」去掉折叠按钮（删 sourceExpanded 状态 + 「来源 ›」可点 chip），改为常驻显示——小标「来源」+ 下方完整引文直接展开",
+      "publishedAtMs": 1780480656000
     }
   ],
-  "publishedAtMs": 1780480364000,
+  "publishedAtMs": 1780480656000,
   "minSupported": 0
 }
