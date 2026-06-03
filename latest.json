@@ -1,19 +1,12 @@
 {
-  "version": 866,
-  "versionName": "260603-1754",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v866/memoair-v866-260603-1754-slim.apk",
+  "version": 867,
+  "versionName": "260603-1802",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v867/memoair-v867-260603-1802-slim.apk",
   "sizeBytes": 35530656,
-  "sha256": "ede9a34ad12572d23b713b4b2c3ff0cc5f3241ae7ac3ba2ca2c23848b1743098",
-  "changelog": "v866：待办详情「来源」去掉折叠按钮（删 sourceExpanded 状态 + 「来源 ›」可点 chip），改为常驻显示——小标「来源」+ 下方完整引文直接展开",
-  "userFacingChangelog": "· 待办详情里的「来源」不用再点开了，直接显示出处",
+  "sha256": "12928540c03c5192346848bb22f823c63a375a78b683b211d72898efaa16b2c8",
+  "changelog": "v867：待办来源改为跟随整条 expanded——折叠时不显示来源（保持原样），展开后才显示「来源」小标+引文（修改/删除本就在 expanded 区）",
+  "userFacingChangelog": "· 待办折叠时保持清爽，点开整条后才显示来源和修改/删除",
   "recentReleases": [
-    {
-      "version": 807,
-      "versionName": "260530-2209",
-      "userFacingChangelog": "现在可以在「设置 → 录音 → 麦克风来源」里选用蓝牙 / USB 外接麦克风来录音了。",
-      "changelog": "v807：新增「麦克风来源」录音输入设备选择（设置→录音）。AudioInputDevices 枚举 GET_DEVICES_INPUTS；RecordingService.applyPreferredInput 对选定设备 setPreferredDevice，蓝牙额外 setCommunicationDevice(API31+)/startBluetoothSco 激活 SCO + 收尾对称释放；默认「自动」=系统默认内置麦，行为不变。opt-in 不影响既有用户。",
-      "publishedAtMs": 1780150335000
-    },
     {
       "version": 808,
       "versionName": "260530-2232",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 待办详情里的「来源」不用再点开了，直接显示出处",
       "changelog": "v866：待办详情「来源」去掉折叠按钮（删 sourceExpanded 状态 + 「来源 ›」可点 chip），改为常驻显示——小标「来源」+ 下方完整引文直接展开",
       "publishedAtMs": 1780480656000
+    },
+    {
+      "version": 867,
+      "versionName": "260603-1802",
+      "userFacingChangelog": "· 待办折叠时保持清爽，点开整条后才显示来源和修改/删除",
+      "changelog": "v867：待办来源改为跟随整条 expanded——折叠时不显示来源（保持原样），展开后才显示「来源」小标+引文（修改/删除本就在 expanded 区）",
+      "publishedAtMs": 1780481092000
     }
   ],
-  "publishedAtMs": 1780480656000,
+  "publishedAtMs": 1780481092000,
   "minSupported": 0
 }
