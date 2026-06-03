@@ -1,19 +1,12 @@
 {
-  "version": 876,
-  "versionName": "260603-2012",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v876/memoair-v876-260603-2012-slim.apk",
+  "version": 877,
+  "versionName": "260603-2047",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v877/memoair-v877-260603-2047-slim.apk",
   "sizeBytes": 35547320,
-  "sha256": "c0f0a425a8bcd4f8d513e7bfb93772e002f2f039637cb8472def941a56958e5c",
-  "changelog": "v876：心愿板块 accent 统一 Q.WishPurpleDeep 深紫(kicker/左竖条/WishPlanInline标题/WishPlanSheet答题页/已兑现)，卡片背景仍 per-emoji wishTint 淡彩(根因:之前 accent 走 per-emoji deep 碰绿系 emoji 落橄榄绿)；待办 TodoRow 右键日历缩小34→30dp，dueAt!=null 时切 🔔/🔕 reminder 开关(默认开,点切 setTodoReminderEnabled+schedule/cancel)，改时间仍走 due chip",
-  "userFacingChangelog": "· 心愿板块统一了深紫主题色，卡片还是按心愿各自的淡彩\n· 待办设了时间后，右边变成闹钟开关（默认到点提醒，点一下静音）；改时间点下面的时间标",
+  "sha256": "bff5b970a5d2ce5904d94ec0a427f6c4733ee7eb9dcde6051a507487c6cea230",
+  "changelog": "v877：录音胶囊磨砂降白(glassBg light 0.82→0.60/dark 0.82→0.72，topHighlight 0.45→0.30)；待办闹钟关态也用 🔔(去掉 🔕)只靠颜色区分(开 Warm 高亮/关 InkFaint 灰)；撤回 x831「录音」组折叠，恢复平铺常显 + 自渲染「录音」标题",
+  "userFacingChangelog": "· 右上角录音胶囊不那么白了，更透\n· 待办的提醒铃铛关掉后还是铃铛图标（只是变灰），不再换成静音图标\n· 设置里「录音」恢复成平铺，不用点开",
   "recentReleases": [
-    {
-      "version": 811,
-      "versionName": "260601-1001",
-      "userFacingChangelog": "细节优化与稳定性提升。",
-      "changelog": "v811：蓝牙麦录不到声诊断。ActiveInput 加 routedType；蓝牙通道区下加诊断行「选中 <type> → 实录 <type>」(AudioInputDevices.typeName)。用于定位三通道全静音：实录=内置麦→系统拒绝路由到该设备(只能走USB接收器)；实录=蓝牙SCO/LE但电平条不动→链路通但设备未出声(需 MODE_IN_COMMUNICATION/SCO广播态等更强SCO建链)。诊断结论决定下一步，不再盲猜。",
-      "publishedAtMs": 1780279447000
-    },
     {
       "version": 812,
       "versionName": "260601-1027",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 心愿板块统一了深紫主题色，卡片还是按心愿各自的淡彩\n· 待办设了时间后，右边变成闹钟开关（默认到点提醒，点一下静音）；改时间点下面的时间标",
       "changelog": "v876：心愿板块 accent 统一 Q.WishPurpleDeep 深紫(kicker/左竖条/WishPlanInline标题/WishPlanSheet答题页/已兑现)，卡片背景仍 per-emoji wishTint 淡彩(根因:之前 accent 走 per-emoji deep 碰绿系 emoji 落橄榄绿)；待办 TodoRow 右键日历缩小34→30dp，dueAt!=null 时切 🔔/🔕 reminder 开关(默认开,点切 setTodoReminderEnabled+schedule/cancel)，改时间仍走 due chip",
       "publishedAtMs": 1780490077000
+    },
+    {
+      "version": 877,
+      "versionName": "260603-2047",
+      "userFacingChangelog": "· 右上角录音胶囊不那么白了，更透\n· 待办的提醒铃铛关掉后还是铃铛图标（只是变灰），不再换成静音图标\n· 设置里「录音」恢复成平铺，不用点开",
+      "changelog": "v877：录音胶囊磨砂降白(glassBg light 0.82→0.60/dark 0.82→0.72，topHighlight 0.45→0.30)；待办闹钟关态也用 🔔(去掉 🔕)只靠颜色区分(开 Warm 高亮/关 InkFaint 灰)；撤回 x831「录音」组折叠，恢复平铺常显 + 自渲染「录音」标题",
+      "publishedAtMs": 1780494564000
     }
   ],
-  "publishedAtMs": 1780490077000,
+  "publishedAtMs": 1780494564000,
   "minSupported": 0
 }
