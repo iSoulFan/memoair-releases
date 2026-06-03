@@ -1,19 +1,12 @@
 {
-  "version": 858,
-  "versionName": "260603-1212",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v858/memoair-v858-260603-1212-slim.apk",
-  "sizeBytes": 35690400,
-  "sha256": "7219892ae09d9005eb0f2a7f7c615b5cfa12aa184e4cb227d3712efb4f89be36",
-  "changelog": "旁听(overheard)纪要待办渲染成『圆圈+加号』待添加样式：数据侧 staged 暂存机制本就存在(category==overheard → buildTodos staged=true，observeByMeeting 不滤 staged 所以卡里能显示，但之前渲染成普通勾选框 + 点击走 setTodoDone)。MeetingDetailContent 加 onAddStagedTodo 回调 + 待办行按 t.staged 分支：staged → 圆圈(999dp)+ Q.Warm 描边 + 加号，点击 repo.setTodoStaged(id,false) 转正进待办；非 staged 维持原勾选框。分享图 forImage 默认 null 不可点、静态显示加号。",
-  "userFacingChangelog": "旁听的会议纪要里，待办前面变成『加号』样式——点一下才加进你的待办，不会自动塞进去。",
+  "version": 863,
+  "versionName": "260603-1712",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v863/memoair-v863-260603-1712-slim.apk",
+  "sizeBytes": 35559328,
+  "sha256": "46f41a8255acb159c9cf5e9ecf0a6723aeea0db163fddcb52ff7276ef06c6597",
+  "changelog": "v863：新 App 图标（白磨砂胶囊+黄绿录制点）替换正式版 launcher；立品牌色 Q.Memory 黄绿(亮#7CC033/暗#A6D85E)，胶囊录制态/麦克风态/QuietToggle 开态统一收口；抉择加待办去划线误导态+✓可点取消；移除待办拆成步骤；人生来信补[我]/[他人]主体铁律对齐微光，修主语错置",
+  "userFacingChangelog": "· 焕新 App 图标，定调「记忆黄绿」主色调\n· 抉择卡「加进待办」不再显示成划掉的「已完成」样子，点错了再点一下就能取消\n· 记录相关的配色统一成更清爽的黄绿",
   "recentReleases": [
-    {
-      "version": 803,
-      "versionName": "260530-1121",
-      "userFacingChangelog": "修了几个小问题，开场动画和顶部显示更稳了。",
-      "changelog": "x832 三修：①第一段长震改极淡间歇脉冲(马达下限用间隙换更轻体感)；②修对话/时光顶部状态栏白条——x832 的状态栏冻结(consume+padding)改成仅动画播放时生效，平时边到边让高斯模糊额头盖住状态栏；③修切系统黑暗模式重放调试预设图——DebugPrintTrigger.consume 一次性消费 tick(Activity 重建不重放)，并删除随机预设图 makeDebugPrintImage(本不该存在)。无 DB migration。",
-      "publishedAtMs": 1780112101000
-    },
     {
       "version": 804,
       "versionName": "260530-1218",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "旁听的会议纪要里，待办前面变成『加号』样式——点一下才加进你的待办，不会自动塞进去。",
       "changelog": "旁听(overheard)纪要待办渲染成『圆圈+加号』待添加样式：数据侧 staged 暂存机制本就存在(category==overheard → buildTodos staged=true，observeByMeeting 不滤 staged 所以卡里能显示，但之前渲染成普通勾选框 + 点击走 setTodoDone)。MeetingDetailContent 加 onAddStagedTodo 回调 + 待办行按 t.staged 分支：staged → 圆圈(999dp)+ Q.Warm 描边 + 加号，点击 repo.setTodoStaged(id,false) 转正进待办；非 staged 维持原勾选框。分享图 forImage 默认 null 不可点、静态显示加号。",
       "publishedAtMs": 1780460068000
+    },
+    {
+      "version": 863,
+      "versionName": "260603-1712",
+      "userFacingChangelog": "· 焕新 App 图标，定调「记忆黄绿」主色调\n· 抉择卡「加进待办」不再显示成划掉的「已完成」样子，点错了再点一下就能取消\n· 记录相关的配色统一成更清爽的黄绿",
+      "changelog": "v863：新 App 图标（白磨砂胶囊+黄绿录制点）替换正式版 launcher；立品牌色 Q.Memory 黄绿(亮#7CC033/暗#A6D85E)，胶囊录制态/麦克风态/QuietToggle 开态统一收口；抉择加待办去划线误导态+✓可点取消；移除待办拆成步骤；人生来信补[我]/[他人]主体铁律对齐微光，修主语错置",
+      "publishedAtMs": 1780478393000
     }
   ],
-  "publishedAtMs": 1780460068000,
+  "publishedAtMs": 1780478393000,
   "minSupported": 0
 }
