@@ -1,19 +1,12 @@
 {
-  "version": 863,
-  "versionName": "260603-1712",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v863/memoair-v863-260603-1712-slim.apk",
-  "sizeBytes": 35559328,
-  "sha256": "46f41a8255acb159c9cf5e9ecf0a6723aeea0db163fddcb52ff7276ef06c6597",
-  "changelog": "v863：新 App 图标（白磨砂胶囊+黄绿录制点）替换正式版 launcher；立品牌色 Q.Memory 黄绿(亮#7CC033/暗#A6D85E)，胶囊录制态/麦克风态/QuietToggle 开态统一收口；抉择加待办去划线误导态+✓可点取消；移除待办拆成步骤；人生来信补[我]/[他人]主体铁律对齐微光，修主语错置",
-  "userFacingChangelog": "· 焕新 App 图标，定调「记忆黄绿」主色调\n· 抉择卡「加进待办」不再显示成划掉的「已完成」样子，点错了再点一下就能取消\n· 记录相关的配色统一成更清爽的黄绿",
+  "version": 864,
+  "versionName": "260603-1732",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v864/memoair-v864-260603-1732-slim.apk",
+  "sizeBytes": 35522464,
+  "sha256": "f7e44150c9b802b99af7aed8ddd3493e061f982f2b1c82e1bee5f45a25af1972",
+  "changelog": "v864：图标定稿——胶囊右端直线拉通出框（圆头移出 200 边界外），外阴影再降一档(.24→.16/.14→.09)、内底阴影 .24→.16，描边不变",
+  "userFacingChangelog": "· App 图标细节打磨：右侧线条直接拉通出框，投影更轻透",
   "recentReleases": [
-    {
-      "version": 804,
-      "versionName": "260530-1218",
-      "userFacingChangelog": "开场动画收尾更顺滑了。",
-      "changelog": "x832 开场动画出场补偿：关闭动画时 printCard 立刻清空但状态栏异步恢复会上跳一帧——加 printExiting，dismiss/tap 时保持冻结 360ms(覆盖状态栏恢复)再撤，与进场 320ms 补偿对称，去掉关闭瞬间一帧上跳。无 DB migration。",
-      "publishedAtMs": 1780114857000
-    },
     {
       "version": 805,
       "versionName": "260530-1229",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 焕新 App 图标，定调「记忆黄绿」主色调\n· 抉择卡「加进待办」不再显示成划掉的「已完成」样子，点错了再点一下就能取消\n· 记录相关的配色统一成更清爽的黄绿",
       "changelog": "v863：新 App 图标（白磨砂胶囊+黄绿录制点）替换正式版 launcher；立品牌色 Q.Memory 黄绿(亮#7CC033/暗#A6D85E)，胶囊录制态/麦克风态/QuietToggle 开态统一收口；抉择加待办去划线误导态+✓可点取消；移除待办拆成步骤；人生来信补[我]/[他人]主体铁律对齐微光，修主语错置",
       "publishedAtMs": 1780478393000
+    },
+    {
+      "version": 864,
+      "versionName": "260603-1732",
+      "userFacingChangelog": "· App 图标细节打磨：右侧线条直接拉通出框，投影更轻透",
+      "changelog": "v864：图标定稿——胶囊右端直线拉通出框（圆头移出 200 边界外），外阴影再降一档(.24→.16/.14→.09)、内底阴影 .24→.16，描边不变",
+      "publishedAtMs": 1780479308000
     }
   ],
-  "publishedAtMs": 1780478393000,
+  "publishedAtMs": 1780479308000,
   "minSupported": 0
 }
