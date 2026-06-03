@@ -1,19 +1,12 @@
 {
-  "version": 881,
-  "versionName": "260604-0221",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v881/memoair-v881-260604-0221-slim.apk",
+  "version": 882,
+  "versionName": "260604-0308",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v882/memoair-v882-260604-0308-slim.apk",
   "sizeBytes": 35551416,
-  "sha256": "dc8f567f899d6f79a2dce318877f5df70adce8e7f3c5c4475696301540955193",
-  "changelog": "v881：① 纪要列表/详情最新条目缺时间段——根因本session改 meeting_minutes.txt 时写了'时间不用写进markdown'，新纪要正文没HH:mm→eventTimeRangeLabel返null→回退单点；改 prompt 让每段第二行写'时间：HH:mm–HH:mm'(stripMeetingHeader 已含'时间'前缀会剥掉不重复)，仅影响新纪要。② 设置展开项滚出屏幕收起不对称——旧 onGloballyPositioned 依赖header未dispose、两向时机不同；改 SettingsScreen snapshotFlow 监听 visibleItemsInfo 的 key(顶层 item 加 key=sec:stateKey)，openId 对应 key 离开可视区(任一方向)即 setOpen(false)，防空 layoutInfo/tab切换误收，移除旧 overlap 逻辑",
-  "userFacingChangelog": "· 设置里展开的项，不管往上还是往下滑出屏幕，现在都会自动收起了\n· 纪要的时间段显示修好了（新生成的纪要会带完整时间段）",
+  "sha256": "dc0f61c66682d93a365d36b78fcfc957bf0c5cafd3df9dd97a77cd4010647795",
+  "changelog": "v882：全 App 用户可见文案清除「录音」二字（反词典硬规则延伸到所有 UI）——18 文件约 50 处，动作/状态/板块→记录、权限→麦克风权限；含 owner 点名的胶囊隐私时段「没在录音→没在记录」、设置 section 标题「录音→记录」、常驻通知/StatsDashboard/RecordingState.Error/备份标签等；代码标识符/注释/给 LLM 的 prompt 一律不动",
+  "userFacingChangelog": "· App 里不再出现「录音」字样，统一成「记录」（胶囊、设置、通知等处都已统一）",
   "recentReleases": [
-    {
-      "version": 818,
-      "versionName": "260601-1333",
-      "userFacingChangelog": "内容很少的那天，记得会在对话里轻轻跟你说一声、提醒你多记点，而不是硬凑一张照片。",
-      "changelog": "v818：承接 v817——内容不足那天跳过出图/日报后，在「对话」补一条温馨说明消息（昨天大概说了几段几字、为什么没出图、🌱 鼓励多记），每天最多一条。",
-      "publishedAtMs": 1780292260000
-    },
     {
       "version": 819,
       "versionName": "260601-1822",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 设置里展开的项，不管往上还是往下滑出屏幕，现在都会自动收起了\n· 纪要的时间段显示修好了（新生成的纪要会带完整时间段）",
       "changelog": "v881：① 纪要列表/详情最新条目缺时间段——根因本session改 meeting_minutes.txt 时写了'时间不用写进markdown'，新纪要正文没HH:mm→eventTimeRangeLabel返null→回退单点；改 prompt 让每段第二行写'时间：HH:mm–HH:mm'(stripMeetingHeader 已含'时间'前缀会剥掉不重复)，仅影响新纪要。② 设置展开项滚出屏幕收起不对称——旧 onGloballyPositioned 依赖header未dispose、两向时机不同；改 SettingsScreen snapshotFlow 监听 visibleItemsInfo 的 key(顶层 item 加 key=sec:stateKey)，openId 对应 key 离开可视区(任一方向)即 setOpen(false)，防空 layoutInfo/tab切换误收，移除旧 overlap 逻辑",
       "publishedAtMs": 1780511062000
+    },
+    {
+      "version": 882,
+      "versionName": "260604-0308",
+      "userFacingChangelog": "· App 里不再出现「录音」字样，统一成「记录」（胶囊、设置、通知等处都已统一）",
+      "changelog": "v882：全 App 用户可见文案清除「录音」二字（反词典硬规则延伸到所有 UI）——18 文件约 50 处，动作/状态/板块→记录、权限→麦克风权限；含 owner 点名的胶囊隐私时段「没在录音→没在记录」、设置 section 标题「录音→记录」、常驻通知/StatsDashboard/RecordingState.Error/备份标签等；代码标识符/注释/给 LLM 的 prompt 一律不动",
+      "publishedAtMs": 1780514023000
     }
   ],
-  "publishedAtMs": 1780511062000,
+  "publishedAtMs": 1780514023000,
   "minSupported": 0
 }
