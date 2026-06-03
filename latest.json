@@ -1,19 +1,12 @@
 {
-  "version": 867,
-  "versionName": "260603-1802",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v867/memoair-v867-260603-1802-slim.apk",
+  "version": 868,
+  "versionName": "260603-1814",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v868/memoair-v868-260603-1814-slim.apk",
   "sizeBytes": 35530656,
-  "sha256": "12928540c03c5192346848bb22f823c63a375a78b683b211d72898efaa16b2c8",
-  "changelog": "v867：待办来源改为跟随整条 expanded——折叠时不显示来源（保持原样），展开后才显示「来源」小标+引文（修改/删除本就在 expanded 区）",
-  "userFacingChangelog": "· 待办折叠时保持清爽，点开整条后才显示来源和修改/删除",
+  "sha256": "85d6c02ddd6208cd5cf401a40231bcaedf09beb29e39e4c1d1a0937ca2344f50",
+  "changelog": "v868：全局品牌色翻盘——Q.Warm 家族(Warm/WarmSoft/WarmDeep/WarmGlow + AnchorAccent，也是 M3 primary/primaryContainer)暖琥珀→PI黄绿；另 sed 21 处写死琥珀字面量(#C5895C/#C99868/#8E7547/#D9B985/#F5E8DA 等)→黄绿；保留 CardSig 7 卡身份签名色(撤回误伤的念念不忘 c1)、Rose/Purple/Ink/WarmFilled",
+  "userFacingChangelog": "· 全新主色调：去掉旧的暖棕，全面换成「记忆黄绿」——Tab、按钮、开机引导、各种标记都统一了",
   "recentReleases": [
-    {
-      "version": 808,
-      "versionName": "260530-2232",
-      "userFacingChangelog": "录音胶囊长按可直接切换麦克风了：用外接麦时计时数字变绿、手机麦时变红，一眼看出正在用哪个麦。",
-      "changelog": "v808：录音设备路由真实化 + 胶囊设备指示。RecordingService 读 AudioRecord.routedDevice 上报 RecordingController.activeInput（真实设备而非用户意图）；蓝牙路由改 setCommunicationDevice/SCO 建链后轮询≤2s 再 setPreferredDevice，收尾对称释放；每段开头刷新 routedDevice 纠正显示。录音胶囊：计时数字外接麦→绿/手机麦→红；长按菜单顶部加「录音设备」切换区（emoji + ✓选中 + 绿点·使用中实时标注）。",
-      "publishedAtMs": 1780151705000
-    },
     {
       "version": 809,
       "versionName": "260530-2338",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 待办折叠时保持清爽，点开整条后才显示来源和修改/删除",
       "changelog": "v867：待办来源改为跟随整条 expanded——折叠时不显示来源（保持原样），展开后才显示「来源」小标+引文（修改/删除本就在 expanded 区）",
       "publishedAtMs": 1780481092000
+    },
+    {
+      "version": 868,
+      "versionName": "260603-1814",
+      "userFacingChangelog": "· 全新主色调：去掉旧的暖棕，全面换成「记忆黄绿」——Tab、按钮、开机引导、各种标记都统一了",
+      "changelog": "v868：全局品牌色翻盘——Q.Warm 家族(Warm/WarmSoft/WarmDeep/WarmGlow + AnchorAccent，也是 M3 primary/primaryContainer)暖琥珀→PI黄绿；另 sed 21 处写死琥珀字面量(#C5895C/#C99868/#8E7547/#D9B985/#F5E8DA 等)→黄绿；保留 CardSig 7 卡身份签名色(撤回误伤的念念不忘 c1)、Rose/Purple/Ink/WarmFilled",
+      "publishedAtMs": 1780481800000
     }
   ],
-  "publishedAtMs": 1780481092000,
+  "publishedAtMs": 1780481800000,
   "minSupported": 0
 }
