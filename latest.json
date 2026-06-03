@@ -1,19 +1,12 @@
 {
-  "version": 878,
-  "versionName": "260603-2158",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v878/memoair-v878-260603-2158-slim.apk",
+  "version": 879,
+  "versionName": "260603-2308",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v879/memoair-v879-260603-2308-slim.apk",
   "sizeBytes": 35547320,
-  "sha256": "4f7090354e1a051c77d013091538da194efa20674f54474f22b72b78189cb54b",
-  "changelog": "v878：设置「录音」组顶部非section项(标题+记得AI眼镜/搭子+连续记录模式)包进 dimAsExpandableGroupMember 被动dim，展开别的顶层section时跟着淡到0.28，子section留在dim Column外避v820卡淡态；OTA升级弹窗 OtaInstallConfirmDialog 标题+「现在更新」按钮改 Q.Memory 品牌绿(按钮深字#1A2010)",
-  "userFacingChangelog": "· 设置里展开某一项时，录音那几个选项也会跟着淡下去，焦点更清楚\n· 新版本升级提示换上了品牌绿",
+  "sha256": "ef132b2f13b07d7e890360baed229c1d2c3af5e2d884cdb2851baae4e13bb37a",
+  "changelog": "v879：修对话顶部「使劲往下拉露出上一话题」拉不动——根因 Android12+ 列表 stretch overscroll 在 onPostScroll 前吃掉 leftover 位移导致父级 available.y≈0、累加器到不了阈值；改成 onPreScroll 偷看累积(return Zero 不消费不破坏滚动/fling，仅 atTop+UserInput+available.y>0 计数，反向/离顶归零)，阈值 80→60dp",
+  "userFacingChangelog": "· 修好了对话顶部「使劲往下拉」露出上一个话题拉不动的问题",
   "recentReleases": [
-    {
-      "version": 813,
-      "versionName": "260601-1040",
-      "userFacingChangelog": "新增「对话人设」预设：设置→对话人设 里一键套用温暖知己/毒舌损友/理性顾问等风格，也能把自己调好的设定存成专属人设、随时切换。",
-      "changelog": "v813：蓝牙麦 SCO 强建链（老接口 startBluetoothSco 主动拉起 + 等 SCO_AUDIO_STATE_CONNECTED 广播）+ 诊断行加 SCO 连接态；对话人设预设（6 内置 + 自定义 CRUD，org.json 持久化，设置→对话人设 顶部药丸选择+保存+删除）。",
-      "publishedAtMs": 1780282271000
-    },
     {
       "version": 816,
       "versionName": "260601-1129",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 设置里展开某一项时，录音那几个选项也会跟着淡下去，焦点更清楚\n· 新版本升级提示换上了品牌绿",
       "changelog": "v878：设置「录音」组顶部非section项(标题+记得AI眼镜/搭子+连续记录模式)包进 dimAsExpandableGroupMember 被动dim，展开别的顶层section时跟着淡到0.28，子section留在dim Column外避v820卡淡态；OTA升级弹窗 OtaInstallConfirmDialog 标题+「现在更新」按钮改 Q.Memory 品牌绿(按钮深字#1A2010)",
       "publishedAtMs": 1780496505000
+    },
+    {
+      "version": 879,
+      "versionName": "260603-2308",
+      "userFacingChangelog": "· 修好了对话顶部「使劲往下拉」露出上一个话题拉不动的问题",
+      "changelog": "v879：修对话顶部「使劲往下拉露出上一话题」拉不动——根因 Android12+ 列表 stretch overscroll 在 onPostScroll 前吃掉 leftover 位移导致父级 available.y≈0、累加器到不了阈值；改成 onPreScroll 偷看累积(return Zero 不消费不破坏滚动/fling，仅 atTop+UserInput+available.y>0 计数，反向/离顶归零)，阈值 80→60dp",
+      "publishedAtMs": 1780499861000
     }
   ],
-  "publishedAtMs": 1780496505000,
+  "publishedAtMs": 1780499861000,
   "minSupported": 0
 }
