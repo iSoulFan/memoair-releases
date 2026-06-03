@@ -1,19 +1,12 @@
 {
-  "version": 877,
-  "versionName": "260603-2047",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v877/memoair-v877-260603-2047-slim.apk",
+  "version": 878,
+  "versionName": "260603-2158",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v878/memoair-v878-260603-2158-slim.apk",
   "sizeBytes": 35547320,
-  "sha256": "bff5b970a5d2ce5904d94ec0a427f6c4733ee7eb9dcde6051a507487c6cea230",
-  "changelog": "v877：录音胶囊磨砂降白(glassBg light 0.82→0.60/dark 0.82→0.72，topHighlight 0.45→0.30)；待办闹钟关态也用 🔔(去掉 🔕)只靠颜色区分(开 Warm 高亮/关 InkFaint 灰)；撤回 x831「录音」组折叠，恢复平铺常显 + 自渲染「录音」标题",
-  "userFacingChangelog": "· 右上角录音胶囊不那么白了，更透\n· 待办的提醒铃铛关掉后还是铃铛图标（只是变灰），不再换成静音图标\n· 设置里「录音」恢复成平铺，不用点开",
+  "sha256": "4f7090354e1a051c77d013091538da194efa20674f54474f22b72b78189cb54b",
+  "changelog": "v878：设置「录音」组顶部非section项(标题+记得AI眼镜/搭子+连续记录模式)包进 dimAsExpandableGroupMember 被动dim，展开别的顶层section时跟着淡到0.28，子section留在dim Column外避v820卡淡态；OTA升级弹窗 OtaInstallConfirmDialog 标题+「现在更新」按钮改 Q.Memory 品牌绿(按钮深字#1A2010)",
+  "userFacingChangelog": "· 设置里展开某一项时，录音那几个选项也会跟着淡下去，焦点更清楚\n· 新版本升级提示换上了品牌绿",
   "recentReleases": [
-    {
-      "version": 812,
-      "versionName": "260601-1027",
-      "userFacingChangelog": "蓝牙麦克风兼容性优化。",
-      "changelog": "v812：蓝牙麦SCO链路通但无声修复。诊断确认 routedDevice=蓝牙SCO 但电平静音——缺 MODE_IN_COMMUNICATION。activateScoFor 现在先存 savedAudioMode 再切 am.mode=MODE_IN_COMMUNICATION 才起 SCO/setCommunicationDevice，建链后多 delay 500ms 结算再开 AudioRecord；releaseScoIfActive 恢复 mode。加 MODIFY_AUDIO_SETTINGS 权限。这是豆包能录/微信不能录的真实差异（切没切通讯模式）。蓝牙通道 0识别/1通话 都受益，建议优先试通话。",
-      "publishedAtMs": 1780281040000
-    },
     {
       "version": 813,
       "versionName": "260601-1040",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 右上角录音胶囊不那么白了，更透\n· 待办的提醒铃铛关掉后还是铃铛图标（只是变灰），不再换成静音图标\n· 设置里「录音」恢复成平铺，不用点开",
       "changelog": "v877：录音胶囊磨砂降白(glassBg light 0.82→0.60/dark 0.82→0.72，topHighlight 0.45→0.30)；待办闹钟关态也用 🔔(去掉 🔕)只靠颜色区分(开 Warm 高亮/关 InkFaint 灰)；撤回 x831「录音」组折叠，恢复平铺常显 + 自渲染「录音」标题",
       "publishedAtMs": 1780494564000
+    },
+    {
+      "version": 878,
+      "versionName": "260603-2158",
+      "userFacingChangelog": "· 设置里展开某一项时，录音那几个选项也会跟着淡下去，焦点更清楚\n· 新版本升级提示换上了品牌绿",
+      "changelog": "v878：设置「录音」组顶部非section项(标题+记得AI眼镜/搭子+连续记录模式)包进 dimAsExpandableGroupMember 被动dim，展开别的顶层section时跟着淡到0.28，子section留在dim Column外避v820卡淡态；OTA升级弹窗 OtaInstallConfirmDialog 标题+「现在更新」按钮改 Q.Memory 品牌绿(按钮深字#1A2010)",
+      "publishedAtMs": 1780496505000
     }
   ],
-  "publishedAtMs": 1780494564000,
+  "publishedAtMs": 1780496505000,
   "minSupported": 0
 }
