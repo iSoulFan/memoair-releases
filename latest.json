@@ -1,19 +1,12 @@
 {
-  "version": 857,
-  "versionName": "260603-1127",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v857/memoair-v857-260603-1127-slim.apk",
+  "version": 858,
+  "versionName": "260603-1212",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v858/memoair-v858-260603-1212-slim.apk",
   "sizeBytes": 35690400,
-  "sha256": "30bebb0a93ef8de62cc492c5aefe575f32072305a7cc6c67da61d640a9b64b5b",
-  "changelog": "对话顶部下拉揭开上一个话题失效修复：Compose BOM 2024.12.01(=1.7.x) 起 NestedScrollSource.Drag 废弃改名 UserInput，用户拖动上报 UserInput，ChatScreen 顶部 reveal 的 nestedScroll onPostScroll 里  把所有真实下拉挡回 → pullAccumulator 永远累积不到 80dp 阈值 → 拉不动旧话题（提示『使劲往下拉』仍显示因为走 hasMorePreviousTopic 另一条件）。改为 UserInput（仍排除 fling=SideEffect 惯性误触）。全仓仅此一处用废弃枚举。",
-  "userFacingChangelog": "对话最上面下拉看上一个话题，修好了。",
+  "sha256": "7219892ae09d9005eb0f2a7f7c615b5cfa12aa184e4cb227d3712efb4f89be36",
+  "changelog": "旁听(overheard)纪要待办渲染成『圆圈+加号』待添加样式：数据侧 staged 暂存机制本就存在(category==overheard → buildTodos staged=true，observeByMeeting 不滤 staged 所以卡里能显示，但之前渲染成普通勾选框 + 点击走 setTodoDone)。MeetingDetailContent 加 onAddStagedTodo 回调 + 待办行按 t.staged 分支：staged → 圆圈(999dp)+ Q.Warm 描边 + 加号，点击 repo.setTodoStaged(id,false) 转正进待办；非 staged 维持原勾选框。分享图 forImage 默认 null 不可点、静态显示加号。",
+  "userFacingChangelog": "旁听的会议纪要里，待办前面变成『加号』样式——点一下才加进你的待办，不会自动塞进去。",
   "recentReleases": [
-    {
-      "version": 802,
-      "versionName": "260530-1115",
-      "userFacingChangelog": "开场动画手感继续打磨。",
-      "changelog": "x832 开场动画长震再调：起振 500→660ms 更晚、幅度 14→9/255 更轻（时长 1640 仍在出口停）；脱口短振不变。无 DB migration。",
-      "publishedAtMs": 1780111047000
-    },
     {
       "version": 803,
       "versionName": "260530-1121",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "对话最上面下拉看上一个话题，修好了。",
       "changelog": "对话顶部下拉揭开上一个话题失效修复：Compose BOM 2024.12.01(=1.7.x) 起 NestedScrollSource.Drag 废弃改名 UserInput，用户拖动上报 UserInput，ChatScreen 顶部 reveal 的 nestedScroll onPostScroll 里  把所有真实下拉挡回 → pullAccumulator 永远累积不到 80dp 阈值 → 拉不动旧话题（提示『使劲往下拉』仍显示因为走 hasMorePreviousTopic 另一条件）。改为 UserInput（仍排除 fling=SideEffect 惯性误触）。全仓仅此一处用废弃枚举。",
       "publishedAtMs": 1780457507000
+    },
+    {
+      "version": 858,
+      "versionName": "260603-1212",
+      "userFacingChangelog": "旁听的会议纪要里，待办前面变成『加号』样式——点一下才加进你的待办，不会自动塞进去。",
+      "changelog": "旁听(overheard)纪要待办渲染成『圆圈+加号』待添加样式：数据侧 staged 暂存机制本就存在(category==overheard → buildTodos staged=true，observeByMeeting 不滤 staged 所以卡里能显示，但之前渲染成普通勾选框 + 点击走 setTodoDone)。MeetingDetailContent 加 onAddStagedTodo 回调 + 待办行按 t.staged 分支：staged → 圆圈(999dp)+ Q.Warm 描边 + 加号，点击 repo.setTodoStaged(id,false) 转正进待办；非 staged 维持原勾选框。分享图 forImage 默认 null 不可点、静态显示加号。",
+      "publishedAtMs": 1780460068000
     }
   ],
-  "publishedAtMs": 1780457507000,
+  "publishedAtMs": 1780460068000,
   "minSupported": 0
 }
