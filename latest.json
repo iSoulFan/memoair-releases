@@ -1,19 +1,12 @@
 {
-  "version": 869,
-  "versionName": "260603-1829",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v869/memoair-v869-260603-1829-slim.apk",
-  "sizeBytes": 35530656,
-  "sha256": "86d6509f64d5b333c8580cd476ec34192d043b90028efc1d551f63dd55b2da5e",
-  "changelog": "v869：通用 accent(Q.Warm 家族 + AnchorAccent)从亮黄绿改深橄榄绿 #6E9A7A(微光 Shimmering.c2)——字体/细边框可读性；亮黄绿 #7CC033 保留在 Q.Memory(录制点/连续记录开关/胶囊)；内容区 4 文件残留亮绿字面量一并改橄榄",
-  "userFacingChangelog": "· 文字和细线条的绿色改深了一档（更清楚耐看），鲜亮的黄绿只留给录制相关的指示",
+  "version": 876,
+  "versionName": "260603-2012",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v876/memoair-v876-260603-2012-slim.apk",
+  "sizeBytes": 35547320,
+  "sha256": "c0f0a425a8bcd4f8d513e7bfb93772e002f2f039637cb8472def941a56958e5c",
+  "changelog": "v876：心愿板块 accent 统一 Q.WishPurpleDeep 深紫(kicker/左竖条/WishPlanInline标题/WishPlanSheet答题页/已兑现)，卡片背景仍 per-emoji wishTint 淡彩(根因:之前 accent 走 per-emoji deep 碰绿系 emoji 落橄榄绿)；待办 TodoRow 右键日历缩小34→30dp，dueAt!=null 时切 🔔/🔕 reminder 开关(默认开,点切 setTodoReminderEnabled+schedule/cancel)，改时间仍走 due chip",
+  "userFacingChangelog": "· 心愿板块统一了深紫主题色，卡片还是按心愿各自的淡彩\n· 待办设了时间后，右边变成闹钟开关（默认到点提醒，点一下静音）；改时间点下面的时间标",
   "recentReleases": [
-    {
-      "version": 810,
-      "versionName": "260601-0948",
-      "userFacingChangelog": "蓝牙麦如果录不到声，现在可以在录音设备菜单里切换「蓝牙通道」（识别/通话/直连），对着实时音量条切到能让条子动起来的那条就行。",
-      "changelog": "v810：蓝牙麦加「通道」三选一（识别=setCommunicationDevice+VOICE_RECOGNITION 默认 / 通话=setCommunicationDevice+VOICE_COMMUNICATION / 直连=仅 setPreferredDevice 不锁通讯设备+VOICE_RECOGNITION）。不同蓝牙麦只认其中某条（如微信输入法走不通但豆包能录），用户对着实时电平条切到能动的那条。AudioSourcePrefs.btChannel 持久化；切换走 restartInputDevice 无缝生效。胶囊长按菜单 + 设置都加了通道切换 pill（选中蓝牙麦时才显示）。",
-      "publishedAtMs": 1780278642000
-    },
     {
       "version": 811,
       "versionName": "260601-1001",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 文字和细线条的绿色改深了一档（更清楚耐看），鲜亮的黄绿只留给录制相关的指示",
       "changelog": "v869：通用 accent(Q.Warm 家族 + AnchorAccent)从亮黄绿改深橄榄绿 #6E9A7A(微光 Shimmering.c2)——字体/细边框可读性；亮黄绿 #7CC033 保留在 Q.Memory(录制点/连续记录开关/胶囊)；内容区 4 文件残留亮绿字面量一并改橄榄",
       "publishedAtMs": 1780483058000
+    },
+    {
+      "version": 876,
+      "versionName": "260603-2012",
+      "userFacingChangelog": "· 心愿板块统一了深紫主题色，卡片还是按心愿各自的淡彩\n· 待办设了时间后，右边变成闹钟开关（默认到点提醒，点一下静音）；改时间点下面的时间标",
+      "changelog": "v876：心愿板块 accent 统一 Q.WishPurpleDeep 深紫(kicker/左竖条/WishPlanInline标题/WishPlanSheet答题页/已兑现)，卡片背景仍 per-emoji wishTint 淡彩(根因:之前 accent 走 per-emoji deep 碰绿系 emoji 落橄榄绿)；待办 TodoRow 右键日历缩小34→30dp，dueAt!=null 时切 🔔/🔕 reminder 开关(默认开,点切 setTodoReminderEnabled+schedule/cancel)，改时间仍走 due chip",
+      "publishedAtMs": 1780490077000
     }
   ],
-  "publishedAtMs": 1780483058000,
+  "publishedAtMs": 1780490077000,
   "minSupported": 0
 }
