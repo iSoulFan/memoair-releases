@@ -1,19 +1,12 @@
 {
-  "version": 880,
-  "versionName": "260604-0039",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v880/memoair-v880-260604-0039-slim.apk",
-  "sizeBytes": 35547320,
-  "sha256": "7cffbc3d3660a4b29d662db1808a7c898d4dc37b87aff17760030f5e205934ae",
-  "changelog": "v880：修对话下拉露出上一话题真因——揭开协程(ChatScreen ~1653)的 pivot 链漏了 defaultPreviousTopic，跟 hasMorePreviousTopic(~1612)不一致，导致首次下拉 previousTopicBefore(当前话题)=已默认露出的那条上一话题，屏幕无新内容、体感拉不动。补 defaultPreviousTopic?.topic 让首拉从上上一条开始",
-  "userFacingChangelog": "· 修好了对话顶部下拉露出更早话题不生效的问题（之前下拉揭开的是已经显示着的那条）",
+  "version": 881,
+  "versionName": "260604-0221",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v881/memoair-v881-260604-0221-slim.apk",
+  "sizeBytes": 35551416,
+  "sha256": "dc8f567f899d6f79a2dce318877f5df70adce8e7f3c5c4475696301540955193",
+  "changelog": "v881：① 纪要列表/详情最新条目缺时间段——根因本session改 meeting_minutes.txt 时写了'时间不用写进markdown'，新纪要正文没HH:mm→eventTimeRangeLabel返null→回退单点；改 prompt 让每段第二行写'时间：HH:mm–HH:mm'(stripMeetingHeader 已含'时间'前缀会剥掉不重复)，仅影响新纪要。② 设置展开项滚出屏幕收起不对称——旧 onGloballyPositioned 依赖header未dispose、两向时机不同；改 SettingsScreen snapshotFlow 监听 visibleItemsInfo 的 key(顶层 item 加 key=sec:stateKey)，openId 对应 key 离开可视区(任一方向)即 setOpen(false)，防空 layoutInfo/tab切换误收，移除旧 overlap 逻辑",
+  "userFacingChangelog": "· 设置里展开的项，不管往上还是往下滑出屏幕，现在都会自动收起了\n· 纪要的时间段显示修好了（新生成的纪要会带完整时间段）",
   "recentReleases": [
-    {
-      "version": 817,
-      "versionName": "260601-1209",
-      "userFacingChangelog": "内容很少的那天，时光不再硬凑一张没意义的照片，直接留空。",
-      "changelog": "v817：内容很少的那天不再硬出图——「那天的事」生成前先判断内容量，太少就留空不出图不写日报（省 token）。",
-      "publishedAtMs": 1780287118000
-    },
     {
       "version": 818,
       "versionName": "260601-1333",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 修好了对话顶部下拉露出更早话题不生效的问题（之前下拉揭开的是已经显示着的那条）",
       "changelog": "v880：修对话下拉露出上一话题真因——揭开协程(ChatScreen ~1653)的 pivot 链漏了 defaultPreviousTopic，跟 hasMorePreviousTopic(~1612)不一致，导致首次下拉 previousTopicBefore(当前话题)=已默认露出的那条上一话题，屏幕无新内容、体感拉不动。补 defaultPreviousTopic?.topic 让首拉从上上一条开始",
       "publishedAtMs": 1780504958000
+    },
+    {
+      "version": 881,
+      "versionName": "260604-0221",
+      "userFacingChangelog": "· 设置里展开的项，不管往上还是往下滑出屏幕，现在都会自动收起了\n· 纪要的时间段显示修好了（新生成的纪要会带完整时间段）",
+      "changelog": "v881：① 纪要列表/详情最新条目缺时间段——根因本session改 meeting_minutes.txt 时写了'时间不用写进markdown'，新纪要正文没HH:mm→eventTimeRangeLabel返null→回退单点；改 prompt 让每段第二行写'时间：HH:mm–HH:mm'(stripMeetingHeader 已含'时间'前缀会剥掉不重复)，仅影响新纪要。② 设置展开项滚出屏幕收起不对称——旧 onGloballyPositioned 依赖header未dispose、两向时机不同；改 SettingsScreen snapshotFlow 监听 visibleItemsInfo 的 key(顶层 item 加 key=sec:stateKey)，openId 对应 key 离开可视区(任一方向)即 setOpen(false)，防空 layoutInfo/tab切换误收，移除旧 overlap 逻辑",
+      "publishedAtMs": 1780511062000
     }
   ],
-  "publishedAtMs": 1780504958000,
+  "publishedAtMs": 1780511062000,
   "minSupported": 0
 }
