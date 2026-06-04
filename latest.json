@@ -1,19 +1,12 @@
 {
-  "version": 893,
-  "versionName": "260604-1228",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v893/memoair-v893-260604-1228-slim.apk",
-  "sizeBytes": 35494072,
-  "sha256": "ed1938af4ad4c13db21327f22a4ab7e438a6901310f567f04ecc7577322ad5b0",
-  "changelog": "v893：纪要流程卡加 timelineTitle 字段(MinutesVisual+MeetingExtractor 解析+meeting_minutes.txt prompt schema+MeetingDetailContent header 渲染)，header 从写死「流程」改为显示该流程主题(如「上线推进流程」)，空回退「流程」；仅对新扫纪要生效。脑图卡片壳 v892 已上",
-  "userFacingChangelog": "· 纪要里的流程卡现在会显示「是什么流程」，不再只是干巴巴一个「流程」",
+  "version": 894,
+  "versionName": "260604-1246",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v894/memoair-v894-260604-1246-slim.apk",
+  "sizeBytes": 35498168,
+  "sha256": "0338793cdc493e906b82552e1edb1a583ad73f1edc91cc0758ab8ca34eae0c38",
+  "changelog": "v894：脑图改横向节点树(MeetingDetailContent.kt 新增 MindTreeCard/MindTreeGraph/MindTreeFullscreen)——header 色条=tree.root 主题，Canvas 画主干+横向 bus+向下箭头(尖落每子卡顶边水平中点)，子卡横排循环三档 pastel，body 放不下横向滚动，整块点击→全屏 Dialog 双指缩放+拖动；表格也套上同款卡壳(📊+表标题 header)；meeting_minutes.txt 放宽 tables 触发门槛(补日常生活向例子+加重鼓励)",
+  "userFacingChangelog": "· 纪要里的脑图换成了横向树，更像真正的思维导图，点一下能全屏放大看 · 对比表格更容易出现了，也跟其它卡片统一了样式",
   "recentReleases": [
-    {
-      "version": 832,
-      "versionName": "260602-1557",
-      "userFacingChangelog": "会议纪要遇到流程或对比内容，会自动排成时间轴或表格；纪要分享图同步了新样式；拾梦相片每天可以重拍一张。",
-      "changelog": "纪要新增 timeline/table 两种条件触发结构块（有先后顺序→流程时间轴竖排编号；多对象对比→横滑表格；搭现有抽取一次，prompt 加可选字段、宁缺毋滥）；纪要分享长图抽 MeetingDetailContent 共享 composable 复用展开态布局（改一处两边同步）；展开态正文/加粗全无衬线、去顶部分类小方块、底部右下「分享图片」+「删除」；拾梦相片「再拍一张照片」改每张每自然日一次（PolaroidDailyRegenGate）；daily_report_scene 生图提示词加内容安全约束禁昆虫/血腥/恶心。",
-      "publishedAtMs": 1780387217000
-    },
     {
       "version": 833,
       "versionName": "260602-1617",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 纪要里的流程卡现在会显示「是什么流程」，不再只是干巴巴一个「流程」",
       "changelog": "v893：纪要流程卡加 timelineTitle 字段(MinutesVisual+MeetingExtractor 解析+meeting_minutes.txt prompt schema+MeetingDetailContent header 渲染)，header 从写死「流程」改为显示该流程主题(如「上线推进流程」)，空回退「流程」；仅对新扫纪要生效。脑图卡片壳 v892 已上",
       "publishedAtMs": 1780547546000
+    },
+    {
+      "version": 894,
+      "versionName": "260604-1246",
+      "userFacingChangelog": "· 纪要里的脑图换成了横向树，更像真正的思维导图，点一下能全屏放大看 · 对比表格更容易出现了，也跟其它卡片统一了样式",
+      "changelog": "v894：脑图改横向节点树(MeetingDetailContent.kt 新增 MindTreeCard/MindTreeGraph/MindTreeFullscreen)——header 色条=tree.root 主题，Canvas 画主干+横向 bus+向下箭头(尖落每子卡顶边水平中点)，子卡横排循环三档 pastel，body 放不下横向滚动，整块点击→全屏 Dialog 双指缩放+拖动；表格也套上同款卡壳(📊+表标题 header)；meeting_minutes.txt 放宽 tables 触发门槛(补日常生活向例子+加重鼓励)",
+      "publishedAtMs": 1780548528000
     }
   ],
-  "publishedAtMs": 1780547546000,
+  "publishedAtMs": 1780548528000,
   "minSupported": 0
 }
