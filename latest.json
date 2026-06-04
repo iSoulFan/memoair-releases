@@ -1,19 +1,12 @@
 {
-  "version": 907,
-  "versionName": "260604-1828",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v907/memoair-v907-260604-1828-slim.apk",
+  "version": 908,
+  "versionName": "260604-1836",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v908/memoair-v908-260604-1836-slim.apk",
   "sizeBytes": 35506360,
-  "sha256": "c6a3d5bda88a4b7922c2aa3e16466ef3d47a82b80ecba9cdb2cd94b0d1d78bf9",
-  "changelog": "v907：①补一段纪要配额提示从顶部 toast 改成 FAB 上方就近的小气泡(fabHint，align BottomEnd + bottom=74dp + 2.2s 自动消)②管理员(PasscodeAuth.isAdmin)不限次数——FAB onClick 与 MeetingExtractor.forceExtractWindow 都对 admin 跳过 forceRemainingToday 检查，admin 也不计数(不占配额)",
-  "userFacingChangelog": "· 「补一段纪要」用完的提示挪到按钮附近了 · 管理员账号不限制次数",
+  "sha256": "0ad52c4872b2f36db823c523e2704a7b3cc14340279ffaa114eafbb080a9812a",
+  "changelog": "v908：手动选择时间段弹窗改分步引导——QuietTimeRangePickerDialog footer 不再固定「确定」：editingStart 时右下=「选择结束时间 ›」(点了 editingStart=false 切到结束、轴对齐结束)，!editingStart 时才变「开始生成纪要」(hasValidEnd 才亮)；杜绝没选结束就能点确定再失败。两步按钮都 enabled=hasValidEnd",
+  "userFacingChangelog": "· 手动选时间段改成分步引导：先选开始 →「选择结束时间」→ 再选结束 →「开始生成纪要」，一步步来不会点错",
   "recentReleases": [
-    {
-      "version": 847,
-      "versionName": "260602-2157",
-      "userFacingChangelog": "排序拖动更稳了，修了几个细节。",
-      "changelog": "①抉择删除计数 bug：removeChoiceCandidate/hideChoiceCandidate 改完 snapshot 没 ChoiceSnapshotBus.bump()（addChoiceCandidate 有），导致删卡后抉择 tab 旁数字不减——两处补 bump，跟 add 对齐。②拖排序『拖 chip 反被主 pager 翻页』确定性兜底：MemoAirRoot 加 reorderActive 状态，行动/时光经 onReorderModeChange 回调置位，主 HorizontalPager userScrollEnabled=!reorderActive → 排序时主 pager 物理禁横滑，从根上消除『划走整页』。配合 chip Initial-pass consume + 保留 horizontalScroll（防挤变形）。reorderActive 在退出排序/切走 tab 时复位，无卡死。",
-      "publishedAtMs": 1780408800000
-    },
     {
       "version": 848,
       "versionName": "260602-2254",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 「补一段纪要」用完的提示挪到按钮附近了 · 管理员账号不限制次数",
       "changelog": "v907：①补一段纪要配额提示从顶部 toast 改成 FAB 上方就近的小气泡(fabHint，align BottomEnd + bottom=74dp + 2.2s 自动消)②管理员(PasscodeAuth.isAdmin)不限次数——FAB onClick 与 MeetingExtractor.forceExtractWindow 都对 admin 跳过 forceRemainingToday 检查，admin 也不计数(不占配额)",
       "publishedAtMs": 1780569029000
+    },
+    {
+      "version": 908,
+      "versionName": "260604-1836",
+      "userFacingChangelog": "· 手动选时间段改成分步引导：先选开始 →「选择结束时间」→ 再选结束 →「开始生成纪要」，一步步来不会点错",
+      "changelog": "v908：手动选择时间段弹窗改分步引导——QuietTimeRangePickerDialog footer 不再固定「确定」：editingStart 时右下=「选择结束时间 ›」(点了 editingStart=false 切到结束、轴对齐结束)，!editingStart 时才变「开始生成纪要」(hasValidEnd 才亮)；杜绝没选结束就能点确定再失败。两步按钮都 enabled=hasValidEnd",
+      "publishedAtMs": 1780569512000
     }
   ],
-  "publishedAtMs": 1780569029000,
+  "publishedAtMs": 1780569512000,
   "minSupported": 0
 }
