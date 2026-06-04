@@ -1,19 +1,12 @@
 {
-  "version": 909,
-  "versionName": "260604-1909",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v909/memoair-v909-260604-1909-slim.apk",
-  "sizeBytes": 35510456,
-  "sha256": "6163913540276b40b70625c16e45aaba08e7d783c53df1de38dd34e744affa02",
-  "changelog": "v909：纪要可撤销删除——删纪要不立即 deleteMeeting，先把 id 进 removingMeetingIds 驱动 AnimatedVisibility(shrinkVertically Top+fadeOut)+graphicsLayer 绕顶边 rotationX 翻起，底部 pill 倒计时撤销条(4s)，协程 delay 后才真删；撤销 cancel job + removeAll 复原(不 re-insert)；单条+批量都走 beginUndoableDelete；多选栏出现时 !meetingMultiSelect 避让。先只做纪要",
-  "userFacingChangelog": "· 删纪要现在有「百叶窗翻起」动画 + 底部几秒内可「撤销」，删错了能立刻翻回来",
+  "version": 910,
+  "versionName": "260604-1924",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v910/memoair-v910-260604-1924-slim.apk",
+  "sizeBytes": 35514552,
+  "sha256": "8ca556e7aaa8139e874153ccf29fe067c60d51d944c24e78a832401f9ac0a01f",
+  "changelog": "v910：撤销条「撤销」文字色 Q.Memory(黄绿)→Q.Surface(白)——黄绿不可用于文字(红线)；纪要+待办两处撤销条同改。（注：待办的可撤销删除也已落地，跟纪要并行独立状态）",
+  "userFacingChangelog": "· 删除撤销条的文字配色调整了",
   "recentReleases": [
-    {
-      "version": 849,
-      "versionName": "260602-2319",
-      "userFacingChangelog": "抉择删掉后不会再被重新推送了，新抉择也排在最前面。",
-      "changelog": "抉择两 bug：①删掉的抉择隔天重扫又被推送——removeChoiceCandidate 之前只 remove 不进 hiddenKeys，而 mergeChoices 只按 hiddenKeys 排除；key=stableChoiceKey(summary|A|B) 内容确定性，故删除时同时加进 hiddenKeys → 重扫不再复活（= 永久抑制，符合用户对『删除』的预期；hideChoiceCandidate 本就无调用方）。②新扫出的抉择排在板块第 3 不是第 1——mergeChoices 之前  把新的拼末尾，改 （从新到旧，跟 addChoiceCandidate 的 prepend 对齐）。",
-      "publishedAtMs": 1780413752000
-    },
     {
       "version": 850,
       "versionName": "260603-0048",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 删纪要现在有「百叶窗翻起」动画 + 底部几秒内可「撤销」，删错了能立刻翻回来",
       "changelog": "v909：纪要可撤销删除——删纪要不立即 deleteMeeting，先把 id 进 removingMeetingIds 驱动 AnimatedVisibility(shrinkVertically Top+fadeOut)+graphicsLayer 绕顶边 rotationX 翻起，底部 pill 倒计时撤销条(4s)，协程 delay 后才真删；撤销 cancel job + removeAll 复原(不 re-insert)；单条+批量都走 beginUndoableDelete；多选栏出现时 !meetingMultiSelect 避让。先只做纪要",
       "publishedAtMs": 1780571516000
+    },
+    {
+      "version": 910,
+      "versionName": "260604-1924",
+      "userFacingChangelog": "· 删除撤销条的文字配色调整了",
+      "changelog": "v910：撤销条「撤销」文字色 Q.Memory(黄绿)→Q.Surface(白)——黄绿不可用于文字(红线)；纪要+待办两处撤销条同改。（注：待办的可撤销删除也已落地，跟纪要并行独立状态）",
+      "publishedAtMs": 1780572380000
     }
   ],
-  "publishedAtMs": 1780571516000,
+  "publishedAtMs": 1780572380000,
   "minSupported": 0
 }
