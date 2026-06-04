@@ -1,19 +1,12 @@
 {
-  "version": 903,
-  "versionName": "260604-1727",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v903/memoair-v903-260604-1727-slim.apk",
-  "sizeBytes": 35498168,
-  "sha256": "463ca5d09ed8d2236928f9fa6988dd2012dd893b0e8ae28e6cc50727deef266c",
-  "changelog": "v903：补一段纪要单次上限 24h→5h（覆盖单场会议/长谈，省 token + 质量聚焦）；FAB 校验分支阈值改 5L*3600*1000，提示文案同步",
-  "userFacingChangelog": "· 「补一段纪要」单次上限调成 5 小时",
+  "version": 904,
+  "versionName": "260604-1750",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v904/memoair-v904-260604-1750-slim.apk",
+  "sizeBytes": 35506360,
+  "sha256": "2e1706a294484d70ea84f57abcfac479214c1820d5c683ae7fed471f3ec421ee",
+  "changelog": "v904：补一段纪要的时间选择两步弹窗合并成一页——新 QuietTimeRangePickerDialog(月历选天 + 起止纯文字+当前项下划线 + 双滚轮 + 共X小时Y分/最多5小时 + FooterButtons confirmEnabled)；防呆：调结束时滚轮按 endMaxMs=min(start+5h, 当天末, 今天则现在) 动态算 hour/minute range 并 key() 重建，越界时分直接选不到；标题「手动选择纪要时间段」；FAB 改单弹窗 genPickerOpen，确认走 forceExtractWindow+markManual",
+  "userFacingChangelog": "· 「补一段纪要」选时间改成一页选完：月历挑天 + 开始/结束滚轮，结束最多到「开始+5小时」且选不过现在",
   "recentReleases": [
-    {
-      "version": 842,
-      "versionName": "260602-2006",
-      "userFacingChangelog": "提升了稳定性。",
-      "changelog": "修复 v841 进 App 闪退：MeetingExtractor.extractMeetingsForDay 里 inline 塞了 keyPoints/topics/timeline/tables/trees/choice 全套解析+人名归一，方法寄存器爆到 v286，R8 minify 产出非法字节码 → 运行时 java.lang.VerifyError（类 n0 方法 d）→ 默认落纪要 tab 渲染即崩。修法：把可视化组装抽成独立 suspend fun buildMinutesVisualJson 给主方法减负。真机验证：装 v842 启动落纪要 tab 进程存活、crash buffer 零 VerifyError。v841 release 作废、v842 顶上。",
-      "publishedAtMs": 1780402207000
-    },
     {
       "version": 843,
       "versionName": "260602-2021",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 「补一段纪要」单次上限调成 5 小时",
       "changelog": "v903：补一段纪要单次上限 24h→5h（覆盖单场会议/长谈，省 token + 质量聚焦）；FAB 校验分支阈值改 5L*3600*1000，提示文案同步",
       "publishedAtMs": 1780565409000
+    },
+    {
+      "version": 904,
+      "versionName": "260604-1750",
+      "userFacingChangelog": "· 「补一段纪要」选时间改成一页选完：月历挑天 + 开始/结束滚轮，结束最多到「开始+5小时」且选不过现在",
+      "changelog": "v904：补一段纪要的时间选择两步弹窗合并成一页——新 QuietTimeRangePickerDialog(月历选天 + 起止纯文字+当前项下划线 + 双滚轮 + 共X小时Y分/最多5小时 + FooterButtons confirmEnabled)；防呆：调结束时滚轮按 endMaxMs=min(start+5h, 当天末, 今天则现在) 动态算 hour/minute range 并 key() 重建，越界时分直接选不到；标题「手动选择纪要时间段」；FAB 改单弹窗 genPickerOpen，确认走 forceExtractWindow+markManual",
+      "publishedAtMs": 1780566710000
     }
   ],
-  "publishedAtMs": 1780565409000,
+  "publishedAtMs": 1780566710000,
   "minSupported": 0
 }
