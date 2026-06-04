@@ -1,19 +1,12 @@
 {
-  "version": 896,
-  "versionName": "260604-1321",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v896/memoair-v896-260604-1321-slim.apk",
+  "version": 897,
+  "versionName": "260604-1345",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v897/memoair-v897-260604-1345-slim.apk",
   "sizeBytes": 35494072,
-  "sha256": "395477d58864681faf264f8e7fc86cd9e9c55787806c89f85991749298db4183",
-  "changelog": "v896：脑图横向版改回纵向——MindTreeCard 重写为纵向节点树(去掉 MindTreeGraph/MindTreeFullscreen+横向相关 import)：顶部主题框(neutralHeaderBg 小框 🧠+tree.root)，每分支一行左 rail Canvas 画 竖主干段+肘形横线+右指箭头(尖落分支框左缘)，分支框 pastel 循环三档；最后一支主干只到肘部；无全屏放大(纵向随页面滚)",
-  "userFacingChangelog": "· 纪要脑图改成纵向思维导图：顶上一个主题框，往下分出各个分支框，连线带箭头",
+  "sha256": "ed63b582e1d637aed92b611a7a09cffe3f5090e2b278734f11c2cc641baba8e5",
+  "changelog": "v897：纪要对比表格对齐修复——去掉 horizontalScroll + 每格 widthIn(92) 的各撑各方案，改 fillMaxWidth + 每列 weight(1f) 等分 + 每行 height(IntrinsicSize.Min)+fillMaxHeight 等高，竖列边线统一对齐成规整网格(原来每行独立排导致列宽错位)",
+  "userFacingChangelog": "· 纪要里的对比表格列对齐了，竖线工整成一张规整的表格",
   "recentReleases": [
-    {
-      "version": 835,
-      "versionName": "260602-1652",
-      "userFacingChangelog": "会议纪要展开后更统一干净：卡片改中性底色，核心结论白底，各板块标题样式和间距对齐一致。",
-      "changelog": "纪要展开态去色相+标题统一：议题卡 header / 时间轴编号圈从彩色 pastel 改中性浅灰(#EDEEF0)+墨色标题，删 4 色 palette 背景；核心结论改白底(#FFFFFF+1px边框)、眉头用板块标题同款 accent 竖条样式(去💡)；splitMarkdownSections 扩展识别独立成行的 **短标签**(≤12字)升格为板块标题，让 决议等子标题跟纪要概述/讨论要点/纪要待办 同走 MinutesSectionTitle、样式与上下间距一致。accent 竖条强调色(前景)保留。改在共享 MeetingDetailContent→App+分享图同步。",
-      "publishedAtMs": 1780390504000
-    },
     {
       "version": 836,
       "versionName": "260602-1704",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 纪要脑图改成纵向思维导图：顶上一个主题框，往下分出各个分支框，连线带箭头",
       "changelog": "v896：脑图横向版改回纵向——MindTreeCard 重写为纵向节点树(去掉 MindTreeGraph/MindTreeFullscreen+横向相关 import)：顶部主题框(neutralHeaderBg 小框 🧠+tree.root)，每分支一行左 rail Canvas 画 竖主干段+肘形横线+右指箭头(尖落分支框左缘)，分支框 pastel 循环三档；最后一支主干只到肘部；无全屏放大(纵向随页面滚)",
       "publishedAtMs": 1780550594000
+    },
+    {
+      "version": 897,
+      "versionName": "260604-1345",
+      "userFacingChangelog": "· 纪要里的对比表格列对齐了，竖线工整成一张规整的表格",
+      "changelog": "v897：纪要对比表格对齐修复——去掉 horizontalScroll + 每格 widthIn(92) 的各撑各方案，改 fillMaxWidth + 每列 weight(1f) 等分 + 每行 height(IntrinsicSize.Min)+fillMaxHeight 等高，竖列边线统一对齐成规整网格(原来每行独立排导致列宽错位)",
+      "publishedAtMs": 1780552053000
     }
   ],
-  "publishedAtMs": 1780550594000,
+  "publishedAtMs": 1780552053000,
   "minSupported": 0
 }
