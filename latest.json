@@ -1,19 +1,12 @@
 {
-  "version": 908,
-  "versionName": "260604-1836",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v908/memoair-v908-260604-1836-slim.apk",
-  "sizeBytes": 35506360,
-  "sha256": "0ad52c4872b2f36db823c523e2704a7b3cc14340279ffaa114eafbb080a9812a",
-  "changelog": "v908：手动选择时间段弹窗改分步引导——QuietTimeRangePickerDialog footer 不再固定「确定」：editingStart 时右下=「选择结束时间 ›」(点了 editingStart=false 切到结束、轴对齐结束)，!editingStart 时才变「开始生成纪要」(hasValidEnd 才亮)；杜绝没选结束就能点确定再失败。两步按钮都 enabled=hasValidEnd",
-  "userFacingChangelog": "· 手动选时间段改成分步引导：先选开始 →「选择结束时间」→ 再选结束 →「开始生成纪要」，一步步来不会点错",
+  "version": 909,
+  "versionName": "260604-1909",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v909/memoair-v909-260604-1909-slim.apk",
+  "sizeBytes": 35510456,
+  "sha256": "6163913540276b40b70625c16e45aaba08e7d783c53df1de38dd34e744affa02",
+  "changelog": "v909：纪要可撤销删除——删纪要不立即 deleteMeeting，先把 id 进 removingMeetingIds 驱动 AnimatedVisibility(shrinkVertically Top+fadeOut)+graphicsLayer 绕顶边 rotationX 翻起，底部 pill 倒计时撤销条(4s)，协程 delay 后才真删；撤销 cancel job + removeAll 复原(不 re-insert)；单条+批量都走 beginUndoableDelete；多选栏出现时 !meetingMultiSelect 避让。先只做纪要",
+  "userFacingChangelog": "· 删纪要现在有「百叶窗翻起」动画 + 底部几秒内可「撤销」，删错了能立刻翻回来",
   "recentReleases": [
-    {
-      "version": 848,
-      "versionName": "260602-2254",
-      "userFacingChangelog": "深色模式下纪要展开页的配色修好了。",
-      "changelog": "①纪要展开页深色模式适配（MeetingDetailContent 是 App 展开 + 分享长图单一事实源）：把写死浅色 hex 全换主题感知——bodyBg/neutralHeaderBg/tableHeaderBg 按 Q.isDark 切深底，titleInk=Q.Ink、bodyInk=Q.InkSoft、cardBorder=Q.Hairline、bullet=Q.InkMuted、tableCell=Q.Surface；4 色议题/时间轴 palette 加 dark 深染底+提亮强调字。深色下不再纯白卡。②时光 chip 拖动排序撤除（拖拽在时光跟主 pager 始终抢不赢手势，owner 决定移除）：移除 ≡ 手柄 → 排序态进不去、拖拽死代码不触发；时光回到纯筛选标签+收藏。③行动 tab 拖排序回退到 v844 真机验证版（排序态去 horizontalScroll + detectDragGestures + cur=draggingIndex），叠加 MemoAirRoot 排序时禁主 pager 横滑兜底。④（上版）抉择删卡计数不减一已修。",
-      "publishedAtMs": 1780412506000
-    },
     {
       "version": 849,
       "versionName": "260602-2319",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 手动选时间段改成分步引导：先选开始 →「选择结束时间」→ 再选结束 →「开始生成纪要」，一步步来不会点错",
       "changelog": "v908：手动选择时间段弹窗改分步引导——QuietTimeRangePickerDialog footer 不再固定「确定」：editingStart 时右下=「选择结束时间 ›」(点了 editingStart=false 切到结束、轴对齐结束)，!editingStart 时才变「开始生成纪要」(hasValidEnd 才亮)；杜绝没选结束就能点确定再失败。两步按钮都 enabled=hasValidEnd",
       "publishedAtMs": 1780569512000
+    },
+    {
+      "version": 909,
+      "versionName": "260604-1909",
+      "userFacingChangelog": "· 删纪要现在有「百叶窗翻起」动画 + 底部几秒内可「撤销」，删错了能立刻翻回来",
+      "changelog": "v909：纪要可撤销删除——删纪要不立即 deleteMeeting，先把 id 进 removingMeetingIds 驱动 AnimatedVisibility(shrinkVertically Top+fadeOut)+graphicsLayer 绕顶边 rotationX 翻起，底部 pill 倒计时撤销条(4s)，协程 delay 后才真删；撤销 cancel job + removeAll 复原(不 re-insert)；单条+批量都走 beginUndoableDelete；多选栏出现时 !meetingMultiSelect 避让。先只做纪要",
+      "publishedAtMs": 1780571516000
     }
   ],
-  "publishedAtMs": 1780569512000,
+  "publishedAtMs": 1780571516000,
   "minSupported": 0
 }
