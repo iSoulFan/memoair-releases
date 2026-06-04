@@ -1,19 +1,12 @@
 {
-  "version": 887,
-  "versionName": "260604-1102",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v887/memoair-v887-260604-1102-slim.apk",
+  "version": 888,
+  "versionName": "260604-1107",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v888/memoair-v888-260604-1107-slim.apk",
   "sizeBytes": 35494072,
-  "sha256": "913cf6fc6315b254b7997f0ef225e77b15e0ed4019f7f780a27522988bb5a275",
-  "changelog": "v887：① 纪要脑图分支重叠修复(MeetingDetailContent 分支容器 Box→Column，原层叠导致糊在一起) ② 议题卡 light pastel header 降饱和更淡雅(#F3F3FA/#EFF6F4/#F2F6EC/#F8F2EB + 文字压到≥4.5:1 on 灰底) ③ 对话「点这里看上一个话题」揭开后锚定原位不跳顶+露头~100px、用户自行上滑倒序看 ④ 右下角向下键改用 totalItemsCount-1 可靠回到最新一条 ⑤ 记录设备实时电平有信号(audioLevel≥0.03)时隐藏'建议切换' ⑥ 彻底删除 Limitless/GetNote 第三方录音源(删11文件+清~20文件引用，默认源回落手机麦)",
-  "userFacingChangelog": "· 纪要的脑图不再重叠糊成一团，议题卡配色更淡雅了\n· 对话里点「看上一个话题」不再跳到顶部，停在原地让你往上翻；右下角回到最新也修好了\n· 记录设备有声音时不再多此一举提示切换",
+  "sha256": "ea17d537ead308ae8b20c0204f1d16572148125c1cd5ebc27a9b6a8b5f0032e9",
+  "changelog": "v888：录音胶囊降白去色相——收起 glassBg White0.60→#EAEAE8×0.70、glassBorder 白→#8C8C88×0.30、topHighlight 0.30→0.12；展开 expandedBg 纯白#FFFFFF→#F0F0EE；shadow 从仅收起态改成收起+展开都有(展开弹窗加阴影)",
+  "userFacingChangelog": "· 右上角的胶囊（收起和点开后）都更淡、更中性了，不再太白抢戏；点开的弹窗也加了阴影",
   "recentReleases": [
-    {
-      "version": 824,
-      "versionName": "260601-2347",
-      "userFacingChangelog": "一些设置文案和细节打磨，体验更顺手一点。",
-      "changelog": "v824 = v823(AI硬件管理，眼镜Air/搭子Pin，全 isAdmin 门控，普通用户零硬件痕迹；看板挪调试；硬件页无连续记录/VAD开关；示例设备数据) + 设置文案3处微调：①「历史记录管理」回退为「长期记忆」②「多麦克风拾音」改「手机多麦拾音」（区别于硬件麦）③连续记录模式的「后台不稳定」提示并入说明小字、不再单独成行。",
-      "publishedAtMs": 1780329010000
-    },
     {
       "version": 825,
       "versionName": "260602-0038",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 纪要的脑图不再重叠糊成一团，议题卡配色更淡雅了\n· 对话里点「看上一个话题」不再跳到顶部，停在原地让你往上翻；右下角回到最新也修好了\n· 记录设备有声音时不再多此一举提示切换",
       "changelog": "v887：① 纪要脑图分支重叠修复(MeetingDetailContent 分支容器 Box→Column，原层叠导致糊在一起) ② 议题卡 light pastel header 降饱和更淡雅(#F3F3FA/#EFF6F4/#F2F6EC/#F8F2EB + 文字压到≥4.5:1 on 灰底) ③ 对话「点这里看上一个话题」揭开后锚定原位不跳顶+露头~100px、用户自行上滑倒序看 ④ 右下角向下键改用 totalItemsCount-1 可靠回到最新一条 ⑤ 记录设备实时电平有信号(audioLevel≥0.03)时隐藏'建议切换' ⑥ 彻底删除 Limitless/GetNote 第三方录音源(删11文件+清~20文件引用，默认源回落手机麦)",
       "publishedAtMs": 1780542273000
+    },
+    {
+      "version": 888,
+      "versionName": "260604-1107",
+      "userFacingChangelog": "· 右上角的胶囊（收起和点开后）都更淡、更中性了，不再太白抢戏；点开的弹窗也加了阴影",
+      "changelog": "v888：录音胶囊降白去色相——收起 glassBg White0.60→#EAEAE8×0.70、glassBorder 白→#8C8C88×0.30、topHighlight 0.30→0.12；展开 expandedBg 纯白#FFFFFF→#F0F0EE；shadow 从仅收起态改成收起+展开都有(展开弹窗加阴影)",
+      "publishedAtMs": 1780542563000
     }
   ],
-  "publishedAtMs": 1780542273000,
+  "publishedAtMs": 1780542563000,
   "minSupported": 0
 }
