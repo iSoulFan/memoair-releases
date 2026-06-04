@@ -1,19 +1,12 @@
 {
-  "version": 882,
-  "versionName": "260604-0308",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v882/memoair-v882-260604-0308-slim.apk",
+  "version": 883,
+  "versionName": "260604-0905",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v883/memoair-v883-260604-0905-slim.apk",
   "sizeBytes": 35551416,
-  "sha256": "dc0f61c66682d93a365d36b78fcfc957bf0c5cafd3df9dd97a77cd4010647795",
-  "changelog": "v882：全 App 用户可见文案清除「录音」二字（反词典硬规则延伸到所有 UI）——18 文件约 50 处，动作/状态/板块→记录、权限→麦克风权限；含 owner 点名的胶囊隐私时段「没在录音→没在记录」、设置 section 标题「录音→记录」、常驻通知/StatsDashboard/RecordingState.Error/备份标签等；代码标识符/注释/给 LLM 的 prompt 一律不动",
-  "userFacingChangelog": "· App 里不再出现「录音」字样，统一成「记录」（胶囊、设置、通知等处都已统一）",
+  "sha256": "f8fbe8d45aa618aa25496e6af38e95dcda0eb689915e1be6dd3e3a08e1759b22",
+  "changelog": "v883：修 v881 折叠对称引入的回归——「语音识别语种/手机多麦拾音/麦克风来源」三个嵌在平铺记录组里的子 section 点不开(snapshotFlow 自动收起把 openId 对应 sec:key 找不到的当成滚出屏幕→瞬间 setOpen(false))。加 seenSecKeys 累积门:自动收起只对'曾作为顶层 item key 出现过'的 section 生效,嵌套子 section 的 key 从不出现→不受收起逻辑影响→能正常展开;顶层滚出收起对称行为保留",
+  "userFacingChangelog": "· 修好了设置里「语音识别语种 / 手机多麦拾音 / 麦克风来源」点不开的问题",
   "recentReleases": [
-    {
-      "version": 819,
-      "versionName": "260601-1822",
-      "userFacingChangelog": "细节打磨与设置整理。",
-      "changelog": "v819：移除关于页与开机向导的彩蛋（合规考虑）；调试入口改为长按版本号；声纹识别归入录音板块。",
-      "publishedAtMs": 1780309520000
-    },
     {
       "version": 820,
       "versionName": "260601-1842",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· App 里不再出现「录音」字样，统一成「记录」（胶囊、设置、通知等处都已统一）",
       "changelog": "v882：全 App 用户可见文案清除「录音」二字（反词典硬规则延伸到所有 UI）——18 文件约 50 处，动作/状态/板块→记录、权限→麦克风权限；含 owner 点名的胶囊隐私时段「没在录音→没在记录」、设置 section 标题「录音→记录」、常驻通知/StatsDashboard/RecordingState.Error/备份标签等；代码标识符/注释/给 LLM 的 prompt 一律不动",
       "publishedAtMs": 1780514023000
+    },
+    {
+      "version": 883,
+      "versionName": "260604-0905",
+      "userFacingChangelog": "· 修好了设置里「语音识别语种 / 手机多麦拾音 / 麦克风来源」点不开的问题",
+      "changelog": "v883：修 v881 折叠对称引入的回归——「语音识别语种/手机多麦拾音/麦克风来源」三个嵌在平铺记录组里的子 section 点不开(snapshotFlow 自动收起把 openId 对应 sec:key 找不到的当成滚出屏幕→瞬间 setOpen(false))。加 seenSecKeys 累积门:自动收起只对'曾作为顶层 item key 出现过'的 section 生效,嵌套子 section 的 key 从不出现→不受收起逻辑影响→能正常展开;顶层滚出收起对称行为保留",
+      "publishedAtMs": 1780535274000
     }
   ],
-  "publishedAtMs": 1780514023000,
+  "publishedAtMs": 1780535274000,
   "minSupported": 0
 }
