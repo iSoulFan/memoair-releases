@@ -1,19 +1,12 @@
 {
-  "version": 902,
-  "versionName": "260604-1720",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v902/memoair-v902-260604-1720-slim.apk",
+  "version": 903,
+  "versionName": "260604-1727",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v903/memoair-v903-260604-1727-slim.apk",
   "sizeBytes": 35498168,
-  "sha256": "cb6978753286c77bf54e497c6890dee0c5c0c3bc5041a6ee22a57b78848374f2",
-  "changelog": "v902：补一段纪要加单次时间段上限 24 小时——FAB 校验加 endMs-genStartMs > 24h 分支提示「一次最多选 24 小时」；理由是转写超 MAX_PROMPT_CHARS(~60K) 会从尾部截断，长窗口只剩最近部分、纪要不完整",
-  "userFacingChangelog": "· 「补一段纪要」单次最多选 24 小时，太长会整理不全",
+  "sha256": "463ca5d09ed8d2236928f9fa6988dd2012dd893b0e8ae28e6cc50727deef266c",
+  "changelog": "v903：补一段纪要单次上限 24h→5h（覆盖单场会议/长谈，省 token + 质量聚焦）；FAB 校验分支阈值改 5L*3600*1000，提示文案同步",
+  "userFacingChangelog": "· 「补一段纪要」单次上限调成 5 小时",
   "recentReleases": [
-    {
-      "version": 841,
-      "versionName": "260602-1939",
-      "userFacingChangelog": "会议纪要里聊到纠结的选择题，右下角一键「开始抉择」；收藏的星标挪到标题前面更清楚；一些排序/字重细节打磨。",
-      "changelog": "纪要抉择并入 + 收藏星标/排序细节：① 纪要识别到二选一纠结时右下加「开始抉择」按钮(choiceFromUserText 生成+跳抉择tab，无 choice 不显示)②放宽抉择扫描(明确求抉择即使一次也识别)③排序确认 ✓ 去掉线框、只留无衬线墨色勾④纪要折叠卡标题字重 Bold→Medium(太重)⑤收藏 ★ 从右侧挪到标题前缀(金色，占一字符)。",
-      "publishedAtMs": 1780401225000
-    },
     {
       "version": 842,
       "versionName": "260602-2006",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 「补一段纪要」单次最多选 24 小时，太长会整理不全",
       "changelog": "v902：补一段纪要加单次时间段上限 24 小时——FAB 校验加 endMs-genStartMs > 24h 分支提示「一次最多选 24 小时」；理由是转写超 MAX_PROMPT_CHARS(~60K) 会从尾部截断，长窗口只剩最近部分、纪要不完整",
       "publishedAtMs": 1780564920000
+    },
+    {
+      "version": 903,
+      "versionName": "260604-1727",
+      "userFacingChangelog": "· 「补一段纪要」单次上限调成 5 小时",
+      "changelog": "v903：补一段纪要单次上限 24h→5h（覆盖单场会议/长谈，省 token + 质量聚焦）；FAB 校验分支阈值改 5L*3600*1000，提示文案同步",
+      "publishedAtMs": 1780565409000
     }
   ],
-  "publishedAtMs": 1780564920000,
+  "publishedAtMs": 1780565409000,
   "minSupported": 0
 }
