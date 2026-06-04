@@ -1,19 +1,12 @@
 {
-  "version": 912,
-  "versionName": "260605-0033",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v912/memoair-v912-260605-0033-slim.apk",
-  "sizeBytes": 35514552,
-  "sha256": "11d9990203a5729f4795c59e6bbe26194db7d11d9ce69720757fd6029904a5c6",
-  "changelog": "v912（含未发出的 v911）：①撤销条修暗夜纯白+跟FAB重叠——Q.Ink→Q.SunkenInk(两模式都深)、文字 Q.OnSunkenInk、bottom 22→80 抬到 FAB 上方；纪要+待办两处 ②胶囊录制小绿点呼吸频率放慢——tween 700→2200ms + CubicBezier(0.42,0,0.58,1) ease-in-out + 谷值 0.3→0.4（一呼一吸~4.4s≈人静息13~14次/分）",
-  "userFacingChangelog": "· 录音胶囊上的小绿点改成了慢慢的呼吸感 · 删除撤销条暗夜不再是白框、也不挡按钮了",
+  "version": 913,
+  "versionName": "260605-0120",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v913/memoair-v913-260605-0120-slim.apk",
+  "sizeBytes": 35502264,
+  "sha256": "9b4d0668e66034f1de353b4b53397a08d97d77e636dc71057eb54d9812d4b077",
+  "changelog": "v913：彻底移除语音唤醒词「记得帮我」功能——删 WakeWordExecutor.kt + WakeWordPrefs.kt；清 MemoAirApp boot 监听、SettingsScreen WakeWordBlock、ChatActions markHandled、AutoTodoExtractor wakeHandled 过滤、MainActivity consumeWakeReplyIntent deep-link、BackupArchive 两条 prefs。零残留引用，编译过",
+  "userFacingChangelog": "· 移除了「记得帮我」语音唤醒功能",
   "recentReleases": [
-    {
-      "version": 851,
-      "versionName": "260603-0057",
-      "userFacingChangelog": "对话里让 AI 总结某个时段的会议不再报错了；下拉刷新现在会顺带补抽昨天的会，晚上的会跨夜也不会丢。",
-      "changelog": "①对话 summarize_time_window 报『LLM 返回无法解析』修复：MeetingSynthesizer/MeetingExtractor MAX_TOKENS 4096→8192——纪要 prompt 加 keyPoints/topics/timeline/表格/脑图 结构化字段后输出 JSON 撑过 4096 被截断→parseLenient 返回 null。定时扫描同样受益（之前截断会静默丢当天纪要）。②跨夜会议丢失修复：下拉刷新 triggerExtract 由只扫 daysAgo=0 改为同时扫 0+1（今天+昨天），昨晚的会第二天也能补抽（入库指纹去重，不重复）；toast 报两天新增之和、双失败才报错。空状态/刷新文案同步（v850 起已纠正 4 小时旧文案）。",
-      "publishedAtMs": 1780419625000
-    },
     {
       "version": 852,
       "versionName": "260603-0107",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 录音胶囊上的小绿点改成了慢慢的呼吸感 · 删除撤销条暗夜不再是白框、也不挡按钮了",
       "changelog": "v912（含未发出的 v911）：①撤销条修暗夜纯白+跟FAB重叠——Q.Ink→Q.SunkenInk(两模式都深)、文字 Q.OnSunkenInk、bottom 22→80 抬到 FAB 上方；纪要+待办两处 ②胶囊录制小绿点呼吸频率放慢——tween 700→2200ms + CubicBezier(0.42,0,0.58,1) ease-in-out + 谷值 0.3→0.4（一呼一吸~4.4s≈人静息13~14次/分）",
       "publishedAtMs": 1780591014000
+    },
+    {
+      "version": 913,
+      "versionName": "260605-0120",
+      "userFacingChangelog": "· 移除了「记得帮我」语音唤醒功能",
+      "changelog": "v913：彻底移除语音唤醒词「记得帮我」功能——删 WakeWordExecutor.kt + WakeWordPrefs.kt；清 MemoAirApp boot 监听、SettingsScreen WakeWordBlock、ChatActions markHandled、AutoTodoExtractor wakeHandled 过滤、MainActivity consumeWakeReplyIntent deep-link、BackupArchive 两条 prefs。零残留引用，编译过",
+      "publishedAtMs": 1780593854000
     }
   ],
-  "publishedAtMs": 1780591014000,
+  "publishedAtMs": 1780593854000,
   "minSupported": 0
 }
