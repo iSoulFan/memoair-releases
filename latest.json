@@ -1,19 +1,12 @@
 {
-  "version": 883,
-  "versionName": "260604-0905",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v883/memoair-v883-260604-0905-slim.apk",
+  "version": 885,
+  "versionName": "260604-0921",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v885/memoair-v885-260604-0921-slim.apk",
   "sizeBytes": 35551416,
-  "sha256": "f8fbe8d45aa618aa25496e6af38e95dcda0eb689915e1be6dd3e3a08e1759b22",
-  "changelog": "v883：修 v881 折叠对称引入的回归——「语音识别语种/手机多麦拾音/麦克风来源」三个嵌在平铺记录组里的子 section 点不开(snapshotFlow 自动收起把 openId 对应 sec:key 找不到的当成滚出屏幕→瞬间 setOpen(false))。加 seenSecKeys 累积门:自动收起只对'曾作为顶层 item key 出现过'的 section 生效,嵌套子 section 的 key 从不出现→不受收起逻辑影响→能正常展开;顶层滚出收起对称行为保留",
-  "userFacingChangelog": "· 修好了设置里「语音识别语种 / 手机多麦拾音 / 麦克风来源」点不开的问题",
+  "sha256": "335f06db6a7b9440a919844ad754447f76399496892776f4a3617e74ead16bbd",
+  "changelog": "v885：① SWOT 象限改单选——picked 从每象限独立 state 提升到 SwotGrid 的 selectedCode，点一个选中(展开聊一聊+边框焦点)、点另一个上一个自动收起。② LongPressMenu(全 App 长按菜单)弹窗贴手指落点——combinedClickable→pointerInput+detectTapGestures 抓 onLongPress offset，Popup offset 从固定 IntOffset(8,8) 改成手指 pressOffset(+4)，不再固定左上角。③ 带上 v884 未发出去的录音三子项滚出也折叠修复",
+  "userFacingChangelog": "· 抉择的 SWOT 现在一次只亮一个格子，点别的会把上一个收起\n· 卡片长按的菜单现在弹在手指旁边，不再跑到左上角",
   "recentReleases": [
-    {
-      "version": 820,
-      "versionName": "260601-1842",
-      "userFacingChangelog": "细节打磨。",
-      "changelog": "v820：修录音设置里「麦克风来源」展开后变淡 / 不一致的小毛病。",
-      "publishedAtMs": 1780310734000
-    },
     {
       "version": 821,
       "versionName": "260601-1910",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 修好了设置里「语音识别语种 / 手机多麦拾音 / 麦克风来源」点不开的问题",
       "changelog": "v883：修 v881 折叠对称引入的回归——「语音识别语种/手机多麦拾音/麦克风来源」三个嵌在平铺记录组里的子 section 点不开(snapshotFlow 自动收起把 openId 对应 sec:key 找不到的当成滚出屏幕→瞬间 setOpen(false))。加 seenSecKeys 累积门:自动收起只对'曾作为顶层 item key 出现过'的 section 生效,嵌套子 section 的 key 从不出现→不受收起逻辑影响→能正常展开;顶层滚出收起对称行为保留",
       "publishedAtMs": 1780535274000
+    },
+    {
+      "version": 885,
+      "versionName": "260604-0921",
+      "userFacingChangelog": "· 抉择的 SWOT 现在一次只亮一个格子，点别的会把上一个收起\n· 卡片长按的菜单现在弹在手指旁边，不再跑到左上角",
+      "changelog": "v885：① SWOT 象限改单选——picked 从每象限独立 state 提升到 SwotGrid 的 selectedCode，点一个选中(展开聊一聊+边框焦点)、点另一个上一个自动收起。② LongPressMenu(全 App 长按菜单)弹窗贴手指落点——combinedClickable→pointerInput+detectTapGestures 抓 onLongPress offset，Popup offset 从固定 IntOffset(8,8) 改成手指 pressOffset(+4)，不再固定左上角。③ 带上 v884 未发出去的录音三子项滚出也折叠修复",
+      "publishedAtMs": 1780536238000
     }
   ],
-  "publishedAtMs": 1780535274000,
+  "publishedAtMs": 1780536238000,
   "minSupported": 0
 }
