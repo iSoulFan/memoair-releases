@@ -1,19 +1,12 @@
 {
-  "version": 895,
-  "versionName": "260604-1311",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v895/memoair-v895-260604-1311-slim.apk",
-  "sizeBytes": 35498168,
-  "sha256": "84534b3a6e2a14bb933f42b21649e889a7758be98c3a154fc4bc80819850a77f",
-  "changelog": "v895：①待办时间标兜底——MeetingExtractor.buildTodos 与 TodoLlmExtractor 在 LLM 留空 dueIso8601 时回退 ChineseDueExtractor.extract(title/原文)，修「内容明显带日期/时间却不打时间标」②删纪要级联删待办——TodoDao 新增 deleteByMeetingId，MemoAirRepository.deleteMeeting 先删 sourceMeetingId 关联待办再删纪要(覆盖批量/长按/详情三入口)③单条删除新增确认弹窗(长按菜单+详情删除原本直接删、无提示)，批量+单条弹窗文案都加「对应待办也会一起删」",
-  "userFacingChangelog": "· 带了日期或时间的待办，现在能正确打上时间标了 · 删纪要时会提示并连带删掉它对应的待办，单独删一条也会先问一下",
+  "version": 896,
+  "versionName": "260604-1321",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v896/memoair-v896-260604-1321-slim.apk",
+  "sizeBytes": 35494072,
+  "sha256": "395477d58864681faf264f8e7fc86cd9e9c55787806c89f85991749298db4183",
+  "changelog": "v896：脑图横向版改回纵向——MindTreeCard 重写为纵向节点树(去掉 MindTreeGraph/MindTreeFullscreen+横向相关 import)：顶部主题框(neutralHeaderBg 小框 🧠+tree.root)，每分支一行左 rail Canvas 画 竖主干段+肘形横线+右指箭头(尖落分支框左缘)，分支框 pastel 循环三档；最后一支主干只到肘部；无全屏放大(纵向随页面滚)",
+  "userFacingChangelog": "· 纪要脑图改成纵向思维导图：顶上一个主题框，往下分出各个分支框，连线带箭头",
   "recentReleases": [
-    {
-      "version": 834,
-      "versionName": "260602-1630",
-      "userFacingChangelog": "会议纪要展开后的排版更舒展：段落和要点间距拉开、流程做成带时间轴线的卡片、各板块标题更有设计感。",
-      "changelog": "纪要展开态下半部排版：SimpleMarkdown 加可选 gapScale 参数(默认1，别处零影响)，纪要 section 正文传 1.6f 撑开段落/每条要点/决议间距；MinutesSectionTitle 重设计=左侧 accent 竖条(#5C63C4)+无衬线Bold+淡分隔线，section 顶间距 20→22；「流程」从裸时间轴改成卡片样式(中性灰 header「🗺 流程」+边框圆角，跟议题卡成套)并加真·时间轴竖线(编号圆圈用连续 rail 串起、末步不画)。改在共享 MeetingDetailContent→App+分享图同步。",
-      "publishedAtMs": 1780389293000
-    },
     {
       "version": 835,
       "versionName": "260602-1652",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 带了日期或时间的待办，现在能正确打上时间标了 · 删纪要时会提示并连带删掉它对应的待办，单独删一条也会先问一下",
       "changelog": "v895：①待办时间标兜底——MeetingExtractor.buildTodos 与 TodoLlmExtractor 在 LLM 留空 dueIso8601 时回退 ChineseDueExtractor.extract(title/原文)，修「内容明显带日期/时间却不打时间标」②删纪要级联删待办——TodoDao 新增 deleteByMeetingId，MemoAirRepository.deleteMeeting 先删 sourceMeetingId 关联待办再删纪要(覆盖批量/长按/详情三入口)③单条删除新增确认弹窗(长按菜单+详情删除原本直接删、无提示)，批量+单条弹窗文案都加「对应待办也会一起删」",
       "publishedAtMs": 1780549988000
+    },
+    {
+      "version": 896,
+      "versionName": "260604-1321",
+      "userFacingChangelog": "· 纪要脑图改成纵向思维导图：顶上一个主题框，往下分出各个分支框，连线带箭头",
+      "changelog": "v896：脑图横向版改回纵向——MindTreeCard 重写为纵向节点树(去掉 MindTreeGraph/MindTreeFullscreen+横向相关 import)：顶部主题框(neutralHeaderBg 小框 🧠+tree.root)，每分支一行左 rail Canvas 画 竖主干段+肘形横线+右指箭头(尖落分支框左缘)，分支框 pastel 循环三档；最后一支主干只到肘部；无全屏放大(纵向随页面滚)",
+      "publishedAtMs": 1780550594000
     }
   ],
-  "publishedAtMs": 1780549988000,
+  "publishedAtMs": 1780550594000,
   "minSupported": 0
 }
