@@ -1,19 +1,12 @@
 {
-  "version": 898,
-  "versionName": "260604-1445",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v898/memoair-v898-260604-1445-slim.apk",
-  "sizeBytes": 35494072,
-  "sha256": "ffe3aefd55163b2e7fe1468ec191ebcde724fac47669ef12be8e7e29ea094ced",
-  "changelog": "v898：对比表格四角缺口修复——外层 grid Column 的 clip(RoundedCornerShape10) 会把四角方格边线裁掉、又没外框补，导致四角开口；加 .border(0.5dp, cardBorder, RoundedCornerShape10) 圆角描边闭合四角",
-  "userFacingChangelog": "· 纪要表格四个角补上了，边框闭合工整",
+  "version": 899,
+  "versionName": "260604-1624",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v899/memoair-v899-260604-1624-slim.apk",
+  "sizeBytes": 35498168,
+  "sha256": "ddc8a66a33db9a55955f7c972a38fb252f2e8736fb869693fe39592002c2166a",
+  "changelog": "v899：纪要右下 FAB「有没有最新纪要」改「手动生成纪要」——两段式 QuietDateTimePickerDialog 选开始/结束→校验(本周内/晚于开始/非未来)→MeetingExtractor.forceExtractWindow 强制打包；extractMeetingsForDay 加 windowStart/windowEnd/force 参数，force 绕过 worthNote 门槛 + 指纹/时间去重；每天限 FORCE_DAILY_LIMIT=2 次(meeting_force_extract prefs，count_yyyy-MM-dd，只有真生成≥1条才计次)；空状态文案同步",
+  "userFacingChangelog": "· 纪要右下角按钮改成「手动生成纪要」：自己挑本周一段时间，强制打包成一条纪要（每天最多 2 次）",
   "recentReleases": [
-    {
-      "version": 837,
-      "versionName": "260602-1734",
-      "userFacingChangelog": "会议纪要遇到层级拆解或架构类内容，会自动排成脑图/架构图。",
-      "changelog": "纪要加第三种条件触发结构块：脑图/架构图(层级树)。MinutesVisual 加 trees 字段(两层 root+branches[{title,points}])，meeting_minutes prompt 加 trees 可选字段(层级拆解/架构才出、宁缺毋滥)，MeetingExtractor 解析。MeetingVisualSection 表格之后渲染竖版缩进树+连接线(根节点中性灰小卡 + 左侧贯穿竖线 + tick 连每个分支 + 分支要点 bullets，全中性无色相无衬线)。条件触发、搭现有抽取一次、低 token。改在共享 MeetingDetailContent→App+分享图同步。",
-      "publishedAtMs": 1780393018000
-    },
     {
       "version": 838,
       "versionName": "260602-1850",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 纪要表格四个角补上了，边框闭合工整",
       "changelog": "v898：对比表格四角缺口修复——外层 grid Column 的 clip(RoundedCornerShape10) 会把四角方格边线裁掉、又没外框补，导致四角开口；加 .border(0.5dp, cardBorder, RoundedCornerShape10) 圆角描边闭合四角",
       "publishedAtMs": 1780555660000
+    },
+    {
+      "version": 899,
+      "versionName": "260604-1624",
+      "userFacingChangelog": "· 纪要右下角按钮改成「手动生成纪要」：自己挑本周一段时间，强制打包成一条纪要（每天最多 2 次）",
+      "changelog": "v899：纪要右下 FAB「有没有最新纪要」改「手动生成纪要」——两段式 QuietDateTimePickerDialog 选开始/结束→校验(本周内/晚于开始/非未来)→MeetingExtractor.forceExtractWindow 强制打包；extractMeetingsForDay 加 windowStart/windowEnd/force 参数，force 绕过 worthNote 门槛 + 指纹/时间去重；每天限 FORCE_DAILY_LIMIT=2 次(meeting_force_extract prefs，count_yyyy-MM-dd，只有真生成≥1条才计次)；空状态文案同步",
+      "publishedAtMs": 1780561617000
     }
   ],
-  "publishedAtMs": 1780555660000,
+  "publishedAtMs": 1780561617000,
   "minSupported": 0
 }
