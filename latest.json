@@ -1,19 +1,12 @@
 {
-  "version": 892,
-  "versionName": "260604-1155",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v892/memoair-v892-260604-1155-slim.apk",
+  "version": 893,
+  "versionName": "260604-1228",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v893/memoair-v893-260604-1228-slim.apk",
   "sizeBytes": 35494072,
-  "sha256": "25d778f218c1c95861c8cdb6a508597f517f4e1d4de4ea898ed2fd4cd19ee3ac",
-  "changelog": "v892：纪要脑图套上议题/流程卡同款卡片外壳(1px边框+13dp圆角+neutralHeaderBg header色条+bodyBg body)，header 显示该树主题 tree.root(🧠 前缀，不再写死「脑图」二字)，去掉原顶部「脑图」小标题和独立根卡；分支缩进树渲染保留。横向节点树+Canvas箭头+全屏 留作下一步",
-  "userFacingChangelog": "· 纪要的脑图套上了跟议题卡同款的卡片样式，标题显示这张图的主题",
+  "sha256": "ed1938af4ad4c13db21327f22a4ab7e438a6901310f567f04ecc7577322ad5b0",
+  "changelog": "v893：纪要流程卡加 timelineTitle 字段(MinutesVisual+MeetingExtractor 解析+meeting_minutes.txt prompt schema+MeetingDetailContent header 渲染)，header 从写死「流程」改为显示该流程主题(如「上线推进流程」)，空回退「流程」；仅对新扫纪要生效。脑图卡片壳 v892 已上",
+  "userFacingChangelog": "· 纪要里的流程卡现在会显示「是什么流程」，不再只是干巴巴一个「流程」",
   "recentReleases": [
-    {
-      "version": 831,
-      "versionName": "260602-1523",
-      "userFacingChangelog": "会议纪要换了全新视图：核心结论和议题卡片一眼看完，纪要概述、讨论要点、待办分块更清楚。",
-      "changelog": "会议纪要结构化可视化（v829-831）：抽取多吐 keyPoints/topics 结构化字段（DB v27→28 增量加 visualJson 列，向后兼容、老纪要回退 markdown）；纪要详情前置「核心结论卡（带边框）+ 议题彩卡」，下方纪要概述/讨论要点/纪要待办统一无衬线板块标题 + 分隔线区分；展开态大抬头（标题+日期+涉及人员，去参与chip）；正文剥重复抬头、会议概述→纪要概述、去折叠默认展开。",
-      "publishedAtMs": 1780385201000
-    },
     {
       "version": 832,
       "versionName": "260602-1557",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 纪要的脑图套上了跟议题卡同款的卡片样式，标题显示这张图的主题",
       "changelog": "v892：纪要脑图套上议题/流程卡同款卡片外壳(1px边框+13dp圆角+neutralHeaderBg header色条+bodyBg body)，header 显示该树主题 tree.root(🧠 前缀，不再写死「脑图」二字)，去掉原顶部「脑图」小标题和独立根卡；分支缩进树渲染保留。横向节点树+Canvas箭头+全屏 留作下一步",
       "publishedAtMs": 1780545479000
+    },
+    {
+      "version": 893,
+      "versionName": "260604-1228",
+      "userFacingChangelog": "· 纪要里的流程卡现在会显示「是什么流程」，不再只是干巴巴一个「流程」",
+      "changelog": "v893：纪要流程卡加 timelineTitle 字段(MinutesVisual+MeetingExtractor 解析+meeting_minutes.txt prompt schema+MeetingDetailContent header 渲染)，header 从写死「流程」改为显示该流程主题(如「上线推进流程」)，空回退「流程」；仅对新扫纪要生效。脑图卡片壳 v892 已上",
+      "publishedAtMs": 1780547546000
     }
   ],
-  "publishedAtMs": 1780545479000,
+  "publishedAtMs": 1780547546000,
   "minSupported": 0
 }
