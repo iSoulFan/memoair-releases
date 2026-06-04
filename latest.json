@@ -1,19 +1,12 @@
 {
-  "version": 885,
-  "versionName": "260604-0921",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v885/memoair-v885-260604-0921-slim.apk",
+  "version": 886,
+  "versionName": "260604-0933",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v886/memoair-v886-260604-0933-slim.apk",
   "sizeBytes": 35551416,
-  "sha256": "335f06db6a7b9440a919844ad754447f76399496892776f4a3617e74ead16bbd",
-  "changelog": "v885：① SWOT 象限改单选——picked 从每象限独立 state 提升到 SwotGrid 的 selectedCode，点一个选中(展开聊一聊+边框焦点)、点另一个上一个自动收起。② LongPressMenu(全 App 长按菜单)弹窗贴手指落点——combinedClickable→pointerInput+detectTapGestures 抓 onLongPress offset，Popup offset 从固定 IntOffset(8,8) 改成手指 pressOffset(+4)，不再固定左上角。③ 带上 v884 未发出去的录音三子项滚出也折叠修复",
-  "userFacingChangelog": "· 抉择的 SWOT 现在一次只亮一个格子，点别的会把上一个收起\n· 卡片长按的菜单现在弹在手指旁边，不再跑到左上角",
+  "sha256": "f96986cf6c43f434f6ba203a7b44b837e8a1d8e5e51c8a2e562fb3c420ef63fe",
+  "changelog": "v886：放宽纪要 timeline/tables/trees 触发门槛——meeting_minutes.txt 把'宁缺毋滥/绝大多数纪要都是[]/别硬凑'软化成'内容沾边就大方抽'，三类各补一堆具体触发例子(timeline 加'来龙去脉/推进节奏'、tables 加'各有各情况/分别列几项'、trees 放宽到'摊成几个并列方面不要求严格层级')，底线只保留'不编造原文没有的内容'。仅影响新纪要",
+  "userFacingChangelog": "· 纪要里的时间轴 / 表格 / 脑图现在更容易出现了（之前条件太严，几乎只出时间轴）",
   "recentReleases": [
-    {
-      "version": 821,
-      "versionName": "260601-1910",
-      "userFacingChangelog": "录音设置整理得更清爽；用不同麦克风（手机 / 蓝牙）可分别录一套声纹，换设备后识别更准。",
-      "changelog": "v821：录音设置整理 + 文案合规化 + 分设备声纹（手机/蓝牙各一套，换设备识别更准）。",
-      "publishedAtMs": 1780312400000
-    },
     {
       "version": 822,
       "versionName": "260601-1943",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 抉择的 SWOT 现在一次只亮一个格子，点别的会把上一个收起\n· 卡片长按的菜单现在弹在手指旁边，不再跑到左上角",
       "changelog": "v885：① SWOT 象限改单选——picked 从每象限独立 state 提升到 SwotGrid 的 selectedCode，点一个选中(展开聊一聊+边框焦点)、点另一个上一个自动收起。② LongPressMenu(全 App 长按菜单)弹窗贴手指落点——combinedClickable→pointerInput+detectTapGestures 抓 onLongPress offset，Popup offset 从固定 IntOffset(8,8) 改成手指 pressOffset(+4)，不再固定左上角。③ 带上 v884 未发出去的录音三子项滚出也折叠修复",
       "publishedAtMs": 1780536238000
+    },
+    {
+      "version": 886,
+      "versionName": "260604-0933",
+      "userFacingChangelog": "· 纪要里的时间轴 / 表格 / 脑图现在更容易出现了（之前条件太严，几乎只出时间轴）",
+      "changelog": "v886：放宽纪要 timeline/tables/trees 触发门槛——meeting_minutes.txt 把'宁缺毋滥/绝大多数纪要都是[]/别硬凑'软化成'内容沾边就大方抽'，三类各补一堆具体触发例子(timeline 加'来龙去脉/推进节奏'、tables 加'各有各情况/分别列几项'、trees 放宽到'摊成几个并列方面不要求严格层级')，底线只保留'不编造原文没有的内容'。仅影响新纪要",
+      "publishedAtMs": 1780537055000
     }
   ],
-  "publishedAtMs": 1780536238000,
+  "publishedAtMs": 1780537055000,
   "minSupported": 0
 }
