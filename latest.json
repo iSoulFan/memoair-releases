@@ -1,19 +1,12 @@
 {
-  "version": 891,
-  "versionName": "260604-1135",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v891/memoair-v891-260604-1135-slim.apk",
+  "version": 892,
+  "versionName": "260604-1155",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v892/memoair-v892-260604-1155-slim.apk",
   "sizeBytes": 35494072,
-  "sha256": "7fa55c74f786d093f11e36456a588ac5ee2cf82371515585c5bc1e20819288ca",
-  "changelog": "v891：① 胶囊展开看板小字去紫——muted #7C7385/#B7B0BE(带紫调)→#7C766E/#B3AEA6 无色相中性灰；② 胶囊展开弹窗加阴影(elevation 收起12dp/展开18dp，立体感)；③ 时光底 tab：每次点(含从别 tab 切过去)都重置内层子 tab 到「全部」(切页完成再 emit scrollToTopSignal)",
-  "userFacingChangelog": "· 时光 tab 每次点开都回到「全部」那一列了\n· 右上角胶囊展开后跟背景有了阴影更立体，里面小字去掉了紫调",
+  "sha256": "25d778f218c1c95861c8cdb6a508597f517f4e1d4de4ea898ed2fd4cd19ee3ac",
+  "changelog": "v892：纪要脑图套上议题/流程卡同款卡片外壳(1px边框+13dp圆角+neutralHeaderBg header色条+bodyBg body)，header 显示该树主题 tree.root(🧠 前缀，不再写死「脑图」二字)，去掉原顶部「脑图」小标题和独立根卡；分支缩进树渲染保留。横向节点树+Canvas箭头+全屏 留作下一步",
+  "userFacingChangelog": "· 纪要的脑图套上了跟议题卡同款的卡片样式，标题显示这张图的主题",
   "recentReleases": [
-    {
-      "version": 828,
-      "versionName": "260602-1348",
-      "userFacingChangelog": "用外接麦克风/蓝牙设备录音时，如果长时间收不到声音，「记得」会提醒你检查一下设备。",
-      "changelog": "录音设备静音守护：外接麦/硬件设备正在用、且连续3分钟收不到电平时，主动推一条通知提醒检查电量/开关/蓝牙（仅外接设备触发，手机内置麦不报；隐私静音/勿扰时段不报；30分钟节流；阈值<0.01、时长/节流为经验常量待真机调）。",
-      "publishedAtMs": 1780379388000
-    },
     {
       "version": 831,
       "versionName": "260602-1523",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 时光 tab 每次点开都回到「全部」那一列了\n· 右上角胶囊展开后跟背景有了阴影更立体，里面小字去掉了紫调",
       "changelog": "v891：① 胶囊展开看板小字去紫——muted #7C7385/#B7B0BE(带紫调)→#7C766E/#B3AEA6 无色相中性灰；② 胶囊展开弹窗加阴影(elevation 收起12dp/展开18dp，立体感)；③ 时光底 tab：每次点(含从别 tab 切过去)都重置内层子 tab 到「全部」(切页完成再 emit scrollToTopSignal)",
       "publishedAtMs": 1780544185000
+    },
+    {
+      "version": 892,
+      "versionName": "260604-1155",
+      "userFacingChangelog": "· 纪要的脑图套上了跟议题卡同款的卡片样式，标题显示这张图的主题",
+      "changelog": "v892：纪要脑图套上议题/流程卡同款卡片外壳(1px边框+13dp圆角+neutralHeaderBg header色条+bodyBg body)，header 显示该树主题 tree.root(🧠 前缀，不再写死「脑图」二字)，去掉原顶部「脑图」小标题和独立根卡；分支缩进树渲染保留。横向节点树+Canvas箭头+全屏 留作下一步",
+      "publishedAtMs": 1780545479000
     }
   ],
-  "publishedAtMs": 1780544185000,
+  "publishedAtMs": 1780545479000,
   "minSupported": 0
 }
