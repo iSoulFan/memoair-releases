@@ -1,19 +1,12 @@
 {
-  "version": 890,
-  "versionName": "260604-1121",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v890/memoair-v890-260604-1121-slim.apk",
+  "version": 891,
+  "versionName": "260604-1135",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v891/memoair-v891-260604-1135-slim.apk",
   "sizeBytes": 35494072,
-  "sha256": "48e00bf4b199daf4a90c14697f41c0d57742926e3242f6322665b339d5fd13c6",
-  "changelog": "v890：胶囊整体退回原磨砂玻璃方案(glassBorder White0.55、topHighlight 0.45、shadow 仅收起态)，只把底色白度降一档——glassBg White0.82→0.70、expandedBg #FFFFFF→#F6F6F5。撤掉之前的灰底/灰边/展开阴影改动",
-  "userFacingChangelog": "· 胶囊和展开菜单退回原来的样子，只是底色不那么白了",
+  "sha256": "7fa55c74f786d093f11e36456a588ac5ee2cf82371515585c5bc1e20819288ca",
+  "changelog": "v891：① 胶囊展开看板小字去紫——muted #7C7385/#B7B0BE(带紫调)→#7C766E/#B3AEA6 无色相中性灰；② 胶囊展开弹窗加阴影(elevation 收起12dp/展开18dp，立体感)；③ 时光底 tab：每次点(含从别 tab 切过去)都重置内层子 tab 到「全部」(切页完成再 emit scrollToTopSignal)",
+  "userFacingChangelog": "· 时光 tab 每次点开都回到「全部」那一列了\n· 右上角胶囊展开后跟背景有了阴影更立体，里面小字去掉了紫调",
   "recentReleases": [
-    {
-      "version": 827,
-      "versionName": "260602-1301",
-      "userFacingChangelog": "拾梦相片轻点一下，就能展开那天的事；一些界面细节打磨。",
-      "changelog": "拾梦相片单击直接展开「那天的事」（原来要长按菜单里点）；录音设备弹窗背景改纯白、去掉蓝牙通道下的说明/诊断文案、切设备后持续无声约4s在音量条右侧提示「建议切换」。",
-      "publishedAtMs": 1780376747000
-    },
     {
       "version": 828,
       "versionName": "260602-1348",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 胶囊和展开菜单退回原来的样子，只是底色不那么白了",
       "changelog": "v890：胶囊整体退回原磨砂玻璃方案(glassBorder White0.55、topHighlight 0.45、shadow 仅收起态)，只把底色白度降一档——glassBg White0.82→0.70、expandedBg #FFFFFF→#F6F6F5。撤掉之前的灰底/灰边/展开阴影改动",
       "publishedAtMs": 1780543385000
+    },
+    {
+      "version": 891,
+      "versionName": "260604-1135",
+      "userFacingChangelog": "· 时光 tab 每次点开都回到「全部」那一列了\n· 右上角胶囊展开后跟背景有了阴影更立体，里面小字去掉了紫调",
+      "changelog": "v891：① 胶囊展开看板小字去紫——muted #7C7385/#B7B0BE(带紫调)→#7C766E/#B3AEA6 无色相中性灰；② 胶囊展开弹窗加阴影(elevation 收起12dp/展开18dp，立体感)；③ 时光底 tab：每次点(含从别 tab 切过去)都重置内层子 tab 到「全部」(切页完成再 emit scrollToTopSignal)",
+      "publishedAtMs": 1780544185000
     }
   ],
-  "publishedAtMs": 1780543385000,
+  "publishedAtMs": 1780544185000,
   "minSupported": 0
 }
