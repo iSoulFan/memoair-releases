@@ -1,19 +1,12 @@
 {
-  "version": 886,
-  "versionName": "260604-0933",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v886/memoair-v886-260604-0933-slim.apk",
-  "sizeBytes": 35551416,
-  "sha256": "f96986cf6c43f434f6ba203a7b44b837e8a1d8e5e51c8a2e562fb3c420ef63fe",
-  "changelog": "v886：放宽纪要 timeline/tables/trees 触发门槛——meeting_minutes.txt 把'宁缺毋滥/绝大多数纪要都是[]/别硬凑'软化成'内容沾边就大方抽'，三类各补一堆具体触发例子(timeline 加'来龙去脉/推进节奏'、tables 加'各有各情况/分别列几项'、trees 放宽到'摊成几个并列方面不要求严格层级')，底线只保留'不编造原文没有的内容'。仅影响新纪要",
-  "userFacingChangelog": "· 纪要里的时间轴 / 表格 / 脑图现在更容易出现了（之前条件太严，几乎只出时间轴）",
+  "version": 887,
+  "versionName": "260604-1102",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v887/memoair-v887-260604-1102-slim.apk",
+  "sizeBytes": 35494072,
+  "sha256": "913cf6fc6315b254b7997f0ef225e77b15e0ed4019f7f780a27522988bb5a275",
+  "changelog": "v887：① 纪要脑图分支重叠修复(MeetingDetailContent 分支容器 Box→Column，原层叠导致糊在一起) ② 议题卡 light pastel header 降饱和更淡雅(#F3F3FA/#EFF6F4/#F2F6EC/#F8F2EB + 文字压到≥4.5:1 on 灰底) ③ 对话「点这里看上一个话题」揭开后锚定原位不跳顶+露头~100px、用户自行上滑倒序看 ④ 右下角向下键改用 totalItemsCount-1 可靠回到最新一条 ⑤ 记录设备实时电平有信号(audioLevel≥0.03)时隐藏'建议切换' ⑥ 彻底删除 Limitless/GetNote 第三方录音源(删11文件+清~20文件引用，默认源回落手机麦)",
+  "userFacingChangelog": "· 纪要的脑图不再重叠糊成一团，议题卡配色更淡雅了\n· 对话里点「看上一个话题」不再跳到顶部，停在原地让你往上翻；右下角回到最新也修好了\n· 记录设备有声音时不再多此一举提示切换",
   "recentReleases": [
-    {
-      "version": 822,
-      "versionName": "260601-1943",
-      "userFacingChangelog": "细节打磨。",
-      "changelog": "v822：录音设置文案微调 + 麦克风来源精简（去 USB）。",
-      "publishedAtMs": 1780314385000
-    },
     {
       "version": 824,
       "versionName": "260601-2347",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 纪要里的时间轴 / 表格 / 脑图现在更容易出现了（之前条件太严，几乎只出时间轴）",
       "changelog": "v886：放宽纪要 timeline/tables/trees 触发门槛——meeting_minutes.txt 把'宁缺毋滥/绝大多数纪要都是[]/别硬凑'软化成'内容沾边就大方抽'，三类各补一堆具体触发例子(timeline 加'来龙去脉/推进节奏'、tables 加'各有各情况/分别列几项'、trees 放宽到'摊成几个并列方面不要求严格层级')，底线只保留'不编造原文没有的内容'。仅影响新纪要",
       "publishedAtMs": 1780537055000
+    },
+    {
+      "version": 887,
+      "versionName": "260604-1102",
+      "userFacingChangelog": "· 纪要的脑图不再重叠糊成一团，议题卡配色更淡雅了\n· 对话里点「看上一个话题」不再跳到顶部，停在原地让你往上翻；右下角回到最新也修好了\n· 记录设备有声音时不再多此一举提示切换",
+      "changelog": "v887：① 纪要脑图分支重叠修复(MeetingDetailContent 分支容器 Box→Column，原层叠导致糊在一起) ② 议题卡 light pastel header 降饱和更淡雅(#F3F3FA/#EFF6F4/#F2F6EC/#F8F2EB + 文字压到≥4.5:1 on 灰底) ③ 对话「点这里看上一个话题」揭开后锚定原位不跳顶+露头~100px、用户自行上滑倒序看 ④ 右下角向下键改用 totalItemsCount-1 可靠回到最新一条 ⑤ 记录设备实时电平有信号(audioLevel≥0.03)时隐藏'建议切换' ⑥ 彻底删除 Limitless/GetNote 第三方录音源(删11文件+清~20文件引用，默认源回落手机麦)",
+      "publishedAtMs": 1780542273000
     }
   ],
-  "publishedAtMs": 1780537055000,
+  "publishedAtMs": 1780542273000,
   "minSupported": 0
 }
