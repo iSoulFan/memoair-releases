@@ -1,19 +1,12 @@
 {
-  "version": 901,
-  "versionName": "260604-1657",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v901/memoair-v901-260604-1657-slim.apk",
+  "version": 902,
+  "versionName": "260604-1720",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v902/memoair-v902-260604-1720-slim.apk",
   "sizeBytes": 35498168,
-  "sha256": "6ba1bbf41391e8d57b8fa33064ea9eb946c99f882a628044b0a944eaf14f3375",
-  "changelog": "v901：①纪要筛选 chip「我有发言/我在旁听」缩成「发言/旁听」——5 档全 2 字、等宽 segmented control 视觉均匀(原 4 字两档发挤) ②FAB「手动生成纪要」→「补一段纪要」(避免误导整页需手动) ③meeting_minutes.txt timeline 加硬要求：步骤数组按时间先后排序(换算下周一/7月底等真实先后)，修流程乱序",
-  "userFacingChangelog": "· 纪要的流程现在按时间先后排了 · 顶部分类条排版更均匀 · 「手动生成纪要」按钮改叫「补一段纪要」",
+  "sha256": "cb6978753286c77bf54e497c6890dee0c5c0c3bc5041a6ee22a57b78848374f2",
+  "changelog": "v902：补一段纪要加单次时间段上限 24 小时——FAB 校验加 endMs-genStartMs > 24h 分支提示「一次最多选 24 小时」；理由是转写超 MAX_PROMPT_CHARS(~60K) 会从尾部截断，长窗口只剩最近部分、纪要不完整",
+  "userFacingChangelog": "· 「补一段纪要」单次最多选 24 小时，太长会整理不全",
   "recentReleases": [
-    {
-      "version": 840,
-      "versionName": "260602-1930",
-      "userFacingChangelog": "纪要/待办界面细节打磨：字体、行距更舒服；Tab 拖动排序更直观（进入有抖动提示、点空白即确认）。",
-      "changelog": "纪要/待办 UI 修正：① 待办+纪要折叠卡字体回退衬线(撤上版 SansSerif，MeetingDetailContent 展开态保持无衬线)② 收藏★跟 chevron› 合进同一 Row 居中对齐(原来错位)③ 纪要正文行距反转修复:lineHeight 25→20 收紧行内 + gapScale 1.6→2.6 拉开点间，让点↔点>点内行↔行④ Tab 排序模式 tabs 加 jiggle 抖动(±1.5°相邻反相位)提示可拖⑤ 排序确认按钮 Warm 实底→线框✓(透明+1px Hairline+墨色勾)⑥ 排序模式点 Tab 栏外区域=确认退出(透明 catcher)。",
-      "publishedAtMs": 1780399964000
-    },
     {
       "version": 841,
       "versionName": "260602-1939",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 纪要的流程现在按时间先后排了 · 顶部分类条排版更均匀 · 「手动生成纪要」按钮改叫「补一段纪要」",
       "changelog": "v901：①纪要筛选 chip「我有发言/我在旁听」缩成「发言/旁听」——5 档全 2 字、等宽 segmented control 视觉均匀(原 4 字两档发挤) ②FAB「手动生成纪要」→「补一段纪要」(避免误导整页需手动) ③meeting_minutes.txt timeline 加硬要求：步骤数组按时间先后排序(换算下周一/7月底等真实先后)，修流程乱序",
       "publishedAtMs": 1780563556000
+    },
+    {
+      "version": 902,
+      "versionName": "260604-1720",
+      "userFacingChangelog": "· 「补一段纪要」单次最多选 24 小时，太长会整理不全",
+      "changelog": "v902：补一段纪要加单次时间段上限 24 小时——FAB 校验加 endMs-genStartMs > 24h 分支提示「一次最多选 24 小时」；理由是转写超 MAX_PROMPT_CHARS(~60K) 会从尾部截断，长窗口只剩最近部分、纪要不完整",
+      "publishedAtMs": 1780564920000
     }
   ],
-  "publishedAtMs": 1780563556000,
+  "publishedAtMs": 1780564920000,
   "minSupported": 0
 }
