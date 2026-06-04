@@ -1,19 +1,12 @@
 {
-  "version": 910,
-  "versionName": "260604-1924",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v910/memoair-v910-260604-1924-slim.apk",
+  "version": 912,
+  "versionName": "260605-0033",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v912/memoair-v912-260605-0033-slim.apk",
   "sizeBytes": 35514552,
-  "sha256": "8ca556e7aaa8139e874153ccf29fe067c60d51d944c24e78a832401f9ac0a01f",
-  "changelog": "v910：撤销条「撤销」文字色 Q.Memory(黄绿)→Q.Surface(白)——黄绿不可用于文字(红线)；纪要+待办两处撤销条同改。（注：待办的可撤销删除也已落地，跟纪要并行独立状态）",
-  "userFacingChangelog": "· 删除撤销条的文字配色调整了",
+  "sha256": "11d9990203a5729f4795c59e6bbe26194db7d11d9ce69720757fd6029904a5c6",
+  "changelog": "v912（含未发出的 v911）：①撤销条修暗夜纯白+跟FAB重叠——Q.Ink→Q.SunkenInk(两模式都深)、文字 Q.OnSunkenInk、bottom 22→80 抬到 FAB 上方；纪要+待办两处 ②胶囊录制小绿点呼吸频率放慢——tween 700→2200ms + CubicBezier(0.42,0,0.58,1) ease-in-out + 谷值 0.3→0.4（一呼一吸~4.4s≈人静息13~14次/分）",
+  "userFacingChangelog": "· 录音胶囊上的小绿点改成了慢慢的呼吸感 · 删除撤销条暗夜不再是白框、也不挡按钮了",
   "recentReleases": [
-    {
-      "version": 850,
-      "versionName": "260603-0048",
-      "userFacingChangelog": "会议纪要的刷新说明改清楚了：下拉刷新扫的是今天一整天的录音，晚上的会也能补抽出来。",
-      "changelog": "纪要下拉刷新/空状态文案修正：实际 extractMeetingsForDay 扫的是当天 00:00→24:00 整天（早改成按天，'近4小时/过去4小时'是旧窗口设计的残留错文案，让用户以为晚上的会过4小时会丢）。refreshingLabel 改'今天一整天的录音'；EmptyState 说明改'从当天录音里抽 + 频率设置1~3次 + 晚上下拉补抽扫整天不会丢'。自动扫描时间点 12:30/18:30（FrequencyPrefs 默认2次，1次=18:30、3次=+22:30）不变。",
-      "publishedAtMs": 1780418992000
-    },
     {
       "version": 851,
       "versionName": "260603-0057",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 删除撤销条的文字配色调整了",
       "changelog": "v910：撤销条「撤销」文字色 Q.Memory(黄绿)→Q.Surface(白)——黄绿不可用于文字(红线)；纪要+待办两处撤销条同改。（注：待办的可撤销删除也已落地，跟纪要并行独立状态）",
       "publishedAtMs": 1780572380000
+    },
+    {
+      "version": 912,
+      "versionName": "260605-0033",
+      "userFacingChangelog": "· 录音胶囊上的小绿点改成了慢慢的呼吸感 · 删除撤销条暗夜不再是白框、也不挡按钮了",
+      "changelog": "v912（含未发出的 v911）：①撤销条修暗夜纯白+跟FAB重叠——Q.Ink→Q.SunkenInk(两模式都深)、文字 Q.OnSunkenInk、bottom 22→80 抬到 FAB 上方；纪要+待办两处 ②胶囊录制小绿点呼吸频率放慢——tween 700→2200ms + CubicBezier(0.42,0,0.58,1) ease-in-out + 谷值 0.3→0.4（一呼一吸~4.4s≈人静息13~14次/分）",
+      "publishedAtMs": 1780591014000
     }
   ],
-  "publishedAtMs": 1780572380000,
+  "publishedAtMs": 1780591014000,
   "minSupported": 0
 }
