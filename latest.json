@@ -1,19 +1,12 @@
 {
-  "version": 906,
-  "versionName": "260604-1813",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v906/memoair-v906-260604-1813-slim.apk",
+  "version": 907,
+  "versionName": "260604-1828",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v907/memoair-v907-260604-1828-slim.apk",
   "sizeBytes": 35506360,
-  "sha256": "ef4eae160d9691e70367705491ad393ae67267e355a4398f0b011794022af244",
-  "changelog": "v906：①meeting_minutes.txt 分段原则加强——「同一摊事往大了认」(同一大项目/主题下换房间/区域/模块/子方案仍是同一场)+「时间紧挨着=强信号默认合一条」+装修反过度拆分例(10:48-12:26 各区域→一条+议题卡，绝不切五六条)；修装修被按房间切碎 ②纪要长按菜单加「改标题」→重命名 Dialog(OutlinedTextField，只改 title 留 markdown，走 repo.updateMeeting)",
-  "userFacingChangelog": "· 纪要不再把一件事（比如整场装修讨论）按子项切成一堆，连续同一摊事会并成一条 · 长按纪要卡可以「改标题」了",
+  "sha256": "c6a3d5bda88a4b7922c2aa3e16466ef3d47a82b80ecba9cdb2cd94b0d1d78bf9",
+  "changelog": "v907：①补一段纪要配额提示从顶部 toast 改成 FAB 上方就近的小气泡(fabHint，align BottomEnd + bottom=74dp + 2.2s 自动消)②管理员(PasscodeAuth.isAdmin)不限次数——FAB onClick 与 MeetingExtractor.forceExtractWindow 都对 admin 跳过 forceRemainingToday 检查，admin 也不计数(不占配额)",
+  "userFacingChangelog": "· 「补一段纪要」用完的提示挪到按钮附近了 · 管理员账号不限制次数",
   "recentReleases": [
-    {
-      "version": 846,
-      "versionName": "260602-2133",
-      "userFacingChangelog": "时光页分类标签拖动排序修好了。",
-      "changelog": "chip 拖拽手势改在 Initial pass 抢断（关键修复）：v845 在 Main pass consume 仍输给祖先——子节点 Main 虽先于父，但主 HorizontalPager 的 drag 检测把手势抢走导致『拖动直接划走整页』。改为 awaitPointerEvent(PointerEventPass.Initial) 里 consume 水平位移：Initial 在 Main 之前派发，子节点在 Initial 先吃掉事件 → Main pass 跑到 chip 行 horizontalScroll / 主 Pager 时拿到的已是 consumed → 既不横滚也不翻页，拖拽稳生效。行动 + 时光两页同改。保留 horizontalScroll（防 chip 挤变形）。",
-      "publishedAtMs": 1780407318000
-    },
     {
       "version": 847,
       "versionName": "260602-2157",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 纪要不再把一件事（比如整场装修讨论）按子项切成一堆，连续同一摊事会并成一条 · 长按纪要卡可以「改标题」了",
       "changelog": "v906：①meeting_minutes.txt 分段原则加强——「同一摊事往大了认」(同一大项目/主题下换房间/区域/模块/子方案仍是同一场)+「时间紧挨着=强信号默认合一条」+装修反过度拆分例(10:48-12:26 各区域→一条+议题卡，绝不切五六条)；修装修被按房间切碎 ②纪要长按菜单加「改标题」→重命名 Dialog(OutlinedTextField，只改 title 留 markdown，走 repo.updateMeeting)",
       "publishedAtMs": 1780568154000
+    },
+    {
+      "version": 907,
+      "versionName": "260604-1828",
+      "userFacingChangelog": "· 「补一段纪要」用完的提示挪到按钮附近了 · 管理员账号不限制次数",
+      "changelog": "v907：①补一段纪要配额提示从顶部 toast 改成 FAB 上方就近的小气泡(fabHint，align BottomEnd + bottom=74dp + 2.2s 自动消)②管理员(PasscodeAuth.isAdmin)不限次数——FAB onClick 与 MeetingExtractor.forceExtractWindow 都对 admin 跳过 forceRemainingToday 检查，admin 也不计数(不占配额)",
+      "publishedAtMs": 1780569029000
     }
   ],
-  "publishedAtMs": 1780568154000,
+  "publishedAtMs": 1780569029000,
   "minSupported": 0
 }
