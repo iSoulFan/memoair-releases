@@ -1,19 +1,12 @@
 {
-  "version": 900,
-  "versionName": "260604-1643",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v900/memoair-v900-260604-1643-slim.apk",
+  "version": 901,
+  "versionName": "260604-1657",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v901/memoair-v901-260604-1657-slim.apk",
   "sizeBytes": 35498168,
-  "sha256": "42a1f0f060ff0addd6bd97b466c6830e83ce4b387a4a34f50bb9ccae03490341",
-  "changelog": "v900：手动生成纪要增强——①去掉「本周内」时间限制(任意过去时间，仍校验晚于开始/非未来) ②生成时顶部文案区分下拉刷新(manualGenerating→「在回忆这段时间、整理成纪要」) ③forceExtractWindow 返回新纪要 id；MeetingFilterPrefs 加 markManual/manualIds/newBadgeIds/clearNewBadge(SharedPreferences，不改 schema) ④折叠卡右上角 NEW 角标(Q.Memory 绿，点击 clearNewBadge 消失) ⑤带 NEW 角标的纪要无视原排序置顶(pinned by newBadge, createdAt desc) ⑥分类档加「手动」(Filter.Manual，按 manualIds 过滤)",
-  "userFacingChangelog": "· 手动生成纪要：不再限制本周、任意时间段都行；新生成的纪要置顶 + 带可点掉的 NEW 角标；分类多了「手动」一档专看手动生成的",
+  "sha256": "6ba1bbf41391e8d57b8fa33064ea9eb946c99f882a628044b0a944eaf14f3375",
+  "changelog": "v901：①纪要筛选 chip「我有发言/我在旁听」缩成「发言/旁听」——5 档全 2 字、等宽 segmented control 视觉均匀(原 4 字两档发挤) ②FAB「手动生成纪要」→「补一段纪要」(避免误导整页需手动) ③meeting_minutes.txt timeline 加硬要求：步骤数组按时间先后排序(换算下周一/7月底等真实先后)，修流程乱序",
+  "userFacingChangelog": "· 纪要的流程现在按时间先后排了 · 顶部分类条排版更均匀 · 「手动生成纪要」按钮改叫「补一段纪要」",
   "recentReleases": [
-    {
-      "version": 839,
-      "versionName": "260602-1900",
-      "userFacingChangelog": "行动页的 Tab 可以自己拖动排序了——点最右边的 ≡ 进入排序、拖动调位置、再点完成。",
-      "changelog": "行动页子 Tab 可拖动排序+持久化：TabBar 末尾加 ≡ 手柄，点击进排序模式(pager userScrollEnabled=false)，inline 横向 detectDragGestures 拖拽重排(SnapshotStateList，越过相邻中心即 onMove，被拖 chip zIndex+shadow 浮起)，退出 saveOrder。新 TabOrderPrefs(memoair_tab_order，存 Tab.name)，loadOrder 调和(保存序在前、新增追加、消失丢弃)。VISIBLE_TABS=live tabOrder 单一事实源，NavBus 全按 indexOf 身份不受影响，重排保持选中(scrollToPage by Tab identity)。",
-      "publishedAtMs": 1780398319000
-    },
     {
       "version": 840,
       "versionName": "260602-1930",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 手动生成纪要：不再限制本周、任意时间段都行；新生成的纪要置顶 + 带可点掉的 NEW 角标；分类多了「手动」一档专看手动生成的",
       "changelog": "v900：手动生成纪要增强——①去掉「本周内」时间限制(任意过去时间，仍校验晚于开始/非未来) ②生成时顶部文案区分下拉刷新(manualGenerating→「在回忆这段时间、整理成纪要」) ③forceExtractWindow 返回新纪要 id；MeetingFilterPrefs 加 markManual/manualIds/newBadgeIds/clearNewBadge(SharedPreferences，不改 schema) ④折叠卡右上角 NEW 角标(Q.Memory 绿，点击 clearNewBadge 消失) ⑤带 NEW 角标的纪要无视原排序置顶(pinned by newBadge, createdAt desc) ⑥分类档加「手动」(Filter.Manual，按 manualIds 过滤)",
       "publishedAtMs": 1780562717000
+    },
+    {
+      "version": 901,
+      "versionName": "260604-1657",
+      "userFacingChangelog": "· 纪要的流程现在按时间先后排了 · 顶部分类条排版更均匀 · 「手动生成纪要」按钮改叫「补一段纪要」",
+      "changelog": "v901：①纪要筛选 chip「我有发言/我在旁听」缩成「发言/旁听」——5 档全 2 字、等宽 segmented control 视觉均匀(原 4 字两档发挤) ②FAB「手动生成纪要」→「补一段纪要」(避免误导整页需手动) ③meeting_minutes.txt timeline 加硬要求：步骤数组按时间先后排序(换算下周一/7月底等真实先后)，修流程乱序",
+      "publishedAtMs": 1780563556000
     }
   ],
-  "publishedAtMs": 1780562717000,
+  "publishedAtMs": 1780563556000,
   "minSupported": 0
 }
