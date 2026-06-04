@@ -1,19 +1,12 @@
 {
-  "version": 894,
-  "versionName": "260604-1246",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v894/memoair-v894-260604-1246-slim.apk",
+  "version": 895,
+  "versionName": "260604-1311",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v895/memoair-v895-260604-1311-slim.apk",
   "sizeBytes": 35498168,
-  "sha256": "0338793cdc493e906b82552e1edb1a583ad73f1edc91cc0758ab8ca34eae0c38",
-  "changelog": "v894：脑图改横向节点树(MeetingDetailContent.kt 新增 MindTreeCard/MindTreeGraph/MindTreeFullscreen)——header 色条=tree.root 主题，Canvas 画主干+横向 bus+向下箭头(尖落每子卡顶边水平中点)，子卡横排循环三档 pastel，body 放不下横向滚动，整块点击→全屏 Dialog 双指缩放+拖动；表格也套上同款卡壳(📊+表标题 header)；meeting_minutes.txt 放宽 tables 触发门槛(补日常生活向例子+加重鼓励)",
-  "userFacingChangelog": "· 纪要里的脑图换成了横向树，更像真正的思维导图，点一下能全屏放大看 · 对比表格更容易出现了，也跟其它卡片统一了样式",
+  "sha256": "84534b3a6e2a14bb933f42b21649e889a7758be98c3a154fc4bc80819850a77f",
+  "changelog": "v895：①待办时间标兜底——MeetingExtractor.buildTodos 与 TodoLlmExtractor 在 LLM 留空 dueIso8601 时回退 ChineseDueExtractor.extract(title/原文)，修「内容明显带日期/时间却不打时间标」②删纪要级联删待办——TodoDao 新增 deleteByMeetingId，MemoAirRepository.deleteMeeting 先删 sourceMeetingId 关联待办再删纪要(覆盖批量/长按/详情三入口)③单条删除新增确认弹窗(长按菜单+详情删除原本直接删、无提示)，批量+单条弹窗文案都加「对应待办也会一起删」",
+  "userFacingChangelog": "· 带了日期或时间的待办，现在能正确打上时间标了 · 删纪要时会提示并连带删掉它对应的待办，单独删一条也会先问一下",
   "recentReleases": [
-    {
-      "version": 833,
-      "versionName": "260602-1617",
-      "userFacingChangelog": "会议纪要展开后的排版更清爽：字体统一、行距和板块间距更舒服、底色不再刺眼。",
-      "changelog": "纪要展开态排版打磨：核心结论/议题/时间轴的 bullet 正文显式 SansSerif（之前继承主题衬线漏网）+ FontWeight.Normal（去重字重）；议题卡身 #FFFFFF→#F7F8FA 浅灰（纯白太亮）；bullet 间距/行高拉开(lineHeight 21-23→24-25、bullet gap+2)、MinutesSectionTitle 上间距 14→20 板块更透气；meta/待办文案补 SansSerif。MeetingDetailContent 共享→App+分享图同步生效。",
-      "publishedAtMs": 1780388367000
-    },
     {
       "version": 834,
       "versionName": "260602-1630",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 纪要里的脑图换成了横向树，更像真正的思维导图，点一下能全屏放大看 · 对比表格更容易出现了，也跟其它卡片统一了样式",
       "changelog": "v894：脑图改横向节点树(MeetingDetailContent.kt 新增 MindTreeCard/MindTreeGraph/MindTreeFullscreen)——header 色条=tree.root 主题，Canvas 画主干+横向 bus+向下箭头(尖落每子卡顶边水平中点)，子卡横排循环三档 pastel，body 放不下横向滚动，整块点击→全屏 Dialog 双指缩放+拖动；表格也套上同款卡壳(📊+表标题 header)；meeting_minutes.txt 放宽 tables 触发门槛(补日常生活向例子+加重鼓励)",
       "publishedAtMs": 1780548528000
+    },
+    {
+      "version": 895,
+      "versionName": "260604-1311",
+      "userFacingChangelog": "· 带了日期或时间的待办，现在能正确打上时间标了 · 删纪要时会提示并连带删掉它对应的待办，单独删一条也会先问一下",
+      "changelog": "v895：①待办时间标兜底——MeetingExtractor.buildTodos 与 TodoLlmExtractor 在 LLM 留空 dueIso8601 时回退 ChineseDueExtractor.extract(title/原文)，修「内容明显带日期/时间却不打时间标」②删纪要级联删待办——TodoDao 新增 deleteByMeetingId，MemoAirRepository.deleteMeeting 先删 sourceMeetingId 关联待办再删纪要(覆盖批量/长按/详情三入口)③单条删除新增确认弹窗(长按菜单+详情删除原本直接删、无提示)，批量+单条弹窗文案都加「对应待办也会一起删」",
+      "publishedAtMs": 1780549988000
     }
   ],
-  "publishedAtMs": 1780548528000,
+  "publishedAtMs": 1780549988000,
   "minSupported": 0
 }
