@@ -1,19 +1,12 @@
 {
-  "version": 888,
-  "versionName": "260604-1107",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v888/memoair-v888-260604-1107-slim.apk",
+  "version": 889,
+  "versionName": "260604-1115",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v889/memoair-v889-260604-1115-slim.apk",
   "sizeBytes": 35494072,
-  "sha256": "ea17d537ead308ae8b20c0204f1d16572148125c1cd5ebc27a9b6a8b5f0032e9",
-  "changelog": "v888：录音胶囊降白去色相——收起 glassBg White0.60→#EAEAE8×0.70、glassBorder 白→#8C8C88×0.30、topHighlight 0.30→0.12；展开 expandedBg 纯白#FFFFFF→#F0F0EE；shadow 从仅收起态改成收起+展开都有(展开弹窗加阴影)",
-  "userFacingChangelog": "· 右上角的胶囊（收起和点开后）都更淡、更中性了，不再太白抢戏；点开的弹窗也加了阴影",
+  "sha256": "282574f174be31453890754599b6942c0fb3bb733841e07c605a16c74c756f90",
+  "changelog": "v889：胶囊勾边改回上一版白色细边(glassBorder #8C8C88×0.30 → White×0.55)；BG 降白(glassBg/expandedBg 浅灰)+ 展开阴影保留",
+  "userFacingChangelog": "· 胶囊勾边改回了原来的样式（只保留了不那么白的底色）",
   "recentReleases": [
-    {
-      "version": 825,
-      "versionName": "260602-0038",
-      "userFacingChangelog": "界面细节打磨，体验更顺手一点。",
-      "changelog": "界面细节打磨与稳定性优化。",
-      "publishedAtMs": 1780332026000
-    },
     {
       "version": 826,
       "versionName": "260602-1017",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 右上角的胶囊（收起和点开后）都更淡、更中性了，不再太白抢戏；点开的弹窗也加了阴影",
       "changelog": "v888：录音胶囊降白去色相——收起 glassBg White0.60→#EAEAE8×0.70、glassBorder 白→#8C8C88×0.30、topHighlight 0.30→0.12；展开 expandedBg 纯白#FFFFFF→#F0F0EE；shadow 从仅收起态改成收起+展开都有(展开弹窗加阴影)",
       "publishedAtMs": 1780542563000
+    },
+    {
+      "version": 889,
+      "versionName": "260604-1115",
+      "userFacingChangelog": "· 胶囊勾边改回了原来的样式（只保留了不那么白的底色）",
+      "changelog": "v889：胶囊勾边改回上一版白色细边(glassBorder #8C8C88×0.30 → White×0.55)；BG 降白(glassBg/expandedBg 浅灰)+ 展开阴影保留",
+      "publishedAtMs": 1780543080000
     }
   ],
-  "publishedAtMs": 1780542563000,
+  "publishedAtMs": 1780543080000,
   "minSupported": 0
 }
