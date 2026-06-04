@@ -1,19 +1,12 @@
 {
-  "version": 904,
-  "versionName": "260604-1750",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v904/memoair-v904-260604-1750-slim.apk",
+  "version": 905,
+  "versionName": "260604-1758",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v905/memoair-v905-260604-1758-slim.apk",
   "sizeBytes": 35506360,
-  "sha256": "2e1706a294484d70ea84f57abcfac479214c1820d5c683ae7fed471f3ec421ee",
-  "changelog": "v904：补一段纪要的时间选择两步弹窗合并成一页——新 QuietTimeRangePickerDialog(月历选天 + 起止纯文字+当前项下划线 + 双滚轮 + 共X小时Y分/最多5小时 + FooterButtons confirmEnabled)；防呆：调结束时滚轮按 endMaxMs=min(start+5h, 当天末, 今天则现在) 动态算 hour/minute range 并 key() 重建，越界时分直接选不到；标题「手动选择纪要时间段」；FAB 改单弹窗 genPickerOpen，确认走 forceExtractWindow+markManual",
-  "userFacingChangelog": "· 「补一段纪要」选时间改成一页选完：月历挑天 + 开始/结束滚轮，结束最多到「开始+5小时」且选不过现在",
+  "sha256": "32dbf2d748e0460a2e552b61b4155a517e5d2ce4297e12e8e99fc57e80ac6343",
+  "changelog": "v905：手动生成纪要的 NEW 角标改为点卡片即清——卡片 onClick else 分支加 clearNewBadge(ctx,m.id)+flagsBump；角标本身去掉 clickable 改纯展示(点角标冒泡到卡片点击)",
+  "userFacingChangelog": "· 手动生成的纪要 NEW 标记，点开卡片就会消失",
   "recentReleases": [
-    {
-      "version": 843,
-      "versionName": "260602-2021",
-      "userFacingChangelog": "行动页拖动排序时多了个提示；时光页的分类标签现在也能自己拖动排序了。",
-      "changelog": "① 行动页点 ≡ 进排序模式时弹设计规范 Toast「拖动可调整上面 Tab 的顺序」(复用 screenToast，TopCenter 胶囊 1.8s 自动消)②「≡+拖动排序」整套复刻到时光页筛选 chip 行：新 TimelineChipOrderPrefs(memoair_timeline_chip_order，存 CardKind.tag，reconcile 调和) + LazyRow 末尾 ≡ 手柄 + 进排序弹 toast「拖动可调整上面分类的顺序」+ kind chips jiggle 抖动 + detectDragGestures 横向拖拽重排(排序态 userScrollEnabled=false，ReorderableKindChip 抽独立 composable、moveKindChip 顶层函数避免方法过大 R8 坑) + 点外确认 + 收藏 fav chip 固定第一不参与排序；chip↔pager/筛选按 kind 身份 indexOf 联动重排不串。真机验证：装 v843 启动+切 tab 进程存活零崩。",
-      "publishedAtMs": 1780403217000
-    },
     {
       "version": 845,
       "versionName": "260602-2107",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 「补一段纪要」选时间改成一页选完：月历挑天 + 开始/结束滚轮，结束最多到「开始+5小时」且选不过现在",
       "changelog": "v904：补一段纪要的时间选择两步弹窗合并成一页——新 QuietTimeRangePickerDialog(月历选天 + 起止纯文字+当前项下划线 + 双滚轮 + 共X小时Y分/最多5小时 + FooterButtons confirmEnabled)；防呆：调结束时滚轮按 endMaxMs=min(start+5h, 当天末, 今天则现在) 动态算 hour/minute range 并 key() 重建，越界时分直接选不到；标题「手动选择纪要时间段」；FAB 改单弹窗 genPickerOpen，确认走 forceExtractWindow+markManual",
       "publishedAtMs": 1780566710000
+    },
+    {
+      "version": 905,
+      "versionName": "260604-1758",
+      "userFacingChangelog": "· 手动生成的纪要 NEW 标记，点开卡片就会消失",
+      "changelog": "v905：手动生成纪要的 NEW 角标改为点卡片即清——卡片 onClick else 分支加 clearNewBadge(ctx,m.id)+flagsBump；角标本身去掉 clickable 改纯展示(点角标冒泡到卡片点击)",
+      "publishedAtMs": 1780567239000
     }
   ],
-  "publishedAtMs": 1780566710000,
+  "publishedAtMs": 1780567239000,
   "minSupported": 0
 }
