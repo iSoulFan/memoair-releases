@@ -1,19 +1,12 @@
 {
-  "version": 897,
-  "versionName": "260604-1345",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v897/memoair-v897-260604-1345-slim.apk",
+  "version": 898,
+  "versionName": "260604-1445",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v898/memoair-v898-260604-1445-slim.apk",
   "sizeBytes": 35494072,
-  "sha256": "ed63b582e1d637aed92b611a7a09cffe3f5090e2b278734f11c2cc641baba8e5",
-  "changelog": "v897：纪要对比表格对齐修复——去掉 horizontalScroll + 每格 widthIn(92) 的各撑各方案，改 fillMaxWidth + 每列 weight(1f) 等分 + 每行 height(IntrinsicSize.Min)+fillMaxHeight 等高，竖列边线统一对齐成规整网格(原来每行独立排导致列宽错位)",
-  "userFacingChangelog": "· 纪要里的对比表格列对齐了，竖线工整成一张规整的表格",
+  "sha256": "ffe3aefd55163b2e7fe1468ec191ebcde724fac47669ef12be8e7e29ea094ced",
+  "changelog": "v898：对比表格四角缺口修复——外层 grid Column 的 clip(RoundedCornerShape10) 会把四角方格边线裁掉、又没外框补，导致四角开口；加 .border(0.5dp, cardBorder, RoundedCornerShape10) 圆角描边闭合四角",
+  "userFacingChangelog": "· 纪要表格四个角补上了，边框闭合工整",
   "recentReleases": [
-    {
-      "version": 836,
-      "versionName": "260602-1704",
-      "userFacingChangelog": "会议纪要卡片配色和样式再打磨：卡片更统一、分享图边框纯白。",
-      "changelog": "纪要卡片配色纠正：恢复议题卡 header + 时间轴编号圈的彩色 pastel（上轮误删）；卡片正文底色 #F7F8FA(偏蓝)→#F5F5F5 中性灰；核心结论从'白底+accent竖条'改回议题卡同款卡片结构（中性灰 header band + 💡 核心结论标题 + body），与下方卡片一致；分享长图最外框 #FBFBF5 米白→#FFFFFF 纯白。改在共享 MeetingDetailContent + MeetingShareImageRenderer。",
-      "publishedAtMs": 1780391258000
-    },
     {
       "version": 837,
       "versionName": "260602-1734",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 纪要里的对比表格列对齐了，竖线工整成一张规整的表格",
       "changelog": "v897：纪要对比表格对齐修复——去掉 horizontalScroll + 每格 widthIn(92) 的各撑各方案，改 fillMaxWidth + 每列 weight(1f) 等分 + 每行 height(IntrinsicSize.Min)+fillMaxHeight 等高，竖列边线统一对齐成规整网格(原来每行独立排导致列宽错位)",
       "publishedAtMs": 1780552053000
+    },
+    {
+      "version": 898,
+      "versionName": "260604-1445",
+      "userFacingChangelog": "· 纪要表格四个角补上了，边框闭合工整",
+      "changelog": "v898：对比表格四角缺口修复——外层 grid Column 的 clip(RoundedCornerShape10) 会把四角方格边线裁掉、又没外框补，导致四角开口；加 .border(0.5dp, cardBorder, RoundedCornerShape10) 圆角描边闭合四角",
+      "publishedAtMs": 1780555660000
     }
   ],
-  "publishedAtMs": 1780552053000,
+  "publishedAtMs": 1780555660000,
   "minSupported": 0
 }
