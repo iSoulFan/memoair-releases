@@ -1,19 +1,12 @@
 {
-  "version": 927,
-  "versionName": "260605-1844",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v927/memoair-v927-260605-1844-slim.apk",
+  "version": 928,
+  "versionName": "260605-2346",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v928/memoair-v928-260605-2346-slim.apk",
   "sizeBytes": 36018689,
-  "sha256": "ef48f7ce97917338b5136bd82d764a8d5c7e0cdeabfbd5dd7b3c0bd945b26ec7",
-  "changelog": "对话人设内置预设精简去重：删 温暖知己/元气搭子(≈OLLIE)、理性顾问/简洁助手(≈AURY)；保留 毒舌损友、温柔树洞；新增 严厉教练(私人教练/直接不纵容)。现 5 个：AURY/OLLIE/毒舌损友/温柔树洞/严厉教练，差异明确。",
-  "userFacingChangelog": "对话人设的现成搭子重新挑了一遍——去掉重复的，留下风格差别更明显的几个。",
+  "sha256": "2bc802b1f3f8e24a0918f6996667b27d3cd9eb3084208583630be278980528fa",
+  "changelog": "修「登场过的人」点 NEW 角标的人后位置错乱：cells 排序从 live newIds 改为快照(orderNewIds)——clearOne 让 live newIds 变小不再触发重排，避免那个人从末尾跳回前面+后面补位导致'点同位置下一个开出上一个'；FourColumnGrid 加可选稳定 key(person.id)，非 lazy 布局重排时 cell 内部 remember 状态跟 item 走不串位。",
+  "userFacingChangelog": "细节打磨：稳定性提升。",
   "recentReleases": [
-    {
-      "version": 864,
-      "versionName": "260603-1732",
-      "userFacingChangelog": "· App 图标细节打磨：右侧线条直接拉通出框，投影更轻透",
-      "changelog": "v864：图标定稿——胶囊右端直线拉通出框（圆头移出 200 边界外），外阴影再降一档(.24→.16/.14→.09)、内底阴影 .24→.16，描边不变",
-      "publishedAtMs": 1780479308000
-    },
     {
       "version": 865,
       "versionName": "260603-1750",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "对话人设的现成搭子重新挑了一遍——去掉重复的，留下风格差别更明显的几个。",
       "changelog": "对话人设内置预设精简去重：删 温暖知己/元气搭子(≈OLLIE)、理性顾问/简洁助手(≈AURY)；保留 毒舌损友、温柔树洞；新增 严厉教练(私人教练/直接不纵容)。现 5 个：AURY/OLLIE/毒舌损友/温柔树洞/严厉教练，差异明确。",
       "publishedAtMs": 1780656548000
+    },
+    {
+      "version": 928,
+      "versionName": "260605-2346",
+      "userFacingChangelog": "细节打磨：稳定性提升。",
+      "changelog": "修「登场过的人」点 NEW 角标的人后位置错乱：cells 排序从 live newIds 改为快照(orderNewIds)——clearOne 让 live newIds 变小不再触发重排，避免那个人从末尾跳回前面+后面补位导致'点同位置下一个开出上一个'；FourColumnGrid 加可选稳定 key(person.id)，非 lazy 布局重排时 cell 内部 remember 状态跟 item 走不串位。",
+      "publishedAtMs": 1780674537000
     }
   ],
-  "publishedAtMs": 1780656548000,
+  "publishedAtMs": 1780674537000,
   "minSupported": 0
 }
