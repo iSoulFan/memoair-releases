@@ -1,19 +1,12 @@
 {
-  "version": 925,
-  "versionName": "260605-1823",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v925/memoair-v925-260605-1823-slim.apk",
+  "version": 926,
+  "versionName": "260605-1829",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v926/memoair-v926-260605-1829-slim.apk",
   "sizeBytes": 36018689,
-  "sha256": "5011e0ece3f1f344f1b463d65b1773a1699e221406aa975d3584f31ebd6e9742",
-  "changelog": "对话人设(ChatPersonaBlock)文案去工程化：顶部介绍去掉'注入到 system prompt'；预设/存档/弹窗 + 四个输入框(称呼/关系/语气/其他)的 label 和 placeholder 全改第一人称人话(我该怎么称呼你/我是你的谁/我说话的调调/还有什么想提醒我的)。",
-  "userFacingChangelog": "「对话人设」里的文案换成了更像人话的说法，配置感没那么重了。",
+  "sha256": "d7ce6942502a4356ef47a1abd3b54d27d6606472966f3d5670eb46872cc3754a",
+  "changelog": "对话人设顶部两段说明压短去啰嗦：介绍'想让我用什么样子陪你？'、预设行'挑个现成的点一下换上，不对味再往下改。'",
+  "userFacingChangelog": "细节打磨：「对话人设」的说明文字更简洁了。",
   "recentReleases": [
-    {
-      "version": 858,
-      "versionName": "260603-1212",
-      "userFacingChangelog": "旁听的会议纪要里，待办前面变成『加号』样式——点一下才加进你的待办，不会自动塞进去。",
-      "changelog": "旁听(overheard)纪要待办渲染成『圆圈+加号』待添加样式：数据侧 staged 暂存机制本就存在(category==overheard → buildTodos staged=true，observeByMeeting 不滤 staged 所以卡里能显示，但之前渲染成普通勾选框 + 点击走 setTodoDone)。MeetingDetailContent 加 onAddStagedTodo 回调 + 待办行按 t.staged 分支：staged → 圆圈(999dp)+ Q.Warm 描边 + 加号，点击 repo.setTodoStaged(id,false) 转正进待办；非 staged 维持原勾选框。分享图 forImage 默认 null 不可点、静态显示加号。",
-      "publishedAtMs": 1780460068000
-    },
     {
       "version": 863,
       "versionName": "260603-1712",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "「对话人设」里的文案换成了更像人话的说法，配置感没那么重了。",
       "changelog": "对话人设(ChatPersonaBlock)文案去工程化：顶部介绍去掉'注入到 system prompt'；预设/存档/弹窗 + 四个输入框(称呼/关系/语气/其他)的 label 和 placeholder 全改第一人称人话(我该怎么称呼你/我是你的谁/我说话的调调/还有什么想提醒我的)。",
       "publishedAtMs": 1780655105000
+    },
+    {
+      "version": 926,
+      "versionName": "260605-1829",
+      "userFacingChangelog": "细节打磨：「对话人设」的说明文字更简洁了。",
+      "changelog": "对话人设顶部两段说明压短去啰嗦：介绍'想让我用什么样子陪你？'、预设行'挑个现成的点一下换上，不对味再往下改。'",
+      "publishedAtMs": 1780655476000
     }
   ],
-  "publishedAtMs": 1780655105000,
+  "publishedAtMs": 1780655476000,
   "minSupported": 0
 }
