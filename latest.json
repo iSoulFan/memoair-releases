@@ -1,19 +1,12 @@
 {
-  "version": 919,
-  "versionName": "260605-1639",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v919/memoair-v919-260605-1639-slim.apk",
-  "sizeBytes": 36010497,
-  "sha256": "3f88488c2a13fcbc3ab1a802fb8f55cae6d34f30186f50be3f22f56019ccf25f",
-  "changelog": "新增两位命名搭子 AURY（来自星河的外星人，冷静可靠）/ OLLIE（始终发光的小星星，温暖幽默）：进 ChatPersonaStore.builtinPresets，开场气泡 A/B 速选→matchOpeningPick 确定性套人设+setAiName+把 self 默认头像换成对应内置形象(persona_aury/persona_ollie，圆框 Crop 填满)。关于页彩蛋拍立得重做成拾梦相片样式(米白相纸+微倾+✦+ts-pixel印章，竖图不裁方)挪到版本号上方，进调试手势从版本号还原成连点照片。含上轮空态/开场文案打磨。",
-  "userFacingChangelog": "新增两位开机搭子可以挑——AURY 冷静可靠、OLLIE 温暖幽默，开场回个 A 或 B 就能选定，也能自己描述想要的样子。顺手打磨了一些文案细节。",
+  "version": 924,
+  "versionName": "260605-1812",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v924/memoair-v924-260605-1812-slim.apk",
+  "sizeBytes": 36018689,
+  "sha256": "49f0c91dd4ec8129dffa170a4c1d7689173721def5f3c5ab4d0b28bf3ea45f13",
+  "changelog": "AURY/OLLIE：applyPreset 连 aiName 一起写(命名搭子记得自己名字，修从设置切换不写名)；toPromptBlock 加 AURY↔OLLIE 好朋友世界观(同星河来的老搭子，聊对方不生硬、不把对方说成'另一个人设')。关于页彩蛋拍立得：复用拾梦相片灵动岛吐片动画+落点改到关于页(landTarget/dimEnabled/cardContent/hideStatusBar 可选参数)，飞入卡=落地卡(EggPolaroidCard 零倾斜)落定零跳变，不隐藏状态栏修末尾'往下跳+闪'，每日一次门禁；展开折叠项滚到屏幕中央(ExpandableSection LocalExpandCenterer)。设置分组：'聊天和你'改名'对话与记忆'并移到'记录/录音控制'上方。空态/开场文案沿用上轮。",
+  "userFacingChangelog": "新增两位开机搭子 AURY 和 OLLIE 任你挑——一个冷静可靠、一个温暖话痨，他俩还是一对老朋友，可以互相聊聊。设置里把『对话与记忆』提到了更顺手的位置。",
   "recentReleases": [
-    {
-      "version": 856,
-      "versionName": "260603-0913",
-      "userFacingChangelog": "会议纪要展开里『纪要概述 / 讨论要点』这些小标题的样式统一了。",
-      "changelog": "纪要展开里'纪要概述/讨论要点'不走板块标题样式(无 accent 竖条+分隔线)修复。根因：prompt『每段会议的写法』要求模块写成 2. **纪要概述**：内容（编号+行内粗体+冒号外置+同行接正文），跟讨论点 1. **xxx**：… 格式完全一样，splitMarkdownSections 的 MD_HEADER_RE/MD_BOLD_LABEL_RE 都认不出 → 落进 SimpleMarkdown 当普通粗体。①prompt 改：模块一律用 ### 标题独立成行（第二行保留『涉及人员：』给 extractParticipantsLine，stripMeetingHeader 会从正文剥掉），明令禁止行内粗体模块标题。②解析器兜底：新增 MD_LABELED_SECTION_RE 只对 KNOWN_INLINE_SECTION_LABELS{纪要概述/会议概述/讨论要点}（绝不会是讨论点）把行内粗体也提成板块标题、冒号后正文回填；故意不含风险/决议/里程碑避免误伤讨论点小标题。",
-      "publishedAtMs": 1780449380000
-    },
     {
       "version": 857,
       "versionName": "260603-1127",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "新增两位开机搭子可以挑——AURY 冷静可靠、OLLIE 温暖幽默，开场回个 A 或 B 就能选定，也能自己描述想要的样子。顺手打磨了一些文案细节。",
       "changelog": "新增两位命名搭子 AURY（来自星河的外星人，冷静可靠）/ OLLIE（始终发光的小星星，温暖幽默）：进 ChatPersonaStore.builtinPresets，开场气泡 A/B 速选→matchOpeningPick 确定性套人设+setAiName+把 self 默认头像换成对应内置形象(persona_aury/persona_ollie，圆框 Crop 填满)。关于页彩蛋拍立得重做成拾梦相片样式(米白相纸+微倾+✦+ts-pixel印章，竖图不裁方)挪到版本号上方，进调试手势从版本号还原成连点照片。含上轮空态/开场文案打磨。",
       "publishedAtMs": 1780648889000
+    },
+    {
+      "version": 924,
+      "versionName": "260605-1812",
+      "userFacingChangelog": "新增两位开机搭子 AURY 和 OLLIE 任你挑——一个冷静可靠、一个温暖话痨，他俩还是一对老朋友，可以互相聊聊。设置里把『对话与记忆』提到了更顺手的位置。",
+      "changelog": "AURY/OLLIE：applyPreset 连 aiName 一起写(命名搭子记得自己名字，修从设置切换不写名)；toPromptBlock 加 AURY↔OLLIE 好朋友世界观(同星河来的老搭子，聊对方不生硬、不把对方说成'另一个人设')。关于页彩蛋拍立得：复用拾梦相片灵动岛吐片动画+落点改到关于页(landTarget/dimEnabled/cardContent/hideStatusBar 可选参数)，飞入卡=落地卡(EggPolaroidCard 零倾斜)落定零跳变，不隐藏状态栏修末尾'往下跳+闪'，每日一次门禁；展开折叠项滚到屏幕中央(ExpandableSection LocalExpandCenterer)。设置分组：'聊天和你'改名'对话与记忆'并移到'记录/录音控制'上方。空态/开场文案沿用上轮。",
+      "publishedAtMs": 1780654459000
     }
   ],
-  "publishedAtMs": 1780648889000,
+  "publishedAtMs": 1780654459000,
   "minSupported": 0
 }
