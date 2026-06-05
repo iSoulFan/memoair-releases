@@ -1,19 +1,12 @@
 {
-  "version": 926,
-  "versionName": "260605-1829",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v926/memoair-v926-260605-1829-slim.apk",
+  "version": 927,
+  "versionName": "260605-1844",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v927/memoair-v927-260605-1844-slim.apk",
   "sizeBytes": 36018689,
-  "sha256": "d7ce6942502a4356ef47a1abd3b54d27d6606472966f3d5670eb46872cc3754a",
-  "changelog": "对话人设顶部两段说明压短去啰嗦：介绍'想让我用什么样子陪你？'、预设行'挑个现成的点一下换上，不对味再往下改。'",
-  "userFacingChangelog": "细节打磨：「对话人设」的说明文字更简洁了。",
+  "sha256": "ef48f7ce97917338b5136bd82d764a8d5c7e0cdeabfbd5dd7b3c0bd945b26ec7",
+  "changelog": "对话人设内置预设精简去重：删 温暖知己/元气搭子(≈OLLIE)、理性顾问/简洁助手(≈AURY)；保留 毒舌损友、温柔树洞；新增 严厉教练(私人教练/直接不纵容)。现 5 个：AURY/OLLIE/毒舌损友/温柔树洞/严厉教练，差异明确。",
+  "userFacingChangelog": "对话人设的现成搭子重新挑了一遍——去掉重复的，留下风格差别更明显的几个。",
   "recentReleases": [
-    {
-      "version": 863,
-      "versionName": "260603-1712",
-      "userFacingChangelog": "· 焕新 App 图标，定调「记忆黄绿」主色调\n· 抉择卡「加进待办」不再显示成划掉的「已完成」样子，点错了再点一下就能取消\n· 记录相关的配色统一成更清爽的黄绿",
-      "changelog": "v863：新 App 图标（白磨砂胶囊+黄绿录制点）替换正式版 launcher；立品牌色 Q.Memory 黄绿(亮#7CC033/暗#A6D85E)，胶囊录制态/麦克风态/QuietToggle 开态统一收口；抉择加待办去划线误导态+✓可点取消；移除待办拆成步骤；人生来信补[我]/[他人]主体铁律对齐微光，修主语错置",
-      "publishedAtMs": 1780478393000
-    },
     {
       "version": 864,
       "versionName": "260603-1732",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "细节打磨：「对话人设」的说明文字更简洁了。",
       "changelog": "对话人设顶部两段说明压短去啰嗦：介绍'想让我用什么样子陪你？'、预设行'挑个现成的点一下换上，不对味再往下改。'",
       "publishedAtMs": 1780655476000
+    },
+    {
+      "version": 927,
+      "versionName": "260605-1844",
+      "userFacingChangelog": "对话人设的现成搭子重新挑了一遍——去掉重复的，留下风格差别更明显的几个。",
+      "changelog": "对话人设内置预设精简去重：删 温暖知己/元气搭子(≈OLLIE)、理性顾问/简洁助手(≈AURY)；保留 毒舌损友、温柔树洞；新增 严厉教练(私人教练/直接不纵容)。现 5 个：AURY/OLLIE/毒舌损友/温柔树洞/严厉教练，差异明确。",
+      "publishedAtMs": 1780656548000
     }
   ],
-  "publishedAtMs": 1780655476000,
+  "publishedAtMs": 1780656548000,
   "minSupported": 0
 }
