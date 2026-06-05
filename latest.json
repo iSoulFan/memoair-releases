@@ -1,19 +1,12 @@
 {
-  "version": 924,
-  "versionName": "260605-1812",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v924/memoair-v924-260605-1812-slim.apk",
+  "version": 925,
+  "versionName": "260605-1823",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v925/memoair-v925-260605-1823-slim.apk",
   "sizeBytes": 36018689,
-  "sha256": "49f0c91dd4ec8129dffa170a4c1d7689173721def5f3c5ab4d0b28bf3ea45f13",
-  "changelog": "AURY/OLLIE：applyPreset 连 aiName 一起写(命名搭子记得自己名字，修从设置切换不写名)；toPromptBlock 加 AURY↔OLLIE 好朋友世界观(同星河来的老搭子，聊对方不生硬、不把对方说成'另一个人设')。关于页彩蛋拍立得：复用拾梦相片灵动岛吐片动画+落点改到关于页(landTarget/dimEnabled/cardContent/hideStatusBar 可选参数)，飞入卡=落地卡(EggPolaroidCard 零倾斜)落定零跳变，不隐藏状态栏修末尾'往下跳+闪'，每日一次门禁；展开折叠项滚到屏幕中央(ExpandableSection LocalExpandCenterer)。设置分组：'聊天和你'改名'对话与记忆'并移到'记录/录音控制'上方。空态/开场文案沿用上轮。",
-  "userFacingChangelog": "新增两位开机搭子 AURY 和 OLLIE 任你挑——一个冷静可靠、一个温暖话痨，他俩还是一对老朋友，可以互相聊聊。设置里把『对话与记忆』提到了更顺手的位置。",
+  "sha256": "5011e0ece3f1f344f1b463d65b1773a1699e221406aa975d3584f31ebd6e9742",
+  "changelog": "对话人设(ChatPersonaBlock)文案去工程化：顶部介绍去掉'注入到 system prompt'；预设/存档/弹窗 + 四个输入框(称呼/关系/语气/其他)的 label 和 placeholder 全改第一人称人话(我该怎么称呼你/我是你的谁/我说话的调调/还有什么想提醒我的)。",
+  "userFacingChangelog": "「对话人设」里的文案换成了更像人话的说法，配置感没那么重了。",
   "recentReleases": [
-    {
-      "version": 857,
-      "versionName": "260603-1127",
-      "userFacingChangelog": "对话最上面下拉看上一个话题，修好了。",
-      "changelog": "对话顶部下拉揭开上一个话题失效修复：Compose BOM 2024.12.01(=1.7.x) 起 NestedScrollSource.Drag 废弃改名 UserInput，用户拖动上报 UserInput，ChatScreen 顶部 reveal 的 nestedScroll onPostScroll 里  把所有真实下拉挡回 → pullAccumulator 永远累积不到 80dp 阈值 → 拉不动旧话题（提示『使劲往下拉』仍显示因为走 hasMorePreviousTopic 另一条件）。改为 UserInput（仍排除 fling=SideEffect 惯性误触）。全仓仅此一处用废弃枚举。",
-      "publishedAtMs": 1780457507000
-    },
     {
       "version": 858,
       "versionName": "260603-1212",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "新增两位开机搭子 AURY 和 OLLIE 任你挑——一个冷静可靠、一个温暖话痨，他俩还是一对老朋友，可以互相聊聊。设置里把『对话与记忆』提到了更顺手的位置。",
       "changelog": "AURY/OLLIE：applyPreset 连 aiName 一起写(命名搭子记得自己名字，修从设置切换不写名)；toPromptBlock 加 AURY↔OLLIE 好朋友世界观(同星河来的老搭子，聊对方不生硬、不把对方说成'另一个人设')。关于页彩蛋拍立得：复用拾梦相片灵动岛吐片动画+落点改到关于页(landTarget/dimEnabled/cardContent/hideStatusBar 可选参数)，飞入卡=落地卡(EggPolaroidCard 零倾斜)落定零跳变，不隐藏状态栏修末尾'往下跳+闪'，每日一次门禁；展开折叠项滚到屏幕中央(ExpandableSection LocalExpandCenterer)。设置分组：'聊天和你'改名'对话与记忆'并移到'记录/录音控制'上方。空态/开场文案沿用上轮。",
       "publishedAtMs": 1780654459000
+    },
+    {
+      "version": 925,
+      "versionName": "260605-1823",
+      "userFacingChangelog": "「对话人设」里的文案换成了更像人话的说法，配置感没那么重了。",
+      "changelog": "对话人设(ChatPersonaBlock)文案去工程化：顶部介绍去掉'注入到 system prompt'；预设/存档/弹窗 + 四个输入框(称呼/关系/语气/其他)的 label 和 placeholder 全改第一人称人话(我该怎么称呼你/我是你的谁/我说话的调调/还有什么想提醒我的)。",
+      "publishedAtMs": 1780655105000
     }
   ],
-  "publishedAtMs": 1780654459000,
+  "publishedAtMs": 1780655105000,
   "minSupported": 0
 }
