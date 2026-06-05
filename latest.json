@@ -1,19 +1,12 @@
 {
-  "version": 913,
-  "versionName": "260605-0120",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v913/memoair-v913-260605-0120-slim.apk",
+  "version": 914,
+  "versionName": "260605-0913",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v914/memoair-v914-260605-0913-slim.apk",
   "sizeBytes": 35502264,
-  "sha256": "9b4d0668e66034f1de353b4b53397a08d97d77e636dc71057eb54d9812d4b077",
-  "changelog": "v913：彻底移除语音唤醒词「记得帮我」功能——删 WakeWordExecutor.kt + WakeWordPrefs.kt；清 MemoAirApp boot 监听、SettingsScreen WakeWordBlock、ChatActions markHandled、AutoTodoExtractor wakeHandled 过滤、MainActivity consumeWakeReplyIntent deep-link、BackupArchive 两条 prefs。零残留引用，编译过",
-  "userFacingChangelog": "· 移除了「记得帮我」语音唤醒功能",
+  "sha256": "11009af50e9222c7461562941b22776fc8c4a8b1ac5a545ff8b71b4852eba56f",
+  "changelog": "v914：抉择去重漏判修复——MirrorAutoScan.isNearDup 加短串包含判断(2~12字选项标签一方整段被另一方包含即判同，如「回成都」⊂「回成都工作生活」、「深圳」⊂「继续在深圳工作生活」)，原来只有 bigram Jaccard≥0.6 被长度差异拉低漏判→同一抉择(成都vs深圳)连续两天生成两张。修后既防新重复，compactExistingChoices 下次开 app 也会把现存重复折叠掉(保留已答题那张)",
+  "userFacingChangelog": "· 修了「同一个抉择重复出现两张」的问题，重复的会自动合并成一张",
   "recentReleases": [
-    {
-      "version": 852,
-      "versionName": "260603-0107",
-      "userFacingChangelog": "晚上的会不会再漏了：第二天打开 App 会自动把昨晚开的会补抽进来，不用手动下拉。",
-      "changelog": "纪要不漏会的跨午夜补抽机制：新增 MeetingExtractor.catchUpYesterdayOncePerDay——按 SharedPreferences(catchup_done_ymd) 幂等，每个自然日首次调用补扫 daysAgo=1(昨天)一遍，失败不落盘可重试，入库指纹去重不产生重复。两处触发谁先谁补：①MainActivity 启动(APP_SCOPE，不依赖 WorkManager → 治 ColorOS 冻结，实现『第二天第一次打开 App 自动收昨晚的会』) ②MeetingExtractWorker 当天首跑。定时 12:30/18:30 仍只扫当天(快出当天纪要)，下拉刷新今天+昨天(即时手动)。根因：定时扫描永远 daysAgo=0，昨晚最后一次(18:30)之后的会跨午夜后无人自动抽。",
-      "publishedAtMs": 1780420140000
-    },
     {
       "version": 853,
       "versionName": "260603-0118",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 移除了「记得帮我」语音唤醒功能",
       "changelog": "v913：彻底移除语音唤醒词「记得帮我」功能——删 WakeWordExecutor.kt + WakeWordPrefs.kt；清 MemoAirApp boot 监听、SettingsScreen WakeWordBlock、ChatActions markHandled、AutoTodoExtractor wakeHandled 过滤、MainActivity consumeWakeReplyIntent deep-link、BackupArchive 两条 prefs。零残留引用，编译过",
       "publishedAtMs": 1780593854000
+    },
+    {
+      "version": 914,
+      "versionName": "260605-0913",
+      "userFacingChangelog": "· 修了「同一个抉择重复出现两张」的问题，重复的会自动合并成一张",
+      "changelog": "v914：抉择去重漏判修复——MirrorAutoScan.isNearDup 加短串包含判断(2~12字选项标签一方整段被另一方包含即判同，如「回成都」⊂「回成都工作生活」、「深圳」⊂「继续在深圳工作生活」)，原来只有 bigram Jaccard≥0.6 被长度差异拉低漏判→同一抉择(成都vs深圳)连续两天生成两张。修后既防新重复，compactExistingChoices 下次开 app 也会把现存重复折叠掉(保留已答题那张)",
+      "publishedAtMs": 1780622263000
     }
   ],
-  "publishedAtMs": 1780593854000,
+  "publishedAtMs": 1780622263000,
   "minSupported": 0
 }
