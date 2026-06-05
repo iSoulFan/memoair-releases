@@ -1,19 +1,12 @@
 {
-  "version": 928,
-  "versionName": "260605-2346",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v928/memoair-v928-260605-2346-slim.apk",
+  "version": 929,
+  "versionName": "260606-0113",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v929/memoair-v929-260606-0113-slim.apk",
   "sizeBytes": 36018689,
-  "sha256": "2bc802b1f3f8e24a0918f6996667b27d3cd9eb3084208583630be278980528fa",
-  "changelog": "修「登场过的人」点 NEW 角标的人后位置错乱：cells 排序从 live newIds 改为快照(orderNewIds)——clearOne 让 live newIds 变小不再触发重排，避免那个人从末尾跳回前面+后面补位导致'点同位置下一个开出上一个'；FourColumnGrid 加可选稳定 key(person.id)，非 lazy 布局重排时 cell 内部 remember 状态跟 item 走不串位。",
+  "sha256": "1e673947ffe10d0eb62b0cd92afbb500c65d121d2bc749adcbb6a8a1a420dc19",
+  "changelog": "修长按卡片『查看修改历史』开出别张卡记录：①EditHistorySheet 用 key(cardId) 包住——targetId 变了整棵重建，否则 collectAsStateWithLifecycle/produceState 在 flow key 切换时保留上一张列表直到新流首发，出现'没改过的卡看到上一张的记录'；②onShowHistory/onAiRewrite 改显式赋值(historyCardId = card.id.toLongOrNull())，解析失败置 null 不残留旧 id；③deleteCard/deleteCardSkipBlocklist 连带 deleteAllForTarget(card,id) 清 revert_history，防 id 复用时残留快照串卡。",
   "userFacingChangelog": "细节打磨：稳定性提升。",
   "recentReleases": [
-    {
-      "version": 865,
-      "versionName": "260603-1750",
-      "userFacingChangelog": "· App 图标再打磨：投影更轻、玻璃更通透，多了一点点绿的呼吸感\n· 抉择的 SWOT 分析：点任一格（优势/劣势/机会/威胁）就能「聊一聊这个点」，一点直接跳到对话里顺着展开聊",
-      "changelog": "v865：图标拖影再降一档+玻璃更透(.32)+加极淡绿晕(inset 绿.13 + 背景绿晕放大到 30%/36% 峰值降.40)；抉择 SWOT 四象限可点——点框揭示「聊一聊这个点」chip，点 chip 走 ChatPrefillBus.open(autoSend=true) 跳对话引用该点+自动发问展开",
-      "publishedAtMs": 1780480364000
-    },
     {
       "version": 866,
       "versionName": "260603-1754",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "细节打磨：稳定性提升。",
       "changelog": "修「登场过的人」点 NEW 角标的人后位置错乱：cells 排序从 live newIds 改为快照(orderNewIds)——clearOne 让 live newIds 变小不再触发重排，避免那个人从末尾跳回前面+后面补位导致'点同位置下一个开出上一个'；FourColumnGrid 加可选稳定 key(person.id)，非 lazy 布局重排时 cell 内部 remember 状态跟 item 走不串位。",
       "publishedAtMs": 1780674537000
+    },
+    {
+      "version": 929,
+      "versionName": "260606-0113",
+      "userFacingChangelog": "细节打磨：稳定性提升。",
+      "changelog": "修长按卡片『查看修改历史』开出别张卡记录：①EditHistorySheet 用 key(cardId) 包住——targetId 变了整棵重建，否则 collectAsStateWithLifecycle/produceState 在 flow key 切换时保留上一张列表直到新流首发，出现'没改过的卡看到上一张的记录'；②onShowHistory/onAiRewrite 改显式赋值(historyCardId = card.id.toLongOrNull())，解析失败置 null 不残留旧 id；③deleteCard/deleteCardSkipBlocklist 连带 deleteAllForTarget(card,id) 清 revert_history，防 id 复用时残留快照串卡。",
+      "publishedAtMs": 1780679856000
     }
   ],
-  "publishedAtMs": 1780674537000,
+  "publishedAtMs": 1780679856000,
   "minSupported": 0
 }
