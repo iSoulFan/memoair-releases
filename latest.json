@@ -1,19 +1,12 @@
 {
-  "version": 915,
-  "versionName": "260605-1300",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v915/memoair-v915-260605-1300-slim.apk",
+  "version": 916,
+  "versionName": "260605-1426",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v916/memoair-v916-260605-1426-slim.apk",
   "sizeBytes": 35498168,
-  "sha256": "12d283e384d245de2c52afb1c8ae2a8430d7139f550281a7c76c27446e998ea1",
-  "changelog": "v915：移除 DailyEcho 当日轻回响软推送（用户嫌挑的原文不准/解读没意思）——删 DailyEchoWorker.kt + TranscriptionWorker 两处排程 + SoftPushOrchestrator.pickDailyEcho + SoftPushHistory.Kind.DailyEcho 枚举；4 类软推送(待办前瞻/知识/英语/MemoryEcho)保留；卡片「我的回响」/念念不忘/MemoryEcho 未动；设置文案同步",
-  "userFacingChangelog": "· 去掉了「忽然想到」那类回响推送（挑的话经常不准、解读也没意思）",
+  "sha256": "5c9662338efd929e77745f60ef1822636a5367952bfe99d37bbb22073637f20b",
+  "changelog": "开屏第一屏顶部装饰行：移除 ITERATION·罗马年·罗马月的 mono kicker，换成『记得陪你一起 · 自 {年} {季节}』（弱化精确日期，只留年+季节的陪伴感）",
+  "userFacingChangelog": "打磨了开机第一屏的开场文案，更有陪伴感了",
   "recentReleases": [
-    {
-      "version": 854,
-      "versionName": "260603-0132",
-      "userFacingChangelog": "会议纪要合并不再过头了；下拉刷新的提示文案也调顺了。",
-      "changelog": "①纪要合并阈值回收：分段原则的同场间隔判定 30 分钟→15 分钟（owner 反馈合并质量高但矫枉过正，明显隔开的两场被粘成一条）。②全部下拉刷新副标去掉秒数承诺：待办/纪要/愿望/记账『大概15秒/5秒』+ 设置 OTA 检查『通常1-2秒』→ 统一『稍等一会儿』（实际常比承诺久）；BreathingPullToRefresh doc 注释同步。③去『录音』概念：纪要下拉 refreshingLabel『正在翻你今天一整天的录音』→『正在找最近的会议纪要』；待办/愿望/记账『正在翻今天的转写』→『正在整理今天的记录』（产品内不暴露录音/转写）。",
-      "publishedAtMs": 1780421820000
-    },
     {
       "version": 855,
       "versionName": "260603-0145",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 去掉了「忽然想到」那类回响推送（挑的话经常不准、解读也没意思）",
       "changelog": "v915：移除 DailyEcho 当日轻回响软推送（用户嫌挑的原文不准/解读没意思）——删 DailyEchoWorker.kt + TranscriptionWorker 两处排程 + SoftPushOrchestrator.pickDailyEcho + SoftPushHistory.Kind.DailyEcho 枚举；4 类软推送(待办前瞻/知识/英语/MemoryEcho)保留；卡片「我的回响」/念念不忘/MemoryEcho 未动；设置文案同步",
       "publishedAtMs": 1780635888000
+    },
+    {
+      "version": 916,
+      "versionName": "260605-1426",
+      "userFacingChangelog": "打磨了开机第一屏的开场文案，更有陪伴感了",
+      "changelog": "开屏第一屏顶部装饰行：移除 ITERATION·罗马年·罗马月的 mono kicker，换成『记得陪你一起 · 自 {年} {季节}』（弱化精确日期，只留年+季节的陪伴感）",
+      "publishedAtMs": 1780640954000
     }
   ],
-  "publishedAtMs": 1780635888000,
+  "publishedAtMs": 1780640954000,
   "minSupported": 0
 }
