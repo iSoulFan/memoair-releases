@@ -1,19 +1,12 @@
 {
-  "version": 914,
-  "versionName": "260605-0913",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v914/memoair-v914-260605-0913-slim.apk",
-  "sizeBytes": 35502264,
-  "sha256": "11009af50e9222c7461562941b22776fc8c4a8b1ac5a545ff8b71b4852eba56f",
-  "changelog": "v914：抉择去重漏判修复——MirrorAutoScan.isNearDup 加短串包含判断(2~12字选项标签一方整段被另一方包含即判同，如「回成都」⊂「回成都工作生活」、「深圳」⊂「继续在深圳工作生活」)，原来只有 bigram Jaccard≥0.6 被长度差异拉低漏判→同一抉择(成都vs深圳)连续两天生成两张。修后既防新重复，compactExistingChoices 下次开 app 也会把现存重复折叠掉(保留已答题那张)",
-  "userFacingChangelog": "· 修了「同一个抉择重复出现两张」的问题，重复的会自动合并成一张",
+  "version": 915,
+  "versionName": "260605-1300",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v915/memoair-v915-260605-1300-slim.apk",
+  "sizeBytes": 35498168,
+  "sha256": "12d283e384d245de2c52afb1c8ae2a8430d7139f550281a7c76c27446e998ea1",
+  "changelog": "v915：移除 DailyEcho 当日轻回响软推送（用户嫌挑的原文不准/解读没意思）——删 DailyEchoWorker.kt + TranscriptionWorker 两处排程 + SoftPushOrchestrator.pickDailyEcho + SoftPushHistory.Kind.DailyEcho 枚举；4 类软推送(待办前瞻/知识/英语/MemoryEcho)保留；卡片「我的回响」/念念不忘/MemoryEcho 未动；设置文案同步",
+  "userFacingChangelog": "· 去掉了「忽然想到」那类回响推送（挑的话经常不准、解读也没意思）",
   "recentReleases": [
-    {
-      "version": 853,
-      "versionName": "260603-0118",
-      "userFacingChangelog": "会议纪要不会再切得太碎了：一场连续的会（哪怕聊了好几件事）会合成一条，里面用议题卡分开，而不是切成一堆零散小纪要。",
-      "changelog": "纪要合并策略：meeting_minutes.txt 分段原则由『按话题拆细（宁可拆细不要硬合，每个话题一条）』改为『按场合合并（一条纪要=一场连续会议：时间连续+同批人即同一场，多话题用 topics 议题卡分节，只有真不同场合/换人换场景/长间隔>30min 才拆）』。根因：旧规则把 2.5h 连续会切成 10 条零碎纪要无可读性。owner 确认未自定义该 prompt（PromptStore 无 override，改 asset 生效）。无 schema 变更。",
-      "publishedAtMs": 1780420945000
-    },
     {
       "version": 854,
       "versionName": "260603-0132",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 修了「同一个抉择重复出现两张」的问题，重复的会自动合并成一张",
       "changelog": "v914：抉择去重漏判修复——MirrorAutoScan.isNearDup 加短串包含判断(2~12字选项标签一方整段被另一方包含即判同，如「回成都」⊂「回成都工作生活」、「深圳」⊂「继续在深圳工作生活」)，原来只有 bigram Jaccard≥0.6 被长度差异拉低漏判→同一抉择(成都vs深圳)连续两天生成两张。修后既防新重复，compactExistingChoices 下次开 app 也会把现存重复折叠掉(保留已答题那张)",
       "publishedAtMs": 1780622263000
+    },
+    {
+      "version": 915,
+      "versionName": "260605-1300",
+      "userFacingChangelog": "· 去掉了「忽然想到」那类回响推送（挑的话经常不准、解读也没意思）",
+      "changelog": "v915：移除 DailyEcho 当日轻回响软推送（用户嫌挑的原文不准/解读没意思）——删 DailyEchoWorker.kt + TranscriptionWorker 两处排程 + SoftPushOrchestrator.pickDailyEcho + SoftPushHistory.Kind.DailyEcho 枚举；4 类软推送(待办前瞻/知识/英语/MemoryEcho)保留；卡片「我的回响」/念念不忘/MemoryEcho 未动；设置文案同步",
+      "publishedAtMs": 1780635888000
     }
   ],
-  "publishedAtMs": 1780622263000,
+  "publishedAtMs": 1780635888000,
   "minSupported": 0
 }
