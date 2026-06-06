@@ -1,19 +1,12 @@
 {
-  "version": 932,
-  "versionName": "260606-1404",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v932/memoair-v932-260606-1404-slim.apk",
-  "sizeBytes": 36653849,
-  "sha256": "2b69370736a07a475a51a6a3cc90312000ae0b2bac8974acc0fede7f268aec1e",
-  "changelog": "①关于页拍立得相片改成 6 张池子按日期轮换(eggPhotoResForToday: epochDay%6)，新增 5 张 AURY+OLLIE 场景图(drawable-nodpi: egg_cabin/camp/warp/moonreach/moonduo, PIL 压缩 1280 长边 JPG)。②[调试预览]全屏沉浸式 OTA 下载弹窗 OtaDownloadOverlay：去白卡+纯白径向遮罩往四边散、居中复用 EmojiBadge 呼吸花瓣(新增 petalColors 覆盖参数锁青绿+黄绿)、进度条青绿→黄绿、取消下载按钮；调试区『预览 OTA 下载弹窗』入口触发假弹窗(进度自动循环)。",
-  "userFacingChangelog": "关于页那张拍立得相片现在每天会随机换一张啦——AURY 和 OLLIE 在不同地方陪着你。",
+  "version": 933,
+  "versionName": "260606-1747",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v933/memoair-v933-260606-1747-slim.apk",
+  "sizeBytes": 36723537,
+  "sha256": "783ce47ff33ce4d65db21e0e688f576ebc389dedf4271f5ef884714c0f19895d",
+  "changelog": "[调试预览]OTA 下载弹窗按 owner 反馈调整：中间星星 emoji 换成 OLLIE 抠图(ota_ollie.png，flood-fill 去浅蓝底)左右摇头晃脑(rotationZ ±9° infiniteRepeatable reverse 820ms, transformOrigin 0.5/0.88)，垫底仍是青绿+黄绿呼吸花瓣(EmojiBadge emoji='' 只出花瓣)；文案改回旧弹窗原文『记得 App 马上会变得更舒服 🐱』+『X.X / Y MB · NN%』(暖琥珀)+『取消下载』。仍是调试假弹窗、未接真实下载流程。",
+  "userFacingChangelog": "细节打磨。",
   "recentReleases": [
-    {
-      "version": 869,
-      "versionName": "260603-1829",
-      "userFacingChangelog": "· 文字和细线条的绿色改深了一档（更清楚耐看），鲜亮的黄绿只留给录制相关的指示",
-      "changelog": "v869：通用 accent(Q.Warm 家族 + AnchorAccent)从亮黄绿改深橄榄绿 #6E9A7A(微光 Shimmering.c2)——字体/细边框可读性；亮黄绿 #7CC033 保留在 Q.Memory(录制点/连续记录开关/胶囊)；内容区 4 文件残留亮绿字面量一并改橄榄",
-      "publishedAtMs": 1780483058000
-    },
     {
       "version": 876,
       "versionName": "260603-2012",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "关于页那张拍立得相片现在每天会随机换一张啦——AURY 和 OLLIE 在不同地方陪着你。",
       "changelog": "①关于页拍立得相片改成 6 张池子按日期轮换(eggPhotoResForToday: epochDay%6)，新增 5 张 AURY+OLLIE 场景图(drawable-nodpi: egg_cabin/camp/warp/moonreach/moonduo, PIL 压缩 1280 长边 JPG)。②[调试预览]全屏沉浸式 OTA 下载弹窗 OtaDownloadOverlay：去白卡+纯白径向遮罩往四边散、居中复用 EmojiBadge 呼吸花瓣(新增 petalColors 覆盖参数锁青绿+黄绿)、进度条青绿→黄绿、取消下载按钮；调试区『预览 OTA 下载弹窗』入口触发假弹窗(进度自动循环)。",
       "publishedAtMs": 1780726071000
+    },
+    {
+      "version": 933,
+      "versionName": "260606-1747",
+      "userFacingChangelog": "细节打磨。",
+      "changelog": "[调试预览]OTA 下载弹窗按 owner 反馈调整：中间星星 emoji 换成 OLLIE 抠图(ota_ollie.png，flood-fill 去浅蓝底)左右摇头晃脑(rotationZ ±9° infiniteRepeatable reverse 820ms, transformOrigin 0.5/0.88)，垫底仍是青绿+黄绿呼吸花瓣(EmojiBadge emoji='' 只出花瓣)；文案改回旧弹窗原文『记得 App 马上会变得更舒服 🐱』+『X.X / Y MB · NN%』(暖琥珀)+『取消下载』。仍是调试假弹窗、未接真实下载流程。",
+      "publishedAtMs": 1780739552000
     }
   ],
-  "publishedAtMs": 1780726071000,
+  "publishedAtMs": 1780739552000,
   "minSupported": 0
 }
