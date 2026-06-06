@@ -1,19 +1,12 @@
 {
-  "version": 934,
-  "versionName": "260606-1805",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v934/memoair-v934-260606-1805-slim.apk",
-  "sizeBytes": 36731729,
-  "sha256": "2d93b0a383b01cf896bcaf7bf891af96fb585ecd51bb5c9ed2a11920da0d4ebf",
-  "changelog": "①成就详情页评星模块(BeatCard)回到暖米卡+琥珀星：全 App Q.Warm* 早被改成中性黑灰(渲染成灰底黑星)，这里改成显式暖色 rarityBg/rarityAmber/rarityHeader(亮 #FAF1D8/#CB9B45/#A9863E，暗 #2E2A1F/#D9B45E/#CBA862)，不动全 App Q.Warm*。②[调试预览]OTA 下载弹窗 OLLIE 抠图重做：去掉底部蓝灰阴影、加一圈干净白边(MaxFilter 膨胀)增质感；文案右侧 🐱→⭐。",
-  "userFacingChangelog": "成就页『稀有度』那块的星星和底色回到了暖暖的琥珀配色。",
+  "version": 935,
+  "versionName": "260606-1819",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v935/memoair-v935-260606-1819-slim.apk",
+  "sizeBytes": 36723537,
+  "sha256": "baa1bc43ae3ee6d52fa28427d61be09a0f96ced77a1500019221ead61a0ecb28",
+  "changelog": "ota_ollie 重新抠图：纯金身体干净抠出 + PIL 高斯模糊阈值生成平滑白边（替换毛糙的 MaxFilter 方形膨胀）",
+  "userFacingChangelog": "细节打磨",
   "recentReleases": [
-    {
-      "version": 877,
-      "versionName": "260603-2047",
-      "userFacingChangelog": "· 右上角录音胶囊不那么白了，更透\n· 待办的提醒铃铛关掉后还是铃铛图标（只是变灰），不再换成静音图标\n· 设置里「录音」恢复成平铺，不用点开",
-      "changelog": "v877：录音胶囊磨砂降白(glassBg light 0.82→0.60/dark 0.82→0.72，topHighlight 0.45→0.30)；待办闹钟关态也用 🔔(去掉 🔕)只靠颜色区分(开 Warm 高亮/关 InkFaint 灰)；撤回 x831「录音」组折叠，恢复平铺常显 + 自渲染「录音」标题",
-      "publishedAtMs": 1780494564000
-    },
     {
       "version": 878,
       "versionName": "260603-2158",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "成就页『稀有度』那块的星星和底色回到了暖暖的琥珀配色。",
       "changelog": "①成就详情页评星模块(BeatCard)回到暖米卡+琥珀星：全 App Q.Warm* 早被改成中性黑灰(渲染成灰底黑星)，这里改成显式暖色 rarityBg/rarityAmber/rarityHeader(亮 #FAF1D8/#CB9B45/#A9863E，暗 #2E2A1F/#D9B45E/#CBA862)，不动全 App Q.Warm*。②[调试预览]OTA 下载弹窗 OLLIE 抠图重做：去掉底部蓝灰阴影、加一圈干净白边(MaxFilter 膨胀)增质感；文案右侧 🐱→⭐。",
       "publishedAtMs": 1780740777000
+    },
+    {
+      "version": 935,
+      "versionName": "260606-1819",
+      "userFacingChangelog": "细节打磨",
+      "changelog": "ota_ollie 重新抠图：纯金身体干净抠出 + PIL 高斯模糊阈值生成平滑白边（替换毛糙的 MaxFilter 方形膨胀）",
+      "publishedAtMs": 1780741474000
     }
   ],
-  "publishedAtMs": 1780740777000,
+  "publishedAtMs": 1780741474000,
   "minSupported": 0
 }
