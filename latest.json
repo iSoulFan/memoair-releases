@@ -1,19 +1,12 @@
 {
-  "version": 929,
-  "versionName": "260606-0113",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v929/memoair-v929-260606-0113-slim.apk",
+  "version": 930,
+  "versionName": "260606-1313",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v930/memoair-v930-260606-1313-slim.apk",
   "sizeBytes": 36018689,
-  "sha256": "1e673947ffe10d0eb62b0cd92afbb500c65d121d2bc749adcbb6a8a1a420dc19",
-  "changelog": "修长按卡片『查看修改历史』开出别张卡记录：①EditHistorySheet 用 key(cardId) 包住——targetId 变了整棵重建，否则 collectAsStateWithLifecycle/produceState 在 flow key 切换时保留上一张列表直到新流首发，出现'没改过的卡看到上一张的记录'；②onShowHistory/onAiRewrite 改显式赋值(historyCardId = card.id.toLongOrNull())，解析失败置 null 不残留旧 id；③deleteCard/deleteCardSkipBlocklist 连带 deleteAllForTarget(card,id) 清 revert_history，防 id 复用时残留快照串卡。",
-  "userFacingChangelog": "细节打磨：稳定性提升。",
+  "sha256": "7aa3c69dfedf71407016836531388e10851ce0e75b9cee19a3b00cfd3ac80239",
+  "changelog": "①多选时长气泡单击难选中：LongPressMenu 加 instantClickNoMenu 参数，多选(multiSelectMode)时用 clickable(indication=null) 直接切换选中，绕开 detectTapGestures(onTap+onLongPress 在可滚动长内容里抢手势/等长按超时导致单击被吞)。②长按气泡加『分享图片』：用户/AI 菜单各加一项，复用 ChatShareImageRenderer.shareImageUri 渲染单条 ChatLine 截图分享。",
+  "userFacingChangelog": "聊天里多选时点气泡更跟手了；长按单条气泡也能直接分享成图片。",
   "recentReleases": [
-    {
-      "version": 866,
-      "versionName": "260603-1754",
-      "userFacingChangelog": "· 待办详情里的「来源」不用再点开了，直接显示出处",
-      "changelog": "v866：待办详情「来源」去掉折叠按钮（删 sourceExpanded 状态 + 「来源 ›」可点 chip），改为常驻显示——小标「来源」+ 下方完整引文直接展开",
-      "publishedAtMs": 1780480656000
-    },
     {
       "version": 867,
       "versionName": "260603-1802",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "细节打磨：稳定性提升。",
       "changelog": "修长按卡片『查看修改历史』开出别张卡记录：①EditHistorySheet 用 key(cardId) 包住——targetId 变了整棵重建，否则 collectAsStateWithLifecycle/produceState 在 flow key 切换时保留上一张列表直到新流首发，出现'没改过的卡看到上一张的记录'；②onShowHistory/onAiRewrite 改显式赋值(historyCardId = card.id.toLongOrNull())，解析失败置 null 不残留旧 id；③deleteCard/deleteCardSkipBlocklist 连带 deleteAllForTarget(card,id) 清 revert_history，防 id 复用时残留快照串卡。",
       "publishedAtMs": 1780679856000
+    },
+    {
+      "version": 930,
+      "versionName": "260606-1313",
+      "userFacingChangelog": "聊天里多选时点气泡更跟手了；长按单条气泡也能直接分享成图片。",
+      "changelog": "①多选时长气泡单击难选中：LongPressMenu 加 instantClickNoMenu 参数，多选(multiSelectMode)时用 clickable(indication=null) 直接切换选中，绕开 detectTapGestures(onTap+onLongPress 在可滚动长内容里抢手势/等长按超时导致单击被吞)。②长按气泡加『分享图片』：用户/AI 菜单各加一项，复用 ChatShareImageRenderer.shareImageUri 渲染单条 ChatLine 截图分享。",
+      "publishedAtMs": 1780723091000
     }
   ],
-  "publishedAtMs": 1780679856000,
+  "publishedAtMs": 1780723091000,
   "minSupported": 0
 }
