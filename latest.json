@@ -1,19 +1,12 @@
 {
-  "version": 956,
-  "versionName": "260607-0251",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v956/memoair-v956-260607-0251-slim.apk",
+  "version": 957,
+  "versionName": "260607-0306",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v957/memoair-v957-260607-0306-slim.apk",
   "sizeBytes": 37731376,
-  "sha256": "aa3993c6acfa5075a5f6201a140ba6d4819691896593b1ae895bfda6ca0cbaac",
-  "changelog": "长期记忆语音录入：①按钮文案 按住说话→说话新增（避免误以为是搜索）②VoiceFabSheet 实时转写条改 Popup 浮层(脱离布局,不再把宽度算进根Box挤窄左边搜索框);影响全部5处 VoiceFabSheet",
-  "userFacingChangelog": "长期记忆里的语音录入更顺手了",
+  "sha256": "a9bb4facf354b8a52cc7d66662bd7871757b94f089a25d31061ae47e4b67bb38",
+  "changelog": "OtaFlowOverlay: 一阶段花瓣与文字彻底解耦——花瓣绝对定位固定 ~39%（两阶段同锚零跳变），一阶段文字独立锚 ~30% 整组提上来，二阶段下半独立锚 ~53%。",
+  "userFacingChangelog": "升级提示界面更顺眼了一点 ✨",
   "recentReleases": [
-    {
-      "version": 900,
-      "versionName": "260604-1643",
-      "userFacingChangelog": "· 手动生成纪要：不再限制本周、任意时间段都行；新生成的纪要置顶 + 带可点掉的 NEW 角标；分类多了「手动」一档专看手动生成的",
-      "changelog": "v900：手动生成纪要增强——①去掉「本周内」时间限制(任意过去时间，仍校验晚于开始/非未来) ②生成时顶部文案区分下拉刷新(manualGenerating→「在回忆这段时间、整理成纪要」) ③forceExtractWindow 返回新纪要 id；MeetingFilterPrefs 加 markManual/manualIds/newBadgeIds/clearNewBadge(SharedPreferences，不改 schema) ④折叠卡右上角 NEW 角标(Q.Memory 绿，点击 clearNewBadge 消失) ⑤带 NEW 角标的纪要无视原排序置顶(pinned by newBadge, createdAt desc) ⑥分类档加「手动」(Filter.Manual，按 manualIds 过滤)",
-      "publishedAtMs": 1780562717000
-    },
     {
       "version": 901,
       "versionName": "260604-1657",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "长期记忆里的语音录入更顺手了",
       "changelog": "长期记忆语音录入：①按钮文案 按住说话→说话新增（避免误以为是搜索）②VoiceFabSheet 实时转写条改 Popup 浮层(脱离布局,不再把宽度算进根Box挤窄左边搜索框);影响全部5处 VoiceFabSheet",
       "publishedAtMs": 1780772047000
+    },
+    {
+      "version": 957,
+      "versionName": "260607-0306",
+      "userFacingChangelog": "升级提示界面更顺眼了一点 ✨",
+      "changelog": "OtaFlowOverlay: 一阶段花瓣与文字彻底解耦——花瓣绝对定位固定 ~39%（两阶段同锚零跳变），一阶段文字独立锚 ~30% 整组提上来，二阶段下半独立锚 ~53%。",
+      "publishedAtMs": 1780773014000
     }
   ],
-  "publishedAtMs": 1780772047000,
+  "publishedAtMs": 1780773014000,
   "minSupported": 0
 }
