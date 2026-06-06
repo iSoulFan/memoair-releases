@@ -1,19 +1,12 @@
 {
-  "version": 951,
-  "versionName": "260607-0053",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v951/memoair-v951-260607-0053-slim.apk",
-  "sizeBytes": 37706800,
-  "sha256": "b4df6c53af7cf47bc1bcd1420d8a1362e9cf740b4f87777f36dfcc6bc7d73bde",
-  "changelog": "v951 重发(上次任务被kill未发成)：含图标微调(深点居中/团子居中/#3-7缩0.70/改名 OLLIE暖夜·AURY星夜·双人手办) + 念念不忘金句末行去掉结尾标点(unforgettableVerseLines 末行 trimEnd 句末标点)",
-  "userFacingChangelog": "桌面图标细节打磨；念念不忘金句排版微调",
+  "version": 952,
+  "versionName": "260607-0116",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v952/memoair-v952-260607-0116-slim.apk",
+  "sizeBytes": 37731376,
+  "sha256": "186774fb44b6954e5c23cf603c544d561bd064d7f3995754a7efa4482098103b",
+  "changelog": "v952：OTA一阶段内容+白底整体上移22%屏高(BoxWithConstraints offset -maxHeight*0.22)；OLLIE/AURY团子改0.73(0.70偏小)+投影投影bbox列行投影居中(之前阴影撑歪bbox偏左)；设置「外观」组整块移到「记录」上方",
+  "userFacingChangelog": "桌面图标 / 升级弹窗 / 设置排版细节打磨",
   "recentReleases": [
-    {
-      "version": 895,
-      "versionName": "260604-1311",
-      "userFacingChangelog": "· 带了日期或时间的待办，现在能正确打上时间标了 · 删纪要时会提示并连带删掉它对应的待办，单独删一条也会先问一下",
-      "changelog": "v895：①待办时间标兜底——MeetingExtractor.buildTodos 与 TodoLlmExtractor 在 LLM 留空 dueIso8601 时回退 ChineseDueExtractor.extract(title/原文)，修「内容明显带日期/时间却不打时间标」②删纪要级联删待办——TodoDao 新增 deleteByMeetingId，MemoAirRepository.deleteMeeting 先删 sourceMeetingId 关联待办再删纪要(覆盖批量/长按/详情三入口)③单条删除新增确认弹窗(长按菜单+详情删除原本直接删、无提示)，批量+单条弹窗文案都加「对应待办也会一起删」",
-      "publishedAtMs": 1780549988000
-    },
     {
       "version": 896,
       "versionName": "260604-1321",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "桌面图标细节打磨；念念不忘金句排版微调",
       "changelog": "v951 重发(上次任务被kill未发成)：含图标微调(深点居中/团子居中/#3-7缩0.70/改名 OLLIE暖夜·AURY星夜·双人手办) + 念念不忘金句末行去掉结尾标点(unforgettableVerseLines 末行 trimEnd 句末标点)",
       "publishedAtMs": 1780765697000
+    },
+    {
+      "version": 952,
+      "versionName": "260607-0116",
+      "userFacingChangelog": "桌面图标 / 升级弹窗 / 设置排版细节打磨",
+      "changelog": "v952：OTA一阶段内容+白底整体上移22%屏高(BoxWithConstraints offset -maxHeight*0.22)；OLLIE/AURY团子改0.73(0.70偏小)+投影投影bbox列行投影居中(之前阴影撑歪bbox偏左)；设置「外观」组整块移到「记录」上方",
+      "publishedAtMs": 1780766551000
     }
   ],
-  "publishedAtMs": 1780765697000,
+  "publishedAtMs": 1780766551000,
   "minSupported": 0
 }
