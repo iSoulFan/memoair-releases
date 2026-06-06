@@ -1,19 +1,12 @@
 {
-  "version": 931,
-  "versionName": "260606-1344",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v931/memoair-v931-260606-1344-slim.apk",
-  "sizeBytes": 36018689,
-  "sha256": "0e72a925752fc80838ece4f31ea5f4712c7a3b24af918abd90aab9ea341cba88",
-  "changelog": "①设备弹窗『建议切换』收紧：手机内置麦永不提示(它是兜底没得切)；外接设备从持续 4s 静音改为连续 5 分钟一点声没有才提示(LaunchedEffect 加 selectedExternalId key + SUGGEST_SILENCE_MS=5min，poll 1s)。②关于页拍立得相片下文案去掉所有标点(——/，/。)，保留换行：'这一秒抬头看看天空 \\n AURY 和 OLLIE 可能也正想念着你'。",
-  "userFacingChangelog": "细节打磨：设备建议切换的提示更克制了。",
+  "version": 932,
+  "versionName": "260606-1404",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v932/memoair-v932-260606-1404-slim.apk",
+  "sizeBytes": 36653849,
+  "sha256": "2b69370736a07a475a51a6a3cc90312000ae0b2bac8974acc0fede7f268aec1e",
+  "changelog": "①关于页拍立得相片改成 6 张池子按日期轮换(eggPhotoResForToday: epochDay%6)，新增 5 张 AURY+OLLIE 场景图(drawable-nodpi: egg_cabin/camp/warp/moonreach/moonduo, PIL 压缩 1280 长边 JPG)。②[调试预览]全屏沉浸式 OTA 下载弹窗 OtaDownloadOverlay：去白卡+纯白径向遮罩往四边散、居中复用 EmojiBadge 呼吸花瓣(新增 petalColors 覆盖参数锁青绿+黄绿)、进度条青绿→黄绿、取消下载按钮；调试区『预览 OTA 下载弹窗』入口触发假弹窗(进度自动循环)。",
+  "userFacingChangelog": "关于页那张拍立得相片现在每天会随机换一张啦——AURY 和 OLLIE 在不同地方陪着你。",
   "recentReleases": [
-    {
-      "version": 868,
-      "versionName": "260603-1814",
-      "userFacingChangelog": "· 全新主色调：去掉旧的暖棕，全面换成「记忆黄绿」——Tab、按钮、开机引导、各种标记都统一了",
-      "changelog": "v868：全局品牌色翻盘——Q.Warm 家族(Warm/WarmSoft/WarmDeep/WarmGlow + AnchorAccent，也是 M3 primary/primaryContainer)暖琥珀→PI黄绿；另 sed 21 处写死琥珀字面量(#C5895C/#C99868/#8E7547/#D9B985/#F5E8DA 等)→黄绿；保留 CardSig 7 卡身份签名色(撤回误伤的念念不忘 c1)、Rose/Purple/Ink/WarmFilled",
-      "publishedAtMs": 1780481800000
-    },
     {
       "version": 869,
       "versionName": "260603-1829",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "细节打磨：设备建议切换的提示更克制了。",
       "changelog": "①设备弹窗『建议切换』收紧：手机内置麦永不提示(它是兜底没得切)；外接设备从持续 4s 静音改为连续 5 分钟一点声没有才提示(LaunchedEffect 加 selectedExternalId key + SUGGEST_SILENCE_MS=5min，poll 1s)。②关于页拍立得相片下文案去掉所有标点(——/，/。)，保留换行：'这一秒抬头看看天空 \\n AURY 和 OLLIE 可能也正想念着你'。",
       "publishedAtMs": 1780724892000
+    },
+    {
+      "version": 932,
+      "versionName": "260606-1404",
+      "userFacingChangelog": "关于页那张拍立得相片现在每天会随机换一张啦——AURY 和 OLLIE 在不同地方陪着你。",
+      "changelog": "①关于页拍立得相片改成 6 张池子按日期轮换(eggPhotoResForToday: epochDay%6)，新增 5 张 AURY+OLLIE 场景图(drawable-nodpi: egg_cabin/camp/warp/moonreach/moonduo, PIL 压缩 1280 长边 JPG)。②[调试预览]全屏沉浸式 OTA 下载弹窗 OtaDownloadOverlay：去白卡+纯白径向遮罩往四边散、居中复用 EmojiBadge 呼吸花瓣(新增 petalColors 覆盖参数锁青绿+黄绿)、进度条青绿→黄绿、取消下载按钮；调试区『预览 OTA 下载弹窗』入口触发假弹窗(进度自动循环)。",
+      "publishedAtMs": 1780726071000
     }
   ],
-  "publishedAtMs": 1780724892000,
+  "publishedAtMs": 1780726071000,
   "minSupported": 0
 }
