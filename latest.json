@@ -1,19 +1,12 @@
 {
-  "version": 944,
-  "versionName": "260606-2124",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v944/memoair-v944-260606-2124-slim.apk",
+  "version": 945,
+  "versionName": "260606-2141",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v945/memoair-v945-260606-2141-slim.apk",
   "sizeBytes": 36830033,
-  "sha256": "b8498907fc381bd2ec3b29cbb09d4f8850cda9aa64c77df8aecaba80d945fd83",
-  "changelog": "OtaFlowOverlay 去 Dialog 默认黑 dim（SideEffect 取 DialogWindowProvider.window.setDimAmount(0f)），一阶段彻底无压暗只剩花瓣；二阶段遮罩从整屏近实改成中间一小团径向晕开往四边散透（center 0.86/mid0.42@0.42/0@0.85，删 edgeA）——白色更透、只中间一团",
+  "sha256": "dbefbf1b65a929f0d05ea1b71b6ca82e9d4b0b2cfecced31f711a4b3ad3bb86b",
+  "changelog": "OtaFlowOverlay 调整：一阶段文字改回反色但反向（浅=黑#1E1A16/深=白#ECE7DD，白字在浅花瓣上看不清），新增 s1BtnText 给现在更新按钮单独留白(浅)/深(深)；二阶段白底大范围太闷→收成正中一小团淡白(center 0.86→0.5,stops 0/0.2/0.45 收紧)",
   "userFacingChangelog": "细节打磨",
   "recentReleases": [
-    {
-      "version": 888,
-      "versionName": "260604-1107",
-      "userFacingChangelog": "· 右上角的胶囊（收起和点开后）都更淡、更中性了，不再太白抢戏；点开的弹窗也加了阴影",
-      "changelog": "v888：录音胶囊降白去色相——收起 glassBg White0.60→#EAEAE8×0.70、glassBorder 白→#8C8C88×0.30、topHighlight 0.30→0.12；展开 expandedBg 纯白#FFFFFF→#F0F0EE；shadow 从仅收起态改成收起+展开都有(展开弹窗加阴影)",
-      "publishedAtMs": 1780542563000
-    },
     {
       "version": 889,
       "versionName": "260604-1115",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "细节打磨",
       "changelog": "OtaFlowOverlay 去 Dialog 默认黑 dim（SideEffect 取 DialogWindowProvider.window.setDimAmount(0f)），一阶段彻底无压暗只剩花瓣；二阶段遮罩从整屏近实改成中间一小团径向晕开往四边散透（center 0.86/mid0.42@0.42/0@0.85，删 edgeA）——白色更透、只中间一团",
       "publishedAtMs": 1780752758000
+    },
+    {
+      "version": 945,
+      "versionName": "260606-2141",
+      "userFacingChangelog": "细节打磨",
+      "changelog": "OtaFlowOverlay 调整：一阶段文字改回反色但反向（浅=黑#1E1A16/深=白#ECE7DD，白字在浅花瓣上看不清），新增 s1BtnText 给现在更新按钮单独留白(浅)/深(深)；二阶段白底大范围太闷→收成正中一小团淡白(center 0.86→0.5,stops 0/0.2/0.45 收紧)",
+      "publishedAtMs": 1780753662000
     }
   ],
-  "publishedAtMs": 1780752758000,
+  "publishedAtMs": 1780753662000,
   "minSupported": 0
 }
