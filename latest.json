@@ -1,19 +1,12 @@
 {
-  "version": 936,
-  "versionName": "260606-1837",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v936/memoair-v936-260606-1837-slim.apk",
-  "sizeBytes": 36784977,
-  "sha256": "8e5a942141283818f92f2ca3bd7d0dbaa2f759e600dec7942531e11f02c19676",
-  "changelog": "OTA下载弹窗 OLLIE 换全身带腿/靴新图（cv2 grabcut 前景分割+平滑白边），文案 emoji ⭐→✨；ExpandableSection 展开态加 BackHandler 拦截系统返回手势→先折叠（LIFO 嵌套先收里层），同步加到 expertise_row / feedback_row 两个自绘展开卡",
-  "userFacingChangelog": "可展开的卡片，展开后用返回手势会先收起卡片，不再直接退出页面",
+  "version": 937,
+  "versionName": "260606-1908",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v937/memoair-v937-260606-1908-slim.apk",
+  "sizeBytes": 36821841,
+  "sha256": "2217ce6d8cd329ecca739f74e5be1bd354fdc2d9adcaa410b71e427809792c8f",
+  "changelog": "OTA弹窗OLLIE重抠：mask-init grabcut(外圈定背景+OLLIE形状定前景)精准切出全身含菇盖肩膀/腿/靴不裁切，膨胀30px均匀实心白边(替换会褪色的高斯阈值边)；摇头 820ms→1500ms ±10° 放慢出俏皮感",
+  "userFacingChangelog": "细节打磨",
   "recentReleases": [
-    {
-      "version": 879,
-      "versionName": "260603-2308",
-      "userFacingChangelog": "· 修好了对话顶部「使劲往下拉」露出上一个话题拉不动的问题",
-      "changelog": "v879：修对话顶部「使劲往下拉露出上一话题」拉不动——根因 Android12+ 列表 stretch overscroll 在 onPostScroll 前吃掉 leftover 位移导致父级 available.y≈0、累加器到不了阈值；改成 onPreScroll 偷看累积(return Zero 不消费不破坏滚动/fling，仅 atTop+UserInput+available.y>0 计数，反向/离顶归零)，阈值 80→60dp",
-      "publishedAtMs": 1780499861000
-    },
     {
       "version": 880,
       "versionName": "260604-0039",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "可展开的卡片，展开后用返回手势会先收起卡片，不再直接退出页面",
       "changelog": "OTA下载弹窗 OLLIE 换全身带腿/靴新图（cv2 grabcut 前景分割+平滑白边），文案 emoji ⭐→✨；ExpandableSection 展开态加 BackHandler 拦截系统返回手势→先折叠（LIFO 嵌套先收里层），同步加到 expertise_row / feedback_row 两个自绘展开卡",
       "publishedAtMs": 1780742715000
+    },
+    {
+      "version": 937,
+      "versionName": "260606-1908",
+      "userFacingChangelog": "细节打磨",
+      "changelog": "OTA弹窗OLLIE重抠：mask-init grabcut(外圈定背景+OLLIE形状定前景)精准切出全身含菇盖肩膀/腿/靴不裁切，膨胀30px均匀实心白边(替换会褪色的高斯阈值边)；摇头 820ms→1500ms ±10° 放慢出俏皮感",
+      "publishedAtMs": 1780744667000
     }
   ],
-  "publishedAtMs": 1780742715000,
+  "publishedAtMs": 1780744667000,
   "minSupported": 0
 }
