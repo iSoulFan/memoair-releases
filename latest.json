@@ -1,19 +1,12 @@
 {
-  "version": 940,
-  "versionName": "260606-2008",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v940/memoair-v940-260606-2008-slim.apk",
+  "version": 941,
+  "versionName": "260606-2026",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v941/memoair-v941-260606-2026-slim.apk",
   "sizeBytes": 36821841,
-  "sha256": "f19a27773193d66f7b3b586394256bfa1adc14ec7e5f5d30f2bf507a986643d6",
-  "changelog": "外观新增「相片动画」ExpandableSection(settings.photoanim)，两开关走新 PhotoAnimPrefs(memoair_photo_anim,懒StateFlow)：①晨间拾梦相片默认开→guard MemoAirRoot.tryTriggerPrint ②关于页彩蛋默认关→AboutEggPrint 由每日门禁(已删AboutEggPrintGate)改成开关控制、开则每次进关于 randomEggPhotoRes() 随机轮播；EggPolaroidCard 加 photoRes 参数+controller.photoRes 单一来源保飞入/落地一致",
-  "userFacingChangelog": "外观里新增「相片动画」——可以分别开关每天的拾梦相片冲印动画、和「关于」页的彩蛋拍立得动画（彩蛋默认关，打开后每次进关于都会随机冲印一张）",
+  "sha256": "f7ebfb73257a133b5c08199fd14fed6cc8c7eab35501a002e54b926343ceca15",
+  "changelog": "关于页彩蛋开关开着却只播一次的bug修复：ParallelUniverseEggPhoto 加 DisposableEffect onDispose 复位 controller.phase=Idle + targetInWindow=null（controller 记在外层 SettingsScreen 不随折叠销毁），每次折叠关于再展开都从 Idle 重测落点重新触发 → 开关开着就每次都播随机一张，不再播一次后直接显形",
+  "userFacingChangelog": "细节打磨",
   "recentReleases": [
-    {
-      "version": 883,
-      "versionName": "260604-0905",
-      "userFacingChangelog": "· 修好了设置里「语音识别语种 / 手机多麦拾音 / 麦克风来源」点不开的问题",
-      "changelog": "v883：修 v881 折叠对称引入的回归——「语音识别语种/手机多麦拾音/麦克风来源」三个嵌在平铺记录组里的子 section 点不开(snapshotFlow 自动收起把 openId 对应 sec:key 找不到的当成滚出屏幕→瞬间 setOpen(false))。加 seenSecKeys 累积门:自动收起只对'曾作为顶层 item key 出现过'的 section 生效,嵌套子 section 的 key 从不出现→不受收起逻辑影响→能正常展开;顶层滚出收起对称行为保留",
-      "publishedAtMs": 1780535274000
-    },
     {
       "version": 885,
       "versionName": "260604-0921",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "外观里新增「相片动画」——可以分别开关每天的拾梦相片冲印动画、和「关于」页的彩蛋拍立得动画（彩蛋默认关，打开后每次进关于都会随机冲印一张）",
       "changelog": "外观新增「相片动画」ExpandableSection(settings.photoanim)，两开关走新 PhotoAnimPrefs(memoair_photo_anim,懒StateFlow)：①晨间拾梦相片默认开→guard MemoAirRoot.tryTriggerPrint ②关于页彩蛋默认关→AboutEggPrint 由每日门禁(已删AboutEggPrintGate)改成开关控制、开则每次进关于 randomEggPhotoRes() 随机轮播；EggPolaroidCard 加 photoRes 参数+controller.photoRes 单一来源保飞入/落地一致",
       "publishedAtMs": 1780747985000
+    },
+    {
+      "version": 941,
+      "versionName": "260606-2026",
+      "userFacingChangelog": "细节打磨",
+      "changelog": "关于页彩蛋开关开着却只播一次的bug修复：ParallelUniverseEggPhoto 加 DisposableEffect onDispose 复位 controller.phase=Idle + targetInWindow=null（controller 记在外层 SettingsScreen 不随折叠销毁），每次折叠关于再展开都从 Idle 重测落点重新触发 → 开关开着就每次都播随机一张，不再播一次后直接显形",
+      "publishedAtMs": 1780749012000
     }
   ],
-  "publishedAtMs": 1780747985000,
+  "publishedAtMs": 1780749012000,
   "minSupported": 0
 }
