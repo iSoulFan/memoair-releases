@@ -1,19 +1,12 @@
 {
-  "version": 937,
-  "versionName": "260606-1908",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v937/memoair-v937-260606-1908-slim.apk",
+  "version": 938,
+  "versionName": "260606-1937",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v938/memoair-v938-260606-1937-slim.apk",
   "sizeBytes": 36821841,
-  "sha256": "2217ce6d8cd329ecca739f74e5be1bd354fdc2d9adcaa410b71e427809792c8f",
-  "changelog": "OTA弹窗OLLIE重抠：mask-init grabcut(外圈定背景+OLLIE形状定前景)精准切出全身含菇盖肩膀/腿/靴不裁切，膨胀30px均匀实心白边(替换会褪色的高斯阈值边)；摇头 820ms→1500ms ±10° 放慢出俏皮感",
-  "userFacingChangelog": "细节打磨",
+  "sha256": "8392ec83416e6219a178d39f9202b9bd044496154260c7955105ec616b118cbb",
+  "changelog": "OTA下载弹窗接入真实流程：MemoAirRoot.OtaDownloadProgressDialog 的 Downloading 分支改渲染全屏沉浸式 OtaDownloadOverlay(OLLIE摇头+呼吸花瓣+进度条)，Done/失败仍走小卡Dialog，删除废弃 OtaDownloadingContent；BackHandler 折叠补全：那天的事 DailyReportCard(expanded&&!forceExpanded) + 纪要 MeetingsTab(openId!=null)",
+  "userFacingChangelog": "更新下载时换上了更舒服的全屏动画；展开的纪要、那天的事，用返回手势会先收起来，不再直接退出",
   "recentReleases": [
-    {
-      "version": 880,
-      "versionName": "260604-0039",
-      "userFacingChangelog": "· 修好了对话顶部下拉露出更早话题不生效的问题（之前下拉揭开的是已经显示着的那条）",
-      "changelog": "v880：修对话下拉露出上一话题真因——揭开协程(ChatScreen ~1653)的 pivot 链漏了 defaultPreviousTopic，跟 hasMorePreviousTopic(~1612)不一致，导致首次下拉 previousTopicBefore(当前话题)=已默认露出的那条上一话题，屏幕无新内容、体感拉不动。补 defaultPreviousTopic?.topic 让首拉从上上一条开始",
-      "publishedAtMs": 1780504958000
-    },
     {
       "version": 881,
       "versionName": "260604-0221",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "细节打磨",
       "changelog": "OTA弹窗OLLIE重抠：mask-init grabcut(外圈定背景+OLLIE形状定前景)精准切出全身含菇盖肩膀/腿/靴不裁切，膨胀30px均匀实心白边(替换会褪色的高斯阈值边)；摇头 820ms→1500ms ±10° 放慢出俏皮感",
       "publishedAtMs": 1780744667000
+    },
+    {
+      "version": 938,
+      "versionName": "260606-1937",
+      "userFacingChangelog": "更新下载时换上了更舒服的全屏动画；展开的纪要、那天的事，用返回手势会先收起来，不再直接退出",
+      "changelog": "OTA下载弹窗接入真实流程：MemoAirRoot.OtaDownloadProgressDialog 的 Downloading 分支改渲染全屏沉浸式 OtaDownloadOverlay(OLLIE摇头+呼吸花瓣+进度条)，Done/失败仍走小卡Dialog，删除废弃 OtaDownloadingContent；BackHandler 折叠补全：那天的事 DailyReportCard(expanded&&!forceExpanded) + 纪要 MeetingsTab(openId!=null)",
+      "publishedAtMs": 1780746206000
     }
   ],
-  "publishedAtMs": 1780744667000,
+  "publishedAtMs": 1780746206000,
   "minSupported": 0
 }
