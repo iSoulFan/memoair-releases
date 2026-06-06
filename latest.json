@@ -1,19 +1,12 @@
 {
-  "version": 930,
-  "versionName": "260606-1313",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v930/memoair-v930-260606-1313-slim.apk",
+  "version": 931,
+  "versionName": "260606-1344",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v931/memoair-v931-260606-1344-slim.apk",
   "sizeBytes": 36018689,
-  "sha256": "7aa3c69dfedf71407016836531388e10851ce0e75b9cee19a3b00cfd3ac80239",
-  "changelog": "①多选时长气泡单击难选中：LongPressMenu 加 instantClickNoMenu 参数，多选(multiSelectMode)时用 clickable(indication=null) 直接切换选中，绕开 detectTapGestures(onTap+onLongPress 在可滚动长内容里抢手势/等长按超时导致单击被吞)。②长按气泡加『分享图片』：用户/AI 菜单各加一项，复用 ChatShareImageRenderer.shareImageUri 渲染单条 ChatLine 截图分享。",
-  "userFacingChangelog": "聊天里多选时点气泡更跟手了；长按单条气泡也能直接分享成图片。",
+  "sha256": "0e72a925752fc80838ece4f31ea5f4712c7a3b24af918abd90aab9ea341cba88",
+  "changelog": "①设备弹窗『建议切换』收紧：手机内置麦永不提示(它是兜底没得切)；外接设备从持续 4s 静音改为连续 5 分钟一点声没有才提示(LaunchedEffect 加 selectedExternalId key + SUGGEST_SILENCE_MS=5min，poll 1s)。②关于页拍立得相片下文案去掉所有标点(——/，/。)，保留换行：'这一秒抬头看看天空 \\n AURY 和 OLLIE 可能也正想念着你'。",
+  "userFacingChangelog": "细节打磨：设备建议切换的提示更克制了。",
   "recentReleases": [
-    {
-      "version": 867,
-      "versionName": "260603-1802",
-      "userFacingChangelog": "· 待办折叠时保持清爽，点开整条后才显示来源和修改/删除",
-      "changelog": "v867：待办来源改为跟随整条 expanded——折叠时不显示来源（保持原样），展开后才显示「来源」小标+引文（修改/删除本就在 expanded 区）",
-      "publishedAtMs": 1780481092000
-    },
     {
       "version": 868,
       "versionName": "260603-1814",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "聊天里多选时点气泡更跟手了；长按单条气泡也能直接分享成图片。",
       "changelog": "①多选时长气泡单击难选中：LongPressMenu 加 instantClickNoMenu 参数，多选(multiSelectMode)时用 clickable(indication=null) 直接切换选中，绕开 detectTapGestures(onTap+onLongPress 在可滚动长内容里抢手势/等长按超时导致单击被吞)。②长按气泡加『分享图片』：用户/AI 菜单各加一项，复用 ChatShareImageRenderer.shareImageUri 渲染单条 ChatLine 截图分享。",
       "publishedAtMs": 1780723091000
+    },
+    {
+      "version": 931,
+      "versionName": "260606-1344",
+      "userFacingChangelog": "细节打磨：设备建议切换的提示更克制了。",
+      "changelog": "①设备弹窗『建议切换』收紧：手机内置麦永不提示(它是兜底没得切)；外接设备从持续 4s 静音改为连续 5 分钟一点声没有才提示(LaunchedEffect 加 selectedExternalId key + SUGGEST_SILENCE_MS=5min，poll 1s)。②关于页拍立得相片下文案去掉所有标点(——/，/。)，保留换行：'这一秒抬头看看天空 \\n AURY 和 OLLIE 可能也正想念着你'。",
+      "publishedAtMs": 1780724892000
     }
   ],
-  "publishedAtMs": 1780723091000,
+  "publishedAtMs": 1780724892000,
   "minSupported": 0
 }
