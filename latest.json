@@ -1,19 +1,12 @@
 {
-  "version": 952,
-  "versionName": "260607-0116",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v952/memoair-v952-260607-0116-slim.apk",
+  "version": 953,
+  "versionName": "260607-0155",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v953/memoair-v953-260607-0155-slim.apk",
   "sizeBytes": 37731376,
-  "sha256": "186774fb44b6954e5c23cf603c544d561bd064d7f3995754a7efa4482098103b",
-  "changelog": "v952：OTA一阶段内容+白底整体上移22%屏高(BoxWithConstraints offset -maxHeight*0.22)；OLLIE/AURY团子改0.73(0.70偏小)+投影投影bbox列行投影居中(之前阴影撑歪bbox偏左)；设置「外观」组整块移到「记录」上方",
-  "userFacingChangelog": "桌面图标 / 升级弹窗 / 设置排版细节打磨",
+  "sha256": "bd5d3e89349836166d8ea833b2f40f29613ac2b9938b7b85314e9dc2774ebdd6",
+  "changelog": "OLLIE 图标主体往右下微调(目标中心 232,237 = 正中+16,+22)",
+  "userFacingChangelog": "桌面图标细节打磨",
   "recentReleases": [
-    {
-      "version": 896,
-      "versionName": "260604-1321",
-      "userFacingChangelog": "· 纪要脑图改成纵向思维导图：顶上一个主题框，往下分出各个分支框，连线带箭头",
-      "changelog": "v896：脑图横向版改回纵向——MindTreeCard 重写为纵向节点树(去掉 MindTreeGraph/MindTreeFullscreen+横向相关 import)：顶部主题框(neutralHeaderBg 小框 🧠+tree.root)，每分支一行左 rail Canvas 画 竖主干段+肘形横线+右指箭头(尖落分支框左缘)，分支框 pastel 循环三档；最后一支主干只到肘部；无全屏放大(纵向随页面滚)",
-      "publishedAtMs": 1780550594000
-    },
     {
       "version": 897,
       "versionName": "260604-1345",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "桌面图标 / 升级弹窗 / 设置排版细节打磨",
       "changelog": "v952：OTA一阶段内容+白底整体上移22%屏高(BoxWithConstraints offset -maxHeight*0.22)；OLLIE/AURY团子改0.73(0.70偏小)+投影投影bbox列行投影居中(之前阴影撑歪bbox偏左)；设置「外观」组整块移到「记录」上方",
       "publishedAtMs": 1780766551000
+    },
+    {
+      "version": 953,
+      "versionName": "260607-0155",
+      "userFacingChangelog": "桌面图标细节打磨",
+      "changelog": "OLLIE 图标主体往右下微调(目标中心 232,237 = 正中+16,+22)",
+      "publishedAtMs": 1780768731000
     }
   ],
-  "publishedAtMs": 1780766551000,
+  "publishedAtMs": 1780768731000,
   "minSupported": 0
 }
