@@ -1,19 +1,12 @@
 {
-  "version": 942,
-  "versionName": "260606-2052",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v942/memoair-v942-260606-2052-slim.apk",
+  "version": 943,
+  "versionName": "260606-2109",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v943/memoair-v943-260606-2109-slim.apk",
   "sizeBytes": 36830033,
-  "sha256": "e1f4d99110b15b849112762064c6ec97da8aca0aed50a2d669c3f145ba9b852e",
-  "changelog": "OTA升级一阶段→二阶段连续动效 Compose 落地：新 OtaFlowOverlay(共享呼吸花瓣贯穿+背景radial透明度 t 0→1 900ms渐变 一阶段0.55/0.0近透到二阶段0.99近实+s1/s2 crossfade)，一阶段花瓣上叠NEW VERSION/发现新版本/版本+更新说明/现在升级问询+现在更新(青绿黄绿填充深字)/以后再说，点现在更新→started渐变进二阶段OLLIE摇头+进度条；正文加深对比(浅#3A332B/深#D8D0C1)；TealGreenPetals 改 internal 共享；调试区加预览开关 settings.ota_flow_preview + OtaFlowOverlayPreview(点现在更新自动跑假进度)",
+  "sha256": "70d7e235111e75b7cc9a2517d76d5a8506095a95ae23735c7ea98b215f95255a",
+  "changelog": "OtaFlowOverlay 一阶段去遮罩：scrim 起点 alpha 全设 0（一阶段纯花瓣浮在 App 上无蒙板），t 0→1 才把白/黑遮罩渐显进二阶段；一阶段文字全改反色 s1Text(浅=白/深=近黑#1C1814) 含 eyebrow/标题/正文/问询/现在更新按钮字，以后再说=s1Soft；删 eyebrow/body 旧色值",
   "userFacingChangelog": "细节打磨",
   "recentReleases": [
-    {
-      "version": 886,
-      "versionName": "260604-0933",
-      "userFacingChangelog": "· 纪要里的时间轴 / 表格 / 脑图现在更容易出现了（之前条件太严，几乎只出时间轴）",
-      "changelog": "v886：放宽纪要 timeline/tables/trees 触发门槛——meeting_minutes.txt 把'宁缺毋滥/绝大多数纪要都是[]/别硬凑'软化成'内容沾边就大方抽'，三类各补一堆具体触发例子(timeline 加'来龙去脉/推进节奏'、tables 加'各有各情况/分别列几项'、trees 放宽到'摊成几个并列方面不要求严格层级')，底线只保留'不编造原文没有的内容'。仅影响新纪要",
-      "publishedAtMs": 1780537055000
-    },
     {
       "version": 887,
       "versionName": "260604-1102",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "细节打磨",
       "changelog": "OTA升级一阶段→二阶段连续动效 Compose 落地：新 OtaFlowOverlay(共享呼吸花瓣贯穿+背景radial透明度 t 0→1 900ms渐变 一阶段0.55/0.0近透到二阶段0.99近实+s1/s2 crossfade)，一阶段花瓣上叠NEW VERSION/发现新版本/版本+更新说明/现在升级问询+现在更新(青绿黄绿填充深字)/以后再说，点现在更新→started渐变进二阶段OLLIE摇头+进度条；正文加深对比(浅#3A332B/深#D8D0C1)；TealGreenPetals 改 internal 共享；调试区加预览开关 settings.ota_flow_preview + OtaFlowOverlayPreview(点现在更新自动跑假进度)",
       "publishedAtMs": 1780750565000
+    },
+    {
+      "version": 943,
+      "versionName": "260606-2109",
+      "userFacingChangelog": "细节打磨",
+      "changelog": "OtaFlowOverlay 一阶段去遮罩：scrim 起点 alpha 全设 0（一阶段纯花瓣浮在 App 上无蒙板），t 0→1 才把白/黑遮罩渐显进二阶段；一阶段文字全改反色 s1Text(浅=白/深=近黑#1C1814) 含 eyebrow/标题/正文/问询/现在更新按钮字，以后再说=s1Soft；删 eyebrow/body 旧色值",
+      "publishedAtMs": 1780751505000
     }
   ],
-  "publishedAtMs": 1780750565000,
+  "publishedAtMs": 1780751505000,
   "minSupported": 0
 }
