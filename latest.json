@@ -1,19 +1,12 @@
 {
-  "version": 945,
-  "versionName": "260606-2141",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v945/memoair-v945-260606-2141-slim.apk",
+  "version": 946,
+  "versionName": "260606-2156",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v946/memoair-v946-260606-2156-slim.apk",
   "sizeBytes": 36830033,
-  "sha256": "dbefbf1b65a929f0d05ea1b71b6ca82e9d4b0b2cfecced31f711a4b3ad3bb86b",
-  "changelog": "OtaFlowOverlay 调整：一阶段文字改回反色但反向（浅=黑#1E1A16/深=白#ECE7DD，白字在浅花瓣上看不清），新增 s1BtnText 给现在更新按钮单独留白(浅)/深(深)；二阶段白底大范围太闷→收成正中一小团淡白(center 0.86→0.5,stops 0/0.2/0.45 收紧)",
+  "sha256": "2b69c75757ed74af7fd1574caef8c5fb85d9498941de8a0231f726910c511d08",
+  "changelog": "OtaFlowOverlay 白底重做：两阶段都常驻白/黑底，竖向椭圆(scaleY2.0+radius170dp 径向)实底覆盖文字+按钮范围(0.97/0.95@0.62)再往四周渐透，去掉 t 门控的 centerA/midA/lerp；管理员(PasscodeAuth.isAdmin)登录后 调试·高级设置 常驻显示(isAdmin||debugUnlocked)不必连点照片解锁",
   "userFacingChangelog": "细节打磨",
   "recentReleases": [
-    {
-      "version": 889,
-      "versionName": "260604-1115",
-      "userFacingChangelog": "· 胶囊勾边改回了原来的样式（只保留了不那么白的底色）",
-      "changelog": "v889：胶囊勾边改回上一版白色细边(glassBorder #8C8C88×0.30 → White×0.55)；BG 降白(glassBg/expandedBg 浅灰)+ 展开阴影保留",
-      "publishedAtMs": 1780543080000
-    },
     {
       "version": 890,
       "versionName": "260604-1121",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "细节打磨",
       "changelog": "OtaFlowOverlay 调整：一阶段文字改回反色但反向（浅=黑#1E1A16/深=白#ECE7DD，白字在浅花瓣上看不清），新增 s1BtnText 给现在更新按钮单独留白(浅)/深(深)；二阶段白底大范围太闷→收成正中一小团淡白(center 0.86→0.5,stops 0/0.2/0.45 收紧)",
       "publishedAtMs": 1780753662000
+    },
+    {
+      "version": 946,
+      "versionName": "260606-2156",
+      "userFacingChangelog": "细节打磨",
+      "changelog": "OtaFlowOverlay 白底重做：两阶段都常驻白/黑底，竖向椭圆(scaleY2.0+radius170dp 径向)实底覆盖文字+按钮范围(0.97/0.95@0.62)再往四周渐透，去掉 t 门控的 centerA/midA/lerp；管理员(PasscodeAuth.isAdmin)登录后 调试·高级设置 常驻显示(isAdmin||debugUnlocked)不必连点照片解锁",
+      "publishedAtMs": 1780754624000
     }
   ],
-  "publishedAtMs": 1780753662000,
+  "publishedAtMs": 1780754624000,
   "minSupported": 0
 }
