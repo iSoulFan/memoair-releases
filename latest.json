@@ -1,19 +1,12 @@
 {
-  "version": 955,
-  "versionName": "260607-0235",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v955/memoair-v955-260607-0235-slim.apk",
+  "version": 956,
+  "versionName": "260607-0251",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v956/memoair-v956-260607-0251-slim.apk",
   "sizeBytes": 37731376,
-  "sha256": "80a39ddb73efcc6131e39d6a49c3a0811999f811b38aa3c948b004e6c5a3c58a",
-  "changelog": "OtaFlowOverlay 花瓣零跳变：内容 Column 改 align TopCenter + offset maxHeight*0.38-93dp 顶部锚定(花瓣固定~38%高度,不随一/二阶段内容高度重新居中→切换花瓣不跳)；去掉所有 upShift(白底/标题/下半段)，一阶段文字回到花瓣正下方(自然下移)",
-  "userFacingChangelog": "升级弹窗细节打磨",
+  "sha256": "aa3993c6acfa5075a5f6201a140ba6d4819691896593b1ae895bfda6ca0cbaac",
+  "changelog": "长期记忆语音录入：①按钮文案 按住说话→说话新增（避免误以为是搜索）②VoiceFabSheet 实时转写条改 Popup 浮层(脱离布局,不再把宽度算进根Box挤窄左边搜索框);影响全部5处 VoiceFabSheet",
+  "userFacingChangelog": "长期记忆里的语音录入更顺手了",
   "recentReleases": [
-    {
-      "version": 899,
-      "versionName": "260604-1624",
-      "userFacingChangelog": "· 纪要右下角按钮改成「手动生成纪要」：自己挑本周一段时间，强制打包成一条纪要（每天最多 2 次）",
-      "changelog": "v899：纪要右下 FAB「有没有最新纪要」改「手动生成纪要」——两段式 QuietDateTimePickerDialog 选开始/结束→校验(本周内/晚于开始/非未来)→MeetingExtractor.forceExtractWindow 强制打包；extractMeetingsForDay 加 windowStart/windowEnd/force 参数，force 绕过 worthNote 门槛 + 指纹/时间去重；每天限 FORCE_DAILY_LIMIT=2 次(meeting_force_extract prefs，count_yyyy-MM-dd，只有真生成≥1条才计次)；空状态文案同步",
-      "publishedAtMs": 1780561617000
-    },
     {
       "version": 900,
       "versionName": "260604-1643",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "升级弹窗细节打磨",
       "changelog": "OtaFlowOverlay 花瓣零跳变：内容 Column 改 align TopCenter + offset maxHeight*0.38-93dp 顶部锚定(花瓣固定~38%高度,不随一/二阶段内容高度重新居中→切换花瓣不跳)；去掉所有 upShift(白底/标题/下半段)，一阶段文字回到花瓣正下方(自然下移)",
       "publishedAtMs": 1780771199000
+    },
+    {
+      "version": 956,
+      "versionName": "260607-0251",
+      "userFacingChangelog": "长期记忆里的语音录入更顺手了",
+      "changelog": "长期记忆语音录入：①按钮文案 按住说话→说话新增（避免误以为是搜索）②VoiceFabSheet 实时转写条改 Popup 浮层(脱离布局,不再把宽度算进根Box挤窄左边搜索框);影响全部5处 VoiceFabSheet",
+      "publishedAtMs": 1780772047000
     }
   ],
-  "publishedAtMs": 1780771199000,
+  "publishedAtMs": 1780772047000,
   "minSupported": 0
 }
