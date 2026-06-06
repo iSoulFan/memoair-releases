@@ -1,19 +1,12 @@
 {
-  "version": 933,
-  "versionName": "260606-1747",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v933/memoair-v933-260606-1747-slim.apk",
-  "sizeBytes": 36723537,
-  "sha256": "783ce47ff33ce4d65db21e0e688f576ebc389dedf4271f5ef884714c0f19895d",
-  "changelog": "[调试预览]OTA 下载弹窗按 owner 反馈调整：中间星星 emoji 换成 OLLIE 抠图(ota_ollie.png，flood-fill 去浅蓝底)左右摇头晃脑(rotationZ ±9° infiniteRepeatable reverse 820ms, transformOrigin 0.5/0.88)，垫底仍是青绿+黄绿呼吸花瓣(EmojiBadge emoji='' 只出花瓣)；文案改回旧弹窗原文『记得 App 马上会变得更舒服 🐱』+『X.X / Y MB · NN%』(暖琥珀)+『取消下载』。仍是调试假弹窗、未接真实下载流程。",
-  "userFacingChangelog": "细节打磨。",
+  "version": 934,
+  "versionName": "260606-1805",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v934/memoair-v934-260606-1805-slim.apk",
+  "sizeBytes": 36731729,
+  "sha256": "2d93b0a383b01cf896bcaf7bf891af96fb585ecd51bb5c9ed2a11920da0d4ebf",
+  "changelog": "①成就详情页评星模块(BeatCard)回到暖米卡+琥珀星：全 App Q.Warm* 早被改成中性黑灰(渲染成灰底黑星)，这里改成显式暖色 rarityBg/rarityAmber/rarityHeader(亮 #FAF1D8/#CB9B45/#A9863E，暗 #2E2A1F/#D9B45E/#CBA862)，不动全 App Q.Warm*。②[调试预览]OTA 下载弹窗 OLLIE 抠图重做：去掉底部蓝灰阴影、加一圈干净白边(MaxFilter 膨胀)增质感；文案右侧 🐱→⭐。",
+  "userFacingChangelog": "成就页『稀有度』那块的星星和底色回到了暖暖的琥珀配色。",
   "recentReleases": [
-    {
-      "version": 876,
-      "versionName": "260603-2012",
-      "userFacingChangelog": "· 心愿板块统一了深紫主题色，卡片还是按心愿各自的淡彩\n· 待办设了时间后，右边变成闹钟开关（默认到点提醒，点一下静音）；改时间点下面的时间标",
-      "changelog": "v876：心愿板块 accent 统一 Q.WishPurpleDeep 深紫(kicker/左竖条/WishPlanInline标题/WishPlanSheet答题页/已兑现)，卡片背景仍 per-emoji wishTint 淡彩(根因:之前 accent 走 per-emoji deep 碰绿系 emoji 落橄榄绿)；待办 TodoRow 右键日历缩小34→30dp，dueAt!=null 时切 🔔/🔕 reminder 开关(默认开,点切 setTodoReminderEnabled+schedule/cancel)，改时间仍走 due chip",
-      "publishedAtMs": 1780490077000
-    },
     {
       "version": 877,
       "versionName": "260603-2047",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "细节打磨。",
       "changelog": "[调试预览]OTA 下载弹窗按 owner 反馈调整：中间星星 emoji 换成 OLLIE 抠图(ota_ollie.png，flood-fill 去浅蓝底)左右摇头晃脑(rotationZ ±9° infiniteRepeatable reverse 820ms, transformOrigin 0.5/0.88)，垫底仍是青绿+黄绿呼吸花瓣(EmojiBadge emoji='' 只出花瓣)；文案改回旧弹窗原文『记得 App 马上会变得更舒服 🐱』+『X.X / Y MB · NN%』(暖琥珀)+『取消下载』。仍是调试假弹窗、未接真实下载流程。",
       "publishedAtMs": 1780739552000
+    },
+    {
+      "version": 934,
+      "versionName": "260606-1805",
+      "userFacingChangelog": "成就页『稀有度』那块的星星和底色回到了暖暖的琥珀配色。",
+      "changelog": "①成就详情页评星模块(BeatCard)回到暖米卡+琥珀星：全 App Q.Warm* 早被改成中性黑灰(渲染成灰底黑星)，这里改成显式暖色 rarityBg/rarityAmber/rarityHeader(亮 #FAF1D8/#CB9B45/#A9863E，暗 #2E2A1F/#D9B45E/#CBA862)，不动全 App Q.Warm*。②[调试预览]OTA 下载弹窗 OLLIE 抠图重做：去掉底部蓝灰阴影、加一圈干净白边(MaxFilter 膨胀)增质感；文案右侧 🐱→⭐。",
+      "publishedAtMs": 1780740777000
     }
   ],
-  "publishedAtMs": 1780739552000,
+  "publishedAtMs": 1780740777000,
   "minSupported": 0
 }
