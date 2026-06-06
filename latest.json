@@ -1,19 +1,12 @@
 {
-  "version": 938,
-  "versionName": "260606-1937",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v938/memoair-v938-260606-1937-slim.apk",
+  "version": 939,
+  "versionName": "260606-1952",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v939/memoair-v939-260606-1952-slim.apk",
   "sizeBytes": 36821841,
-  "sha256": "8392ec83416e6219a178d39f9202b9bd044496154260c7955105ec616b118cbb",
-  "changelog": "OTA下载弹窗接入真实流程：MemoAirRoot.OtaDownloadProgressDialog 的 Downloading 分支改渲染全屏沉浸式 OtaDownloadOverlay(OLLIE摇头+呼吸花瓣+进度条)，Done/失败仍走小卡Dialog，删除废弃 OtaDownloadingContent；BackHandler 折叠补全：那天的事 DailyReportCard(expanded&&!forceExpanded) + 纪要 MeetingsTab(openId!=null)",
-  "userFacingChangelog": "更新下载时换上了更舒服的全屏动画；展开的纪要、那天的事，用返回手势会先收起来，不再直接退出",
+  "sha256": "40dbda055d2208a885adbbd101a501aebe903e3247d7313bc46c654cc1dbd87b",
+  "changelog": "OtaDownloadOverlay 深色模式适配：跟随 QuietInk.isDark——深色用近黑径向遮罩(#1C1815→#0E0B09)替白底，标题/取消字改柔米(#E4DCCD/#A39B8D)，MB字暖琥珀提亮(#D9B45E)，进度条轨道改 0x22FFFFFF；花瓣/进度填充青绿黄绿+OLLIE白边不变",
+  "userFacingChangelog": "细节打磨",
   "recentReleases": [
-    {
-      "version": 881,
-      "versionName": "260604-0221",
-      "userFacingChangelog": "· 设置里展开的项，不管往上还是往下滑出屏幕，现在都会自动收起了\n· 纪要的时间段显示修好了（新生成的纪要会带完整时间段）",
-      "changelog": "v881：① 纪要列表/详情最新条目缺时间段——根因本session改 meeting_minutes.txt 时写了'时间不用写进markdown'，新纪要正文没HH:mm→eventTimeRangeLabel返null→回退单点；改 prompt 让每段第二行写'时间：HH:mm–HH:mm'(stripMeetingHeader 已含'时间'前缀会剥掉不重复)，仅影响新纪要。② 设置展开项滚出屏幕收起不对称——旧 onGloballyPositioned 依赖header未dispose、两向时机不同；改 SettingsScreen snapshotFlow 监听 visibleItemsInfo 的 key(顶层 item 加 key=sec:stateKey)，openId 对应 key 离开可视区(任一方向)即 setOpen(false)，防空 layoutInfo/tab切换误收，移除旧 overlap 逻辑",
-      "publishedAtMs": 1780511062000
-    },
     {
       "version": 882,
       "versionName": "260604-0308",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "更新下载时换上了更舒服的全屏动画；展开的纪要、那天的事，用返回手势会先收起来，不再直接退出",
       "changelog": "OTA下载弹窗接入真实流程：MemoAirRoot.OtaDownloadProgressDialog 的 Downloading 分支改渲染全屏沉浸式 OtaDownloadOverlay(OLLIE摇头+呼吸花瓣+进度条)，Done/失败仍走小卡Dialog，删除废弃 OtaDownloadingContent；BackHandler 折叠补全：那天的事 DailyReportCard(expanded&&!forceExpanded) + 纪要 MeetingsTab(openId!=null)",
       "publishedAtMs": 1780746206000
+    },
+    {
+      "version": 939,
+      "versionName": "260606-1952",
+      "userFacingChangelog": "细节打磨",
+      "changelog": "OtaDownloadOverlay 深色模式适配：跟随 QuietInk.isDark——深色用近黑径向遮罩(#1C1815→#0E0B09)替白底，标题/取消字改柔米(#E4DCCD/#A39B8D)，MB字暖琥珀提亮(#D9B45E)，进度条轨道改 0x22FFFFFF；花瓣/进度填充青绿黄绿+OLLIE白边不变",
+      "publishedAtMs": 1780746880000
     }
   ],
-  "publishedAtMs": 1780746206000,
+  "publishedAtMs": 1780746880000,
   "minSupported": 0
 }
