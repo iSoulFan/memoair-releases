@@ -1,19 +1,12 @@
 {
-  "version": 941,
-  "versionName": "260606-2026",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v941/memoair-v941-260606-2026-slim.apk",
-  "sizeBytes": 36821841,
-  "sha256": "f7ebfb73257a133b5c08199fd14fed6cc8c7eab35501a002e54b926343ceca15",
-  "changelog": "关于页彩蛋开关开着却只播一次的bug修复：ParallelUniverseEggPhoto 加 DisposableEffect onDispose 复位 controller.phase=Idle + targetInWindow=null（controller 记在外层 SettingsScreen 不随折叠销毁），每次折叠关于再展开都从 Idle 重测落点重新触发 → 开关开着就每次都播随机一张，不再播一次后直接显形",
+  "version": 942,
+  "versionName": "260606-2052",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v942/memoair-v942-260606-2052-slim.apk",
+  "sizeBytes": 36830033,
+  "sha256": "e1f4d99110b15b849112762064c6ec97da8aca0aed50a2d669c3f145ba9b852e",
+  "changelog": "OTA升级一阶段→二阶段连续动效 Compose 落地：新 OtaFlowOverlay(共享呼吸花瓣贯穿+背景radial透明度 t 0→1 900ms渐变 一阶段0.55/0.0近透到二阶段0.99近实+s1/s2 crossfade)，一阶段花瓣上叠NEW VERSION/发现新版本/版本+更新说明/现在升级问询+现在更新(青绿黄绿填充深字)/以后再说，点现在更新→started渐变进二阶段OLLIE摇头+进度条；正文加深对比(浅#3A332B/深#D8D0C1)；TealGreenPetals 改 internal 共享；调试区加预览开关 settings.ota_flow_preview + OtaFlowOverlayPreview(点现在更新自动跑假进度)",
   "userFacingChangelog": "细节打磨",
   "recentReleases": [
-    {
-      "version": 885,
-      "versionName": "260604-0921",
-      "userFacingChangelog": "· 抉择的 SWOT 现在一次只亮一个格子，点别的会把上一个收起\n· 卡片长按的菜单现在弹在手指旁边，不再跑到左上角",
-      "changelog": "v885：① SWOT 象限改单选——picked 从每象限独立 state 提升到 SwotGrid 的 selectedCode，点一个选中(展开聊一聊+边框焦点)、点另一个上一个自动收起。② LongPressMenu(全 App 长按菜单)弹窗贴手指落点——combinedClickable→pointerInput+detectTapGestures 抓 onLongPress offset，Popup offset 从固定 IntOffset(8,8) 改成手指 pressOffset(+4)，不再固定左上角。③ 带上 v884 未发出去的录音三子项滚出也折叠修复",
-      "publishedAtMs": 1780536238000
-    },
     {
       "version": 886,
       "versionName": "260604-0933",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "细节打磨",
       "changelog": "关于页彩蛋开关开着却只播一次的bug修复：ParallelUniverseEggPhoto 加 DisposableEffect onDispose 复位 controller.phase=Idle + targetInWindow=null（controller 记在外层 SettingsScreen 不随折叠销毁），每次折叠关于再展开都从 Idle 重测落点重新触发 → 开关开着就每次都播随机一张，不再播一次后直接显形",
       "publishedAtMs": 1780749012000
+    },
+    {
+      "version": 942,
+      "versionName": "260606-2052",
+      "userFacingChangelog": "细节打磨",
+      "changelog": "OTA升级一阶段→二阶段连续动效 Compose 落地：新 OtaFlowOverlay(共享呼吸花瓣贯穿+背景radial透明度 t 0→1 900ms渐变 一阶段0.55/0.0近透到二阶段0.99近实+s1/s2 crossfade)，一阶段花瓣上叠NEW VERSION/发现新版本/版本+更新说明/现在升级问询+现在更新(青绿黄绿填充深字)/以后再说，点现在更新→started渐变进二阶段OLLIE摇头+进度条；正文加深对比(浅#3A332B/深#D8D0C1)；TealGreenPetals 改 internal 共享；调试区加预览开关 settings.ota_flow_preview + OtaFlowOverlayPreview(点现在更新自动跑假进度)",
+      "publishedAtMs": 1780750565000
     }
   ],
-  "publishedAtMs": 1780749012000,
+  "publishedAtMs": 1780750565000,
   "minSupported": 0
 }
