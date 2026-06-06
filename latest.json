@@ -1,19 +1,12 @@
 {
-  "version": 947,
-  "versionName": "260606-2225",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v947/memoair-v947-260606-2225-slim.apk",
+  "version": 948,
+  "versionName": "260606-2243",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v948/memoair-v948-260606-2243-slim.apk",
   "sizeBytes": 36830033,
-  "sha256": "4aca66867bb71ba089b47b69c3e21e011d0634cd75d1de130f63357f3547843d",
-  "changelog": "OTA升级弹窗接入花瓣动效·一二阶段共用一套：新增 OtaUpgradeFlowHost 统一一阶段(发现新版+合集changelog 来源 朋友pendingAlert/admin Available)→现在更新 startInstall→二阶段下载，全程同一个 OtaFlowOverlay 连续过渡(花瓣不断/背景渐变)，替掉 AlertDialog 版 OtaInstallConfirmDialog；OtaDownloadProgressDialog Downloading 分支让位(只剩Done/失败小卡)；OtaFlowOverlay 一阶段把合集changelog移到花瓣下方可滚动区(widthIn300/heightIn196/verticalScroll)支持多版合集；cumulativeChangelog 抽成 helper；管理员调试菜单常驻(上版带出)",
+  "sha256": "a9a4f6a9f26d7d365b9cb2577687d62056be6642d17015d3c848468d49fd76ec",
+  "changelog": "v948 仅 ITERATION bump：给已装 947 的设备一个目标版本，让 947 的新花瓣升级流程能真机触发验证（代码同 947）",
   "userFacingChangelog": "升级提示换上了新的动画样式",
   "recentReleases": [
-    {
-      "version": 891,
-      "versionName": "260604-1135",
-      "userFacingChangelog": "· 时光 tab 每次点开都回到「全部」那一列了\n· 右上角胶囊展开后跟背景有了阴影更立体，里面小字去掉了紫调",
-      "changelog": "v891：① 胶囊展开看板小字去紫——muted #7C7385/#B7B0BE(带紫调)→#7C766E/#B3AEA6 无色相中性灰；② 胶囊展开弹窗加阴影(elevation 收起12dp/展开18dp，立体感)；③ 时光底 tab：每次点(含从别 tab 切过去)都重置内层子 tab 到「全部」(切页完成再 emit scrollToTopSignal)",
-      "publishedAtMs": 1780544185000
-    },
     {
       "version": 892,
       "versionName": "260604-1155",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "升级提示换上了新的动画样式",
       "changelog": "OTA升级弹窗接入花瓣动效·一二阶段共用一套：新增 OtaUpgradeFlowHost 统一一阶段(发现新版+合集changelog 来源 朋友pendingAlert/admin Available)→现在更新 startInstall→二阶段下载，全程同一个 OtaFlowOverlay 连续过渡(花瓣不断/背景渐变)，替掉 AlertDialog 版 OtaInstallConfirmDialog；OtaDownloadProgressDialog Downloading 分支让位(只剩Done/失败小卡)；OtaFlowOverlay 一阶段把合集changelog移到花瓣下方可滚动区(widthIn300/heightIn196/verticalScroll)支持多版合集；cumulativeChangelog 抽成 helper；管理员调试菜单常驻(上版带出)",
       "publishedAtMs": 1780756217000
+    },
+    {
+      "version": 948,
+      "versionName": "260606-2243",
+      "userFacingChangelog": "升级提示换上了新的动画样式",
+      "changelog": "v948 仅 ITERATION bump：给已装 947 的设备一个目标版本，让 947 的新花瓣升级流程能真机触发验证（代码同 947）",
+      "publishedAtMs": 1780757583000
     }
   ],
-  "publishedAtMs": 1780756217000,
+  "publishedAtMs": 1780757583000,
   "minSupported": 0
 }
