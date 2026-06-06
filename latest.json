@@ -1,19 +1,12 @@
 {
-  "version": 939,
-  "versionName": "260606-1952",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v939/memoair-v939-260606-1952-slim.apk",
+  "version": 940,
+  "versionName": "260606-2008",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v940/memoair-v940-260606-2008-slim.apk",
   "sizeBytes": 36821841,
-  "sha256": "40dbda055d2208a885adbbd101a501aebe903e3247d7313bc46c654cc1dbd87b",
-  "changelog": "OtaDownloadOverlay 深色模式适配：跟随 QuietInk.isDark——深色用近黑径向遮罩(#1C1815→#0E0B09)替白底，标题/取消字改柔米(#E4DCCD/#A39B8D)，MB字暖琥珀提亮(#D9B45E)，进度条轨道改 0x22FFFFFF；花瓣/进度填充青绿黄绿+OLLIE白边不变",
-  "userFacingChangelog": "细节打磨",
+  "sha256": "f19a27773193d66f7b3b586394256bfa1adc14ec7e5f5d30f2bf507a986643d6",
+  "changelog": "外观新增「相片动画」ExpandableSection(settings.photoanim)，两开关走新 PhotoAnimPrefs(memoair_photo_anim,懒StateFlow)：①晨间拾梦相片默认开→guard MemoAirRoot.tryTriggerPrint ②关于页彩蛋默认关→AboutEggPrint 由每日门禁(已删AboutEggPrintGate)改成开关控制、开则每次进关于 randomEggPhotoRes() 随机轮播；EggPolaroidCard 加 photoRes 参数+controller.photoRes 单一来源保飞入/落地一致",
+  "userFacingChangelog": "外观里新增「相片动画」——可以分别开关每天的拾梦相片冲印动画、和「关于」页的彩蛋拍立得动画（彩蛋默认关，打开后每次进关于都会随机冲印一张）",
   "recentReleases": [
-    {
-      "version": 882,
-      "versionName": "260604-0308",
-      "userFacingChangelog": "· App 里不再出现「录音」字样，统一成「记录」（胶囊、设置、通知等处都已统一）",
-      "changelog": "v882：全 App 用户可见文案清除「录音」二字（反词典硬规则延伸到所有 UI）——18 文件约 50 处，动作/状态/板块→记录、权限→麦克风权限；含 owner 点名的胶囊隐私时段「没在录音→没在记录」、设置 section 标题「录音→记录」、常驻通知/StatsDashboard/RecordingState.Error/备份标签等；代码标识符/注释/给 LLM 的 prompt 一律不动",
-      "publishedAtMs": 1780514023000
-    },
     {
       "version": 883,
       "versionName": "260604-0905",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "细节打磨",
       "changelog": "OtaDownloadOverlay 深色模式适配：跟随 QuietInk.isDark——深色用近黑径向遮罩(#1C1815→#0E0B09)替白底，标题/取消字改柔米(#E4DCCD/#A39B8D)，MB字暖琥珀提亮(#D9B45E)，进度条轨道改 0x22FFFFFF；花瓣/进度填充青绿黄绿+OLLIE白边不变",
       "publishedAtMs": 1780746880000
+    },
+    {
+      "version": 940,
+      "versionName": "260606-2008",
+      "userFacingChangelog": "外观里新增「相片动画」——可以分别开关每天的拾梦相片冲印动画、和「关于」页的彩蛋拍立得动画（彩蛋默认关，打开后每次进关于都会随机冲印一张）",
+      "changelog": "外观新增「相片动画」ExpandableSection(settings.photoanim)，两开关走新 PhotoAnimPrefs(memoair_photo_anim,懒StateFlow)：①晨间拾梦相片默认开→guard MemoAirRoot.tryTriggerPrint ②关于页彩蛋默认关→AboutEggPrint 由每日门禁(已删AboutEggPrintGate)改成开关控制、开则每次进关于 randomEggPhotoRes() 随机轮播；EggPolaroidCard 加 photoRes 参数+controller.photoRes 单一来源保飞入/落地一致",
+      "publishedAtMs": 1780747985000
     }
   ],
-  "publishedAtMs": 1780746880000,
+  "publishedAtMs": 1780747985000,
   "minSupported": 0
 }
