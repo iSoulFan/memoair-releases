@@ -1,19 +1,12 @@
 {
-  "version": 949,
-  "versionName": "260607-0011",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v949/memoair-v949-260607-0011-slim.apk",
-  "sizeBytes": 37489320,
-  "sha256": "ff5407a17f5d4794ebd274fb639ef31221b0a810d19200c9cf8aa887cedf7879",
-  "changelog": "任性图标(可切换桌面图标)：MAIN/LAUNCHER 从 MainActivity 挪到 7 个 activity-alias(IconWhite默认enabled其余disabled)，AppIconStore.apply 用 PackageManager.setComponentEnabledSetting(DONT_KILL_APP) 启用选中禁用其余(恰好一个enabled不丢图标)；7 张自适应图标(mipmap-anydpi-v26 bg=满铺图+透明前景,minSdk26全用);外观加「任性图标」九宫格(WaywardIconBlock)即点即换;application icon 改 ic_app_white;**无真机仅离线验证merged manifest+APK xmltree:IconWhite enabled带LAUNCHER targetMainActivity,其余disabled**",
-  "userFacingChangelog": "外观里新增「任性图标」🎨——可以把桌面 App 图标换成 OLLIE、AURY、夜空等好几款，点一下就换",
+  "version": 950,
+  "versionName": "260607-0045",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v950/memoair-v950-260607-0045-slim.apk",
+  "sizeBytes": 37874736,
+  "sha256": "54ba34e4235353ca76b25a57a81f0912f44f20fd5a52f99ced49ad89a272e570",
+  "changelog": "三修：①念念不忘金句换行重写 unforgettableVerseLines(贪心打包≤13全角宽,优先句末标点>逗号顿号>语义停顿词断,行尾去逗号,无标点长串才硬断)替掉逐标点split——治碎断+从字中间折行 ②OtaFlowOverlay一阶段花瓣盒230→186+标题对齐BottomCenter+spacer8→内容上下居中不靠下 ③任性图标重做:全部声明纯色背景@color/icbg_*(治ColorOS给暗色垫白底)+前景整图,#3-7用pure_fill纯色边缘延展把主体缩到0.78(治mask裁切+无方块),#1#2比例不动",
+  "userFacingChangelog": "「念念不忘」的金句换上了更有诗意的排版；桌面图标细节打磨",
   "recentReleases": [
-    {
-      "version": 893,
-      "versionName": "260604-1228",
-      "userFacingChangelog": "· 纪要里的流程卡现在会显示「是什么流程」，不再只是干巴巴一个「流程」",
-      "changelog": "v893：纪要流程卡加 timelineTitle 字段(MinutesVisual+MeetingExtractor 解析+meeting_minutes.txt prompt schema+MeetingDetailContent header 渲染)，header 从写死「流程」改为显示该流程主题(如「上线推进流程」)，空回退「流程」；仅对新扫纪要生效。脑图卡片壳 v892 已上",
-      "publishedAtMs": 1780547546000
-    },
     {
       "version": 894,
       "versionName": "260604-1246",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "外观里新增「任性图标」🎨——可以把桌面 App 图标换成 OLLIE、AURY、夜空等好几款，点一下就换",
       "changelog": "任性图标(可切换桌面图标)：MAIN/LAUNCHER 从 MainActivity 挪到 7 个 activity-alias(IconWhite默认enabled其余disabled)，AppIconStore.apply 用 PackageManager.setComponentEnabledSetting(DONT_KILL_APP) 启用选中禁用其余(恰好一个enabled不丢图标)；7 张自适应图标(mipmap-anydpi-v26 bg=满铺图+透明前景,minSdk26全用);外观加「任性图标」九宫格(WaywardIconBlock)即点即换;application icon 改 ic_app_white;**无真机仅离线验证merged manifest+APK xmltree:IconWhite enabled带LAUNCHER targetMainActivity,其余disabled**",
       "publishedAtMs": 1780762593000
+    },
+    {
+      "version": 950,
+      "versionName": "260607-0045",
+      "userFacingChangelog": "「念念不忘」的金句换上了更有诗意的排版；桌面图标细节打磨",
+      "changelog": "三修：①念念不忘金句换行重写 unforgettableVerseLines(贪心打包≤13全角宽,优先句末标点>逗号顿号>语义停顿词断,行尾去逗号,无标点长串才硬断)替掉逐标点split——治碎断+从字中间折行 ②OtaFlowOverlay一阶段花瓣盒230→186+标题对齐BottomCenter+spacer8→内容上下居中不靠下 ③任性图标重做:全部声明纯色背景@color/icbg_*(治ColorOS给暗色垫白底)+前景整图,#3-7用pure_fill纯色边缘延展把主体缩到0.78(治mask裁切+无方块),#1#2比例不动",
+      "publishedAtMs": 1780764585000
     }
   ],
-  "publishedAtMs": 1780762593000,
+  "publishedAtMs": 1780764585000,
   "minSupported": 0
 }
