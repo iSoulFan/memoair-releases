@@ -1,19 +1,12 @@
 {
-  "version": 953,
-  "versionName": "260607-0155",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v953/memoair-v953-260607-0155-slim.apk",
+  "version": 954,
+  "versionName": "260607-0212",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v954/memoair-v954-260607-0212-slim.apk",
   "sizeBytes": 37731376,
-  "sha256": "bd5d3e89349836166d8ea833b2f40f29613ac2b9938b7b85314e9dc2774ebdd6",
-  "changelog": "OLLIE 图标主体往右下微调(目标中心 232,237 = 正中+16,+22)",
-  "userFacingChangelog": "桌面图标细节打磨",
+  "sha256": "ef184d12a15f0af22bd36ea675c035da1b376b6a774c18f85520a34dc1769cc7",
+  "changelog": "OTA一阶段删掉「现在升级到最新版？」问询文案；OtaFlowOverlay 花瓣/OLLIE/二阶段回正中只一阶段文字上移(-upShift)，白底 -upShift*(1-t)；OLLIE 图标右下微调收回+6,+9",
+  "userFacingChangelog": "升级弹窗 / 桌面图标细节打磨",
   "recentReleases": [
-    {
-      "version": 897,
-      "versionName": "260604-1345",
-      "userFacingChangelog": "· 纪要里的对比表格列对齐了，竖线工整成一张规整的表格",
-      "changelog": "v897：纪要对比表格对齐修复——去掉 horizontalScroll + 每格 widthIn(92) 的各撑各方案，改 fillMaxWidth + 每列 weight(1f) 等分 + 每行 height(IntrinsicSize.Min)+fillMaxHeight 等高，竖列边线统一对齐成规整网格(原来每行独立排导致列宽错位)",
-      "publishedAtMs": 1780552053000
-    },
     {
       "version": 898,
       "versionName": "260604-1445",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "桌面图标细节打磨",
       "changelog": "OLLIE 图标主体往右下微调(目标中心 232,237 = 正中+16,+22)",
       "publishedAtMs": 1780768731000
+    },
+    {
+      "version": 954,
+      "versionName": "260607-0212",
+      "userFacingChangelog": "升级弹窗 / 桌面图标细节打磨",
+      "changelog": "OTA一阶段删掉「现在升级到最新版？」问询文案；OtaFlowOverlay 花瓣/OLLIE/二阶段回正中只一阶段文字上移(-upShift)，白底 -upShift*(1-t)；OLLIE 图标右下微调收回+6,+9",
+      "publishedAtMs": 1780770193000
     }
   ],
-  "publishedAtMs": 1780768731000,
+  "publishedAtMs": 1780770193000,
   "minSupported": 0
 }
