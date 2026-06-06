@@ -1,19 +1,12 @@
 {
-  "version": 935,
-  "versionName": "260606-1819",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v935/memoair-v935-260606-1819-slim.apk",
-  "sizeBytes": 36723537,
-  "sha256": "baa1bc43ae3ee6d52fa28427d61be09a0f96ced77a1500019221ead61a0ecb28",
-  "changelog": "ota_ollie 重新抠图：纯金身体干净抠出 + PIL 高斯模糊阈值生成平滑白边（替换毛糙的 MaxFilter 方形膨胀）",
-  "userFacingChangelog": "细节打磨",
+  "version": 936,
+  "versionName": "260606-1837",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v936/memoair-v936-260606-1837-slim.apk",
+  "sizeBytes": 36784977,
+  "sha256": "8e5a942141283818f92f2ca3bd7d0dbaa2f759e600dec7942531e11f02c19676",
+  "changelog": "OTA下载弹窗 OLLIE 换全身带腿/靴新图（cv2 grabcut 前景分割+平滑白边），文案 emoji ⭐→✨；ExpandableSection 展开态加 BackHandler 拦截系统返回手势→先折叠（LIFO 嵌套先收里层），同步加到 expertise_row / feedback_row 两个自绘展开卡",
+  "userFacingChangelog": "可展开的卡片，展开后用返回手势会先收起卡片，不再直接退出页面",
   "recentReleases": [
-    {
-      "version": 878,
-      "versionName": "260603-2158",
-      "userFacingChangelog": "· 设置里展开某一项时，录音那几个选项也会跟着淡下去，焦点更清楚\n· 新版本升级提示换上了品牌绿",
-      "changelog": "v878：设置「录音」组顶部非section项(标题+记得AI眼镜/搭子+连续记录模式)包进 dimAsExpandableGroupMember 被动dim，展开别的顶层section时跟着淡到0.28，子section留在dim Column外避v820卡淡态；OTA升级弹窗 OtaInstallConfirmDialog 标题+「现在更新」按钮改 Q.Memory 品牌绿(按钮深字#1A2010)",
-      "publishedAtMs": 1780496505000
-    },
     {
       "version": 879,
       "versionName": "260603-2308",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "细节打磨",
       "changelog": "ota_ollie 重新抠图：纯金身体干净抠出 + PIL 高斯模糊阈值生成平滑白边（替换毛糙的 MaxFilter 方形膨胀）",
       "publishedAtMs": 1780741474000
+    },
+    {
+      "version": 936,
+      "versionName": "260606-1837",
+      "userFacingChangelog": "可展开的卡片，展开后用返回手势会先收起卡片，不再直接退出页面",
+      "changelog": "OTA下载弹窗 OLLIE 换全身带腿/靴新图（cv2 grabcut 前景分割+平滑白边），文案 emoji ⭐→✨；ExpandableSection 展开态加 BackHandler 拦截系统返回手势→先折叠（LIFO 嵌套先收里层），同步加到 expertise_row / feedback_row 两个自绘展开卡",
+      "publishedAtMs": 1780742715000
     }
   ],
-  "publishedAtMs": 1780741474000,
+  "publishedAtMs": 1780742715000,
   "minSupported": 0
 }
