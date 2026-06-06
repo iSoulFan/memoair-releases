@@ -1,19 +1,12 @@
 {
-  "version": 950,
-  "versionName": "260607-0045",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v950/memoair-v950-260607-0045-slim.apk",
-  "sizeBytes": 37874736,
-  "sha256": "54ba34e4235353ca76b25a57a81f0912f44f20fd5a52f99ced49ad89a272e570",
-  "changelog": "三修：①念念不忘金句换行重写 unforgettableVerseLines(贪心打包≤13全角宽,优先句末标点>逗号顿号>语义停顿词断,行尾去逗号,无标点长串才硬断)替掉逐标点split——治碎断+从字中间折行 ②OtaFlowOverlay一阶段花瓣盒230→186+标题对齐BottomCenter+spacer8→内容上下居中不靠下 ③任性图标重做:全部声明纯色背景@color/icbg_*(治ColorOS给暗色垫白底)+前景整图,#3-7用pure_fill纯色边缘延展把主体缩到0.78(治mask裁切+无方块),#1#2比例不动",
-  "userFacingChangelog": "「念念不忘」的金句换上了更有诗意的排版；桌面图标细节打磨",
+  "version": 951,
+  "versionName": "260607-0053",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v951/memoair-v951-260607-0053-slim.apk",
+  "sizeBytes": 37706800,
+  "sha256": "b4df6c53af7cf47bc1bcd1420d8a1362e9cf740b4f87777f36dfcc6bc7d73bde",
+  "changelog": "v951 重发(上次任务被kill未发成)：含图标微调(深点居中/团子居中/#3-7缩0.70/改名 OLLIE暖夜·AURY星夜·双人手办) + 念念不忘金句末行去掉结尾标点(unforgettableVerseLines 末行 trimEnd 句末标点)",
+  "userFacingChangelog": "桌面图标细节打磨；念念不忘金句排版微调",
   "recentReleases": [
-    {
-      "version": 894,
-      "versionName": "260604-1246",
-      "userFacingChangelog": "· 纪要里的脑图换成了横向树，更像真正的思维导图，点一下能全屏放大看 · 对比表格更容易出现了，也跟其它卡片统一了样式",
-      "changelog": "v894：脑图改横向节点树(MeetingDetailContent.kt 新增 MindTreeCard/MindTreeGraph/MindTreeFullscreen)——header 色条=tree.root 主题，Canvas 画主干+横向 bus+向下箭头(尖落每子卡顶边水平中点)，子卡横排循环三档 pastel，body 放不下横向滚动，整块点击→全屏 Dialog 双指缩放+拖动；表格也套上同款卡壳(📊+表标题 header)；meeting_minutes.txt 放宽 tables 触发门槛(补日常生活向例子+加重鼓励)",
-      "publishedAtMs": 1780548528000
-    },
     {
       "version": 895,
       "versionName": "260604-1311",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "「念念不忘」的金句换上了更有诗意的排版；桌面图标细节打磨",
       "changelog": "三修：①念念不忘金句换行重写 unforgettableVerseLines(贪心打包≤13全角宽,优先句末标点>逗号顿号>语义停顿词断,行尾去逗号,无标点长串才硬断)替掉逐标点split——治碎断+从字中间折行 ②OtaFlowOverlay一阶段花瓣盒230→186+标题对齐BottomCenter+spacer8→内容上下居中不靠下 ③任性图标重做:全部声明纯色背景@color/icbg_*(治ColorOS给暗色垫白底)+前景整图,#3-7用pure_fill纯色边缘延展把主体缩到0.78(治mask裁切+无方块),#1#2比例不动",
       "publishedAtMs": 1780764585000
+    },
+    {
+      "version": 951,
+      "versionName": "260607-0053",
+      "userFacingChangelog": "桌面图标细节打磨；念念不忘金句排版微调",
+      "changelog": "v951 重发(上次任务被kill未发成)：含图标微调(深点居中/团子居中/#3-7缩0.70/改名 OLLIE暖夜·AURY星夜·双人手办) + 念念不忘金句末行去掉结尾标点(unforgettableVerseLines 末行 trimEnd 句末标点)",
+      "publishedAtMs": 1780765697000
     }
   ],
-  "publishedAtMs": 1780764585000,
+  "publishedAtMs": 1780765697000,
   "minSupported": 0
 }
