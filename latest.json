@@ -1,19 +1,12 @@
 {
-  "version": 943,
-  "versionName": "260606-2109",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v943/memoair-v943-260606-2109-slim.apk",
+  "version": 944,
+  "versionName": "260606-2124",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v944/memoair-v944-260606-2124-slim.apk",
   "sizeBytes": 36830033,
-  "sha256": "70d7e235111e75b7cc9a2517d76d5a8506095a95ae23735c7ea98b215f95255a",
-  "changelog": "OtaFlowOverlay 一阶段去遮罩：scrim 起点 alpha 全设 0（一阶段纯花瓣浮在 App 上无蒙板），t 0→1 才把白/黑遮罩渐显进二阶段；一阶段文字全改反色 s1Text(浅=白/深=近黑#1C1814) 含 eyebrow/标题/正文/问询/现在更新按钮字，以后再说=s1Soft；删 eyebrow/body 旧色值",
+  "sha256": "b8498907fc381bd2ec3b29cbb09d4f8850cda9aa64c77df8aecaba80d945fd83",
+  "changelog": "OtaFlowOverlay 去 Dialog 默认黑 dim（SideEffect 取 DialogWindowProvider.window.setDimAmount(0f)），一阶段彻底无压暗只剩花瓣；二阶段遮罩从整屏近实改成中间一小团径向晕开往四边散透（center 0.86/mid0.42@0.42/0@0.85，删 edgeA）——白色更透、只中间一团",
   "userFacingChangelog": "细节打磨",
   "recentReleases": [
-    {
-      "version": 887,
-      "versionName": "260604-1102",
-      "userFacingChangelog": "· 纪要的脑图不再重叠糊成一团，议题卡配色更淡雅了\n· 对话里点「看上一个话题」不再跳到顶部，停在原地让你往上翻；右下角回到最新也修好了\n· 记录设备有声音时不再多此一举提示切换",
-      "changelog": "v887：① 纪要脑图分支重叠修复(MeetingDetailContent 分支容器 Box→Column，原层叠导致糊在一起) ② 议题卡 light pastel header 降饱和更淡雅(#F3F3FA/#EFF6F4/#F2F6EC/#F8F2EB + 文字压到≥4.5:1 on 灰底) ③ 对话「点这里看上一个话题」揭开后锚定原位不跳顶+露头~100px、用户自行上滑倒序看 ④ 右下角向下键改用 totalItemsCount-1 可靠回到最新一条 ⑤ 记录设备实时电平有信号(audioLevel≥0.03)时隐藏'建议切换' ⑥ 彻底删除 Limitless/GetNote 第三方录音源(删11文件+清~20文件引用，默认源回落手机麦)",
-      "publishedAtMs": 1780542273000
-    },
     {
       "version": 888,
       "versionName": "260604-1107",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "细节打磨",
       "changelog": "OtaFlowOverlay 一阶段去遮罩：scrim 起点 alpha 全设 0（一阶段纯花瓣浮在 App 上无蒙板），t 0→1 才把白/黑遮罩渐显进二阶段；一阶段文字全改反色 s1Text(浅=白/深=近黑#1C1814) 含 eyebrow/标题/正文/问询/现在更新按钮字，以后再说=s1Soft；删 eyebrow/body 旧色值",
       "publishedAtMs": 1780751505000
+    },
+    {
+      "version": 944,
+      "versionName": "260606-2124",
+      "userFacingChangelog": "细节打磨",
+      "changelog": "OtaFlowOverlay 去 Dialog 默认黑 dim（SideEffect 取 DialogWindowProvider.window.setDimAmount(0f)），一阶段彻底无压暗只剩花瓣；二阶段遮罩从整屏近实改成中间一小团径向晕开往四边散透（center 0.86/mid0.42@0.42/0@0.85，删 edgeA）——白色更透、只中间一团",
+      "publishedAtMs": 1780752758000
     }
   ],
-  "publishedAtMs": 1780751505000,
+  "publishedAtMs": 1780752758000,
   "minSupported": 0
 }
