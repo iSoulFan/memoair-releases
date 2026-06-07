@@ -1,19 +1,12 @@
 {
-  "version": 961,
-  "versionName": "260607-1344",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v961/memoair-v961-260607-1344-slim.apk",
-  "sizeBytes": 37731376,
-  "sha256": "98993c6b87f8359dd2750a236f8f6c87582712a80f1a8c8f51e07bc633d95d50",
-  "changelog": "①开场速选搭子 chip 与正文去掉 A/B 字母编号，直接显示 AURY/OLLIE（matchOpeningPick 仍兼容名字匹配）②待办长按菜单 + 纪要长按菜单各加「多选」入口：进多选模式并选中当前条（TodoRow 加 onEnterMultiSelect 回调；meetingMenu 直接置 meetingMultiSelect=true+选中）",
-  "userFacingChangelog": "选搭子直接点名字就行（不用再记 A/B）；待办和纪要长按菜单里新增了「多选」，长按任意一条就能进入批量选择。",
+  "version": 962,
+  "versionName": "260607-1756",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v962/memoair-v962-260607-1756-slim.apk",
+  "sizeBytes": 37735472,
+  "sha256": "aa47c2d5edaec243499823ed9830c8f1588ec9343d3657967d1841abfda4ef17",
+  "changelog": "v962\n- 声纹关怀提醒：新增 VoiceprintCareWorker（DailyAlarmHub 20:30 daily，仅声纹过滤开启且已注册基线时跑）。按 ConversationGrouper 对话维度统计声纹拒绝率：最近 5 个录音日中 ≥3 天出现「单次对话 ≥60% 说话段判 SpeakerNotMe + Primary 产出字数近空 + 被剔段数达下限」即触发，往对话插一条 Proactive 关怀消息建议重采声纹。14 天冷却 + 重采主声纹清零坏日历史。新增 VoiceprintCarePrefs(SharedPrefs 滚动窗口 WINDOW=5)。无 DB migration、纯复用 tier/speakerSim 现有字段。文案不含「录音」字样。\n- 时光卡片刷新修复：新增 repo.cardsHot 进程级常驻热流(observeAll().stateIn(repoScope, Eagerly))，TimelineScreen 改读它替代每次新建的 observeCards() 订阅。修复后台生成新卡时时光页需先去对话页跳转一圈才显示(根因：页被 HorizontalPager 回收后订阅断开)。平板 WideLayout 一并受益。",
+  "userFacingChangelog": "· 时光页修好了：后台新生成的卡片，现在一进页面就能看到，不用再去对话里跳一下了。\n· 声纹更贴心了：要是发现你说的话总没被认出来是你，我会挑个合适的时候，轻轻提醒你重新采一段声纹。",
   "recentReleases": [
-    {
-      "version": 905,
-      "versionName": "260604-1758",
-      "userFacingChangelog": "· 手动生成的纪要 NEW 标记，点开卡片就会消失",
-      "changelog": "v905：手动生成纪要的 NEW 角标改为点卡片即清——卡片 onClick else 分支加 clearNewBadge(ctx,m.id)+flagsBump；角标本身去掉 clickable 改纯展示(点角标冒泡到卡片点击)",
-      "publishedAtMs": 1780567239000
-    },
     {
       "version": 906,
       "versionName": "260604-1813",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "选搭子直接点名字就行（不用再记 A/B）；待办和纪要长按菜单里新增了「多选」，长按任意一条就能进入批量选择。",
       "changelog": "①开场速选搭子 chip 与正文去掉 A/B 字母编号，直接显示 AURY/OLLIE（matchOpeningPick 仍兼容名字匹配）②待办长按菜单 + 纪要长按菜单各加「多选」入口：进多选模式并选中当前条（TodoRow 加 onEnterMultiSelect 回调；meetingMenu 直接置 meetingMultiSelect=true+选中）",
       "publishedAtMs": 1780811219000
+    },
+    {
+      "version": 962,
+      "versionName": "260607-1756",
+      "userFacingChangelog": "· 时光页修好了：后台新生成的卡片，现在一进页面就能看到，不用再去对话里跳一下了。\n· 声纹更贴心了：要是发现你说的话总没被认出来是你，我会挑个合适的时候，轻轻提醒你重新采一段声纹。",
+      "changelog": "v962\n- 声纹关怀提醒：新增 VoiceprintCareWorker（DailyAlarmHub 20:30 daily，仅声纹过滤开启且已注册基线时跑）。按 ConversationGrouper 对话维度统计声纹拒绝率：最近 5 个录音日中 ≥3 天出现「单次对话 ≥60% 说话段判 SpeakerNotMe + Primary 产出字数近空 + 被剔段数达下限」即触发，往对话插一条 Proactive 关怀消息建议重采声纹。14 天冷却 + 重采主声纹清零坏日历史。新增 VoiceprintCarePrefs(SharedPrefs 滚动窗口 WINDOW=5)。无 DB migration、纯复用 tier/speakerSim 现有字段。文案不含「录音」字样。\n- 时光卡片刷新修复：新增 repo.cardsHot 进程级常驻热流(observeAll().stateIn(repoScope, Eagerly))，TimelineScreen 改读它替代每次新建的 observeCards() 订阅。修复后台生成新卡时时光页需先去对话页跳转一圈才显示(根因：页被 HorizontalPager 回收后订阅断开)。平板 WideLayout 一并受益。",
+      "publishedAtMs": 1780846692000
     }
   ],
-  "publishedAtMs": 1780811219000,
+  "publishedAtMs": 1780846692000,
   "minSupported": 0
 }
