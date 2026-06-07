@@ -1,19 +1,12 @@
 {
-  "version": 959,
-  "versionName": "260607-1157",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v959/memoair-v959-260607-1157-slim.apk",
+  "version": 960,
+  "versionName": "260607-1221",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v960/memoair-v960-260607-1221-slim.apk",
   "sizeBytes": 37731376,
-  "sha256": "6fa519bd62f5c8f43e8a71688312d05c334c4999536f0d148a7ca44d0fdbf030",
-  "changelog": "对话/纪要分享图：SimpleMarkdown 加 fitTablesToWidth(默认 false 不影响 App 内横滚)；分享图传 true → 表格不再 horizontalScroll(静态位图滚动条无效、超宽列被裁)，改列等权 weight(1f) 撑满父宽 + 文字换行，表格变高但完整显示。Chat + Meeting 两个 share renderer 都接。",
-  "userFacingChangelog": "分享对话/纪要时，带表格的内容不会再被裁掉右边了，整张表都能完整看到。",
+  "sha256": "7b82d20283ea49a2e0b717b11f521191ec5c52e391c2a634d31fa094d37dcbd3",
+  "changelog": "分享图表格 fit 模式增按列数自适应缩小字号：fitScale(≤3列0.90/4列0.82/5列0.74/≥6列0.66)缩字号+行高(×1.34)、收紧内边距(≥5列 5dp 否则 8dp/纵 6dp)，先尽量不换行实在窄才换。App 内(false)字号边距零变。",
+  "userFacingChangelog": "分享带表格的内容时，列多也更清爽了——会自动按列数把字号缩到合适，尽量不挤成一堆换行。",
   "recentReleases": [
-    {
-      "version": 903,
-      "versionName": "260604-1727",
-      "userFacingChangelog": "· 「补一段纪要」单次上限调成 5 小时",
-      "changelog": "v903：补一段纪要单次上限 24h→5h（覆盖单场会议/长谈，省 token + 质量聚焦）；FAB 校验分支阈值改 5L*3600*1000，提示文案同步",
-      "publishedAtMs": 1780565409000
-    },
     {
       "version": 904,
       "versionName": "260604-1750",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "分享对话/纪要时，带表格的内容不会再被裁掉右边了，整张表都能完整看到。",
       "changelog": "对话/纪要分享图：SimpleMarkdown 加 fitTablesToWidth(默认 false 不影响 App 内横滚)；分享图传 true → 表格不再 horizontalScroll(静态位图滚动条无效、超宽列被裁)，改列等权 weight(1f) 撑满父宽 + 文字换行，表格变高但完整显示。Chat + Meeting 两个 share renderer 都接。",
       "publishedAtMs": 1780804809000
+    },
+    {
+      "version": 960,
+      "versionName": "260607-1221",
+      "userFacingChangelog": "分享带表格的内容时，列多也更清爽了——会自动按列数把字号缩到合适，尽量不挤成一堆换行。",
+      "changelog": "分享图表格 fit 模式增按列数自适应缩小字号：fitScale(≤3列0.90/4列0.82/5列0.74/≥6列0.66)缩字号+行高(×1.34)、收紧内边距(≥5列 5dp 否则 8dp/纵 6dp)，先尽量不换行实在窄才换。App 内(false)字号边距零变。",
+      "publishedAtMs": 1780806330000
     }
   ],
-  "publishedAtMs": 1780804809000,
+  "publishedAtMs": 1780806330000,
   "minSupported": 0
 }
