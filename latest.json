@@ -1,19 +1,12 @@
 {
-  "version": 958,
-  "versionName": "260607-0927",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v958/memoair-v958-260607-0927-slim.apk",
+  "version": 959,
+  "versionName": "260607-1157",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v959/memoair-v959-260607-1157-slim.apk",
   "sizeBytes": 37731376,
-  "sha256": "a2ac9a52766496602f8ce2dd50abb3dfffa9e9c2554188810b23017445a3204e",
-  "changelog": "QA真实BUG清单批修(v958)：①忙碌期连发不再被send()静默丢弃(去掉||sending闸,ChatRunner Mutex已FIFO串行) ②流式abort/切后台保留已收到残文(lastStreamedVisible兜底,不整段作废) ③§8.9存档播报红线恢复:SoftPushOrchestrator.deliver加storageAckRe硬兜底+create_memory静默+memory/identity ack去存档词 ④语音识别语种补ja/ko/yue入口 ⑤AI名防御性清洗(去控制/零宽符+48字上限)+prompt注入护栏 ⑥ExpandableSection展开态rememberSaveable跨tab存活",
-  "userFacingChangelog": "语音识别新增日语、韩语、粤语；AI 回复时也能接着发消息了，会按顺序一条条处理。",
+  "sha256": "6fa519bd62f5c8f43e8a71688312d05c334c4999536f0d148a7ca44d0fdbf030",
+  "changelog": "对话/纪要分享图：SimpleMarkdown 加 fitTablesToWidth(默认 false 不影响 App 内横滚)；分享图传 true → 表格不再 horizontalScroll(静态位图滚动条无效、超宽列被裁)，改列等权 weight(1f) 撑满父宽 + 文字换行，表格变高但完整显示。Chat + Meeting 两个 share renderer 都接。",
+  "userFacingChangelog": "分享对话/纪要时，带表格的内容不会再被裁掉右边了，整张表都能完整看到。",
   "recentReleases": [
-    {
-      "version": 902,
-      "versionName": "260604-1720",
-      "userFacingChangelog": "· 「补一段纪要」单次最多选 24 小时，太长会整理不全",
-      "changelog": "v902：补一段纪要加单次时间段上限 24 小时——FAB 校验加 endMs-genStartMs > 24h 分支提示「一次最多选 24 小时」；理由是转写超 MAX_PROMPT_CHARS(~60K) 会从尾部截断，长窗口只剩最近部分、纪要不完整",
-      "publishedAtMs": 1780564920000
-    },
     {
       "version": 903,
       "versionName": "260604-1727",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "语音识别新增日语、韩语、粤语；AI 回复时也能接着发消息了，会按顺序一条条处理。",
       "changelog": "QA真实BUG清单批修(v958)：①忙碌期连发不再被send()静默丢弃(去掉||sending闸,ChatRunner Mutex已FIFO串行) ②流式abort/切后台保留已收到残文(lastStreamedVisible兜底,不整段作废) ③§8.9存档播报红线恢复:SoftPushOrchestrator.deliver加storageAckRe硬兜底+create_memory静默+memory/identity ack去存档词 ④语音识别语种补ja/ko/yue入口 ⑤AI名防御性清洗(去控制/零宽符+48字上限)+prompt注入护栏 ⑥ExpandableSection展开态rememberSaveable跨tab存活",
       "publishedAtMs": 1780795896000
+    },
+    {
+      "version": 959,
+      "versionName": "260607-1157",
+      "userFacingChangelog": "分享对话/纪要时，带表格的内容不会再被裁掉右边了，整张表都能完整看到。",
+      "changelog": "对话/纪要分享图：SimpleMarkdown 加 fitTablesToWidth(默认 false 不影响 App 内横滚)；分享图传 true → 表格不再 horizontalScroll(静态位图滚动条无效、超宽列被裁)，改列等权 weight(1f) 撑满父宽 + 文字换行，表格变高但完整显示。Chat + Meeting 两个 share renderer 都接。",
+      "publishedAtMs": 1780804809000
     }
   ],
-  "publishedAtMs": 1780795896000,
+  "publishedAtMs": 1780804809000,
   "minSupported": 0
 }
