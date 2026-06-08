@@ -1,19 +1,12 @@
 {
-  "version": 965,
-  "versionName": "260608-1451",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v965/memoair-v965-260608-1451-slim.apk",
+  "version": 966,
+  "versionName": "260608-1908",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v966/memoair-v966-260608-1908-slim.apk",
   "sizeBytes": 37735472,
-  "sha256": "0fa9b8d2dd0dc6b1e335e6a85fb55d4d1beda009ab5032b3dfea43a6ae7e9ded",
-  "changelog": "v965\n- 修「发现新版本」更新浮层(OtaFlowOverlay)白底遮罩左右盖不全：白底是 radialGradient(baseR=170dp)，原先只 scaleY=2.0(竖向椭圆)，横向半径仍 170dp，盖不住 290dp 文字簇两侧 → 左右边缘透出背景时光卡文字、跟版本 changelog 叠字看不清。改为 graphicsLayer 同时 scaleX=1.6f，把白底实底横向铺过整个内容簇并越过屏幕边缘。纯 UI、无逻辑改动。",
-  "userFacingChangelog": "· 修了「发现新版本」更新提示的一个显示问题：之前白色背景两侧没盖严，后面卡片的字会透上来跟更新说明叠在一起、看不清，现在铺满了。",
+  "sha256": "c6feac5cf31237e09c1c9c10ba9d648633b2e1d6369611065f7c8f9e3a091a83",
+  "changelog": "v966\n- 修抽取摘要通知(ExtractDoneNotifier)点击落点错：v964 原规则有卡片优先跳时光，但一次抽取常同时产卡片+待办+纪要 → 被丢回时光，用户以为没跳转(报告：6:30 收到「新增待办和纪要」点了仍停在时光页)。\n- 倒过来优先级：todos>0 → 行动·待办；meetings>0 → 行动·纪要；仅 cards>0 → 时光最新；纯愿望/无内容 → 默认。\n- 新增 MeetingNavBus.OPEN_TAB(-1)+openTab() 哨兵(同 v964 TodoNavBus)，MainActivity consumeTodoIntent 加 open_meetings → MeetingNavBus.openTab()，SuggestionsScreen 外层纪要 effect 哨兵时切完即 consume(内层 id<=0 已忽略)。\n- 卡片 ProactivePush / widget 仍直达时光，未改。",
+  "userFacingChangelog": "· 又修了通知点击的落点：之前「新增待办和纪要」这类通知，如果那次刚好也生成了卡片，点了会被带去时光页、像是没跳。现在只要通知里有待办或纪要，就一律直达「行动」板块了。",
   "recentReleases": [
-    {
-      "version": 909,
-      "versionName": "260604-1909",
-      "userFacingChangelog": "· 删纪要现在有「百叶窗翻起」动画 + 底部几秒内可「撤销」，删错了能立刻翻回来",
-      "changelog": "v909：纪要可撤销删除——删纪要不立即 deleteMeeting，先把 id 进 removingMeetingIds 驱动 AnimatedVisibility(shrinkVertically Top+fadeOut)+graphicsLayer 绕顶边 rotationX 翻起，底部 pill 倒计时撤销条(4s)，协程 delay 后才真删；撤销 cancel job + removeAll 复原(不 re-insert)；单条+批量都走 beginUndoableDelete；多选栏出现时 !meetingMultiSelect 避让。先只做纪要",
-      "publishedAtMs": 1780571516000
-    },
     {
       "version": 910,
       "versionName": "260604-1924",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 修了「发现新版本」更新提示的一个显示问题：之前白色背景两侧没盖严，后面卡片的字会透上来跟更新说明叠在一起、看不清，现在铺满了。",
       "changelog": "v965\n- 修「发现新版本」更新浮层(OtaFlowOverlay)白底遮罩左右盖不全：白底是 radialGradient(baseR=170dp)，原先只 scaleY=2.0(竖向椭圆)，横向半径仍 170dp，盖不住 290dp 文字簇两侧 → 左右边缘透出背景时光卡文字、跟版本 changelog 叠字看不清。改为 graphicsLayer 同时 scaleX=1.6f，把白底实底横向铺过整个内容簇并越过屏幕边缘。纯 UI、无逻辑改动。",
       "publishedAtMs": 1780901597000
+    },
+    {
+      "version": 966,
+      "versionName": "260608-1908",
+      "userFacingChangelog": "· 又修了通知点击的落点：之前「新增待办和纪要」这类通知，如果那次刚好也生成了卡片，点了会被带去时光页、像是没跳。现在只要通知里有待办或纪要，就一律直达「行动」板块了。",
+      "changelog": "v966\n- 修抽取摘要通知(ExtractDoneNotifier)点击落点错：v964 原规则有卡片优先跳时光，但一次抽取常同时产卡片+待办+纪要 → 被丢回时光，用户以为没跳转(报告：6:30 收到「新增待办和纪要」点了仍停在时光页)。\n- 倒过来优先级：todos>0 → 行动·待办；meetings>0 → 行动·纪要；仅 cards>0 → 时光最新；纯愿望/无内容 → 默认。\n- 新增 MeetingNavBus.OPEN_TAB(-1)+openTab() 哨兵(同 v964 TodoNavBus)，MainActivity consumeTodoIntent 加 open_meetings → MeetingNavBus.openTab()，SuggestionsScreen 外层纪要 effect 哨兵时切完即 consume(内层 id<=0 已忽略)。\n- 卡片 ProactivePush / widget 仍直达时光，未改。",
+      "publishedAtMs": 1780917345000
     }
   ],
-  "publishedAtMs": 1780901597000,
+  "publishedAtMs": 1780917345000,
   "minSupported": 0
 }
