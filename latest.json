@@ -1,19 +1,12 @@
 {
-  "version": 962,
-  "versionName": "260607-1756",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v962/memoair-v962-260607-1756-slim.apk",
+  "version": 963,
+  "versionName": "260608-0905",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v963/memoair-v963-260608-0905-slim.apk",
   "sizeBytes": 37735472,
-  "sha256": "aa47c2d5edaec243499823ed9830c8f1588ec9343d3657967d1841abfda4ef17",
-  "changelog": "v962\n- 声纹关怀提醒：新增 VoiceprintCareWorker（DailyAlarmHub 20:30 daily，仅声纹过滤开启且已注册基线时跑）。按 ConversationGrouper 对话维度统计声纹拒绝率：最近 5 个录音日中 ≥3 天出现「单次对话 ≥60% 说话段判 SpeakerNotMe + Primary 产出字数近空 + 被剔段数达下限」即触发，往对话插一条 Proactive 关怀消息建议重采声纹。14 天冷却 + 重采主声纹清零坏日历史。新增 VoiceprintCarePrefs(SharedPrefs 滚动窗口 WINDOW=5)。无 DB migration、纯复用 tier/speakerSim 现有字段。文案不含「录音」字样。\n- 时光卡片刷新修复：新增 repo.cardsHot 进程级常驻热流(observeAll().stateIn(repoScope, Eagerly))，TimelineScreen 改读它替代每次新建的 observeCards() 订阅。修复后台生成新卡时时光页需先去对话页跳转一圈才显示(根因：页被 HorizontalPager 回收后订阅断开)。平板 WideLayout 一并受益。",
-  "userFacingChangelog": "· 时光页修好了：后台新生成的卡片，现在一进页面就能看到，不用再去对话里跳一下了。\n· 声纹更贴心了：要是发现你说的话总没被认出来是你，我会挑个合适的时候，轻轻提醒你重新采一段声纹。",
+  "sha256": "069dc924940d325e6dbd0640fa256391940909abc6cb63164d7bfe9d79e9bec7",
+  "changelog": "v963\n- 修复信件/时光日报分段小标题字体不一致：SimpleMarkdown 的 H1/H2/H3 原先直接把 block.inline 丢给 SerifCN(Noto Serif SC 的 GB2312 子集，无拉丁字形)样式，含拉丁/弯引号的标题(如「今日高光：亲子编程的MVP时刻」)整段触发缺字回退到系统 sans，跟纯汉字标题(衬线)不一致，导出图里尤其明显。改为标题也走 cnSerifAware 中英拆段(CJK→SerifCN 直立衬线 / 拉丁→Newsreader 衬线)，与正文混排处理一致。影响全 App 所有用 SimpleMarkdown 渲染的标题(日报/对话气泡/纪要等)，统一衬线。导出与屏幕同一渲染路径(CardShareImageRenderer 复用 DailyReportCard)，一并修复。",
+  "userFacingChangelog": "· 修了个小瑕疵：信件、那天的事里的小标题，遇到带英文字母的（比如\"MVP\"）会变成非衬线、跟其它标题不一致，现在统一回衬线体了，导出的图也跟着对齐。",
   "recentReleases": [
-    {
-      "version": 906,
-      "versionName": "260604-1813",
-      "userFacingChangelog": "· 纪要不再把一件事（比如整场装修讨论）按子项切成一堆，连续同一摊事会并成一条 · 长按纪要卡可以「改标题」了",
-      "changelog": "v906：①meeting_minutes.txt 分段原则加强——「同一摊事往大了认」(同一大项目/主题下换房间/区域/模块/子方案仍是同一场)+「时间紧挨着=强信号默认合一条」+装修反过度拆分例(10:48-12:26 各区域→一条+议题卡，绝不切五六条)；修装修被按房间切碎 ②纪要长按菜单加「改标题」→重命名 Dialog(OutlinedTextField，只改 title 留 markdown，走 repo.updateMeeting)",
-      "publishedAtMs": 1780568154000
-    },
     {
       "version": 907,
       "versionName": "260604-1828",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 时光页修好了：后台新生成的卡片，现在一进页面就能看到，不用再去对话里跳一下了。\n· 声纹更贴心了：要是发现你说的话总没被认出来是你，我会挑个合适的时候，轻轻提醒你重新采一段声纹。",
       "changelog": "v962\n- 声纹关怀提醒：新增 VoiceprintCareWorker（DailyAlarmHub 20:30 daily，仅声纹过滤开启且已注册基线时跑）。按 ConversationGrouper 对话维度统计声纹拒绝率：最近 5 个录音日中 ≥3 天出现「单次对话 ≥60% 说话段判 SpeakerNotMe + Primary 产出字数近空 + 被剔段数达下限」即触发，往对话插一条 Proactive 关怀消息建议重采声纹。14 天冷却 + 重采主声纹清零坏日历史。新增 VoiceprintCarePrefs(SharedPrefs 滚动窗口 WINDOW=5)。无 DB migration、纯复用 tier/speakerSim 现有字段。文案不含「录音」字样。\n- 时光卡片刷新修复：新增 repo.cardsHot 进程级常驻热流(observeAll().stateIn(repoScope, Eagerly))，TimelineScreen 改读它替代每次新建的 observeCards() 订阅。修复后台生成新卡时时光页需先去对话页跳转一圈才显示(根因：页被 HorizontalPager 回收后订阅断开)。平板 WideLayout 一并受益。",
       "publishedAtMs": 1780846692000
+    },
+    {
+      "version": 963,
+      "versionName": "260608-0905",
+      "userFacingChangelog": "· 修了个小瑕疵：信件、那天的事里的小标题，遇到带英文字母的（比如\"MVP\"）会变成非衬线、跟其它标题不一致，现在统一回衬线体了，导出的图也跟着对齐。",
+      "changelog": "v963\n- 修复信件/时光日报分段小标题字体不一致：SimpleMarkdown 的 H1/H2/H3 原先直接把 block.inline 丢给 SerifCN(Noto Serif SC 的 GB2312 子集，无拉丁字形)样式，含拉丁/弯引号的标题(如「今日高光：亲子编程的MVP时刻」)整段触发缺字回退到系统 sans，跟纯汉字标题(衬线)不一致，导出图里尤其明显。改为标题也走 cnSerifAware 中英拆段(CJK→SerifCN 直立衬线 / 拉丁→Newsreader 衬线)，与正文混排处理一致。影响全 App 所有用 SimpleMarkdown 渲染的标题(日报/对话气泡/纪要等)，统一衬线。导出与屏幕同一渲染路径(CardShareImageRenderer 复用 DailyReportCard)，一并修复。",
+      "publishedAtMs": 1780881084000
     }
   ],
-  "publishedAtMs": 1780846692000,
+  "publishedAtMs": 1780881084000,
   "minSupported": 0
 }
