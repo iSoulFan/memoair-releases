@@ -1,19 +1,12 @@
 {
-  "version": 963,
-  "versionName": "260608-0905",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v963/memoair-v963-260608-0905-slim.apk",
+  "version": 964,
+  "versionName": "260608-1421",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v964/memoair-v964-260608-1421-slim.apk",
   "sizeBytes": 37735472,
-  "sha256": "069dc924940d325e6dbd0640fa256391940909abc6cb63164d7bfe9d79e9bec7",
-  "changelog": "v963\n- 修复信件/时光日报分段小标题字体不一致：SimpleMarkdown 的 H1/H2/H3 原先直接把 block.inline 丢给 SerifCN(Noto Serif SC 的 GB2312 子集，无拉丁字形)样式，含拉丁/弯引号的标题(如「今日高光：亲子编程的MVP时刻」)整段触发缺字回退到系统 sans，跟纯汉字标题(衬线)不一致，导出图里尤其明显。改为标题也走 cnSerifAware 中英拆段(CJK→SerifCN 直立衬线 / 拉丁→Newsreader 衬线)，与正文混排处理一致。影响全 App 所有用 SimpleMarkdown 渲染的标题(日报/对话气泡/纪要等)，统一衬线。导出与屏幕同一渲染路径(CardShareImageRenderer 复用 DailyReportCard)，一并修复。",
-  "userFacingChangelog": "· 修了个小瑕疵：信件、那天的事里的小标题，遇到带英文字母的（比如\"MVP\"）会变成非衬线、跟其它标题不一致，现在统一回衬线体了，导出的图也跟着对齐。",
+  "sha256": "02fea4f995482a9c5c44ce0622d94f5f391f2d545765d3554b615e8e19c2afc8",
+  "changelog": "v964\n- 通知/小组件点击直达对应页面。\n  · 待办到期提醒(TodoReminderAlarm)原带 from_todo_reminder+todo_id，但 MainActivity 从未消费 → 点进去停在默认对话页。新增 consumeTodoIntent(onCreate+onNewIntent)：todo_id>0 → TodoNavBus.jumpTo(切「行动」+「待办」子 tab+滚到那条)；无具体 id → TodoNavBus.openTab() 只切待办 tab。\n  · ExtractDoneNotifier「新增 N 条」摘要通知原 postSimple 无 deep link → 默认页。改为按内容深链：有卡片→时光最新(card_id=LATEST)；否则只有待办→open_todos→待办 tab。\n  · 新增 TodoNavBus.OPEN_TAB(-1L) 哨兵 + openTab()；SuggestionsScreen 外层切 tab effect 在哨兵时切完即 consume(否则 pending 滞留 -1，下次 openTab 同值不 emit 切不动)；TodosTab 内层 id<=0 本就忽略不滚。\n  · 卡片推送(ProactivePush，card_id)与 widget 点击本就经 CardNavBus 直达时光，未改动。\n  · 所有 nav bus 走 process-scope StateFlow，冷启动从通知进也不丢。",
+  "userFacingChangelog": "· 通知和桌面小组件点进来更聪明了：推的是待办，就直接打开「行动 → 待办」；推的是时光卡片，就直接到「时光」最新那条，不用再自己翻了。",
   "recentReleases": [
-    {
-      "version": 907,
-      "versionName": "260604-1828",
-      "userFacingChangelog": "· 「补一段纪要」用完的提示挪到按钮附近了 · 管理员账号不限制次数",
-      "changelog": "v907：①补一段纪要配额提示从顶部 toast 改成 FAB 上方就近的小气泡(fabHint，align BottomEnd + bottom=74dp + 2.2s 自动消)②管理员(PasscodeAuth.isAdmin)不限次数——FAB onClick 与 MeetingExtractor.forceExtractWindow 都对 admin 跳过 forceRemainingToday 检查，admin 也不计数(不占配额)",
-      "publishedAtMs": 1780569029000
-    },
     {
       "version": 908,
       "versionName": "260604-1836",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 修了个小瑕疵：信件、那天的事里的小标题，遇到带英文字母的（比如\"MVP\"）会变成非衬线、跟其它标题不一致，现在统一回衬线体了，导出的图也跟着对齐。",
       "changelog": "v963\n- 修复信件/时光日报分段小标题字体不一致：SimpleMarkdown 的 H1/H2/H3 原先直接把 block.inline 丢给 SerifCN(Noto Serif SC 的 GB2312 子集，无拉丁字形)样式，含拉丁/弯引号的标题(如「今日高光：亲子编程的MVP时刻」)整段触发缺字回退到系统 sans，跟纯汉字标题(衬线)不一致，导出图里尤其明显。改为标题也走 cnSerifAware 中英拆段(CJK→SerifCN 直立衬线 / 拉丁→Newsreader 衬线)，与正文混排处理一致。影响全 App 所有用 SimpleMarkdown 渲染的标题(日报/对话气泡/纪要等)，统一衬线。导出与屏幕同一渲染路径(CardShareImageRenderer 复用 DailyReportCard)，一并修复。",
       "publishedAtMs": 1780881084000
+    },
+    {
+      "version": 964,
+      "versionName": "260608-1421",
+      "userFacingChangelog": "· 通知和桌面小组件点进来更聪明了：推的是待办，就直接打开「行动 → 待办」；推的是时光卡片，就直接到「时光」最新那条，不用再自己翻了。",
+      "changelog": "v964\n- 通知/小组件点击直达对应页面。\n  · 待办到期提醒(TodoReminderAlarm)原带 from_todo_reminder+todo_id，但 MainActivity 从未消费 → 点进去停在默认对话页。新增 consumeTodoIntent(onCreate+onNewIntent)：todo_id>0 → TodoNavBus.jumpTo(切「行动」+「待办」子 tab+滚到那条)；无具体 id → TodoNavBus.openTab() 只切待办 tab。\n  · ExtractDoneNotifier「新增 N 条」摘要通知原 postSimple 无 deep link → 默认页。改为按内容深链：有卡片→时光最新(card_id=LATEST)；否则只有待办→open_todos→待办 tab。\n  · 新增 TodoNavBus.OPEN_TAB(-1L) 哨兵 + openTab()；SuggestionsScreen 外层切 tab effect 在哨兵时切完即 consume(否则 pending 滞留 -1，下次 openTab 同值不 emit 切不动)；TodosTab 内层 id<=0 本就忽略不滚。\n  · 卡片推送(ProactivePush，card_id)与 widget 点击本就经 CardNavBus 直达时光，未改动。\n  · 所有 nav bus 走 process-scope StateFlow，冷启动从通知进也不丢。",
+      "publishedAtMs": 1780899884000
     }
   ],
-  "publishedAtMs": 1780881084000,
+  "publishedAtMs": 1780899884000,
   "minSupported": 0
 }
