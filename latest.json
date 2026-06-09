@@ -1,19 +1,12 @@
 {
-  "version": 983,
-  "versionName": "260609-2031",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v983/memoair-v983-260609-2031-slim.apk",
+  "version": 984,
+  "versionName": "260609-2043",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v984/memoair-v984-260609-2043-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "1838742e1809bf6ac33f01d9d640588657f70ecabeb357337a23fa486525b727",
-  "changelog": "energyGlass 重写=1:1 还原图3融球光效：平滑分层径向(白热核下中央+右上 lime 晕+左上冷青暗+暗底)+角向 sweep 细描边+背后发光投影；删硬光束/横条；浅色版干净无暗顶。明暗自适应。",
-  "userFacingChangelog": "「按住说话」按钮换成更还原的融球光效（黑夜/正常各一套）。",
+  "sha256": "5ca41ec5b1a4c3c26e4122b37b3a390440e1213887bd7ebc3dc8412c5343dc5b",
+  "changelog": "energyGlass 修形状/比例：每层光改成按 CSS 百分比的椭圆(scale 压扁正圆，纵半径绑高度)，宽扁按钮上不再被洗亮、还原设计稿的形状比例。",
+  "userFacingChangelog": "「按住说话」按钮光效形状/比例修正，跟设计稿对齐。",
   "recentReleases": [
-    {
-      "version": 933,
-      "versionName": "260606-1747",
-      "userFacingChangelog": "细节打磨。",
-      "changelog": "[调试预览]OTA 下载弹窗按 owner 反馈调整：中间星星 emoji 换成 OLLIE 抠图(ota_ollie.png，flood-fill 去浅蓝底)左右摇头晃脑(rotationZ ±9° infiniteRepeatable reverse 820ms, transformOrigin 0.5/0.88)，垫底仍是青绿+黄绿呼吸花瓣(EmojiBadge emoji='' 只出花瓣)；文案改回旧弹窗原文『记得 App 马上会变得更舒服 🐱』+『X.X / Y MB · NN%』(暖琥珀)+『取消下载』。仍是调试假弹窗、未接真实下载流程。",
-      "publishedAtMs": 1780739552000
-    },
     {
       "version": 934,
       "versionName": "260606-1805",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "「按住说话」按钮换成更还原的融球光效（黑夜/正常各一套）。",
       "changelog": "energyGlass 重写=1:1 还原图3融球光效：平滑分层径向(白热核下中央+右上 lime 晕+左上冷青暗+暗底)+角向 sweep 细描边+背后发光投影；删硬光束/横条；浅色版干净无暗顶。明暗自适应。",
       "publishedAtMs": 1781008509000
+    },
+    {
+      "version": 984,
+      "versionName": "260609-2043",
+      "userFacingChangelog": "「按住说话」按钮光效形状/比例修正，跟设计稿对齐。",
+      "changelog": "energyGlass 修形状/比例：每层光改成按 CSS 百分比的椭圆(scale 压扁正圆，纵半径绑高度)，宽扁按钮上不再被洗亮、还原设计稿的形状比例。",
+      "publishedAtMs": 1781009166000
     }
   ],
-  "publishedAtMs": 1781008509000,
+  "publishedAtMs": 1781009166000,
   "minSupported": 0
 }
