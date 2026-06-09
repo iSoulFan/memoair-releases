@@ -1,20 +1,13 @@
 {
-  "version": 999,
-  "versionName": "260610-0212",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v999-260610-0212-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v999/memoair-v999-260610-0212-slim.apk",
+  "version": 1000,
+  "versionName": "260610-0222",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1000-260610-0222-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1000/memoair-v1000-260610-0222-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "35fa0e4bee91b131f6af2822735dbc374c736fddbe01c83b9deccdc214d97a82",
-  "changelog": "v999: OtaHttpClient 强制 HTTP/1.1——云盾在无 SNI 链路伪 ALPN h2 不回 SETTINGS 帧，OkHttp 报 Required SETTINGS preface not received",
-  "userFacingChangelog": "修好了更新下载卡住没速度的问题",
+  "sha256": "3c74968df218435845e680c81de42ac2e62c34120f74e85f5b9f12b19905316c",
+  "changelog": "v1000: 光罩 DstIn 圆心从 (w/2,1.30h) 移到笑脸中心(cyFace=h-376dp)，dR=0.20h+0.08level+0.42mic；色流 origin 改脸周、travel/横向扩散吃 mic",
+  "userFacingChangelog": "光晕现在以笑脸为中心——小声时贴着脸轻轻发光，大声时向四周扩散",
   "recentReleases": [
-    {
-      "version": 949,
-      "versionName": "260607-0011",
-      "userFacingChangelog": "外观里新增「任性图标」🎨——可以把桌面 App 图标换成 OLLIE、AURY、夜空等好几款，点一下就换",
-      "changelog": "任性图标(可切换桌面图标)：MAIN/LAUNCHER 从 MainActivity 挪到 7 个 activity-alias(IconWhite默认enabled其余disabled)，AppIconStore.apply 用 PackageManager.setComponentEnabledSetting(DONT_KILL_APP) 启用选中禁用其余(恰好一个enabled不丢图标)；7 张自适应图标(mipmap-anydpi-v26 bg=满铺图+透明前景,minSdk26全用);外观加「任性图标」九宫格(WaywardIconBlock)即点即换;application icon 改 ic_app_white;**无真机仅离线验证merged manifest+APK xmltree:IconWhite enabled带LAUNCHER targetMainActivity,其余disabled**",
-      "publishedAtMs": 1780762593000
-    },
     {
       "version": 950,
       "versionName": "260607-0045",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "修好了更新下载卡住没速度的问题",
       "changelog": "v999: OtaHttpClient 强制 HTTP/1.1——云盾在无 SNI 链路伪 ALPN h2 不回 SETTINGS 帧，OkHttp 报 Required SETTINGS preface not received",
       "publishedAtMs": 1781029081000
+    },
+    {
+      "version": 1000,
+      "versionName": "260610-0222",
+      "userFacingChangelog": "光晕现在以笑脸为中心——小声时贴着脸轻轻发光，大声时向四周扩散",
+      "changelog": "v1000: 光罩 DstIn 圆心从 (w/2,1.30h) 移到笑脸中心(cyFace=h-376dp)，dR=0.20h+0.08level+0.42mic；色流 origin 改脸周、travel/横向扩散吃 mic",
+      "publishedAtMs": 1781029567000
     }
   ],
-  "publishedAtMs": 1781029081000,
+  "publishedAtMs": 1781029567000,
   "minSupported": 0
 }
