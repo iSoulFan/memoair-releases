@@ -1,7 +1,7 @@
 {
   "version": 997,
   "versionName": "260610-0144",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v997/memoair-v997-260610-0144-slim.apk",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v997-260610-0144-slim.apk",
   "sizeBytes": 37747760,
   "sha256": "dba3e62245143265feb69453689c9492c2c24c8b9b81f852cdf6a5683c2f1b41",
   "changelog": "v997: OneShotSTT 暴露真麦克风电平(平台 onRmsChanged / Sherpa PCM 峰值)，ListeningOverlay 涌动+声波接真电平，Sherpa 读循环 100ms 小块",
@@ -359,5 +359,6 @@
     }
   ],
   "publishedAtMs": 1781027222000,
-  "minSupported": 0
+  "minSupported": 0,
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v997/memoair-v997-260610-0144-slim.apk"
 }
