@@ -1,19 +1,12 @@
 {
-  "version": 985,
-  "versionName": "260609-2055",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v985/memoair-v985-260609-2055-slim.apk",
+  "version": 986,
+  "versionName": "260609-2139",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v986/memoair-v986-260609-2139-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "f058af8ac0876bed3d594a0dd2a6462f98be3320930ecbd7950826976210e255",
-  "changelog": "energyGlass 去硬+加影：多亮源扁椭圆→换成一个又高又宽的平滑大光团(纵半径≈1.7h只显平滑切片不分层)，描边调柔不再硬亮线，浅色版加灰接地影拉开背景对比。",
-  "userFacingChangelog": "「按住说话」按钮：光效更柔、浅色版加了阴影更清楚。",
+  "sha256": "f251f0189fbe9ff392db415e07fde09e62dd94c5f851b9aaf799c722f59db782",
+  "changelog": "energyGlass 去横分界线：大光团整体倾斜-9°+衰减拉长拉虚+右侧亮区抬高(右比左亮→明暗交界斜向弥散)+左上冷暗加重，不再是水平分界。",
+  "userFacingChangelog": "「按住说话」按钮光效的明暗过渡改成斜向弥散，去掉中间那条硬分界线。",
   "recentReleases": [
-    {
-      "version": 935,
-      "versionName": "260606-1819",
-      "userFacingChangelog": "细节打磨",
-      "changelog": "ota_ollie 重新抠图：纯金身体干净抠出 + PIL 高斯模糊阈值生成平滑白边（替换毛糙的 MaxFilter 方形膨胀）",
-      "publishedAtMs": 1780741474000
-    },
     {
       "version": 936,
       "versionName": "260606-1837",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "「按住说话」按钮：光效更柔、浅色版加了阴影更清楚。",
       "changelog": "energyGlass 去硬+加影：多亮源扁椭圆→换成一个又高又宽的平滑大光团(纵半径≈1.7h只显平滑切片不分层)，描边调柔不再硬亮线，浅色版加灰接地影拉开背景对比。",
       "publishedAtMs": 1781009851000
+    },
+    {
+      "version": 986,
+      "versionName": "260609-2139",
+      "userFacingChangelog": "「按住说话」按钮光效的明暗过渡改成斜向弥散，去掉中间那条硬分界线。",
+      "changelog": "energyGlass 去横分界线：大光团整体倾斜-9°+衰减拉长拉虚+右侧亮区抬高(右比左亮→明暗交界斜向弥散)+左上冷暗加重，不再是水平分界。",
+      "publishedAtMs": 1781012622000
     }
   ],
-  "publishedAtMs": 1781009851000,
+  "publishedAtMs": 1781012622000,
   "minSupported": 0
 }
