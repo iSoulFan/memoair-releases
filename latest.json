@@ -1,19 +1,12 @@
 {
-  "version": 968,
-  "versionName": "260609-1548",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v968/memoair-v968-260609-1548-slim.apk",
+  "version": 969,
+  "versionName": "260609-1621",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v969/memoair-v969-260609-1621-slim.apk",
   "sizeBytes": 37739568,
-  "sha256": "2e84b7aad4307eaa68428318c75b42c09184349073d8da5e500de95ca4097b43",
-  "changelog": "语音输入全新设计：①三按钮液态玻璃质感+笑脸/键盘/回形针简笔图标 ②按住说话全屏语音覆盖层(底部上涌黄绿流光+3D弹性转头/眨眼笑脸+实时转写+声波+白色底垫，从按钮钻出) ③上滑取消态(深玻璃/小遮罩/防闪绿) ④附件弹窗配色清理 ⑤本地转写提速(首字~0.3s)。含声纹关怀提醒等累积修复。",
-  "userFacingChangelog": "这一版把语音输入整个重做了——按住说话，会从按钮里升起一片会眨眼、会转头的黄绿光，边听边把你说的话写成字；上滑就能取消。附件、按钮也一起做了精修。",
+  "sha256": "bc4c4c177945fd3b9b49a4537c8b3eab4966518f4bd472d6aeb0114a297fcaa0",
+  "changelog": "去掉输入栏 dock 磨砂背景，三个按钮直接浮在对话上各自带投影；按钮玻璃质感/阴影对标测试版(elevation 26 + 高光 + 更重投影)。",
+  "userFacingChangelog": "输入栏精修：三个按钮去掉了底下那条背景，悬浮感更强、投影更立体。",
   "recentReleases": [
-    {
-      "version": 912,
-      "versionName": "260605-0033",
-      "userFacingChangelog": "· 录音胶囊上的小绿点改成了慢慢的呼吸感 · 删除撤销条暗夜不再是白框、也不挡按钮了",
-      "changelog": "v912（含未发出的 v911）：①撤销条修暗夜纯白+跟FAB重叠——Q.Ink→Q.SunkenInk(两模式都深)、文字 Q.OnSunkenInk、bottom 22→80 抬到 FAB 上方；纪要+待办两处 ②胶囊录制小绿点呼吸频率放慢——tween 700→2200ms + CubicBezier(0.42,0,0.58,1) ease-in-out + 谷值 0.3→0.4（一呼一吸~4.4s≈人静息13~14次/分）",
-      "publishedAtMs": 1780591014000
-    },
     {
       "version": 913,
       "versionName": "260605-0120",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "这一版把语音输入整个重做了——按住说话，会从按钮里升起一片会眨眼、会转头的黄绿光，边听边把你说的话写成字；上滑就能取消。附件、按钮也一起做了精修。",
       "changelog": "语音输入全新设计：①三按钮液态玻璃质感+笑脸/键盘/回形针简笔图标 ②按住说话全屏语音覆盖层(底部上涌黄绿流光+3D弹性转头/眨眼笑脸+实时转写+声波+白色底垫，从按钮钻出) ③上滑取消态(深玻璃/小遮罩/防闪绿) ④附件弹窗配色清理 ⑤本地转写提速(首字~0.3s)。含声纹关怀提醒等累积修复。",
       "publishedAtMs": 1780991443000
+    },
+    {
+      "version": 969,
+      "versionName": "260609-1621",
+      "userFacingChangelog": "输入栏精修：三个按钮去掉了底下那条背景，悬浮感更强、投影更立体。",
+      "changelog": "去掉输入栏 dock 磨砂背景，三个按钮直接浮在对话上各自带投影；按钮玻璃质感/阴影对标测试版(elevation 26 + 高光 + 更重投影)。",
+      "publishedAtMs": 1780993376000
     }
   ],
-  "publishedAtMs": 1780991443000,
+  "publishedAtMs": 1780993376000,
   "minSupported": 0
 }
