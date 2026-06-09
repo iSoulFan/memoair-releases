@@ -1,19 +1,12 @@
 {
-  "version": 994,
-  "versionName": "260609-2352",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v994/memoair-v994-260609-2352-slim.apk",
+  "version": 995,
+  "versionName": "260610-0046",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v995/memoair-v995-260610-0046-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "e795d1dac15fd95ff74f81697a42a54a040e943f82138fd7f675452cf7634029",
-  "changelog": "玻璃白改中性#F6F6F6；修静音发句号；键盘模式发送键黄绿+黑简笔上箭头居中、输入框&笑脸统一 glassSurface、回形针挪最左；修滚到底部 FAB 出现时先方形后圆形阴影(去 scaleIn 只 fade + clip=true 圆形阴影 + glass 自身阴影关)。",
-  "userFacingChangelog": "键盘界面统一玻璃质感、发送键改黄绿；玻璃白调中性；修了静音发句号、和右下箭头出现时方形阴影的问题。",
+  "sha256": "1f1c8b3295245c7c7198fd160944b589c1ca8c70a442a567a4aa708f7b7e9b5d",
+  "changelog": "滚到底部 FAB 阴影根治：弃用系统 elevation 阴影(淡入时会先闪方形 outline)，改 drawBehind 纯绘制柔和圆形阴影(radialGradient，无 RenderNode outline，首帧即圆、随淡入平滑)。",
+  "userFacingChangelog": "右下角箭头按钮出现时的方形阴影闪烁彻底修掉了。",
   "recentReleases": [
-    {
-      "version": 944,
-      "versionName": "260606-2124",
-      "userFacingChangelog": "细节打磨",
-      "changelog": "OtaFlowOverlay 去 Dialog 默认黑 dim（SideEffect 取 DialogWindowProvider.window.setDimAmount(0f)），一阶段彻底无压暗只剩花瓣；二阶段遮罩从整屏近实改成中间一小团径向晕开往四边散透（center 0.86/mid0.42@0.42/0@0.85，删 edgeA）——白色更透、只中间一团",
-      "publishedAtMs": 1780752758000
-    },
     {
       "version": 945,
       "versionName": "260606-2141",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "键盘界面统一玻璃质感、发送键改黄绿；玻璃白调中性；修了静音发句号、和右下箭头出现时方形阴影的问题。",
       "changelog": "玻璃白改中性#F6F6F6；修静音发句号；键盘模式发送键黄绿+黑简笔上箭头居中、输入框&笑脸统一 glassSurface、回形针挪最左；修滚到底部 FAB 出现时先方形后圆形阴影(去 scaleIn 只 fade + clip=true 圆形阴影 + glass 自身阴影关)。",
       "publishedAtMs": 1781021671000
+    },
+    {
+      "version": 995,
+      "versionName": "260610-0046",
+      "userFacingChangelog": "右下角箭头按钮出现时的方形阴影闪烁彻底修掉了。",
+      "changelog": "滚到底部 FAB 阴影根治：弃用系统 elevation 阴影(淡入时会先闪方形 outline)，改 drawBehind 纯绘制柔和圆形阴影(radialGradient，无 RenderNode outline，首帧即圆、随淡入平滑)。",
+      "publishedAtMs": 1781023862000
     }
   ],
-  "publishedAtMs": 1781021671000,
+  "publishedAtMs": 1781023862000,
   "minSupported": 0
 }
