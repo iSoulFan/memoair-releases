@@ -1,20 +1,13 @@
 {
-  "version": 1000,
-  "versionName": "260610-0222",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1000-260610-0222-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1000/memoair-v1000-260610-0222-slim.apk",
+  "version": 1001,
+  "versionName": "260610-0236",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1001-260610-0236-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1001/memoair-v1001-260610-0236-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "3c74968df218435845e680c81de42ac2e62c34120f74e85f5b9f12b19905316c",
-  "changelog": "v1000: 光罩 DstIn 圆心从 (w/2,1.30h) 移到笑脸中心(cyFace=h-376dp)，dR=0.20h+0.08level+0.42mic；色流 origin 改脸周、travel/横向扩散吃 mic",
-  "userFacingChangelog": "光晕现在以笑脸为中心——小声时贴着脸轻轻发光，大声时向四周扩散",
+  "sha256": "54d9704281186bf8a3d91a4a24d3399c3b24fc97a6bb3e10bd3319889443bf96",
+  "changelog": "v1001: dR=0.30h+0.08level+0.55mic 圆心 cyFace+0.30dR 下沉；色流 dir 主下(i%3 微上)、travel 0.10+0.32mic、光团 0.13+0.06rise+0.22mic、横向 0.30+0.80mic",
+  "userFacingChangelog": "光晕起始更饱满，说话时大面积往下铺开——整屏的氛围感比上版强很多",
   "recentReleases": [
-    {
-      "version": 950,
-      "versionName": "260607-0045",
-      "userFacingChangelog": "「念念不忘」的金句换上了更有诗意的排版；桌面图标细节打磨",
-      "changelog": "三修：①念念不忘金句换行重写 unforgettableVerseLines(贪心打包≤13全角宽,优先句末标点>逗号顿号>语义停顿词断,行尾去逗号,无标点长串才硬断)替掉逐标点split——治碎断+从字中间折行 ②OtaFlowOverlay一阶段花瓣盒230→186+标题对齐BottomCenter+spacer8→内容上下居中不靠下 ③任性图标重做:全部声明纯色背景@color/icbg_*(治ColorOS给暗色垫白底)+前景整图,#3-7用pure_fill纯色边缘延展把主体缩到0.78(治mask裁切+无方块),#1#2比例不动",
-      "publishedAtMs": 1780764585000
-    },
     {
       "version": 951,
       "versionName": "260607-0053",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "光晕现在以笑脸为中心——小声时贴着脸轻轻发光，大声时向四周扩散",
       "changelog": "v1000: 光罩 DstIn 圆心从 (w/2,1.30h) 移到笑脸中心(cyFace=h-376dp)，dR=0.20h+0.08level+0.42mic；色流 origin 改脸周、travel/横向扩散吃 mic",
       "publishedAtMs": 1781029567000
+    },
+    {
+      "version": 1001,
+      "versionName": "260610-0236",
+      "userFacingChangelog": "光晕起始更饱满，说话时大面积往下铺开——整屏的氛围感比上版强很多",
+      "changelog": "v1001: dR=0.30h+0.08level+0.55mic 圆心 cyFace+0.30dR 下沉；色流 dir 主下(i%3 微上)、travel 0.10+0.32mic、光团 0.13+0.06rise+0.22mic、横向 0.30+0.80mic",
+      "publishedAtMs": 1781030419000
     }
   ],
-  "publishedAtMs": 1781029567000,
+  "publishedAtMs": 1781030419000,
   "minSupported": 0
 }
