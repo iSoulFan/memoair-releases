@@ -1,19 +1,12 @@
 {
-  "version": 991,
-  "versionName": "260609-2232",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v991/memoair-v991-260609-2232-slim.apk",
+  "version": 992,
+  "versionName": "260609-2309",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v992/memoair-v992-260609-2309-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "ec49d8af66bf215ca3e60aabc47452d4c8bb998704293b2a5c175c7716e4c639",
-  "changelog": "①按住说话按钮跟旁边键盘/回形针完全同一套 glassSurface(同质感/透明度，字色 inkColMain，明暗自适应) ②滚到底部 FAB 水平居中对齐键盘按钮(end 18→16dp) ③下箭头描边调细(0.11→0.075w 跟线条图标一致)。",
-  "userFacingChangelog": "「按住说话」按钮跟旁边两个统一了；右下箭头按钮对齐了、线条调细。",
+  "sha256": "62c87909b10ba229dd1482bbad72620e337f776c4d0c80eb88553f4a7047a6e3",
+  "changelog": "①按住说话字重 Medium→SemiBold ②深色模式按住黄绿遮罩+取消红调亮(stream alpha 深色 0.92→1.0/0.72→0.86，rose 深色提亮) ③行动 4 个 tab FAB(补一段纪要/加一条/说个抉择/许个愿)质感改成跟按住说话同款 glassSurface(VoiceFabSheet 加 glass 开关，字色 Q.Ink)。",
+  "userFacingChangelog": "字重加粗；深色模式录音遮罩调亮；行动各 tab 的按钮换成跟按住说话同款玻璃质感。",
   "recentReleases": [
-    {
-      "version": 941,
-      "versionName": "260606-2026",
-      "userFacingChangelog": "细节打磨",
-      "changelog": "关于页彩蛋开关开着却只播一次的bug修复：ParallelUniverseEggPhoto 加 DisposableEffect onDispose 复位 controller.phase=Idle + targetInWindow=null（controller 记在外层 SettingsScreen 不随折叠销毁），每次折叠关于再展开都从 Idle 重测落点重新触发 → 开关开着就每次都播随机一张，不再播一次后直接显形",
-      "publishedAtMs": 1780749012000
-    },
     {
       "version": 942,
       "versionName": "260606-2052",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "「按住说话」按钮跟旁边两个统一了；右下箭头按钮对齐了、线条调细。",
       "changelog": "①按住说话按钮跟旁边键盘/回形针完全同一套 glassSurface(同质感/透明度，字色 inkColMain，明暗自适应) ②滚到底部 FAB 水平居中对齐键盘按钮(end 18→16dp) ③下箭头描边调细(0.11→0.075w 跟线条图标一致)。",
       "publishedAtMs": 1781016406000
+    },
+    {
+      "version": 992,
+      "versionName": "260609-2309",
+      "userFacingChangelog": "字重加粗；深色模式录音遮罩调亮；行动各 tab 的按钮换成跟按住说话同款玻璃质感。",
+      "changelog": "①按住说话字重 Medium→SemiBold ②深色模式按住黄绿遮罩+取消红调亮(stream alpha 深色 0.92→1.0/0.72→0.86，rose 深色提亮) ③行动 4 个 tab FAB(补一段纪要/加一条/说个抉择/许个愿)质感改成跟按住说话同款 glassSurface(VoiceFabSheet 加 glass 开关，字色 Q.Ink)。",
+      "publishedAtMs": 1781018204000
     }
   ],
-  "publishedAtMs": 1781016406000,
+  "publishedAtMs": 1781018204000,
   "minSupported": 0
 }
