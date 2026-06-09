@@ -1,19 +1,12 @@
 {
-  "version": 984,
-  "versionName": "260609-2043",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v984/memoair-v984-260609-2043-slim.apk",
+  "version": 985,
+  "versionName": "260609-2055",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v985/memoair-v985-260609-2055-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "5ca41ec5b1a4c3c26e4122b37b3a390440e1213887bd7ebc3dc8412c5343dc5b",
-  "changelog": "energyGlass 修形状/比例：每层光改成按 CSS 百分比的椭圆(scale 压扁正圆，纵半径绑高度)，宽扁按钮上不再被洗亮、还原设计稿的形状比例。",
-  "userFacingChangelog": "「按住说话」按钮光效形状/比例修正，跟设计稿对齐。",
+  "sha256": "f058af8ac0876bed3d594a0dd2a6462f98be3320930ecbd7950826976210e255",
+  "changelog": "energyGlass 去硬+加影：多亮源扁椭圆→换成一个又高又宽的平滑大光团(纵半径≈1.7h只显平滑切片不分层)，描边调柔不再硬亮线，浅色版加灰接地影拉开背景对比。",
+  "userFacingChangelog": "「按住说话」按钮：光效更柔、浅色版加了阴影更清楚。",
   "recentReleases": [
-    {
-      "version": 934,
-      "versionName": "260606-1805",
-      "userFacingChangelog": "成就页『稀有度』那块的星星和底色回到了暖暖的琥珀配色。",
-      "changelog": "①成就详情页评星模块(BeatCard)回到暖米卡+琥珀星：全 App Q.Warm* 早被改成中性黑灰(渲染成灰底黑星)，这里改成显式暖色 rarityBg/rarityAmber/rarityHeader(亮 #FAF1D8/#CB9B45/#A9863E，暗 #2E2A1F/#D9B45E/#CBA862)，不动全 App Q.Warm*。②[调试预览]OTA 下载弹窗 OLLIE 抠图重做：去掉底部蓝灰阴影、加一圈干净白边(MaxFilter 膨胀)增质感；文案右侧 🐱→⭐。",
-      "publishedAtMs": 1780740777000
-    },
     {
       "version": 935,
       "versionName": "260606-1819",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "「按住说话」按钮光效形状/比例修正，跟设计稿对齐。",
       "changelog": "energyGlass 修形状/比例：每层光改成按 CSS 百分比的椭圆(scale 压扁正圆，纵半径绑高度)，宽扁按钮上不再被洗亮、还原设计稿的形状比例。",
       "publishedAtMs": 1781009166000
+    },
+    {
+      "version": 985,
+      "versionName": "260609-2055",
+      "userFacingChangelog": "「按住说话」按钮：光效更柔、浅色版加了阴影更清楚。",
+      "changelog": "energyGlass 去硬+加影：多亮源扁椭圆→换成一个又高又宽的平滑大光团(纵半径≈1.7h只显平滑切片不分层)，描边调柔不再硬亮线，浅色版加灰接地影拉开背景对比。",
+      "publishedAtMs": 1781009851000
     }
   ],
-  "publishedAtMs": 1781009166000,
+  "publishedAtMs": 1781009851000,
   "minSupported": 0
 }
