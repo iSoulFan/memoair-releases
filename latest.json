@@ -1,19 +1,12 @@
 {
-  "version": 977,
-  "versionName": "260609-1833",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v977/memoair-v977-260609-1833-slim.apk",
+  "version": 978,
+  "versionName": "260609-1842",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v978/memoair-v978-260609-1842-slim.apk",
   "sizeBytes": 37739568,
-  "sha256": "f6a16def5b1798ae31b83a6724af0acd7c3973c9b48333b76a563094ecbdeb1d",
-  "changelog": "思考态对勾下移到嘴的位置+加大(stroke 9→12dp)，避开眼睛、跟笑嘴位置衔接。",
-  "userFacingChangelog": "AI 润色时的思考表情位置调正了。",
+  "sha256": "158d3b5c0a055542cb2b6b5910c8a91a8435223cdebfa426e02ba19e6d4362d7",
+  "changelog": "思考态对勾再往下+往右，右臂更上扬=邪魅一笑。",
+  "userFacingChangelog": "AI 润色时的思考表情更俏皮了一点。",
   "recentReleases": [
-    {
-      "version": 927,
-      "versionName": "260605-1844",
-      "userFacingChangelog": "对话人设的现成搭子重新挑了一遍——去掉重复的，留下风格差别更明显的几个。",
-      "changelog": "对话人设内置预设精简去重：删 温暖知己/元气搭子(≈OLLIE)、理性顾问/简洁助手(≈AURY)；保留 毒舌损友、温柔树洞；新增 严厉教练(私人教练/直接不纵容)。现 5 个：AURY/OLLIE/毒舌损友/温柔树洞/严厉教练，差异明确。",
-      "publishedAtMs": 1780656548000
-    },
     {
       "version": 928,
       "versionName": "260605-2346",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "AI 润色时的思考表情位置调正了。",
       "changelog": "思考态对勾下移到嘴的位置+加大(stroke 9→12dp)，避开眼睛、跟笑嘴位置衔接。",
       "publishedAtMs": 1781001333000
+    },
+    {
+      "version": 978,
+      "versionName": "260609-1842",
+      "userFacingChangelog": "AI 润色时的思考表情更俏皮了一点。",
+      "changelog": "思考态对勾再往下+往右，右臂更上扬=邪魅一笑。",
+      "publishedAtMs": 1781001895000
     }
   ],
-  "publishedAtMs": 1781001333000,
+  "publishedAtMs": 1781001895000,
   "minSupported": 0
 }
