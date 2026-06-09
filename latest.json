@@ -1,19 +1,12 @@
 {
-  "version": 986,
-  "versionName": "260609-2139",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v986/memoair-v986-260609-2139-slim.apk",
+  "version": 987,
+  "versionName": "260609-2149",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v987/memoair-v987-260609-2149-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "f251f0189fbe9ff392db415e07fde09e62dd94c5f851b9aaf799c722f59db782",
-  "changelog": "energyGlass 去横分界线：大光团整体倾斜-9°+衰减拉长拉虚+右侧亮区抬高(右比左亮→明暗交界斜向弥散)+左上冷暗加重，不再是水平分界。",
-  "userFacingChangelog": "「按住说话」按钮光效的明暗过渡改成斜向弥散，去掉中间那条硬分界线。",
+  "sha256": "78eb11501aa2c5956828960f4aee9517dc60e220b4d64667c7c72bb7796034e5",
+  "changelog": "energyGlass 彻底去硬线：丢弃压扁椭圆+旋转(那是硬斜线根源)，改用对角线性渐变做底(左上暗→右下亮，线性插值无硬边)+柔和圆形白热核。",
+  "userFacingChangelog": "「按住说话」按钮光效彻底去掉硬线，改成全程虚化的对角过渡。",
   "recentReleases": [
-    {
-      "version": 936,
-      "versionName": "260606-1837",
-      "userFacingChangelog": "可展开的卡片，展开后用返回手势会先收起卡片，不再直接退出页面",
-      "changelog": "OTA下载弹窗 OLLIE 换全身带腿/靴新图（cv2 grabcut 前景分割+平滑白边），文案 emoji ⭐→✨；ExpandableSection 展开态加 BackHandler 拦截系统返回手势→先折叠（LIFO 嵌套先收里层），同步加到 expertise_row / feedback_row 两个自绘展开卡",
-      "publishedAtMs": 1780742715000
-    },
     {
       "version": 937,
       "versionName": "260606-1908",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "「按住说话」按钮光效的明暗过渡改成斜向弥散，去掉中间那条硬分界线。",
       "changelog": "energyGlass 去横分界线：大光团整体倾斜-9°+衰减拉长拉虚+右侧亮区抬高(右比左亮→明暗交界斜向弥散)+左上冷暗加重，不再是水平分界。",
       "publishedAtMs": 1781012622000
+    },
+    {
+      "version": 987,
+      "versionName": "260609-2149",
+      "userFacingChangelog": "「按住说话」按钮光效彻底去掉硬线，改成全程虚化的对角过渡。",
+      "changelog": "energyGlass 彻底去硬线：丢弃压扁椭圆+旋转(那是硬斜线根源)，改用对角线性渐变做底(左上暗→右下亮，线性插值无硬边)+柔和圆形白热核。",
+      "publishedAtMs": 1781013091000
     }
   ],
-  "publishedAtMs": 1781012622000,
+  "publishedAtMs": 1781013091000,
   "minSupported": 0
 }
