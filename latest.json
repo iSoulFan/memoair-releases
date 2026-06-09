@@ -1,19 +1,12 @@
 {
-  "version": 966,
-  "versionName": "260608-1908",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v966/memoair-v966-260608-1908-slim.apk",
-  "sizeBytes": 37735472,
-  "sha256": "c6feac5cf31237e09c1c9c10ba9d648633b2e1d6369611065f7c8f9e3a091a83",
-  "changelog": "v966\n- 修抽取摘要通知(ExtractDoneNotifier)点击落点错：v964 原规则有卡片优先跳时光，但一次抽取常同时产卡片+待办+纪要 → 被丢回时光，用户以为没跳转(报告：6:30 收到「新增待办和纪要」点了仍停在时光页)。\n- 倒过来优先级：todos>0 → 行动·待办；meetings>0 → 行动·纪要；仅 cards>0 → 时光最新；纯愿望/无内容 → 默认。\n- 新增 MeetingNavBus.OPEN_TAB(-1)+openTab() 哨兵(同 v964 TodoNavBus)，MainActivity consumeTodoIntent 加 open_meetings → MeetingNavBus.openTab()，SuggestionsScreen 外层纪要 effect 哨兵时切完即 consume(内层 id<=0 已忽略)。\n- 卡片 ProactivePush / widget 仍直达时光，未改。",
-  "userFacingChangelog": "· 又修了通知点击的落点：之前「新增待办和纪要」这类通知，如果那次刚好也生成了卡片，点了会被带去时光页、像是没跳。现在只要通知里有待办或纪要，就一律直达「行动」板块了。",
+  "version": 968,
+  "versionName": "260609-1548",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v968/memoair-v968-260609-1548-slim.apk",
+  "sizeBytes": 37739568,
+  "sha256": "2e84b7aad4307eaa68428318c75b42c09184349073d8da5e500de95ca4097b43",
+  "changelog": "语音输入全新设计：①三按钮液态玻璃质感+笑脸/键盘/回形针简笔图标 ②按住说话全屏语音覆盖层(底部上涌黄绿流光+3D弹性转头/眨眼笑脸+实时转写+声波+白色底垫，从按钮钻出) ③上滑取消态(深玻璃/小遮罩/防闪绿) ④附件弹窗配色清理 ⑤本地转写提速(首字~0.3s)。含声纹关怀提醒等累积修复。",
+  "userFacingChangelog": "这一版把语音输入整个重做了——按住说话，会从按钮里升起一片会眨眼、会转头的黄绿光，边听边把你说的话写成字；上滑就能取消。附件、按钮也一起做了精修。",
   "recentReleases": [
-    {
-      "version": 910,
-      "versionName": "260604-1924",
-      "userFacingChangelog": "· 删除撤销条的文字配色调整了",
-      "changelog": "v910：撤销条「撤销」文字色 Q.Memory(黄绿)→Q.Surface(白)——黄绿不可用于文字(红线)；纪要+待办两处撤销条同改。（注：待办的可撤销删除也已落地，跟纪要并行独立状态）",
-      "publishedAtMs": 1780572380000
-    },
     {
       "version": 912,
       "versionName": "260605-0033",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "· 又修了通知点击的落点：之前「新增待办和纪要」这类通知，如果那次刚好也生成了卡片，点了会被带去时光页、像是没跳。现在只要通知里有待办或纪要，就一律直达「行动」板块了。",
       "changelog": "v966\n- 修抽取摘要通知(ExtractDoneNotifier)点击落点错：v964 原规则有卡片优先跳时光，但一次抽取常同时产卡片+待办+纪要 → 被丢回时光，用户以为没跳转(报告：6:30 收到「新增待办和纪要」点了仍停在时光页)。\n- 倒过来优先级：todos>0 → 行动·待办；meetings>0 → 行动·纪要；仅 cards>0 → 时光最新；纯愿望/无内容 → 默认。\n- 新增 MeetingNavBus.OPEN_TAB(-1)+openTab() 哨兵(同 v964 TodoNavBus)，MainActivity consumeTodoIntent 加 open_meetings → MeetingNavBus.openTab()，SuggestionsScreen 外层纪要 effect 哨兵时切完即 consume(内层 id<=0 已忽略)。\n- 卡片 ProactivePush / widget 仍直达时光，未改。",
       "publishedAtMs": 1780917345000
+    },
+    {
+      "version": 968,
+      "versionName": "260609-1548",
+      "userFacingChangelog": "这一版把语音输入整个重做了——按住说话，会从按钮里升起一片会眨眼、会转头的黄绿光，边听边把你说的话写成字；上滑就能取消。附件、按钮也一起做了精修。",
+      "changelog": "语音输入全新设计：①三按钮液态玻璃质感+笑脸/键盘/回形针简笔图标 ②按住说话全屏语音覆盖层(底部上涌黄绿流光+3D弹性转头/眨眼笑脸+实时转写+声波+白色底垫，从按钮钻出) ③上滑取消态(深玻璃/小遮罩/防闪绿) ④附件弹窗配色清理 ⑤本地转写提速(首字~0.3s)。含声纹关怀提醒等累积修复。",
+      "publishedAtMs": 1780991443000
     }
   ],
-  "publishedAtMs": 1780917345000,
+  "publishedAtMs": 1780991443000,
   "minSupported": 0
 }
