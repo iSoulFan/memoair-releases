@@ -1,19 +1,12 @@
 {
-  "version": 974,
-  "versionName": "260609-1756",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v974/memoair-v974-260609-1756-slim.apk",
-  "sizeBytes": 37739568,
-  "sha256": "d6fc1e168b46daf66f70f015c77350706d170e3ee8bea990ee46f9bdef87ceef",
-  "changelog": "整理中文案：正在整理… → 正在让 AI 整理一下。",
-  "userFacingChangelog": "语音整理中的提示文案微调。",
+  "version": 975,
+  "versionName": "260609-1802",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v975/memoair-v975-260609-1802-slim.apk",
+  "sizeBytes": 37743664,
+  "sha256": "6bdd5913abe0fff66d693d778b64e510057b29a5e0f1a5a3244c5340a54cd8ed",
+  "changelog": "AI 整理(fixing)态：笑脸嘴改成对勾✓=思考脸（眼保留）。",
+  "userFacingChangelog": "AI 整理语音时，那个小笑脸会变成思考的表情。",
   "recentReleases": [
-    {
-      "version": 924,
-      "versionName": "260605-1812",
-      "userFacingChangelog": "新增两位开机搭子 AURY 和 OLLIE 任你挑——一个冷静可靠、一个温暖话痨，他俩还是一对老朋友，可以互相聊聊。设置里把『对话与记忆』提到了更顺手的位置。",
-      "changelog": "AURY/OLLIE：applyPreset 连 aiName 一起写(命名搭子记得自己名字，修从设置切换不写名)；toPromptBlock 加 AURY↔OLLIE 好朋友世界观(同星河来的老搭子，聊对方不生硬、不把对方说成'另一个人设')。关于页彩蛋拍立得：复用拾梦相片灵动岛吐片动画+落点改到关于页(landTarget/dimEnabled/cardContent/hideStatusBar 可选参数)，飞入卡=落地卡(EggPolaroidCard 零倾斜)落定零跳变，不隐藏状态栏修末尾'往下跳+闪'，每日一次门禁；展开折叠项滚到屏幕中央(ExpandableSection LocalExpandCenterer)。设置分组：'聊天和你'改名'对话与记忆'并移到'记录/录音控制'上方。空态/开场文案沿用上轮。",
-      "publishedAtMs": 1780654459000
-    },
     {
       "version": 925,
       "versionName": "260605-1823",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "语音整理中的提示文案微调。",
       "changelog": "整理中文案：正在整理… → 正在让 AI 整理一下。",
       "publishedAtMs": 1780999188000
+    },
+    {
+      "version": 975,
+      "versionName": "260609-1802",
+      "userFacingChangelog": "AI 整理语音时，那个小笑脸会变成思考的表情。",
+      "changelog": "AI 整理(fixing)态：笑脸嘴改成对勾✓=思考脸（眼保留）。",
+      "publishedAtMs": 1780999508000
     }
   ],
-  "publishedAtMs": 1780999188000,
+  "publishedAtMs": 1780999508000,
   "minSupported": 0
 }
