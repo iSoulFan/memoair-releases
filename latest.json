@@ -1,19 +1,12 @@
 {
-  "version": 995,
-  "versionName": "260610-0046",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v995/memoair-v995-260610-0046-slim.apk",
+  "version": 996,
+  "versionName": "260610-0100",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v996/memoair-v996-260610-0100-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "1f1c8b3295245c7c7198fd160944b589c1ca8c70a442a567a4aa708f7b7e9b5d",
-  "changelog": "滚到底部 FAB 阴影根治：弃用系统 elevation 阴影(淡入时会先闪方形 outline)，改 drawBehind 纯绘制柔和圆形阴影(radialGradient，无 RenderNode outline，首帧即圆、随淡入平滑)。",
-  "userFacingChangelog": "右下角箭头按钮出现时的方形阴影闪烁彻底修掉了。",
+  "sha256": "801061bf34eb28e9fae3b455d0c1c954fd4bc83e7164ff4bc955c327ddfaeed2",
+  "changelog": "FAB 阴影下半被横裁修复：阴影绘制超出 40dp 节点边界被首帧裁掉→改外框 56dp 容纳整个柔影(完整在节点内不外溢)，按钮 40dp 居中、padding 各减 8dp 保持视觉位置不变。",
+  "userFacingChangelog": "右下角箭头按钮的阴影出现时不再被裁、直接完整。",
   "recentReleases": [
-    {
-      "version": 945,
-      "versionName": "260606-2141",
-      "userFacingChangelog": "细节打磨",
-      "changelog": "OtaFlowOverlay 调整：一阶段文字改回反色但反向（浅=黑#1E1A16/深=白#ECE7DD，白字在浅花瓣上看不清），新增 s1BtnText 给现在更新按钮单独留白(浅)/深(深)；二阶段白底大范围太闷→收成正中一小团淡白(center 0.86→0.5,stops 0/0.2/0.45 收紧)",
-      "publishedAtMs": 1780753662000
-    },
     {
       "version": 946,
       "versionName": "260606-2156",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "右下角箭头按钮出现时的方形阴影闪烁彻底修掉了。",
       "changelog": "滚到底部 FAB 阴影根治：弃用系统 elevation 阴影(淡入时会先闪方形 outline)，改 drawBehind 纯绘制柔和圆形阴影(radialGradient，无 RenderNode outline，首帧即圆、随淡入平滑)。",
       "publishedAtMs": 1781023862000
+    },
+    {
+      "version": 996,
+      "versionName": "260610-0100",
+      "userFacingChangelog": "右下角箭头按钮的阴影出现时不再被裁、直接完整。",
+      "changelog": "FAB 阴影下半被横裁修复：阴影绘制超出 40dp 节点边界被首帧裁掉→改外框 56dp 容纳整个柔影(完整在节点内不外溢)，按钮 40dp 居中、padding 各减 8dp 保持视觉位置不变。",
+      "publishedAtMs": 1781024611000
     }
   ],
-  "publishedAtMs": 1781023862000,
+  "publishedAtMs": 1781024611000,
   "minSupported": 0
 }
