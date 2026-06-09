@@ -1,19 +1,12 @@
 {
-  "version": 982,
-  "versionName": "260609-1944",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v982/memoair-v982-260609-1944-slim.apk",
+  "version": 983,
+  "versionName": "260609-2031",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v983/memoair-v983-260609-2031-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "da105aa9aa5b8ea9915368435dfd20bcd29e5f11f7442a0c05d947aca72f79e0",
-  "changelog": "按住说话按钮换成方案C黄绿光爆(energyGlass，参考图3：下方光爆+斜流光+左青绿+亮黄绿勾边+外发光)，明暗自适应——黑夜深胶囊、正常浅黄绿底(已调淡不扎眼)；笑脸+文案不变；上滑取消仍深玻璃。",
-  "userFacingChangelog": "「按住说话」按钮换成黄绿光爆质感，黑夜/正常模式各一套。",
+  "sha256": "1838742e1809bf6ac33f01d9d640588657f70ecabeb357337a23fa486525b727",
+  "changelog": "energyGlass 重写=1:1 还原图3融球光效：平滑分层径向(白热核下中央+右上 lime 晕+左上冷青暗+暗底)+角向 sweep 细描边+背后发光投影；删硬光束/横条；浅色版干净无暗顶。明暗自适应。",
+  "userFacingChangelog": "「按住说话」按钮换成更还原的融球光效（黑夜/正常各一套）。",
   "recentReleases": [
-    {
-      "version": 932,
-      "versionName": "260606-1404",
-      "userFacingChangelog": "关于页那张拍立得相片现在每天会随机换一张啦——AURY 和 OLLIE 在不同地方陪着你。",
-      "changelog": "①关于页拍立得相片改成 6 张池子按日期轮换(eggPhotoResForToday: epochDay%6)，新增 5 张 AURY+OLLIE 场景图(drawable-nodpi: egg_cabin/camp/warp/moonreach/moonduo, PIL 压缩 1280 长边 JPG)。②[调试预览]全屏沉浸式 OTA 下载弹窗 OtaDownloadOverlay：去白卡+纯白径向遮罩往四边散、居中复用 EmojiBadge 呼吸花瓣(新增 petalColors 覆盖参数锁青绿+黄绿)、进度条青绿→黄绿、取消下载按钮；调试区『预览 OTA 下载弹窗』入口触发假弹窗(进度自动循环)。",
-      "publishedAtMs": 1780726071000
-    },
     {
       "version": 933,
       "versionName": "260606-1747",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "「按住说话」按钮换成黄绿光爆质感，黑夜/正常模式各一套。",
       "changelog": "按住说话按钮换成方案C黄绿光爆(energyGlass，参考图3：下方光爆+斜流光+左青绿+亮黄绿勾边+外发光)，明暗自适应——黑夜深胶囊、正常浅黄绿底(已调淡不扎眼)；笑脸+文案不变；上滑取消仍深玻璃。",
       "publishedAtMs": 1781005624000
+    },
+    {
+      "version": 983,
+      "versionName": "260609-2031",
+      "userFacingChangelog": "「按住说话」按钮换成更还原的融球光效（黑夜/正常各一套）。",
+      "changelog": "energyGlass 重写=1:1 还原图3融球光效：平滑分层径向(白热核下中央+右上 lime 晕+左上冷青暗+暗底)+角向 sweep 细描边+背后发光投影；删硬光束/横条；浅色版干净无暗顶。明暗自适应。",
+      "publishedAtMs": 1781008509000
     }
   ],
-  "publishedAtMs": 1781005624000,
+  "publishedAtMs": 1781008509000,
   "minSupported": 0
 }
