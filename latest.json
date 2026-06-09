@@ -1,19 +1,12 @@
 {
-  "version": 975,
-  "versionName": "260609-1802",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v975/memoair-v975-260609-1802-slim.apk",
+  "version": 976,
+  "versionName": "260609-1808",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v976/memoair-v976-260609-1808-slim.apk",
   "sizeBytes": 37743664,
-  "sha256": "6bdd5913abe0fff66d693d778b64e510057b29a5e0f1a5a3244c5340a54cd8ed",
-  "changelog": "AI 整理(fixing)态：笑脸嘴改成对勾✓=思考脸（眼保留）。",
-  "userFacingChangelog": "AI 整理语音时，那个小笑脸会变成思考的表情。",
+  "sha256": "a7d524c8b2174298c273c1dc01758e423363f57b0d2c772f468dab772f02b69e",
+  "changelog": "整理态文案：正在让 AI 整理一下 → AI 正在润色一下。",
+  "userFacingChangelog": "语音整理提示文案微调。",
   "recentReleases": [
-    {
-      "version": 925,
-      "versionName": "260605-1823",
-      "userFacingChangelog": "「对话人设」里的文案换成了更像人话的说法，配置感没那么重了。",
-      "changelog": "对话人设(ChatPersonaBlock)文案去工程化：顶部介绍去掉'注入到 system prompt'；预设/存档/弹窗 + 四个输入框(称呼/关系/语气/其他)的 label 和 placeholder 全改第一人称人话(我该怎么称呼你/我是你的谁/我说话的调调/还有什么想提醒我的)。",
-      "publishedAtMs": 1780655105000
-    },
     {
       "version": 926,
       "versionName": "260605-1829",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "AI 整理语音时，那个小笑脸会变成思考的表情。",
       "changelog": "AI 整理(fixing)态：笑脸嘴改成对勾✓=思考脸（眼保留）。",
       "publishedAtMs": 1780999508000
+    },
+    {
+      "version": 976,
+      "versionName": "260609-1808",
+      "userFacingChangelog": "语音整理提示文案微调。",
+      "changelog": "整理态文案：正在让 AI 整理一下 → AI 正在润色一下。",
+      "publishedAtMs": 1780999918000
     }
   ],
-  "publishedAtMs": 1780999508000,
+  "publishedAtMs": 1780999918000,
   "minSupported": 0
 }
