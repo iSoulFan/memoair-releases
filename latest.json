@@ -1,19 +1,12 @@
 {
-  "version": 976,
-  "versionName": "260609-1808",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v976/memoair-v976-260609-1808-slim.apk",
-  "sizeBytes": 37743664,
-  "sha256": "a7d524c8b2174298c273c1dc01758e423363f57b0d2c772f468dab772f02b69e",
-  "changelog": "整理态文案：正在让 AI 整理一下 → AI 正在润色一下。",
-  "userFacingChangelog": "语音整理提示文案微调。",
+  "version": 977,
+  "versionName": "260609-1833",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v977/memoair-v977-260609-1833-slim.apk",
+  "sizeBytes": 37739568,
+  "sha256": "f6a16def5b1798ae31b83a6724af0acd7c3973c9b48333b76a563094ecbdeb1d",
+  "changelog": "思考态对勾下移到嘴的位置+加大(stroke 9→12dp)，避开眼睛、跟笑嘴位置衔接。",
+  "userFacingChangelog": "AI 润色时的思考表情位置调正了。",
   "recentReleases": [
-    {
-      "version": 926,
-      "versionName": "260605-1829",
-      "userFacingChangelog": "细节打磨：「对话人设」的说明文字更简洁了。",
-      "changelog": "对话人设顶部两段说明压短去啰嗦：介绍'想让我用什么样子陪你？'、预设行'挑个现成的点一下换上，不对味再往下改。'",
-      "publishedAtMs": 1780655476000
-    },
     {
       "version": 927,
       "versionName": "260605-1844",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "语音整理提示文案微调。",
       "changelog": "整理态文案：正在让 AI 整理一下 → AI 正在润色一下。",
       "publishedAtMs": 1780999918000
+    },
+    {
+      "version": 977,
+      "versionName": "260609-1833",
+      "userFacingChangelog": "AI 润色时的思考表情位置调正了。",
+      "changelog": "思考态对勾下移到嘴的位置+加大(stroke 9→12dp)，避开眼睛、跟笑嘴位置衔接。",
+      "publishedAtMs": 1781001333000
     }
   ],
-  "publishedAtMs": 1780999918000,
+  "publishedAtMs": 1781001333000,
   "minSupported": 0
 }
