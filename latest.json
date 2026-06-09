@@ -1,19 +1,12 @@
 {
-  "version": 993,
-  "versionName": "260609-2335",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v993/memoair-v993-260609-2335-slim.apk",
+  "version": 994,
+  "versionName": "260609-2352",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v994/memoair-v994-260609-2352-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "ddd019fb740f3cce37df76c0b63e08d2a1beae166ea9d0091b259b0c4de2c8d1",
-  "changelog": "玻璃按钮+录音胶囊浅色磨砂底由纯白换成微冷灰白 #ECEEF2(glassSurface 浅色 + 胶囊收起态 glassBg)，降一点亮度不那么白；深色模式不变。",
-  "userFacingChangelog": "对话/行动的玻璃按钮和右上角录音胶囊降低了一点白度，没那么刺白。",
+  "sha256": "e795d1dac15fd95ff74f81697a42a54a040e943f82138fd7f675452cf7634029",
+  "changelog": "玻璃白改中性#F6F6F6；修静音发句号；键盘模式发送键黄绿+黑简笔上箭头居中、输入框&笑脸统一 glassSurface、回形针挪最左；修滚到底部 FAB 出现时先方形后圆形阴影(去 scaleIn 只 fade + clip=true 圆形阴影 + glass 自身阴影关)。",
+  "userFacingChangelog": "键盘界面统一玻璃质感、发送键改黄绿；玻璃白调中性；修了静音发句号、和右下箭头出现时方形阴影的问题。",
   "recentReleases": [
-    {
-      "version": 943,
-      "versionName": "260606-2109",
-      "userFacingChangelog": "细节打磨",
-      "changelog": "OtaFlowOverlay 一阶段去遮罩：scrim 起点 alpha 全设 0（一阶段纯花瓣浮在 App 上无蒙板），t 0→1 才把白/黑遮罩渐显进二阶段；一阶段文字全改反色 s1Text(浅=白/深=近黑#1C1814) 含 eyebrow/标题/正文/问询/现在更新按钮字，以后再说=s1Soft；删 eyebrow/body 旧色值",
-      "publishedAtMs": 1780751505000
-    },
     {
       "version": 944,
       "versionName": "260606-2124",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "对话/行动的玻璃按钮和右上角录音胶囊降低了一点白度，没那么刺白。",
       "changelog": "玻璃按钮+录音胶囊浅色磨砂底由纯白换成微冷灰白 #ECEEF2(glassSurface 浅色 + 胶囊收起态 glassBg)，降一点亮度不那么白；深色模式不变。",
       "publishedAtMs": 1781019661000
+    },
+    {
+      "version": 994,
+      "versionName": "260609-2352",
+      "userFacingChangelog": "键盘界面统一玻璃质感、发送键改黄绿；玻璃白调中性；修了静音发句号、和右下箭头出现时方形阴影的问题。",
+      "changelog": "玻璃白改中性#F6F6F6；修静音发句号；键盘模式发送键黄绿+黑简笔上箭头居中、输入框&笑脸统一 glassSurface、回形针挪最左；修滚到底部 FAB 出现时先方形后圆形阴影(去 scaleIn 只 fade + clip=true 圆形阴影 + glass 自身阴影关)。",
+      "publishedAtMs": 1781021671000
     }
   ],
-  "publishedAtMs": 1781019661000,
+  "publishedAtMs": 1781021671000,
   "minSupported": 0
 }
