@@ -1,19 +1,12 @@
 {
-  "version": 980,
-  "versionName": "260609-1920",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v980/memoair-v980-260609-1920-slim.apk",
+  "version": 981,
+  "versionName": "260609-1935",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v981/memoair-v981-260609-1935-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "4a304310a8c2480bbda6b64684004617da889d972e89b97fbc0979984acbe3c0",
-  "changelog": "备份加密：导出 .memoair 文件用用户口令 AES-256-GCM 加密(PBKDF2 150k 派生)，拆包无明文；导入自动识别加密包→输密码解密，旧明文 zip 仍兼容导入。BackupCrypto + 导出/导入口令弹窗。自动备份仍为明文(无口令)。",
-  "userFacingChangelog": "导入导出升级成加密的了——导出时设个密码，文件只有「记得」+ 密码能打开，别人拆包看不到任何文字图片。旧备份照样能导入。",
+  "sha256": "0d4a590670582691790edbb86dd57127e27755297a320dac2f0f2212c27dd07f",
+  "changelog": "按住说话按钮换成方案A透明液态玻璃(liquidGlass：晶莹+顶底内亮边+外亮边+黄绿内圈环+柔投影，明暗自适应)，去掉黄绿动光晕；笑脸+文案不变；上滑取消仍深玻璃。当前样式前已存档(可回退)。",
+  "userFacingChangelog": "「按住说话」按钮换成更晶莹的液态玻璃质感。",
   "recentReleases": [
-    {
-      "version": 930,
-      "versionName": "260606-1313",
-      "userFacingChangelog": "聊天里多选时点气泡更跟手了；长按单条气泡也能直接分享成图片。",
-      "changelog": "①多选时长气泡单击难选中：LongPressMenu 加 instantClickNoMenu 参数，多选(multiSelectMode)时用 clickable(indication=null) 直接切换选中，绕开 detectTapGestures(onTap+onLongPress 在可滚动长内容里抢手势/等长按超时导致单击被吞)。②长按气泡加『分享图片』：用户/AI 菜单各加一项，复用 ChatShareImageRenderer.shareImageUri 渲染单条 ChatLine 截图分享。",
-      "publishedAtMs": 1780723091000
-    },
     {
       "version": 931,
       "versionName": "260606-1344",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "导入导出升级成加密的了——导出时设个密码，文件只有「记得」+ 密码能打开，别人拆包看不到任何文字图片。旧备份照样能导入。",
       "changelog": "备份加密：导出 .memoair 文件用用户口令 AES-256-GCM 加密(PBKDF2 150k 派生)，拆包无明文；导入自动识别加密包→输密码解密，旧明文 zip 仍兼容导入。BackupCrypto + 导出/导入口令弹窗。自动备份仍为明文(无口令)。",
       "publishedAtMs": 1781004101000
+    },
+    {
+      "version": 981,
+      "versionName": "260609-1935",
+      "userFacingChangelog": "「按住说话」按钮换成更晶莹的液态玻璃质感。",
+      "changelog": "按住说话按钮换成方案A透明液态玻璃(liquidGlass：晶莹+顶底内亮边+外亮边+黄绿内圈环+柔投影，明暗自适应)，去掉黄绿动光晕；笑脸+文案不变；上滑取消仍深玻璃。当前样式前已存档(可回退)。",
+      "publishedAtMs": 1781005080000
     }
   ],
-  "publishedAtMs": 1781004101000,
+  "publishedAtMs": 1781005080000,
   "minSupported": 0
 }
