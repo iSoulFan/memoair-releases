@@ -1,19 +1,12 @@
 {
-  "version": 988,
-  "versionName": "260609-2156",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v988/memoair-v988-260609-2156-slim.apk",
+  "version": 989,
+  "versionName": "260609-2206",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v989/memoair-v989-260609-2206-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "05f793d333c6a92c5789db55fece98922b2e9c5420f9255d6fa92660b345baa6",
-  "changelog": "energyGlass 方向修正：之前线性渐变太偏横(左暗右亮)，改成接近竖向(底亮顶暗微右倾)，底色提成深绿不发黑，白热核回底部正中——对齐设计稿的竖向光形。",
-  "userFacingChangelog": "「按住说话」按钮光效方向修正，对齐设计稿。",
+  "sha256": "e968bf5acedb1b3ed33f4dc5398b653cb5f9e7f5ec74683b531f9bbcd0060e3a",
+  "changelog": "energyGlass 根因修复：线性渐变 start/end 的 x 不等→在超宽按钮上横向分量被宽度放大、退化成左右向(一直左暗右亮的真因)。改成纯竖直(start.x==end.x)，底亮顶暗、横向均匀，对齐设计稿竖向光形。",
+  "userFacingChangelog": "「按住说话」按钮光效方向彻底修正（竖向：底亮顶暗）。",
   "recentReleases": [
-    {
-      "version": 938,
-      "versionName": "260606-1937",
-      "userFacingChangelog": "更新下载时换上了更舒服的全屏动画；展开的纪要、那天的事，用返回手势会先收起来，不再直接退出",
-      "changelog": "OTA下载弹窗接入真实流程：MemoAirRoot.OtaDownloadProgressDialog 的 Downloading 分支改渲染全屏沉浸式 OtaDownloadOverlay(OLLIE摇头+呼吸花瓣+进度条)，Done/失败仍走小卡Dialog，删除废弃 OtaDownloadingContent；BackHandler 折叠补全：那天的事 DailyReportCard(expanded&&!forceExpanded) + 纪要 MeetingsTab(openId!=null)",
-      "publishedAtMs": 1780746206000
-    },
     {
       "version": 939,
       "versionName": "260606-1952",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "「按住说话」按钮光效方向修正，对齐设计稿。",
       "changelog": "energyGlass 方向修正：之前线性渐变太偏横(左暗右亮)，改成接近竖向(底亮顶暗微右倾)，底色提成深绿不发黑，白热核回底部正中——对齐设计稿的竖向光形。",
       "publishedAtMs": 1781013616000
+    },
+    {
+      "version": 989,
+      "versionName": "260609-2206",
+      "userFacingChangelog": "「按住说话」按钮光效方向彻底修正（竖向：底亮顶暗）。",
+      "changelog": "energyGlass 根因修复：线性渐变 start/end 的 x 不等→在超宽按钮上横向分量被宽度放大、退化成左右向(一直左暗右亮的真因)。改成纯竖直(start.x==end.x)，底亮顶暗、横向均匀，对齐设计稿竖向光形。",
+      "publishedAtMs": 1781014365000
     }
   ],
-  "publishedAtMs": 1781013616000,
+  "publishedAtMs": 1781014365000,
   "minSupported": 0
 }
