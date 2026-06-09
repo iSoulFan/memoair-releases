@@ -1,20 +1,13 @@
 {
-  "version": 998,
-  "versionName": "260610-0202",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v998-260610-0202-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v998/memoair-v998-260610-0202-slim.apk",
+  "version": 999,
+  "versionName": "260610-0212",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v999-260610-0212-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v999/memoair-v999-260610-0212-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "4d92b0ce1d9352d551792133cfc39472b4136a03cb770ba44995ecbc6612c048",
-  "changelog": "v998: 噪声门 raw<0.1 归零；圆顶 dR=0.68+0.10level+0.24mic、色流爬升 0.44+0.30mic、光团 0.20mic、声波条 0.10+0.90mic；spring 220→300",
-  "userFacingChangelog": "语音光罩现在跟着音量呼吸——大声说扩散得高、小声收得拢，安静时不再乱动",
+  "sha256": "35fa0e4bee91b131f6af2822735dbc374c736fddbe01c83b9deccdc214d97a82",
+  "changelog": "v999: OtaHttpClient 强制 HTTP/1.1——云盾在无 SNI 链路伪 ALPN h2 不回 SETTINGS 帧，OkHttp 报 Required SETTINGS preface not received",
+  "userFacingChangelog": "修好了更新下载卡住没速度的问题",
   "recentReleases": [
-    {
-      "version": 948,
-      "versionName": "260606-2243",
-      "userFacingChangelog": "升级提示换上了新的动画样式",
-      "changelog": "v948 仅 ITERATION bump：给已装 947 的设备一个目标版本，让 947 的新花瓣升级流程能真机触发验证（代码同 947）",
-      "publishedAtMs": 1780757583000
-    },
     {
       "version": 949,
       "versionName": "260607-0011",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "语音光罩现在跟着音量呼吸——大声说扩散得高、小声收得拢，安静时不再乱动",
       "changelog": "v998: 噪声门 raw<0.1 归零；圆顶 dR=0.68+0.10level+0.24mic、色流爬升 0.44+0.30mic、光团 0.20mic、声波条 0.10+0.90mic；spring 220→300",
       "publishedAtMs": 1781028369000
+    },
+    {
+      "version": 999,
+      "versionName": "260610-0212",
+      "userFacingChangelog": "修好了更新下载卡住没速度的问题",
+      "changelog": "v999: OtaHttpClient 强制 HTTP/1.1——云盾在无 SNI 链路伪 ALPN h2 不回 SETTINGS 帧，OkHttp 报 Required SETTINGS preface not received",
+      "publishedAtMs": 1781029081000
     }
   ],
-  "publishedAtMs": 1781028369000,
+  "publishedAtMs": 1781029081000,
   "minSupported": 0
 }
