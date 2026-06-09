@@ -1,19 +1,12 @@
 {
-  "version": 987,
-  "versionName": "260609-2149",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v987/memoair-v987-260609-2149-slim.apk",
+  "version": 988,
+  "versionName": "260609-2156",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v988/memoair-v988-260609-2156-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "78eb11501aa2c5956828960f4aee9517dc60e220b4d64667c7c72bb7796034e5",
-  "changelog": "energyGlass 彻底去硬线：丢弃压扁椭圆+旋转(那是硬斜线根源)，改用对角线性渐变做底(左上暗→右下亮，线性插值无硬边)+柔和圆形白热核。",
-  "userFacingChangelog": "「按住说话」按钮光效彻底去掉硬线，改成全程虚化的对角过渡。",
+  "sha256": "05f793d333c6a92c5789db55fece98922b2e9c5420f9255d6fa92660b345baa6",
+  "changelog": "energyGlass 方向修正：之前线性渐变太偏横(左暗右亮)，改成接近竖向(底亮顶暗微右倾)，底色提成深绿不发黑，白热核回底部正中——对齐设计稿的竖向光形。",
+  "userFacingChangelog": "「按住说话」按钮光效方向修正，对齐设计稿。",
   "recentReleases": [
-    {
-      "version": 937,
-      "versionName": "260606-1908",
-      "userFacingChangelog": "细节打磨",
-      "changelog": "OTA弹窗OLLIE重抠：mask-init grabcut(外圈定背景+OLLIE形状定前景)精准切出全身含菇盖肩膀/腿/靴不裁切，膨胀30px均匀实心白边(替换会褪色的高斯阈值边)；摇头 820ms→1500ms ±10° 放慢出俏皮感",
-      "publishedAtMs": 1780744667000
-    },
     {
       "version": 938,
       "versionName": "260606-1937",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "「按住说话」按钮光效彻底去掉硬线，改成全程虚化的对角过渡。",
       "changelog": "energyGlass 彻底去硬线：丢弃压扁椭圆+旋转(那是硬斜线根源)，改用对角线性渐变做底(左上暗→右下亮，线性插值无硬边)+柔和圆形白热核。",
       "publishedAtMs": 1781013091000
+    },
+    {
+      "version": 988,
+      "versionName": "260609-2156",
+      "userFacingChangelog": "「按住说话」按钮光效方向修正，对齐设计稿。",
+      "changelog": "energyGlass 方向修正：之前线性渐变太偏横(左暗右亮)，改成接近竖向(底亮顶暗微右倾)，底色提成深绿不发黑，白热核回底部正中——对齐设计稿的竖向光形。",
+      "publishedAtMs": 1781013616000
     }
   ],
-  "publishedAtMs": 1781013091000,
+  "publishedAtMs": 1781013616000,
   "minSupported": 0
 }
