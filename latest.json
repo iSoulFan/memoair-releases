@@ -1,19 +1,12 @@
 {
-  "version": 992,
-  "versionName": "260609-2309",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v992/memoair-v992-260609-2309-slim.apk",
+  "version": 993,
+  "versionName": "260609-2335",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v993/memoair-v993-260609-2335-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "62c87909b10ba229dd1482bbad72620e337f776c4d0c80eb88553f4a7047a6e3",
-  "changelog": "①按住说话字重 Medium→SemiBold ②深色模式按住黄绿遮罩+取消红调亮(stream alpha 深色 0.92→1.0/0.72→0.86，rose 深色提亮) ③行动 4 个 tab FAB(补一段纪要/加一条/说个抉择/许个愿)质感改成跟按住说话同款 glassSurface(VoiceFabSheet 加 glass 开关，字色 Q.Ink)。",
-  "userFacingChangelog": "字重加粗；深色模式录音遮罩调亮；行动各 tab 的按钮换成跟按住说话同款玻璃质感。",
+  "sha256": "ddd019fb740f3cce37df76c0b63e08d2a1beae166ea9d0091b259b0c4de2c8d1",
+  "changelog": "玻璃按钮+录音胶囊浅色磨砂底由纯白换成微冷灰白 #ECEEF2(glassSurface 浅色 + 胶囊收起态 glassBg)，降一点亮度不那么白；深色模式不变。",
+  "userFacingChangelog": "对话/行动的玻璃按钮和右上角录音胶囊降低了一点白度，没那么刺白。",
   "recentReleases": [
-    {
-      "version": 942,
-      "versionName": "260606-2052",
-      "userFacingChangelog": "细节打磨",
-      "changelog": "OTA升级一阶段→二阶段连续动效 Compose 落地：新 OtaFlowOverlay(共享呼吸花瓣贯穿+背景radial透明度 t 0→1 900ms渐变 一阶段0.55/0.0近透到二阶段0.99近实+s1/s2 crossfade)，一阶段花瓣上叠NEW VERSION/发现新版本/版本+更新说明/现在升级问询+现在更新(青绿黄绿填充深字)/以后再说，点现在更新→started渐变进二阶段OLLIE摇头+进度条；正文加深对比(浅#3A332B/深#D8D0C1)；TealGreenPetals 改 internal 共享；调试区加预览开关 settings.ota_flow_preview + OtaFlowOverlayPreview(点现在更新自动跑假进度)",
-      "publishedAtMs": 1780750565000
-    },
     {
       "version": 943,
       "versionName": "260606-2109",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "字重加粗；深色模式录音遮罩调亮；行动各 tab 的按钮换成跟按住说话同款玻璃质感。",
       "changelog": "①按住说话字重 Medium→SemiBold ②深色模式按住黄绿遮罩+取消红调亮(stream alpha 深色 0.92→1.0/0.72→0.86，rose 深色提亮) ③行动 4 个 tab FAB(补一段纪要/加一条/说个抉择/许个愿)质感改成跟按住说话同款 glassSurface(VoiceFabSheet 加 glass 开关，字色 Q.Ink)。",
       "publishedAtMs": 1781018204000
+    },
+    {
+      "version": 993,
+      "versionName": "260609-2335",
+      "userFacingChangelog": "对话/行动的玻璃按钮和右上角录音胶囊降低了一点白度，没那么刺白。",
+      "changelog": "玻璃按钮+录音胶囊浅色磨砂底由纯白换成微冷灰白 #ECEEF2(glassSurface 浅色 + 胶囊收起态 glassBg)，降一点亮度不那么白；深色模式不变。",
+      "publishedAtMs": 1781019661000
     }
   ],
-  "publishedAtMs": 1781018204000,
+  "publishedAtMs": 1781019661000,
   "minSupported": 0
 }
