@@ -1,19 +1,12 @@
 {
-  "version": 990,
-  "versionName": "260609-2219",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v990/memoair-v990-260609-2219-slim.apk",
+  "version": 991,
+  "versionName": "260609-2232",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v991/memoair-v991-260609-2232-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "e7a2430761e57d017135d0ecbcf062f693e07beb4469f80c1a68a13ccff94d35",
-  "changelog": "按住说话按钮改成【纯白磨砂玻璃·新拟态】(frostedGlass)：奶白厚玻璃体+顶亮高光+底柔内影+外柔接地投影，右下藏极淡黄绿虹彩(隐约)；字固定深色。复刻参考图磨砂质感。",
-  "userFacingChangelog": "「按住说话」按钮换成纯白磨砂玻璃质感。",
+  "sha256": "ec49d8af66bf215ca3e60aabc47452d4c8bb998704293b2a5c175c7716e4c639",
+  "changelog": "①按住说话按钮跟旁边键盘/回形针完全同一套 glassSurface(同质感/透明度，字色 inkColMain，明暗自适应) ②滚到底部 FAB 水平居中对齐键盘按钮(end 18→16dp) ③下箭头描边调细(0.11→0.075w 跟线条图标一致)。",
+  "userFacingChangelog": "「按住说话」按钮跟旁边两个统一了；右下箭头按钮对齐了、线条调细。",
   "recentReleases": [
-    {
-      "version": 940,
-      "versionName": "260606-2008",
-      "userFacingChangelog": "外观里新增「相片动画」——可以分别开关每天的拾梦相片冲印动画、和「关于」页的彩蛋拍立得动画（彩蛋默认关，打开后每次进关于都会随机冲印一张）",
-      "changelog": "外观新增「相片动画」ExpandableSection(settings.photoanim)，两开关走新 PhotoAnimPrefs(memoair_photo_anim,懒StateFlow)：①晨间拾梦相片默认开→guard MemoAirRoot.tryTriggerPrint ②关于页彩蛋默认关→AboutEggPrint 由每日门禁(已删AboutEggPrintGate)改成开关控制、开则每次进关于 randomEggPhotoRes() 随机轮播；EggPolaroidCard 加 photoRes 参数+controller.photoRes 单一来源保飞入/落地一致",
-      "publishedAtMs": 1780747985000
-    },
     {
       "version": 941,
       "versionName": "260606-2026",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "「按住说话」按钮换成纯白磨砂玻璃质感。",
       "changelog": "按住说话按钮改成【纯白磨砂玻璃·新拟态】(frostedGlass)：奶白厚玻璃体+顶亮高光+底柔内影+外柔接地投影，右下藏极淡黄绿虹彩(隐约)；字固定深色。复刻参考图磨砂质感。",
       "publishedAtMs": 1781015266000
+    },
+    {
+      "version": 991,
+      "versionName": "260609-2232",
+      "userFacingChangelog": "「按住说话」按钮跟旁边两个统一了；右下箭头按钮对齐了、线条调细。",
+      "changelog": "①按住说话按钮跟旁边键盘/回形针完全同一套 glassSurface(同质感/透明度，字色 inkColMain，明暗自适应) ②滚到底部 FAB 水平居中对齐键盘按钮(end 18→16dp) ③下箭头描边调细(0.11→0.075w 跟线条图标一致)。",
+      "publishedAtMs": 1781016406000
     }
   ],
-  "publishedAtMs": 1781015266000,
+  "publishedAtMs": 1781016406000,
   "minSupported": 0
 }
