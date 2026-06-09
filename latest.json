@@ -1,19 +1,12 @@
 {
-  "version": 970,
-  "versionName": "260609-1713",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v970/memoair-v970-260609-1713-slim.apk",
+  "version": 971,
+  "versionName": "260609-1726",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v971/memoair-v971-260609-1726-slim.apk",
   "sizeBytes": 37739568,
-  "sha256": "228d735398a41c5500814e62ed7075d3aa36c1ce8bbcb919a4486d10c8e81909",
-  "changelog": "键盘按钮移到「按住说话」右边；滚到底部箭头去掉黑底改玻璃质感+简笔下箭头(对标输入按钮)。",
-  "userFacingChangelog": "小调整：键盘按钮挪到了「按住说话」右边；右下角回到底部的按钮也换成了通透的玻璃质感。",
+  "sha256": "2b463a8decef613b2f61deb61a7023f47a874ce20e72fbd7dec6cbcfdf343810",
+  "changelog": "①放宽念念不忘 unforgettable.txt 的 subtext(言外之意)生成：去掉「默认留空/绝大多数0条/绝不天天/最多1条」的人为压制，保留「必须真读到双层落差不脑补」质量门槛，数量上限 1→2。修复长期言外之意几乎不出的问题。②修滚到底部 FAB 矩形框 bug：入场动画 expand/shrinkVertically→fade+scale，避免裁剪切出方角。",
+  "userFacingChangelog": "「言外之意」回来了——之前被调得太保守、很多天都不出，现在读到真实的弦外之音就会浮出来。另外修了右下角按钮的一个小方框瑕疵。",
   "recentReleases": [
-    {
-      "version": 914,
-      "versionName": "260605-0913",
-      "userFacingChangelog": "· 修了「同一个抉择重复出现两张」的问题，重复的会自动合并成一张",
-      "changelog": "v914：抉择去重漏判修复——MirrorAutoScan.isNearDup 加短串包含判断(2~12字选项标签一方整段被另一方包含即判同，如「回成都」⊂「回成都工作生活」、「深圳」⊂「继续在深圳工作生活」)，原来只有 bigram Jaccard≥0.6 被长度差异拉低漏判→同一抉择(成都vs深圳)连续两天生成两张。修后既防新重复，compactExistingChoices 下次开 app 也会把现存重复折叠掉(保留已答题那张)",
-      "publishedAtMs": 1780622263000
-    },
     {
       "version": 915,
       "versionName": "260605-1300",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "小调整：键盘按钮挪到了「按住说话」右边；右下角回到底部的按钮也换成了通透的玻璃质感。",
       "changelog": "键盘按钮移到「按住说话」右边；滚到底部箭头去掉黑底改玻璃质感+简笔下箭头(对标输入按钮)。",
       "publishedAtMs": 1780996533000
+    },
+    {
+      "version": 971,
+      "versionName": "260609-1726",
+      "userFacingChangelog": "「言外之意」回来了——之前被调得太保守、很多天都不出，现在读到真实的弦外之音就会浮出来。另外修了右下角按钮的一个小方框瑕疵。",
+      "changelog": "①放宽念念不忘 unforgettable.txt 的 subtext(言外之意)生成：去掉「默认留空/绝大多数0条/绝不天天/最多1条」的人为压制，保留「必须真读到双层落差不脑补」质量门槛，数量上限 1→2。修复长期言外之意几乎不出的问题。②修滚到底部 FAB 矩形框 bug：入场动画 expand/shrinkVertically→fade+scale，避免裁剪切出方角。",
+      "publishedAtMs": 1780997323000
     }
   ],
-  "publishedAtMs": 1780996533000,
+  "publishedAtMs": 1780997323000,
   "minSupported": 0
 }
