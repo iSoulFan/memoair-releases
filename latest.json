@@ -1,19 +1,12 @@
 {
-  "version": 989,
-  "versionName": "260609-2206",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v989/memoair-v989-260609-2206-slim.apk",
+  "version": 990,
+  "versionName": "260609-2219",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v990/memoair-v990-260609-2219-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "e968bf5acedb1b3ed33f4dc5398b653cb5f9e7f5ec74683b531f9bbcd0060e3a",
-  "changelog": "energyGlass 根因修复：线性渐变 start/end 的 x 不等→在超宽按钮上横向分量被宽度放大、退化成左右向(一直左暗右亮的真因)。改成纯竖直(start.x==end.x)，底亮顶暗、横向均匀，对齐设计稿竖向光形。",
-  "userFacingChangelog": "「按住说话」按钮光效方向彻底修正（竖向：底亮顶暗）。",
+  "sha256": "e7a2430761e57d017135d0ecbcf062f693e07beb4469f80c1a68a13ccff94d35",
+  "changelog": "按住说话按钮改成【纯白磨砂玻璃·新拟态】(frostedGlass)：奶白厚玻璃体+顶亮高光+底柔内影+外柔接地投影，右下藏极淡黄绿虹彩(隐约)；字固定深色。复刻参考图磨砂质感。",
+  "userFacingChangelog": "「按住说话」按钮换成纯白磨砂玻璃质感。",
   "recentReleases": [
-    {
-      "version": 939,
-      "versionName": "260606-1952",
-      "userFacingChangelog": "细节打磨",
-      "changelog": "OtaDownloadOverlay 深色模式适配：跟随 QuietInk.isDark——深色用近黑径向遮罩(#1C1815→#0E0B09)替白底，标题/取消字改柔米(#E4DCCD/#A39B8D)，MB字暖琥珀提亮(#D9B45E)，进度条轨道改 0x22FFFFFF；花瓣/进度填充青绿黄绿+OLLIE白边不变",
-      "publishedAtMs": 1780746880000
-    },
     {
       "version": 940,
       "versionName": "260606-2008",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "「按住说话」按钮光效方向彻底修正（竖向：底亮顶暗）。",
       "changelog": "energyGlass 根因修复：线性渐变 start/end 的 x 不等→在超宽按钮上横向分量被宽度放大、退化成左右向(一直左暗右亮的真因)。改成纯竖直(start.x==end.x)，底亮顶暗、横向均匀，对齐设计稿竖向光形。",
       "publishedAtMs": 1781014365000
+    },
+    {
+      "version": 990,
+      "versionName": "260609-2219",
+      "userFacingChangelog": "「按住说话」按钮换成纯白磨砂玻璃质感。",
+      "changelog": "按住说话按钮改成【纯白磨砂玻璃·新拟态】(frostedGlass)：奶白厚玻璃体+顶亮高光+底柔内影+外柔接地投影，右下藏极淡黄绿虹彩(隐约)；字固定深色。复刻参考图磨砂质感。",
+      "publishedAtMs": 1781015266000
     }
   ],
-  "publishedAtMs": 1781014365000,
+  "publishedAtMs": 1781015266000,
   "minSupported": 0
 }
