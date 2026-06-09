@@ -1,19 +1,12 @@
 {
-  "version": 973,
-  "versionName": "260609-1749",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v973/memoair-v973-260609-1749-slim.apk",
+  "version": 974,
+  "versionName": "260609-1756",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v974/memoair-v974-260609-1756-slim.apk",
   "sizeBytes": 37739568,
-  "sha256": "e9dcfec24ab3a6ba7896a90ea6e594a2a4352fd386d6092e11feb63837445ad5",
-  "changelog": "修 v972 bug：纠错 suspend 跑在 LaunchedEffect(sttState) 里被 acknowledge 改状态而取消→气泡永不出。改用独立 scope.launch；「正在整理…」从 toast 改成显示在绿色覆盖层上(VoiceOverlayState.fixing 态)，整理完才 clear 出气泡；isListening 联动去 else-clear，cancel/error 显式 clear。",
-  "userFacingChangelog": "修复：上一版语音发出来会卡住的问题。现在「正在整理」直接显示在录音的绿色界面上，整理完气泡才出来。",
+  "sha256": "d6fc1e168b46daf66f70f015c77350706d170e3ee8bea990ee46f9bdef87ceef",
+  "changelog": "整理中文案：正在整理… → 正在让 AI 整理一下。",
+  "userFacingChangelog": "语音整理中的提示文案微调。",
   "recentReleases": [
-    {
-      "version": 919,
-      "versionName": "260605-1639",
-      "userFacingChangelog": "新增两位开机搭子可以挑——AURY 冷静可靠、OLLIE 温暖幽默，开场回个 A 或 B 就能选定，也能自己描述想要的样子。顺手打磨了一些文案细节。",
-      "changelog": "新增两位命名搭子 AURY（来自星河的外星人，冷静可靠）/ OLLIE（始终发光的小星星，温暖幽默）：进 ChatPersonaStore.builtinPresets，开场气泡 A/B 速选→matchOpeningPick 确定性套人设+setAiName+把 self 默认头像换成对应内置形象(persona_aury/persona_ollie，圆框 Crop 填满)。关于页彩蛋拍立得重做成拾梦相片样式(米白相纸+微倾+✦+ts-pixel印章，竖图不裁方)挪到版本号上方，进调试手势从版本号还原成连点照片。含上轮空态/开场文案打磨。",
-      "publishedAtMs": 1780648889000
-    },
     {
       "version": 924,
       "versionName": "260605-1812",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "修复：上一版语音发出来会卡住的问题。现在「正在整理」直接显示在录音的绿色界面上，整理完气泡才出来。",
       "changelog": "修 v972 bug：纠错 suspend 跑在 LaunchedEffect(sttState) 里被 acknowledge 改状态而取消→气泡永不出。改用独立 scope.launch；「正在整理…」从 toast 改成显示在绿色覆盖层上(VoiceOverlayState.fixing 态)，整理完才 clear 出气泡；isListening 联动去 else-clear，cancel/error 显式 clear。",
       "publishedAtMs": 1780998673000
+    },
+    {
+      "version": 974,
+      "versionName": "260609-1756",
+      "userFacingChangelog": "语音整理中的提示文案微调。",
+      "changelog": "整理中文案：正在整理… → 正在让 AI 整理一下。",
+      "publishedAtMs": 1780999188000
     }
   ],
-  "publishedAtMs": 1780998673000,
+  "publishedAtMs": 1780999188000,
   "minSupported": 0
 }
