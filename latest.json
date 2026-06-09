@@ -1,19 +1,12 @@
 {
-  "version": 978,
-  "versionName": "260609-1842",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v978/memoair-v978-260609-1842-slim.apk",
+  "version": 979,
+  "versionName": "260609-1855",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v979/memoair-v979-260609-1855-slim.apk",
   "sizeBytes": 37739568,
-  "sha256": "158d3b5c0a055542cb2b6b5910c8a91a8435223cdebfa426e02ba19e6d4362d7",
-  "changelog": "思考态对勾再往下+往右，右臂更上扬=邪魅一笑。",
-  "userFacingChangelog": "AI 润色时的思考表情更俏皮了一点。",
+  "sha256": "5e15d2d700dd8de548ecd1612d51a1c81080c3c675c517e3f9cae8eb850a60c0",
+  "changelog": "①四个 tab 全部去掉红色角标 ②通知/小组件跳转修正：今日整理通知按内容跳行动(待办>0→待办,纪要>0→纪要)；小组件「记得给你说件事」(待办/纪要摘要)点击改跳行动、卡型仍跳时光。",
+  "userFacingChangelog": "底部 tab 不再有红点；通知和小组件里关于新待办/纪要的，点进去直达行动页。",
   "recentReleases": [
-    {
-      "version": 928,
-      "versionName": "260605-2346",
-      "userFacingChangelog": "细节打磨：稳定性提升。",
-      "changelog": "修「登场过的人」点 NEW 角标的人后位置错乱：cells 排序从 live newIds 改为快照(orderNewIds)——clearOne 让 live newIds 变小不再触发重排，避免那个人从末尾跳回前面+后面补位导致'点同位置下一个开出上一个'；FourColumnGrid 加可选稳定 key(person.id)，非 lazy 布局重排时 cell 内部 remember 状态跟 item 走不串位。",
-      "publishedAtMs": 1780674537000
-    },
     {
       "version": 929,
       "versionName": "260606-0113",
@@ -356,8 +349,15 @@
       "userFacingChangelog": "AI 润色时的思考表情更俏皮了一点。",
       "changelog": "思考态对勾再往下+往右，右臂更上扬=邪魅一笑。",
       "publishedAtMs": 1781001895000
+    },
+    {
+      "version": 979,
+      "versionName": "260609-1855",
+      "userFacingChangelog": "底部 tab 不再有红点；通知和小组件里关于新待办/纪要的，点进去直达行动页。",
+      "changelog": "①四个 tab 全部去掉红色角标 ②通知/小组件跳转修正：今日整理通知按内容跳行动(待办>0→待办,纪要>0→纪要)；小组件「记得给你说件事」(待办/纪要摘要)点击改跳行动、卡型仍跳时光。",
+      "publishedAtMs": 1781002722000
     }
   ],
-  "publishedAtMs": 1781001895000,
+  "publishedAtMs": 1781002722000,
   "minSupported": 0
 }
