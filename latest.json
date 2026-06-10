@@ -1,20 +1,13 @@
 {
-  "version": 1024,
-  "versionName": "260610-1639",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1024-260610-1639-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1024/memoair-v1024-260610-1639-slim.apk",
+  "version": 1025,
+  "versionName": "260610-1643",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1025-260610-1643-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1025/memoair-v1025-260610-1643-slim.apk",
   "sizeBytes": 37751856,
-  "sha256": "1da01f360385b08208cf45d4c4b5f6655bf80b02a5ba09ae357f4551205f48ec",
-  "changelog": "v1024: 按钮文案 收下勾选N条→添加N条待办",
-  "userFacingChangelog": "按钮文案更直白了",
+  "sha256": "35cade359bea7360d5dd0868170312084cf17b0fa6e0c948b14f0e767fe10c18",
+  "changelog": "v1025: pager snapPositionalThreshold 0.15→0.35(两处)；含 v1024 文案 添加N条待办",
+  "userFacingChangelog": "左右误滑切页收敛：要拖过三分之一屏宽才翻页；按钮文案改成添加N条待办",
   "recentReleases": [
-    {
-      "version": 975,
-      "versionName": "260609-1802",
-      "userFacingChangelog": "AI 整理语音时，那个小笑脸会变成思考的表情。",
-      "changelog": "AI 整理(fixing)态：笑脸嘴改成对勾✓=思考脸（眼保留）。",
-      "publishedAtMs": 1780999508000
-    },
     {
       "version": 976,
       "versionName": "260609-1808",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "按钮文案更直白了",
       "changelog": "v1024: 按钮文案 收下勾选N条→添加N条待办",
       "publishedAtMs": 1781080871000
+    },
+    {
+      "version": 1025,
+      "versionName": "260610-1643",
+      "userFacingChangelog": "左右误滑切页收敛：要拖过三分之一屏宽才翻页；按钮文案改成添加N条待办",
+      "changelog": "v1025: pager snapPositionalThreshold 0.15→0.35(两处)；含 v1024 文案 添加N条待办",
+      "publishedAtMs": 1781081174000
     }
   ],
-  "publishedAtMs": 1781080871000,
+  "publishedAtMs": 1781081174000,
   "minSupported": 0
 }
