@@ -1,20 +1,13 @@
 {
-  "version": 1034,
-  "versionName": "260611-0026",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1034-260611-0026-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1034/memoair-v1034-260611-0026-slim.apk",
+  "version": 1035,
+  "versionName": "260611-0056",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1035-260611-0056-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1035/memoair-v1035-260611-0056-slim.apk",
   "sizeBytes": 37751856,
-  "sha256": "9aaa4a4c5eaba923947ec2e5632290d93e0d662cf1625c312a927594066bfc7f",
-  "changelog": "v1034: findRecRawQuote 转写原文回捞+RecsTriageState 跨tab保活",
-  "userFacingChangelog": "推荐条目点开能看到你当时的原话了；跳去纪要再回来，卡片还停在原地",
+  "sha256": "2e22adf4115db684dca7101bbb6b167acd7dff62d563c9e7681eaf3e9a803f0c",
+  "changelog": "v1035: SquareCheck 组件(CirclePlus 同笔触)替换三处旧方框",
+  "userFacingChangelog": "待办的勾选方框和圆圈加号统一成同一套笔触，同屏不再打架",
   "recentReleases": [
-    {
-      "version": 985,
-      "versionName": "260609-2055",
-      "userFacingChangelog": "「按住说话」按钮：光效更柔、浅色版加了阴影更清楚。",
-      "changelog": "energyGlass 去硬+加影：多亮源扁椭圆→换成一个又高又宽的平滑大光团(纵半径≈1.7h只显平滑切片不分层)，描边调柔不再硬亮线，浅色版加灰接地影拉开背景对比。",
-      "publishedAtMs": 1781009851000
-    },
     {
       "version": 986,
       "versionName": "260609-2139",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "推荐条目点开能看到你当时的原话了；跳去纪要再回来，卡片还停在原地",
       "changelog": "v1034: findRecRawQuote 转写原文回捞+RecsTriageState 跨tab保活",
       "publishedAtMs": 1781108960555
+    },
+    {
+      "version": 1035,
+      "versionName": "260611-0056",
+      "userFacingChangelog": "待办的勾选方框和圆圈加号统一成同一套笔触，同屏不再打架",
+      "changelog": "v1035: SquareCheck 组件(CirclePlus 同笔触)替换三处旧方框",
+      "publishedAtMs": 1781110817360
     }
   ],
-  "publishedAtMs": 1781108960555,
+  "publishedAtMs": 1781110817360,
   "minSupported": 0
 }
