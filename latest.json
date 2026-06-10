@@ -1,20 +1,13 @@
 {
-  "version": 1025,
-  "versionName": "260610-1643",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1025-260610-1643-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1025/memoair-v1025-260610-1643-slim.apk",
+  "version": 1026,
+  "versionName": "260610-1710",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1026-260610-1710-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1026/memoair-v1026-260610-1710-slim.apk",
   "sizeBytes": 37751856,
-  "sha256": "35cade359bea7360d5dd0868170312084cf17b0fa6e0c948b14f0e767fe10c18",
-  "changelog": "v1025: pager snapPositionalThreshold 0.15→0.35(两处)；含 v1024 文案 添加N条待办",
-  "userFacingChangelog": "左右误滑切页收敛：要拖过三分之一屏宽才翻页；按钮文案改成添加N条待办",
+  "sha256": "cb355bea868712e35d616109ace94b0b6122a82bf1a6c4ca4841110be7b84d51",
+  "changelog": "v1026: 素材闸(本人<4段且<200字且混合<400字)推广至 generateOne+Memory/PersonExtractor，force 不拦",
+  "userFacingChangelog": "空白日不再硬生成卡片——没素材的日子留白，有素材照常",
   "recentReleases": [
-    {
-      "version": 976,
-      "versionName": "260609-1808",
-      "userFacingChangelog": "语音整理提示文案微调。",
-      "changelog": "整理态文案：正在让 AI 整理一下 → AI 正在润色一下。",
-      "publishedAtMs": 1780999918000
-    },
     {
       "version": 977,
       "versionName": "260609-1833",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "左右误滑切页收敛：要拖过三分之一屏宽才翻页；按钮文案改成添加N条待办",
       "changelog": "v1025: pager snapPositionalThreshold 0.15→0.35(两处)；含 v1024 文案 添加N条待办",
       "publishedAtMs": 1781081174000
+    },
+    {
+      "version": 1026,
+      "versionName": "260610-1710",
+      "userFacingChangelog": "空白日不再硬生成卡片——没素材的日子留白，有素材照常",
+      "changelog": "v1026: 素材闸(本人<4段且<200字且混合<400字)推广至 generateOne+Memory/PersonExtractor，force 不拦",
+      "publishedAtMs": 1781082799000
     }
   ],
-  "publishedAtMs": 1781081174000,
+  "publishedAtMs": 1781082799000,
   "minSupported": 0
 }
