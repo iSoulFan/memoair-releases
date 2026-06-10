@@ -1,20 +1,13 @@
 {
-  "version": 1032,
-  "versionName": "260610-2343",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1032-260610-2343-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1032/memoair-v1032-260610-2343-slim.apk",
+  "version": 1033,
+  "versionName": "260611-0008",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1033-260611-0008-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1033/memoair-v1033-260611-0008-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "c04be5900e05f2495384ac55313ef65430a5643eb18036967c311d8b71e2d354",
-  "changelog": "v1032: FlipHero 背面 mindful+spin+rayScale1.18 放射光芒替花瓣",
-  "userFacingChangelog": "成就详情页徽章背后换成会一直旋转的放射光芒",
+  "sha256": "92df8fdc3c6a12301372350f3c5008d3eab334c5a5845e3fbea686b7bd9b3579",
+  "changelog": "v1033: 滚动测速窗(10s<100KB 掐换源)+3 轮重试",
+  "userFacingChangelog": "更新下载会自动识别被限速的线路并换路续传，不再卡死在半路",
   "recentReleases": [
-    {
-      "version": 983,
-      "versionName": "260609-2031",
-      "userFacingChangelog": "「按住说话」按钮换成更还原的融球光效（黑夜/正常各一套）。",
-      "changelog": "energyGlass 重写=1:1 还原图3融球光效：平滑分层径向(白热核下中央+右上 lime 晕+左上冷青暗+暗底)+角向 sweep 细描边+背后发光投影；删硬光束/横条；浅色版干净无暗顶。明暗自适应。",
-      "publishedAtMs": 1781008509000
-    },
     {
       "version": 984,
       "versionName": "260609-2043",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "成就详情页徽章背后换成会一直旋转的放射光芒",
       "changelog": "v1032: FlipHero 背面 mindful+spin+rayScale1.18 放射光芒替花瓣",
       "publishedAtMs": 1781106470264
+    },
+    {
+      "version": 1033,
+      "versionName": "260611-0008",
+      "userFacingChangelog": "更新下载会自动识别被限速的线路并换路续传，不再卡死在半路",
+      "changelog": "v1033: 滚动测速窗(10s<100KB 掐换源)+3 轮重试",
+      "publishedAtMs": 1781107938930
     }
   ],
-  "publishedAtMs": 1781106470264,
+  "publishedAtMs": 1781107938930,
   "minSupported": 0
 }
