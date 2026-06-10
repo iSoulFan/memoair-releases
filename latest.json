@@ -1,20 +1,13 @@
 {
-  "version": 1030,
-  "versionName": "260610-2301",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1030-260610-2301-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1030/memoair-v1030-260610-2301-slim.apk",
+  "version": 1031,
+  "versionName": "260610-2310",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1031-260610-2310-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1031/memoair-v1031-260610-2310-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "54156f87b75d86756ecd3cf58ce5c8710edf451f1e699f142e400d292e0858ed",
-  "changelog": "v1030: 猜你想做详情态标题全展开+去看那份纪要 chip",
-  "userFacingChangelog": "推荐条点开后能看全标题了，还能一键跳回那份纪要",
+  "sha256": "307b69b589bc5d2d742610cfc24ea9e673548a3d8dc6b0555953045b39bacb53",
+  "changelog": "v1031: OTA Range 断点续传+两轮重试+sha256 校验+镜像 HTTP/1.1+失败明细聚合；光罩 fade 回绕修复",
+  "userFacingChangelog": "更新下载改成断点接力：断了换条路继续传，不再从头来过；下完还会校验完整性",
   "recentReleases": [
-    {
-      "version": 981,
-      "versionName": "260609-1935",
-      "userFacingChangelog": "「按住说话」按钮换成更晶莹的液态玻璃质感。",
-      "changelog": "按住说话按钮换成方案A透明液态玻璃(liquidGlass：晶莹+顶底内亮边+外亮边+黄绿内圈环+柔投影，明暗自适应)，去掉黄绿动光晕；笑脸+文案不变；上滑取消仍深玻璃。当前样式前已存档(可回退)。",
-      "publishedAtMs": 1781005080000
-    },
     {
       "version": 982,
       "versionName": "260609-1944",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "推荐条点开后能看全标题了，还能一键跳回那份纪要",
       "changelog": "v1030: 猜你想做详情态标题全展开+去看那份纪要 chip",
       "publishedAtMs": 1781103931000
+    },
+    {
+      "version": 1031,
+      "versionName": "260610-2310",
+      "userFacingChangelog": "更新下载改成断点接力：断了换条路继续传，不再从头来过；下完还会校验完整性",
+      "changelog": "v1031: OTA Range 断点续传+两轮重试+sha256 校验+镜像 HTTP/1.1+失败明细聚合；光罩 fade 回绕修复",
+      "publishedAtMs": 1781105119531
     }
   ],
-  "publishedAtMs": 1781103931000,
+  "publishedAtMs": 1781105119531,
   "minSupported": 0
 }
