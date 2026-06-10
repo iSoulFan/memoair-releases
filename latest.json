@@ -1,20 +1,13 @@
 {
-  "version": 1007,
-  "versionName": "260610-1246",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1007-260610-1246-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1007/memoair-v1007-260610-1246-slim.apk",
-  "sizeBytes": 37747760,
-  "sha256": "31c31daae2fe31405f48a9f6348b7cefd0aa5a22746d4bc89574dac7ee2dadc1",
-  "changelog": "v1007: 猜你想做改贴底抽屉(横滑卡带)+上滑全屏整理模式(勾选+收下勾选忽略其余一键)",
-  "userFacingChangelog": "「猜你想做」搬到了待办页底部的小抽屉——平时横滑着看，往上一滑进整理模式，勾你要的、一键收尾",
+  "version": 1008,
+  "versionName": "260610-1304",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1008-260610-1304-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1008/memoair-v1008-260610-1304-slim.apk",
+  "sizeBytes": 37755952,
+  "sha256": "0522f2f6623cb821008db59c41a8e85e647c06f35955ca0caa39eca74cda3a38",
+  "changelog": "v1008: 抽屉竖排3条；整理页 slideIn+[+]即收+忽略剩余N条+已忽略折叠区可恢复；来源文案改记录/纪要",
+  "userFacingChangelog": "「猜你想做」抽屉改成竖排更顺手；整理页点 + 直接收下、剩下的一键放过；忽略过的折叠在页尾随时找得回",
   "recentReleases": [
-    {
-      "version": 957,
-      "versionName": "260607-0306",
-      "userFacingChangelog": "升级提示界面更顺眼了一点 ✨",
-      "changelog": "OtaFlowOverlay: 一阶段花瓣与文字彻底解耦——花瓣绝对定位固定 ~39%（两阶段同锚零跳变），一阶段文字独立锚 ~30% 整组提上来，二阶段下半独立锚 ~53%。",
-      "publishedAtMs": 1780773014000
-    },
     {
       "version": 958,
       "versionName": "260607-0927",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「猜你想做」搬到了待办页底部的小抽屉——平时横滑着看，往上一滑进整理模式，勾你要的、一键收尾",
       "changelog": "v1007: 猜你想做改贴底抽屉(横滑卡带)+上滑全屏整理模式(勾选+收下勾选忽略其余一键)",
       "publishedAtMs": 1781066938000
+    },
+    {
+      "version": 1008,
+      "versionName": "260610-1304",
+      "userFacingChangelog": "「猜你想做」抽屉改成竖排更顺手；整理页点 + 直接收下、剩下的一键放过；忽略过的折叠在页尾随时找得回",
+      "changelog": "v1008: 抽屉竖排3条；整理页 slideIn+[+]即收+忽略剩余N条+已忽略折叠区可恢复；来源文案改记录/纪要",
+      "publishedAtMs": 1781067991000
     }
   ],
-  "publishedAtMs": 1781066938000,
+  "publishedAtMs": 1781067991000,
   "minSupported": 0
 }
