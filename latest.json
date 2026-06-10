@@ -1,20 +1,13 @@
 {
-  "version": 1026,
-  "versionName": "260610-1710",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1026-260610-1710-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1026/memoair-v1026-260610-1710-slim.apk",
-  "sizeBytes": 37751856,
-  "sha256": "cb355bea868712e35d616109ace94b0b6122a82bf1a6c4ca4841110be7b84d51",
-  "changelog": "v1026: 素材闸(本人<4段且<200字且混合<400字)推广至 generateOne+Memory/PersonExtractor，force 不拦",
-  "userFacingChangelog": "空白日不再硬生成卡片——没素材的日子留白，有素材照常",
+  "version": 1027,
+  "versionName": "260610-1723",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1027-260610-1723-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1027/memoair-v1027-260610-1723-slim.apk",
+  "sizeBytes": 37755952,
+  "sha256": "5f30ee5d8fb5829d8afb48d6a14cc2107a311635466ae13d8c63d7b4944d102c",
+  "changelog": "v1027: 素材闸分级——日报/来信1200字、发芽/英语800字、镜像混合800字、记忆/人物400字、微光/念念维持空白日档",
+  "userFacingChangelog": "话少的日子大卡不再硬写注水文，金句类照常守着你的好句子",
   "recentReleases": [
-    {
-      "version": 977,
-      "versionName": "260609-1833",
-      "userFacingChangelog": "AI 润色时的思考表情位置调正了。",
-      "changelog": "思考态对勾下移到嘴的位置+加大(stroke 9→12dp)，避开眼睛、跟笑嘴位置衔接。",
-      "publishedAtMs": 1781001333000
-    },
     {
       "version": 978,
       "versionName": "260609-1842",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "空白日不再硬生成卡片——没素材的日子留白，有素材照常",
       "changelog": "v1026: 素材闸(本人<4段且<200字且混合<400字)推广至 generateOne+Memory/PersonExtractor，force 不拦",
       "publishedAtMs": 1781082799000
+    },
+    {
+      "version": 1027,
+      "versionName": "260610-1723",
+      "userFacingChangelog": "话少的日子大卡不再硬写注水文，金句类照常守着你的好句子",
+      "changelog": "v1027: 素材闸分级——日报/来信1200字、发芽/英语800字、镜像混合800字、记忆/人物400字、微光/念念维持空白日档",
+      "publishedAtMs": 1781083532000
     }
   ],
-  "publishedAtMs": 1781082799000,
+  "publishedAtMs": 1781083532000,
   "minSupported": 0
 }
