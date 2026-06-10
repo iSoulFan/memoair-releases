@@ -1,20 +1,13 @@
 {
-  "version": 1022,
-  "versionName": "260610-1619",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1022-260610-1619-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1022/memoair-v1022-260610-1619-slim.apk",
+  "version": 1023,
+  "versionName": "260610-1630",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1023-260610-1630-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1023/memoair-v1023-260610-1630-slim.apk",
   "sizeBytes": 37751856,
-  "sha256": "e98adb38871c98c37f3b6a76769cca462a9f6e1762b9a4e1c5f34a04764c5565",
-  "changelog": "v1022: 待办行 14sp/20lh+边距12/8",
-  "userFacingChangelog": "待办列表字号小了一号、行距更紧凑",
+  "sha256": "7451a1f753974b3b8a70d2a40cf88641dcda94c18fd3a7faa348d79fad44d96a",
+  "changelog": "v1023: 猜你想做正文13→14sp；待办铃铛/日历圆钮26→22dp 图标10sp",
+  "userFacingChangelog": "推荐条目字大了一号，待办右边的小圆钮收小了",
   "recentReleases": [
-    {
-      "version": 973,
-      "versionName": "260609-1749",
-      "userFacingChangelog": "修复：上一版语音发出来会卡住的问题。现在「正在整理」直接显示在录音的绿色界面上，整理完气泡才出来。",
-      "changelog": "修 v972 bug：纠错 suspend 跑在 LaunchedEffect(sttState) 里被 acknowledge 改状态而取消→气泡永不出。改用独立 scope.launch；「正在整理…」从 toast 改成显示在绿色覆盖层上(VoiceOverlayState.fixing 态)，整理完才 clear 出气泡；isListening 联动去 else-clear，cancel/error 显式 clear。",
-      "publishedAtMs": 1780998673000
-    },
     {
       "version": 974,
       "versionName": "260609-1756",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "待办列表字号小了一号、行距更紧凑",
       "changelog": "v1022: 待办行 14sp/20lh+边距12/8",
       "publishedAtMs": 1781079734000
+    },
+    {
+      "version": 1023,
+      "versionName": "260610-1630",
+      "userFacingChangelog": "推荐条目字大了一号，待办右边的小圆钮收小了",
+      "changelog": "v1023: 猜你想做正文13→14sp；待办铃铛/日历圆钮26→22dp 图标10sp",
+      "publishedAtMs": 1781080316000
     }
   ],
-  "publishedAtMs": 1781079734000,
+  "publishedAtMs": 1781080316000,
   "minSupported": 0
 }
