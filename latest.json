@@ -1,20 +1,13 @@
 {
-  "version": 1033,
-  "versionName": "260611-0008",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1033-260611-0008-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1033/memoair-v1033-260611-0008-slim.apk",
-  "sizeBytes": 37747760,
-  "sha256": "92df8fdc3c6a12301372350f3c5008d3eab334c5a5845e3fbea686b7bd9b3579",
-  "changelog": "v1033: 滚动测速窗(10s<100KB 掐换源)+3 轮重试",
-  "userFacingChangelog": "更新下载会自动识别被限速的线路并换路续传，不再卡死在半路",
+  "version": 1034,
+  "versionName": "260611-0026",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1034-260611-0026-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1034/memoair-v1034-260611-0026-slim.apk",
+  "sizeBytes": 37751856,
+  "sha256": "9aaa4a4c5eaba923947ec2e5632290d93e0d662cf1625c312a927594066bfc7f",
+  "changelog": "v1034: findRecRawQuote 转写原文回捞+RecsTriageState 跨tab保活",
+  "userFacingChangelog": "推荐条目点开能看到你当时的原话了；跳去纪要再回来，卡片还停在原地",
   "recentReleases": [
-    {
-      "version": 984,
-      "versionName": "260609-2043",
-      "userFacingChangelog": "「按住说话」按钮光效形状/比例修正，跟设计稿对齐。",
-      "changelog": "energyGlass 修形状/比例：每层光改成按 CSS 百分比的椭圆(scale 压扁正圆，纵半径绑高度)，宽扁按钮上不再被洗亮、还原设计稿的形状比例。",
-      "publishedAtMs": 1781009166000
-    },
     {
       "version": 985,
       "versionName": "260609-2055",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "更新下载会自动识别被限速的线路并换路续传，不再卡死在半路",
       "changelog": "v1033: 滚动测速窗(10s<100KB 掐换源)+3 轮重试",
       "publishedAtMs": 1781107938930
+    },
+    {
+      "version": 1034,
+      "versionName": "260611-0026",
+      "userFacingChangelog": "推荐条目点开能看到你当时的原话了；跳去纪要再回来，卡片还停在原地",
+      "changelog": "v1034: findRecRawQuote 转写原文回捞+RecsTriageState 跨tab保活",
+      "publishedAtMs": 1781108960555
     }
   ],
-  "publishedAtMs": 1781107938930,
+  "publishedAtMs": 1781108960555,
   "minSupported": 0
 }
