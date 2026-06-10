@@ -1,20 +1,13 @@
 {
-  "version": 1010,
-  "versionName": "260610-1330",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1010-260610-1330-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1010/memoair-v1010-260610-1330-slim.apk",
-  "sizeBytes": 37755952,
-  "sha256": "35e02f6aab24f01255b2368a9b7dd74273ec1a2e0ce0b83ff002c92ae50e4ba4",
-  "changelog": "v1010: 抽屉展开高度自适应内容(≤74%屏高)；忽略剩余改细线药丸；标题衬线 kicker 化；展开行距12dp；CirclePlus 16dp；FAB 让位 192dp",
-  "userFacingChangelog": "「猜你想做」抽屉按反馈又顺了一轮：高度跟内容走、按钮收敛、标题换了时光卡同款小字",
+  "version": 1011,
+  "versionName": "260610-1356",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1011-260610-1356-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1011/memoair-v1011-260610-1356-slim.apk",
+  "sizeBytes": 37751856,
+  "sha256": "96130b7b9094edff03cce4d1bf28beceb3dd621fa1f6bba36cc0f308a6d582d1",
+  "changelog": "v1011: 猜你想做顶置卡(蓝主题/下滑展开/点行勾选+最新条露原文/收下勾选+忽略其余双按钮)；筛选加已忽略档",
+  "userFacingChangelog": "「猜你想做」搬到了待办列表顶部：下拉把手展开、点行勾选、最新点的那条会显示原话出处；忽略过的去筛选里找",
   "recentReleases": [
-    {
-      "version": 960,
-      "versionName": "260607-1221",
-      "userFacingChangelog": "分享带表格的内容时，列多也更清爽了——会自动按列数把字号缩到合适，尽量不挤成一堆换行。",
-      "changelog": "分享图表格 fit 模式增按列数自适应缩小字号：fitScale(≤3列0.90/4列0.82/5列0.74/≥6列0.66)缩字号+行高(×1.34)、收紧内边距(≥5列 5dp 否则 8dp/纵 6dp)，先尽量不换行实在窄才换。App 内(false)字号边距零变。",
-      "publishedAtMs": 1780806330000
-    },
     {
       "version": 961,
       "versionName": "260607-1344",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「猜你想做」抽屉按反馈又顺了一轮：高度跟内容走、按钮收敛、标题换了时光卡同款小字",
       "changelog": "v1010: 抽屉展开高度自适应内容(≤74%屏高)；忽略剩余改细线药丸；标题衬线 kicker 化；展开行距12dp；CirclePlus 16dp；FAB 让位 192dp",
       "publishedAtMs": 1781069604000
+    },
+    {
+      "version": 1011,
+      "versionName": "260610-1356",
+      "userFacingChangelog": "「猜你想做」搬到了待办列表顶部：下拉把手展开、点行勾选、最新点的那条会显示原话出处；忽略过的去筛选里找",
+      "changelog": "v1011: 猜你想做顶置卡(蓝主题/下滑展开/点行勾选+最新条露原文/收下勾选+忽略其余双按钮)；筛选加已忽略档",
+      "publishedAtMs": 1781071125000
     }
   ],
-  "publishedAtMs": 1781069604000,
+  "publishedAtMs": 1781071125000,
   "minSupported": 0
 }
