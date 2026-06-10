@@ -1,20 +1,13 @@
 {
-  "version": 1008,
-  "versionName": "260610-1304",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1008-260610-1304-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1008/memoair-v1008-260610-1304-slim.apk",
+  "version": 1009,
+  "versionName": "260610-1316",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1009-260610-1316-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1009/memoair-v1009-260610-1316-slim.apk",
   "sizeBytes": 37755952,
-  "sha256": "0522f2f6623cb821008db59c41a8e85e647c06f35955ca0caa39eca74cda3a38",
-  "changelog": "v1008: 抽屉竖排3条；整理页 slideIn+[+]即收+忽略剩余N条+已忽略折叠区可恢复；来源文案改记录/纪要",
-  "userFacingChangelog": "「猜你想做」抽屉改成竖排更顺手；整理页点 + 直接收下、剩下的一键放过；忽略过的折叠在页尾随时找得回",
+  "sha256": "a9d69888fd1ee05465af0398ea82dc5eedb7dc09dfef71c07edd9b771925ccca",
+  "changelog": "v1009: 抽屉与整理页合并为单卡 animateContentSize 原地伸缩+把手拖拽双向；shadow 13dp；CirclePlus 组件全局统一(18dp/1dp Canvas 细线)",
+  "userFacingChangelog": "「猜你想做」抽屉展开收起更跟手了，样式也清爽了一截",
   "recentReleases": [
-    {
-      "version": 958,
-      "versionName": "260607-0927",
-      "userFacingChangelog": "语音识别新增日语、韩语、粤语；AI 回复时也能接着发消息了，会按顺序一条条处理。",
-      "changelog": "QA真实BUG清单批修(v958)：①忙碌期连发不再被send()静默丢弃(去掉||sending闸,ChatRunner Mutex已FIFO串行) ②流式abort/切后台保留已收到残文(lastStreamedVisible兜底,不整段作废) ③§8.9存档播报红线恢复:SoftPushOrchestrator.deliver加storageAckRe硬兜底+create_memory静默+memory/identity ack去存档词 ④语音识别语种补ja/ko/yue入口 ⑤AI名防御性清洗(去控制/零宽符+48字上限)+prompt注入护栏 ⑥ExpandableSection展开态rememberSaveable跨tab存活",
-      "publishedAtMs": 1780795896000
-    },
     {
       "version": 959,
       "versionName": "260607-1157",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「猜你想做」抽屉改成竖排更顺手；整理页点 + 直接收下、剩下的一键放过；忽略过的折叠在页尾随时找得回",
       "changelog": "v1008: 抽屉竖排3条；整理页 slideIn+[+]即收+忽略剩余N条+已忽略折叠区可恢复；来源文案改记录/纪要",
       "publishedAtMs": 1781067991000
+    },
+    {
+      "version": 1009,
+      "versionName": "260610-1316",
+      "userFacingChangelog": "「猜你想做」抽屉展开收起更跟手了，样式也清爽了一截",
+      "changelog": "v1009: 抽屉与整理页合并为单卡 animateContentSize 原地伸缩+把手拖拽双向；shadow 13dp；CirclePlus 组件全局统一(18dp/1dp Canvas 细线)",
+      "publishedAtMs": 1781068725000
     }
   ],
-  "publishedAtMs": 1781067991000,
+  "publishedAtMs": 1781068725000,
   "minSupported": 0
 }
