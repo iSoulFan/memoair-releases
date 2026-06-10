@@ -1,20 +1,13 @@
 {
-  "version": 1006,
-  "versionName": "260610-1220",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1006-260610-1220-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1006/memoair-v1006-260610-1220-slim.apk",
-  "sizeBytes": 37743664,
-  "sha256": "c8f2404e7d11202f1c76eb6426365e3f3c3766db8eb23a484ce7ad791542ab89",
-  "changelog": "v1006: 待办 tab 改两档跑道滑块(待办|AI 推荐·N)，AI 推荐档常驻+空态文案+确认/忽略操作",
-  "userFacingChangelog": "待办页顶部现在是「待办 / AI 推荐」切换滑块——AI 帮你拎出来的事都在推荐档里等你确认",
+  "version": 1007,
+  "versionName": "260610-1246",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1007-260610-1246-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1007/memoair-v1007-260610-1246-slim.apk",
+  "sizeBytes": 37747760,
+  "sha256": "31c31daae2fe31405f48a9f6348b7cefd0aa5a22746d4bc89574dac7ee2dadc1",
+  "changelog": "v1007: 猜你想做改贴底抽屉(横滑卡带)+上滑全屏整理模式(勾选+收下勾选忽略其余一键)",
+  "userFacingChangelog": "「猜你想做」搬到了待办页底部的小抽屉——平时横滑着看，往上一滑进整理模式，勾你要的、一键收尾",
   "recentReleases": [
-    {
-      "version": 956,
-      "versionName": "260607-0251",
-      "userFacingChangelog": "长期记忆里的语音录入更顺手了",
-      "changelog": "长期记忆语音录入：①按钮文案 按住说话→说话新增（避免误以为是搜索）②VoiceFabSheet 实时转写条改 Popup 浮层(脱离布局,不再把宽度算进根Box挤窄左边搜索框);影响全部5处 VoiceFabSheet",
-      "publishedAtMs": 1780772047000
-    },
     {
       "version": 957,
       "versionName": "260607-0306",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "待办页顶部现在是「待办 / AI 推荐」切换滑块——AI 帮你拎出来的事都在推荐档里等你确认",
       "changelog": "v1006: 待办 tab 改两档跑道滑块(待办|AI 推荐·N)，AI 推荐档常驻+空态文案+确认/忽略操作",
       "publishedAtMs": 1781065411000
+    },
+    {
+      "version": 1007,
+      "versionName": "260610-1246",
+      "userFacingChangelog": "「猜你想做」搬到了待办页底部的小抽屉——平时横滑着看，往上一滑进整理模式，勾你要的、一键收尾",
+      "changelog": "v1007: 猜你想做改贴底抽屉(横滑卡带)+上滑全屏整理模式(勾选+收下勾选忽略其余一键)",
+      "publishedAtMs": 1781066938000
     }
   ],
-  "publishedAtMs": 1781065411000,
+  "publishedAtMs": 1781066938000,
   "minSupported": 0
 }
