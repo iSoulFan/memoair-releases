@@ -1,20 +1,13 @@
 {
-  "version": 1004,
-  "versionName": "260610-0958",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1004-260610-0958-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1004/memoair-v1004-260610-0958-slim.apk",
-  "sizeBytes": 37747760,
-  "sha256": "52f17cddd693123b6268013bbbccfa94f87271a79da984633b5b05407b6a96fa",
-  "changelog": "v1004: widget_polaroid_hint 字号 RemoteViews 分档(SMALL_2x2=10.5sp / LARGE_4x4=15sp)",
-  "userFacingChangelog": "2×2 桌面小组件上的提示文字不再大得离谱",
+  "version": 1005,
+  "versionName": "260610-1210",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1005-260610-1210-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1005/memoair-v1005-260610-1210-slim.apk",
+  "sizeBytes": 37743664,
+  "sha256": "a693e45bbf16c8a256b8e8588afffb9e93ca43cee89c2668789ad52ed706fc38",
+  "changelog": "v1005: AI 提炼待办全量 staged 化为「AI 推荐」区([+]确认转正/单条忽略/不进推送)；dedup 改含 staged/dismissed 行；「我擅长什么」全链路下线(UI+Summarizer+Store 字段+历史存量清除)",
+  "userFacingChangelog": "待办页新增「AI 推荐」：AI 从录音里帮你拎出来的事先放这儿，点 + 确认才进正式待办；设置里「我擅长什么」已下线",
   "recentReleases": [
-    {
-      "version": 954,
-      "versionName": "260607-0212",
-      "userFacingChangelog": "升级弹窗 / 桌面图标细节打磨",
-      "changelog": "OTA一阶段删掉「现在升级到最新版？」问询文案；OtaFlowOverlay 花瓣/OLLIE/二阶段回正中只一阶段文字上移(-upShift)，白底 -upShift*(1-t)；OLLIE 图标右下微调收回+6,+9",
-      "publishedAtMs": 1780770193000
-    },
     {
       "version": 955,
       "versionName": "260607-0235",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "2×2 桌面小组件上的提示文字不再大得离谱",
       "changelog": "v1004: widget_polaroid_hint 字号 RemoteViews 分档(SMALL_2x2=10.5sp / LARGE_4x4=15sp)",
       "publishedAtMs": 1781056839000
+    },
+    {
+      "version": 1005,
+      "versionName": "260610-1210",
+      "userFacingChangelog": "待办页新增「AI 推荐」：AI 从录音里帮你拎出来的事先放这儿，点 + 确认才进正式待办；设置里「我擅长什么」已下线",
+      "changelog": "v1005: AI 提炼待办全量 staged 化为「AI 推荐」区([+]确认转正/单条忽略/不进推送)；dedup 改含 staged/dismissed 行；「我擅长什么」全链路下线(UI+Summarizer+Store 字段+历史存量清除)",
+      "publishedAtMs": 1781064849000
     }
   ],
-  "publishedAtMs": 1781056839000,
+  "publishedAtMs": 1781064849000,
   "minSupported": 0
 }
