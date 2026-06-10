@@ -1,20 +1,13 @@
 {
-  "version": 1009,
-  "versionName": "260610-1316",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1009-260610-1316-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1009/memoair-v1009-260610-1316-slim.apk",
+  "version": 1010,
+  "versionName": "260610-1330",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1010-260610-1330-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1010/memoair-v1010-260610-1330-slim.apk",
   "sizeBytes": 37755952,
-  "sha256": "a9d69888fd1ee05465af0398ea82dc5eedb7dc09dfef71c07edd9b771925ccca",
-  "changelog": "v1009: 抽屉与整理页合并为单卡 animateContentSize 原地伸缩+把手拖拽双向；shadow 13dp；CirclePlus 组件全局统一(18dp/1dp Canvas 细线)",
-  "userFacingChangelog": "「猜你想做」抽屉展开收起更跟手了，样式也清爽了一截",
+  "sha256": "35e02f6aab24f01255b2368a9b7dd74273ec1a2e0ce0b83ff002c92ae50e4ba4",
+  "changelog": "v1010: 抽屉展开高度自适应内容(≤74%屏高)；忽略剩余改细线药丸；标题衬线 kicker 化；展开行距12dp；CirclePlus 16dp；FAB 让位 192dp",
+  "userFacingChangelog": "「猜你想做」抽屉按反馈又顺了一轮：高度跟内容走、按钮收敛、标题换了时光卡同款小字",
   "recentReleases": [
-    {
-      "version": 959,
-      "versionName": "260607-1157",
-      "userFacingChangelog": "分享对话/纪要时，带表格的内容不会再被裁掉右边了，整张表都能完整看到。",
-      "changelog": "对话/纪要分享图：SimpleMarkdown 加 fitTablesToWidth(默认 false 不影响 App 内横滚)；分享图传 true → 表格不再 horizontalScroll(静态位图滚动条无效、超宽列被裁)，改列等权 weight(1f) 撑满父宽 + 文字换行，表格变高但完整显示。Chat + Meeting 两个 share renderer 都接。",
-      "publishedAtMs": 1780804809000
-    },
     {
       "version": 960,
       "versionName": "260607-1221",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「猜你想做」抽屉展开收起更跟手了，样式也清爽了一截",
       "changelog": "v1009: 抽屉与整理页合并为单卡 animateContentSize 原地伸缩+把手拖拽双向；shadow 13dp；CirclePlus 组件全局统一(18dp/1dp Canvas 细线)",
       "publishedAtMs": 1781068725000
+    },
+    {
+      "version": 1010,
+      "versionName": "260610-1330",
+      "userFacingChangelog": "「猜你想做」抽屉按反馈又顺了一轮：高度跟内容走、按钮收敛、标题换了时光卡同款小字",
+      "changelog": "v1010: 抽屉展开高度自适应内容(≤74%屏高)；忽略剩余改细线药丸；标题衬线 kicker 化；展开行距12dp；CirclePlus 16dp；FAB 让位 192dp",
+      "publishedAtMs": 1781069604000
     }
   ],
-  "publishedAtMs": 1781068725000,
+  "publishedAtMs": 1781069604000,
   "minSupported": 0
 }
