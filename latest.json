@@ -1,20 +1,13 @@
 {
-  "version": 1031,
-  "versionName": "260610-2310",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1031-260610-2310-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1031/memoair-v1031-260610-2310-slim.apk",
+  "version": 1032,
+  "versionName": "260610-2343",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1032-260610-2343-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1032/memoair-v1032-260610-2343-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "307b69b589bc5d2d742610cfc24ea9e673548a3d8dc6b0555953045b39bacb53",
-  "changelog": "v1031: OTA Range 断点续传+两轮重试+sha256 校验+镜像 HTTP/1.1+失败明细聚合；光罩 fade 回绕修复",
-  "userFacingChangelog": "更新下载改成断点接力：断了换条路继续传，不再从头来过；下完还会校验完整性",
+  "sha256": "c04be5900e05f2495384ac55313ef65430a5643eb18036967c311d8b71e2d354",
+  "changelog": "v1032: FlipHero 背面 mindful+spin+rayScale1.18 放射光芒替花瓣",
+  "userFacingChangelog": "成就详情页徽章背后换成会一直旋转的放射光芒",
   "recentReleases": [
-    {
-      "version": 982,
-      "versionName": "260609-1944",
-      "userFacingChangelog": "「按住说话」按钮换成黄绿光爆质感，黑夜/正常模式各一套。",
-      "changelog": "按住说话按钮换成方案C黄绿光爆(energyGlass，参考图3：下方光爆+斜流光+左青绿+亮黄绿勾边+外发光)，明暗自适应——黑夜深胶囊、正常浅黄绿底(已调淡不扎眼)；笑脸+文案不变；上滑取消仍深玻璃。",
-      "publishedAtMs": 1781005624000
-    },
     {
       "version": 983,
       "versionName": "260609-2031",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "更新下载改成断点接力：断了换条路继续传，不再从头来过；下完还会校验完整性",
       "changelog": "v1031: OTA Range 断点续传+两轮重试+sha256 校验+镜像 HTTP/1.1+失败明细聚合；光罩 fade 回绕修复",
       "publishedAtMs": 1781105119531
+    },
+    {
+      "version": 1032,
+      "versionName": "260610-2343",
+      "userFacingChangelog": "成就详情页徽章背后换成会一直旋转的放射光芒",
+      "changelog": "v1032: FlipHero 背面 mindful+spin+rayScale1.18 放射光芒替花瓣",
+      "publishedAtMs": 1781106470264
     }
   ],
-  "publishedAtMs": 1781105119531,
+  "publishedAtMs": 1781106470264,
   "minSupported": 0
 }
