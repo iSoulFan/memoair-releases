@@ -1,20 +1,13 @@
 {
-  "version": 1028,
-  "versionName": "260610-1741",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1028-260610-1741-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1028/memoair-v1028-260610-1741-slim.apk",
+  "version": 1029,
+  "versionName": "260610-1802",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1029-260610-1802-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1029/memoair-v1029-260610-1802-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "1c04a4cad90b949a62eb74164c682a95d58e5c367aab0b464a272620bff170f6",
-  "changelog": "v1028: DailyGreeting 整体下线+两页 masthead 斜体问候行删除",
-  "userFacingChangelog": "时光和行动页顶部清爽了，一个看不见的后台调用也停了",
+  "sha256": "7139ef08286bc14fd8ae1ff3c15f4a6ab3fdf9380cabf5f93a1db6c34e6cf77c",
+  "changelog": "v1029: 聊天昨天块下线(三层召回兜底)；纪要增量喂料+跨界拼接替换；含纪要 prompt -56% 瘦身",
+  "userFacingChangelog": "省钱三件套上线：聊天轻了一半、纪要不再整天重读、横跨边界的会议能拼回完整一条",
   "recentReleases": [
-    {
-      "version": 979,
-      "versionName": "260609-1855",
-      "userFacingChangelog": "底部 tab 不再有红点；通知和小组件里关于新待办/纪要的，点进去直达行动页。",
-      "changelog": "①四个 tab 全部去掉红色角标 ②通知/小组件跳转修正：今日整理通知按内容跳行动(待办>0→待办,纪要>0→纪要)；小组件「记得给你说件事」(待办/纪要摘要)点击改跳行动、卡型仍跳时光。",
-      "publishedAtMs": 1781002722000
-    },
     {
       "version": 980,
       "versionName": "260609-1920",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "时光和行动页顶部清爽了，一个看不见的后台调用也停了",
       "changelog": "v1028: DailyGreeting 整体下线+两页 masthead 斜体问候行删除",
       "publishedAtMs": 1781084587000
+    },
+    {
+      "version": 1029,
+      "versionName": "260610-1802",
+      "userFacingChangelog": "省钱三件套上线：聊天轻了一半、纪要不再整天重读、横跨边界的会议能拼回完整一条",
+      "changelog": "v1029: 聊天昨天块下线(三层召回兜底)；纪要增量喂料+跨界拼接替换；含纪要 prompt -56% 瘦身",
+      "publishedAtMs": 1781085882000
     }
   ],
-  "publishedAtMs": 1781084587000,
+  "publishedAtMs": 1781085882000,
   "minSupported": 0
 }
