@@ -1,20 +1,13 @@
 {
-  "version": 1002,
-  "versionName": "260610-0854",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1002-260610-0854-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1002/memoair-v1002-260610-0854-slim.apk",
+  "version": 1003,
+  "versionName": "260610-0906",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1003-260610-0906-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1003/memoair-v1003-260610-0906-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "f01dd3d34b37560d3c87b38cae79e05c0e9a4960d5e174a023dba4af8a24579f",
-  "changelog": "v1002: composeWithWatermark 画框四色(外底/内卡/线框/水印)按 QuietInk.isDark 取主题同源值(#15110E/#26221D/#36322D/#6E6759)",
-  "userFacingChangelog": "修复：深夜模式下分享成就卡片，画框现在也是深色的了",
+  "sha256": "f3b4f589dcc81896dbbca403c11a6be8cfd4e5083bc55d46e747b9f3a9e68b65",
+  "changelog": "v1003: OTA connect 5s/read 15s、镜像重排 gh-proxy 第一、memomind 双端口 443+49443 候选",
+  "userFacingChangelog": "更新下载提速：卡住的下载源现在几秒内就自动换下一个，不再傻等",
   "recentReleases": [
-    {
-      "version": 952,
-      "versionName": "260607-0116",
-      "userFacingChangelog": "桌面图标 / 升级弹窗 / 设置排版细节打磨",
-      "changelog": "v952：OTA一阶段内容+白底整体上移22%屏高(BoxWithConstraints offset -maxHeight*0.22)；OLLIE/AURY团子改0.73(0.70偏小)+投影投影bbox列行投影居中(之前阴影撑歪bbox偏左)；设置「外观」组整块移到「记录」上方",
-      "publishedAtMs": 1780766551000
-    },
     {
       "version": 953,
       "versionName": "260607-0155",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "修复：深夜模式下分享成就卡片，画框现在也是深色的了",
       "changelog": "v1002: composeWithWatermark 画框四色(外底/内卡/线框/水印)按 QuietInk.isDark 取主题同源值(#15110E/#26221D/#36322D/#6E6759)",
       "publishedAtMs": 1781053076000
+    },
+    {
+      "version": 1003,
+      "versionName": "260610-0906",
+      "userFacingChangelog": "更新下载提速：卡住的下载源现在几秒内就自动换下一个，不再傻等",
+      "changelog": "v1003: OTA connect 5s/read 15s、镜像重排 gh-proxy 第一、memomind 双端口 443+49443 候选",
+      "publishedAtMs": 1781053816000
     }
   ],
-  "publishedAtMs": 1781053076000,
+  "publishedAtMs": 1781053816000,
   "minSupported": 0
 }
