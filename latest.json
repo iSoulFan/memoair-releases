@@ -1,20 +1,13 @@
 {
-  "version": 1018,
-  "versionName": "260610-1533",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1018-260610-1533-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1018/memoair-v1018-260610-1533-slim.apk",
+  "version": 1019,
+  "versionName": "260610-1550",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1019-260610-1550-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1019/memoair-v1019-260610-1550-slim.apk",
   "sizeBytes": 37751856,
-  "sha256": "1e61f3586581643530a7ef8d888b50d928b5650eb1c923ed590ff1c55a023ae8",
-  "changelog": "v1018: 卡片去按钮动画/去ripple/收起样式对齐新增N条/视口余量8dp；待办行距对齐+铃铛26dp+引文非衬线+修改删除右下角红删除",
-  "userFacingChangelog": "待办行变紧凑了，引文换了清爽小字，修改删除挪到右下角",
+  "sha256": "9110ef3eae0b9869a8949e1e09c4c198e38c85c61d471db84edbe363057ae00d",
+  "changelog": "v1019: 来源标签精简/引文去引号+owner换行/折叠态隐藏来源tag/出处展开卡随高/RecsSeenStore 3天自动忽略",
+  "userFacingChangelog": "出处显示更干净了；展开看过的推荐 3 天不处理会自动进已忽略，没看过的不会过期",
   "recentReleases": [
-    {
-      "version": 969,
-      "versionName": "260609-1621",
-      "userFacingChangelog": "输入栏精修：三个按钮去掉了底下那条背景，悬浮感更强、投影更立体。",
-      "changelog": "去掉输入栏 dock 磨砂背景，三个按钮直接浮在对话上各自带投影；按钮玻璃质感/阴影对标测试版(elevation 26 + 高光 + 更重投影)。",
-      "publishedAtMs": 1780993376000
-    },
     {
       "version": 970,
       "versionName": "260609-1713",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "待办行变紧凑了，引文换了清爽小字，修改删除挪到右下角",
       "changelog": "v1018: 卡片去按钮动画/去ripple/收起样式对齐新增N条/视口余量8dp；待办行距对齐+铃铛26dp+引文非衬线+修改删除右下角红删除",
       "publishedAtMs": 1781077000000
+    },
+    {
+      "version": 1019,
+      "versionName": "260610-1550",
+      "userFacingChangelog": "出处显示更干净了；展开看过的推荐 3 天不处理会自动进已忽略，没看过的不会过期",
+      "changelog": "v1019: 来源标签精简/引文去引号+owner换行/折叠态隐藏来源tag/出处展开卡随高/RecsSeenStore 3天自动忽略",
+      "publishedAtMs": 1781077927000
     }
   ],
-  "publishedAtMs": 1781077000000,
+  "publishedAtMs": 1781077927000,
   "minSupported": 0
 }
