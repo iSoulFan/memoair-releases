@@ -1,20 +1,13 @@
 {
-  "version": 1016,
-  "versionName": "260610-1516",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1016-260610-1516-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1016/memoair-v1016-260610-1516-slim.apk",
+  "version": 1017,
+  "versionName": "260610-1522",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1017-260610-1522-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1017/memoair-v1017-260610-1522-slim.apk",
   "sizeBytes": 37751856,
-  "sha256": "56947033f189ee433a6635a3042bed1898a5b879cb27fea1e8dc5236b9dae9d6",
-  "changelog": "v1016: 加一条永不弹回(LLM 失败原文入库+离线时间解析)；展开首条间隙/按钮换位/收起去箭头",
-  "userFacingChangelog": "「加一条」现在说什么都直接记下，不再让你换个说法；卡片细节又顺了一轮",
+  "sha256": "eaeaf00d777a9c35d4df0c6e4d0f3121abd1f30f178c98fc07f66625d964d53b",
+  "changelog": "v1017: 跟手抽屉(progress 插值视口+白条常驻拖拽吸附)；加一条永不弹回(原文入库+离线时间解析)",
+  "userFacingChangelog": "白条现在能按住拖着走、松手自动吸附；「加一条」说什么都直接记，不再让你换说法",
   "recentReleases": [
-    {
-      "version": 966,
-      "versionName": "260608-1908",
-      "userFacingChangelog": "· 又修了通知点击的落点：之前「新增待办和纪要」这类通知，如果那次刚好也生成了卡片，点了会被带去时光页、像是没跳。现在只要通知里有待办或纪要，就一律直达「行动」板块了。",
-      "changelog": "v966\n- 修抽取摘要通知(ExtractDoneNotifier)点击落点错：v964 原规则有卡片优先跳时光，但一次抽取常同时产卡片+待办+纪要 → 被丢回时光，用户以为没跳转(报告：6:30 收到「新增待办和纪要」点了仍停在时光页)。\n- 倒过来优先级：todos>0 → 行动·待办；meetings>0 → 行动·纪要；仅 cards>0 → 时光最新；纯愿望/无内容 → 默认。\n- 新增 MeetingNavBus.OPEN_TAB(-1)+openTab() 哨兵(同 v964 TodoNavBus)，MainActivity consumeTodoIntent 加 open_meetings → MeetingNavBus.openTab()，SuggestionsScreen 外层纪要 effect 哨兵时切完即 consume(内层 id<=0 已忽略)。\n- 卡片 ProactivePush / widget 仍直达时光，未改。",
-      "publishedAtMs": 1780917345000
-    },
     {
       "version": 968,
       "versionName": "260609-1548",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「加一条」现在说什么都直接记下，不再让你换个说法；卡片细节又顺了一轮",
       "changelog": "v1016: 加一条永不弹回(LLM 失败原文入库+离线时间解析)；展开首条间隙/按钮换位/收起去箭头",
       "publishedAtMs": 1781075883000
+    },
+    {
+      "version": 1017,
+      "versionName": "260610-1522",
+      "userFacingChangelog": "白条现在能按住拖着走、松手自动吸附；「加一条」说什么都直接记，不再让你换说法",
+      "changelog": "v1017: 跟手抽屉(progress 插值视口+白条常驻拖拽吸附)；加一条永不弹回(原文入库+离线时间解析)",
+      "publishedAtMs": 1781076244000
     }
   ],
-  "publishedAtMs": 1781075883000,
+  "publishedAtMs": 1781076244000,
   "minSupported": 0
 }
