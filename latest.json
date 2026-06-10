@@ -1,20 +1,13 @@
 {
-  "version": 1036,
-  "versionName": "260611-0137",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1036-260611-0137-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1036/memoair-v1036-260611-0137-slim.apk",
+  "version": 1037,
+  "versionName": "260611-0145",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1037-260611-0145-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1037/memoair-v1037-260611-0145-slim.apk",
   "sizeBytes": 37751856,
-  "sha256": "799cf8c3ed1c5aa909506919ff4e4cacdfc670e5596d667bf6603d251f4217c2",
-  "changelog": "v1036: 明白了 userFlip=false 回正面；unforgettable subtext 收紧(≤1条/例外而非常态/冒犯自检)",
-  "userFacingChangelog": "念念不忘点「明白了」会翻回金句正面；言外之意回归克制，只在真正读到时才出现",
+  "sha256": "6f6558c80e33e4119f75b4aa5b9e63afe14aa5b6d97461c1296ad43fd46f06fa",
+  "changelog": "v1037: 默认面跟 subtextAcknowledged 持久化走；onAcknowledged 停反面(v1036 方向反了)",
+  "userFacingChangelog": "念念不忘点过「明白了」后，卡片会一直停在言外之意那一面，划走回来也不变",
   "recentReleases": [
-    {
-      "version": 987,
-      "versionName": "260609-2149",
-      "userFacingChangelog": "「按住说话」按钮光效彻底去掉硬线，改成全程虚化的对角过渡。",
-      "changelog": "energyGlass 彻底去硬线：丢弃压扁椭圆+旋转(那是硬斜线根源)，改用对角线性渐变做底(左上暗→右下亮，线性插值无硬边)+柔和圆形白热核。",
-      "publishedAtMs": 1781013091000
-    },
     {
       "version": 988,
       "versionName": "260609-2156",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "念念不忘点「明白了」会翻回金句正面；言外之意回归克制，只在真正读到时才出现",
       "changelog": "v1036: 明白了 userFlip=false 回正面；unforgettable subtext 收紧(≤1条/例外而非常态/冒犯自检)",
       "publishedAtMs": 1781113127987
+    },
+    {
+      "version": 1037,
+      "versionName": "260611-0145",
+      "userFacingChangelog": "念念不忘点过「明白了」后，卡片会一直停在言外之意那一面，划走回来也不变",
+      "changelog": "v1037: 默认面跟 subtextAcknowledged 持久化走；onAcknowledged 停反面(v1036 方向反了)",
+      "publishedAtMs": 1781113718329
     }
   ],
-  "publishedAtMs": 1781113127987,
+  "publishedAtMs": 1781113718329,
   "minSupported": 0
 }
