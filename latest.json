@@ -1,20 +1,13 @@
 {
-  "version": 1015,
-  "versionName": "260610-1504",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1015-260610-1504-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1015/memoair-v1015-260610-1504-slim.apk",
+  "version": 1016,
+  "versionName": "260610-1516",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1016-260610-1516-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1016/memoair-v1016-260610-1516-slim.apk",
   "sizeBytes": 37751856,
-  "sha256": "e9c5abbbbd331f9553af0d291e711ecfa40cc0e0eb405e760893aed2d07fb7cd",
-  "changelog": "v1015: 工具栏固定区/下拉条回归/卡按钮右下角文字款/多选底栏仅保留左删除右",
-  "userFacingChangelog": "筛选栏现在和卡片一起固定在顶部，列表从底下穿过；按钮位置和样式都按新稿调好了",
+  "sha256": "56947033f189ee433a6635a3042bed1898a5b879cb27fea1e8dc5236b9dae9d6",
+  "changelog": "v1016: 加一条永不弹回(LLM 失败原文入库+离线时间解析)；展开首条间隙/按钮换位/收起去箭头",
+  "userFacingChangelog": "「加一条」现在说什么都直接记下，不再让你换个说法；卡片细节又顺了一轮",
   "recentReleases": [
-    {
-      "version": 965,
-      "versionName": "260608-1451",
-      "userFacingChangelog": "· 修了「发现新版本」更新提示的一个显示问题：之前白色背景两侧没盖严，后面卡片的字会透上来跟更新说明叠在一起、看不清，现在铺满了。",
-      "changelog": "v965\n- 修「发现新版本」更新浮层(OtaFlowOverlay)白底遮罩左右盖不全：白底是 radialGradient(baseR=170dp)，原先只 scaleY=2.0(竖向椭圆)，横向半径仍 170dp，盖不住 290dp 文字簇两侧 → 左右边缘透出背景时光卡文字、跟版本 changelog 叠字看不清。改为 graphicsLayer 同时 scaleX=1.6f，把白底实底横向铺过整个内容簇并越过屏幕边缘。纯 UI、无逻辑改动。",
-      "publishedAtMs": 1780901597000
-    },
     {
       "version": 966,
       "versionName": "260608-1908",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "筛选栏现在和卡片一起固定在顶部，列表从底下穿过；按钮位置和样式都按新稿调好了",
       "changelog": "v1015: 工具栏固定区/下拉条回归/卡按钮右下角文字款/多选底栏仅保留左删除右",
       "publishedAtMs": 1781075246000
+    },
+    {
+      "version": 1016,
+      "versionName": "260610-1516",
+      "userFacingChangelog": "「加一条」现在说什么都直接记下，不再让你换个说法；卡片细节又顺了一轮",
+      "changelog": "v1016: 加一条永不弹回(LLM 失败原文入库+离线时间解析)；展开首条间隙/按钮换位/收起去箭头",
+      "publishedAtMs": 1781075883000
     }
   ],
-  "publishedAtMs": 1781075246000,
+  "publishedAtMs": 1781075883000,
   "minSupported": 0
 }
