@@ -1,20 +1,13 @@
 {
-  "version": 1019,
-  "versionName": "260610-1550",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1019-260610-1550-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1019/memoair-v1019-260610-1550-slim.apk",
+  "version": 1020,
+  "versionName": "260610-1601",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1020-260610-1601-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1020/memoair-v1020-260610-1601-slim.apk",
   "sizeBytes": 37751856,
-  "sha256": "9110ef3eae0b9869a8949e1e09c4c198e38c85c61d471db84edbe363057ae00d",
-  "changelog": "v1019: 来源标签精简/引文去引号+owner换行/折叠态隐藏来源tag/出处展开卡随高/RecsSeenStore 3天自动忽略",
-  "userFacingChangelog": "出处显示更干净了；展开看过的推荐 3 天不处理会自动进已忽略，没看过的不会过期",
+  "sha256": "6cc9b1c16151576ace374a7ac464630390ad09c7fd9d9ca24b5b0961c2973ea5",
+  "changelog": "v1020: 行动页四 FAB 高度48dp/底距14dp/SerifCN 14sp 0.3sp——与对话按住说话 pill 水平居中对齐+同字距",
+  "userFacingChangelog": "行动页右下角的玻璃按钮现在跟对话页按住说话完全平齐了，字距也统一了",
   "recentReleases": [
-    {
-      "version": 970,
-      "versionName": "260609-1713",
-      "userFacingChangelog": "小调整：键盘按钮挪到了「按住说话」右边；右下角回到底部的按钮也换成了通透的玻璃质感。",
-      "changelog": "键盘按钮移到「按住说话」右边；滚到底部箭头去掉黑底改玻璃质感+简笔下箭头(对标输入按钮)。",
-      "publishedAtMs": 1780996533000
-    },
     {
       "version": 971,
       "versionName": "260609-1726",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "出处显示更干净了；展开看过的推荐 3 天不处理会自动进已忽略，没看过的不会过期",
       "changelog": "v1019: 来源标签精简/引文去引号+owner换行/折叠态隐藏来源tag/出处展开卡随高/RecsSeenStore 3天自动忽略",
       "publishedAtMs": 1781077927000
+    },
+    {
+      "version": 1020,
+      "versionName": "260610-1601",
+      "userFacingChangelog": "行动页右下角的玻璃按钮现在跟对话页按住说话完全平齐了，字距也统一了",
+      "changelog": "v1020: 行动页四 FAB 高度48dp/底距14dp/SerifCN 14sp 0.3sp——与对话按住说话 pill 水平居中对齐+同字距",
+      "publishedAtMs": 1781078599000
     }
   ],
-  "publishedAtMs": 1781077927000,
+  "publishedAtMs": 1781078599000,
   "minSupported": 0
 }
