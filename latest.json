@@ -1,20 +1,13 @@
 {
-  "version": 1014,
-  "versionName": "260610-1452",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1014-260610-1452-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1014/memoair-v1014-260610-1452-slim.apk",
-  "sizeBytes": 37747760,
-  "sha256": "8ff5a433d252a3c3033510a00fa0829e40924de6434776ced3879977d37882bd",
-  "changelog": "v1014: 收起︿右上角/边距对称/原文跟随勾选态",
-  "userFacingChangelog": "细节又顺了一轮：收起按钮挪到右上角不挡操作，卡片留白对称，原话跟着勾选走",
+  "version": 1015,
+  "versionName": "260610-1504",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1015-260610-1504-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1015/memoair-v1015-260610-1504-slim.apk",
+  "sizeBytes": 37751856,
+  "sha256": "e9c5abbbbd331f9553af0d291e711ecfa40cc0e0eb405e760893aed2d07fb7cd",
+  "changelog": "v1015: 工具栏固定区/下拉条回归/卡按钮右下角文字款/多选底栏仅保留左删除右",
+  "userFacingChangelog": "筛选栏现在和卡片一起固定在顶部，列表从底下穿过；按钮位置和样式都按新稿调好了",
   "recentReleases": [
-    {
-      "version": 964,
-      "versionName": "260608-1421",
-      "userFacingChangelog": "· 通知和桌面小组件点进来更聪明了：推的是待办，就直接打开「行动 → 待办」；推的是时光卡片，就直接到「时光」最新那条，不用再自己翻了。",
-      "changelog": "v964\n- 通知/小组件点击直达对应页面。\n  · 待办到期提醒(TodoReminderAlarm)原带 from_todo_reminder+todo_id，但 MainActivity 从未消费 → 点进去停在默认对话页。新增 consumeTodoIntent(onCreate+onNewIntent)：todo_id>0 → TodoNavBus.jumpTo(切「行动」+「待办」子 tab+滚到那条)；无具体 id → TodoNavBus.openTab() 只切待办 tab。\n  · ExtractDoneNotifier「新增 N 条」摘要通知原 postSimple 无 deep link → 默认页。改为按内容深链：有卡片→时光最新(card_id=LATEST)；否则只有待办→open_todos→待办 tab。\n  · 新增 TodoNavBus.OPEN_TAB(-1L) 哨兵 + openTab()；SuggestionsScreen 外层切 tab effect 在哨兵时切完即 consume(否则 pending 滞留 -1，下次 openTab 同值不 emit 切不动)；TodosTab 内层 id<=0 本就忽略不滚。\n  · 卡片推送(ProactivePush，card_id)与 widget 点击本就经 CardNavBus 直达时光，未改动。\n  · 所有 nav bus 走 process-scope StateFlow，冷启动从通知进也不丢。",
-      "publishedAtMs": 1780899884000
-    },
     {
       "version": 965,
       "versionName": "260608-1451",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "细节又顺了一轮：收起按钮挪到右上角不挡操作，卡片留白对称，原话跟着勾选走",
       "changelog": "v1014: 收起︿右上角/边距对称/原文跟随勾选态",
       "publishedAtMs": 1781074486000
+    },
+    {
+      "version": 1015,
+      "versionName": "260610-1504",
+      "userFacingChangelog": "筛选栏现在和卡片一起固定在顶部，列表从底下穿过；按钮位置和样式都按新稿调好了",
+      "changelog": "v1015: 工具栏固定区/下拉条回归/卡按钮右下角文字款/多选底栏仅保留左删除右",
+      "publishedAtMs": 1781075246000
     }
   ],
-  "publishedAtMs": 1781074486000,
+  "publishedAtMs": 1781075246000,
   "minSupported": 0
 }
