@@ -1,20 +1,13 @@
 {
-  "version": 1003,
-  "versionName": "260610-0906",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1003-260610-0906-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1003/memoair-v1003-260610-0906-slim.apk",
+  "version": 1004,
+  "versionName": "260610-0958",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1004-260610-0958-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1004/memoair-v1004-260610-0958-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "f3b4f589dcc81896dbbca403c11a6be8cfd4e5083bc55d46e747b9f3a9e68b65",
-  "changelog": "v1003: OTA connect 5s/read 15s、镜像重排 gh-proxy 第一、memomind 双端口 443+49443 候选",
-  "userFacingChangelog": "更新下载提速：卡住的下载源现在几秒内就自动换下一个，不再傻等",
+  "sha256": "52f17cddd693123b6268013bbbccfa94f87271a79da984633b5b05407b6a96fa",
+  "changelog": "v1004: widget_polaroid_hint 字号 RemoteViews 分档(SMALL_2x2=10.5sp / LARGE_4x4=15sp)",
+  "userFacingChangelog": "2×2 桌面小组件上的提示文字不再大得离谱",
   "recentReleases": [
-    {
-      "version": 953,
-      "versionName": "260607-0155",
-      "userFacingChangelog": "桌面图标细节打磨",
-      "changelog": "OLLIE 图标主体往右下微调(目标中心 232,237 = 正中+16,+22)",
-      "publishedAtMs": 1780768731000
-    },
     {
       "version": 954,
       "versionName": "260607-0212",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "更新下载提速：卡住的下载源现在几秒内就自动换下一个，不再傻等",
       "changelog": "v1003: OTA connect 5s/read 15s、镜像重排 gh-proxy 第一、memomind 双端口 443+49443 候选",
       "publishedAtMs": 1781053816000
+    },
+    {
+      "version": 1004,
+      "versionName": "260610-0958",
+      "userFacingChangelog": "2×2 桌面小组件上的提示文字不再大得离谱",
+      "changelog": "v1004: widget_polaroid_hint 字号 RemoteViews 分档(SMALL_2x2=10.5sp / LARGE_4x4=15sp)",
+      "publishedAtMs": 1781056839000
     }
   ],
-  "publishedAtMs": 1781053816000,
+  "publishedAtMs": 1781056839000,
   "minSupported": 0
 }
