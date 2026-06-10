@@ -1,20 +1,13 @@
 {
-  "version": 1021,
-  "versionName": "260610-1615",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1021-260610-1615-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1021/memoair-v1021-260610-1615-slim.apk",
+  "version": 1022,
+  "versionName": "260610-1619",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1022-260610-1619-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1022/memoair-v1022-260610-1619-slim.apk",
   "sizeBytes": 37751856,
-  "sha256": "9713341e943e5ff110ff998c485829bf38565c3bb438d5b58a28c3c77e35d70c",
-  "changelog": "v1021: 按钮区随拖动进度插值长出+白条触摸区放宽至27dp",
-  "userFacingChangelog": "拖白条时底部按钮跟着顺滑长出来了，白条也更好摸了",
+  "sha256": "e98adb38871c98c37f3b6a76769cca462a9f6e1762b9a4e1c5f34a04764c5565",
+  "changelog": "v1022: 待办行 14sp/20lh+边距12/8",
+  "userFacingChangelog": "待办列表字号小了一号、行距更紧凑",
   "recentReleases": [
-    {
-      "version": 972,
-      "versionName": "260609-1739",
-      "userFacingChangelog": "语音输入更准了——按住说话松手后，会先把转写用 AI 顺一遍（修同音字、标点、断句）再发出来。",
-      "changelog": "按住说话松开后，先用大模型纠错(同音字/断句/标点，不改原意不增删)再上气泡 → 提高语音转写正确率。VoiceTranscriptFixer：失败安全回退原文，仅按住说话路径，纠错时提示「正在整理转写…」。",
-      "publishedAtMs": 1780998044000
-    },
     {
       "version": 973,
       "versionName": "260609-1749",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "拖白条时底部按钮跟着顺滑长出来了，白条也更好摸了",
       "changelog": "v1021: 按钮区随拖动进度插值长出+白条触摸区放宽至27dp",
       "publishedAtMs": 1781079434000
+    },
+    {
+      "version": 1022,
+      "versionName": "260610-1619",
+      "userFacingChangelog": "待办列表字号小了一号、行距更紧凑",
+      "changelog": "v1022: 待办行 14sp/20lh+边距12/8",
+      "publishedAtMs": 1781079734000
     }
   ],
-  "publishedAtMs": 1781079434000,
+  "publishedAtMs": 1781079734000,
   "minSupported": 0
 }
