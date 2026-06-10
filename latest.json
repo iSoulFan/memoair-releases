@@ -1,20 +1,13 @@
 {
-  "version": 1020,
-  "versionName": "260610-1601",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1020-260610-1601-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1020/memoair-v1020-260610-1601-slim.apk",
+  "version": 1021,
+  "versionName": "260610-1615",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1021-260610-1615-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1021/memoair-v1021-260610-1615-slim.apk",
   "sizeBytes": 37751856,
-  "sha256": "6cc9b1c16151576ace374a7ac464630390ad09c7fd9d9ca24b5b0961c2973ea5",
-  "changelog": "v1020: 行动页四 FAB 高度48dp/底距14dp/SerifCN 14sp 0.3sp——与对话按住说话 pill 水平居中对齐+同字距",
-  "userFacingChangelog": "行动页右下角的玻璃按钮现在跟对话页按住说话完全平齐了，字距也统一了",
+  "sha256": "9713341e943e5ff110ff998c485829bf38565c3bb438d5b58a28c3c77e35d70c",
+  "changelog": "v1021: 按钮区随拖动进度插值长出+白条触摸区放宽至27dp",
+  "userFacingChangelog": "拖白条时底部按钮跟着顺滑长出来了，白条也更好摸了",
   "recentReleases": [
-    {
-      "version": 971,
-      "versionName": "260609-1726",
-      "userFacingChangelog": "「言外之意」回来了——之前被调得太保守、很多天都不出，现在读到真实的弦外之音就会浮出来。另外修了右下角按钮的一个小方框瑕疵。",
-      "changelog": "①放宽念念不忘 unforgettable.txt 的 subtext(言外之意)生成：去掉「默认留空/绝大多数0条/绝不天天/最多1条」的人为压制，保留「必须真读到双层落差不脑补」质量门槛，数量上限 1→2。修复长期言外之意几乎不出的问题。②修滚到底部 FAB 矩形框 bug：入场动画 expand/shrinkVertically→fade+scale，避免裁剪切出方角。",
-      "publishedAtMs": 1780997323000
-    },
     {
       "version": 972,
       "versionName": "260609-1739",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "行动页右下角的玻璃按钮现在跟对话页按住说话完全平齐了，字距也统一了",
       "changelog": "v1020: 行动页四 FAB 高度48dp/底距14dp/SerifCN 14sp 0.3sp——与对话按住说话 pill 水平居中对齐+同字距",
       "publishedAtMs": 1781078599000
+    },
+    {
+      "version": 1021,
+      "versionName": "260610-1615",
+      "userFacingChangelog": "拖白条时底部按钮跟着顺滑长出来了，白条也更好摸了",
+      "changelog": "v1021: 按钮区随拖动进度插值长出+白条触摸区放宽至27dp",
+      "publishedAtMs": 1781079434000
     }
   ],
-  "publishedAtMs": 1781078599000,
+  "publishedAtMs": 1781079434000,
   "minSupported": 0
 }
