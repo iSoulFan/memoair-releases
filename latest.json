@@ -1,20 +1,13 @@
 {
-  "version": 1012,
-  "versionName": "260610-1408",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1012-260610-1408-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1012/memoair-v1012-260610-1408-slim.apk",
-  "sizeBytes": 37751856,
-  "sha256": "778ceeb8774cde570dd01fb328db5fa44fe2974a99f43ab2275e6067fd3a9e73",
-  "changelog": "v1012: 顶置卡-自动回顶/新增N条右移贴整理/把手移卡底/去阴影",
-  "userFacingChangelog": "「猜你想做」进待办直接可见，把手挪到卡片下沿，标题行清爽了",
+  "version": 1013,
+  "versionName": "260610-1438",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1013-260610-1438-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1013/memoair-v1013-260610-1438-slim.apk",
+  "sizeBytes": 37747760,
+  "sha256": "be01c6afd405954e8fe44bc7cd8f3916fa98e295db4debc7ab03e4f9c4e52389",
+  "changelog": "v1013: 猜你想做常驻独立分区(不随滚动)/删整理钮/新增N条最右/点卡展开点列表收回；铃铛激活态 TodoBlue",
+  "userFacingChangelog": "「猜你想做」固定在待办顶部不再跟着滚动，点卡片就展开、碰下面列表就收回；铃铛也换上了这页的蓝",
   "recentReleases": [
-    {
-      "version": 962,
-      "versionName": "260607-1756",
-      "userFacingChangelog": "· 时光页修好了：后台新生成的卡片，现在一进页面就能看到，不用再去对话里跳一下了。\n· 声纹更贴心了：要是发现你说的话总没被认出来是你，我会挑个合适的时候，轻轻提醒你重新采一段声纹。",
-      "changelog": "v962\n- 声纹关怀提醒：新增 VoiceprintCareWorker（DailyAlarmHub 20:30 daily，仅声纹过滤开启且已注册基线时跑）。按 ConversationGrouper 对话维度统计声纹拒绝率：最近 5 个录音日中 ≥3 天出现「单次对话 ≥60% 说话段判 SpeakerNotMe + Primary 产出字数近空 + 被剔段数达下限」即触发，往对话插一条 Proactive 关怀消息建议重采声纹。14 天冷却 + 重采主声纹清零坏日历史。新增 VoiceprintCarePrefs(SharedPrefs 滚动窗口 WINDOW=5)。无 DB migration、纯复用 tier/speakerSim 现有字段。文案不含「录音」字样。\n- 时光卡片刷新修复：新增 repo.cardsHot 进程级常驻热流(observeAll().stateIn(repoScope, Eagerly))，TimelineScreen 改读它替代每次新建的 observeCards() 订阅。修复后台生成新卡时时光页需先去对话页跳转一圈才显示(根因：页被 HorizontalPager 回收后订阅断开)。平板 WideLayout 一并受益。",
-      "publishedAtMs": 1780846692000
-    },
     {
       "version": 963,
       "versionName": "260608-0905",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「猜你想做」进待办直接可见，把手挪到卡片下沿，标题行清爽了",
       "changelog": "v1012: 顶置卡-自动回顶/新增N条右移贴整理/把手移卡底/去阴影",
       "publishedAtMs": 1781071766000
+    },
+    {
+      "version": 1013,
+      "versionName": "260610-1438",
+      "userFacingChangelog": "「猜你想做」固定在待办顶部不再跟着滚动，点卡片就展开、碰下面列表就收回；铃铛也换上了这页的蓝",
+      "changelog": "v1013: 猜你想做常驻独立分区(不随滚动)/删整理钮/新增N条最右/点卡展开点列表收回；铃铛激活态 TodoBlue",
+      "publishedAtMs": 1781073572000
     }
   ],
-  "publishedAtMs": 1781071766000,
+  "publishedAtMs": 1781073572000,
   "minSupported": 0
 }
