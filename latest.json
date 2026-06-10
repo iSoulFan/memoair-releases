@@ -1,20 +1,13 @@
 {
-  "version": 1023,
-  "versionName": "260610-1630",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1023-260610-1630-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1023/memoair-v1023-260610-1630-slim.apk",
+  "version": 1024,
+  "versionName": "260610-1639",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1024-260610-1639-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1024/memoair-v1024-260610-1639-slim.apk",
   "sizeBytes": 37751856,
-  "sha256": "7451a1f753974b3b8a70d2a40cf88641dcda94c18fd3a7faa348d79fad44d96a",
-  "changelog": "v1023: 猜你想做正文13→14sp；待办铃铛/日历圆钮26→22dp 图标10sp",
-  "userFacingChangelog": "推荐条目字大了一号，待办右边的小圆钮收小了",
+  "sha256": "1da01f360385b08208cf45d4c4b5f6655bf80b02a5ba09ae357f4551205f48ec",
+  "changelog": "v1024: 按钮文案 收下勾选N条→添加N条待办",
+  "userFacingChangelog": "按钮文案更直白了",
   "recentReleases": [
-    {
-      "version": 974,
-      "versionName": "260609-1756",
-      "userFacingChangelog": "语音整理中的提示文案微调。",
-      "changelog": "整理中文案：正在整理… → 正在让 AI 整理一下。",
-      "publishedAtMs": 1780999188000
-    },
     {
       "version": 975,
       "versionName": "260609-1802",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "推荐条目字大了一号，待办右边的小圆钮收小了",
       "changelog": "v1023: 猜你想做正文13→14sp；待办铃铛/日历圆钮26→22dp 图标10sp",
       "publishedAtMs": 1781080316000
+    },
+    {
+      "version": 1024,
+      "versionName": "260610-1639",
+      "userFacingChangelog": "按钮文案更直白了",
+      "changelog": "v1024: 按钮文案 收下勾选N条→添加N条待办",
+      "publishedAtMs": 1781080871000
     }
   ],
-  "publishedAtMs": 1781080316000,
+  "publishedAtMs": 1781080871000,
   "minSupported": 0
 }
