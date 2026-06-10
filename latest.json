@@ -1,20 +1,13 @@
 {
-  "version": 1029,
-  "versionName": "260610-1802",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1029-260610-1802-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1029/memoair-v1029-260610-1802-slim.apk",
+  "version": 1030,
+  "versionName": "260610-2301",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1030-260610-2301-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1030/memoair-v1030-260610-2301-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "7139ef08286bc14fd8ae1ff3c15f4a6ab3fdf9380cabf5f93a1db6c34e6cf77c",
-  "changelog": "v1029: 聊天昨天块下线(三层召回兜底)；纪要增量喂料+跨界拼接替换；含纪要 prompt -56% 瘦身",
-  "userFacingChangelog": "省钱三件套上线：聊天轻了一半、纪要不再整天重读、横跨边界的会议能拼回完整一条",
+  "sha256": "54156f87b75d86756ecd3cf58ce5c8710edf451f1e699f142e400d292e0858ed",
+  "changelog": "v1030: 猜你想做详情态标题全展开+去看那份纪要 chip",
+  "userFacingChangelog": "推荐条点开后能看全标题了，还能一键跳回那份纪要",
   "recentReleases": [
-    {
-      "version": 980,
-      "versionName": "260609-1920",
-      "userFacingChangelog": "导入导出升级成加密的了——导出时设个密码，文件只有「记得」+ 密码能打开，别人拆包看不到任何文字图片。旧备份照样能导入。",
-      "changelog": "备份加密：导出 .memoair 文件用用户口令 AES-256-GCM 加密(PBKDF2 150k 派生)，拆包无明文；导入自动识别加密包→输密码解密，旧明文 zip 仍兼容导入。BackupCrypto + 导出/导入口令弹窗。自动备份仍为明文(无口令)。",
-      "publishedAtMs": 1781004101000
-    },
     {
       "version": 981,
       "versionName": "260609-1935",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "省钱三件套上线：聊天轻了一半、纪要不再整天重读、横跨边界的会议能拼回完整一条",
       "changelog": "v1029: 聊天昨天块下线(三层召回兜底)；纪要增量喂料+跨界拼接替换；含纪要 prompt -56% 瘦身",
       "publishedAtMs": 1781085882000
+    },
+    {
+      "version": 1030,
+      "versionName": "260610-2301",
+      "userFacingChangelog": "推荐条点开后能看全标题了，还能一键跳回那份纪要",
+      "changelog": "v1030: 猜你想做详情态标题全展开+去看那份纪要 chip",
+      "publishedAtMs": 1781103931000
     }
   ],
-  "publishedAtMs": 1781085882000,
+  "publishedAtMs": 1781103931000,
   "minSupported": 0
 }
