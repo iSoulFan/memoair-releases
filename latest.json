@@ -1,20 +1,13 @@
 {
-  "version": 1001,
-  "versionName": "260610-0236",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1001-260610-0236-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1001/memoair-v1001-260610-0236-slim.apk",
+  "version": 1002,
+  "versionName": "260610-0854",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1002-260610-0854-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1002/memoair-v1002-260610-0854-slim.apk",
   "sizeBytes": 37747760,
-  "sha256": "54d9704281186bf8a3d91a4a24d3399c3b24fc97a6bb3e10bd3319889443bf96",
-  "changelog": "v1001: dR=0.30h+0.08level+0.55mic 圆心 cyFace+0.30dR 下沉；色流 dir 主下(i%3 微上)、travel 0.10+0.32mic、光团 0.13+0.06rise+0.22mic、横向 0.30+0.80mic",
-  "userFacingChangelog": "光晕起始更饱满，说话时大面积往下铺开——整屏的氛围感比上版强很多",
+  "sha256": "f01dd3d34b37560d3c87b38cae79e05c0e9a4960d5e174a023dba4af8a24579f",
+  "changelog": "v1002: composeWithWatermark 画框四色(外底/内卡/线框/水印)按 QuietInk.isDark 取主题同源值(#15110E/#26221D/#36322D/#6E6759)",
+  "userFacingChangelog": "修复：深夜模式下分享成就卡片，画框现在也是深色的了",
   "recentReleases": [
-    {
-      "version": 951,
-      "versionName": "260607-0053",
-      "userFacingChangelog": "桌面图标细节打磨；念念不忘金句排版微调",
-      "changelog": "v951 重发(上次任务被kill未发成)：含图标微调(深点居中/团子居中/#3-7缩0.70/改名 OLLIE暖夜·AURY星夜·双人手办) + 念念不忘金句末行去掉结尾标点(unforgettableVerseLines 末行 trimEnd 句末标点)",
-      "publishedAtMs": 1780765697000
-    },
     {
       "version": 952,
       "versionName": "260607-0116",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "光晕起始更饱满，说话时大面积往下铺开——整屏的氛围感比上版强很多",
       "changelog": "v1001: dR=0.30h+0.08level+0.55mic 圆心 cyFace+0.30dR 下沉；色流 dir 主下(i%3 微上)、travel 0.10+0.32mic、光团 0.13+0.06rise+0.22mic、横向 0.30+0.80mic",
       "publishedAtMs": 1781030419000
+    },
+    {
+      "version": 1002,
+      "versionName": "260610-0854",
+      "userFacingChangelog": "修复：深夜模式下分享成就卡片，画框现在也是深色的了",
+      "changelog": "v1002: composeWithWatermark 画框四色(外底/内卡/线框/水印)按 QuietInk.isDark 取主题同源值(#15110E/#26221D/#36322D/#6E6759)",
+      "publishedAtMs": 1781053076000
     }
   ],
-  "publishedAtMs": 1781030419000,
+  "publishedAtMs": 1781053076000,
   "minSupported": 0
 }
