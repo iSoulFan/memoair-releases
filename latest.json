@@ -1,20 +1,13 @@
 {
-  "version": 1027,
-  "versionName": "260610-1723",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1027-260610-1723-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1027/memoair-v1027-260610-1723-slim.apk",
-  "sizeBytes": 37755952,
-  "sha256": "5f30ee5d8fb5829d8afb48d6a14cc2107a311635466ae13d8c63d7b4944d102c",
-  "changelog": "v1027: 素材闸分级——日报/来信1200字、发芽/英语800字、镜像混合800字、记忆/人物400字、微光/念念维持空白日档",
-  "userFacingChangelog": "话少的日子大卡不再硬写注水文，金句类照常守着你的好句子",
+  "version": 1028,
+  "versionName": "260610-1741",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1028-260610-1741-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1028/memoair-v1028-260610-1741-slim.apk",
+  "sizeBytes": 37747760,
+  "sha256": "1c04a4cad90b949a62eb74164c682a95d58e5c367aab0b464a272620bff170f6",
+  "changelog": "v1028: DailyGreeting 整体下线+两页 masthead 斜体问候行删除",
+  "userFacingChangelog": "时光和行动页顶部清爽了，一个看不见的后台调用也停了",
   "recentReleases": [
-    {
-      "version": 978,
-      "versionName": "260609-1842",
-      "userFacingChangelog": "AI 润色时的思考表情更俏皮了一点。",
-      "changelog": "思考态对勾再往下+往右，右臂更上扬=邪魅一笑。",
-      "publishedAtMs": 1781001895000
-    },
     {
       "version": 979,
       "versionName": "260609-1855",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "话少的日子大卡不再硬写注水文，金句类照常守着你的好句子",
       "changelog": "v1027: 素材闸分级——日报/来信1200字、发芽/英语800字、镜像混合800字、记忆/人物400字、微光/念念维持空白日档",
       "publishedAtMs": 1781083532000
+    },
+    {
+      "version": 1028,
+      "versionName": "260610-1741",
+      "userFacingChangelog": "时光和行动页顶部清爽了，一个看不见的后台调用也停了",
+      "changelog": "v1028: DailyGreeting 整体下线+两页 masthead 斜体问候行删除",
+      "publishedAtMs": 1781084587000
     }
   ],
-  "publishedAtMs": 1781083532000,
+  "publishedAtMs": 1781084587000,
   "minSupported": 0
 }
