@@ -1,20 +1,13 @@
 {
-  "version": 1011,
-  "versionName": "260610-1356",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1011-260610-1356-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1011/memoair-v1011-260610-1356-slim.apk",
+  "version": 1012,
+  "versionName": "260610-1408",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1012-260610-1408-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1012/memoair-v1012-260610-1408-slim.apk",
   "sizeBytes": 37751856,
-  "sha256": "96130b7b9094edff03cce4d1bf28beceb3dd621fa1f6bba36cc0f308a6d582d1",
-  "changelog": "v1011: 猜你想做顶置卡(蓝主题/下滑展开/点行勾选+最新条露原文/收下勾选+忽略其余双按钮)；筛选加已忽略档",
-  "userFacingChangelog": "「猜你想做」搬到了待办列表顶部：下拉把手展开、点行勾选、最新点的那条会显示原话出处；忽略过的去筛选里找",
+  "sha256": "778ceeb8774cde570dd01fb328db5fa44fe2974a99f43ab2275e6067fd3a9e73",
+  "changelog": "v1012: 顶置卡-自动回顶/新增N条右移贴整理/把手移卡底/去阴影",
+  "userFacingChangelog": "「猜你想做」进待办直接可见，把手挪到卡片下沿，标题行清爽了",
   "recentReleases": [
-    {
-      "version": 961,
-      "versionName": "260607-1344",
-      "userFacingChangelog": "选搭子直接点名字就行（不用再记 A/B）；待办和纪要长按菜单里新增了「多选」，长按任意一条就能进入批量选择。",
-      "changelog": "①开场速选搭子 chip 与正文去掉 A/B 字母编号，直接显示 AURY/OLLIE（matchOpeningPick 仍兼容名字匹配）②待办长按菜单 + 纪要长按菜单各加「多选」入口：进多选模式并选中当前条（TodoRow 加 onEnterMultiSelect 回调；meetingMenu 直接置 meetingMultiSelect=true+选中）",
-      "publishedAtMs": 1780811219000
-    },
     {
       "version": 962,
       "versionName": "260607-1756",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「猜你想做」搬到了待办列表顶部：下拉把手展开、点行勾选、最新点的那条会显示原话出处；忽略过的去筛选里找",
       "changelog": "v1011: 猜你想做顶置卡(蓝主题/下滑展开/点行勾选+最新条露原文/收下勾选+忽略其余双按钮)；筛选加已忽略档",
       "publishedAtMs": 1781071125000
+    },
+    {
+      "version": 1012,
+      "versionName": "260610-1408",
+      "userFacingChangelog": "「猜你想做」进待办直接可见，把手挪到卡片下沿，标题行清爽了",
+      "changelog": "v1012: 顶置卡-自动回顶/新增N条右移贴整理/把手移卡底/去阴影",
+      "publishedAtMs": 1781071766000
     }
   ],
-  "publishedAtMs": 1781071125000,
+  "publishedAtMs": 1781071766000,
   "minSupported": 0
 }
