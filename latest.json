@@ -1,20 +1,13 @@
 {
-  "version": 1052,
-  "versionName": "260611-1711",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1052-260611-1711-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1052/memoair-v1052-260611-1711-slim.apk",
+  "version": 1053,
+  "versionName": "260611-1727",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1053-260611-1727-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1053/memoair-v1053-260611-1727-slim.apk",
   "sizeBytes": 37755952,
-  "sha256": "cc02fd29222191b45780080ed3df07973ca37ebbbba0d83d702861594b8d7520",
-  "changelog": "v1052: 选项类小字全删/开关默认无小字/必要的留一句",
-  "userFacingChangelog": "设置页大瘦身：没必要的解释文字删掉，留下的都是一句话",
+  "sha256": "314f066474eb51d2c6ddfacda0192f4971314c1bfee042dcc14b819d408538d8",
+  "changelog": "v1053: NoteStyle 89 处归一(74 bodySmall+15 小号衬线)",
+  "userFacingChangelog": "设置里所有小字统一成同一种非衬线样式，排版不再乱",
   "recentReleases": [
-    {
-      "version": 1003,
-      "versionName": "260610-0906",
-      "userFacingChangelog": "更新下载提速：卡住的下载源现在几秒内就自动换下一个，不再傻等",
-      "changelog": "v1003: OTA connect 5s/read 15s、镜像重排 gh-proxy 第一、memomind 双端口 443+49443 候选",
-      "publishedAtMs": 1781053816000
-    },
     {
       "version": 1004,
       "versionName": "260610-0958",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "设置页大瘦身：没必要的解释文字删掉，留下的都是一句话",
       "changelog": "v1052: 选项类小字全删/开关默认无小字/必要的留一句",
       "publishedAtMs": 1781169513330
+    },
+    {
+      "version": 1053,
+      "versionName": "260611-1727",
+      "userFacingChangelog": "设置里所有小字统一成同一种非衬线样式，排版不再乱",
+      "changelog": "v1053: NoteStyle 89 处归一(74 bodySmall+15 小号衬线)",
+      "publishedAtMs": 1781170400022
     }
   ],
-  "publishedAtMs": 1781169513330,
+  "publishedAtMs": 1781170400022,
   "minSupported": 0
 }
