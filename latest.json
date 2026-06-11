@@ -1,20 +1,13 @@
 {
-  "version": 1040,
-  "versionName": "260611-0959",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1040-260611-0959-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1040/memoair-v1040-260611-0959-slim.apk",
+  "version": 1041,
+  "versionName": "260611-1248",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1041-260611-1248-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1041/memoair-v1041-260611-1248-slim.apk",
   "sizeBytes": 37751856,
-  "sha256": "5a598027fdc89ca1bf1f60e39f0910c548afb035394ee8d1d5c6cadd20894d4b",
-  "changelog": "v1040: CircleCheck 新组件；多选 TodoRow 前置 方框+Rose→圆+TodoBlue",
-  "userFacingChangelog": "待办多选时，前面的方块换成圆形，选中态用待办页的蓝色",
+  "sha256": "538d57cbc79c20d3190c61bd0472a23ff098b58090d00ed50f0cadf4cae14ee3",
+  "changelog": "v1041: 收起态 CirclePlus 直收特例移除→expandRecsCard",
+  "userFacingChangelog": "猜你想做卡片收起时，点任何位置（含圆加号）都是展开；展开后才能选单项",
   "recentReleases": [
-    {
-      "version": 991,
-      "versionName": "260609-2232",
-      "userFacingChangelog": "「按住说话」按钮跟旁边两个统一了；右下箭头按钮对齐了、线条调细。",
-      "changelog": "①按住说话按钮跟旁边键盘/回形针完全同一套 glassSurface(同质感/透明度，字色 inkColMain，明暗自适应) ②滚到底部 FAB 水平居中对齐键盘按钮(end 18→16dp) ③下箭头描边调细(0.11→0.075w 跟线条图标一致)。",
-      "publishedAtMs": 1781016406000
-    },
     {
       "version": 992,
       "versionName": "260609-2309",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "待办多选时，前面的方块换成圆形，选中态用待办页的蓝色",
       "changelog": "v1040: CircleCheck 新组件；多选 TodoRow 前置 方框+Rose→圆+TodoBlue",
       "publishedAtMs": 1781143292291
+    },
+    {
+      "version": 1041,
+      "versionName": "260611-1248",
+      "userFacingChangelog": "猜你想做卡片收起时，点任何位置（含圆加号）都是展开；展开后才能选单项",
+      "changelog": "v1041: 收起态 CirclePlus 直收特例移除→expandRecsCard",
+      "publishedAtMs": 1781153479046
     }
   ],
-  "publishedAtMs": 1781143292291,
+  "publishedAtMs": 1781153479046,
   "minSupported": 0
 }
