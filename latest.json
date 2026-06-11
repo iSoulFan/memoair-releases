@@ -1,20 +1,13 @@
 {
-  "version": 1039,
-  "versionName": "260611-0938",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1039-260611-0938-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1039/memoair-v1039-260611-0938-slim.apk",
+  "version": 1040,
+  "versionName": "260611-0959",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1040-260611-0959-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1040/memoair-v1040-260611-0959-slim.apk",
   "sizeBytes": 37751856,
-  "sha256": "016aeb563de686ee12168363699081806c857aede67906726d4e562e0fe34aed",
-  "changelog": "v1039: done 区直接用 sorted 切分，删 x818 特殊回退",
-  "userFacingChangelog": "已完成待办的排序现在完全跟随你选的排序规则（含按截止时间）",
+  "sha256": "5a598027fdc89ca1bf1f60e39f0910c548afb035394ee8d1d5c6cadd20894d4b",
+  "changelog": "v1040: CircleCheck 新组件；多选 TodoRow 前置 方框+Rose→圆+TodoBlue",
+  "userFacingChangelog": "待办多选时，前面的方块换成圆形，选中态用待办页的蓝色",
   "recentReleases": [
-    {
-      "version": 990,
-      "versionName": "260609-2219",
-      "userFacingChangelog": "「按住说话」按钮换成纯白磨砂玻璃质感。",
-      "changelog": "按住说话按钮改成【纯白磨砂玻璃·新拟态】(frostedGlass)：奶白厚玻璃体+顶亮高光+底柔内影+外柔接地投影，右下藏极淡黄绿虹彩(隐约)；字固定深色。复刻参考图磨砂质感。",
-      "publishedAtMs": 1781015266000
-    },
     {
       "version": 991,
       "versionName": "260609-2232",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "已完成待办的排序现在完全跟随你选的排序规则（含按截止时间）",
       "changelog": "v1039: done 区直接用 sorted 切分，删 x818 特殊回退",
       "publishedAtMs": 1781142099590
+    },
+    {
+      "version": 1040,
+      "versionName": "260611-0959",
+      "userFacingChangelog": "待办多选时，前面的方块换成圆形，选中态用待办页的蓝色",
+      "changelog": "v1040: CircleCheck 新组件；多选 TodoRow 前置 方框+Rose→圆+TodoBlue",
+      "publishedAtMs": 1781143292291
     }
   ],
-  "publishedAtMs": 1781142099590,
+  "publishedAtMs": 1781143292291,
   "minSupported": 0
 }
