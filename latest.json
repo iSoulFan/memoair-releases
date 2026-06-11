@@ -1,20 +1,13 @@
 {
-  "version": 1051,
-  "versionName": "260611-1646",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1051-260611-1646-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1051/memoair-v1051-260611-1646-slim.apk",
+  "version": 1052,
+  "versionName": "260611-1711",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1052-260611-1711-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1052/memoair-v1052-260611-1711-slim.apk",
   "sizeBytes": 37755952,
-  "sha256": "befdc7203c4ce1ea37c21781bb0f780b8e41f8b31b987a00a13c327d5aa6728d",
-  "changelog": "v1051: 文案审计表落地(4条合规微调)+小字 Mono10.5/16/0.5/InkFaint 统一",
-  "userFacingChangelog": "设置页文案全面改成人话（18 处），小字样式统一",
+  "sha256": "cc02fd29222191b45780080ed3df07973ca37ebbbba0d83d702861594b8d7520",
+  "changelog": "v1052: 选项类小字全删/开关默认无小字/必要的留一句",
+  "userFacingChangelog": "设置页大瘦身：没必要的解释文字删掉，留下的都是一句话",
   "recentReleases": [
-    {
-      "version": 1002,
-      "versionName": "260610-0854",
-      "userFacingChangelog": "修复：深夜模式下分享成就卡片，画框现在也是深色的了",
-      "changelog": "v1002: composeWithWatermark 画框四色(外底/内卡/线框/水印)按 QuietInk.isDark 取主题同源值(#15110E/#26221D/#36322D/#6E6759)",
-      "publishedAtMs": 1781053076000
-    },
     {
       "version": 1003,
       "versionName": "260610-0906",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "设置页文案全面改成人话（18 处），小字样式统一",
       "changelog": "v1051: 文案审计表落地(4条合规微调)+小字 Mono10.5/16/0.5/InkFaint 统一",
       "publishedAtMs": 1781168195094
+    },
+    {
+      "version": 1052,
+      "versionName": "260611-1711",
+      "userFacingChangelog": "设置页大瘦身：没必要的解释文字删掉，留下的都是一句话",
+      "changelog": "v1052: 选项类小字全删/开关默认无小字/必要的留一句",
+      "publishedAtMs": 1781169513330
     }
   ],
-  "publishedAtMs": 1781168195094,
+  "publishedAtMs": 1781169513330,
   "minSupported": 0
 }
