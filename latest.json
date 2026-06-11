@@ -1,20 +1,13 @@
 {
-  "version": 1050,
-  "versionName": "260611-1558",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1050-260611-1558-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1050/memoair-v1050-260611-1558-slim.apk",
+  "version": 1051,
+  "versionName": "260611-1646",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1051-260611-1646-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1051/memoair-v1051-260611-1646-slim.apk",
   "sizeBytes": 37755952,
-  "sha256": "b8cd1810c88e7c56e814625f6cdf2c9f7ffd8f95f69f300e70d093406ac9d2e3",
-  "changelog": "v1050: 默认时刻时间值 Warm 药丸 chip",
-  "userFacingChangelog": "「默认时刻」的时间值改成可点的药丸样式，一眼能看出可以点击修改",
+  "sha256": "befdc7203c4ce1ea37c21781bb0f780b8e41f8b31b987a00a13c327d5aa6728d",
+  "changelog": "v1051: 文案审计表落地(4条合规微调)+小字 Mono10.5/16/0.5/InkFaint 统一",
+  "userFacingChangelog": "设置页文案全面改成人话（18 处），小字样式统一",
   "recentReleases": [
-    {
-      "version": 1001,
-      "versionName": "260610-0236",
-      "userFacingChangelog": "光晕起始更饱满，说话时大面积往下铺开——整屏的氛围感比上版强很多",
-      "changelog": "v1001: dR=0.30h+0.08level+0.55mic 圆心 cyFace+0.30dR 下沉；色流 dir 主下(i%3 微上)、travel 0.10+0.32mic、光团 0.13+0.06rise+0.22mic、横向 0.30+0.80mic",
-      "publishedAtMs": 1781030419000
-    },
     {
       "version": 1002,
       "versionName": "260610-0854",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「默认时刻」的时间值改成可点的药丸样式，一眼能看出可以点击修改",
       "changelog": "v1050: 默认时刻时间值 Warm 药丸 chip",
       "publishedAtMs": 1781165259807
+    },
+    {
+      "version": 1051,
+      "versionName": "260611-1646",
+      "userFacingChangelog": "设置页文案全面改成人话（18 处），小字样式统一",
+      "changelog": "v1051: 文案审计表落地(4条合规微调)+小字 Mono10.5/16/0.5/InkFaint 统一",
+      "publishedAtMs": 1781168195094
     }
   ],
-  "publishedAtMs": 1781165259807,
+  "publishedAtMs": 1781168195094,
   "minSupported": 0
 }
