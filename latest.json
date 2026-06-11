@@ -1,20 +1,13 @@
 {
-  "version": 1066,
-  "versionName": "260611-2329",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1066/memoair-v1066-260611-2329-slim.apk",
-  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1066-260611-2329-slim.apk",
-  "sizeBytes": 37751856,
-  "sha256": "0b5739bfdab322b69935c7a8959f0cebb8518dfe88f6be7a24fdb2d1120d7a6f",
-  "changelog": "v1066: micLevel 25ms 块+spring 750",
-  "userFacingChangelog": "按住说话时，声波和背景光的反应更快更跟嘴",
+  "version": 1067,
+  "versionName": "260612-0035",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1067/memoair-v1067-260612-0035-slim.apk",
+  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1067-260612-0035-slim.apk",
+  "sizeBytes": 37772336,
+  "sha256": "a319fbefa21d3915a05b4d8879ca6db614f40f264a1536ed15eb0f94071e1f91",
+  "changelog": "v1067: PersonNameMarkup 虚线点改+DuplicatePersonScanner LLM 查重(overnight workflow)",
+  "userFacingChangelog": "对话和纪要里的人名带虚线，点一下就能改字或合并；「登场过的人」新增 AI 找疑似重复联系人，逐对勾选合并",
   "recentReleases": [
-    {
-      "version": 1009,
-      "versionName": "260610-1316",
-      "userFacingChangelog": "「猜你想做」抽屉展开收起更跟手了，样式也清爽了一截",
-      "changelog": "v1009: 抽屉与整理页合并为单卡 animateContentSize 原地伸缩+把手拖拽双向；shadow 13dp；CirclePlus 组件全局统一(18dp/1dp Canvas 细线)",
-      "publishedAtMs": 1781068725000
-    },
     {
       "version": 1010,
       "versionName": "260610-1330",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "按住说话时，声波和背景光的反应更快更跟嘴",
       "publishedAtMs": 1781192217741,
       "changelog": "v1066: micLevel 25ms 块+spring 750"
+    },
+    {
+      "version": 1067,
+      "versionName": "260612-0035",
+      "userFacingChangelog": "对话和纪要里的人名带虚线，点一下就能改字或合并；「登场过的人」新增 AI 找疑似重复联系人，逐对勾选合并",
+      "changelog": "v1067: PersonNameMarkup 虚线点改+DuplicatePersonScanner LLM 查重(overnight workflow)",
+      "publishedAtMs": 1781196050825
     }
   ],
-  "publishedAtMs": 1781192217741,
+  "publishedAtMs": 1781196050825,
   "minSupported": 0
 }
