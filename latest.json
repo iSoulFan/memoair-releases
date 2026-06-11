@@ -1,20 +1,13 @@
 {
-  "version": 1041,
-  "versionName": "260611-1248",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1041-260611-1248-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1041/memoair-v1041-260611-1248-slim.apk",
+  "version": 1042,
+  "versionName": "260611-1317",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1042-260611-1317-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1042/memoair-v1042-260611-1317-slim.apk",
   "sizeBytes": 37751856,
-  "sha256": "538d57cbc79c20d3190c61bd0472a23ff098b58090d00ed50f0cadf4cae14ee3",
-  "changelog": "v1041: 收起态 CirclePlus 直收特例移除→expandRecsCard",
-  "userFacingChangelog": "猜你想做卡片收起时，点任何位置（含圆加号）都是展开；展开后才能选单项",
+  "sha256": "1abd10829ef978f152cd8f28df9509030cf83e803e12d01378361d1cff9f4032",
+  "changelog": "v1042: 折叠态 CirclePlus 恢复直收(v1041 改过头)",
+  "userFacingChangelog": "猜你想做折叠时，点圆加号直接把那条加进待办；点其他位置展开卡片",
   "recentReleases": [
-    {
-      "version": 992,
-      "versionName": "260609-2309",
-      "userFacingChangelog": "字重加粗；深色模式录音遮罩调亮；行动各 tab 的按钮换成跟按住说话同款玻璃质感。",
-      "changelog": "①按住说话字重 Medium→SemiBold ②深色模式按住黄绿遮罩+取消红调亮(stream alpha 深色 0.92→1.0/0.72→0.86，rose 深色提亮) ③行动 4 个 tab FAB(补一段纪要/加一条/说个抉择/许个愿)质感改成跟按住说话同款 glassSurface(VoiceFabSheet 加 glass 开关，字色 Q.Ink)。",
-      "publishedAtMs": 1781018204000
-    },
     {
       "version": 993,
       "versionName": "260609-2335",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "猜你想做卡片收起时，点任何位置（含圆加号）都是展开；展开后才能选单项",
       "changelog": "v1041: 收起态 CirclePlus 直收特例移除→expandRecsCard",
       "publishedAtMs": 1781153479046
+    },
+    {
+      "version": 1042,
+      "versionName": "260611-1317",
+      "userFacingChangelog": "猜你想做折叠时，点圆加号直接把那条加进待办；点其他位置展开卡片",
+      "changelog": "v1042: 折叠态 CirclePlus 恢复直收(v1041 改过头)",
+      "publishedAtMs": 1781155194844
     }
   ],
-  "publishedAtMs": 1781153479046,
+  "publishedAtMs": 1781155194844,
   "minSupported": 0
 }
