@@ -1,8 +1,8 @@
 {
   "version": 1062,
   "versionName": "260611-2030",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1062-260611-2030-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1062/memoair-v1062-260611-2030-slim.apk",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1062/memoair-v1062-260611-2030-slim.apk",
+  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1062-260611-2030-slim.apk",
   "sizeBytes": 37751856,
   "sha256": "54c4d8b90651b05e5da6130862d2f26cbe09ad39d8facc94a655b3379a1e3136",
   "changelog": "v1062: 通用外接麦下线+时光 pager 离页重置",
