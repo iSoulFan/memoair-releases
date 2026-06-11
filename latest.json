@@ -1,20 +1,13 @@
 {
-  "version": 1065,
-  "versionName": "260611-2215",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1065/memoair-v1065-260611-2215-slim.apk",
-  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1065-260611-2215-slim.apk",
+  "version": 1066,
+  "versionName": "260611-2329",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1066/memoair-v1066-260611-2329-slim.apk",
+  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1066-260611-2329-slim.apk",
   "sizeBytes": 37751856,
-  "sha256": "9440eebc60d11d7fed13ee4e207a69a1af3fcf17674618981928e33bfe634ac2",
-  "changelog": "v1065: 含 v1064(persona emoji/alertSeq 强制重弹/auto backup AES)+整节 bounds 滚出判定",
-  "userFacingChangelog": "人设预设加 emoji；自动备份强制加密（要设密码）；管理员点标题直接弹更新；展开区滑到底不再误收",
+  "sha256": "0b5739bfdab322b69935c7a8959f0cebb8518dfe88f6be7a24fdb2d1120d7a6f",
+  "changelog": "v1066: micLevel 25ms 块+spring 750",
+  "userFacingChangelog": "按住说话时，声波和背景光的反应更快更跟嘴",
   "recentReleases": [
-    {
-      "version": 1008,
-      "versionName": "260610-1304",
-      "userFacingChangelog": "「猜你想做」抽屉改成竖排更顺手；整理页点 + 直接收下、剩下的一键放过；忽略过的折叠在页尾随时找得回",
-      "changelog": "v1008: 抽屉竖排3条；整理页 slideIn+[+]即收+忽略剩余N条+已忽略折叠区可恢复；来源文案改记录/纪要",
-      "publishedAtMs": 1781067991000
-    },
     {
       "version": 1009,
       "versionName": "260610-1316",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "人设预设加 emoji；自动备份强制加密（要设密码）；管理员点标题直接弹更新；展开区滑到底不再误收",
       "changelog": "v1065: 含 v1064(persona emoji/alertSeq 强制重弹/auto backup AES)+整节 bounds 滚出判定",
       "publishedAtMs": 1781189208609
+    },
+    {
+      "version": 1066,
+      "versionName": "260611-2329",
+      "userFacingChangelog": "按住说话时，声波和背景光的反应更快更跟嘴",
+      "publishedAtMs": 1781192217741,
+      "changelog": "v1066: micLevel 25ms 块+spring 750"
     }
   ],
-  "publishedAtMs": 1781189208609,
+  "publishedAtMs": 1781192217741,
   "minSupported": 0
 }
