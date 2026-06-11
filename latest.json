@@ -1,20 +1,13 @@
 {
-  "version": 1044,
-  "versionName": "260611-1439",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1044-260611-1439-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1044/memoair-v1044-260611-1439-slim.apk",
+  "version": 1045,
+  "versionName": "260611-1447",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1045-260611-1447-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1045/memoair-v1045-260611-1447-slim.apk",
   "sizeBytes": 37755952,
-  "sha256": "22298f829e5eb1114f1f528b9e14c42f92b0e8a20581b691c43d3cc4df56f170",
-  "changelog": "v1044: 展开视口 onSizeChanged 实测内容高度(替代 34dp 估算)+200ms tween",
-  "userFacingChangelog": "猜你想做展开后点开某条，整张卡片会跟着长高，所有条目和详情完整露出",
+  "sha256": "e2ddf9931837e43851598f4ae551a02b774a06531bb62d93a8fa28c14a5c8b21",
+  "changelog": "v1045: 头部crossfade随recP/标签alpha/间距插值/详情AnimatedVisibility/标题animateContentSize",
+  "userFacingChangelog": "猜你想做展开/收起时所有内容变化跟手平滑过渡：右上文案交叉淡变、标签渐显、详情展开有动画",
   "recentReleases": [
-    {
-      "version": 995,
-      "versionName": "260610-0046",
-      "userFacingChangelog": "右下角箭头按钮出现时的方形阴影闪烁彻底修掉了。",
-      "changelog": "滚到底部 FAB 阴影根治：弃用系统 elevation 阴影(淡入时会先闪方形 outline)，改 drawBehind 纯绘制柔和圆形阴影(radialGradient，无 RenderNode outline，首帧即圆、随淡入平滑)。",
-      "publishedAtMs": 1781023862000
-    },
     {
       "version": 996,
       "versionName": "260610-0100",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "猜你想做展开后点开某条，整张卡片会跟着长高，所有条目和详情完整露出",
       "changelog": "v1044: 展开视口 onSizeChanged 实测内容高度(替代 34dp 估算)+200ms tween",
       "publishedAtMs": 1781160102749
+    },
+    {
+      "version": 1045,
+      "versionName": "260611-1447",
+      "userFacingChangelog": "猜你想做展开/收起时所有内容变化跟手平滑过渡：右上文案交叉淡变、标签渐显、详情展开有动画",
+      "changelog": "v1045: 头部crossfade随recP/标签alpha/间距插值/详情AnimatedVisibility/标题animateContentSize",
+      "publishedAtMs": 1781160589112
     }
   ],
-  "publishedAtMs": 1781160102749,
+  "publishedAtMs": 1781160589112,
   "minSupported": 0
 }
