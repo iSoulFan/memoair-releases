@@ -1,20 +1,13 @@
 {
-  "version": 1062,
-  "versionName": "260611-2030",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1062/memoair-v1062-260611-2030-slim.apk",
-  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1062-260611-2030-slim.apk",
+  "version": 1063,
+  "versionName": "260611-2131",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1063/memoair-v1063-260611-2131-slim.apk",
+  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1063-260611-2131-slim.apk",
   "sizeBytes": 37751856,
-  "sha256": "54c4d8b90651b05e5da6130862d2f26cbe09ad39d8facc94a655b3379a1e3136",
-  "changelog": "v1062: 通用外接麦下线+时光 pager 离页重置",
-  "userFacingChangelog": "收音简化：只用手机麦克风和官方 AI 硬件；点时光 tab 直接显示「全部」",
+  "sha256": "cfcb1f946dfd604190b5bc8e7ab6c40edee969459627cb2211fc9cc16375e9e9",
+  "changelog": "v1063: 知识发芽 pinyin 副标不再渲染(字段保留兼容)",
+  "userFacingChangelog": "知识发芽卡片去掉标题下的拼音装饰文字",
   "recentReleases": [
-    {
-      "version": 1006,
-      "versionName": "260610-1220",
-      "userFacingChangelog": "待办页顶部现在是「待办 / AI 推荐」切换滑块——AI 帮你拎出来的事都在推荐档里等你确认",
-      "changelog": "v1006: 待办 tab 改两档跑道滑块(待办|AI 推荐·N)，AI 推荐档常驻+空态文案+确认/忽略操作",
-      "publishedAtMs": 1781065411000
-    },
     {
       "version": 1007,
       "versionName": "260610-1246",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "收音简化：只用手机麦克风和官方 AI 硬件；点时光 tab 直接显示「全部」",
       "changelog": "v1062: 通用外接麦下线+时光 pager 离页重置",
       "publishedAtMs": 1781183766675
+    },
+    {
+      "version": 1063,
+      "versionName": "260611-2131",
+      "userFacingChangelog": "知识发芽卡片去掉标题下的拼音装饰文字",
+      "changelog": "v1063: 知识发芽 pinyin 副标不再渲染(字段保留兼容)",
+      "publishedAtMs": 1781185035208
     }
   ],
-  "publishedAtMs": 1781183766675,
+  "publishedAtMs": 1781185035208,
   "minSupported": 0
 }
