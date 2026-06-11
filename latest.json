@@ -1,20 +1,13 @@
 {
-  "version": 1045,
-  "versionName": "260611-1447",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1045-260611-1447-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1045/memoair-v1045-260611-1447-slim.apk",
+  "version": 1046,
+  "versionName": "260611-1454",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1046-260611-1454-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1046/memoair-v1046-260611-1454-slim.apk",
   "sizeBytes": 37755952,
-  "sha256": "e2ddf9931837e43851598f4ae551a02b774a06531bb62d93a8fa28c14a5c8b21",
-  "changelog": "v1045: 头部crossfade随recP/标签alpha/间距插值/详情AnimatedVisibility/标题animateContentSize",
-  "userFacingChangelog": "猜你想做展开/收起时所有内容变化跟手平滑过渡：右上文案交叉淡变、标签渐显、详情展开有动画",
+  "sha256": "58581ea08644f20ff0fb6d6137bb6bec74abb06d14d71c10fe16bb15282026c7",
+  "changelog": "v1046: rangePx rememberUpdatedState 实时化+拖动中 snap 解耦 tween+onDragCancel 兜底",
+  "userFacingChangelog": "猜你想做小白条拖动彻底跟手：修复位移映射失真和动画叠加造成的跳变卡顿",
   "recentReleases": [
-    {
-      "version": 996,
-      "versionName": "260610-0100",
-      "userFacingChangelog": "右下角箭头按钮的阴影出现时不再被裁、直接完整。",
-      "changelog": "FAB 阴影下半被横裁修复：阴影绘制超出 40dp 节点边界被首帧裁掉→改外框 56dp 容纳整个柔影(完整在节点内不外溢)，按钮 40dp 居中、padding 各减 8dp 保持视觉位置不变。",
-      "publishedAtMs": 1781024611000
-    },
     {
       "version": 997,
       "versionName": "260610-0144",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "猜你想做展开/收起时所有内容变化跟手平滑过渡：右上文案交叉淡变、标签渐显、详情展开有动画",
       "changelog": "v1045: 头部crossfade随recP/标签alpha/间距插值/详情AnimatedVisibility/标题animateContentSize",
       "publishedAtMs": 1781160589112
+    },
+    {
+      "version": 1046,
+      "versionName": "260611-1454",
+      "userFacingChangelog": "猜你想做小白条拖动彻底跟手：修复位移映射失真和动画叠加造成的跳变卡顿",
+      "changelog": "v1046: rangePx rememberUpdatedState 实时化+拖动中 snap 解耦 tween+onDragCancel 兜底",
+      "publishedAtMs": 1781160951284
     }
   ],
-  "publishedAtMs": 1781160589112,
+  "publishedAtMs": 1781160951284,
   "minSupported": 0
 }
