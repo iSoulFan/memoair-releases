@@ -1,20 +1,13 @@
 {
-  "version": 1046,
-  "versionName": "260611-1454",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1046-260611-1454-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1046/memoair-v1046-260611-1454-slim.apk",
+  "version": 1047,
+  "versionName": "260611-1517",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1047-260611-1517-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1047/memoair-v1047-260611-1517-slim.apk",
   "sizeBytes": 37755952,
-  "sha256": "58581ea08644f20ff0fb6d6137bb6bec74abb06d14d71c10fe16bb15282026c7",
-  "changelog": "v1046: rangePx rememberUpdatedState 实时化+拖动中 snap 解耦 tween+onDragCancel 兜底",
-  "userFacingChangelog": "猜你想做小白条拖动彻底跟手：修复位移映射失真和动画叠加造成的跳变卡顿",
+  "sha256": "e7e589f50481f0767be7244806f2afee23a154642ad272a7eb80efade5aab382",
+  "changelog": "v1047: OlderMessageBubbleAdapter 删除,revealed topics 走完整 MessageBubble",
+  "userFacingChangelog": "下拉展开的旧对话现在和最新对话完全同款：同气泡、同字体、同 Markdown 渲染",
   "recentReleases": [
-    {
-      "version": 997,
-      "versionName": "260610-0144",
-      "userFacingChangelog": "按住说话的光流和声波现在跟着你的声音动了——说话越响涌得越高，安静时轻轻呼吸",
-      "changelog": "v997: OneShotSTT 暴露真麦克风电平(平台 onRmsChanged / Sherpa PCM 峰值)，ListeningOverlay 涌动+声波接真电平，Sherpa 读循环 100ms 小块",
-      "publishedAtMs": 1781027222000
-    },
     {
       "version": 998,
       "versionName": "260610-0202",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "猜你想做小白条拖动彻底跟手：修复位移映射失真和动画叠加造成的跳变卡顿",
       "changelog": "v1046: rangePx rememberUpdatedState 实时化+拖动中 snap 解耦 tween+onDragCancel 兜底",
       "publishedAtMs": 1781160951284
+    },
+    {
+      "version": 1047,
+      "versionName": "260611-1517",
+      "userFacingChangelog": "下拉展开的旧对话现在和最新对话完全同款：同气泡、同字体、同 Markdown 渲染",
+      "changelog": "v1047: OlderMessageBubbleAdapter 删除,revealed topics 走完整 MessageBubble",
+      "publishedAtMs": 1781162334370
     }
   ],
-  "publishedAtMs": 1781160951284,
+  "publishedAtMs": 1781162334370,
   "minSupported": 0
 }
