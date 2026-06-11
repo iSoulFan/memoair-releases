@@ -1,20 +1,13 @@
 {
-  "version": 1063,
-  "versionName": "260611-2131",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1063/memoair-v1063-260611-2131-slim.apk",
-  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1063-260611-2131-slim.apk",
+  "version": 1065,
+  "versionName": "260611-2215",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1065/memoair-v1065-260611-2215-slim.apk",
+  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1065-260611-2215-slim.apk",
   "sizeBytes": 37751856,
-  "sha256": "cfcb1f946dfd604190b5bc8e7ab6c40edee969459627cb2211fc9cc16375e9e9",
-  "changelog": "v1063: 知识发芽 pinyin 副标不再渲染(字段保留兼容)",
-  "userFacingChangelog": "知识发芽卡片去掉标题下的拼音装饰文字",
+  "sha256": "9440eebc60d11d7fed13ee4e207a69a1af3fcf17674618981928e33bfe634ac2",
+  "changelog": "v1065: 含 v1064(persona emoji/alertSeq 强制重弹/auto backup AES)+整节 bounds 滚出判定",
+  "userFacingChangelog": "人设预设加 emoji；自动备份强制加密（要设密码）；管理员点标题直接弹更新；展开区滑到底不再误收",
   "recentReleases": [
-    {
-      "version": 1007,
-      "versionName": "260610-1246",
-      "userFacingChangelog": "「猜你想做」搬到了待办页底部的小抽屉——平时横滑着看，往上一滑进整理模式，勾你要的、一键收尾",
-      "changelog": "v1007: 猜你想做改贴底抽屉(横滑卡带)+上滑全屏整理模式(勾选+收下勾选忽略其余一键)",
-      "publishedAtMs": 1781066938000
-    },
     {
       "version": 1008,
       "versionName": "260610-1304",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "知识发芽卡片去掉标题下的拼音装饰文字",
       "changelog": "v1063: 知识发芽 pinyin 副标不再渲染(字段保留兼容)",
       "publishedAtMs": 1781185035208
+    },
+    {
+      "version": 1065,
+      "versionName": "260611-2215",
+      "userFacingChangelog": "人设预设加 emoji；自动备份强制加密（要设密码）；管理员点标题直接弹更新；展开区滑到底不再误收",
+      "changelog": "v1065: 含 v1064(persona emoji/alertSeq 强制重弹/auto backup AES)+整节 bounds 滚出判定",
+      "publishedAtMs": 1781189208609
     }
   ],
-  "publishedAtMs": 1781185035208,
+  "publishedAtMs": 1781189208609,
   "minSupported": 0
 }
