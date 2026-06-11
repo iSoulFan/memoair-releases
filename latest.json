@@ -1,20 +1,13 @@
 {
-  "version": 1042,
-  "versionName": "260611-1317",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1042-260611-1317-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1042/memoair-v1042-260611-1317-slim.apk",
-  "sizeBytes": 37751856,
-  "sha256": "1abd10829ef978f152cd8f28df9509030cf83e803e12d01378361d1cff9f4032",
-  "changelog": "v1042: 折叠态 CirclePlus 恢复直收(v1041 改过头)",
-  "userFacingChangelog": "猜你想做折叠时，点圆加号直接把那条加进待办；点其他位置展开卡片",
+  "version": 1043,
+  "versionName": "260611-1405",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1043-260611-1405-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1043/memoair-v1043-260611-1405-slim.apk",
+  "sizeBytes": 37755952,
+  "sha256": "c1d83d9d3f1af8c43a1ccab852015b6ed71538902bec6885f70f4e21eac50f97",
+  "changelog": "v1043: aiMedia 第二层文本判别(DB v30)+MediaTextScreener+取材排除+设置开关",
+  "userFacingChangelog": "新增媒体声音过滤：AI 识别混进记录的电视/视频/歌曲内容（台词、歌词、广告），不再进时光、纪要和记忆；设置里可关",
   "recentReleases": [
-    {
-      "version": 993,
-      "versionName": "260609-2335",
-      "userFacingChangelog": "对话/行动的玻璃按钮和右上角录音胶囊降低了一点白度，没那么刺白。",
-      "changelog": "玻璃按钮+录音胶囊浅色磨砂底由纯白换成微冷灰白 #ECEEF2(glassSurface 浅色 + 胶囊收起态 glassBg)，降一点亮度不那么白；深色模式不变。",
-      "publishedAtMs": 1781019661000
-    },
     {
       "version": 994,
       "versionName": "260609-2352",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "猜你想做折叠时，点圆加号直接把那条加进待办；点其他位置展开卡片",
       "changelog": "v1042: 折叠态 CirclePlus 恢复直收(v1041 改过头)",
       "publishedAtMs": 1781155194844
+    },
+    {
+      "version": 1043,
+      "versionName": "260611-1405",
+      "userFacingChangelog": "新增媒体声音过滤：AI 识别混进记录的电视/视频/歌曲内容（台词、歌词、广告），不再进时光、纪要和记忆；设置里可关",
+      "changelog": "v1043: aiMedia 第二层文本判别(DB v30)+MediaTextScreener+取材排除+设置开关",
+      "publishedAtMs": 1781158159907
     }
   ],
-  "publishedAtMs": 1781155194844,
+  "publishedAtMs": 1781158159907,
   "minSupported": 0
 }
