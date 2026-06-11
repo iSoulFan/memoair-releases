@@ -1,20 +1,13 @@
 {
-  "version": 1037,
-  "versionName": "260611-0145",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1037-260611-0145-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1037/memoair-v1037-260611-0145-slim.apk",
+  "version": 1038,
+  "versionName": "260611-0927",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1038-260611-0927-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1038/memoair-v1038-260611-0927-slim.apk",
   "sizeBytes": 37751856,
-  "sha256": "6f6558c80e33e4119f75b4aa5b9e63afe14aa5b6d97461c1296ad43fd46f06fa",
-  "changelog": "v1037: 默认面跟 subtextAcknowledged 持久化走；onAcknowledged 停反面(v1036 方向反了)",
-  "userFacingChangelog": "念念不忘点过「明白了」后，卡片会一直停在言外之意那一面，划走回来也不变",
+  "sha256": "807beb2f5bcb080437c2df7938fae4ffc29879c81c70c560f1b35254eeb93f0c",
+  "changelog": "v1038: SimpleMarkdown Quote 去 Italic；待办 due MetaChip 改 TodoBlue 9% 透明底+蓝字",
+  "userFacingChangelog": "日报里精彩瞬间等引用段落的字母和数字不再是斜体；待办的时间标换成淡蓝色底",
   "recentReleases": [
-    {
-      "version": 988,
-      "versionName": "260609-2156",
-      "userFacingChangelog": "「按住说话」按钮光效方向修正，对齐设计稿。",
-      "changelog": "energyGlass 方向修正：之前线性渐变太偏横(左暗右亮)，改成接近竖向(底亮顶暗微右倾)，底色提成深绿不发黑，白热核回底部正中——对齐设计稿的竖向光形。",
-      "publishedAtMs": 1781013616000
-    },
     {
       "version": 989,
       "versionName": "260609-2206",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "念念不忘点过「明白了」后，卡片会一直停在言外之意那一面，划走回来也不变",
       "changelog": "v1037: 默认面跟 subtextAcknowledged 持久化走；onAcknowledged 停反面(v1036 方向反了)",
       "publishedAtMs": 1781113718329
+    },
+    {
+      "version": 1038,
+      "versionName": "260611-0927",
+      "userFacingChangelog": "日报里精彩瞬间等引用段落的字母和数字不再是斜体；待办的时间标换成淡蓝色底",
+      "changelog": "v1038: SimpleMarkdown Quote 去 Italic；待办 due MetaChip 改 TodoBlue 9% 透明底+蓝字",
+      "publishedAtMs": 1781141716211
     }
   ],
-  "publishedAtMs": 1781113718329,
+  "publishedAtMs": 1781141716211,
   "minSupported": 0
 }
