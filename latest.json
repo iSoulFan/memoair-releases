@@ -1,20 +1,13 @@
 {
-  "version": 1038,
-  "versionName": "260611-0927",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1038-260611-0927-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1038/memoair-v1038-260611-0927-slim.apk",
+  "version": 1039,
+  "versionName": "260611-0938",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1039-260611-0938-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1039/memoair-v1039-260611-0938-slim.apk",
   "sizeBytes": 37751856,
-  "sha256": "807beb2f5bcb080437c2df7938fae4ffc29879c81c70c560f1b35254eeb93f0c",
-  "changelog": "v1038: SimpleMarkdown Quote 去 Italic；待办 due MetaChip 改 TodoBlue 9% 透明底+蓝字",
-  "userFacingChangelog": "日报里精彩瞬间等引用段落的字母和数字不再是斜体；待办的时间标换成淡蓝色底",
+  "sha256": "016aeb563de686ee12168363699081806c857aede67906726d4e562e0fe34aed",
+  "changelog": "v1039: done 区直接用 sorted 切分，删 x818 特殊回退",
+  "userFacingChangelog": "已完成待办的排序现在完全跟随你选的排序规则（含按截止时间）",
   "recentReleases": [
-    {
-      "version": 989,
-      "versionName": "260609-2206",
-      "userFacingChangelog": "「按住说话」按钮光效方向彻底修正（竖向：底亮顶暗）。",
-      "changelog": "energyGlass 根因修复：线性渐变 start/end 的 x 不等→在超宽按钮上横向分量被宽度放大、退化成左右向(一直左暗右亮的真因)。改成纯竖直(start.x==end.x)，底亮顶暗、横向均匀，对齐设计稿竖向光形。",
-      "publishedAtMs": 1781014365000
-    },
     {
       "version": 990,
       "versionName": "260609-2219",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "日报里精彩瞬间等引用段落的字母和数字不再是斜体；待办的时间标换成淡蓝色底",
       "changelog": "v1038: SimpleMarkdown Quote 去 Italic；待办 due MetaChip 改 TodoBlue 9% 透明底+蓝字",
       "publishedAtMs": 1781141716211
+    },
+    {
+      "version": 1039,
+      "versionName": "260611-0938",
+      "userFacingChangelog": "已完成待办的排序现在完全跟随你选的排序规则（含按截止时间）",
+      "changelog": "v1039: done 区直接用 sorted 切分，删 x818 特殊回退",
+      "publishedAtMs": 1781142099590
     }
   ],
-  "publishedAtMs": 1781141716211,
+  "publishedAtMs": 1781142099590,
   "minSupported": 0
 }
