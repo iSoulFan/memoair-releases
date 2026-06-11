@@ -1,20 +1,13 @@
 {
-  "version": 1061,
-  "versionName": "260611-1913",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1061-260611-1913-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1061/memoair-v1061-260611-1913-slim.apk",
-  "sizeBytes": 37755952,
-  "sha256": "f2e6ce014d4890601b0bddc736168bcd00b5978bfabc1c60f627031ea296ff6a",
-  "changelog": "v1061: PillButton 大一统;含 v1054-v1060 设置页 v2 框架全系列",
-  "userFacingChangelog": "「我的」页全面翻新：分组卡片、统一按钮和小字、声纹/选择忘记重做、滑出自动收回、文案精简",
+  "version": 1062,
+  "versionName": "260611-2030",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1062-260611-2030-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1062/memoair-v1062-260611-2030-slim.apk",
+  "sizeBytes": 37751856,
+  "sha256": "54c4d8b90651b05e5da6130862d2f26cbe09ad39d8facc94a655b3379a1e3136",
+  "changelog": "v1062: 通用外接麦下线+时光 pager 离页重置",
+  "userFacingChangelog": "收音简化：只用手机麦克风和官方 AI 硬件；点时光 tab 直接显示「全部」",
   "recentReleases": [
-    {
-      "version": 1005,
-      "versionName": "260610-1210",
-      "userFacingChangelog": "待办页新增「AI 推荐」：AI 从录音里帮你拎出来的事先放这儿，点 + 确认才进正式待办；设置里「我擅长什么」已下线",
-      "changelog": "v1005: AI 提炼待办全量 staged 化为「AI 推荐」区([+]确认转正/单条忽略/不进推送)；dedup 改含 staged/dismissed 行；「我擅长什么」全链路下线(UI+Summarizer+Store 字段+历史存量清除)",
-      "publishedAtMs": 1781064849000
-    },
     {
       "version": 1006,
       "versionName": "260610-1220",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「我的」页全面翻新：分组卡片、统一按钮和小字、声纹/选择忘记重做、滑出自动收回、文案精简",
       "changelog": "v1061: PillButton 大一统;含 v1054-v1060 设置页 v2 框架全系列",
       "publishedAtMs": 1781178724256
+    },
+    {
+      "version": 1062,
+      "versionName": "260611-2030",
+      "userFacingChangelog": "收音简化：只用手机麦克风和官方 AI 硬件；点时光 tab 直接显示「全部」",
+      "changelog": "v1062: 通用外接麦下线+时光 pager 离页重置",
+      "publishedAtMs": 1781183766675
     }
   ],
-  "publishedAtMs": 1781178724256,
+  "publishedAtMs": 1781183766675,
   "minSupported": 0
 }
