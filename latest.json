@@ -1,20 +1,13 @@
 {
-  "version": 1053,
-  "versionName": "260611-1727",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1053-260611-1727-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1053/memoair-v1053-260611-1727-slim.apk",
+  "version": 1061,
+  "versionName": "260611-1913",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1061-260611-1913-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1061/memoair-v1061-260611-1913-slim.apk",
   "sizeBytes": 37755952,
-  "sha256": "314f066474eb51d2c6ddfacda0192f4971314c1bfee042dcc14b819d408538d8",
-  "changelog": "v1053: NoteStyle 89 处归一(74 bodySmall+15 小号衬线)",
-  "userFacingChangelog": "设置里所有小字统一成同一种非衬线样式，排版不再乱",
+  "sha256": "f2e6ce014d4890601b0bddc736168bcd00b5978bfabc1c60f627031ea296ff6a",
+  "changelog": "v1061: PillButton 大一统;含 v1054-v1060 设置页 v2 框架全系列",
+  "userFacingChangelog": "「我的」页全面翻新：分组卡片、统一按钮和小字、声纹/选择忘记重做、滑出自动收回、文案精简",
   "recentReleases": [
-    {
-      "version": 1004,
-      "versionName": "260610-0958",
-      "userFacingChangelog": "2×2 桌面小组件上的提示文字不再大得离谱",
-      "changelog": "v1004: widget_polaroid_hint 字号 RemoteViews 分档(SMALL_2x2=10.5sp / LARGE_4x4=15sp)",
-      "publishedAtMs": 1781056839000
-    },
     {
       "version": 1005,
       "versionName": "260610-1210",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "设置里所有小字统一成同一种非衬线样式，排版不再乱",
       "changelog": "v1053: NoteStyle 89 处归一(74 bodySmall+15 小号衬线)",
       "publishedAtMs": 1781170400022
+    },
+    {
+      "version": 1061,
+      "versionName": "260611-1913",
+      "userFacingChangelog": "「我的」页全面翻新：分组卡片、统一按钮和小字、声纹/选择忘记重做、滑出自动收回、文案精简",
+      "changelog": "v1061: PillButton 大一统;含 v1054-v1060 设置页 v2 框架全系列",
+      "publishedAtMs": 1781178724256
     }
   ],
-  "publishedAtMs": 1781170400022,
+  "publishedAtMs": 1781178724256,
   "minSupported": 0
 }
