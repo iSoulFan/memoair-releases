@@ -1,20 +1,13 @@
 {
-  "version": 1049,
-  "versionName": "260611-1543",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1049-260611-1543-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1049/memoair-v1049-260611-1543-slim.apk",
+  "version": 1050,
+  "versionName": "260611-1558",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1050-260611-1558-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1050/memoair-v1050-260611-1558-slim.apk",
   "sizeBytes": 37755952,
-  "sha256": "ebdb75ac4d6cadc0e9b24d72a99b24a8dd215efbb3cb05fc9dac3d3226e6173a",
-  "changelog": "v1049: STT 预览 verticalScroll 自动贴底;DueDefaultsPrefs 五档+prompt 注入;日历 toggle 改文案",
-  "userFacingChangelog": "按住说话超过两行后自动滚动显示最新内容；提醒设置新增「默认时刻」（只说某天/早中下晚各自可调）；日历同步文案精简",
+  "sha256": "b8cd1810c88e7c56e814625f6cdf2c9f7ffd8f95f69f300e70d093406ac9d2e3",
+  "changelog": "v1050: 默认时刻时间值 Warm 药丸 chip",
+  "userFacingChangelog": "「默认时刻」的时间值改成可点的药丸样式，一眼能看出可以点击修改",
   "recentReleases": [
-    {
-      "version": 1000,
-      "versionName": "260610-0222",
-      "userFacingChangelog": "光晕现在以笑脸为中心——小声时贴着脸轻轻发光，大声时向四周扩散",
-      "changelog": "v1000: 光罩 DstIn 圆心从 (w/2,1.30h) 移到笑脸中心(cyFace=h-376dp)，dR=0.20h+0.08level+0.42mic；色流 origin 改脸周、travel/横向扩散吃 mic",
-      "publishedAtMs": 1781029567000
-    },
     {
       "version": 1001,
       "versionName": "260610-0236",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "按住说话超过两行后自动滚动显示最新内容；提醒设置新增「默认时刻」（只说某天/早中下晚各自可调）；日历同步文案精简",
       "changelog": "v1049: STT 预览 verticalScroll 自动贴底;DueDefaultsPrefs 五档+prompt 注入;日历 toggle 改文案",
       "publishedAtMs": 1781164339857
+    },
+    {
+      "version": 1050,
+      "versionName": "260611-1558",
+      "userFacingChangelog": "「默认时刻」的时间值改成可点的药丸样式，一眼能看出可以点击修改",
+      "changelog": "v1050: 默认时刻时间值 Warm 药丸 chip",
+      "publishedAtMs": 1781165259807
     }
   ],
-  "publishedAtMs": 1781164339857,
+  "publishedAtMs": 1781165259807,
   "minSupported": 0
 }
