@@ -1,20 +1,13 @@
 {
-  "version": 1047,
-  "versionName": "260611-1517",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1047-260611-1517-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1047/memoair-v1047-260611-1517-slim.apk",
+  "version": 1048,
+  "versionName": "260611-1525",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1048-260611-1525-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1048/memoair-v1048-260611-1525-slim.apk",
   "sizeBytes": 37755952,
-  "sha256": "e7e589f50481f0767be7244806f2afee23a154642ad272a7eb80efade5aab382",
-  "changelog": "v1047: OlderMessageBubbleAdapter 删除,revealed topics 走完整 MessageBubble",
-  "userFacingChangelog": "下拉展开的旧对话现在和最新对话完全同款：同气泡、同字体、同 Markdown 渲染",
+  "sha256": "2c4e711f0103b343a196d35dd21ecd853d2149ee3a0727ccc2892c3fefe546f3",
+  "changelog": "v1048: pickMemoryEcho 删除+轮换/文案同步;Kind 枚举保留兼容",
+  "userFacingChangelog": "移除「隔天记忆回响」推送（质量不达标）；主动起话题保留待办前瞻、知识、英语三类",
   "recentReleases": [
-    {
-      "version": 998,
-      "versionName": "260610-0202",
-      "userFacingChangelog": "语音光罩现在跟着音量呼吸——大声说扩散得高、小声收得拢，安静时不再乱动",
-      "changelog": "v998: 噪声门 raw<0.1 归零；圆顶 dR=0.68+0.10level+0.24mic、色流爬升 0.44+0.30mic、光团 0.20mic、声波条 0.10+0.90mic；spring 220→300",
-      "publishedAtMs": 1781028369000
-    },
     {
       "version": 999,
       "versionName": "260610-0212",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "下拉展开的旧对话现在和最新对话完全同款：同气泡、同字体、同 Markdown 渲染",
       "changelog": "v1047: OlderMessageBubbleAdapter 删除,revealed topics 走完整 MessageBubble",
       "publishedAtMs": 1781162334370
+    },
+    {
+      "version": 1048,
+      "versionName": "260611-1525",
+      "userFacingChangelog": "移除「隔天记忆回响」推送（质量不达标）；主动起话题保留待办前瞻、知识、英语三类",
+      "changelog": "v1048: pickMemoryEcho 删除+轮换/文案同步;Kind 枚举保留兼容",
+      "publishedAtMs": 1781163243263
     }
   ],
-  "publishedAtMs": 1781162334370,
+  "publishedAtMs": 1781163243263,
   "minSupported": 0
 }
