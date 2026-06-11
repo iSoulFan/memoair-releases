@@ -1,20 +1,13 @@
 {
-  "version": 1048,
-  "versionName": "260611-1525",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1048-260611-1525-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1048/memoair-v1048-260611-1525-slim.apk",
+  "version": 1049,
+  "versionName": "260611-1543",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1049-260611-1543-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1049/memoair-v1049-260611-1543-slim.apk",
   "sizeBytes": 37755952,
-  "sha256": "2c4e711f0103b343a196d35dd21ecd853d2149ee3a0727ccc2892c3fefe546f3",
-  "changelog": "v1048: pickMemoryEcho 删除+轮换/文案同步;Kind 枚举保留兼容",
-  "userFacingChangelog": "移除「隔天记忆回响」推送（质量不达标）；主动起话题保留待办前瞻、知识、英语三类",
+  "sha256": "ebdb75ac4d6cadc0e9b24d72a99b24a8dd215efbb3cb05fc9dac3d3226e6173a",
+  "changelog": "v1049: STT 预览 verticalScroll 自动贴底;DueDefaultsPrefs 五档+prompt 注入;日历 toggle 改文案",
+  "userFacingChangelog": "按住说话超过两行后自动滚动显示最新内容；提醒设置新增「默认时刻」（只说某天/早中下晚各自可调）；日历同步文案精简",
   "recentReleases": [
-    {
-      "version": 999,
-      "versionName": "260610-0212",
-      "userFacingChangelog": "修好了更新下载卡住没速度的问题",
-      "changelog": "v999: OtaHttpClient 强制 HTTP/1.1——云盾在无 SNI 链路伪 ALPN h2 不回 SETTINGS 帧，OkHttp 报 Required SETTINGS preface not received",
-      "publishedAtMs": 1781029081000
-    },
     {
       "version": 1000,
       "versionName": "260610-0222",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "移除「隔天记忆回响」推送（质量不达标）；主动起话题保留待办前瞻、知识、英语三类",
       "changelog": "v1048: pickMemoryEcho 删除+轮换/文案同步;Kind 枚举保留兼容",
       "publishedAtMs": 1781163243263
+    },
+    {
+      "version": 1049,
+      "versionName": "260611-1543",
+      "userFacingChangelog": "按住说话超过两行后自动滚动显示最新内容；提醒设置新增「默认时刻」（只说某天/早中下晚各自可调）；日历同步文案精简",
+      "changelog": "v1049: STT 预览 verticalScroll 自动贴底;DueDefaultsPrefs 五档+prompt 注入;日历 toggle 改文案",
+      "publishedAtMs": 1781164339857
     }
   ],
-  "publishedAtMs": 1781163243263,
+  "publishedAtMs": 1781164339857,
   "minSupported": 0
 }
