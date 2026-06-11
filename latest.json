@@ -1,20 +1,13 @@
 {
-  "version": 1043,
-  "versionName": "260611-1405",
-  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1043-260611-1405-slim.apk",
-  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1043/memoair-v1043-260611-1405-slim.apk",
+  "version": 1044,
+  "versionName": "260611-1439",
+  "downloadUrl": "https://memomind.cloud/memoair-ota/memoair-v1044-260611-1439-slim.apk",
+  "fallbackUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1044/memoair-v1044-260611-1439-slim.apk",
   "sizeBytes": 37755952,
-  "sha256": "c1d83d9d3f1af8c43a1ccab852015b6ed71538902bec6885f70f4e21eac50f97",
-  "changelog": "v1043: aiMedia 第二层文本判别(DB v30)+MediaTextScreener+取材排除+设置开关",
-  "userFacingChangelog": "新增媒体声音过滤：AI 识别混进记录的电视/视频/歌曲内容（台词、歌词、广告），不再进时光、纪要和记忆；设置里可关",
+  "sha256": "22298f829e5eb1114f1f528b9e14c42f92b0e8a20581b691c43d3cc4df56f170",
+  "changelog": "v1044: 展开视口 onSizeChanged 实测内容高度(替代 34dp 估算)+200ms tween",
+  "userFacingChangelog": "猜你想做展开后点开某条，整张卡片会跟着长高，所有条目和详情完整露出",
   "recentReleases": [
-    {
-      "version": 994,
-      "versionName": "260609-2352",
-      "userFacingChangelog": "键盘界面统一玻璃质感、发送键改黄绿；玻璃白调中性；修了静音发句号、和右下箭头出现时方形阴影的问题。",
-      "changelog": "玻璃白改中性#F6F6F6；修静音发句号；键盘模式发送键黄绿+黑简笔上箭头居中、输入框&笑脸统一 glassSurface、回形针挪最左；修滚到底部 FAB 出现时先方形后圆形阴影(去 scaleIn 只 fade + clip=true 圆形阴影 + glass 自身阴影关)。",
-      "publishedAtMs": 1781021671000
-    },
     {
       "version": 995,
       "versionName": "260610-0046",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "新增媒体声音过滤：AI 识别混进记录的电视/视频/歌曲内容（台词、歌词、广告），不再进时光、纪要和记忆；设置里可关",
       "changelog": "v1043: aiMedia 第二层文本判别(DB v30)+MediaTextScreener+取材排除+设置开关",
       "publishedAtMs": 1781158159907
+    },
+    {
+      "version": 1044,
+      "versionName": "260611-1439",
+      "userFacingChangelog": "猜你想做展开后点开某条，整张卡片会跟着长高，所有条目和详情完整露出",
+      "changelog": "v1044: 展开视口 onSizeChanged 实测内容高度(替代 34dp 估算)+200ms tween",
+      "publishedAtMs": 1781160102749
     }
   ],
-  "publishedAtMs": 1781158159907,
+  "publishedAtMs": 1781160102749,
   "minSupported": 0
 }
