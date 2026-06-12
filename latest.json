@@ -1,20 +1,13 @@
 {
-  "version": 1072,
-  "versionName": "260612-1105",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1072/memoair-v1072-260612-1105-slim.apk",
-  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1072-260612-1105-slim.apk",
-  "sizeBytes": 37772336,
-  "sha256": "75a8d1ec831e701bffc9f72b4e0e11ff2069a102fc4b1b23d6e546275103b1af",
-  "changelog": "v1072: ChatScreen KnowledgeSprout markdown schema 改散文体对齐 knowledge_sprout.txt",
-  "userFacingChangelog": "在对话里让 AI 生成的知识发芽卡片，排版和内容结构现在跟自动生成的一致（散文体，不再堆大标题）",
+  "version": 1073,
+  "versionName": "260612-1120",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1073/memoair-v1073-260612-1120-slim.apk",
+  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1073-260612-1120-slim.apk",
+  "sizeBytes": 37776432,
+  "sha256": "3a4f7f8dd58b15b80196857fbcc2beaad6d6fcb999c77a70be3ed4d4a70c7f65",
+  "changelog": "v1073: knowledge_sprout.txt 加种子质量底线,拒短/听岔碎片做种子",
+  "userFacingChangelog": "知识发芽不再从听岔的短碎片硬生成卡片（如把误识的「编码吧」做成 UTF-8 卡）；挑不出扎实内容时宁可讲个靠谱小知识兜底",
   "recentReleases": [
-    {
-      "version": 1015,
-      "versionName": "260610-1504",
-      "userFacingChangelog": "筛选栏现在和卡片一起固定在顶部，列表从底下穿过；按钮位置和样式都按新稿调好了",
-      "changelog": "v1015: 工具栏固定区/下拉条回归/卡按钮右下角文字款/多选底栏仅保留左删除右",
-      "publishedAtMs": 1781075246000
-    },
     {
       "version": 1016,
       "versionName": "260610-1516",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "在对话里让 AI 生成的知识发芽卡片，排版和内容结构现在跟自动生成的一致（散文体，不再堆大标题）",
       "changelog": "v1072: ChatScreen KnowledgeSprout markdown schema 改散文体对齐 knowledge_sprout.txt",
       "publishedAtMs": 1781234137686
+    },
+    {
+      "version": 1073,
+      "versionName": "260612-1120",
+      "userFacingChangelog": "知识发芽不再从听岔的短碎片硬生成卡片（如把误识的「编码吧」做成 UTF-8 卡）；挑不出扎实内容时宁可讲个靠谱小知识兜底",
+      "changelog": "v1073: knowledge_sprout.txt 加种子质量底线,拒短/听岔碎片做种子",
+      "publishedAtMs": 1781235495617
     }
   ],
-  "publishedAtMs": 1781234137686,
+  "publishedAtMs": 1781235495617,
   "minSupported": 0
 }
