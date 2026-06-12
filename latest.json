@@ -1,20 +1,13 @@
 {
-  "version": 1076,
-  "versionName": "260612-1217",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1076/memoair-v1076-260612-1217-slim.apk",
-  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1076-260612-1217-slim.apk",
-  "sizeBytes": 37776432,
-  "sha256": "dc9495aa97cfa66d6f651bcb533107186e0706399994e06d4cf4beb756642bc0",
-  "changelog": "v1076: AI 标识恒显(行动 when 外+对话未读并存)",
-  "userFacingChangelog": "「内容由 AI 生成」标识现在每个页面、每种状态都常驻显示",
+  "version": 1078,
+  "versionName": "260612-1248",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1078/memoair-v1078-260612-1248-slim.apk",
+  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1078-260612-1248-slim.apk",
+  "sizeBytes": 37784624,
+  "sha256": "1ebe87fe62c1f3a423ce5bfd33b9054070bb706d42a43cbcaff3f8524d524b32",
+  "changelog": "v1078: AI 搭子圆屏台(admin 隐形)+BLE 协议/管理器+固件规格",
+  "userFacingChangelog": "内部维护更新",
   "recentReleases": [
-    {
-      "version": 1019,
-      "versionName": "260610-1550",
-      "userFacingChangelog": "出处显示更干净了；展开看过的推荐 3 天不处理会自动进已忽略，没看过的不会过期",
-      "changelog": "v1019: 来源标签精简/引文去引号+owner换行/折叠态隐藏来源tag/出处展开卡随高/RecsSeenStore 3天自动忽略",
-      "publishedAtMs": 1781077927000
-    },
     {
       "version": 1020,
       "versionName": "260610-1601",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「内容由 AI 生成」标识现在每个页面、每种状态都常驻显示",
       "changelog": "v1076: AI 标识恒显(行动 when 外+对话未读并存)",
       "publishedAtMs": 1781238330762
+    },
+    {
+      "version": 1078,
+      "versionName": "260612-1248",
+      "userFacingChangelog": "内部维护更新",
+      "changelog": "v1078: AI 搭子圆屏台(admin 隐形)+BLE 协议/管理器+固件规格",
+      "publishedAtMs": 1781240139379
     }
   ],
-  "publishedAtMs": 1781238330762,
+  "publishedAtMs": 1781240139379,
   "minSupported": 0
 }
