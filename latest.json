@@ -1,20 +1,13 @@
 {
-  "version": 1075,
-  "versionName": "260612-1203",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1075/memoair-v1075-260612-1203-slim.apk",
-  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1075-260612-1203-slim.apk",
+  "version": 1076,
+  "versionName": "260612-1217",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1076/memoair-v1076-260612-1217-slim.apk",
+  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1076-260612-1217-slim.apk",
   "sizeBytes": 37776432,
-  "sha256": "54c6e4cd0942ae8faf65568f41033716c5af31aa6992b66f5d35ebf243db984d",
-  "changelog": "v1075: 四tab masthead 副标统一中文「内容由 AI 生成」",
-  "userFacingChangelog": "四个页面标题下统一加了小字「内容由 AI 生成」，替换原来的装饰英文",
+  "sha256": "dc9495aa97cfa66d6f651bcb533107186e0706399994e06d4cf4beb756642bc0",
+  "changelog": "v1076: AI 标识恒显(行动 when 外+对话未读并存)",
+  "userFacingChangelog": "「内容由 AI 生成」标识现在每个页面、每种状态都常驻显示",
   "recentReleases": [
-    {
-      "version": 1018,
-      "versionName": "260610-1533",
-      "userFacingChangelog": "待办行变紧凑了，引文换了清爽小字，修改删除挪到右下角",
-      "changelog": "v1018: 卡片去按钮动画/去ripple/收起样式对齐新增N条/视口余量8dp；待办行距对齐+铃铛26dp+引文非衬线+修改删除右下角红删除",
-      "publishedAtMs": 1781077000000
-    },
     {
       "version": 1019,
       "versionName": "260610-1550",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "四个页面标题下统一加了小字「内容由 AI 生成」，替换原来的装饰英文",
       "changelog": "v1075: 四tab masthead 副标统一中文「内容由 AI 生成」",
       "publishedAtMs": 1781237507806
+    },
+    {
+      "version": 1076,
+      "versionName": "260612-1217",
+      "userFacingChangelog": "「内容由 AI 生成」标识现在每个页面、每种状态都常驻显示",
+      "changelog": "v1076: AI 标识恒显(行动 when 外+对话未读并存)",
+      "publishedAtMs": 1781238330762
     }
   ],
-  "publishedAtMs": 1781237507806,
+  "publishedAtMs": 1781238330762,
   "minSupported": 0
 }
