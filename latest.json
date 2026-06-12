@@ -1,20 +1,13 @@
 {
-  "version": 1079,
-  "versionName": "260612-1337",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1079/memoair-v1079-260612-1337-slim.apk",
-  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1079-260612-1337-slim.apk",
+  "version": 1082,
+  "versionName": "260612-1504",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1082-260612-1504-slim.apk.bin",
+  "fallbackUrl": "",
   "sizeBytes": 37784624,
-  "sha256": "2e23050584c49f7d5511d657d2996bf1c82dc31ec133c50fdb78a7f3ecf1dfce",
-  "changelog": "v1079: 搭子 App 蓝牙对齐 QW-175 真固件协议",
-  "userFacingChangelog": "内部维护更新",
+  "sha256": "e673a69b3ff433f71fe21f674f70adf77b1933e31a439a682e6bd0cd6ed91a98",
+  "changelog": "圆屏台连接改 App 级单例、跨页面保持连接（退出圆屏台不再断开，可去对话页验证）；OTA 改走阿里云 OSS 国内通道（修复收不到更新）；行动页补「内容由 AI 生成」常驻小字并与对话页对齐；搭子页扫描连接就地申请蓝牙权限",
+  "userFacingChangelog": "搭子连接现在退出页面也不断；OTA 通道修好了；行动页补「内容由 AI 生成」小字",
   "recentReleases": [
-    {
-      "version": 1021,
-      "versionName": "260610-1615",
-      "userFacingChangelog": "拖白条时底部按钮跟着顺滑长出来了，白条也更好摸了",
-      "changelog": "v1021: 按钮区随拖动进度插值长出+白条触摸区放宽至27dp",
-      "publishedAtMs": 1781079434000
-    },
     {
       "version": 1022,
       "versionName": "260610-1619",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "内部维护更新",
       "changelog": "v1079: 搭子 App 蓝牙对齐 QW-175 真固件协议",
       "publishedAtMs": 1781243238090
+    },
+    {
+      "version": 1082,
+      "versionName": "260612-1504",
+      "userFacingChangelog": "搭子连接现在退出页面也不断；OTA 通道修好了；行动页补「内容由 AI 生成」小字",
+      "changelog": "圆屏台连接改 App 级单例、跨页面保持连接（退出圆屏台不再断开，可去对话页验证）；OTA 改走阿里云 OSS 国内通道（修复收不到更新）；行动页补「内容由 AI 生成」常驻小字并与对话页对齐；搭子页扫描连接就地申请蓝牙权限",
+      "publishedAtMs": 1781247975000
     }
   ],
-  "publishedAtMs": 1781243238090,
+  "publishedAtMs": 1781247975000,
   "minSupported": 0
 }
