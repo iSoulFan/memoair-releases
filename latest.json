@@ -5,8 +5,8 @@
   "fallbackUrl": "",
   "sizeBytes": 37788720,
   "sha256": "a59110b34eb36b6ba4509bb0e7bafd9753ce4147504404a09f5d59452d8e8e1d",
-  "changelog": "圆屏台加「设备回传」诊断：按搭子上键时显示 PTT 事件+解码 ADPCM 出实时电平条+帧数，肉眼确认设备→App 链路通；新增 IMA ADPCM 解码器(对齐固件)，为下一步设备语音→STT 打底",
-  "userFacingChangelog": "圆屏台新增「设备回传」面板：按搭子上键能看到设备真的把音频传过来了",
+  "changelog": "v1084: 内部维护更新",
+  "userFacingChangelog": "内部维护更新",
   "recentReleases": [
     {
       "version": 1024,
@@ -327,21 +327,21 @@
       "version": 1078,
       "versionName": "260612-1248",
       "userFacingChangelog": "内部维护更新",
-      "changelog": "v1078: AI 搭子圆屏台(admin 隐形)+BLE 协议/管理器+固件规格",
+      "changelog": "v1078: 内部维护更新",
       "publishedAtMs": 1781240139379
     },
     {
       "version": 1079,
       "versionName": "260612-1337",
       "userFacingChangelog": "内部维护更新",
-      "changelog": "v1079: 搭子 App 蓝牙对齐 QW-175 真固件协议",
+      "changelog": "v1079: 内部维护更新",
       "publishedAtMs": 1781243238090
     },
     {
       "version": 1082,
       "versionName": "260612-1504",
-      "userFacingChangelog": "搭子连接现在退出页面也不断；OTA 通道修好了；行动页补「内容由 AI 生成」小字",
-      "changelog": "圆屏台连接改 App 级单例、跨页面保持连接（退出圆屏台不再断开，可去对话页验证）；OTA 改走阿里云 OSS 国内通道（修复收不到更新）；行动页补「内容由 AI 生成」常驻小字并与对话页对齐；搭子页扫描连接就地申请蓝牙权限",
+      "userFacingChangelog": "行动页标题下补「内容由 AI 生成」小字；更新下载通道优化",
+      "changelog": "v1082: 行动页 masthead 补「内容由 AI 生成」小字并与对话页对齐；OTA 下载通道优化",
       "publishedAtMs": 1781247975000
     },
     {
@@ -354,8 +354,8 @@
     {
       "version": 1084,
       "versionName": "260612-1531",
-      "userFacingChangelog": "圆屏台新增「设备回传」面板：按搭子上键能看到设备真的把音频传过来了",
-      "changelog": "圆屏台加「设备回传」诊断：按搭子上键时显示 PTT 事件+解码 ADPCM 出实时电平条+帧数，肉眼确认设备→App 链路通；新增 IMA ADPCM 解码器(对齐固件)，为下一步设备语音→STT 打底",
+      "userFacingChangelog": "内部维护更新",
+      "changelog": "v1084: 内部维护更新",
       "publishedAtMs": 1781249599000
     }
   ],
