@@ -1,20 +1,13 @@
 {
-  "version": 1083,
-  "versionName": "260612-1519",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1083-260612-1519-slim.apk.bin",
+  "version": 1084,
+  "versionName": "260612-1531",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1084-260612-1531-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37784624,
-  "sha256": "f3ea7d11086e31091d6bc06f7335c9513c5ddcffffd43e03f169dce79d1f9395",
-  "changelog": "修复按住说话卡在「AI 正在润色一下」——纠错 LLM 调用没超时，网络慢/不通时永久卡死；现整段加 6s 超时，超时直接发原始转写，绝不卡死",
-  "userFacingChangelog": "修复按住说话卡在「AI 正在润色一下」——现在网络慢也会 6 秒内把原话发出去",
+  "sizeBytes": 37788720,
+  "sha256": "a59110b34eb36b6ba4509bb0e7bafd9753ce4147504404a09f5d59452d8e8e1d",
+  "changelog": "圆屏台加「设备回传」诊断：按搭子上键时显示 PTT 事件+解码 ADPCM 出实时电平条+帧数，肉眼确认设备→App 链路通；新增 IMA ADPCM 解码器(对齐固件)，为下一步设备语音→STT 打底",
+  "userFacingChangelog": "圆屏台新增「设备回传」面板：按搭子上键能看到设备真的把音频传过来了",
   "recentReleases": [
-    {
-      "version": 1023,
-      "versionName": "260610-1630",
-      "userFacingChangelog": "推荐条目字大了一号，待办右边的小圆钮收小了",
-      "changelog": "v1023: 猜你想做正文13→14sp；待办铃铛/日历圆钮26→22dp 图标10sp",
-      "publishedAtMs": 1781080316000
-    },
     {
       "version": 1024,
       "versionName": "260610-1639",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "修复按住说话卡在「AI 正在润色一下」——现在网络慢也会 6 秒内把原话发出去",
       "changelog": "修复按住说话卡在「AI 正在润色一下」——纠错 LLM 调用没超时，网络慢/不通时永久卡死；现整段加 6s 超时，超时直接发原始转写，绝不卡死",
       "publishedAtMs": 1781248875000
+    },
+    {
+      "version": 1084,
+      "versionName": "260612-1531",
+      "userFacingChangelog": "圆屏台新增「设备回传」面板：按搭子上键能看到设备真的把音频传过来了",
+      "changelog": "圆屏台加「设备回传」诊断：按搭子上键时显示 PTT 事件+解码 ADPCM 出实时电平条+帧数，肉眼确认设备→App 链路通；新增 IMA ADPCM 解码器(对齐固件)，为下一步设备语音→STT 打底",
+      "publishedAtMs": 1781249599000
     }
   ],
-  "publishedAtMs": 1781248875000,
+  "publishedAtMs": 1781249599000,
   "minSupported": 0
 }
