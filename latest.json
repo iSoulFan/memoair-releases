@@ -1,20 +1,13 @@
 {
-  "version": 1069,
-  "versionName": "260612-0842",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1069/memoair-v1069-260612-0842-slim.apk",
-  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1069-260612-0842-slim.apk",
+  "version": 1070,
+  "versionName": "260612-0911",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1070/memoair-v1070-260612-0911-slim.apk",
+  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1070-260612-0911-slim.apk",
   "sizeBytes": 37772336,
-  "sha256": "ebff714347fed68eeaf7601e7f46a71e2c28d2b4a1c7c27ebd4d46b8e01edb9b",
-  "changelog": "v1069: scanner regex转义+45s超时+三字虚线getBoundingBox+日报KS接人名",
-  "userFacingChangelog": "修复合并疑似重复联系人点了一直转圈/闪退；三字人名虚线完整覆盖；日报和知识发芽里的人名也能点改",
+  "sha256": "e794d35c604d7095a4a1020dc1cded2a4d1b00562f2296e96d5eda7341094a7c",
+  "changelog": "v1070: 改名刷新旧话题快照+PeopleBlock按钮FlowRow置顶+查重错误显it.message",
+  "userFacingChangelog": "对话里点改人名后旧对话也同步更新；登场过的人的操作按钮统一放到最上面一排；合并查重失败时显示真实原因",
   "recentReleases": [
-    {
-      "version": 1012,
-      "versionName": "260610-1408",
-      "userFacingChangelog": "「猜你想做」进待办直接可见，把手挪到卡片下沿，标题行清爽了",
-      "changelog": "v1012: 顶置卡-自动回顶/新增N条右移贴整理/把手移卡底/去阴影",
-      "publishedAtMs": 1781071766000
-    },
     {
       "version": 1013,
       "versionName": "260610-1438",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "修复合并疑似重复联系人点了一直转圈/闪退；三字人名虚线完整覆盖；日报和知识发芽里的人名也能点改",
       "changelog": "v1069: scanner regex转义+45s超时+三字虚线getBoundingBox+日报KS接人名",
       "publishedAtMs": 1781225354751
+    },
+    {
+      "version": 1070,
+      "versionName": "260612-0911",
+      "userFacingChangelog": "对话里点改人名后旧对话也同步更新；登场过的人的操作按钮统一放到最上面一排；合并查重失败时显示真实原因",
+      "changelog": "v1070: 改名刷新旧话题快照+PeopleBlock按钮FlowRow置顶+查重错误显it.message",
+      "publishedAtMs": 1781227019791
     }
   ],
-  "publishedAtMs": 1781225354751,
+  "publishedAtMs": 1781227019791,
   "minSupported": 0
 }
