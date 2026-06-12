@@ -1,20 +1,13 @@
 {
-  "version": 1067,
-  "versionName": "260612-0035",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1067/memoair-v1067-260612-0035-slim.apk",
-  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1067-260612-0035-slim.apk",
+  "version": 1068,
+  "versionName": "260612-0808",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1068/memoair-v1068-260612-0808-slim.apk",
+  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1068-260612-0808-slim.apk",
   "sizeBytes": 37772336,
-  "sha256": "a319fbefa21d3915a05b4d8879ca6db614f40f264a1536ed15eb0f94071e1f91",
-  "changelog": "v1067: PersonNameMarkup 虚线点改+DuplicatePersonScanner LLM 查重(overnight workflow)",
-  "userFacingChangelog": "对话和纪要里的人名带虚线，点一下就能改字或合并；「登场过的人」新增 AI 找疑似重复联系人，逐对勾选合并",
+  "sha256": "13131485c460e37953418bca6124039a4cbc2ea84a5f6e6cf444800d6d9c3abc",
+  "changelog": "v1068: cascadeRenamePerson 补 chat_messages REPLACE",
+  "userFacingChangelog": "改完人名后，聊天里点的那段文字也立刻换成新写法",
   "recentReleases": [
-    {
-      "version": 1010,
-      "versionName": "260610-1330",
-      "userFacingChangelog": "「猜你想做」抽屉按反馈又顺了一轮：高度跟内容走、按钮收敛、标题换了时光卡同款小字",
-      "changelog": "v1010: 抽屉展开高度自适应内容(≤74%屏高)；忽略剩余改细线药丸；标题衬线 kicker 化；展开行距12dp；CirclePlus 16dp；FAB 让位 192dp",
-      "publishedAtMs": 1781069604000
-    },
     {
       "version": 1011,
       "versionName": "260610-1356",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "对话和纪要里的人名带虚线，点一下就能改字或合并；「登场过的人」新增 AI 找疑似重复联系人，逐对勾选合并",
       "changelog": "v1067: PersonNameMarkup 虚线点改+DuplicatePersonScanner LLM 查重(overnight workflow)",
       "publishedAtMs": 1781196050825
+    },
+    {
+      "version": 1068,
+      "versionName": "260612-0808",
+      "userFacingChangelog": "改完人名后，聊天里点的那段文字也立刻换成新写法",
+      "changelog": "v1068: cascadeRenamePerson 补 chat_messages REPLACE",
+      "publishedAtMs": 1781223315110
     }
   ],
-  "publishedAtMs": 1781196050825,
+  "publishedAtMs": 1781223315110,
   "minSupported": 0
 }
