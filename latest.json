@@ -1,20 +1,13 @@
 {
-  "version": 1092,
-  "versionName": "260612-1922",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1092-260612-1922-slim.apk.bin",
+  "version": 1093,
+  "versionName": "260612-1938",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1093-260612-1938-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37792816,
-  "sha256": "84624a909987e568aa918b4bfa4ee96eb6f3126b0bc16a57d167419722ab7399",
-  "changelog": "v1092: 内部维护更新与稳定性优化",
+  "sha256": "d1b1aee5b2ba6651740fdb8dc7cc4e3ad164cc8798e7dd6c3442b8c565f190e4",
+  "changelog": "v1093: 内部维护更新与稳定性优化",
   "userFacingChangelog": "内部维护更新",
   "recentReleases": [
-    {
-      "version": 1032,
-      "versionName": "260610-2343",
-      "userFacingChangelog": "成就详情页徽章背后换成会一直旋转的放射光芒",
-      "changelog": "v1032: FlipHero 背面 mindful+spin+rayScale1.18 放射光芒替花瓣",
-      "publishedAtMs": 1781106470264
-    },
     {
       "version": 1033,
       "versionName": "260611-0008",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "内部维护更新",
       "changelog": "v1092: 内部维护更新与稳定性优化",
       "publishedAtMs": 1781263461000
+    },
+    {
+      "version": 1093,
+      "versionName": "260612-1938",
+      "userFacingChangelog": "内部维护更新",
+      "changelog": "v1093: 内部维护更新与稳定性优化",
+      "publishedAtMs": 1781264398000
     }
   ],
-  "publishedAtMs": 1781263461000,
+  "publishedAtMs": 1781264398000,
   "minSupported": 0
 }
