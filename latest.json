@@ -1,20 +1,13 @@
 {
-  "version": 1096,
-  "versionName": "260612-2151",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1096-260612-2151-slim.apk.bin",
+  "version": 1099,
+  "versionName": "260612-2300",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1099-260612-2300-release.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37796912,
-  "sha256": "f7d29bc1b0cc06cd956c8fc993670de028df32b9cd1261e7ac979f7d98afda14",
-  "changelog": "统一长期记忆里对你的称呼：一律用第二人称「你」，不再「我」「用户」「你」混着来；旧记忆在记忆列表里也按统一后的「你」显示，单击编辑保存即迁移。",
-  "userFacingChangelog": "长期记忆里对你的称呼统一成「你」了，不再一会儿「我」一会儿「用户」地乱。",
+  "sizeBytes": 315658446,
+  "sha256": "52b12635ec26777cce1a3221bfed8a4490d886c46bfa0ca9931424dd2e6c89e0",
+  "changelog": "语音识别引擎整体升级为全新中英双语离线模型，中英文识别准确率大幅提升、首尾吞字已修。内置新模型，本次为全量安装包、体积约 300MB，建议 Wi-Fi 下更新。下一个更强的版本在路上。",
+  "userFacingChangelog": "🎧 这次更新，「记得」的听力变强了一大截——中文、英文都听得更准、更跟得上你说话，记错、漏字明显少了。\n\n我们给它换上了全新的离线识别引擎，所以这次的安装包会比平时大一些。下载和安装请多给它一点耐心、等它完整装好（建议连着 Wi-Fi 更新）。装好之后，你会明显感觉到——它真的听得更清楚了。\n\n而且这只是开始，下一次还有一个更强的升级正在路上，敬请期待 ✨",
   "recentReleases": [
-    {
-      "version": 1036,
-      "versionName": "260611-0137",
-      "userFacingChangelog": "念念不忘点「明白了」会翻回金句正面；言外之意回归克制，只在真正读到时才出现",
-      "changelog": "v1036: 明白了 userFlip=false 回正面；unforgettable subtext 收紧(≤1条/例外而非常态/冒犯自检)",
-      "publishedAtMs": 1781113127987
-    },
     {
       "version": 1037,
       "versionName": "260611-0145",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "长期记忆里对你的称呼统一成「你」了，不再一会儿「我」一会儿「用户」地乱。",
       "changelog": "统一长期记忆里对你的称呼：一律用第二人称「你」，不再「我」「用户」「你」混着来；旧记忆在记忆列表里也按统一后的「你」显示，单击编辑保存即迁移。",
       "publishedAtMs": 1781272418000
+    },
+    {
+      "version": 1099,
+      "versionName": "260612-2300",
+      "userFacingChangelog": "🎧 这次更新，「记得」的听力变强了一大截——中文、英文都听得更准、更跟得上你说话，记错、漏字明显少了。\n\n我们给它换上了全新的离线识别引擎，所以这次的安装包会比平时大一些。下载和安装请多给它一点耐心、等它完整装好（建议连着 Wi-Fi 更新）。装好之后，你会明显感觉到——它真的听得更清楚了。\n\n而且这只是开始，下一次还有一个更强的升级正在路上，敬请期待 ✨",
+      "changelog": "语音识别引擎整体升级为全新中英双语离线模型，中英文识别准确率大幅提升、首尾吞字已修。内置新模型，本次为全量安装包、体积约 300MB，建议 Wi-Fi 下更新。下一个更强的版本在路上。",
+      "publishedAtMs": 1781277637000
     }
   ],
-  "publishedAtMs": 1781272418000,
+  "publishedAtMs": 1781277637000,
   "minSupported": 0
 }
