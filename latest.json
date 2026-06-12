@@ -1,20 +1,13 @@
 {
-  "version": 1091,
-  "versionName": "260612-1912",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1091-260612-1912-slim.apk.bin",
+  "version": 1092,
+  "versionName": "260612-1922",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1092-260612-1922-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37792816,
-  "sha256": "4ec9adba1f90545468b2152bce32d9eecbd3af7e09ab48e832d54a7094ea6c2c",
-  "changelog": "v1091: 内部维护更新与稳定性优化",
+  "sha256": "84624a909987e568aa918b4bfa4ee96eb6f3126b0bc16a57d167419722ab7399",
+  "changelog": "v1092: 内部维护更新与稳定性优化",
   "userFacingChangelog": "内部维护更新",
   "recentReleases": [
-    {
-      "version": 1031,
-      "versionName": "260610-2310",
-      "userFacingChangelog": "更新下载改成断点接力：断了换条路继续传，不再从头来过；下完还会校验完整性",
-      "changelog": "v1031: OTA Range 断点续传+两轮重试+sha256 校验+镜像 HTTP/1.1+失败明细聚合；光罩 fade 回绕修复",
-      "publishedAtMs": 1781105119531
-    },
     {
       "version": 1032,
       "versionName": "260610-2343",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "内部维护更新",
       "changelog": "v1091: 内部维护更新与稳定性优化",
       "publishedAtMs": 1781262831000
+    },
+    {
+      "version": 1092,
+      "versionName": "260612-1922",
+      "userFacingChangelog": "内部维护更新",
+      "changelog": "v1092: 内部维护更新与稳定性优化",
+      "publishedAtMs": 1781263461000
     }
   ],
-  "publishedAtMs": 1781262831000,
+  "publishedAtMs": 1781263461000,
   "minSupported": 0
 }
