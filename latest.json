@@ -1,20 +1,13 @@
 {
-  "version": 1074,
-  "versionName": "260612-1148",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1074/memoair-v1074-260612-1148-slim.apk",
-  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1074-260612-1148-slim.apk",
+  "version": 1075,
+  "versionName": "260612-1203",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1075/memoair-v1075-260612-1203-slim.apk",
+  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1075-260612-1203-slim.apk",
   "sizeBytes": 37776432,
-  "sha256": "b42f49d0055a404f5663caabe53f0ce8b39fd2ebef9e39c58fe534b218d5f083",
-  "changelog": "v1074: knowledge_sprout 种子门槛改连贯性判据(方案A,松v1073)",
-  "userFacingChangelog": "知识发芽门槛调松：短词只要你确实在聊就照样长卡，只过滤明显听岔的；尽量从你的话里长，不轻易跳去讲通用冷知识",
+  "sha256": "54c6e4cd0942ae8faf65568f41033716c5af31aa6992b66f5d35ebf243db984d",
+  "changelog": "v1075: 四tab masthead 副标统一中文「内容由 AI 生成」",
+  "userFacingChangelog": "四个页面标题下统一加了小字「内容由 AI 生成」，替换原来的装饰英文",
   "recentReleases": [
-    {
-      "version": 1017,
-      "versionName": "260610-1522",
-      "userFacingChangelog": "白条现在能按住拖着走、松手自动吸附；「加一条」说什么都直接记，不再让你换说法",
-      "changelog": "v1017: 跟手抽屉(progress 插值视口+白条常驻拖拽吸附)；加一条永不弹回(原文入库+离线时间解析)",
-      "publishedAtMs": 1781076244000
-    },
     {
       "version": 1018,
       "versionName": "260610-1533",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "知识发芽门槛调松：短词只要你确实在聊就照样长卡，只过滤明显听岔的；尽量从你的话里长，不轻易跳去讲通用冷知识",
       "changelog": "v1074: knowledge_sprout 种子门槛改连贯性判据(方案A,松v1073)",
       "publishedAtMs": 1781236621140
+    },
+    {
+      "version": 1075,
+      "versionName": "260612-1203",
+      "userFacingChangelog": "四个页面标题下统一加了小字「内容由 AI 生成」，替换原来的装饰英文",
+      "changelog": "v1075: 四tab masthead 副标统一中文「内容由 AI 生成」",
+      "publishedAtMs": 1781237507806
     }
   ],
-  "publishedAtMs": 1781236621140,
+  "publishedAtMs": 1781237507806,
   "minSupported": 0
 }
