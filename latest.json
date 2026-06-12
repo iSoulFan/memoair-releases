@@ -1,20 +1,13 @@
 {
-  "version": 1087,
-  "versionName": "260612-1612",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1087-260612-1612-slim.apk.bin",
+  "version": 1088,
+  "versionName": "260612-1623",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1088-260612-1623-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37792816,
-  "sha256": "10791715933266f99788646433aa40b69deba50d53c7fa98c7f865590d0259cd",
-  "changelog": "v1087: 自动备份重做——必须先设备份密码才能开启，和手动「导出我的回忆」同一套加密；密码用 commit+读回校验防止安全存储静默失败；没设密码的旧配置自动暂停并提示，不再每晚失败",
-  "userFacingChangelog": "自动备份重做：必须先设一个备份密码才能开启（和手动导出同一套加密）；没设密码的旧配置会自动暂停并提示，不再每晚静默失败",
+  "sha256": "fd3dcba9ae7a9e1f4e14f94cf0ae03db890c3c1d473e99bfba1b6af46c3b386c",
+  "changelog": "v1088: 内部维护更新与稳定性优化",
+  "userFacingChangelog": "内部维护更新",
   "recentReleases": [
-    {
-      "version": 1027,
-      "versionName": "260610-1723",
-      "userFacingChangelog": "话少的日子大卡不再硬写注水文，金句类照常守着你的好句子",
-      "changelog": "v1027: 素材闸分级——日报/来信1200字、发芽/英语800字、镜像混合800字、记忆/人物400字、微光/念念维持空白日档",
-      "publishedAtMs": 1781083532000
-    },
     {
       "version": 1028,
       "versionName": "260610-1741",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "自动备份重做：必须先设一个备份密码才能开启（和手动导出同一套加密）；没设密码的旧配置会自动暂停并提示，不再每晚静默失败",
       "changelog": "v1087: 自动备份重做——必须先设备份密码才能开启，和手动「导出我的回忆」同一套加密；密码用 commit+读回校验防止安全存储静默失败；没设密码的旧配置自动暂停并提示，不再每晚失败",
       "publishedAtMs": 1781252039000
+    },
+    {
+      "version": 1088,
+      "versionName": "260612-1623",
+      "userFacingChangelog": "内部维护更新",
+      "changelog": "v1088: 内部维护更新与稳定性优化",
+      "publishedAtMs": 1781252746000
     }
   ],
-  "publishedAtMs": 1781252039000,
+  "publishedAtMs": 1781252746000,
   "minSupported": 0
 }
