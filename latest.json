@@ -1,20 +1,13 @@
 {
-  "version": 1085,
-  "versionName": "260612-1544",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1085-260612-1544-slim.apk.bin",
+  "version": 1086,
+  "versionName": "260612-1601",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1086-260612-1601-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37788720,
-  "sha256": "319c18220ef06117e304418ca21af44d593ab9287c1e659cf0e13c6174d725a9",
-  "changelog": "v1085: 内部维护更新与稳定性优化",
+  "sha256": "e5ccf8522948438c86422340b94bf97f22b4a9255eb35842a9d10ff81c83ed42",
+  "changelog": "v1086: 内部维护更新与稳定性优化",
   "userFacingChangelog": "内部维护更新",
   "recentReleases": [
-    {
-      "version": 1025,
-      "versionName": "260610-1643",
-      "userFacingChangelog": "左右误滑切页收敛：要拖过三分之一屏宽才翻页；按钮文案改成添加N条待办",
-      "changelog": "v1025: pager snapPositionalThreshold 0.15→0.35(两处)；含 v1024 文案 添加N条待办",
-      "publishedAtMs": 1781081174000
-    },
     {
       "version": 1026,
       "versionName": "260610-1710",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "内部维护更新",
       "changelog": "v1085: 内部维护更新与稳定性优化",
       "publishedAtMs": 1781250380000
+    },
+    {
+      "version": 1086,
+      "versionName": "260612-1601",
+      "userFacingChangelog": "内部维护更新",
+      "changelog": "v1086: 内部维护更新与稳定性优化",
+      "publishedAtMs": 1781251385000
     }
   ],
-  "publishedAtMs": 1781250380000,
+  "publishedAtMs": 1781251385000,
   "minSupported": 0
 }
