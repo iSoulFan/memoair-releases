@@ -1,20 +1,13 @@
 {
-  "version": 1070,
-  "versionName": "260612-0911",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1070/memoair-v1070-260612-0911-slim.apk",
-  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1070-260612-0911-slim.apk",
+  "version": 1071,
+  "versionName": "260612-0931",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1071/memoair-v1071-260612-0931-slim.apk",
+  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1071-260612-0931-slim.apk",
   "sizeBytes": 37772336,
-  "sha256": "e794d35c604d7095a4a1020dc1cded2a4d1b00562f2296e96d5eda7341094a7c",
-  "changelog": "v1070: 改名刷新旧话题快照+PeopleBlock按钮FlowRow置顶+查重错误显it.message",
-  "userFacingChangelog": "对话里点改人名后旧对话也同步更新；登场过的人的操作按钮统一放到最上面一排；合并查重失败时显示真实原因",
+  "sha256": "f52622b2e78320a6cf6683c2dd020fadca86c690762705330a6bd3f1ee1d0f25",
+  "changelog": "v1071: scanner prompt 别名参与比对+DupPairsDialog ✓✗→合并/忽略胶囊钮",
+  "userFacingChangelog": "AI 查重现在也会比对别名（跟某人别名相近的也提议归到主名）；合并/忽略改成更大更像按钮的样式",
   "recentReleases": [
-    {
-      "version": 1013,
-      "versionName": "260610-1438",
-      "userFacingChangelog": "「猜你想做」固定在待办顶部不再跟着滚动，点卡片就展开、碰下面列表就收回；铃铛也换上了这页的蓝",
-      "changelog": "v1013: 猜你想做常驻独立分区(不随滚动)/删整理钮/新增N条最右/点卡展开点列表收回；铃铛激活态 TodoBlue",
-      "publishedAtMs": 1781073572000
-    },
     {
       "version": 1014,
       "versionName": "260610-1452",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "对话里点改人名后旧对话也同步更新；登场过的人的操作按钮统一放到最上面一排；合并查重失败时显示真实原因",
       "changelog": "v1070: 改名刷新旧话题快照+PeopleBlock按钮FlowRow置顶+查重错误显it.message",
       "publishedAtMs": 1781227019791
+    },
+    {
+      "version": 1071,
+      "versionName": "260612-0931",
+      "userFacingChangelog": "AI 查重现在也会比对别名（跟某人别名相近的也提议归到主名）；合并/忽略改成更大更像按钮的样式",
+      "changelog": "v1071: scanner prompt 别名参与比对+DupPairsDialog ✓✗→合并/忽略胶囊钮",
+      "publishedAtMs": 1781228303989
     }
   ],
-  "publishedAtMs": 1781227019791,
+  "publishedAtMs": 1781228303989,
   "minSupported": 0
 }
