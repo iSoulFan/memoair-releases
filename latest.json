@@ -1,20 +1,13 @@
 {
-  "version": 1090,
-  "versionName": "260612-1902",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1090-260612-1902-slim.apk.bin",
+  "version": 1091,
+  "versionName": "260612-1912",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1091-260612-1912-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37792816,
-  "sha256": "b6398ce877874927bcfc909a8f4e7c42895a6fc8d9afde14cf856596254d922e",
-  "changelog": "v1090: 内部维护更新与稳定性优化",
+  "sha256": "4ec9adba1f90545468b2152bce32d9eecbd3af7e09ab48e832d54a7094ea6c2c",
+  "changelog": "v1091: 内部维护更新与稳定性优化",
   "userFacingChangelog": "内部维护更新",
   "recentReleases": [
-    {
-      "version": 1030,
-      "versionName": "260610-2301",
-      "userFacingChangelog": "推荐条点开后能看全标题了，还能一键跳回那份纪要",
-      "changelog": "v1030: 猜你想做详情态标题全展开+去看那份纪要 chip",
-      "publishedAtMs": 1781103931000
-    },
     {
       "version": 1031,
       "versionName": "260610-2310",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "内部维护更新",
       "changelog": "v1090: 内部维护更新与稳定性优化",
       "publishedAtMs": 1781262256000
+    },
+    {
+      "version": 1091,
+      "versionName": "260612-1912",
+      "userFacingChangelog": "内部维护更新",
+      "changelog": "v1091: 内部维护更新与稳定性优化",
+      "publishedAtMs": 1781262831000
     }
   ],
-  "publishedAtMs": 1781262256000,
+  "publishedAtMs": 1781262831000,
   "minSupported": 0
 }
