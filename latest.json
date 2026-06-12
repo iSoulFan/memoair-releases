@@ -1,20 +1,13 @@
 {
-  "version": 1099,
-  "versionName": "260612-2300",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1099-260612-2300-release.apk.bin",
+  "version": 1100,
+  "versionName": "260612-2330",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1100-260612-2330-release.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 315658446,
-  "sha256": "52b12635ec26777cce1a3221bfed8a4490d886c46bfa0ca9931424dd2e6c89e0",
+  "sizeBytes": 315658438,
+  "sha256": "e98a1a78a67fcaa78ae6a5aee10d8fde980682366c5bf78eb48bbc324a2230ac",
   "changelog": "语音识别引擎整体升级为全新中英双语离线模型，中英文识别准确率大幅提升、首尾吞字已修。内置新模型，本次为全量安装包、体积约 300MB，建议 Wi-Fi 下更新。下一个更强的版本在路上。",
   "userFacingChangelog": "🎧 这次更新，「记得」的听力变强了一大截——中文、英文都听得更准、更跟得上你说话，记错、漏字明显少了。\n\n我们给它换上了全新的离线识别引擎，所以这次的安装包会比平时大一些。下载和安装请多给它一点耐心、等它完整装好（建议连着 Wi-Fi 更新）。装好之后，你会明显感觉到——它真的听得更清楚了。\n\n而且这只是开始，下一次还有一个更强的升级正在路上，敬请期待 ✨",
   "recentReleases": [
-    {
-      "version": 1037,
-      "versionName": "260611-0145",
-      "userFacingChangelog": "念念不忘点过「明白了」后，卡片会一直停在言外之意那一面，划走回来也不变",
-      "changelog": "v1037: 默认面跟 subtextAcknowledged 持久化走；onAcknowledged 停反面(v1036 方向反了)",
-      "publishedAtMs": 1781113718329
-    },
     {
       "version": 1038,
       "versionName": "260611-0927",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "🎧 这次更新，「记得」的听力变强了一大截——中文、英文都听得更准、更跟得上你说话，记错、漏字明显少了。\n\n我们给它换上了全新的离线识别引擎，所以这次的安装包会比平时大一些。下载和安装请多给它一点耐心、等它完整装好（建议连着 Wi-Fi 更新）。装好之后，你会明显感觉到——它真的听得更清楚了。\n\n而且这只是开始，下一次还有一个更强的升级正在路上，敬请期待 ✨",
       "changelog": "语音识别引擎整体升级为全新中英双语离线模型，中英文识别准确率大幅提升、首尾吞字已修。内置新模型，本次为全量安装包、体积约 300MB，建议 Wi-Fi 下更新。下一个更强的版本在路上。",
       "publishedAtMs": 1781277637000
+    },
+    {
+      "version": 1100,
+      "versionName": "260612-2330",
+      "userFacingChangelog": "🎧 这次更新，「记得」的听力变强了一大截——中文、英文都听得更准、更跟得上你说话，记错、漏字明显少了。\n\n我们给它换上了全新的离线识别引擎，所以这次的安装包会比平时大一些。下载和安装请多给它一点耐心、等它完整装好（建议连着 Wi-Fi 更新）。装好之后，你会明显感觉到——它真的听得更清楚了。\n\n而且这只是开始，下一次还有一个更强的升级正在路上，敬请期待 ✨",
+      "changelog": "语音识别引擎整体升级为全新中英双语离线模型，中英文识别准确率大幅提升、首尾吞字已修。内置新模型，本次为全量安装包、体积约 300MB，建议 Wi-Fi 下更新。下一个更强的版本在路上。",
+      "publishedAtMs": 1781278430000
     }
   ],
-  "publishedAtMs": 1781277637000,
+  "publishedAtMs": 1781278430000,
   "minSupported": 0
 }
