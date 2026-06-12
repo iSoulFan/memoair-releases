@@ -1,20 +1,13 @@
 {
-  "version": 1093,
-  "versionName": "260612-1938",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1093-260612-1938-slim.apk.bin",
+  "version": 1094,
+  "versionName": "260612-2049",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1094-260612-2049-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37792816,
-  "sha256": "d1b1aee5b2ba6651740fdb8dc7cc4e3ad164cc8798e7dd6c3442b8c565f190e4",
-  "changelog": "v1093: 内部维护更新与稳定性优化",
-  "userFacingChangelog": "内部维护更新",
+  "sha256": "615faf6af710575e6f4f138414d7c81b05d3f3816606272537110998f1b264b4",
+  "changelog": "稳定性与体验优化",
+  "userFacingChangelog": "优化稳定性，修复若干已知问题",
   "recentReleases": [
-    {
-      "version": 1033,
-      "versionName": "260611-0008",
-      "userFacingChangelog": "更新下载会自动识别被限速的线路并换路续传，不再卡死在半路",
-      "changelog": "v1033: 滚动测速窗(10s<100KB 掐换源)+3 轮重试",
-      "publishedAtMs": 1781107938930
-    },
     {
       "version": 1034,
       "versionName": "260611-0026",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "内部维护更新",
       "changelog": "v1093: 内部维护更新与稳定性优化",
       "publishedAtMs": 1781264398000
+    },
+    {
+      "version": 1094,
+      "versionName": "260612-2049",
+      "userFacingChangelog": "优化稳定性，修复若干已知问题",
+      "changelog": "稳定性与体验优化",
+      "publishedAtMs": 1781268897000
     }
   ],
-  "publishedAtMs": 1781264398000,
+  "publishedAtMs": 1781268897000,
   "minSupported": 0
 }
