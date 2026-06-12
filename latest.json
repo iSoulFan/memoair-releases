@@ -1,20 +1,13 @@
 {
-  "version": 1095,
-  "versionName": "260612-2131",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1095-260612-2131-slim.apk.bin",
+  "version": 1096,
+  "versionName": "260612-2151",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1096-260612-2151-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37796912,
-  "sha256": "76bc57a281b014a18087e5b8dd8ced9d5133afaa0b17cd379059e453fb140ba3",
-  "changelog": "修正人名识别：不再把对话里提到的别人（朋友/同事）的名字当成你本人，也不再把两个人混成一个；新增'某某是我朋友/不是我'一句话纠正误绑。长期记忆每条支持单击逐字编辑。订正 2026 节假日调休（清明/端午/中秋均不调休，6/13 不再误报上班）。去掉名字相关的主动插话。",
-  "userFacingChangelog": "这次修了：① 人名识别（朋友和你不再混成一个人，说错可一句话纠正）② 长期记忆单击就能逐字改 ③ 订正了节假日调休（6/13 不再误报上班）④ 去掉名字相关的主动插话。",
+  "sha256": "f7d29bc1b0cc06cd956c8fc993670de028df32b9cd1261e7ac979f7d98afda14",
+  "changelog": "统一长期记忆里对你的称呼：一律用第二人称「你」，不再「我」「用户」「你」混着来；旧记忆在记忆列表里也按统一后的「你」显示，单击编辑保存即迁移。",
+  "userFacingChangelog": "长期记忆里对你的称呼统一成「你」了，不再一会儿「我」一会儿「用户」地乱。",
   "recentReleases": [
-    {
-      "version": 1035,
-      "versionName": "260611-0056",
-      "userFacingChangelog": "待办的勾选方框和圆圈加号统一成同一套笔触，同屏不再打架",
-      "changelog": "v1035: SquareCheck 组件(CirclePlus 同笔触)替换三处旧方框",
-      "publishedAtMs": 1781110817360
-    },
     {
       "version": 1036,
       "versionName": "260611-0137",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "这次修了：① 人名识别（朋友和你不再混成一个人，说错可一句话纠正）② 长期记忆单击就能逐字改 ③ 订正了节假日调休（6/13 不再误报上班）④ 去掉名字相关的主动插话。",
       "changelog": "修正人名识别：不再把对话里提到的别人（朋友/同事）的名字当成你本人，也不再把两个人混成一个；新增'某某是我朋友/不是我'一句话纠正误绑。长期记忆每条支持单击逐字编辑。订正 2026 节假日调休（清明/端午/中秋均不调休，6/13 不再误报上班）。去掉名字相关的主动插话。",
       "publishedAtMs": 1781271192000
+    },
+    {
+      "version": 1096,
+      "versionName": "260612-2151",
+      "userFacingChangelog": "长期记忆里对你的称呼统一成「你」了，不再一会儿「我」一会儿「用户」地乱。",
+      "changelog": "统一长期记忆里对你的称呼：一律用第二人称「你」，不再「我」「用户」「你」混着来；旧记忆在记忆列表里也按统一后的「你」显示，单击编辑保存即迁移。",
+      "publishedAtMs": 1781272418000
     }
   ],
-  "publishedAtMs": 1781271192000,
+  "publishedAtMs": 1781272418000,
   "minSupported": 0
 }
