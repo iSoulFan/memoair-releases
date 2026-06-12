@@ -1,20 +1,13 @@
 {
-  "version": 1071,
-  "versionName": "260612-0931",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1071/memoair-v1071-260612-0931-slim.apk",
-  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1071-260612-0931-slim.apk",
+  "version": 1072,
+  "versionName": "260612-1105",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1072/memoair-v1072-260612-1105-slim.apk",
+  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1072-260612-1105-slim.apk",
   "sizeBytes": 37772336,
-  "sha256": "f52622b2e78320a6cf6683c2dd020fadca86c690762705330a6bd3f1ee1d0f25",
-  "changelog": "v1071: scanner prompt 别名参与比对+DupPairsDialog ✓✗→合并/忽略胶囊钮",
-  "userFacingChangelog": "AI 查重现在也会比对别名（跟某人别名相近的也提议归到主名）；合并/忽略改成更大更像按钮的样式",
+  "sha256": "75a8d1ec831e701bffc9f72b4e0e11ff2069a102fc4b1b23d6e546275103b1af",
+  "changelog": "v1072: ChatScreen KnowledgeSprout markdown schema 改散文体对齐 knowledge_sprout.txt",
+  "userFacingChangelog": "在对话里让 AI 生成的知识发芽卡片，排版和内容结构现在跟自动生成的一致（散文体，不再堆大标题）",
   "recentReleases": [
-    {
-      "version": 1014,
-      "versionName": "260610-1452",
-      "userFacingChangelog": "细节又顺了一轮：收起按钮挪到右上角不挡操作，卡片留白对称，原话跟着勾选走",
-      "changelog": "v1014: 收起︿右上角/边距对称/原文跟随勾选态",
-      "publishedAtMs": 1781074486000
-    },
     {
       "version": 1015,
       "versionName": "260610-1504",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "AI 查重现在也会比对别名（跟某人别名相近的也提议归到主名）；合并/忽略改成更大更像按钮的样式",
       "changelog": "v1071: scanner prompt 别名参与比对+DupPairsDialog ✓✗→合并/忽略胶囊钮",
       "publishedAtMs": 1781228303989
+    },
+    {
+      "version": 1072,
+      "versionName": "260612-1105",
+      "userFacingChangelog": "在对话里让 AI 生成的知识发芽卡片，排版和内容结构现在跟自动生成的一致（散文体，不再堆大标题）",
+      "changelog": "v1072: ChatScreen KnowledgeSprout markdown schema 改散文体对齐 knowledge_sprout.txt",
+      "publishedAtMs": 1781234137686
     }
   ],
-  "publishedAtMs": 1781228303989,
+  "publishedAtMs": 1781234137686,
   "minSupported": 0
 }
