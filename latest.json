@@ -1,20 +1,13 @@
 {
-  "version": 1094,
-  "versionName": "260612-2049",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1094-260612-2049-slim.apk.bin",
+  "version": 1095,
+  "versionName": "260612-2131",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1095-260612-2131-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37792816,
-  "sha256": "615faf6af710575e6f4f138414d7c81b05d3f3816606272537110998f1b264b4",
-  "changelog": "稳定性与体验优化",
-  "userFacingChangelog": "优化稳定性，修复若干已知问题",
+  "sizeBytes": 37796912,
+  "sha256": "76bc57a281b014a18087e5b8dd8ced9d5133afaa0b17cd379059e453fb140ba3",
+  "changelog": "修正人名识别：不再把对话里提到的别人（朋友/同事）的名字当成你本人，也不再把两个人混成一个；新增'某某是我朋友/不是我'一句话纠正误绑。长期记忆每条支持单击逐字编辑。订正 2026 节假日调休（清明/端午/中秋均不调休，6/13 不再误报上班）。去掉名字相关的主动插话。",
+  "userFacingChangelog": "这次修了：① 人名识别（朋友和你不再混成一个人，说错可一句话纠正）② 长期记忆单击就能逐字改 ③ 订正了节假日调休（6/13 不再误报上班）④ 去掉名字相关的主动插话。",
   "recentReleases": [
-    {
-      "version": 1034,
-      "versionName": "260611-0026",
-      "userFacingChangelog": "推荐条目点开能看到你当时的原话了；跳去纪要再回来，卡片还停在原地",
-      "changelog": "v1034: findRecRawQuote 转写原文回捞+RecsTriageState 跨tab保活",
-      "publishedAtMs": 1781108960555
-    },
     {
       "version": 1035,
       "versionName": "260611-0056",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "优化稳定性，修复若干已知问题",
       "changelog": "稳定性与体验优化",
       "publishedAtMs": 1781268897000
+    },
+    {
+      "version": 1095,
+      "versionName": "260612-2131",
+      "userFacingChangelog": "这次修了：① 人名识别（朋友和你不再混成一个人，说错可一句话纠正）② 长期记忆单击就能逐字改 ③ 订正了节假日调休（6/13 不再误报上班）④ 去掉名字相关的主动插话。",
+      "changelog": "修正人名识别：不再把对话里提到的别人（朋友/同事）的名字当成你本人，也不再把两个人混成一个；新增'某某是我朋友/不是我'一句话纠正误绑。长期记忆每条支持单击逐字编辑。订正 2026 节假日调休（清明/端午/中秋均不调休，6/13 不再误报上班）。去掉名字相关的主动插话。",
+      "publishedAtMs": 1781271192000
     }
   ],
-  "publishedAtMs": 1781268897000,
+  "publishedAtMs": 1781271192000,
   "minSupported": 0
 }
