@@ -1,20 +1,13 @@
 {
-  "version": 1089,
-  "versionName": "260612-1719",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1089-260612-1719-slim.apk.bin",
+  "version": 1090,
+  "versionName": "260612-1902",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1090-260612-1902-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37792816,
-  "sha256": "0a9ab3a6f01544485fd5b1342886a65892f4c707e37516f98577d0b5d8f57807",
-  "changelog": "v1089: 对话输入框打字字重 Normal→Medium，更清楚",
-  "userFacingChangelog": "对话输入框打字的字加重了，看得更清楚",
+  "sha256": "b6398ce877874927bcfc909a8f4e7c42895a6fc8d9afde14cf856596254d922e",
+  "changelog": "v1090: 内部维护更新与稳定性优化",
+  "userFacingChangelog": "内部维护更新",
   "recentReleases": [
-    {
-      "version": 1029,
-      "versionName": "260610-1802",
-      "userFacingChangelog": "省钱三件套上线：聊天轻了一半、纪要不再整天重读、横跨边界的会议能拼回完整一条",
-      "changelog": "v1029: 聊天昨天块下线(三层召回兜底)；纪要增量喂料+跨界拼接替换；含纪要 prompt -56% 瘦身",
-      "publishedAtMs": 1781085882000
-    },
     {
       "version": 1030,
       "versionName": "260610-2301",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "对话输入框打字的字加重了，看得更清楚",
       "changelog": "v1089: 对话输入框打字字重 Normal→Medium，更清楚",
       "publishedAtMs": 1781256116000
+    },
+    {
+      "version": 1090,
+      "versionName": "260612-1902",
+      "userFacingChangelog": "内部维护更新",
+      "changelog": "v1090: 内部维护更新与稳定性优化",
+      "publishedAtMs": 1781262256000
     }
   ],
-  "publishedAtMs": 1781256116000,
+  "publishedAtMs": 1781262256000,
   "minSupported": 0
 }
