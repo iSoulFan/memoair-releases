@@ -1,20 +1,13 @@
 {
-  "version": 1088,
-  "versionName": "260612-1623",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1088-260612-1623-slim.apk.bin",
+  "version": 1089,
+  "versionName": "260612-1719",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1089-260612-1719-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37792816,
-  "sha256": "fd3dcba9ae7a9e1f4e14f94cf0ae03db890c3c1d473e99bfba1b6af46c3b386c",
-  "changelog": "v1088: 内部维护更新与稳定性优化",
-  "userFacingChangelog": "内部维护更新",
+  "sha256": "0a9ab3a6f01544485fd5b1342886a65892f4c707e37516f98577d0b5d8f57807",
+  "changelog": "v1089: 对话输入框打字字重 Normal→Medium，更清楚",
+  "userFacingChangelog": "对话输入框打字的字加重了，看得更清楚",
   "recentReleases": [
-    {
-      "version": 1028,
-      "versionName": "260610-1741",
-      "userFacingChangelog": "时光和行动页顶部清爽了，一个看不见的后台调用也停了",
-      "changelog": "v1028: DailyGreeting 整体下线+两页 masthead 斜体问候行删除",
-      "publishedAtMs": 1781084587000
-    },
     {
       "version": 1029,
       "versionName": "260610-1802",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "内部维护更新",
       "changelog": "v1088: 内部维护更新与稳定性优化",
       "publishedAtMs": 1781252746000
+    },
+    {
+      "version": 1089,
+      "versionName": "260612-1719",
+      "userFacingChangelog": "对话输入框打字的字加重了，看得更清楚",
+      "changelog": "v1089: 对话输入框打字字重 Normal→Medium，更清楚",
+      "publishedAtMs": 1781256116000
     }
   ],
-  "publishedAtMs": 1781252746000,
+  "publishedAtMs": 1781256116000,
   "minSupported": 0
 }
