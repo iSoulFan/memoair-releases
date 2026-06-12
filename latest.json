@@ -1,20 +1,13 @@
 {
-  "version": 1084,
-  "versionName": "260612-1531",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1084-260612-1531-slim.apk.bin",
+  "version": 1085,
+  "versionName": "260612-1544",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1085-260612-1544-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37788720,
-  "sha256": "a59110b34eb36b6ba4509bb0e7bafd9753ce4147504404a09f5d59452d8e8e1d",
-  "changelog": "v1084: 内部维护更新",
+  "sha256": "319c18220ef06117e304418ca21af44d593ab9287c1e659cf0e13c6174d725a9",
+  "changelog": "v1085: 内部维护更新与稳定性优化",
   "userFacingChangelog": "内部维护更新",
   "recentReleases": [
-    {
-      "version": 1024,
-      "versionName": "260610-1639",
-      "userFacingChangelog": "按钮文案更直白了",
-      "changelog": "v1024: 按钮文案 收下勾选N条→添加N条待办",
-      "publishedAtMs": 1781080871000
-    },
     {
       "version": 1025,
       "versionName": "260610-1643",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "内部维护更新",
       "changelog": "v1084: 内部维护更新",
       "publishedAtMs": 1781249599000
+    },
+    {
+      "version": 1085,
+      "versionName": "260612-1544",
+      "userFacingChangelog": "内部维护更新",
+      "changelog": "v1085: 内部维护更新与稳定性优化",
+      "publishedAtMs": 1781250380000
     }
   ],
-  "publishedAtMs": 1781249599000,
+  "publishedAtMs": 1781250380000,
   "minSupported": 0
 }
