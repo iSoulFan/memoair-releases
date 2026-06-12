@@ -1,20 +1,13 @@
 {
-  "version": 1073,
-  "versionName": "260612-1120",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1073/memoair-v1073-260612-1120-slim.apk",
-  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1073-260612-1120-slim.apk",
+  "version": 1074,
+  "versionName": "260612-1148",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1074/memoair-v1074-260612-1148-slim.apk",
+  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1074-260612-1148-slim.apk",
   "sizeBytes": 37776432,
-  "sha256": "3a4f7f8dd58b15b80196857fbcc2beaad6d6fcb999c77a70be3ed4d4a70c7f65",
-  "changelog": "v1073: knowledge_sprout.txt 加种子质量底线,拒短/听岔碎片做种子",
-  "userFacingChangelog": "知识发芽不再从听岔的短碎片硬生成卡片（如把误识的「编码吧」做成 UTF-8 卡）；挑不出扎实内容时宁可讲个靠谱小知识兜底",
+  "sha256": "b42f49d0055a404f5663caabe53f0ce8b39fd2ebef9e39c58fe534b218d5f083",
+  "changelog": "v1074: knowledge_sprout 种子门槛改连贯性判据(方案A,松v1073)",
+  "userFacingChangelog": "知识发芽门槛调松：短词只要你确实在聊就照样长卡，只过滤明显听岔的；尽量从你的话里长，不轻易跳去讲通用冷知识",
   "recentReleases": [
-    {
-      "version": 1016,
-      "versionName": "260610-1516",
-      "userFacingChangelog": "「加一条」现在说什么都直接记下，不再让你换个说法；卡片细节又顺了一轮",
-      "changelog": "v1016: 加一条永不弹回(LLM 失败原文入库+离线时间解析)；展开首条间隙/按钮换位/收起去箭头",
-      "publishedAtMs": 1781075883000
-    },
     {
       "version": 1017,
       "versionName": "260610-1522",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "知识发芽不再从听岔的短碎片硬生成卡片（如把误识的「编码吧」做成 UTF-8 卡）；挑不出扎实内容时宁可讲个靠谱小知识兜底",
       "changelog": "v1073: knowledge_sprout.txt 加种子质量底线,拒短/听岔碎片做种子",
       "publishedAtMs": 1781235495617
+    },
+    {
+      "version": 1074,
+      "versionName": "260612-1148",
+      "userFacingChangelog": "知识发芽门槛调松：短词只要你确实在聊就照样长卡，只过滤明显听岔的；尽量从你的话里长，不轻易跳去讲通用冷知识",
+      "changelog": "v1074: knowledge_sprout 种子门槛改连贯性判据(方案A,松v1073)",
+      "publishedAtMs": 1781236621140
     }
   ],
-  "publishedAtMs": 1781235495617,
+  "publishedAtMs": 1781236621140,
   "minSupported": 0
 }
