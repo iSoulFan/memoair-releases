@@ -1,20 +1,13 @@
 {
-  "version": 1078,
-  "versionName": "260612-1248",
-  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1078/memoair-v1078-260612-1248-slim.apk",
-  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1078-260612-1248-slim.apk",
+  "version": 1079,
+  "versionName": "260612-1337",
+  "downloadUrl": "https://github.com/iSoulFan/memoair-releases/releases/download/v1079/memoair-v1079-260612-1337-slim.apk",
+  "fallbackUrl": "https://memomind.cloud/memoair-ota/memoair-v1079-260612-1337-slim.apk",
   "sizeBytes": 37784624,
-  "sha256": "1ebe87fe62c1f3a423ce5bfd33b9054070bb706d42a43cbcaff3f8524d524b32",
-  "changelog": "v1078: AI 搭子圆屏台(admin 隐形)+BLE 协议/管理器+固件规格",
+  "sha256": "2e23050584c49f7d5511d657d2996bf1c82dc31ec133c50fdb78a7f3ecf1dfce",
+  "changelog": "v1079: 搭子 App 蓝牙对齐 QW-175 真固件协议",
   "userFacingChangelog": "内部维护更新",
   "recentReleases": [
-    {
-      "version": 1020,
-      "versionName": "260610-1601",
-      "userFacingChangelog": "行动页右下角的玻璃按钮现在跟对话页按住说话完全平齐了，字距也统一了",
-      "changelog": "v1020: 行动页四 FAB 高度48dp/底距14dp/SerifCN 14sp 0.3sp——与对话按住说话 pill 水平居中对齐+同字距",
-      "publishedAtMs": 1781078599000
-    },
     {
       "version": 1021,
       "versionName": "260610-1615",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "内部维护更新",
       "changelog": "v1078: AI 搭子圆屏台(admin 隐形)+BLE 协议/管理器+固件规格",
       "publishedAtMs": 1781240139379
+    },
+    {
+      "version": 1079,
+      "versionName": "260612-1337",
+      "userFacingChangelog": "内部维护更新",
+      "changelog": "v1079: 搭子 App 蓝牙对齐 QW-175 真固件协议",
+      "publishedAtMs": 1781243238090
     }
   ],
-  "publishedAtMs": 1781240139379,
+  "publishedAtMs": 1781243238090,
   "minSupported": 0
 }
