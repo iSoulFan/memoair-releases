@@ -1,20 +1,13 @@
 {
-  "version": 1082,
-  "versionName": "260612-1504",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1082-260612-1504-slim.apk.bin",
+  "version": 1083,
+  "versionName": "260612-1519",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1083-260612-1519-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37784624,
-  "sha256": "e673a69b3ff433f71fe21f674f70adf77b1933e31a439a682e6bd0cd6ed91a98",
-  "changelog": "圆屏台连接改 App 级单例、跨页面保持连接（退出圆屏台不再断开，可去对话页验证）；OTA 改走阿里云 OSS 国内通道（修复收不到更新）；行动页补「内容由 AI 生成」常驻小字并与对话页对齐；搭子页扫描连接就地申请蓝牙权限",
-  "userFacingChangelog": "搭子连接现在退出页面也不断；OTA 通道修好了；行动页补「内容由 AI 生成」小字",
+  "sha256": "f3ea7d11086e31091d6bc06f7335c9513c5ddcffffd43e03f169dce79d1f9395",
+  "changelog": "修复按住说话卡在「AI 正在润色一下」——纠错 LLM 调用没超时，网络慢/不通时永久卡死；现整段加 6s 超时，超时直接发原始转写，绝不卡死",
+  "userFacingChangelog": "修复按住说话卡在「AI 正在润色一下」——现在网络慢也会 6 秒内把原话发出去",
   "recentReleases": [
-    {
-      "version": 1022,
-      "versionName": "260610-1619",
-      "userFacingChangelog": "待办列表字号小了一号、行距更紧凑",
-      "changelog": "v1022: 待办行 14sp/20lh+边距12/8",
-      "publishedAtMs": 1781079734000
-    },
     {
       "version": 1023,
       "versionName": "260610-1630",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "搭子连接现在退出页面也不断；OTA 通道修好了；行动页补「内容由 AI 生成」小字",
       "changelog": "圆屏台连接改 App 级单例、跨页面保持连接（退出圆屏台不再断开，可去对话页验证）；OTA 改走阿里云 OSS 国内通道（修复收不到更新）；行动页补「内容由 AI 生成」常驻小字并与对话页对齐；搭子页扫描连接就地申请蓝牙权限",
       "publishedAtMs": 1781247975000
+    },
+    {
+      "version": 1083,
+      "versionName": "260612-1519",
+      "userFacingChangelog": "修复按住说话卡在「AI 正在润色一下」——现在网络慢也会 6 秒内把原话发出去",
+      "changelog": "修复按住说话卡在「AI 正在润色一下」——纠错 LLM 调用没超时，网络慢/不通时永久卡死；现整段加 6s 超时，超时直接发原始转写，绝不卡死",
+      "publishedAtMs": 1781248875000
     }
   ],
-  "publishedAtMs": 1781247975000,
+  "publishedAtMs": 1781248875000,
   "minSupported": 0
 }
