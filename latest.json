@@ -1,20 +1,13 @@
 {
-  "version": 1086,
-  "versionName": "260612-1601",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1086-260612-1601-slim.apk.bin",
+  "version": 1087,
+  "versionName": "260612-1612",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1087-260612-1612-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37788720,
-  "sha256": "e5ccf8522948438c86422340b94bf97f22b4a9255eb35842a9d10ff81c83ed42",
-  "changelog": "v1086: 内部维护更新与稳定性优化",
-  "userFacingChangelog": "内部维护更新",
+  "sizeBytes": 37792816,
+  "sha256": "10791715933266f99788646433aa40b69deba50d53c7fa98c7f865590d0259cd",
+  "changelog": "v1087: 自动备份重做——必须先设备份密码才能开启，和手动「导出我的回忆」同一套加密；密码用 commit+读回校验防止安全存储静默失败；没设密码的旧配置自动暂停并提示，不再每晚失败",
+  "userFacingChangelog": "自动备份重做：必须先设一个备份密码才能开启（和手动导出同一套加密）；没设密码的旧配置会自动暂停并提示，不再每晚静默失败",
   "recentReleases": [
-    {
-      "version": 1026,
-      "versionName": "260610-1710",
-      "userFacingChangelog": "空白日不再硬生成卡片——没素材的日子留白，有素材照常",
-      "changelog": "v1026: 素材闸(本人<4段且<200字且混合<400字)推广至 generateOne+Memory/PersonExtractor，force 不拦",
-      "publishedAtMs": 1781082799000
-    },
     {
       "version": 1027,
       "versionName": "260610-1723",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "内部维护更新",
       "changelog": "v1086: 内部维护更新与稳定性优化",
       "publishedAtMs": 1781251385000
+    },
+    {
+      "version": 1087,
+      "versionName": "260612-1612",
+      "userFacingChangelog": "自动备份重做：必须先设一个备份密码才能开启（和手动导出同一套加密）；没设密码的旧配置会自动暂停并提示，不再每晚静默失败",
+      "changelog": "v1087: 自动备份重做——必须先设备份密码才能开启，和手动「导出我的回忆」同一套加密；密码用 commit+读回校验防止安全存储静默失败；没设密码的旧配置自动暂停并提示，不再每晚失败",
+      "publishedAtMs": 1781252039000
     }
   ],
-  "publishedAtMs": 1781251385000,
+  "publishedAtMs": 1781252039000,
   "minSupported": 0
 }
