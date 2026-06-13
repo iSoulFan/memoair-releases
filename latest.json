@@ -1,20 +1,13 @@
 {
-  "version": 1117,
-  "versionName": "260614-0007-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1117-260614-0007-standard-slim.apk.bin",
+  "version": 1118,
+  "versionName": "260614-0023-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1118-260614-0023-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37600142,
-  "sha256": "c0aed0966482965fefefded63b3d4f2f903be72175c08b3fa087513040621964",
-  "changelog": "修复换手机导入数据卡在「处理中」的问题——大备份解密会卡死，现在导入很快。",
-  "userFacingChangelog": "修了换手机导入备份会卡住的问题，现在导入顺畅了。",
+  "sizeBytes": 37596046,
+  "sha256": "61b4279d9f4a369cfc6f5bdc4a904ddcaa6cbd53605c2ad63bc5371e5700616f",
+  "changelog": "修了数据多时「我的数据」那排统计数字挤不下会竖排乱掉的显示问题。",
+  "userFacingChangelog": "修了「我的数据」统计数字在数据多时显示错乱的问题。",
   "recentReleases": [
-    {
-      "version": 1043,
-      "versionName": "260611-1405",
-      "userFacingChangelog": "新增媒体声音过滤：AI 识别混进记录的电视/视频/歌曲内容（台词、歌词、广告），不再进时光、纪要和记忆；设置里可关",
-      "changelog": "v1043: aiMedia 第二层文本判别(DB v30)+MediaTextScreener+取材排除+设置开关",
-      "publishedAtMs": 1781158159907
-    },
     {
       "version": 1044,
       "versionName": "260611-1439",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "修了换手机导入备份会卡住的问题，现在导入顺畅了。",
       "changelog": "修复换手机导入数据卡在「处理中」的问题——大备份解密会卡死，现在导入很快。",
       "publishedAtMs": 1781367089000
+    },
+    {
+      "version": 1118,
+      "versionName": "260614-0023-standard",
+      "userFacingChangelog": "修了「我的数据」统计数字在数据多时显示错乱的问题。",
+      "changelog": "修了数据多时「我的数据」那排统计数字挤不下会竖排乱掉的显示问题。",
+      "publishedAtMs": 1781367864000
     }
   ],
-  "publishedAtMs": 1781367089000,
+  "publishedAtMs": 1781367864000,
   "minSupported": 0
 }
