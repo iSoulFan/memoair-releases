@@ -1,20 +1,13 @@
 {
-  "version": 1114,
-  "versionName": "260613-2135-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1114-260613-2135-standard-slim.apk.bin",
+  "version": 1115,
+  "versionName": "260613-2144-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1115-260613-2144-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37600142,
-  "sha256": "a914ac10e8ccb3d98d1197bd128afe25d6bd9d967577320253e8a86a462fce97",
-  "changelog": "人生来信·多语气上线：现在会读你当天的状态，换不同的方式给你写信——有时是认出你的那种、有时鼓励、有时安慰、有时只是陪你坐一会儿，不再每天一个腔调。\n输入框打长文会自动长高，看得到完整内容。\n按住说话的进场动效更柔和了，不再一惊一乍。",
-  "userFacingChangelog": "这版给「人生来信」加了语气——它会看你今天过得怎么样，挑一种最贴的方式给你写，不再千篇一律。顺手修了输入框长文显示和按住说话的进场动效。",
+  "sha256": "c63fbd2698a8422119059a6d6ea38ab3c3c0e461757b6ca33121d6987b5a7a5c",
+  "changelog": "内部维护更新",
+  "userFacingChangelog": "内部维护更新",
   "recentReleases": [
-    {
-      "version": 1040,
-      "versionName": "260611-0959",
-      "userFacingChangelog": "待办多选时，前面的方块换成圆形，选中态用待办页的蓝色",
-      "changelog": "v1040: CircleCheck 新组件；多选 TodoRow 前置 方框+Rose→圆+TodoBlue",
-      "publishedAtMs": 1781143292291
-    },
     {
       "version": 1041,
       "versionName": "260611-1248",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "这版给「人生来信」加了语气——它会看你今天过得怎么样，挑一种最贴的方式给你写，不再千篇一律。顺手修了输入框长文显示和按住说话的进场动效。",
       "changelog": "人生来信·多语气上线：现在会读你当天的状态，换不同的方式给你写信——有时是认出你的那种、有时鼓励、有时安慰、有时只是陪你坐一会儿，不再每天一个腔调。\n输入框打长文会自动长高，看得到完整内容。\n按住说话的进场动效更柔和了，不再一惊一乍。",
       "publishedAtMs": 1781357880000
+    },
+    {
+      "version": 1115,
+      "versionName": "260613-2144-standard",
+      "userFacingChangelog": "内部维护更新",
+      "changelog": "内部维护更新",
+      "publishedAtMs": 1781358348000
     }
   ],
-  "publishedAtMs": 1781357880000,
+  "publishedAtMs": 1781358348000,
   "minSupported": 0
 }
