@@ -1,20 +1,13 @@
 {
-  "version": 1102,
-  "versionName": "260613-0047",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1102-260613-0047-slim.apk.bin",
+  "version": 1114,
+  "versionName": "260613-2135-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1114-260613-2135-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 166030621,
-  "sha256": "326868015ab7d21da192f6d4d3167f66e196a936fbd215095eb4f244c2dc22ae",
-  "changelog": "内部维护与稳定性优化。",
-  "userFacingChangelog": "内部维护更新。",
+  "sizeBytes": 37600142,
+  "sha256": "a914ac10e8ccb3d98d1197bd128afe25d6bd9d967577320253e8a86a462fce97",
+  "changelog": "人生来信·多语气上线：现在会读你当天的状态，换不同的方式给你写信——有时是认出你的那种、有时鼓励、有时安慰、有时只是陪你坐一会儿，不再每天一个腔调。\n输入框打长文会自动长高，看得到完整内容。\n按住说话的进场动效更柔和了，不再一惊一乍。",
+  "userFacingChangelog": "这版给「人生来信」加了语气——它会看你今天过得怎么样，挑一种最贴的方式给你写，不再千篇一律。顺手修了输入框长文显示和按住说话的进场动效。",
   "recentReleases": [
-    {
-      "version": 1039,
-      "versionName": "260611-0938",
-      "userFacingChangelog": "已完成待办的排序现在完全跟随你选的排序规则（含按截止时间）",
-      "changelog": "v1039: done 区直接用 sorted 切分，删 x818 特殊回退",
-      "publishedAtMs": 1781142099590
-    },
     {
       "version": 1040,
       "versionName": "260611-0959",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "内部维护更新。",
       "changelog": "内部维护与稳定性优化。",
       "publishedAtMs": 1781283032000
+    },
+    {
+      "version": 1114,
+      "versionName": "260613-2135-standard",
+      "userFacingChangelog": "这版给「人生来信」加了语气——它会看你今天过得怎么样，挑一种最贴的方式给你写，不再千篇一律。顺手修了输入框长文显示和按住说话的进场动效。",
+      "changelog": "人生来信·多语气上线：现在会读你当天的状态，换不同的方式给你写信——有时是认出你的那种、有时鼓励、有时安慰、有时只是陪你坐一会儿，不再每天一个腔调。\n输入框打长文会自动长高，看得到完整内容。\n按住说话的进场动效更柔和了，不再一惊一乍。",
+      "publishedAtMs": 1781357880000
     }
   ],
-  "publishedAtMs": 1781283032000,
+  "publishedAtMs": 1781357880000,
   "minSupported": 0
 }
