@@ -1,20 +1,13 @@
 {
-  "version": 1115,
-  "versionName": "260613-2144-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1115-260613-2144-standard-slim.apk.bin",
+  "version": 1116,
+  "versionName": "260613-2301-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1116-260613-2301-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37600142,
-  "sha256": "c63fbd2698a8422119059a6d6ea38ab3c3c0e461757b6ca33121d6987b5a7a5c",
-  "changelog": "内部维护更新",
-  "userFacingChangelog": "内部维护更新",
+  "sizeBytes": 37596046,
+  "sha256": "e37dade9ba7a3fab2f80d3e1f957ddd281d6448eaad502247ae0ff49b2b0020c",
+  "changelog": "清掉了几条没必要的主动推送 / 通知——少打扰你一点。",
+  "userFacingChangelog": "清掉了几条没必要的主动推送和通知，安静一点。",
   "recentReleases": [
-    {
-      "version": 1041,
-      "versionName": "260611-1248",
-      "userFacingChangelog": "猜你想做卡片收起时，点任何位置（含圆加号）都是展开；展开后才能选单项",
-      "changelog": "v1041: 收起态 CirclePlus 直收特例移除→expandRecsCard",
-      "publishedAtMs": 1781153479046
-    },
     {
       "version": 1042,
       "versionName": "260611-1317",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "内部维护更新",
       "changelog": "内部维护更新",
       "publishedAtMs": 1781358348000
+    },
+    {
+      "version": 1116,
+      "versionName": "260613-2301-standard",
+      "userFacingChangelog": "清掉了几条没必要的主动推送和通知，安静一点。",
+      "changelog": "清掉了几条没必要的主动推送 / 通知——少打扰你一点。",
+      "publishedAtMs": 1781363005000
     }
   ],
-  "publishedAtMs": 1781358348000,
+  "publishedAtMs": 1781363005000,
   "minSupported": 0
 }
