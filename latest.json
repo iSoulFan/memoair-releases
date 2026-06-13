@@ -1,20 +1,13 @@
 {
-  "version": 1116,
-  "versionName": "260613-2301-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1116-260613-2301-standard-slim.apk.bin",
+  "version": 1117,
+  "versionName": "260614-0007-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1117-260614-0007-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37596046,
-  "sha256": "e37dade9ba7a3fab2f80d3e1f957ddd281d6448eaad502247ae0ff49b2b0020c",
-  "changelog": "清掉了几条没必要的主动推送 / 通知——少打扰你一点。",
-  "userFacingChangelog": "清掉了几条没必要的主动推送和通知，安静一点。",
+  "sizeBytes": 37600142,
+  "sha256": "c0aed0966482965fefefded63b3d4f2f903be72175c08b3fa087513040621964",
+  "changelog": "修复换手机导入数据卡在「处理中」的问题——大备份解密会卡死，现在导入很快。",
+  "userFacingChangelog": "修了换手机导入备份会卡住的问题，现在导入顺畅了。",
   "recentReleases": [
-    {
-      "version": 1042,
-      "versionName": "260611-1317",
-      "userFacingChangelog": "猜你想做折叠时，点圆加号直接把那条加进待办；点其他位置展开卡片",
-      "changelog": "v1042: 折叠态 CirclePlus 恢复直收(v1041 改过头)",
-      "publishedAtMs": 1781155194844
-    },
     {
       "version": 1043,
       "versionName": "260611-1405",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "清掉了几条没必要的主动推送和通知，安静一点。",
       "changelog": "清掉了几条没必要的主动推送 / 通知——少打扰你一点。",
       "publishedAtMs": 1781363005000
+    },
+    {
+      "version": 1117,
+      "versionName": "260614-0007-standard",
+      "userFacingChangelog": "修了换手机导入备份会卡住的问题，现在导入顺畅了。",
+      "changelog": "修复换手机导入数据卡在「处理中」的问题——大备份解密会卡死，现在导入很快。",
+      "publishedAtMs": 1781367089000
     }
   ],
-  "publishedAtMs": 1781363005000,
+  "publishedAtMs": 1781367089000,
   "minSupported": 0
 }
