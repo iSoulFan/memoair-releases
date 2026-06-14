@@ -1,20 +1,13 @@
 {
-  "version": 1118,
-  "versionName": "260614-0023-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1118-260614-0023-standard-slim.apk.bin",
+  "version": 1119,
+  "versionName": "260614-2311-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1119-260614-2311-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37596046,
-  "sha256": "61b4279d9f4a369cfc6f5bdc4a904ddcaa6cbd53605c2ad63bc5371e5700616f",
-  "changelog": "修了数据多时「我的数据」那排统计数字挤不下会竖排乱掉的显示问题。",
-  "userFacingChangelog": "修了「我的数据」统计数字在数据多时显示错乱的问题。",
+  "sha256": "3d75f522ffc26a91f29614f524635b9749bda089073644b11034ba5f8c96de3e",
+  "changelog": "修复人生来信偶尔整封不分段、正文里冒出 \\n 字符的问题——现在分段正常，旧信也会自动恢复分段。",
+  "userFacingChangelog": "修了人生来信偶尔不分段、夹着奇怪符号的问题，旧信也会自动恢复。",
   "recentReleases": [
-    {
-      "version": 1044,
-      "versionName": "260611-1439",
-      "userFacingChangelog": "猜你想做展开后点开某条，整张卡片会跟着长高，所有条目和详情完整露出",
-      "changelog": "v1044: 展开视口 onSizeChanged 实测内容高度(替代 34dp 估算)+200ms tween",
-      "publishedAtMs": 1781160102749
-    },
     {
       "version": 1045,
       "versionName": "260611-1447",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "修了「我的数据」统计数字在数据多时显示错乱的问题。",
       "changelog": "修了数据多时「我的数据」那排统计数字挤不下会竖排乱掉的显示问题。",
       "publishedAtMs": 1781367864000
+    },
+    {
+      "version": 1119,
+      "versionName": "260614-2311-standard",
+      "userFacingChangelog": "修了人生来信偶尔不分段、夹着奇怪符号的问题，旧信也会自动恢复。",
+      "changelog": "修复人生来信偶尔整封不分段、正文里冒出 \\n 字符的问题——现在分段正常，旧信也会自动恢复分段。",
+      "publishedAtMs": 1781450009000
     }
   ],
-  "publishedAtMs": 1781367864000,
+  "publishedAtMs": 1781450009000,
   "minSupported": 0
 }
