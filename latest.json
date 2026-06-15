@@ -1,20 +1,13 @@
 {
-  "version": 1120,
-  "versionName": "260615-0936-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1120-260615-0936-standard-slim.apk.bin",
+  "version": 1122,
+  "versionName": "260615-1016-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1122-260615-1016-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37600142,
-  "sha256": "481c641e158f005da491435741e930ac5ccaf1ac648070c077843213696bb1c8",
-  "changelog": "修复隐私时段结束后没自动恢复录音的问题——过了隐私时段不再卡在「隐私」，会自动开录（不用手动打开 App）。",
-  "userFacingChangelog": "修了隐私时段结束后没自动恢复录音、状态栏卡在「隐私」的问题。",
+  "sha256": "9b5cdf83bac92804636df6f2657cc30916090a881938633537263cd36ba644d3",
+  "changelog": "优化了在部分小屏 / 高显示大小手机上界面整体偏大的问题——显示更协调，跟正常机型一致了。",
+  "userFacingChangelog": "优化了部分手机上界面偏大的显示问题，看起来更协调了。",
   "recentReleases": [
-    {
-      "version": 1046,
-      "versionName": "260611-1454",
-      "userFacingChangelog": "猜你想做小白条拖动彻底跟手：修复位移映射失真和动画叠加造成的跳变卡顿",
-      "changelog": "v1046: rangePx rememberUpdatedState 实时化+拖动中 snap 解耦 tween+onDragCancel 兜底",
-      "publishedAtMs": 1781160951284
-    },
     {
       "version": 1047,
       "versionName": "260611-1517",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "修了隐私时段结束后没自动恢复录音、状态栏卡在「隐私」的问题。",
       "changelog": "修复隐私时段结束后没自动恢复录音的问题——过了隐私时段不再卡在「隐私」，会自动开录（不用手动打开 App）。",
       "publishedAtMs": 1781487524000
+    },
+    {
+      "version": 1122,
+      "versionName": "260615-1016-standard",
+      "userFacingChangelog": "优化了部分手机上界面偏大的显示问题，看起来更协调了。",
+      "changelog": "优化了在部分小屏 / 高显示大小手机上界面整体偏大的问题——显示更协调，跟正常机型一致了。",
+      "publishedAtMs": 1781490303000
     }
   ],
-  "publishedAtMs": 1781487524000,
+  "publishedAtMs": 1781490303000,
   "minSupported": 0
 }
