@@ -1,20 +1,13 @@
 {
-  "version": 1119,
-  "versionName": "260614-2311-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1119-260614-2311-standard-slim.apk.bin",
+  "version": 1120,
+  "versionName": "260615-0936-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1120-260615-0936-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37596046,
-  "sha256": "3d75f522ffc26a91f29614f524635b9749bda089073644b11034ba5f8c96de3e",
-  "changelog": "修复人生来信偶尔整封不分段、正文里冒出 \\n 字符的问题——现在分段正常，旧信也会自动恢复分段。",
-  "userFacingChangelog": "修了人生来信偶尔不分段、夹着奇怪符号的问题，旧信也会自动恢复。",
+  "sizeBytes": 37600142,
+  "sha256": "481c641e158f005da491435741e930ac5ccaf1ac648070c077843213696bb1c8",
+  "changelog": "修复隐私时段结束后没自动恢复录音的问题——过了隐私时段不再卡在「隐私」，会自动开录（不用手动打开 App）。",
+  "userFacingChangelog": "修了隐私时段结束后没自动恢复录音、状态栏卡在「隐私」的问题。",
   "recentReleases": [
-    {
-      "version": 1045,
-      "versionName": "260611-1447",
-      "userFacingChangelog": "猜你想做展开/收起时所有内容变化跟手平滑过渡：右上文案交叉淡变、标签渐显、详情展开有动画",
-      "changelog": "v1045: 头部crossfade随recP/标签alpha/间距插值/详情AnimatedVisibility/标题animateContentSize",
-      "publishedAtMs": 1781160589112
-    },
     {
       "version": 1046,
       "versionName": "260611-1454",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "修了人生来信偶尔不分段、夹着奇怪符号的问题，旧信也会自动恢复。",
       "changelog": "修复人生来信偶尔整封不分段、正文里冒出 \\n 字符的问题——现在分段正常，旧信也会自动恢复分段。",
       "publishedAtMs": 1781450009000
+    },
+    {
+      "version": 1120,
+      "versionName": "260615-0936-standard",
+      "userFacingChangelog": "修了隐私时段结束后没自动恢复录音、状态栏卡在「隐私」的问题。",
+      "changelog": "修复隐私时段结束后没自动恢复录音的问题——过了隐私时段不再卡在「隐私」，会自动开录（不用手动打开 App）。",
+      "publishedAtMs": 1781487524000
     }
   ],
-  "publishedAtMs": 1781450009000,
+  "publishedAtMs": 1781487524000,
   "minSupported": 0
 }
