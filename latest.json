@@ -1,20 +1,13 @@
 {
-  "version": 1126,
-  "versionName": "260615-1858-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1126-260615-1858-standard-slim.apk.bin",
+  "version": 1127,
+  "versionName": "260615-1908-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1127-260615-1908-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37575566,
-  "sha256": "78c442c45c053bc9c8c203947d423052619a06e9b63523843f452ab4c0b16b08",
-  "changelog": "人物体系重做：关系镜像下线（ASR/声纹不准易张冠李戴）；点对话人名→事实层人物大卡（最近提及/频率/首次实时算+缓存AI印象）；改名非破坏性叠加（显示规范名+变蓝+看历史，两条渲染路径统一）；改名撞已有人即合并；别名拆分；人物抽取只抽名字+别名省token；登场过的人列表入口收起，抽取触发挪到打开对话页。",
-  "userFacingChangelog": "· 人物体验重做：点对话里的人名，直接看 TA 的卡片（多久没见 / 提过多少次 / 一段印象）\n· 改过的名字会在对话里实时更新、标蓝，点开能看到改名前后和别名\n· 把名字改成已有联系人会自动合并成一个人",
+  "sha256": "d0a934e0d417afa4dfefb7834c50085d16c3fcd72f45ee822dd9d3b5b6d56d8d",
+  "changelog": "修复：AI/备忘气泡里三字人名虚线只盖前两字（markdown 路径的命中矩形改用逐字符 getBoundingBox，对齐 v1069 用户气泡的修法）。",
+  "userFacingChangelog": "· 修复：对话里三个字的人名，虚线/可点区域有时只盖到前两个字",
   "recentReleases": [
-    {
-      "version": 1049,
-      "versionName": "260611-1543",
-      "userFacingChangelog": "按住说话超过两行后自动滚动显示最新内容；提醒设置新增「默认时刻」（只说某天/早中下晚各自可调）；日历同步文案精简",
-      "changelog": "v1049: STT 预览 verticalScroll 自动贴底;DueDefaultsPrefs 五档+prompt 注入;日历 toggle 改文案",
-      "publishedAtMs": 1781164339857
-    },
     {
       "version": 1050,
       "versionName": "260611-1558",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "· 人物体验重做：点对话里的人名，直接看 TA 的卡片（多久没见 / 提过多少次 / 一段印象）\n· 改过的名字会在对话里实时更新、标蓝，点开能看到改名前后和别名\n· 把名字改成已有联系人会自动合并成一个人",
       "changelog": "人物体系重做：关系镜像下线（ASR/声纹不准易张冠李戴）；点对话人名→事实层人物大卡（最近提及/频率/首次实时算+缓存AI印象）；改名非破坏性叠加（显示规范名+变蓝+看历史，两条渲染路径统一）；改名撞已有人即合并；别名拆分；人物抽取只抽名字+别名省token；登场过的人列表入口收起，抽取触发挪到打开对话页。",
       "publishedAtMs": 1781521207000
+    },
+    {
+      "version": 1127,
+      "versionName": "260615-1908-standard",
+      "userFacingChangelog": "· 修复：对话里三个字的人名，虚线/可点区域有时只盖到前两个字",
+      "changelog": "修复：AI/备忘气泡里三字人名虚线只盖前两字（markdown 路径的命中矩形改用逐字符 getBoundingBox，对齐 v1069 用户气泡的修法）。",
+      "publishedAtMs": 1781521790000
     }
   ],
-  "publishedAtMs": 1781521207000,
+  "publishedAtMs": 1781521790000,
   "minSupported": 0
 }
