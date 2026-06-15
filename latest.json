@@ -1,20 +1,13 @@
 {
-  "version": 1127,
-  "versionName": "260615-1908-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1127-260615-1908-standard-slim.apk.bin",
+  "version": 1128,
+  "versionName": "260615-2107-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1128-260615-2107-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37575566,
-  "sha256": "d0a934e0d417afa4dfefb7834c50085d16c3fcd72f45ee822dd9d3b5b6d56d8d",
-  "changelog": "修复：AI/备忘气泡里三字人名虚线只盖前两字（markdown 路径的命中矩形改用逐字符 getBoundingBox，对齐 v1069 用户气泡的修法）。",
-  "userFacingChangelog": "· 修复：对话里三个字的人名，虚线/可点区域有时只盖到前两个字",
+  "sha256": "7035442e20559310495e7df34d4d3903f126ebfd4bce36f1a5c025ef985f71f2",
+  "changelog": "修复：短人名（≤2字）会误标进更长中文词里（'博芬'被标进'博芬生'）——未确认的短名紧贴更多中文时不再标，已确认的不受影响；人名修正弹窗新增「这不是真人·删掉」清理抽错的脏名。",
+  "userFacingChangelog": "· 修复：短的人名有时会被错误地标注进更长的词里\n· 点人名的修正弹窗新增「这不是真人·删掉」，可直接清掉抽错的名字",
   "recentReleases": [
-    {
-      "version": 1050,
-      "versionName": "260611-1558",
-      "userFacingChangelog": "「默认时刻」的时间值改成可点的药丸样式，一眼能看出可以点击修改",
-      "changelog": "v1050: 默认时刻时间值 Warm 药丸 chip",
-      "publishedAtMs": 1781165259807
-    },
     {
       "version": 1051,
       "versionName": "260611-1646",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "· 修复：对话里三个字的人名，虚线/可点区域有时只盖到前两个字",
       "changelog": "修复：AI/备忘气泡里三字人名虚线只盖前两字（markdown 路径的命中矩形改用逐字符 getBoundingBox，对齐 v1069 用户气泡的修法）。",
       "publishedAtMs": 1781521790000
+    },
+    {
+      "version": 1128,
+      "versionName": "260615-2107-standard",
+      "userFacingChangelog": "· 修复：短的人名有时会被错误地标注进更长的词里\n· 点人名的修正弹窗新增「这不是真人·删掉」，可直接清掉抽错的名字",
+      "changelog": "修复：短人名（≤2字）会误标进更长中文词里（'博芬'被标进'博芬生'）——未确认的短名紧贴更多中文时不再标，已确认的不受影响；人名修正弹窗新增「这不是真人·删掉」清理抽错的脏名。",
+      "publishedAtMs": 1781528951000
     }
   ],
-  "publishedAtMs": 1781521790000,
+  "publishedAtMs": 1781528951000,
   "minSupported": 0
 }
