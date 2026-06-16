@@ -1,20 +1,13 @@
 {
-  "version": 1130,
-  "versionName": "260616-1048-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1130-260616-1048-standard-slim.apk.bin",
+  "version": 1131,
+  "versionName": "260616-1102-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1131-260616-1102-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37583758,
-  "sha256": "318b0978784f2b3b3ebbccf8a64cc37522fd4d124684f430ebb795dc60c9f732",
-  "changelog": "调试(管理员)：人生来信新增「按当前规则往前捞一份」预览——跑全流程(收集→LLM精选→写信)出一封 + 显示捞了几天/精彩度/触发语气/LLM自评分(1-10)/选中的跨窗口高光，用来检验降频提质后的输出质量。",
-  "userFacingChangelog": "· 内部优化与稳定性改进",
+  "sha256": "ff3b0749861239aec06bd759ac83cd3acfb01076bf355e2293540b7b826bd363",
+  "changelog": "修复隐私时段结束后录音不自动恢复：根因不是被杀（早上拾梦相片仍生成=进程活着），而是进隐私段时误把整个前台服务 stopSelf，到点要从后台重启『麦克风类前台服务』被 Android 14+ 限制挡掉（while-in-use FGS 禁止后台启动），只能等用户开 App 才拉起。改成进隐私段保留前台保活（不 stopSelf、释放麦不录），到点在已存活的服务里就地重新拿麦——不是后台启服务，不受该限制；外加每分钟自恢复轮询，不依赖会被吊销的闹钟。",
+  "userFacingChangelog": "· 修复：设了隐私时段（如夜里不录）的，时段结束后录音有时不自动恢复——现在会按时自己恢复",
   "recentReleases": [
-    {
-      "version": 1053,
-      "versionName": "260611-1727",
-      "userFacingChangelog": "设置里所有小字统一成同一种非衬线样式，排版不再乱",
-      "changelog": "v1053: NoteStyle 89 处归一(74 bodySmall+15 小号衬线)",
-      "publishedAtMs": 1781170400022
-    },
     {
       "version": 1061,
       "versionName": "260611-1913",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "· 内部优化与稳定性改进",
       "changelog": "调试(管理员)：人生来信新增「按当前规则往前捞一份」预览——跑全流程(收集→LLM精选→写信)出一封 + 显示捞了几天/精彩度/触发语气/LLM自评分(1-10)/选中的跨窗口高光，用来检验降频提质后的输出质量。",
       "publishedAtMs": 1781578204000
+    },
+    {
+      "version": 1131,
+      "versionName": "260616-1102-standard",
+      "userFacingChangelog": "· 修复：设了隐私时段（如夜里不录）的，时段结束后录音有时不自动恢复——现在会按时自己恢复",
+      "changelog": "修复隐私时段结束后录音不自动恢复：根因不是被杀（早上拾梦相片仍生成=进程活着），而是进隐私段时误把整个前台服务 stopSelf，到点要从后台重启『麦克风类前台服务』被 Android 14+ 限制挡掉（while-in-use FGS 禁止后台启动），只能等用户开 App 才拉起。改成进隐私段保留前台保活（不 stopSelf、释放麦不录），到点在已存活的服务里就地重新拿麦——不是后台启服务，不受该限制；外加每分钟自恢复轮询，不依赖会被吊销的闹钟。",
+      "publishedAtMs": 1781579084000
     }
   ],
-  "publishedAtMs": 1781578204000,
+  "publishedAtMs": 1781579084000,
   "minSupported": 0
 }
