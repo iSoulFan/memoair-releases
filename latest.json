@@ -1,20 +1,13 @@
 {
-  "version": 1129,
-  "versionName": "260616-1036-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1129-260616-1036-standard-slim.apk.bin",
+  "version": 1130,
+  "versionName": "260616-1048-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1130-260616-1048-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37579662,
-  "sha256": "edbc21ab32c7875390f749438f692ec77e0a437f13ba861b96cde40b6fb77263",
-  "changelog": "人生来信降频提质：不再每天发——地板3天/常态约一周/封顶10天给活跃用户兜底轻量；时间主导+加权精彩度；每封由跨整段窗口LLM精选的高光写成（写信只拿到精选，杜绝只读单日敷衍）；落款去掉'没做X的你'反义尬款，改短·真心情·不猜细节。",
-  "userFacingChangelog": "· 人生来信不再每天打扰——攒一段时间、挑这阵最值得记的几件事，写得更厚\n· 落款写得更自然了",
+  "sizeBytes": 37583758,
+  "sha256": "318b0978784f2b3b3ebbccf8a64cc37522fd4d124684f430ebb795dc60c9f732",
+  "changelog": "调试(管理员)：人生来信新增「按当前规则往前捞一份」预览——跑全流程(收集→LLM精选→写信)出一封 + 显示捞了几天/精彩度/触发语气/LLM自评分(1-10)/选中的跨窗口高光，用来检验降频提质后的输出质量。",
+  "userFacingChangelog": "· 内部优化与稳定性改进",
   "recentReleases": [
-    {
-      "version": 1052,
-      "versionName": "260611-1711",
-      "userFacingChangelog": "设置页大瘦身：没必要的解释文字删掉，留下的都是一句话",
-      "changelog": "v1052: 选项类小字全删/开关默认无小字/必要的留一句",
-      "publishedAtMs": 1781169513330
-    },
     {
       "version": 1053,
       "versionName": "260611-1727",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "· 人生来信不再每天打扰——攒一段时间、挑这阵最值得记的几件事，写得更厚\n· 落款写得更自然了",
       "changelog": "人生来信降频提质：不再每天发——地板3天/常态约一周/封顶10天给活跃用户兜底轻量；时间主导+加权精彩度；每封由跨整段窗口LLM精选的高光写成（写信只拿到精选，杜绝只读单日敷衍）；落款去掉'没做X的你'反义尬款，改短·真心情·不猜细节。",
       "publishedAtMs": 1781577549000
+    },
+    {
+      "version": 1130,
+      "versionName": "260616-1048-standard",
+      "userFacingChangelog": "· 内部优化与稳定性改进",
+      "changelog": "调试(管理员)：人生来信新增「按当前规则往前捞一份」预览——跑全流程(收集→LLM精选→写信)出一封 + 显示捞了几天/精彩度/触发语气/LLM自评分(1-10)/选中的跨窗口高光，用来检验降频提质后的输出质量。",
+      "publishedAtMs": 1781578204000
     }
   ],
-  "publishedAtMs": 1781577549000,
+  "publishedAtMs": 1781578204000,
   "minSupported": 0
 }
