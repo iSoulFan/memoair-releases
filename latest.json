@@ -1,20 +1,13 @@
 {
-  "version": 1134,
-  "versionName": "260617-0735-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1134-260617-0735-standard-slim.apk.bin",
+  "version": 1135,
+  "versionName": "260617-0744-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1135-260617-0744-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37587854,
-  "sha256": "411fa2738b7034a86555250ef48374b4c2efbe61b980e8624ceb984dd20ac24a",
-  "changelog": "拾梦相片揭晓动画修复：刚生成、还没看过的第一张相片，揭晓时时光页那个位置先空着，不再出现「时光页已有一张 + 全屏又吐一张」的重复。",
-  "userFacingChangelog": "拾梦相片揭晓的时候，不会再重复出现两张了。",
+  "sha256": "131eca93c976a0a18564ea831b469cdc1b01f7274e07bf5964ff7f5746d7b5eb",
+  "changelog": "调试试播改为在时光页背景上重播（管理员调试用），便于验证拾梦相片揭晓动画的「槽位先留空」。",
+  "userFacingChangelog": "一些细节打磨。",
   "recentReleases": [
-    {
-      "version": 1065,
-      "versionName": "260611-2215",
-      "userFacingChangelog": "人设预设加 emoji；自动备份强制加密（要设密码）；管理员点标题直接弹更新；展开区滑到底不再误收",
-      "changelog": "v1065: 含 v1064(persona emoji/alertSeq 强制重弹/auto backup AES)+整节 bounds 滚出判定",
-      "publishedAtMs": 1781189208609
-    },
     {
       "version": 1066,
       "versionName": "260611-2329",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "拾梦相片揭晓的时候，不会再重复出现两张了。",
       "changelog": "拾梦相片揭晓动画修复：刚生成、还没看过的第一张相片，揭晓时时光页那个位置先空着，不再出现「时光页已有一张 + 全屏又吐一张」的重复。",
       "publishedAtMs": 1781653087000
+    },
+    {
+      "version": 1135,
+      "versionName": "260617-0744-standard",
+      "userFacingChangelog": "一些细节打磨。",
+      "changelog": "调试试播改为在时光页背景上重播（管理员调试用），便于验证拾梦相片揭晓动画的「槽位先留空」。",
+      "publishedAtMs": 1781653558000
     }
   ],
-  "publishedAtMs": 1781653087000,
+  "publishedAtMs": 1781653558000,
   "minSupported": 0
 }
