@@ -1,20 +1,13 @@
 {
-  "version": 1133,
-  "versionName": "260616-2046-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1133-260616-2046-standard-slim.apk.bin",
+  "version": 1134,
+  "versionName": "260617-0735-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1134-260617-0735-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37587854,
-  "sha256": "ff8387d009022898d438bc009c9f459e44eb6484521bf4d0d35f37a31dc88d32",
-  "changelog": "行动板块（待办 / 猜你想做 / 愿望 / 抉择）里提到的人名，现在也标虚线、可点开校正——跟纪要、对话保持一致。",
-  "userFacingChangelog": "现在待办、愿望、抉择里提到的人名，也能点开校正了。",
+  "sha256": "411fa2738b7034a86555250ef48374b4c2efbe61b980e8624ceb984dd20ac24a",
+  "changelog": "拾梦相片揭晓动画修复：刚生成、还没看过的第一张相片，揭晓时时光页那个位置先空着，不再出现「时光页已有一张 + 全屏又吐一张」的重复。",
+  "userFacingChangelog": "拾梦相片揭晓的时候，不会再重复出现两张了。",
   "recentReleases": [
-    {
-      "version": 1063,
-      "versionName": "260611-2131",
-      "userFacingChangelog": "知识发芽卡片去掉标题下的拼音装饰文字",
-      "changelog": "v1063: 知识发芽 pinyin 副标不再渲染(字段保留兼容)",
-      "publishedAtMs": 1781185035208
-    },
     {
       "version": 1065,
       "versionName": "260611-2215",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "现在待办、愿望、抉择里提到的人名，也能点开校正了。",
       "changelog": "行动板块（待办 / 猜你想做 / 愿望 / 抉择）里提到的人名，现在也标虚线、可点开校正——跟纪要、对话保持一致。",
       "publishedAtMs": 1781614180000
+    },
+    {
+      "version": 1134,
+      "versionName": "260617-0735-standard",
+      "userFacingChangelog": "拾梦相片揭晓的时候，不会再重复出现两张了。",
+      "changelog": "拾梦相片揭晓动画修复：刚生成、还没看过的第一张相片，揭晓时时光页那个位置先空着，不再出现「时光页已有一张 + 全屏又吐一张」的重复。",
+      "publishedAtMs": 1781653087000
     }
   ],
-  "publishedAtMs": 1781614180000,
+  "publishedAtMs": 1781653087000,
   "minSupported": 0
 }
