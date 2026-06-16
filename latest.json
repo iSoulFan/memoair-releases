@@ -1,20 +1,13 @@
 {
-  "version": 1131,
-  "versionName": "260616-1102-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1131-260616-1102-standard-slim.apk.bin",
+  "version": 1132,
+  "versionName": "260616-1116-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1132-260616-1116-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37583758,
-  "sha256": "ff3b0749861239aec06bd759ac83cd3acfb01076bf355e2293540b7b826bd363",
-  "changelog": "修复隐私时段结束后录音不自动恢复：根因不是被杀（早上拾梦相片仍生成=进程活着），而是进隐私段时误把整个前台服务 stopSelf，到点要从后台重启『麦克风类前台服务』被 Android 14+ 限制挡掉（while-in-use FGS 禁止后台启动），只能等用户开 App 才拉起。改成进隐私段保留前台保活（不 stopSelf、释放麦不录），到点在已存活的服务里就地重新拿麦——不是后台启服务，不受该限制；外加每分钟自恢复轮询，不依赖会被吊销的闹钟。",
-  "userFacingChangelog": "· 修复：设了隐私时段（如夜里不录）的，时段结束后录音有时不自动恢复——现在会按时自己恢复",
+  "sha256": "50f86738c27f770fced0ebe7420cad76393604750ba8e21a954fcb56d262fea1",
+  "changelog": "拾梦相片出图：当天有'现场/大事'(赛事/F1/演唱会/旅行/节日/看海等)时，直接还原那个场景本身(Ghibli水彩、有动感)，不再降级成桌面静物代用物件(如'看F1'被画成'桌上模型车')；普通的一天仍走安静静物；人物只作远景柔和剪影，不画清晰人脸。",
+  "userFacingChangelog": "· 拾梦相片：遇到看比赛/演出/旅行这种'大场面'的日子，会直接画那个场景，而不是桌上一个小物件",
   "recentReleases": [
-    {
-      "version": 1061,
-      "versionName": "260611-1913",
-      "userFacingChangelog": "「我的」页全面翻新：分组卡片、统一按钮和小字、声纹/选择忘记重做、滑出自动收回、文案精简",
-      "changelog": "v1061: PillButton 大一统;含 v1054-v1060 设置页 v2 框架全系列",
-      "publishedAtMs": 1781178724256
-    },
     {
       "version": 1062,
       "versionName": "260611-2030",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "· 修复：设了隐私时段（如夜里不录）的，时段结束后录音有时不自动恢复——现在会按时自己恢复",
       "changelog": "修复隐私时段结束后录音不自动恢复：根因不是被杀（早上拾梦相片仍生成=进程活着），而是进隐私段时误把整个前台服务 stopSelf，到点要从后台重启『麦克风类前台服务』被 Android 14+ 限制挡掉（while-in-use FGS 禁止后台启动），只能等用户开 App 才拉起。改成进隐私段保留前台保活（不 stopSelf、释放麦不录），到点在已存活的服务里就地重新拿麦——不是后台启服务，不受该限制；外加每分钟自恢复轮询，不依赖会被吊销的闹钟。",
       "publishedAtMs": 1781579084000
+    },
+    {
+      "version": 1132,
+      "versionName": "260616-1116-standard",
+      "userFacingChangelog": "· 拾梦相片：遇到看比赛/演出/旅行这种'大场面'的日子，会直接画那个场景，而不是桌上一个小物件",
+      "changelog": "拾梦相片出图：当天有'现场/大事'(赛事/F1/演唱会/旅行/节日/看海等)时，直接还原那个场景本身(Ghibli水彩、有动感)，不再降级成桌面静物代用物件(如'看F1'被画成'桌上模型车')；普通的一天仍走安静静物；人物只作远景柔和剪影，不画清晰人脸。",
+      "publishedAtMs": 1781579892000
     }
   ],
-  "publishedAtMs": 1781579084000,
+  "publishedAtMs": 1781579892000,
   "minSupported": 0
 }
