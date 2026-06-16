@@ -1,20 +1,13 @@
 {
-  "version": 1128,
-  "versionName": "260615-2107-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1128-260615-2107-standard-slim.apk.bin",
+  "version": 1129,
+  "versionName": "260616-1036-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1129-260616-1036-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37575566,
-  "sha256": "7035442e20559310495e7df34d4d3903f126ebfd4bce36f1a5c025ef985f71f2",
-  "changelog": "修复：短人名（≤2字）会误标进更长中文词里（'博芬'被标进'博芬生'）——未确认的短名紧贴更多中文时不再标，已确认的不受影响；人名修正弹窗新增「这不是真人·删掉」清理抽错的脏名。",
-  "userFacingChangelog": "· 修复：短的人名有时会被错误地标注进更长的词里\n· 点人名的修正弹窗新增「这不是真人·删掉」，可直接清掉抽错的名字",
+  "sizeBytes": 37579662,
+  "sha256": "edbc21ab32c7875390f749438f692ec77e0a437f13ba861b96cde40b6fb77263",
+  "changelog": "人生来信降频提质：不再每天发——地板3天/常态约一周/封顶10天给活跃用户兜底轻量；时间主导+加权精彩度；每封由跨整段窗口LLM精选的高光写成（写信只拿到精选，杜绝只读单日敷衍）；落款去掉'没做X的你'反义尬款，改短·真心情·不猜细节。",
+  "userFacingChangelog": "· 人生来信不再每天打扰——攒一段时间、挑这阵最值得记的几件事，写得更厚\n· 落款写得更自然了",
   "recentReleases": [
-    {
-      "version": 1051,
-      "versionName": "260611-1646",
-      "userFacingChangelog": "设置页文案全面改成人话（18 处），小字样式统一",
-      "changelog": "v1051: 文案审计表落地(4条合规微调)+小字 Mono10.5/16/0.5/InkFaint 统一",
-      "publishedAtMs": 1781168195094
-    },
     {
       "version": 1052,
       "versionName": "260611-1711",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "· 修复：短的人名有时会被错误地标注进更长的词里\n· 点人名的修正弹窗新增「这不是真人·删掉」，可直接清掉抽错的名字",
       "changelog": "修复：短人名（≤2字）会误标进更长中文词里（'博芬'被标进'博芬生'）——未确认的短名紧贴更多中文时不再标，已确认的不受影响；人名修正弹窗新增「这不是真人·删掉」清理抽错的脏名。",
       "publishedAtMs": 1781528951000
+    },
+    {
+      "version": 1129,
+      "versionName": "260616-1036-standard",
+      "userFacingChangelog": "· 人生来信不再每天打扰——攒一段时间、挑这阵最值得记的几件事，写得更厚\n· 落款写得更自然了",
+      "changelog": "人生来信降频提质：不再每天发——地板3天/常态约一周/封顶10天给活跃用户兜底轻量；时间主导+加权精彩度；每封由跨整段窗口LLM精选的高光写成（写信只拿到精选，杜绝只读单日敷衍）；落款去掉'没做X的你'反义尬款，改短·真心情·不猜细节。",
+      "publishedAtMs": 1781577549000
     }
   ],
-  "publishedAtMs": 1781528951000,
+  "publishedAtMs": 1781577549000,
   "minSupported": 0
 }
