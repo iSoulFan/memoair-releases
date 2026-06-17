@@ -1,20 +1,13 @@
 {
-  "version": 1139,
-  "versionName": "260617-1121-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1139-260617-1121-standard-slim.apk.bin",
+  "version": 1140,
+  "versionName": "260617-1140-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1140-260617-1140-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37591950,
-  "sha256": "dbe47dad57265d35d6302f7c02f356f5ae89ae71976d0ce10896aeca37f9e5b3",
-  "changelog": "拾梦相片闪屏修复(第一版)：揭晓后相片不再原地硬闪，而是连续飞回时光页它该在的位置落定；不隐藏状态栏避免恢复跳变。落点精度还要照你真机来回调。",
-  "userFacingChangelog": "拾梦相片揭晓后会顺滑地飞回时光页该在的位置，不再闪一下啦。",
+  "sha256": "e87b31bf176748cf5ce9ed66abd78a03cb003d05b9cadeb820fbd9beee7c10db",
+  "changelog": "拾梦相片落定零跳变(第二版)：让全屏飞入的那张相片 = 时光页里它落地后的那张【原样】(同图/同文字/同倾斜角)，落定时两张严丝合缝，不再「转一下 + 文字冒出来」的闪。时光页每张相片的随机角度完全没动。",
+  "userFacingChangelog": "拾梦相片飞回时光页落定时更顺了，不再有最后那一下闪和转。",
   "recentReleases": [
-    {
-      "version": 1070,
-      "versionName": "260612-0911",
-      "userFacingChangelog": "对话里点改人名后旧对话也同步更新；登场过的人的操作按钮统一放到最上面一排；合并查重失败时显示真实原因",
-      "changelog": "v1070: 改名刷新旧话题快照+PeopleBlock按钮FlowRow置顶+查重错误显it.message",
-      "publishedAtMs": 1781227019791
-    },
     {
       "version": 1071,
       "versionName": "260612-0931",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "拾梦相片揭晓后会顺滑地飞回时光页该在的位置，不再闪一下啦。",
       "changelog": "拾梦相片闪屏修复(第一版)：揭晓后相片不再原地硬闪，而是连续飞回时光页它该在的位置落定；不隐藏状态栏避免恢复跳变。落点精度还要照你真机来回调。",
       "publishedAtMs": 1781666582000
+    },
+    {
+      "version": 1140,
+      "versionName": "260617-1140-standard",
+      "userFacingChangelog": "拾梦相片飞回时光页落定时更顺了，不再有最后那一下闪和转。",
+      "changelog": "拾梦相片落定零跳变(第二版)：让全屏飞入的那张相片 = 时光页里它落地后的那张【原样】(同图/同文字/同倾斜角)，落定时两张严丝合缝，不再「转一下 + 文字冒出来」的闪。时光页每张相片的随机角度完全没动。",
+      "publishedAtMs": 1781667713000
     }
   ],
-  "publishedAtMs": 1781666582000,
+  "publishedAtMs": 1781667713000,
   "minSupported": 0
 }
