@@ -1,20 +1,13 @@
 {
-  "version": 1140,
-  "versionName": "260617-1140-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1140-260617-1140-standard-slim.apk.bin",
+  "version": 1141,
+  "versionName": "260617-1148-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1141-260617-1148-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37591950,
-  "sha256": "e87b31bf176748cf5ce9ed66abd78a03cb003d05b9cadeb820fbd9beee7c10db",
-  "changelog": "拾梦相片落定零跳变(第二版)：让全屏飞入的那张相片 = 时光页里它落地后的那张【原样】(同图/同文字/同倾斜角)，落定时两张严丝合缝，不再「转一下 + 文字冒出来」的闪。时光页每张相片的随机角度完全没动。",
-  "userFacingChangelog": "拾梦相片飞回时光页落定时更顺了，不再有最后那一下闪和转。",
+  "sha256": "3fb1cfe34f03f5a56cb057771cd3215631cd4a258a7db67e8bd88780402da767",
+  "changelog": "拾梦相片落定整屏闪修复(第三版)：背景暗底不再在揭晓结束时瞬间消失，而是随相片飞向时光页槽位的过程同步淡掉——落定时暗底已透明，不再有暗→亮整屏闪一下。",
+  "userFacingChangelog": "拾梦相片揭晓收尾更干净了，最后那一下整屏闪没有了。",
   "recentReleases": [
-    {
-      "version": 1071,
-      "versionName": "260612-0931",
-      "userFacingChangelog": "AI 查重现在也会比对别名（跟某人别名相近的也提议归到主名）；合并/忽略改成更大更像按钮的样式",
-      "changelog": "v1071: scanner prompt 别名参与比对+DupPairsDialog ✓✗→合并/忽略胶囊钮",
-      "publishedAtMs": 1781228303989
-    },
     {
       "version": 1072,
       "versionName": "260612-1105",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "拾梦相片飞回时光页落定时更顺了，不再有最后那一下闪和转。",
       "changelog": "拾梦相片落定零跳变(第二版)：让全屏飞入的那张相片 = 时光页里它落地后的那张【原样】(同图/同文字/同倾斜角)，落定时两张严丝合缝，不再「转一下 + 文字冒出来」的闪。时光页每张相片的随机角度完全没动。",
       "publishedAtMs": 1781667713000
+    },
+    {
+      "version": 1141,
+      "versionName": "260617-1148-standard",
+      "userFacingChangelog": "拾梦相片揭晓收尾更干净了，最后那一下整屏闪没有了。",
+      "changelog": "拾梦相片落定整屏闪修复(第三版)：背景暗底不再在揭晓结束时瞬间消失，而是随相片飞向时光页槽位的过程同步淡掉——落定时暗底已透明，不再有暗→亮整屏闪一下。",
+      "publishedAtMs": 1781668195000
     }
   ],
-  "publishedAtMs": 1781667713000,
+  "publishedAtMs": 1781668195000,
   "minSupported": 0
 }
