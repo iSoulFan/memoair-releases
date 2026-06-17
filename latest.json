@@ -1,20 +1,13 @@
 {
-  "version": 1135,
-  "versionName": "260617-0744-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1135-260617-0744-standard-slim.apk.bin",
+  "version": 1136,
+  "versionName": "260617-0816-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1136-260617-0816-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37587854,
-  "sha256": "131eca93c976a0a18564ea831b469cdc1b01f7274e07bf5964ff7f5746d7b5eb",
-  "changelog": "调试试播改为在时光页背景上重播（管理员调试用），便于验证拾梦相片揭晓动画的「槽位先留空」。",
-  "userFacingChangelog": "一些细节打磨。",
+  "sizeBytes": 37591950,
+  "sha256": "eb3cec7b5bde69148cdd987a2d921fc1a4a5c459a2a2df5bc5b6581a5c389ec8",
+  "changelog": "① 确认过(点'就是这个字')的人名显示蓝色、再点直接进人物卡片；② 猜你想做里若提到了时间(明天/某号)会打上时间标(按记录当时的时间推算)，导入待办原样保留；③ 拾梦相片揭晓退场改成淡出，去掉了点击后的闪屏。",
+  "userFacingChangelog": "确认过的人名会变蓝、点开就是人物卡片；猜你想做提到的时间会标出来；拾梦相片揭晓更顺了。",
   "recentReleases": [
-    {
-      "version": 1066,
-      "versionName": "260611-2329",
-      "userFacingChangelog": "按住说话时，声波和背景光的反应更快更跟嘴",
-      "publishedAtMs": 1781192217741,
-      "changelog": "v1066: micLevel 25ms 块+spring 750"
-    },
     {
       "version": 1067,
       "versionName": "260612-0035",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "一些细节打磨。",
       "changelog": "调试试播改为在时光页背景上重播（管理员调试用），便于验证拾梦相片揭晓动画的「槽位先留空」。",
       "publishedAtMs": 1781653558000
+    },
+    {
+      "version": 1136,
+      "versionName": "260617-0816-standard",
+      "userFacingChangelog": "确认过的人名会变蓝、点开就是人物卡片；猜你想做提到的时间会标出来；拾梦相片揭晓更顺了。",
+      "changelog": "① 确认过(点'就是这个字')的人名显示蓝色、再点直接进人物卡片；② 猜你想做里若提到了时间(明天/某号)会打上时间标(按记录当时的时间推算)，导入待办原样保留；③ 拾梦相片揭晓退场改成淡出，去掉了点击后的闪屏。",
+      "publishedAtMs": 1781655502000
     }
   ],
-  "publishedAtMs": 1781653558000,
+  "publishedAtMs": 1781655502000,
   "minSupported": 0
 }
