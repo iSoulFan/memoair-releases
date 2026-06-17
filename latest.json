@@ -1,20 +1,13 @@
 {
-  "version": 1137,
-  "versionName": "260617-1039-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1137-260617-1039-standard-slim.apk.bin",
+  "version": 1138,
+  "versionName": "260617-1051-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1138-260617-1051-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37591950,
-  "sha256": "dc460c0621ead8a3df3d8a26e88be1f6670d1005f203532e36a11a5b6b1ad9a1",
-  "changelog": "修复：纪要里的待办若用了相对时间（明天/周五），现在按这场会议发生当天推算，不再因为隔天才生成而算错日期。",
-  "userFacingChangelog": "纪要待办里的'明天/周五'这类时间，现在算得准了。",
+  "sha256": "9f32fd6a0558d7846d887b13fe3a339fa0ffb417a08da7229af1ae360d700699",
+  "changelog": "修复聊天记忆错乱：AI 不再把不同时间发生的事糅成同一时间、也不再在它们之间编造因果——每件事按各自的真实时间讲。给每条记忆都带上了精确到分钟的时间。",
+  "userFacingChangelog": "聊天回忆更靠谱了：不同时间的事不会再被混成一段、也不会瞎编因果了。",
   "recentReleases": [
-    {
-      "version": 1068,
-      "versionName": "260612-0808",
-      "userFacingChangelog": "改完人名后，聊天里点的那段文字也立刻换成新写法",
-      "changelog": "v1068: cascadeRenamePerson 补 chat_messages REPLACE",
-      "publishedAtMs": 1781223315110
-    },
     {
       "version": 1069,
       "versionName": "260612-0842",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "纪要待办里的'明天/周五'这类时间，现在算得准了。",
       "changelog": "修复：纪要里的待办若用了相对时间（明天/周五），现在按这场会议发生当天推算，不再因为隔天才生成而算错日期。",
       "publishedAtMs": 1781664065000
+    },
+    {
+      "version": 1138,
+      "versionName": "260617-1051-standard",
+      "userFacingChangelog": "聊天回忆更靠谱了：不同时间的事不会再被混成一段、也不会瞎编因果了。",
+      "changelog": "修复聊天记忆错乱：AI 不再把不同时间发生的事糅成同一时间、也不再在它们之间编造因果——每件事按各自的真实时间讲。给每条记忆都带上了精确到分钟的时间。",
+      "publishedAtMs": 1781664780000
     }
   ],
-  "publishedAtMs": 1781664065000,
+  "publishedAtMs": 1781664780000,
   "minSupported": 0
 }
