@@ -1,20 +1,13 @@
 {
-  "version": 1138,
-  "versionName": "260617-1051-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1138-260617-1051-standard-slim.apk.bin",
+  "version": 1139,
+  "versionName": "260617-1121-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1139-260617-1121-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37591950,
-  "sha256": "9f32fd6a0558d7846d887b13fe3a339fa0ffb417a08da7229af1ae360d700699",
-  "changelog": "修复聊天记忆错乱：AI 不再把不同时间发生的事糅成同一时间、也不再在它们之间编造因果——每件事按各自的真实时间讲。给每条记忆都带上了精确到分钟的时间。",
-  "userFacingChangelog": "聊天回忆更靠谱了：不同时间的事不会再被混成一段、也不会瞎编因果了。",
+  "sha256": "dbe47dad57265d35d6302f7c02f356f5ae89ae71976d0ce10896aeca37f9e5b3",
+  "changelog": "拾梦相片闪屏修复(第一版)：揭晓后相片不再原地硬闪，而是连续飞回时光页它该在的位置落定；不隐藏状态栏避免恢复跳变。落点精度还要照你真机来回调。",
+  "userFacingChangelog": "拾梦相片揭晓后会顺滑地飞回时光页该在的位置，不再闪一下啦。",
   "recentReleases": [
-    {
-      "version": 1069,
-      "versionName": "260612-0842",
-      "userFacingChangelog": "修复合并疑似重复联系人点了一直转圈/闪退；三字人名虚线完整覆盖；日报和知识发芽里的人名也能点改",
-      "changelog": "v1069: scanner regex转义+45s超时+三字虚线getBoundingBox+日报KS接人名",
-      "publishedAtMs": 1781225354751
-    },
     {
       "version": 1070,
       "versionName": "260612-0911",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "聊天回忆更靠谱了：不同时间的事不会再被混成一段、也不会瞎编因果了。",
       "changelog": "修复聊天记忆错乱：AI 不再把不同时间发生的事糅成同一时间、也不再在它们之间编造因果——每件事按各自的真实时间讲。给每条记忆都带上了精确到分钟的时间。",
       "publishedAtMs": 1781664780000
+    },
+    {
+      "version": 1139,
+      "versionName": "260617-1121-standard",
+      "userFacingChangelog": "拾梦相片揭晓后会顺滑地飞回时光页该在的位置，不再闪一下啦。",
+      "changelog": "拾梦相片闪屏修复(第一版)：揭晓后相片不再原地硬闪，而是连续飞回时光页它该在的位置落定；不隐藏状态栏避免恢复跳变。落点精度还要照你真机来回调。",
+      "publishedAtMs": 1781666582000
     }
   ],
-  "publishedAtMs": 1781664780000,
+  "publishedAtMs": 1781666582000,
   "minSupported": 0
 }
