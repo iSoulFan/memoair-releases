@@ -1,20 +1,13 @@
 {
-  "version": 1141,
-  "versionName": "260617-1148-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1141-260617-1148-standard-slim.apk.bin",
+  "version": 1142,
+  "versionName": "260617-1209-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1142-260617-1209-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37591950,
-  "sha256": "3fb1cfe34f03f5a56cb057771cd3215631cd4a258a7db67e8bd88780402da767",
-  "changelog": "拾梦相片落定整屏闪修复(第三版)：背景暗底不再在揭晓结束时瞬间消失，而是随相片飞向时光页槽位的过程同步淡掉——落定时暗底已透明，不再有暗→亮整屏闪一下。",
-  "userFacingChangelog": "拾梦相片揭晓收尾更干净了，最后那一下整屏闪没有了。",
+  "sha256": "06c14c364d3bef5616a23783525bc171bb774ee9111ec7152ef441a0ebc7dce8",
+  "changelog": "拾梦相片落定整屏闪——揪出真凶并修复：撤掉全屏 overlay 那一刻，内容层一个为隐藏状态栏而设的「inset 冻结」被移除，触发整页重新排版，就是那一下整屏闪。现在状态栏全程不隐藏，这个冻结彻底拿掉，撤场时页面不再重排。",
+  "userFacingChangelog": "拾梦相片揭晓收尾彻底干净了，最后那一下整屏闪应该没有了。",
   "recentReleases": [
-    {
-      "version": 1072,
-      "versionName": "260612-1105",
-      "userFacingChangelog": "在对话里让 AI 生成的知识发芽卡片，排版和内容结构现在跟自动生成的一致（散文体，不再堆大标题）",
-      "changelog": "v1072: ChatScreen KnowledgeSprout markdown schema 改散文体对齐 knowledge_sprout.txt",
-      "publishedAtMs": 1781234137686
-    },
     {
       "version": 1073,
       "versionName": "260612-1120",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "拾梦相片揭晓收尾更干净了，最后那一下整屏闪没有了。",
       "changelog": "拾梦相片落定整屏闪修复(第三版)：背景暗底不再在揭晓结束时瞬间消失，而是随相片飞向时光页槽位的过程同步淡掉——落定时暗底已透明，不再有暗→亮整屏闪一下。",
       "publishedAtMs": 1781668195000
+    },
+    {
+      "version": 1142,
+      "versionName": "260617-1209-standard",
+      "userFacingChangelog": "拾梦相片揭晓收尾彻底干净了，最后那一下整屏闪应该没有了。",
+      "changelog": "拾梦相片落定整屏闪——揪出真凶并修复：撤掉全屏 overlay 那一刻，内容层一个为隐藏状态栏而设的「inset 冻结」被移除，触发整页重新排版，就是那一下整屏闪。现在状态栏全程不隐藏，这个冻结彻底拿掉，撤场时页面不再重排。",
+      "publishedAtMs": 1781669475000
     }
   ],
-  "publishedAtMs": 1781668195000,
+  "publishedAtMs": 1781669475000,
   "minSupported": 0
 }
