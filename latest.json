@@ -1,20 +1,13 @@
 {
-  "version": 1156,
-  "versionName": "260618-2245-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1156-260618-2245-standard-slim.apk.bin",
+  "version": 1157,
+  "versionName": "260619-0000-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1157-260619-0000-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37620711,
-  "sha256": "ae9de8e26cdc1d2ec59f8b0f4b1a530544314470c3fffb059423a50518637822",
-  "changelog": "修复纪要里「用 AI 改」一个词改完不生效的问题：新版纪要的正文是从结构化数据渲染的，之前改写只更新了底层 markdown、没更新这份结构化数据，所以看着没变。现在两者一起更新，纪要里改词也能秒生效了(跟时光卡片一致)。",
-  "userFacingChangelog": "修复了纪要里用 AI 改词改完不生效的问题，现在也秒生效了。",
+  "sha256": "e112deca516e8c0cf16b5d689c2241b077d0ec09dc383fee3d2b4b9b6d4619a2",
+  "changelog": "修复纪要「用 AI 改」之后丢失排版的问题：上一版为了让改动生效会清掉结构化数据、退回纯文字，导致漂亮的板块格式没了。现在改成绝不清空——改一个词时连同结构化数据一起替换(格式和改动都在)，复杂改写也保留原排版。",
+  "userFacingChangelog": "修复了纪要用 AI 改完后排版/板块丢失变纯文字的问题。",
   "recentReleases": [
-    {
-      "version": 1090,
-      "versionName": "260612-1902",
-      "userFacingChangelog": "内部维护更新",
-      "changelog": "v1090: 内部维护更新与稳定性优化",
-      "publishedAtMs": 1781262256000
-    },
     {
       "version": 1091,
       "versionName": "260612-1912",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "修复了纪要里用 AI 改词改完不生效的问题，现在也秒生效了。",
       "changelog": "修复纪要里「用 AI 改」一个词改完不生效的问题：新版纪要的正文是从结构化数据渲染的，之前改写只更新了底层 markdown、没更新这份结构化数据，所以看着没变。现在两者一起更新，纪要里改词也能秒生效了(跟时光卡片一致)。",
       "publishedAtMs": 1781794043000
+    },
+    {
+      "version": 1157,
+      "versionName": "260619-0000-standard",
+      "userFacingChangelog": "修复了纪要用 AI 改完后排版/板块丢失变纯文字的问题。",
+      "changelog": "修复纪要「用 AI 改」之后丢失排版的问题：上一版为了让改动生效会清掉结构化数据、退回纯文字，导致漂亮的板块格式没了。现在改成绝不清空——改一个词时连同结构化数据一起替换(格式和改动都在)，复杂改写也保留原排版。",
+      "publishedAtMs": 1781798539000
     }
   ],
-  "publishedAtMs": 1781794043000,
+  "publishedAtMs": 1781798539000,
   "minSupported": 0
 }
