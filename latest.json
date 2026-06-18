@@ -1,20 +1,13 @@
 {
-  "version": 1150,
-  "versionName": "260618-1506-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1150-260618-1506-standard-slim.apk.bin",
+  "version": 1151,
+  "versionName": "260618-1513-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1151-260618-1513-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37620711,
-  "sha256": "36e89a27f263b84f5b778576b65718f6168ae1258da3764def54a559c33f5d02",
-  "changelog": "① 设置→声纹识别下新增「识人不准校正」：两个按钮——觉得「老把我说的当成别人」就点它(往认作你这边纠一点)，「老把别人当成我」就点另一个(变挑剔一点)，点一下纠一档、有冷却防手抖连点、可一键恢复默认。② 人生来信修复：不再把你一天里毫无关联、不同时间的几个片段硬拼成一段虚构的故事(比如把推荐外卖+另一时间跟别人聊的话+跟另一个人吃饭揉成一段)。",
-  "userFacingChangelog": "新增了「识人不准校正」一键纠正声纹；人生来信不再把不相干的片段拼成假故事了。",
+  "sha256": "28c21f4bef98ae9afcec45db7aae1f54e33a01058d88d0e925e63b8118193517",
+  "changelog": "「识人不准校正」改进：点一次纠正后会锁住一天，让你先观察一天的实际效果，明天要还不对再来点——避免手快连点纠过头。想立刻重来可点「恢复默认」清掉。",
+  "userFacingChangelog": "「识人不准校正」改成纠一次先观察一天，避免连点纠过头。",
   "recentReleases": [
-    {
-      "version": 1084,
-      "versionName": "260612-1531",
-      "userFacingChangelog": "内部维护更新",
-      "changelog": "v1084: 内部维护更新",
-      "publishedAtMs": 1781249599000
-    },
     {
       "version": 1085,
       "versionName": "260612-1544",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "新增了「识人不准校正」一键纠正声纹；人生来信不再把不相干的片段拼成假故事了。",
       "changelog": "① 设置→声纹识别下新增「识人不准校正」：两个按钮——觉得「老把我说的当成别人」就点它(往认作你这边纠一点)，「老把别人当成我」就点另一个(变挑剔一点)，点一下纠一档、有冷却防手抖连点、可一键恢复默认。② 人生来信修复：不再把你一天里毫无关联、不同时间的几个片段硬拼成一段虚构的故事(比如把推荐外卖+另一时间跟别人聊的话+跟另一个人吃饭揉成一段)。",
       "publishedAtMs": 1781766458000
+    },
+    {
+      "version": 1151,
+      "versionName": "260618-1513-standard",
+      "userFacingChangelog": "「识人不准校正」改成纠一次先观察一天，避免连点纠过头。",
+      "changelog": "「识人不准校正」改进：点一次纠正后会锁住一天，让你先观察一天的实际效果，明天要还不对再来点——避免手快连点纠过头。想立刻重来可点「恢复默认」清掉。",
+      "publishedAtMs": 1781766883000
     }
   ],
-  "publishedAtMs": 1781766458000,
+  "publishedAtMs": 1781766883000,
   "minSupported": 0
 }
