@@ -1,20 +1,13 @@
 {
-  "version": 1153,
-  "versionName": "260618-1720-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1153-260618-1720-standard-slim.apk.bin",
+  "version": 1154,
+  "versionName": "260618-1739-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1154-260618-1739-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37620711,
-  "sha256": "e2ffb6c042f0b37027a1ea1a161fda3d384db632a386a26e657f0434f03efe62",
-  "changelog": "时光卡片长按菜单瘦身：原来一长条十几项，现在只直出最常用的四样(聊聊这条/让 AI 改改/加到待办/分享成图片)，其余收进「更多…」点开才显示；删除也收进了更多，顺手防误删。",
-  "userFacingChangelog": "时光卡片的长按菜单瘦身了：常用的直接出，其余收进「更多…」。",
+  "sha256": "4c4ef9da84accd1efac255e31ca0469432935b63ffec8ef2075612190da5d77d",
+  "changelog": "纪要长按菜单也瘦身了：直出常用的(让 AI 改改/多选/改标题)，其余(历史/隐藏/收藏/长期记忆/复制/分享/删除)收进「更多…」。跟时光卡片菜单一致。",
+  "userFacingChangelog": "纪要的长按菜单也瘦身了，常用直出、其余收进「更多…」。",
   "recentReleases": [
-    {
-      "version": 1087,
-      "versionName": "260612-1612",
-      "userFacingChangelog": "自动备份重做：必须先设一个备份密码才能开启（和手动导出同一套加密）；没设密码的旧配置会自动暂停并提示，不再每晚静默失败",
-      "changelog": "v1087: 自动备份重做——必须先设备份密码才能开启，和手动「导出我的回忆」同一套加密；密码用 commit+读回校验防止安全存储静默失败；没设密码的旧配置自动暂停并提示，不再每晚失败",
-      "publishedAtMs": 1781252039000
-    },
     {
       "version": 1088,
       "versionName": "260612-1623",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "时光卡片的长按菜单瘦身了：常用的直接出，其余收进「更多…」。",
       "changelog": "时光卡片长按菜单瘦身：原来一长条十几项，现在只直出最常用的四样(聊聊这条/让 AI 改改/加到待办/分享成图片)，其余收进「更多…」点开才显示；删除也收进了更多，顺手防误删。",
       "publishedAtMs": 1781774527000
+    },
+    {
+      "version": 1154,
+      "versionName": "260618-1739-standard",
+      "userFacingChangelog": "纪要的长按菜单也瘦身了，常用直出、其余收进「更多…」。",
+      "changelog": "纪要长按菜单也瘦身了：直出常用的(让 AI 改改/多选/改标题)，其余(历史/隐藏/收藏/长期记忆/复制/分享/删除)收进「更多…」。跟时光卡片菜单一致。",
+      "publishedAtMs": 1781775713000
     }
   ],
-  "publishedAtMs": 1781774527000,
+  "publishedAtMs": 1781775713000,
   "minSupported": 0
 }
