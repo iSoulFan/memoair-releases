@@ -1,20 +1,13 @@
 {
-  "version": 1146,
-  "versionName": "260618-1353-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1146-260618-1353-standard-slim.apk.bin",
+  "version": 1147,
+  "versionName": "260618-1400-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1147-260618-1400-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37616615,
-  "sha256": "c4b0bd3faf9dd348e32b6fee3b4ac0f27a0388d839355fe7b3570f803cc57a8d",
-  "changelog": "把调试 / 高级设置区收归管理员专属：非管理员（朋友邀请码）用户不再能看到底部的调试区，原先关于页连点 5 次解锁调试的入口也一并拆除。",
-  "userFacingChangelog": "收紧了内部调试入口的可见范围。",
+  "sha256": "fc3a6c97d05fd4cd424bbd02cfe10d6de7a3730777679f1ac783679b98b52074",
+  "changelog": "键盘交互优化：调出键盘后，① 点输入框以外的区域会自动收起键盘；② 切换行动板块的子标签（纪要/待办/愿望/成就）时键盘也会收起，不再杵在那。",
+  "userFacingChangelog": "键盘更跟手了：点别处、或切标签都会自动收起，不再卡在屏幕上。",
   "recentReleases": [
-    {
-      "version": 1078,
-      "versionName": "260612-1248",
-      "userFacingChangelog": "内部维护更新",
-      "changelog": "v1078: 内部维护更新",
-      "publishedAtMs": 1781240139379
-    },
     {
       "version": 1079,
       "versionName": "260612-1337",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "收紧了内部调试入口的可见范围。",
       "changelog": "把调试 / 高级设置区收归管理员专属：非管理员（朋友邀请码）用户不再能看到底部的调试区，原先关于页连点 5 次解锁调试的入口也一并拆除。",
       "publishedAtMs": 1781762071000
+    },
+    {
+      "version": 1147,
+      "versionName": "260618-1400-standard",
+      "userFacingChangelog": "键盘更跟手了：点别处、或切标签都会自动收起，不再卡在屏幕上。",
+      "changelog": "键盘交互优化：调出键盘后，① 点输入框以外的区域会自动收起键盘；② 切换行动板块的子标签（纪要/待办/愿望/成就）时键盘也会收起，不再杵在那。",
+      "publishedAtMs": 1781762553000
     }
   ],
-  "publishedAtMs": 1781762071000,
+  "publishedAtMs": 1781762553000,
   "minSupported": 0
 }
