@@ -1,20 +1,13 @@
 {
-  "version": 1155,
-  "versionName": "260618-1749-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1155-260618-1749-standard-slim.apk.bin",
+  "version": 1156,
+  "versionName": "260618-2245-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1156-260618-2245-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37620711,
-  "sha256": "1bff9210024d781429dc185d45f1a31504277be52f653769bc2d73eae7c440c9",
-  "changelog": "长按菜单去掉了「关联某人的印象」这一项；隐藏相关文案统一从「指纹解锁」改为「生物识别解锁」(更准确,涵盖指纹/面部)。",
-  "userFacingChangelog": "长按菜单精简了一项；隐藏解锁文案改成了「生物识别解锁」。",
+  "sha256": "ae9de8e26cdc1d2ec59f8b0f4b1a530544314470c3fffb059423a50518637822",
+  "changelog": "修复纪要里「用 AI 改」一个词改完不生效的问题：新版纪要的正文是从结构化数据渲染的，之前改写只更新了底层 markdown、没更新这份结构化数据，所以看着没变。现在两者一起更新，纪要里改词也能秒生效了(跟时光卡片一致)。",
+  "userFacingChangelog": "修复了纪要里用 AI 改词改完不生效的问题，现在也秒生效了。",
   "recentReleases": [
-    {
-      "version": 1089,
-      "versionName": "260612-1719",
-      "userFacingChangelog": "对话输入框打字的字加重了，看得更清楚",
-      "changelog": "v1089: 对话输入框打字字重 Normal→Medium，更清楚",
-      "publishedAtMs": 1781256116000
-    },
     {
       "version": 1090,
       "versionName": "260612-1902",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "长按菜单精简了一项；隐藏解锁文案改成了「生物识别解锁」。",
       "changelog": "长按菜单去掉了「关联某人的印象」这一项；隐藏相关文案统一从「指纹解锁」改为「生物识别解锁」(更准确,涵盖指纹/面部)。",
       "publishedAtMs": 1781776294000
+    },
+    {
+      "version": 1156,
+      "versionName": "260618-2245-standard",
+      "userFacingChangelog": "修复了纪要里用 AI 改词改完不生效的问题，现在也秒生效了。",
+      "changelog": "修复纪要里「用 AI 改」一个词改完不生效的问题：新版纪要的正文是从结构化数据渲染的，之前改写只更新了底层 markdown、没更新这份结构化数据，所以看着没变。现在两者一起更新，纪要里改词也能秒生效了(跟时光卡片一致)。",
+      "publishedAtMs": 1781794043000
     }
   ],
-  "publishedAtMs": 1781776294000,
+  "publishedAtMs": 1781794043000,
   "minSupported": 0
 }
