@@ -1,20 +1,13 @@
 {
-  "version": 1152,
-  "versionName": "260618-1713-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1152-260618-1713-standard-slim.apk.bin",
+  "version": 1153,
+  "versionName": "260618-1720-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1153-260618-1720-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37620711,
-  "sha256": "56b1a4cc8e720279567390c0bed0dcf3514596dd47041c6b0f9ed848cbe3d9d7",
-  "changelog": "长按菜单文案全 App 统一了一遍：同一个操作以前各处叫法不一(找它聊聊/到对话框去聊一聊、用AI改一下这篇/这一篇、复制/复制原文/原话/全文、隐藏(指纹解锁)…)，现在统一成一套词——聊聊这条、让 AI 改改、改文字、复制文字、分享成图片、隐藏·指纹解锁、删除/删掉这张卡。",
-  "userFacingChangelog": "长按菜单的文字全 App 统一了一遍，看着更一致顺手。",
+  "sha256": "e2ffb6c042f0b37027a1ea1a161fda3d384db632a386a26e657f0434f03efe62",
+  "changelog": "时光卡片长按菜单瘦身：原来一长条十几项，现在只直出最常用的四样(聊聊这条/让 AI 改改/加到待办/分享成图片)，其余收进「更多…」点开才显示；删除也收进了更多，顺手防误删。",
+  "userFacingChangelog": "时光卡片的长按菜单瘦身了：常用的直接出，其余收进「更多…」。",
   "recentReleases": [
-    {
-      "version": 1086,
-      "versionName": "260612-1601",
-      "userFacingChangelog": "内部维护更新",
-      "changelog": "v1086: 内部维护更新与稳定性优化",
-      "publishedAtMs": 1781251385000
-    },
     {
       "version": 1087,
       "versionName": "260612-1612",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "长按菜单的文字全 App 统一了一遍，看着更一致顺手。",
       "changelog": "长按菜单文案全 App 统一了一遍：同一个操作以前各处叫法不一(找它聊聊/到对话框去聊一聊、用AI改一下这篇/这一篇、复制/复制原文/原话/全文、隐藏(指纹解锁)…)，现在统一成一套词——聊聊这条、让 AI 改改、改文字、复制文字、分享成图片、隐藏·指纹解锁、删除/删掉这张卡。",
       "publishedAtMs": 1781774107000
+    },
+    {
+      "version": 1153,
+      "versionName": "260618-1720-standard",
+      "userFacingChangelog": "时光卡片的长按菜单瘦身了：常用的直接出，其余收进「更多…」。",
+      "changelog": "时光卡片长按菜单瘦身：原来一长条十几项，现在只直出最常用的四样(聊聊这条/让 AI 改改/加到待办/分享成图片)，其余收进「更多…」点开才显示；删除也收进了更多，顺手防误删。",
+      "publishedAtMs": 1781774527000
     }
   ],
-  "publishedAtMs": 1781774107000,
+  "publishedAtMs": 1781774527000,
   "minSupported": 0
 }
