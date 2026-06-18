@@ -1,20 +1,13 @@
 {
-  "version": 1147,
-  "versionName": "260618-1400-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1147-260618-1400-standard-slim.apk.bin",
+  "version": 1148,
+  "versionName": "260618-1420-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1148-260618-1420-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37616615,
-  "sha256": "fc3a6c97d05fd4cd424bbd02cfe10d6de7a3730777679f1ac783679b98b52074",
-  "changelog": "键盘交互优化：调出键盘后，① 点输入框以外的区域会自动收起键盘；② 切换行动板块的子标签（纪要/待办/愿望/成就）时键盘也会收起，不再杵在那。",
-  "userFacingChangelog": "键盘更跟手了：点别处、或切标签都会自动收起，不再卡在屏幕上。",
+  "sha256": "9d4a590bd2729fadc94f75e972d53a98b573c6a91ec6ad4123392dda01d8f6f7",
+  "changelog": "声纹识别判定重新基线（内部）：改用双阈值+灰区策略(余弦相似度为主、个性化分类器只在灰区当裁判)，更贴合 ERes2NetV2 模型的自然工作点；设置·调试的声纹诊断里新增了 sim 分布摘要与直方图，便于标定阈值。起步参数待真实数据校准。",
+  "userFacingChangelog": "声纹「是不是你本人」的判定逻辑做了一次基线调整(灰度观察中)。",
   "recentReleases": [
-    {
-      "version": 1079,
-      "versionName": "260612-1337",
-      "userFacingChangelog": "内部维护更新",
-      "changelog": "v1079: 内部维护更新",
-      "publishedAtMs": 1781243238090
-    },
     {
       "version": 1082,
       "versionName": "260612-1504",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "键盘更跟手了：点别处、或切标签都会自动收起，不再卡在屏幕上。",
       "changelog": "键盘交互优化：调出键盘后，① 点输入框以外的区域会自动收起键盘；② 切换行动板块的子标签（纪要/待办/愿望/成就）时键盘也会收起，不再杵在那。",
       "publishedAtMs": 1781762553000
+    },
+    {
+      "version": 1148,
+      "versionName": "260618-1420-standard",
+      "userFacingChangelog": "声纹「是不是你本人」的判定逻辑做了一次基线调整(灰度观察中)。",
+      "changelog": "声纹识别判定重新基线（内部）：改用双阈值+灰区策略(余弦相似度为主、个性化分类器只在灰区当裁判)，更贴合 ERes2NetV2 模型的自然工作点；设置·调试的声纹诊断里新增了 sim 分布摘要与直方图，便于标定阈值。起步参数待真实数据校准。",
+      "publishedAtMs": 1781763695000
     }
   ],
-  "publishedAtMs": 1781762553000,
+  "publishedAtMs": 1781763695000,
   "minSupported": 0
 }
