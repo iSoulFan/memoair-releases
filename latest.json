@@ -1,20 +1,13 @@
 {
-  "version": 1148,
-  "versionName": "260618-1420-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1148-260618-1420-standard-slim.apk.bin",
+  "version": 1149,
+  "versionName": "260618-1436-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1149-260618-1436-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37616615,
-  "sha256": "9d4a590bd2729fadc94f75e972d53a98b573c6a91ec6ad4123392dda01d8f6f7",
-  "changelog": "声纹识别判定重新基线（内部）：改用双阈值+灰区策略(余弦相似度为主、个性化分类器只在灰区当裁判)，更贴合 ERes2NetV2 模型的自然工作点；设置·调试的声纹诊断里新增了 sim 分布摘要与直方图，便于标定阈值。起步参数待真实数据校准。",
-  "userFacingChangelog": "声纹「是不是你本人」的判定逻辑做了一次基线调整(灰度观察中)。",
+  "sha256": "eec00fd87ac8bd4c798c9ec7ed58c2786c6f76f5f99a33159b57a4862793ddc1",
+  "changelog": "修复部分机型(华为无谷歌服务、部分小米/红米)按住说话按了完全没反应：这些设备的系统语音识别器会假装可用但实际不回调，导致卡死。现在优先用 App 自带的离线语音识别(跟连续录音同一套模型)，跨设备稳定可用。",
+  "userFacingChangelog": "修复了部分手机按住说话没反应的问题，现在用自带的离线语音识别，更稳了。",
   "recentReleases": [
-    {
-      "version": 1082,
-      "versionName": "260612-1504",
-      "userFacingChangelog": "行动页标题下补「内容由 AI 生成」小字；更新下载通道优化",
-      "changelog": "v1082: 行动页 masthead 补「内容由 AI 生成」小字并与对话页对齐；OTA 下载通道优化",
-      "publishedAtMs": 1781247975000
-    },
     {
       "version": 1083,
       "versionName": "260612-1519",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "声纹「是不是你本人」的判定逻辑做了一次基线调整(灰度观察中)。",
       "changelog": "声纹识别判定重新基线（内部）：改用双阈值+灰区策略(余弦相似度为主、个性化分类器只在灰区当裁判)，更贴合 ERes2NetV2 模型的自然工作点；设置·调试的声纹诊断里新增了 sim 分布摘要与直方图，便于标定阈值。起步参数待真实数据校准。",
       "publishedAtMs": 1781763695000
+    },
+    {
+      "version": 1149,
+      "versionName": "260618-1436-standard",
+      "userFacingChangelog": "修复了部分手机按住说话没反应的问题，现在用自带的离线语音识别，更稳了。",
+      "changelog": "修复部分机型(华为无谷歌服务、部分小米/红米)按住说话按了完全没反应：这些设备的系统语音识别器会假装可用但实际不回调，导致卡死。现在优先用 App 自带的离线语音识别(跟连续录音同一套模型)，跨设备稳定可用。",
+      "publishedAtMs": 1781764657000
     }
   ],
-  "publishedAtMs": 1781763695000,
+  "publishedAtMs": 1781764657000,
   "minSupported": 0
 }
