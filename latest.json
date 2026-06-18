@@ -1,20 +1,13 @@
 {
-  "version": 1145,
-  "versionName": "260618-1344-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1145-260618-1344-standard-slim.apk.bin",
+  "version": 1146,
+  "versionName": "260618-1353-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1146-260618-1353-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37616615,
-  "sha256": "d183f7e59ae45cdec44bde1800a96d6586ba8521f43d6bf5e4f80400b927e326",
-  "changelog": "「用 AI 改这篇」(会议纪要 + 时光卡)修复：① 像「把 X 改成 Y」这种精确替换，现在识别后直接字面替换，立刻生效、100% 准（之前走 LLM 重抄整篇经常没改上）；② AI 改不动时会明确告诉你「没识别到要改哪里，说具体点」，不再'改写中→完成→其实啥也没改'地假装改好了。",
-  "userFacingChangelog": "「用 AI 改这篇」更靠谱了：精确替换立刻生效，改不动也会明说，不再假装改好了。",
+  "sha256": "c4b0bd3faf9dd348e32b6fee3b4ac0f27a0388d839355fe7b3570f803cc57a8d",
+  "changelog": "把调试 / 高级设置区收归管理员专属：非管理员（朋友邀请码）用户不再能看到底部的调试区，原先关于页连点 5 次解锁调试的入口也一并拆除。",
+  "userFacingChangelog": "收紧了内部调试入口的可见范围。",
   "recentReleases": [
-    {
-      "version": 1076,
-      "versionName": "260612-1217",
-      "userFacingChangelog": "「内容由 AI 生成」标识现在每个页面、每种状态都常驻显示",
-      "changelog": "v1076: AI 标识恒显(行动 when 外+对话未读并存)",
-      "publishedAtMs": 1781238330762
-    },
     {
       "version": 1078,
       "versionName": "260612-1248",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「用 AI 改这篇」更靠谱了：精确替换立刻生效，改不动也会明说，不再假装改好了。",
       "changelog": "「用 AI 改这篇」(会议纪要 + 时光卡)修复：① 像「把 X 改成 Y」这种精确替换，现在识别后直接字面替换，立刻生效、100% 准（之前走 LLM 重抄整篇经常没改上）；② AI 改不动时会明确告诉你「没识别到要改哪里，说具体点」，不再'改写中→完成→其实啥也没改'地假装改好了。",
       "publishedAtMs": 1781761551000
+    },
+    {
+      "version": 1146,
+      "versionName": "260618-1353-standard",
+      "userFacingChangelog": "收紧了内部调试入口的可见范围。",
+      "changelog": "把调试 / 高级设置区收归管理员专属：非管理员（朋友邀请码）用户不再能看到底部的调试区，原先关于页连点 5 次解锁调试的入口也一并拆除。",
+      "publishedAtMs": 1781762071000
     }
   ],
-  "publishedAtMs": 1781761551000,
+  "publishedAtMs": 1781762071000,
   "minSupported": 0
 }
