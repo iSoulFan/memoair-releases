@@ -1,20 +1,13 @@
 {
-  "version": 1149,
-  "versionName": "260618-1436-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1149-260618-1436-standard-slim.apk.bin",
+  "version": 1150,
+  "versionName": "260618-1506-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1150-260618-1506-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37616615,
-  "sha256": "eec00fd87ac8bd4c798c9ec7ed58c2786c6f76f5f99a33159b57a4862793ddc1",
-  "changelog": "修复部分机型(华为无谷歌服务、部分小米/红米)按住说话按了完全没反应：这些设备的系统语音识别器会假装可用但实际不回调，导致卡死。现在优先用 App 自带的离线语音识别(跟连续录音同一套模型)，跨设备稳定可用。",
-  "userFacingChangelog": "修复了部分手机按住说话没反应的问题，现在用自带的离线语音识别，更稳了。",
+  "sizeBytes": 37620711,
+  "sha256": "36e89a27f263b84f5b778576b65718f6168ae1258da3764def54a559c33f5d02",
+  "changelog": "① 设置→声纹识别下新增「识人不准校正」：两个按钮——觉得「老把我说的当成别人」就点它(往认作你这边纠一点)，「老把别人当成我」就点另一个(变挑剔一点)，点一下纠一档、有冷却防手抖连点、可一键恢复默认。② 人生来信修复：不再把你一天里毫无关联、不同时间的几个片段硬拼成一段虚构的故事(比如把推荐外卖+另一时间跟别人聊的话+跟另一个人吃饭揉成一段)。",
+  "userFacingChangelog": "新增了「识人不准校正」一键纠正声纹；人生来信不再把不相干的片段拼成假故事了。",
   "recentReleases": [
-    {
-      "version": 1083,
-      "versionName": "260612-1519",
-      "userFacingChangelog": "修复按住说话卡在「AI 正在润色一下」——现在网络慢也会 6 秒内把原话发出去",
-      "changelog": "修复按住说话卡在「AI 正在润色一下」——纠错 LLM 调用没超时，网络慢/不通时永久卡死；现整段加 6s 超时，超时直接发原始转写，绝不卡死",
-      "publishedAtMs": 1781248875000
-    },
     {
       "version": 1084,
       "versionName": "260612-1531",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "修复了部分手机按住说话没反应的问题，现在用自带的离线语音识别，更稳了。",
       "changelog": "修复部分机型(华为无谷歌服务、部分小米/红米)按住说话按了完全没反应：这些设备的系统语音识别器会假装可用但实际不回调，导致卡死。现在优先用 App 自带的离线语音识别(跟连续录音同一套模型)，跨设备稳定可用。",
       "publishedAtMs": 1781764657000
+    },
+    {
+      "version": 1150,
+      "versionName": "260618-1506-standard",
+      "userFacingChangelog": "新增了「识人不准校正」一键纠正声纹；人生来信不再把不相干的片段拼成假故事了。",
+      "changelog": "① 设置→声纹识别下新增「识人不准校正」：两个按钮——觉得「老把我说的当成别人」就点它(往认作你这边纠一点)，「老把别人当成我」就点另一个(变挑剔一点)，点一下纠一档、有冷却防手抖连点、可一键恢复默认。② 人生来信修复：不再把你一天里毫无关联、不同时间的几个片段硬拼成一段虚构的故事(比如把推荐外卖+另一时间跟别人聊的话+跟另一个人吃饭揉成一段)。",
+      "publishedAtMs": 1781766458000
     }
   ],
-  "publishedAtMs": 1781764657000,
+  "publishedAtMs": 1781766458000,
   "minSupported": 0
 }
