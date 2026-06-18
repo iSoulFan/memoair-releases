@@ -1,20 +1,13 @@
 {
-  "version": 1151,
-  "versionName": "260618-1513-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1151-260618-1513-standard-slim.apk.bin",
+  "version": 1152,
+  "versionName": "260618-1713-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1152-260618-1713-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37620711,
-  "sha256": "28c21f4bef98ae9afcec45db7aae1f54e33a01058d88d0e925e63b8118193517",
-  "changelog": "「识人不准校正」改进：点一次纠正后会锁住一天，让你先观察一天的实际效果，明天要还不对再来点——避免手快连点纠过头。想立刻重来可点「恢复默认」清掉。",
-  "userFacingChangelog": "「识人不准校正」改成纠一次先观察一天，避免连点纠过头。",
+  "sha256": "56b1a4cc8e720279567390c0bed0dcf3514596dd47041c6b0f9ed848cbe3d9d7",
+  "changelog": "长按菜单文案全 App 统一了一遍：同一个操作以前各处叫法不一(找它聊聊/到对话框去聊一聊、用AI改一下这篇/这一篇、复制/复制原文/原话/全文、隐藏(指纹解锁)…)，现在统一成一套词——聊聊这条、让 AI 改改、改文字、复制文字、分享成图片、隐藏·指纹解锁、删除/删掉这张卡。",
+  "userFacingChangelog": "长按菜单的文字全 App 统一了一遍，看着更一致顺手。",
   "recentReleases": [
-    {
-      "version": 1085,
-      "versionName": "260612-1544",
-      "userFacingChangelog": "内部维护更新",
-      "changelog": "v1085: 内部维护更新与稳定性优化",
-      "publishedAtMs": 1781250380000
-    },
     {
       "version": 1086,
       "versionName": "260612-1601",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「识人不准校正」改成纠一次先观察一天，避免连点纠过头。",
       "changelog": "「识人不准校正」改进：点一次纠正后会锁住一天，让你先观察一天的实际效果，明天要还不对再来点——避免手快连点纠过头。想立刻重来可点「恢复默认」清掉。",
       "publishedAtMs": 1781766883000
+    },
+    {
+      "version": 1152,
+      "versionName": "260618-1713-standard",
+      "userFacingChangelog": "长按菜单的文字全 App 统一了一遍，看着更一致顺手。",
+      "changelog": "长按菜单文案全 App 统一了一遍：同一个操作以前各处叫法不一(找它聊聊/到对话框去聊一聊、用AI改一下这篇/这一篇、复制/复制原文/原话/全文、隐藏(指纹解锁)…)，现在统一成一套词——聊聊这条、让 AI 改改、改文字、复制文字、分享成图片、隐藏·指纹解锁、删除/删掉这张卡。",
+      "publishedAtMs": 1781774107000
     }
   ],
-  "publishedAtMs": 1781766883000,
+  "publishedAtMs": 1781774107000,
   "minSupported": 0
 }
