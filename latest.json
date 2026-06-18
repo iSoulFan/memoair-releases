@@ -1,20 +1,13 @@
 {
-  "version": 1144,
-  "versionName": "260618-1203-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1144-260618-1203-standard-slim.apk.bin",
+  "version": 1145,
+  "versionName": "260618-1344-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1145-260618-1344-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37612519,
-  "sha256": "977d2e6fd902833e4a5c384c4a9d1b8c7aad3277288f6cf52f38534850bece4f",
-  "changelog": "拾梦相片日报全量切到新版(默认主角就是你、统一第二人称、不再把你讲成'分享者/朋友')；同时把声纹\"是不是你本人\"的判定阈值从 0.30 下调到 0.22（之前大量你本人的话被误判成路人），存量也一并下调。",
-  "userFacingChangelog": "拾梦相片日报现在稳稳以你为主角了；声纹识别也更认得出你本人了。",
+  "sizeBytes": 37616615,
+  "sha256": "d183f7e59ae45cdec44bde1800a96d6586ba8521f43d6bf5e4f80400b927e326",
+  "changelog": "「用 AI 改这篇」(会议纪要 + 时光卡)修复：① 像「把 X 改成 Y」这种精确替换，现在识别后直接字面替换，立刻生效、100% 准（之前走 LLM 重抄整篇经常没改上）；② AI 改不动时会明确告诉你「没识别到要改哪里，说具体点」，不再'改写中→完成→其实啥也没改'地假装改好了。",
+  "userFacingChangelog": "「用 AI 改这篇」更靠谱了：精确替换立刻生效，改不动也会明说，不再假装改好了。",
   "recentReleases": [
-    {
-      "version": 1075,
-      "versionName": "260612-1203",
-      "userFacingChangelog": "四个页面标题下统一加了小字「内容由 AI 生成」，替换原来的装饰英文",
-      "changelog": "v1075: 四tab masthead 副标统一中文「内容由 AI 生成」",
-      "publishedAtMs": 1781237507806
-    },
     {
       "version": 1076,
       "versionName": "260612-1217",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "拾梦相片日报现在稳稳以你为主角了；声纹识别也更认得出你本人了。",
       "changelog": "拾梦相片日报全量切到新版(默认主角就是你、统一第二人称、不再把你讲成'分享者/朋友')；同时把声纹\"是不是你本人\"的判定阈值从 0.30 下调到 0.22（之前大量你本人的话被误判成路人），存量也一并下调。",
       "publishedAtMs": 1781755532000
+    },
+    {
+      "version": 1145,
+      "versionName": "260618-1344-standard",
+      "userFacingChangelog": "「用 AI 改这篇」更靠谱了：精确替换立刻生效，改不动也会明说，不再假装改好了。",
+      "changelog": "「用 AI 改这篇」(会议纪要 + 时光卡)修复：① 像「把 X 改成 Y」这种精确替换，现在识别后直接字面替换，立刻生效、100% 准（之前走 LLM 重抄整篇经常没改上）；② AI 改不动时会明确告诉你「没识别到要改哪里，说具体点」，不再'改写中→完成→其实啥也没改'地假装改好了。",
+      "publishedAtMs": 1781761551000
     }
   ],
-  "publishedAtMs": 1781755532000,
+  "publishedAtMs": 1781761551000,
   "minSupported": 0
 }
