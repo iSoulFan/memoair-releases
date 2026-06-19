@@ -1,20 +1,13 @@
 {
-  "version": 1157,
-  "versionName": "260619-0000-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1157-260619-0000-standard-slim.apk.bin",
+  "version": 1158,
+  "versionName": "260619-0804-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1158-260619-0804-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37620711,
-  "sha256": "e112deca516e8c0cf16b5d689c2241b077d0ec09dc383fee3d2b4b9b6d4619a2",
-  "changelog": "修复纪要「用 AI 改」之后丢失排版的问题：上一版为了让改动生效会清掉结构化数据、退回纯文字，导致漂亮的板块格式没了。现在改成绝不清空——改一个词时连同结构化数据一起替换(格式和改动都在)，复杂改写也保留原排版。",
-  "userFacingChangelog": "修复了纪要用 AI 改完后排版/板块丢失变纯文字的问题。",
+  "sha256": "500efcc1b83bf0d512c84f26843332e854a79e2640b211b9c2ea67cb892df65c",
+  "changelog": "「猜你想做」展开多选时更清楚了：选中某条，前面的圆圈会直接显示打勾(✓)，不再只是文字加粗——一眼看出在多选、哪几条被选中了。点圈或点整行都能勾选/取消。",
+  "userFacingChangelog": "「猜你想做」多选时选中的条目前面会打勾了，更清楚。",
   "recentReleases": [
-    {
-      "version": 1091,
-      "versionName": "260612-1912",
-      "userFacingChangelog": "内部维护更新",
-      "changelog": "v1091: 内部维护更新与稳定性优化",
-      "publishedAtMs": 1781262831000
-    },
     {
       "version": 1092,
       "versionName": "260612-1922",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "修复了纪要用 AI 改完后排版/板块丢失变纯文字的问题。",
       "changelog": "修复纪要「用 AI 改」之后丢失排版的问题：上一版为了让改动生效会清掉结构化数据、退回纯文字，导致漂亮的板块格式没了。现在改成绝不清空——改一个词时连同结构化数据一起替换(格式和改动都在)，复杂改写也保留原排版。",
       "publishedAtMs": 1781798539000
+    },
+    {
+      "version": 1158,
+      "versionName": "260619-0804-standard",
+      "userFacingChangelog": "「猜你想做」多选时选中的条目前面会打勾了，更清楚。",
+      "changelog": "「猜你想做」展开多选时更清楚了：选中某条，前面的圆圈会直接显示打勾(✓)，不再只是文字加粗——一眼看出在多选、哪几条被选中了。点圈或点整行都能勾选/取消。",
+      "publishedAtMs": 1781827633000
     }
   ],
-  "publishedAtMs": 1781798539000,
+  "publishedAtMs": 1781827633000,
   "minSupported": 0
 }
