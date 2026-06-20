@@ -1,20 +1,13 @@
 {
-  "version": 1158,
-  "versionName": "260619-0804-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1158-260619-0804-standard-slim.apk.bin",
+  "version": 1159,
+  "versionName": "260621-0003-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1159-260621-0003-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37620711,
-  "sha256": "500efcc1b83bf0d512c84f26843332e854a79e2640b211b9c2ea67cb892df65c",
-  "changelog": "「猜你想做」展开多选时更清楚了：选中某条，前面的圆圈会直接显示打勾(✓)，不再只是文字加粗——一眼看出在多选、哪几条被选中了。点圈或点整行都能勾选/取消。",
-  "userFacingChangelog": "「猜你想做」多选时选中的条目前面会打勾了，更清楚。",
+  "sizeBytes": 37624807,
+  "sha256": "d6e55c978554c08781dfcf410a9262734a3d1bc597217f651426e57e8873083a",
+  "changelog": "修复人生来信「记忆嫁接」的严重问题：之前会把今天真实发生的事，跟很久以前聊过的、毫不相干的旧事和长期记忆硬拼到一起、编造因果(比如把流浪猫跟『画耳朵』『算账』『开会』乱接)。现在：长期记忆默认不用，只有跟今天真有明显关联才轻轻带一笔，绝不把无关的旧事/对话拽进来嫁接、绝不编造它们之间的因果。",
+  "userFacingChangelog": "修复了人生来信乱嫁接旧记忆、把不相干的事胡乱拼一起的严重问题。",
   "recentReleases": [
-    {
-      "version": 1092,
-      "versionName": "260612-1922",
-      "userFacingChangelog": "内部维护更新",
-      "changelog": "v1092: 内部维护更新与稳定性优化",
-      "publishedAtMs": 1781263461000
-    },
     {
       "version": 1093,
       "versionName": "260612-1938",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「猜你想做」多选时选中的条目前面会打勾了，更清楚。",
       "changelog": "「猜你想做」展开多选时更清楚了：选中某条，前面的圆圈会直接显示打勾(✓)，不再只是文字加粗——一眼看出在多选、哪几条被选中了。点圈或点整行都能勾选/取消。",
       "publishedAtMs": 1781827633000
+    },
+    {
+      "version": 1159,
+      "versionName": "260621-0003-standard",
+      "userFacingChangelog": "修复了人生来信乱嫁接旧记忆、把不相干的事胡乱拼一起的严重问题。",
+      "changelog": "修复人生来信「记忆嫁接」的严重问题：之前会把今天真实发生的事，跟很久以前聊过的、毫不相干的旧事和长期记忆硬拼到一起、编造因果(比如把流浪猫跟『画耳朵』『算账』『开会』乱接)。现在：长期记忆默认不用，只有跟今天真有明显关联才轻轻带一笔，绝不把无关的旧事/对话拽进来嫁接、绝不编造它们之间的因果。",
+      "publishedAtMs": 1781971582000
     }
   ],
-  "publishedAtMs": 1781827633000,
+  "publishedAtMs": 1781971582000,
   "minSupported": 0
 }
