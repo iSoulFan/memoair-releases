@@ -1,20 +1,13 @@
 {
-  "version": 1162,
-  "versionName": "260622-2348-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1162-260622-2348-standard-slim.apk.bin",
+  "version": 1163,
+  "versionName": "260623-0150-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1163-260623-0150-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37628992,
-  "sha256": "9c7f336899c1f36d65bfce8732e8eef7be70e7041fb7a8509ec255d9f4b8d0ef",
-  "changelog": "那天的事 v2「在场版」：日报改'见证者'口吻——拿不准谁说的就写主题/氛围/邀请问句、不再默认把不确定的事栽到机主头上、绝不出现第三人称(有人/朋友/同事…)；声纹失效也不露馅。DailyReportVersion 默认 V2_0，v1.1/v1.0 可在设置回滚。",
-  "userFacingChangelog": "「那天的事」更懂分寸了：拿不准的事不会再硬说成是你，读起来更像一个真正在你身边的朋友陪你回味这一天。",
+  "sizeBytes": 37633088,
+  "sha256": "5e36a9eb5a42dd28aeaf2e3ea62f62d1a995bfa5cf9234175b20ec5f8679b83f",
+  "changelog": "那天的事 v2 彻底封'有人'：① 一次性迁移把存量抬到 V2_0(修6/18手点开关存成v1.1盖住新默认)；② 提示词加改写范例+生成后自检；③ 代码层兜底——生成后扫到'有人/某人/有位…'就触发定向改写只洗第三人称(引用原话不动/失败退回原文)，production+调试都过。",
+  "userFacingChangelog": "「那天的事」修好了：不会再把你自己的事说成'有人怎么怎么'，读起来就是在说你。",
   "recentReleases": [
-    {
-      "version": 1096,
-      "versionName": "260612-2151",
-      "userFacingChangelog": "长期记忆里对你的称呼统一成「你」了，不再一会儿「我」一会儿「用户」地乱。",
-      "changelog": "统一长期记忆里对你的称呼：一律用第二人称「你」，不再「我」「用户」「你」混着来；旧记忆在记忆列表里也按统一后的「你」显示，单击编辑保存即迁移。",
-      "publishedAtMs": 1781272418000
-    },
     {
       "version": 1099,
       "versionName": "260612-2300",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「那天的事」更懂分寸了：拿不准的事不会再硬说成是你，读起来更像一个真正在你身边的朋友陪你回味这一天。",
       "changelog": "那天的事 v2「在场版」：日报改'见证者'口吻——拿不准谁说的就写主题/氛围/邀请问句、不再默认把不确定的事栽到机主头上、绝不出现第三人称(有人/朋友/同事…)；声纹失效也不露馅。DailyReportVersion 默认 V2_0，v1.1/v1.0 可在设置回滚。",
       "publishedAtMs": 1782148372000
+    },
+    {
+      "version": 1163,
+      "versionName": "260623-0150-standard",
+      "userFacingChangelog": "「那天的事」修好了：不会再把你自己的事说成'有人怎么怎么'，读起来就是在说你。",
+      "changelog": "那天的事 v2 彻底封'有人'：① 一次性迁移把存量抬到 V2_0(修6/18手点开关存成v1.1盖住新默认)；② 提示词加改写范例+生成后自检；③ 代码层兜底——生成后扫到'有人/某人/有位…'就触发定向改写只洗第三人称(引用原话不动/失败退回原文)，production+调试都过。",
+      "publishedAtMs": 1782150781000
     }
   ],
-  "publishedAtMs": 1782148372000,
+  "publishedAtMs": 1782150781000,
   "minSupported": 0
 }
