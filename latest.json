@@ -1,20 +1,13 @@
 {
-  "version": 1163,
-  "versionName": "260623-0150-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1163-260623-0150-standard-slim.apk.bin",
+  "version": 1164,
+  "versionName": "260623-0210-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1164-260623-0210-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37633088,
-  "sha256": "5e36a9eb5a42dd28aeaf2e3ea62f62d1a995bfa5cf9234175b20ec5f8679b83f",
-  "changelog": "那天的事 v2 彻底封'有人'：① 一次性迁移把存量抬到 V2_0(修6/18手点开关存成v1.1盖住新默认)；② 提示词加改写范例+生成后自检；③ 代码层兜底——生成后扫到'有人/某人/有位…'就触发定向改写只洗第三人称(引用原话不动/失败退回原文)，production+调试都过。",
-  "userFacingChangelog": "「那天的事」修好了：不会再把你自己的事说成'有人怎么怎么'，读起来就是在说你。",
+  "sha256": "534c26ae40fdb16445649da3ccdf20f8bbb52dd04c8f93e9f8e913e96227392e",
+  "changelog": "在场框架共享层 PresenceFraming(板块无关兜底:洗匿名第三人称/保留具名角色/引用原话不动)+推广到微光(标签软化为弱提示·拿不准不栽'你做了')与念念(不指认说话人/禁匿名三人称/subtext防栽赃留空/narration邀请不断言)。",
+  "userFacingChangelog": "微光和念念也升级了：不会再把别人的事写成'你做了'，也不会拿一句可能不是你说的话去硬猜你的心思。",
   "recentReleases": [
-    {
-      "version": 1099,
-      "versionName": "260612-2300",
-      "userFacingChangelog": "🎧 这次更新，「记得」的听力变强了一大截——中文、英文都听得更准、更跟得上你说话，记错、漏字明显少了。\n\n我们给它换上了全新的离线识别引擎，所以这次的安装包会比平时大一些。下载和安装请多给它一点耐心、等它完整装好（建议连着 Wi-Fi 更新）。装好之后，你会明显感觉到——它真的听得更清楚了。\n\n而且这只是开始，下一次还有一个更强的升级正在路上，敬请期待 ✨",
-      "changelog": "语音识别引擎整体升级为全新中英双语离线模型，中英文识别准确率大幅提升、首尾吞字已修。内置新模型，本次为全量安装包、体积约 300MB，建议 Wi-Fi 下更新。下一个更强的版本在路上。",
-      "publishedAtMs": 1781277637000
-    },
     {
       "version": 1100,
       "versionName": "260612-2330",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「那天的事」修好了：不会再把你自己的事说成'有人怎么怎么'，读起来就是在说你。",
       "changelog": "那天的事 v2 彻底封'有人'：① 一次性迁移把存量抬到 V2_0(修6/18手点开关存成v1.1盖住新默认)；② 提示词加改写范例+生成后自检；③ 代码层兜底——生成后扫到'有人/某人/有位…'就触发定向改写只洗第三人称(引用原话不动/失败退回原文)，production+调试都过。",
       "publishedAtMs": 1782150781000
+    },
+    {
+      "version": 1164,
+      "versionName": "260623-0210-standard",
+      "userFacingChangelog": "微光和念念也升级了：不会再把别人的事写成'你做了'，也不会拿一句可能不是你说的话去硬猜你的心思。",
+      "changelog": "在场框架共享层 PresenceFraming(板块无关兜底:洗匿名第三人称/保留具名角色/引用原话不动)+推广到微光(标签软化为弱提示·拿不准不栽'你做了')与念念(不指认说话人/禁匿名三人称/subtext防栽赃留空/narration邀请不断言)。",
+      "publishedAtMs": 1782151983000
     }
   ],
-  "publishedAtMs": 1782150781000,
+  "publishedAtMs": 1782151983000,
   "minSupported": 0
 }
