@@ -1,20 +1,13 @@
 {
-  "version": 1161,
-  "versionName": "260622-1056-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1161-260622-1056-standard-slim.apk.bin",
+  "version": 1162,
+  "versionName": "260622-2348-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1162-260622-2348-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37624807,
-  "sha256": "0517be9bda0013b886f152f15aaa430c372093ab38ea72875db3199441c6a178",
-  "changelog": "抉择去重加证据时间戳重叠+墓碑+扫描端预防，治『答过的抉择换措辞被重复推送』",
-  "userFacingChangelog": "「抉择」更聪明了：同一件纠结的事不会再被重复推给你。",
+  "sizeBytes": 37628992,
+  "sha256": "9c7f336899c1f36d65bfce8732e8eef7be70e7041fb7a8509ec255d9f4b8d0ef",
+  "changelog": "那天的事 v2「在场版」：日报改'见证者'口吻——拿不准谁说的就写主题/氛围/邀请问句、不再默认把不确定的事栽到机主头上、绝不出现第三人称(有人/朋友/同事…)；声纹失效也不露馅。DailyReportVersion 默认 V2_0，v1.1/v1.0 可在设置回滚。",
+  "userFacingChangelog": "「那天的事」更懂分寸了：拿不准的事不会再硬说成是你，读起来更像一个真正在你身边的朋友陪你回味这一天。",
   "recentReleases": [
-    {
-      "version": 1095,
-      "versionName": "260612-2131",
-      "userFacingChangelog": "这次修了：① 人名识别（朋友和你不再混成一个人，说错可一句话纠正）② 长期记忆单击就能逐字改 ③ 订正了节假日调休（6/13 不再误报上班）④ 去掉名字相关的主动插话。",
-      "changelog": "修正人名识别：不再把对话里提到的别人（朋友/同事）的名字当成你本人，也不再把两个人混成一个；新增'某某是我朋友/不是我'一句话纠正误绑。长期记忆每条支持单击逐字编辑。订正 2026 节假日调休（清明/端午/中秋均不调休，6/13 不再误报上班）。去掉名字相关的主动插话。",
-      "publishedAtMs": 1781271192000
-    },
     {
       "version": 1096,
       "versionName": "260612-2151",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「抉择」更聪明了：同一件纠结的事不会再被重复推给你。",
       "changelog": "抉择去重加证据时间戳重叠+墓碑+扫描端预防，治『答过的抉择换措辞被重复推送』",
       "publishedAtMs": 1782103093000
+    },
+    {
+      "version": 1162,
+      "versionName": "260622-2348-standard",
+      "userFacingChangelog": "「那天的事」更懂分寸了：拿不准的事不会再硬说成是你，读起来更像一个真正在你身边的朋友陪你回味这一天。",
+      "changelog": "那天的事 v2「在场版」：日报改'见证者'口吻——拿不准谁说的就写主题/氛围/邀请问句、不再默认把不确定的事栽到机主头上、绝不出现第三人称(有人/朋友/同事…)；声纹失效也不露馅。DailyReportVersion 默认 V2_0，v1.1/v1.0 可在设置回滚。",
+      "publishedAtMs": 1782148372000
     }
   ],
-  "publishedAtMs": 1782103093000,
+  "publishedAtMs": 1782148372000,
   "minSupported": 0
 }
