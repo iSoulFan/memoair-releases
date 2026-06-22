@@ -1,20 +1,13 @@
 {
-  "version": 1160,
-  "versionName": "260621-0301-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1160-260621-0301-standard-slim.apk.bin",
+  "version": 1161,
+  "versionName": "260622-1056-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1161-260622-1056-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37624807,
-  "sha256": "e8be949de26854bb43c8ad4be5ff466cc0cf5df08f8f558a160276988abc641b",
-  "changelog": "人生来信方案优化:它本就从过去几天(3-10天)里取材,以前是'挑几件最值得写的硬织成一封',结果容易把不相干的事编因果焊一起。现在改成'先找出这几天里一条真实的主线(反复出现/一直惦记的同一件事或情绪),或一件最有分量的事',只围绕它写、跨几天的素材用来写得更深而不是拼凑——既保住厚度,又彻底断了乱嫁接。",
-  "userFacingChangelog": "人生来信改成'抓一条真实主线来写',更有厚度也不再乱拼不相干的事了。",
+  "sha256": "0517be9bda0013b886f152f15aaa430c372093ab38ea72875db3199441c6a178",
+  "changelog": "抉择去重加证据时间戳重叠+墓碑+扫描端预防，治『答过的抉择换措辞被重复推送』",
+  "userFacingChangelog": "「抉择」更聪明了：同一件纠结的事不会再被重复推给你。",
   "recentReleases": [
-    {
-      "version": 1094,
-      "versionName": "260612-2049",
-      "userFacingChangelog": "优化稳定性，修复若干已知问题",
-      "changelog": "稳定性与体验优化",
-      "publishedAtMs": 1781268897000
-    },
     {
       "version": 1095,
       "versionName": "260612-2131",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "人生来信改成'抓一条真实主线来写',更有厚度也不再乱拼不相干的事了。",
       "changelog": "人生来信方案优化:它本就从过去几天(3-10天)里取材,以前是'挑几件最值得写的硬织成一封',结果容易把不相干的事编因果焊一起。现在改成'先找出这几天里一条真实的主线(反复出现/一直惦记的同一件事或情绪),或一件最有分量的事',只围绕它写、跨几天的素材用来写得更深而不是拼凑——既保住厚度,又彻底断了乱嫁接。",
       "publishedAtMs": 1781982177000
+    },
+    {
+      "version": 1161,
+      "versionName": "260622-1056-standard",
+      "userFacingChangelog": "「抉择」更聪明了：同一件纠结的事不会再被重复推给你。",
+      "changelog": "抉择去重加证据时间戳重叠+墓碑+扫描端预防，治『答过的抉择换措辞被重复推送』",
+      "publishedAtMs": 1782103093000
     }
   ],
-  "publishedAtMs": 1781982177000,
+  "publishedAtMs": 1782103093000,
   "minSupported": 0
 }
