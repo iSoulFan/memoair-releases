@@ -1,20 +1,13 @@
 {
-  "version": 1167,
-  "versionName": "260623-1623-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1167-260623-1623-standard-slim.apk.bin",
+  "version": 1168,
+  "versionName": "260623-1740-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1168-260623-1740-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37637184,
-  "sha256": "baf8b2688f63690345663c18f74dbfd94593fff305628ae60023469ef6514c7b",
-  "changelog": "微光/念念在场兜底的多个独立 strip() LLM 调用并发化(代码质量优化,行为不变)。",
-  "userFacingChangelog": "小幅优化，体验不变。",
+  "sha256": "31b0cad7e995aeec65083ea69c1587fb105cc60cfe9dbc02fa5c8bc8a542d810",
+  "changelog": "在场兜底改句级重写(只改含'有人'的行其余不动,省成本+杜绝整篇漂移)+命中率埋点(调试页可看)；日报在场框架补'集体场景'第三档(社交明确才用'朋友之间/同事一起'、默认无主语更稳)。",
+  "userFacingChangelog": "微调：那天的事在涉及别人时更自然了；底层做了优化，体验更稳。",
   "recentReleases": [
-    {
-      "version": 1115,
-      "versionName": "260613-2144-standard",
-      "userFacingChangelog": "内部维护更新",
-      "changelog": "内部维护更新",
-      "publishedAtMs": 1781358348000
-    },
     {
       "version": 1116,
       "versionName": "260613-2301-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "小幅优化，体验不变。",
       "changelog": "微光/念念在场兜底的多个独立 strip() LLM 调用并发化(代码质量优化,行为不变)。",
       "publishedAtMs": 1782203365000
+    },
+    {
+      "version": 1168,
+      "versionName": "260623-1740-standard",
+      "userFacingChangelog": "微调：那天的事在涉及别人时更自然了；底层做了优化，体验更稳。",
+      "changelog": "在场兜底改句级重写(只改含'有人'的行其余不动,省成本+杜绝整篇漂移)+命中率埋点(调试页可看)；日报在场框架补'集体场景'第三档(社交明确才用'朋友之间/同事一起'、默认无主语更稳)。",
+      "publishedAtMs": 1782207799000
     }
   ],
-  "publishedAtMs": 1782203365000,
+  "publishedAtMs": 1782207799000,
   "minSupported": 0
 }
