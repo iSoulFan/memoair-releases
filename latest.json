@@ -1,20 +1,13 @@
 {
-  "version": 1173,
-  "versionName": "260623-2337-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1173-260623-2337-standard-slim.apk.bin",
+  "version": 1174,
+  "versionName": "260624-0005-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1174-260624-0005-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37641280,
-  "sha256": "a9fb4d34dca4f72823f7869e85f09e700c505fb7d1f166458f74ef4135a80047",
-  "changelog": "分享拍立得阴影改手绘(之前 elevation 阴影渲不进分享图所以看不到)+明显加重，背景改回白。",
-  "userFacingChangelog": "分享拍立得的阴影这次真出来了、也加重了，背景还是白的。",
+  "sha256": "135416f52f2da4fa431c3bd4de6c1d8cf4563c3fc73c3192a17a108bd94726ee",
+  "changelog": "分享拍立得：倾斜改用 canvas 旋转(之前 graphicsLayer 渲不进分享图所以没倾斜)、阴影减轻。",
+  "userFacingChangelog": "分享拍立得这次倾斜真的出来了，阴影也调轻了点。",
   "recentReleases": [
-    {
-      "version": 1122,
-      "versionName": "260615-1016-standard",
-      "userFacingChangelog": "优化了部分手机上界面偏大的显示问题，看起来更协调了。",
-      "changelog": "优化了在部分小屏 / 高显示大小手机上界面整体偏大的问题——显示更协调，跟正常机型一致了。",
-      "publishedAtMs": 1781490303000
-    },
     {
       "version": 1123,
       "versionName": "260615-1629-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "分享拍立得的阴影这次真出来了、也加重了，背景还是白的。",
       "changelog": "分享拍立得阴影改手绘(之前 elevation 阴影渲不进分享图所以看不到)+明显加重，背景改回白。",
       "publishedAtMs": 1782229133000
+    },
+    {
+      "version": 1174,
+      "versionName": "260624-0005-standard",
+      "userFacingChangelog": "分享拍立得这次倾斜真的出来了，阴影也调轻了点。",
+      "changelog": "分享拍立得：倾斜改用 canvas 旋转(之前 graphicsLayer 渲不进分享图所以没倾斜)、阴影减轻。",
+      "publishedAtMs": 1782230853000
     }
   ],
-  "publishedAtMs": 1782229133000,
+  "publishedAtMs": 1782230853000,
   "minSupported": 0
 }
