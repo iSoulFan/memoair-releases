@@ -1,20 +1,13 @@
 {
-  "version": 1169,
-  "versionName": "260623-2124-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1169-260623-2124-standard-slim.apk.bin",
+  "version": 1170,
+  "versionName": "260623-2133-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1170-260623-2133-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37637184,
-  "sha256": "b57af92659029c1a6470f8dbe1032c1d477d95fe4d7799ea0ff679f415b6615d",
-  "changelog": "拍立得长按下载两模式：折叠态长按存'拍立得白底样式图'(底部居中'由记得App AI生成')、展开后长按存'原图+右下角AI水印'；修分享图在直板横屏的宽度误判。",
-  "userFacingChangelog": "拍立得能长按下载啦：折叠时存好看的相片样式图，展开后长按存原图(带AI水印)。",
+  "sha256": "e4128471fff47785f9f43dbb5e38ea41065c548d38213728373f4d1b54ec73be",
+  "changelog": "拍立得分享/保存动作对调修正：分享成图片=拍立得白底样式(白框+底部居中'由记得App AI生成')、保存到相册=原图+右下角'AI生成'水印。",
+  "userFacingChangelog": "修正：分享拍立得=好看的相片样式，保存到相册=原图带右下角AI水印。",
   "recentReleases": [
-    {
-      "version": 1117,
-      "versionName": "260614-0007-standard",
-      "userFacingChangelog": "修了换手机导入备份会卡住的问题，现在导入顺畅了。",
-      "changelog": "修复换手机导入数据卡在「处理中」的问题——大备份解密会卡死，现在导入很快。",
-      "publishedAtMs": 1781367089000
-    },
     {
       "version": 1118,
       "versionName": "260614-0023-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "拍立得能长按下载啦：折叠时存好看的相片样式图，展开后长按存原图(带AI水印)。",
       "changelog": "拍立得长按下载两模式：折叠态长按存'拍立得白底样式图'(底部居中'由记得App AI生成')、展开后长按存'原图+右下角AI水印'；修分享图在直板横屏的宽度误判。",
       "publishedAtMs": 1782221208000
+    },
+    {
+      "version": 1170,
+      "versionName": "260623-2133-standard",
+      "userFacingChangelog": "修正：分享拍立得=好看的相片样式，保存到相册=原图带右下角AI水印。",
+      "changelog": "拍立得分享/保存动作对调修正：分享成图片=拍立得白底样式(白框+底部居中'由记得App AI生成')、保存到相册=原图+右下角'AI生成'水印。",
+      "publishedAtMs": 1782221733000
     }
   ],
-  "publishedAtMs": 1782221208000,
+  "publishedAtMs": 1782221733000,
   "minSupported": 0
 }
