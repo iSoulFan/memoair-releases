@@ -1,20 +1,13 @@
 {
-  "version": 1170,
-  "versionName": "260623-2133-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1170-260623-2133-standard-slim.apk.bin",
+  "version": 1171,
+  "versionName": "260623-2154-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1171-260623-2154-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37637184,
-  "sha256": "e4128471fff47785f9f43dbb5e38ea41065c548d38213728373f4d1b54ec73be",
-  "changelog": "拍立得分享/保存动作对调修正：分享成图片=拍立得白底样式(白框+底部居中'由记得App AI生成')、保存到相册=原图+右下角'AI生成'水印。",
-  "userFacingChangelog": "修正：分享拍立得=好看的相片样式，保存到相册=原图带右下角AI水印。",
+  "sha256": "d7d959ee70760282a3f3873a490694915dbc64222785996932d67bef29b93fb2",
+  "changelog": "分享拍立得改为跟时光里折叠态那张一模一样(复用真实拍立得渲染/方形照片/同比例)+底部居中AI水印；菜单'分享成图片'改名'分享拍立得'。",
+  "userFacingChangelog": "分享的拍立得现在跟你在时光里看到的那张一模一样了。",
   "recentReleases": [
-    {
-      "version": 1118,
-      "versionName": "260614-0023-standard",
-      "userFacingChangelog": "修了「我的数据」统计数字在数据多时显示错乱的问题。",
-      "changelog": "修了数据多时「我的数据」那排统计数字挤不下会竖排乱掉的显示问题。",
-      "publishedAtMs": 1781367864000
-    },
     {
       "version": 1119,
       "versionName": "260614-2311-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "修正：分享拍立得=好看的相片样式，保存到相册=原图带右下角AI水印。",
       "changelog": "拍立得分享/保存动作对调修正：分享成图片=拍立得白底样式(白框+底部居中'由记得App AI生成')、保存到相册=原图+右下角'AI生成'水印。",
       "publishedAtMs": 1782221733000
+    },
+    {
+      "version": 1171,
+      "versionName": "260623-2154-standard",
+      "userFacingChangelog": "分享的拍立得现在跟你在时光里看到的那张一模一样了。",
+      "changelog": "分享拍立得改为跟时光里折叠态那张一模一样(复用真实拍立得渲染/方形照片/同比例)+底部居中AI水印；菜单'分享成图片'改名'分享拍立得'。",
+      "publishedAtMs": 1782222972000
     }
   ],
-  "publishedAtMs": 1782221733000,
+  "publishedAtMs": 1782222972000,
   "minSupported": 0
 }
