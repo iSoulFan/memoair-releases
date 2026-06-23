@@ -1,20 +1,13 @@
 {
-  "version": 1166,
-  "versionName": "260623-1022-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1166-260623-1022-standard-slim.apk.bin",
+  "version": 1167,
+  "versionName": "260623-1623-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1167-260623-1623-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37633088,
-  "sha256": "d615d8b1abeed49457ded049f2b1a0780fc2f64cc60ba0b151b5b37a6250d5b5",
-  "changelog": "念念不忘拒收ASR截断残句(金句必须完整自洽能独立成立·半句/缺主缺宾/没说完的碎片不选·禁止把'没说完'美化成'更有味道'找借口)+关于页检查更新按钮缩短为'看看新版'+maxLines锁单行防换行。",
-  "userFacingChangelog": "念念不忘不会再收录没说完的半截话了；关于页那个按钮文字也不会再挤到两行。",
+  "sizeBytes": 37637184,
+  "sha256": "baf8b2688f63690345663c18f74dbfd94593fff305628ae60023469ef6514c7b",
+  "changelog": "微光/念念在场兜底的多个独立 strip() LLM 调用并发化(代码质量优化,行为不变)。",
+  "userFacingChangelog": "小幅优化，体验不变。",
   "recentReleases": [
-    {
-      "version": 1114,
-      "versionName": "260613-2135-standard",
-      "userFacingChangelog": "这版给「人生来信」加了语气——它会看你今天过得怎么样，挑一种最贴的方式给你写，不再千篇一律。顺手修了输入框长文显示和按住说话的进场动效。",
-      "changelog": "人生来信·多语气上线：现在会读你当天的状态，换不同的方式给你写信——有时是认出你的那种、有时鼓励、有时安慰、有时只是陪你坐一会儿，不再每天一个腔调。\n输入框打长文会自动长高，看得到完整内容。\n按住说话的进场动效更柔和了，不再一惊一乍。",
-      "publishedAtMs": 1781357880000
-    },
     {
       "version": 1115,
       "versionName": "260613-2144-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "念念不忘不会再收录没说完的半截话了；关于页那个按钮文字也不会再挤到两行。",
       "changelog": "念念不忘拒收ASR截断残句(金句必须完整自洽能独立成立·半句/缺主缺宾/没说完的碎片不选·禁止把'没说完'美化成'更有味道'找借口)+关于页检查更新按钮缩短为'看看新版'+maxLines锁单行防换行。",
       "publishedAtMs": 1782181619000
+    },
+    {
+      "version": 1167,
+      "versionName": "260623-1623-standard",
+      "userFacingChangelog": "小幅优化，体验不变。",
+      "changelog": "微光/念念在场兜底的多个独立 strip() LLM 调用并发化(代码质量优化,行为不变)。",
+      "publishedAtMs": 1782203365000
     }
   ],
-  "publishedAtMs": 1782181619000,
+  "publishedAtMs": 1782203365000,
   "minSupported": 0
 }
