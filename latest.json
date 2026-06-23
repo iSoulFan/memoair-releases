@@ -1,20 +1,13 @@
 {
-  "version": 1168,
-  "versionName": "260623-1740-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1168-260623-1740-standard-slim.apk.bin",
+  "version": 1169,
+  "versionName": "260623-2124-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1169-260623-2124-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37637184,
-  "sha256": "31b0cad7e995aeec65083ea69c1587fb105cc60cfe9dbc02fa5c8bc8a542d810",
-  "changelog": "在场兜底改句级重写(只改含'有人'的行其余不动,省成本+杜绝整篇漂移)+命中率埋点(调试页可看)；日报在场框架补'集体场景'第三档(社交明确才用'朋友之间/同事一起'、默认无主语更稳)。",
-  "userFacingChangelog": "微调：那天的事在涉及别人时更自然了；底层做了优化，体验更稳。",
+  "sha256": "b57af92659029c1a6470f8dbe1032c1d477d95fe4d7799ea0ff679f415b6615d",
+  "changelog": "拍立得长按下载两模式：折叠态长按存'拍立得白底样式图'(底部居中'由记得App AI生成')、展开后长按存'原图+右下角AI水印'；修分享图在直板横屏的宽度误判。",
+  "userFacingChangelog": "拍立得能长按下载啦：折叠时存好看的相片样式图，展开后长按存原图(带AI水印)。",
   "recentReleases": [
-    {
-      "version": 1116,
-      "versionName": "260613-2301-standard",
-      "userFacingChangelog": "清掉了几条没必要的主动推送和通知，安静一点。",
-      "changelog": "清掉了几条没必要的主动推送 / 通知——少打扰你一点。",
-      "publishedAtMs": 1781363005000
-    },
     {
       "version": 1117,
       "versionName": "260614-0007-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "微调：那天的事在涉及别人时更自然了；底层做了优化，体验更稳。",
       "changelog": "在场兜底改句级重写(只改含'有人'的行其余不动,省成本+杜绝整篇漂移)+命中率埋点(调试页可看)；日报在场框架补'集体场景'第三档(社交明确才用'朋友之间/同事一起'、默认无主语更稳)。",
       "publishedAtMs": 1782207799000
+    },
+    {
+      "version": 1169,
+      "versionName": "260623-2124-standard",
+      "userFacingChangelog": "拍立得能长按下载啦：折叠时存好看的相片样式图，展开后长按存原图(带AI水印)。",
+      "changelog": "拍立得长按下载两模式：折叠态长按存'拍立得白底样式图'(底部居中'由记得App AI生成')、展开后长按存'原图+右下角AI水印'；修分享图在直板横屏的宽度误判。",
+      "publishedAtMs": 1782221208000
     }
   ],
-  "publishedAtMs": 1782207799000,
+  "publishedAtMs": 1782221208000,
   "minSupported": 0
 }
