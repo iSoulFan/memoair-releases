@@ -1,20 +1,13 @@
 {
-  "version": 1165,
-  "versionName": "260623-0226-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1165-260623-0226-standard-slim.apk.bin",
+  "version": 1166,
+  "versionName": "260623-1022-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1166-260623-1022-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37633088,
-  "sha256": "6a8331d57b5a25a12047a6302e2cd65a8d8e80a6ae09cd3b3d28b30753ab466d",
-  "changelog": "长期记忆加来源闸(宁缺勿滥:拿不准是不是本人的一律不记,错记污染全局代价大于漏记)+人生来信在场化([我]/[他人]降级弱提示·不确定不安到你头上·禁匿名三人称·正文过兜底)+修直板大屏机横屏误触折叠屏双栏(isWide第二条件加screenHeightDp>=600)。",
-  "userFacingChangelog": "修了大屏手机横屏打开会变成左右分屏的问题；长期记忆和人生来信也更稳了，不会把别人的事记成你的、写进你的信里。",
+  "sha256": "d615d8b1abeed49457ded049f2b1a0780fc2f64cc60ba0b151b5b37a6250d5b5",
+  "changelog": "念念不忘拒收ASR截断残句(金句必须完整自洽能独立成立·半句/缺主缺宾/没说完的碎片不选·禁止把'没说完'美化成'更有味道'找借口)+关于页检查更新按钮缩短为'看看新版'+maxLines锁单行防换行。",
+  "userFacingChangelog": "念念不忘不会再收录没说完的半截话了；关于页那个按钮文字也不会再挤到两行。",
   "recentReleases": [
-    {
-      "version": 1102,
-      "versionName": "260613-0047",
-      "userFacingChangelog": "内部维护更新。",
-      "changelog": "内部维护与稳定性优化。",
-      "publishedAtMs": 1781283032000
-    },
     {
       "version": 1114,
       "versionName": "260613-2135-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "修了大屏手机横屏打开会变成左右分屏的问题；长期记忆和人生来信也更稳了，不会把别人的事记成你的、写进你的信里。",
       "changelog": "长期记忆加来源闸(宁缺勿滥:拿不准是不是本人的一律不记,错记污染全局代价大于漏记)+人生来信在场化([我]/[他人]降级弱提示·不确定不安到你头上·禁匿名三人称·正文过兜底)+修直板大屏机横屏误触折叠屏双栏(isWide第二条件加screenHeightDp>=600)。",
       "publishedAtMs": 1782152932000
+    },
+    {
+      "version": 1166,
+      "versionName": "260623-1022-standard",
+      "userFacingChangelog": "念念不忘不会再收录没说完的半截话了；关于页那个按钮文字也不会再挤到两行。",
+      "changelog": "念念不忘拒收ASR截断残句(金句必须完整自洽能独立成立·半句/缺主缺宾/没说完的碎片不选·禁止把'没说完'美化成'更有味道'找借口)+关于页检查更新按钮缩短为'看看新版'+maxLines锁单行防换行。",
+      "publishedAtMs": 1782181619000
     }
   ],
-  "publishedAtMs": 1782152932000,
+  "publishedAtMs": 1782181619000,
   "minSupported": 0
 }
