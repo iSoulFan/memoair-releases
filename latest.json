@@ -1,20 +1,13 @@
 {
-  "version": 1174,
-  "versionName": "260624-0005-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1174-260624-0005-standard-slim.apk.bin",
+  "version": 1175,
+  "versionName": "260624-0013-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1175-260624-0013-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37641280,
-  "sha256": "135416f52f2da4fa431c3bd4de6c1d8cf4563c3fc73c3192a17a108bd94726ee",
-  "changelog": "分享拍立得：倾斜改用 canvas 旋转(之前 graphicsLayer 渲不进分享图所以没倾斜)、阴影减轻。",
-  "userFacingChangelog": "分享拍立得这次倾斜真的出来了，阴影也调轻了点。",
+  "sha256": "5187d37ecc40fc17592a4e828053f4e87297e61329eb9e8a09ee45b21f9fc106",
+  "changelog": "暗夜模式分享拍立得底部'由记得App AI生成'压暗(之前太亮)。",
+  "userFacingChangelog": "暗色模式下分享拍立得的底部署名调暗了，不再刺眼。",
   "recentReleases": [
-    {
-      "version": 1123,
-      "versionName": "260615-1629-standard",
-      "userFacingChangelog": "· 「猜你想做」更顺手了：展开后点加号直接加进待办，每条标题也完整展示\n· 后台录音更省电了",
-      "changelog": "拾梦相片：移除「再拍一张照片」长按入口 + 对话内换图全部下线；猜你想做：展开后点加号直接加待办、每条标题完整展示（加号不再兼作多选勾选）；录音：新增采集端能量门控（静音帧不写盘、整分钟静音不落段），降后台录音功耗。",
-      "publishedAtMs": 1781512385000
-    },
     {
       "version": 1126,
       "versionName": "260615-1858-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "分享拍立得这次倾斜真的出来了，阴影也调轻了点。",
       "changelog": "分享拍立得：倾斜改用 canvas 旋转(之前 graphicsLayer 渲不进分享图所以没倾斜)、阴影减轻。",
       "publishedAtMs": 1782230853000
+    },
+    {
+      "version": 1175,
+      "versionName": "260624-0013-standard",
+      "userFacingChangelog": "暗色模式下分享拍立得的底部署名调暗了，不再刺眼。",
+      "changelog": "暗夜模式分享拍立得底部'由记得App AI生成'压暗(之前太亮)。",
+      "publishedAtMs": 1782231325000
     }
   ],
-  "publishedAtMs": 1782230853000,
+  "publishedAtMs": 1782231325000,
   "minSupported": 0
 }
