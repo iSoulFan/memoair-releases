@@ -1,20 +1,13 @@
 {
-  "version": 1171,
-  "versionName": "260623-2154-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1171-260623-2154-standard-slim.apk.bin",
+  "version": 1172,
+  "versionName": "260623-2329-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1172-260623-2329-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37637184,
-  "sha256": "d7d959ee70760282a3f3873a490694915dbc64222785996932d67bef29b93fb2",
-  "changelog": "分享拍立得改为跟时光里折叠态那张一模一样(复用真实拍立得渲染/方形照片/同比例)+底部居中AI水印；菜单'分享成图片'改名'分享拍立得'。",
-  "userFacingChangelog": "分享的拍立得现在跟你在时光里看到的那张一模一样了。",
+  "sizeBytes": 37641280,
+  "sha256": "0083192967dff25a395f2b28ad0a22e8f6282c61cf93fccd197a0e4b809bcc0f",
+  "changelog": "分享拍立得：加软阴影(跟白底拉开)+恢复随机倾斜(摆正太呆板)；背景略调暖灰双保险。",
+  "userFacingChangelog": "分享拍立得加了阴影、恢复了随机微倾斜，不再呆板贴在白底上。",
   "recentReleases": [
-    {
-      "version": 1119,
-      "versionName": "260614-2311-standard",
-      "userFacingChangelog": "修了人生来信偶尔不分段、夹着奇怪符号的问题，旧信也会自动恢复。",
-      "changelog": "修复人生来信偶尔整封不分段、正文里冒出 \\n 字符的问题——现在分段正常，旧信也会自动恢复分段。",
-      "publishedAtMs": 1781450009000
-    },
     {
       "version": 1120,
       "versionName": "260615-0936-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "分享的拍立得现在跟你在时光里看到的那张一模一样了。",
       "changelog": "分享拍立得改为跟时光里折叠态那张一模一样(复用真实拍立得渲染/方形照片/同比例)+底部居中AI水印；菜单'分享成图片'改名'分享拍立得'。",
       "publishedAtMs": 1782222972000
+    },
+    {
+      "version": 1172,
+      "versionName": "260623-2329-standard",
+      "userFacingChangelog": "分享拍立得加了阴影、恢复了随机微倾斜，不再呆板贴在白底上。",
+      "changelog": "分享拍立得：加软阴影(跟白底拉开)+恢复随机倾斜(摆正太呆板)；背景略调暖灰双保险。",
+      "publishedAtMs": 1782228668000
     }
   ],
-  "publishedAtMs": 1782222972000,
+  "publishedAtMs": 1782228668000,
   "minSupported": 0
 }
