@@ -1,20 +1,13 @@
 {
-  "version": 1172,
-  "versionName": "260623-2329-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1172-260623-2329-standard-slim.apk.bin",
+  "version": 1173,
+  "versionName": "260623-2337-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1173-260623-2337-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37641280,
-  "sha256": "0083192967dff25a395f2b28ad0a22e8f6282c61cf93fccd197a0e4b809bcc0f",
-  "changelog": "分享拍立得：加软阴影(跟白底拉开)+恢复随机倾斜(摆正太呆板)；背景略调暖灰双保险。",
-  "userFacingChangelog": "分享拍立得加了阴影、恢复了随机微倾斜，不再呆板贴在白底上。",
+  "sha256": "a9fb4d34dca4f72823f7869e85f09e700c505fb7d1f166458f74ef4135a80047",
+  "changelog": "分享拍立得阴影改手绘(之前 elevation 阴影渲不进分享图所以看不到)+明显加重，背景改回白。",
+  "userFacingChangelog": "分享拍立得的阴影这次真出来了、也加重了，背景还是白的。",
   "recentReleases": [
-    {
-      "version": 1120,
-      "versionName": "260615-0936-standard",
-      "userFacingChangelog": "修了隐私时段结束后没自动恢复录音、状态栏卡在「隐私」的问题。",
-      "changelog": "修复隐私时段结束后没自动恢复录音的问题——过了隐私时段不再卡在「隐私」，会自动开录（不用手动打开 App）。",
-      "publishedAtMs": 1781487524000
-    },
     {
       "version": 1122,
       "versionName": "260615-1016-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "分享拍立得加了阴影、恢复了随机微倾斜，不再呆板贴在白底上。",
       "changelog": "分享拍立得：加软阴影(跟白底拉开)+恢复随机倾斜(摆正太呆板)；背景略调暖灰双保险。",
       "publishedAtMs": 1782228668000
+    },
+    {
+      "version": 1173,
+      "versionName": "260623-2337-standard",
+      "userFacingChangelog": "分享拍立得的阴影这次真出来了、也加重了，背景还是白的。",
+      "changelog": "分享拍立得阴影改手绘(之前 elevation 阴影渲不进分享图所以看不到)+明显加重，背景改回白。",
+      "publishedAtMs": 1782229133000
     }
   ],
-  "publishedAtMs": 1782228668000,
+  "publishedAtMs": 1782229133000,
   "minSupported": 0
 }
