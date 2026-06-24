@@ -1,20 +1,13 @@
 {
-  "version": 1179,
-  "versionName": "260624-0951-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1179-260624-0951-standard-slim.apk.bin",
+  "version": 1180,
+  "versionName": "260624-1004-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1180-260624-1004-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37637184,
-  "sha256": "3b531300057b7af1c6f54be5ac58b2d22dc43035eb75126757e96466bf3c881f",
-  "changelog": "那天的事 v2 以 V1 为底重做：保留 V1 全部板块/框架，只把会'把你的话栽给虚构朋友/同事'的几处归属规则升维(禁匿名'有人'/禁编造身份/拿不准就无主语或当本人/明确是你就放开写你)。",
-  "userFacingChangelog": "「那天的事」回到你喜欢的 V1 板块框架，只把会认错人的地方修好了。",
+  "sizeBytes": 37641280,
+  "sha256": "0ca3e1588a4686364802d5bdbaf819d53288091cfe656117d7533b692557f27e",
+  "changelog": "那天的事 v2:归属门槛按内容私密度分级——别人的感受/抱怨(如找不到车位)不再误写成'你'的;拆掉'拿不准就当机主本人'这个误栽源,改成拿不准就无主语。",
+  "userFacingChangelog": "「那天的事」修了一个：别人抱怨的事不会再被写成你的烦恼了。",
   "recentReleases": [
-    {
-      "version": 1130,
-      "versionName": "260616-1048-standard",
-      "userFacingChangelog": "· 内部优化与稳定性改进",
-      "changelog": "调试(管理员)：人生来信新增「按当前规则往前捞一份」预览——跑全流程(收集→LLM精选→写信)出一封 + 显示捞了几天/精彩度/触发语气/LLM自评分(1-10)/选中的跨窗口高光，用来检验降频提质后的输出质量。",
-      "publishedAtMs": 1781578204000
-    },
     {
       "version": 1131,
       "versionName": "260616-1102-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「那天的事」回到你喜欢的 V1 板块框架，只把会认错人的地方修好了。",
       "changelog": "那天的事 v2 以 V1 为底重做：保留 V1 全部板块/框架，只把会'把你的话栽给虚构朋友/同事'的几处归属规则升维(禁匿名'有人'/禁编造身份/拿不准就无主语或当本人/明确是你就放开写你)。",
       "publishedAtMs": 1782266039000
+    },
+    {
+      "version": 1180,
+      "versionName": "260624-1004-standard",
+      "userFacingChangelog": "「那天的事」修了一个：别人抱怨的事不会再被写成你的烦恼了。",
+      "changelog": "那天的事 v2:归属门槛按内容私密度分级——别人的感受/抱怨(如找不到车位)不再误写成'你'的;拆掉'拿不准就当机主本人'这个误栽源,改成拿不准就无主语。",
+      "publishedAtMs": 1782266793000
     }
   ],
-  "publishedAtMs": 1782266039000,
+  "publishedAtMs": 1782266793000,
   "minSupported": 0
 }
