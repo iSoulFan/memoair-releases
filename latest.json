@@ -1,20 +1,13 @@
 {
-  "version": 1176,
-  "versionName": "260624-0930-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1176-260624-0930-standard-slim.apk.bin",
+  "version": 1177,
+  "versionName": "260624-0940-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1177-260624-0940-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37641280,
-  "sha256": "ff4ac186368beeeadc5efd60d8d033525adc9a8612c40c52af400f20ac5356ff",
-  "changelog": "分享拍立得始终出白天版(暗夜模式下也用亮色相纸,因夜晚版不好看)。",
-  "userFacingChangelog": "暗色模式下分享拍立得也出白天版了，更好看。",
+  "sizeBytes": 37637184,
+  "sha256": "23fd407f0a430d66d0c703a61aa2a56d747960f8b1c08729340567660d7e3d19",
+  "changelog": "那天的事 v2 重写：恢复丰富模块菜单+每天结构不同+明确是你的就放开写具体的'你…'+邀请问句降成偶尔；保留不栽赃/禁匿名第三人称的安全底。",
+  "userFacingChangelog": "「那天的事」结构更丰富、每天不一样了，不再死板套同一个壳。",
   "recentReleases": [
-    {
-      "version": 1127,
-      "versionName": "260615-1908-standard",
-      "userFacingChangelog": "· 修复：对话里三个字的人名，虚线/可点区域有时只盖到前两个字",
-      "changelog": "修复：AI/备忘气泡里三字人名虚线只盖前两字（markdown 路径的命中矩形改用逐字符 getBoundingBox，对齐 v1069 用户气泡的修法）。",
-      "publishedAtMs": 1781521790000
-    },
     {
       "version": 1128,
       "versionName": "260615-2107-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "暗色模式下分享拍立得也出白天版了，更好看。",
       "changelog": "分享拍立得始终出白天版(暗夜模式下也用亮色相纸,因夜晚版不好看)。",
       "publishedAtMs": 1782264806000
+    },
+    {
+      "version": 1177,
+      "versionName": "260624-0940-standard",
+      "userFacingChangelog": "「那天的事」结构更丰富、每天不一样了，不再死板套同一个壳。",
+      "changelog": "那天的事 v2 重写：恢复丰富模块菜单+每天结构不同+明确是你的就放开写具体的'你…'+邀请问句降成偶尔；保留不栽赃/禁匿名第三人称的安全底。",
+      "publishedAtMs": 1782265378000
     }
   ],
-  "publishedAtMs": 1782264806000,
+  "publishedAtMs": 1782265378000,
   "minSupported": 0
 }
