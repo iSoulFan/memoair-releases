@@ -1,20 +1,13 @@
 {
-  "version": 1177,
-  "versionName": "260624-0940-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1177-260624-0940-standard-slim.apk.bin",
+  "version": 1178,
+  "versionName": "260624-0946-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1178-260624-0946-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37637184,
-  "sha256": "23fd407f0a430d66d0c703a61aa2a56d747960f8b1c08729340567660d7e3d19",
-  "changelog": "那天的事 v2 重写：恢复丰富模块菜单+每天结构不同+明确是你的就放开写具体的'你…'+邀请问句降成偶尔；保留不栽赃/禁匿名第三人称的安全底。",
-  "userFacingChangelog": "「那天的事」结构更丰富、每天不一样了，不再死板套同一个壳。",
+  "sha256": "21b612b09c233b2a8a7a45e335cce1a6a8d06088059350bb9f92526146be0d39",
+  "changelog": "分享拍立得外框底色改纯白 #FFFFFF——发朋友圈时跟微信白底无缝融合(相纸本身仍暖白、靠阴影区分)。",
+  "userFacingChangelog": "分享拍立得的外框改成纯白了，发朋友圈跟白底融为一体。",
   "recentReleases": [
-    {
-      "version": 1128,
-      "versionName": "260615-2107-standard",
-      "userFacingChangelog": "· 修复：短的人名有时会被错误地标注进更长的词里\n· 点人名的修正弹窗新增「这不是真人·删掉」，可直接清掉抽错的名字",
-      "changelog": "修复：短人名（≤2字）会误标进更长中文词里（'博芬'被标进'博芬生'）——未确认的短名紧贴更多中文时不再标，已确认的不受影响；人名修正弹窗新增「这不是真人·删掉」清理抽错的脏名。",
-      "publishedAtMs": 1781528951000
-    },
     {
       "version": 1129,
       "versionName": "260616-1036-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「那天的事」结构更丰富、每天不一样了，不再死板套同一个壳。",
       "changelog": "那天的事 v2 重写：恢复丰富模块菜单+每天结构不同+明确是你的就放开写具体的'你…'+邀请问句降成偶尔；保留不栽赃/禁匿名第三人称的安全底。",
       "publishedAtMs": 1782265378000
+    },
+    {
+      "version": 1178,
+      "versionName": "260624-0946-standard",
+      "userFacingChangelog": "分享拍立得的外框改成纯白了，发朋友圈跟白底融为一体。",
+      "changelog": "分享拍立得外框底色改纯白 #FFFFFF——发朋友圈时跟微信白底无缝融合(相纸本身仍暖白、靠阴影区分)。",
+      "publishedAtMs": 1782265723000
     }
   ],
-  "publishedAtMs": 1782265378000,
+  "publishedAtMs": 1782265723000,
   "minSupported": 0
 }
