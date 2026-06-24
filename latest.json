@@ -1,20 +1,13 @@
 {
-  "version": 1181,
-  "versionName": "260624-1029-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1181-260624-1029-standard-slim.apk.bin",
+  "version": 1182,
+  "versionName": "260624-1653-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1182-260624-1653-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37641280,
-  "sha256": "03c17c38dc2dafc50f40e7eeaf9aa9ccd3c0dd9717d0a575156a89249929e8e7",
-  "changelog": "那天的事 v2 引入声纹软提示(B方案)：每行带[像你说的]/[像旁人]/[不确定]标签,写'你做了X'优先挑声纹觉得是你的、旁人的事件不写成你;但内容明显是你自述可盖过(治误判);软提示不硬卡所以内容不会急剧变少。",
-  "userFacingChangelog": "「那天的事」现在会参考声纹判断:具体事件优先写声纹觉得是你做的,别人的事不再硬安给你。",
+  "sha256": "a24af1cd088f695fb57545705639453ae40f9d24e48578eade4861eedf6128b4",
+  "changelog": "声纹注册砍成只录一遍(多录意义不大还增门槛)+台词改成自然的自言自语版(不再像念诗、含初次使用引导)。",
+  "userFacingChangelog": "声纹注册简化成只录一遍了，台词也改得更自然、顺带告诉你头一天怎么用。",
   "recentReleases": [
-    {
-      "version": 1132,
-      "versionName": "260616-1116-standard",
-      "userFacingChangelog": "· 拾梦相片：遇到看比赛/演出/旅行这种'大场面'的日子，会直接画那个场景，而不是桌上一个小物件",
-      "changelog": "拾梦相片出图：当天有'现场/大事'(赛事/F1/演唱会/旅行/节日/看海等)时，直接还原那个场景本身(Ghibli水彩、有动感)，不再降级成桌面静物代用物件(如'看F1'被画成'桌上模型车')；普通的一天仍走安静静物；人物只作远景柔和剪影，不画清晰人脸。",
-      "publishedAtMs": 1781579892000
-    },
     {
       "version": 1133,
       "versionName": "260616-2046-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「那天的事」现在会参考声纹判断:具体事件优先写声纹觉得是你做的,别人的事不再硬安给你。",
       "changelog": "那天的事 v2 引入声纹软提示(B方案)：每行带[像你说的]/[像旁人]/[不确定]标签,写'你做了X'优先挑声纹觉得是你的、旁人的事件不写成你;但内容明显是你自述可盖过(治误判);软提示不硬卡所以内容不会急剧变少。",
       "publishedAtMs": 1782268301000
+    },
+    {
+      "version": 1182,
+      "versionName": "260624-1653-standard",
+      "userFacingChangelog": "声纹注册简化成只录一遍了，台词也改得更自然、顺带告诉你头一天怎么用。",
+      "changelog": "声纹注册砍成只录一遍(多录意义不大还增门槛)+台词改成自然的自言自语版(不再像念诗、含初次使用引导)。",
+      "publishedAtMs": 1782291463000
     }
   ],
-  "publishedAtMs": 1782268301000,
+  "publishedAtMs": 1782291463000,
   "minSupported": 0
 }
