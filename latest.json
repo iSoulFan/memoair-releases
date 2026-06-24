@@ -1,20 +1,13 @@
 {
-  "version": 1182,
-  "versionName": "260624-1653-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1182-260624-1653-standard-slim.apk.bin",
+  "version": 1183,
+  "versionName": "260624-1726-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1183-260624-1726-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37641280,
-  "sha256": "a24af1cd088f695fb57545705639453ae40f9d24e48578eade4861eedf6128b4",
-  "changelog": "声纹注册砍成只录一遍(多录意义不大还增门槛)+台词改成自然的自言自语版(不再像念诗、含初次使用引导)。",
-  "userFacingChangelog": "声纹注册简化成只录一遍了，台词也改得更自然、顺带告诉你头一天怎么用。",
+  "sha256": "bcd54dd5b7b8e0532134e86d95bd803f0257774a76ddb526bddad647ae9029dc",
+  "changelog": "声纹注册台词定稿——更自然、温暖、安全感的自言自语版(替你把今天好好收着)。",
+  "userFacingChangelog": "声纹注册的台词换成定稿版了——更自然、读着舒服。",
   "recentReleases": [
-    {
-      "version": 1133,
-      "versionName": "260616-2046-standard",
-      "userFacingChangelog": "现在待办、愿望、抉择里提到的人名，也能点开校正了。",
-      "changelog": "行动板块（待办 / 猜你想做 / 愿望 / 抉择）里提到的人名，现在也标虚线、可点开校正——跟纪要、对话保持一致。",
-      "publishedAtMs": 1781614180000
-    },
     {
       "version": 1134,
       "versionName": "260617-0735-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "声纹注册简化成只录一遍了，台词也改得更自然、顺带告诉你头一天怎么用。",
       "changelog": "声纹注册砍成只录一遍(多录意义不大还增门槛)+台词改成自然的自言自语版(不再像念诗、含初次使用引导)。",
       "publishedAtMs": 1782291463000
+    },
+    {
+      "version": 1183,
+      "versionName": "260624-1726-standard",
+      "userFacingChangelog": "声纹注册的台词换成定稿版了——更自然、读着舒服。",
+      "changelog": "声纹注册台词定稿——更自然、温暖、安全感的自言自语版(替你把今天好好收着)。",
+      "publishedAtMs": 1782293329000
     }
   ],
-  "publishedAtMs": 1782291463000,
+  "publishedAtMs": 1782293329000,
   "minSupported": 0
 }
