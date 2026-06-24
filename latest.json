@@ -1,20 +1,13 @@
 {
-  "version": 1178,
-  "versionName": "260624-0946-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1178-260624-0946-standard-slim.apk.bin",
+  "version": 1179,
+  "versionName": "260624-0951-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1179-260624-0951-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37637184,
-  "sha256": "21b612b09c233b2a8a7a45e335cce1a6a8d06088059350bb9f92526146be0d39",
-  "changelog": "分享拍立得外框底色改纯白 #FFFFFF——发朋友圈时跟微信白底无缝融合(相纸本身仍暖白、靠阴影区分)。",
-  "userFacingChangelog": "分享拍立得的外框改成纯白了，发朋友圈跟白底融为一体。",
+  "sha256": "3b531300057b7af1c6f54be5ac58b2d22dc43035eb75126757e96466bf3c881f",
+  "changelog": "那天的事 v2 以 V1 为底重做：保留 V1 全部板块/框架，只把会'把你的话栽给虚构朋友/同事'的几处归属规则升维(禁匿名'有人'/禁编造身份/拿不准就无主语或当本人/明确是你就放开写你)。",
+  "userFacingChangelog": "「那天的事」回到你喜欢的 V1 板块框架，只把会认错人的地方修好了。",
   "recentReleases": [
-    {
-      "version": 1129,
-      "versionName": "260616-1036-standard",
-      "userFacingChangelog": "· 人生来信不再每天打扰——攒一段时间、挑这阵最值得记的几件事，写得更厚\n· 落款写得更自然了",
-      "changelog": "人生来信降频提质：不再每天发——地板3天/常态约一周/封顶10天给活跃用户兜底轻量；时间主导+加权精彩度；每封由跨整段窗口LLM精选的高光写成（写信只拿到精选，杜绝只读单日敷衍）；落款去掉'没做X的你'反义尬款，改短·真心情·不猜细节。",
-      "publishedAtMs": 1781577549000
-    },
     {
       "version": 1130,
       "versionName": "260616-1048-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "分享拍立得的外框改成纯白了，发朋友圈跟白底融为一体。",
       "changelog": "分享拍立得外框底色改纯白 #FFFFFF——发朋友圈时跟微信白底无缝融合(相纸本身仍暖白、靠阴影区分)。",
       "publishedAtMs": 1782265723000
+    },
+    {
+      "version": 1179,
+      "versionName": "260624-0951-standard",
+      "userFacingChangelog": "「那天的事」回到你喜欢的 V1 板块框架，只把会认错人的地方修好了。",
+      "changelog": "那天的事 v2 以 V1 为底重做：保留 V1 全部板块/框架，只把会'把你的话栽给虚构朋友/同事'的几处归属规则升维(禁匿名'有人'/禁编造身份/拿不准就无主语或当本人/明确是你就放开写你)。",
+      "publishedAtMs": 1782266039000
     }
   ],
-  "publishedAtMs": 1782265723000,
+  "publishedAtMs": 1782266039000,
   "minSupported": 0
 }
