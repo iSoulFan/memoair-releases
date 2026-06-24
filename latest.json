@@ -1,20 +1,13 @@
 {
-  "version": 1175,
-  "versionName": "260624-0013-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1175-260624-0013-standard-slim.apk.bin",
+  "version": 1176,
+  "versionName": "260624-0930-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1176-260624-0930-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37641280,
-  "sha256": "5187d37ecc40fc17592a4e828053f4e87297e61329eb9e8a09ee45b21f9fc106",
-  "changelog": "暗夜模式分享拍立得底部'由记得App AI生成'压暗(之前太亮)。",
-  "userFacingChangelog": "暗色模式下分享拍立得的底部署名调暗了，不再刺眼。",
+  "sha256": "ff4ac186368beeeadc5efd60d8d033525adc9a8612c40c52af400f20ac5356ff",
+  "changelog": "分享拍立得始终出白天版(暗夜模式下也用亮色相纸,因夜晚版不好看)。",
+  "userFacingChangelog": "暗色模式下分享拍立得也出白天版了，更好看。",
   "recentReleases": [
-    {
-      "version": 1126,
-      "versionName": "260615-1858-standard",
-      "userFacingChangelog": "· 人物体验重做：点对话里的人名，直接看 TA 的卡片（多久没见 / 提过多少次 / 一段印象）\n· 改过的名字会在对话里实时更新、标蓝，点开能看到改名前后和别名\n· 把名字改成已有联系人会自动合并成一个人",
-      "changelog": "人物体系重做：关系镜像下线（ASR/声纹不准易张冠李戴）；点对话人名→事实层人物大卡（最近提及/频率/首次实时算+缓存AI印象）；改名非破坏性叠加（显示规范名+变蓝+看历史，两条渲染路径统一）；改名撞已有人即合并；别名拆分；人物抽取只抽名字+别名省token；登场过的人列表入口收起，抽取触发挪到打开对话页。",
-      "publishedAtMs": 1781521207000
-    },
     {
       "version": 1127,
       "versionName": "260615-1908-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "暗色模式下分享拍立得的底部署名调暗了，不再刺眼。",
       "changelog": "暗夜模式分享拍立得底部'由记得App AI生成'压暗(之前太亮)。",
       "publishedAtMs": 1782231325000
+    },
+    {
+      "version": 1176,
+      "versionName": "260624-0930-standard",
+      "userFacingChangelog": "暗色模式下分享拍立得也出白天版了，更好看。",
+      "changelog": "分享拍立得始终出白天版(暗夜模式下也用亮色相纸,因夜晚版不好看)。",
+      "publishedAtMs": 1782264806000
     }
   ],
-  "publishedAtMs": 1782231325000,
+  "publishedAtMs": 1782264806000,
   "minSupported": 0
 }
