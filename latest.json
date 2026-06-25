@@ -1,20 +1,13 @@
 {
-  "version": 1184,
-  "versionName": "260625-1040-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1184-260625-1040-standard-slim.apk.bin",
+  "version": 1185,
+  "versionName": "260625-1136-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1185-260625-1136-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37645376,
-  "sha256": "cd9a36b93e4cd6aa5d6dca90558e8354dec160531c75d84977fb4c882ce08dca",
-  "changelog": "稳定性与内部维护优化。",
-  "userFacingChangelog": "一些幕后的稳定性优化。",
+  "sha256": "2dacab4dae316d7d7144813af8f9c7c2bf5ba0c86b5b724ab73b062f6bf9417e",
+  "changelog": "稳定性与反馈体验优化。",
+  "userFacingChangelog": "一些幕后的优化。",
   "recentReleases": [
-    {
-      "version": 1135,
-      "versionName": "260617-0744-standard",
-      "userFacingChangelog": "一些细节打磨。",
-      "changelog": "调试试播改为在时光页背景上重播（管理员调试用），便于验证拾梦相片揭晓动画的「槽位先留空」。",
-      "publishedAtMs": 1781653558000
-    },
     {
       "version": 1136,
       "versionName": "260617-0816-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "一些幕后的稳定性优化。",
       "changelog": "稳定性与内部维护优化。",
       "publishedAtMs": 1782355371000
+    },
+    {
+      "version": 1185,
+      "versionName": "260625-1136-standard",
+      "userFacingChangelog": "一些幕后的优化。",
+      "changelog": "稳定性与反馈体验优化。",
+      "publishedAtMs": 1782358710000
     }
   ],
-  "publishedAtMs": 1782355371000,
+  "publishedAtMs": 1782358710000,
   "minSupported": 0
 }
