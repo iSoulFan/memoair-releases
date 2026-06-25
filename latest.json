@@ -1,20 +1,13 @@
 {
-  "version": 1190,
-  "versionName": "260625-1459-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1190-260625-1459-standard-slim.apk.bin",
+  "version": 1191,
+  "versionName": "260625-1508-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1191-260625-1508-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37653568,
-  "sha256": "2d6280927018b6ba6c872973ab68843259caaf79c9c5db91f819019b8c077979",
-  "changelog": "对话现在偶尔能帮你查一点实时信息（如天气），这类内容会标明「仅供参考」。",
-  "userFacingChangelog": "对话现在偶尔能帮你查一点实时信息（如天气），这类内容会标明仅供参考。",
+  "sha256": "b3dc255caceae8b1aa82cb9d69897e1b943e2e33bffcaac525a5a56b314b10eb",
+  "changelog": "联网查询时的等待提示更明确了，联网内容的标注也更清楚。",
+  "userFacingChangelog": "联网查询时的等待提示更明确了。",
   "recentReleases": [
-    {
-      "version": 1141,
-      "versionName": "260617-1148-standard",
-      "userFacingChangelog": "拾梦相片揭晓收尾更干净了，最后那一下整屏闪没有了。",
-      "changelog": "拾梦相片落定整屏闪修复(第三版)：背景暗底不再在揭晓结束时瞬间消失，而是随相片飞向时光页槽位的过程同步淡掉——落定时暗底已透明，不再有暗→亮整屏闪一下。",
-      "publishedAtMs": 1781668195000
-    },
     {
       "version": 1142,
       "versionName": "260617-1209-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "对话现在偶尔能帮你查一点实时信息（如天气），这类内容会标明仅供参考。",
       "changelog": "对话现在偶尔能帮你查一点实时信息（如天气），这类内容会标明「仅供参考」。",
       "publishedAtMs": 1782370892000
+    },
+    {
+      "version": 1191,
+      "versionName": "260625-1508-standard",
+      "userFacingChangelog": "联网查询时的等待提示更明确了。",
+      "changelog": "联网查询时的等待提示更明确了，联网内容的标注也更清楚。",
+      "publishedAtMs": 1782371541000
     }
   ],
-  "publishedAtMs": 1782370892000,
+  "publishedAtMs": 1782371541000,
   "minSupported": 0
 }
