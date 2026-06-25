@@ -1,20 +1,13 @@
 {
-  "version": 1186,
-  "versionName": "260625-1211-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1186-260625-1211-standard-slim.apk.bin",
+  "version": 1187,
+  "versionName": "260625-1246-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1187-260625-1246-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37649472,
-  "sha256": "cd29b017458129eee188667842681f1c96fb10b450c2f3013d4c0611120fc2b3",
-  "changelog": "稳定性与内部维护优化。",
-  "userFacingChangelog": "一些幕后的优化。",
+  "sha256": "cba48cea0cc6ddd98e5dcd17858828d8b1f10c57b6eb7eb7fce451210ac6d967",
+  "changelog": "稳定性与陪伴体验优化。",
+  "userFacingChangelog": "一些温柔的小改进。",
   "recentReleases": [
-    {
-      "version": 1137,
-      "versionName": "260617-1039-standard",
-      "userFacingChangelog": "纪要待办里的'明天/周五'这类时间，现在算得准了。",
-      "changelog": "修复：纪要里的待办若用了相对时间（明天/周五），现在按这场会议发生当天推算，不再因为隔天才生成而算错日期。",
-      "publishedAtMs": 1781664065000
-    },
     {
       "version": 1138,
       "versionName": "260617-1051-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "一些幕后的优化。",
       "changelog": "稳定性与内部维护优化。",
       "publishedAtMs": 1782360814000
+    },
+    {
+      "version": 1187,
+      "versionName": "260625-1246-standard",
+      "userFacingChangelog": "一些温柔的小改进。",
+      "changelog": "稳定性与陪伴体验优化。",
+      "publishedAtMs": 1782362924000
     }
   ],
-  "publishedAtMs": 1782360814000,
+  "publishedAtMs": 1782362924000,
   "minSupported": 0
 }
