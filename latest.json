@@ -5,8 +5,8 @@
   "fallbackUrl": "",
   "sizeBytes": 37645376,
   "sha256": "cd9a36b93e4cd6aa5d6dca90558e8354dec160531c75d84977fb4c882ce08dca",
-  "changelog": "用户自助诊断：关于页版本号连点5下+长按进入,选时段一键排查为什么没出内容,生成结论+报告,一键发给开发者/复制;吐槽里说'X天没出内容'会自动跑诊断附进反馈。",
-  "userFacingChangelog": "新增自助排查：如果一段时间没出内容,在关于页版本号上连点5下长按,就能一键查原因并发给我。",
+  "changelog": "稳定性与内部维护优化。",
+  "userFacingChangelog": "一些幕后的稳定性优化。",
   "recentReleases": [
     {
       "version": 1135,
@@ -354,8 +354,8 @@
     {
       "version": 1184,
       "versionName": "260625-1040-standard",
-      "userFacingChangelog": "新增自助排查：如果一段时间没出内容,在关于页版本号上连点5下长按,就能一键查原因并发给我。",
-      "changelog": "用户自助诊断：关于页版本号连点5下+长按进入,选时段一键排查为什么没出内容,生成结论+报告,一键发给开发者/复制;吐槽里说'X天没出内容'会自动跑诊断附进反馈。",
+      "userFacingChangelog": "一些幕后的稳定性优化。",
+      "changelog": "稳定性与内部维护优化。",
       "publishedAtMs": 1782355371000
     }
   ],
