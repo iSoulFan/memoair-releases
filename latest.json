@@ -1,20 +1,13 @@
 {
-  "version": 1187,
-  "versionName": "260625-1246-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1187-260625-1246-standard-slim.apk.bin",
+  "version": 1188,
+  "versionName": "260625-1253-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1188-260625-1253-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37649472,
-  "sha256": "cba48cea0cc6ddd98e5dcd17858828d8b1f10c57b6eb7eb7fce451210ac6d967",
+  "sha256": "00805b8b6b924ff7f011c4161fa04094c7d2953d622ad32fc629051c50b1545a",
   "changelog": "稳定性与陪伴体验优化。",
   "userFacingChangelog": "一些温柔的小改进。",
   "recentReleases": [
-    {
-      "version": 1138,
-      "versionName": "260617-1051-standard",
-      "userFacingChangelog": "聊天回忆更靠谱了：不同时间的事不会再被混成一段、也不会瞎编因果了。",
-      "changelog": "修复聊天记忆错乱：AI 不再把不同时间发生的事糅成同一时间、也不再在它们之间编造因果——每件事按各自的真实时间讲。给每条记忆都带上了精确到分钟的时间。",
-      "publishedAtMs": 1781664780000
-    },
     {
       "version": 1139,
       "versionName": "260617-1121-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "一些温柔的小改进。",
       "changelog": "稳定性与陪伴体验优化。",
       "publishedAtMs": 1782362924000
+    },
+    {
+      "version": 1188,
+      "versionName": "260625-1253-standard",
+      "userFacingChangelog": "一些温柔的小改进。",
+      "changelog": "稳定性与陪伴体验优化。",
+      "publishedAtMs": 1782363325000
     }
   ],
-  "publishedAtMs": 1782362924000,
+  "publishedAtMs": 1782363325000,
   "minSupported": 0
 }
