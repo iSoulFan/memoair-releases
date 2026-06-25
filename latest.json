@@ -1,20 +1,13 @@
 {
-  "version": 1183,
-  "versionName": "260624-1726-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1183-260624-1726-standard-slim.apk.bin",
+  "version": 1184,
+  "versionName": "260625-1040-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1184-260625-1040-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37641280,
-  "sha256": "bcd54dd5b7b8e0532134e86d95bd803f0257774a76ddb526bddad647ae9029dc",
-  "changelog": "声纹注册台词定稿——更自然、温暖、安全感的自言自语版(替你把今天好好收着)。",
-  "userFacingChangelog": "声纹注册的台词换成定稿版了——更自然、读着舒服。",
+  "sizeBytes": 37645376,
+  "sha256": "cd9a36b93e4cd6aa5d6dca90558e8354dec160531c75d84977fb4c882ce08dca",
+  "changelog": "用户自助诊断：关于页版本号连点5下+长按进入,选时段一键排查为什么没出内容,生成结论+报告,一键发给开发者/复制;吐槽里说'X天没出内容'会自动跑诊断附进反馈。",
+  "userFacingChangelog": "新增自助排查：如果一段时间没出内容,在关于页版本号上连点5下长按,就能一键查原因并发给我。",
   "recentReleases": [
-    {
-      "version": 1134,
-      "versionName": "260617-0735-standard",
-      "userFacingChangelog": "拾梦相片揭晓的时候，不会再重复出现两张了。",
-      "changelog": "拾梦相片揭晓动画修复：刚生成、还没看过的第一张相片，揭晓时时光页那个位置先空着，不再出现「时光页已有一张 + 全屏又吐一张」的重复。",
-      "publishedAtMs": 1781653087000
-    },
     {
       "version": 1135,
       "versionName": "260617-0744-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "声纹注册的台词换成定稿版了——更自然、读着舒服。",
       "changelog": "声纹注册台词定稿——更自然、温暖、安全感的自言自语版(替你把今天好好收着)。",
       "publishedAtMs": 1782293329000
+    },
+    {
+      "version": 1184,
+      "versionName": "260625-1040-standard",
+      "userFacingChangelog": "新增自助排查：如果一段时间没出内容,在关于页版本号上连点5下长按,就能一键查原因并发给我。",
+      "changelog": "用户自助诊断：关于页版本号连点5下+长按进入,选时段一键排查为什么没出内容,生成结论+报告,一键发给开发者/复制;吐槽里说'X天没出内容'会自动跑诊断附进反馈。",
+      "publishedAtMs": 1782355371000
     }
   ],
-  "publishedAtMs": 1782293329000,
+  "publishedAtMs": 1782355371000,
   "minSupported": 0
 }
