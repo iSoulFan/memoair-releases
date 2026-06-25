@@ -1,20 +1,13 @@
 {
-  "version": 1188,
-  "versionName": "260625-1253-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1188-260625-1253-standard-slim.apk.bin",
+  "version": 1189,
+  "versionName": "260625-1302-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1189-260625-1302-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37649472,
-  "sha256": "00805b8b6b924ff7f011c4161fa04094c7d2953d622ad32fc629051c50b1545a",
-  "changelog": "稳定性与陪伴体验优化。",
-  "userFacingChangelog": "一些温柔的小改进。",
+  "sha256": "5e82b8b4e34dfff5dda9c9c80d5ed3cc38e6605fab426ed8d0cfe911924ef288",
+  "changelog": "修复部分机型当天首次打开时，拾梦相片开场动画把相片放大成全屏的问题。",
+  "userFacingChangelog": "修复部分机型上拾梦相片开场动画显示异常的问题。",
   "recentReleases": [
-    {
-      "version": 1139,
-      "versionName": "260617-1121-standard",
-      "userFacingChangelog": "拾梦相片揭晓后会顺滑地飞回时光页该在的位置，不再闪一下啦。",
-      "changelog": "拾梦相片闪屏修复(第一版)：揭晓后相片不再原地硬闪，而是连续飞回时光页它该在的位置落定；不隐藏状态栏避免恢复跳变。落点精度还要照你真机来回调。",
-      "publishedAtMs": 1781666582000
-    },
     {
       "version": 1140,
       "versionName": "260617-1140-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "一些温柔的小改进。",
       "changelog": "稳定性与陪伴体验优化。",
       "publishedAtMs": 1782363325000
+    },
+    {
+      "version": 1189,
+      "versionName": "260625-1302-standard",
+      "userFacingChangelog": "修复部分机型上拾梦相片开场动画显示异常的问题。",
+      "changelog": "修复部分机型当天首次打开时，拾梦相片开场动画把相片放大成全屏的问题。",
+      "publishedAtMs": 1782363863000
     }
   ],
-  "publishedAtMs": 1782363325000,
+  "publishedAtMs": 1782363863000,
   "minSupported": 0
 }
