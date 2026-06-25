@@ -1,20 +1,13 @@
 {
-  "version": 1185,
-  "versionName": "260625-1136-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1185-260625-1136-standard-slim.apk.bin",
+  "version": 1186,
+  "versionName": "260625-1211-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1186-260625-1211-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37645376,
-  "sha256": "2dacab4dae316d7d7144813af8f9c7c2bf5ba0c86b5b724ab73b062f6bf9417e",
-  "changelog": "稳定性与反馈体验优化。",
+  "sizeBytes": 37649472,
+  "sha256": "cd29b017458129eee188667842681f1c96fb10b450c2f3013d4c0611120fc2b3",
+  "changelog": "稳定性与内部维护优化。",
   "userFacingChangelog": "一些幕后的优化。",
   "recentReleases": [
-    {
-      "version": 1136,
-      "versionName": "260617-0816-standard",
-      "userFacingChangelog": "确认过的人名会变蓝、点开就是人物卡片；猜你想做提到的时间会标出来；拾梦相片揭晓更顺了。",
-      "changelog": "① 确认过(点'就是这个字')的人名显示蓝色、再点直接进人物卡片；② 猜你想做里若提到了时间(明天/某号)会打上时间标(按记录当时的时间推算)，导入待办原样保留；③ 拾梦相片揭晓退场改成淡出，去掉了点击后的闪屏。",
-      "publishedAtMs": 1781655502000
-    },
     {
       "version": 1137,
       "versionName": "260617-1039-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "一些幕后的优化。",
       "changelog": "稳定性与反馈体验优化。",
       "publishedAtMs": 1782358710000
+    },
+    {
+      "version": 1186,
+      "versionName": "260625-1211-standard",
+      "userFacingChangelog": "一些幕后的优化。",
+      "changelog": "稳定性与内部维护优化。",
+      "publishedAtMs": 1782360814000
     }
   ],
-  "publishedAtMs": 1782358710000,
+  "publishedAtMs": 1782360814000,
   "minSupported": 0
 }
