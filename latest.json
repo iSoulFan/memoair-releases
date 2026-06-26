@@ -1,20 +1,13 @@
 {
-  "version": 1198,
-  "versionName": "260626-2326-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1198-260626-2326-standard-slim.apk.bin",
+  "version": 1199,
+  "versionName": "260626-2350-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1199-260626-2350-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37665856,
-  "sha256": "7f498ae957a11abc672b0fb507baf245da8408b033a5384fffa773fc7a0ea63d",
+  "sha256": "295a58aad78d1e2449eb9acf4a0e2eeb1287c46b94417aaee3ca5cdd3ae58b1d",
   "changelog": "稳定性与内部维护优化。",
   "userFacingChangelog": "一些幕后的优化。",
   "recentReleases": [
-    {
-      "version": 1148,
-      "versionName": "260618-1420-standard",
-      "userFacingChangelog": "声纹「是不是你本人」的判定逻辑做了一次基线调整(灰度观察中)。",
-      "changelog": "声纹识别判定重新基线（内部）：改用双阈值+灰区策略(余弦相似度为主、个性化分类器只在灰区当裁判)，更贴合 ERes2NetV2 模型的自然工作点；设置·调试的声纹诊断里新增了 sim 分布摘要与直方图，便于标定阈值。起步参数待真实数据校准。",
-      "publishedAtMs": 1781763695000
-    },
     {
       "version": 1149,
       "versionName": "260618-1436-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "一些幕后的优化。",
       "changelog": "稳定性与内部维护优化。",
       "publishedAtMs": 1782487733000
+    },
+    {
+      "version": 1199,
+      "versionName": "260626-2350-standard",
+      "userFacingChangelog": "一些幕后的优化。",
+      "changelog": "稳定性与内部维护优化。",
+      "publishedAtMs": 1782489176000
     }
   ],
-  "publishedAtMs": 1782487733000,
+  "publishedAtMs": 1782489176000,
   "minSupported": 0
 }
