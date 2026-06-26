@@ -1,20 +1,13 @@
 {
-  "version": 1191,
-  "versionName": "260625-1508-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1191-260625-1508-standard-slim.apk.bin",
+  "version": 1192,
+  "versionName": "260626-1552-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1192-260626-1552-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37653568,
-  "sha256": "b3dc255caceae8b1aa82cb9d69897e1b943e2e33bffcaac525a5a56b314b10eb",
-  "changelog": "联网查询时的等待提示更明确了，联网内容的标注也更清楚。",
-  "userFacingChangelog": "联网查询时的等待提示更明确了。",
+  "sizeBytes": 37661760,
+  "sha256": "d1829bb833376ac02c785dae55fbcca0d34236af3d3e12c52d240ba55ae8bebe",
+  "changelog": "稳定性与内部维护优化。",
+  "userFacingChangelog": "一些幕后的优化。",
   "recentReleases": [
-    {
-      "version": 1142,
-      "versionName": "260617-1209-standard",
-      "userFacingChangelog": "拾梦相片揭晓收尾彻底干净了，最后那一下整屏闪应该没有了。",
-      "changelog": "拾梦相片落定整屏闪——揪出真凶并修复：撤掉全屏 overlay 那一刻，内容层一个为隐藏状态栏而设的「inset 冻结」被移除，触发整页重新排版，就是那一下整屏闪。现在状态栏全程不隐藏，这个冻结彻底拿掉，撤场时页面不再重排。",
-      "publishedAtMs": 1781669475000
-    },
     {
       "version": 1143,
       "versionName": "260618-1146-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "联网查询时的等待提示更明确了。",
       "changelog": "联网查询时的等待提示更明确了，联网内容的标注也更清楚。",
       "publishedAtMs": 1782371541000
+    },
+    {
+      "version": 1192,
+      "versionName": "260626-1552-standard",
+      "userFacingChangelog": "一些幕后的优化。",
+      "changelog": "稳定性与内部维护优化。",
+      "publishedAtMs": 1782460516000
     }
   ],
-  "publishedAtMs": 1782371541000,
+  "publishedAtMs": 1782460516000,
   "minSupported": 0
 }
