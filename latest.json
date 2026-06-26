@@ -1,20 +1,13 @@
 {
-  "version": 1196,
-  "versionName": "260626-1836-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1196-260626-1836-standard-slim.apk.bin",
+  "version": 1197,
+  "versionName": "260626-2216-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1197-260626-2216-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37665856,
-  "sha256": "14afe0c23de09dabd6afa90a1e0abb573ef79fbf4b267408ee62d9f75c288812",
+  "sha256": "967c8d2f137785eb5d969c056b562fe1dc7d2e4ea29e51d7a4bdf26f518be3fb",
   "changelog": "稳定性与内部维护优化。",
   "userFacingChangelog": "一些幕后的优化。",
   "recentReleases": [
-    {
-      "version": 1146,
-      "versionName": "260618-1353-standard",
-      "userFacingChangelog": "收紧了内部调试入口的可见范围。",
-      "changelog": "把调试 / 高级设置区收归管理员专属：非管理员（朋友邀请码）用户不再能看到底部的调试区，原先关于页连点 5 次解锁调试的入口也一并拆除。",
-      "publishedAtMs": 1781762071000
-    },
     {
       "version": 1147,
       "versionName": "260618-1400-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "一些幕后的优化。",
       "changelog": "稳定性与内部维护优化。",
       "publishedAtMs": 1782470347000
+    },
+    {
+      "version": 1197,
+      "versionName": "260626-2216-standard",
+      "userFacingChangelog": "一些幕后的优化。",
+      "changelog": "稳定性与内部维护优化。",
+      "publishedAtMs": 1782483565000
     }
   ],
-  "publishedAtMs": 1782470347000,
+  "publishedAtMs": 1782483565000,
   "minSupported": 0
 }
