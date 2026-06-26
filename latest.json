@@ -1,20 +1,13 @@
 {
-  "version": 1197,
-  "versionName": "260626-2216-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1197-260626-2216-standard-slim.apk.bin",
+  "version": 1198,
+  "versionName": "260626-2326-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1198-260626-2326-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37665856,
-  "sha256": "967c8d2f137785eb5d969c056b562fe1dc7d2e4ea29e51d7a4bdf26f518be3fb",
+  "sha256": "7f498ae957a11abc672b0fb507baf245da8408b033a5384fffa773fc7a0ea63d",
   "changelog": "稳定性与内部维护优化。",
   "userFacingChangelog": "一些幕后的优化。",
   "recentReleases": [
-    {
-      "version": 1147,
-      "versionName": "260618-1400-standard",
-      "userFacingChangelog": "键盘更跟手了：点别处、或切标签都会自动收起，不再卡在屏幕上。",
-      "changelog": "键盘交互优化：调出键盘后，① 点输入框以外的区域会自动收起键盘；② 切换行动板块的子标签（纪要/待办/愿望/成就）时键盘也会收起，不再杵在那。",
-      "publishedAtMs": 1781762553000
-    },
     {
       "version": 1148,
       "versionName": "260618-1420-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "一些幕后的优化。",
       "changelog": "稳定性与内部维护优化。",
       "publishedAtMs": 1782483565000
+    },
+    {
+      "version": 1198,
+      "versionName": "260626-2326-standard",
+      "userFacingChangelog": "一些幕后的优化。",
+      "changelog": "稳定性与内部维护优化。",
+      "publishedAtMs": 1782487733000
     }
   ],
-  "publishedAtMs": 1782483565000,
+  "publishedAtMs": 1782487733000,
   "minSupported": 0
 }
