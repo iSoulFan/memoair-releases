@@ -1,20 +1,13 @@
 {
-  "version": 1192,
-  "versionName": "260626-1552-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1192-260626-1552-standard-slim.apk.bin",
+  "version": 1193,
+  "versionName": "260626-1608-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1193-260626-1608-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37661760,
-  "sha256": "d1829bb833376ac02c785dae55fbcca0d34236af3d3e12c52d240ba55ae8bebe",
+  "sha256": "775a1ebc9afca94a4b7bf238177e3601cefecf71de58a97ba9a997c40567442c",
   "changelog": "稳定性与内部维护优化。",
   "userFacingChangelog": "一些幕后的优化。",
   "recentReleases": [
-    {
-      "version": 1143,
-      "versionName": "260618-1146-standard",
-      "userFacingChangelog": "拾梦相片日报的一处优化(灰度中);设置·调试里新增了日报重生成与诊断工具。",
-      "changelog": "拾梦相片日报修复+调试：修掉日报把你自己讲成第三人称(\"分享者\"\"朋友\")的问题——真因是旧提示词命令模型给你的话编造角色身份。新版默认主角就是你、统一第二人称、禁止编造身份(默认仍走旧版不影响他人;你在设置·调试里可切新版v1.1观察)。设置页新增:版本切换/回滚、拿某天转写重生成日报预览、声纹逐句诊断(看每句被判本人/路人+相似度)。",
-      "publishedAtMs": 1781754541000
-    },
     {
       "version": 1144,
       "versionName": "260618-1203-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "一些幕后的优化。",
       "changelog": "稳定性与内部维护优化。",
       "publishedAtMs": 1782460516000
+    },
+    {
+      "version": 1193,
+      "versionName": "260626-1608-standard",
+      "userFacingChangelog": "一些幕后的优化。",
+      "changelog": "稳定性与内部维护优化。",
+      "publishedAtMs": 1782461452000
     }
   ],
-  "publishedAtMs": 1782460516000,
+  "publishedAtMs": 1782461452000,
   "minSupported": 0
 }
