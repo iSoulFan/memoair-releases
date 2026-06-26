@@ -1,20 +1,13 @@
 {
-  "version": 1200,
-  "versionName": "260627-0005-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1200-260627-0005-standard-slim.apk.bin",
+  "version": 1201,
+  "versionName": "260627-0200-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1201-260627-0200-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37665856,
-  "sha256": "73175e7fdf0bb45f6492b8a06618050dafefd23d13edafed829cb76dfba4dd2f",
+  "sha256": "5e64cd1cc1a64e2731c77d1330359db3c214db0ff074b0a24f8ab722a376d0ba",
   "changelog": "稳定性与内部维护优化。",
   "userFacingChangelog": "一些幕后的优化。",
   "recentReleases": [
-    {
-      "version": 1150,
-      "versionName": "260618-1506-standard",
-      "userFacingChangelog": "新增了「识人不准校正」一键纠正声纹；人生来信不再把不相干的片段拼成假故事了。",
-      "changelog": "① 设置→声纹识别下新增「识人不准校正」：两个按钮——觉得「老把我说的当成别人」就点它(往认作你这边纠一点)，「老把别人当成我」就点另一个(变挑剔一点)，点一下纠一档、有冷却防手抖连点、可一键恢复默认。② 人生来信修复：不再把你一天里毫无关联、不同时间的几个片段硬拼成一段虚构的故事(比如把推荐外卖+另一时间跟别人聊的话+跟另一个人吃饭揉成一段)。",
-      "publishedAtMs": 1781766458000
-    },
     {
       "version": 1151,
       "versionName": "260618-1513-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "一些幕后的优化。",
       "changelog": "稳定性与内部维护优化。",
       "publishedAtMs": 1782490206000
+    },
+    {
+      "version": 1201,
+      "versionName": "260627-0200-standard",
+      "userFacingChangelog": "一些幕后的优化。",
+      "changelog": "稳定性与内部维护优化。",
+      "publishedAtMs": 1782496987000
     }
   ],
-  "publishedAtMs": 1782490206000,
+  "publishedAtMs": 1782496987000,
   "minSupported": 0
 }
