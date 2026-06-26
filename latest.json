@@ -1,20 +1,13 @@
 {
-  "version": 1199,
-  "versionName": "260626-2350-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1199-260626-2350-standard-slim.apk.bin",
+  "version": 1200,
+  "versionName": "260627-0005-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1200-260627-0005-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37665856,
-  "sha256": "295a58aad78d1e2449eb9acf4a0e2eeb1287c46b94417aaee3ca5cdd3ae58b1d",
+  "sha256": "73175e7fdf0bb45f6492b8a06618050dafefd23d13edafed829cb76dfba4dd2f",
   "changelog": "稳定性与内部维护优化。",
   "userFacingChangelog": "一些幕后的优化。",
   "recentReleases": [
-    {
-      "version": 1149,
-      "versionName": "260618-1436-standard",
-      "userFacingChangelog": "修复了部分手机按住说话没反应的问题，现在用自带的离线语音识别，更稳了。",
-      "changelog": "修复部分机型(华为无谷歌服务、部分小米/红米)按住说话按了完全没反应：这些设备的系统语音识别器会假装可用但实际不回调，导致卡死。现在优先用 App 自带的离线语音识别(跟连续录音同一套模型)，跨设备稳定可用。",
-      "publishedAtMs": 1781764657000
-    },
     {
       "version": 1150,
       "versionName": "260618-1506-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "一些幕后的优化。",
       "changelog": "稳定性与内部维护优化。",
       "publishedAtMs": 1782489176000
+    },
+    {
+      "version": 1200,
+      "versionName": "260627-0005-standard",
+      "userFacingChangelog": "一些幕后的优化。",
+      "changelog": "稳定性与内部维护优化。",
+      "publishedAtMs": 1782490206000
     }
   ],
-  "publishedAtMs": 1782489176000,
+  "publishedAtMs": 1782490206000,
   "minSupported": 0
 }
