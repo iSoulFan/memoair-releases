@@ -1,20 +1,13 @@
 {
-  "version": 1195,
-  "versionName": "260626-1823-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1195-260626-1823-standard-slim.apk.bin",
+  "version": 1196,
+  "versionName": "260626-1836-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1196-260626-1836-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37665856,
-  "sha256": "56e779a4fd2befd181b0dbb61f0fb5661ebd7b05c5aafe6a6ff9f0a70d8273a2",
+  "sha256": "14afe0c23de09dabd6afa90a1e0abb573ef79fbf4b267408ee62d9f75c288812",
   "changelog": "稳定性与内部维护优化。",
   "userFacingChangelog": "一些幕后的优化。",
   "recentReleases": [
-    {
-      "version": 1145,
-      "versionName": "260618-1344-standard",
-      "userFacingChangelog": "「用 AI 改这篇」更靠谱了：精确替换立刻生效，改不动也会明说，不再假装改好了。",
-      "changelog": "「用 AI 改这篇」(会议纪要 + 时光卡)修复：① 像「把 X 改成 Y」这种精确替换，现在识别后直接字面替换，立刻生效、100% 准（之前走 LLM 重抄整篇经常没改上）；② AI 改不动时会明确告诉你「没识别到要改哪里，说具体点」，不再'改写中→完成→其实啥也没改'地假装改好了。",
-      "publishedAtMs": 1781761551000
-    },
     {
       "version": 1146,
       "versionName": "260618-1353-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "一些幕后的优化。",
       "changelog": "稳定性与内部维护优化。",
       "publishedAtMs": 1782469561000
+    },
+    {
+      "version": 1196,
+      "versionName": "260626-1836-standard",
+      "userFacingChangelog": "一些幕后的优化。",
+      "changelog": "稳定性与内部维护优化。",
+      "publishedAtMs": 1782470347000
     }
   ],
-  "publishedAtMs": 1782469561000,
+  "publishedAtMs": 1782470347000,
   "minSupported": 0
 }
