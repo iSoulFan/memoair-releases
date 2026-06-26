@@ -1,20 +1,13 @@
 {
-  "version": 1193,
-  "versionName": "260626-1608-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1193-260626-1608-standard-slim.apk.bin",
+  "version": 1195,
+  "versionName": "260626-1823-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1195-260626-1823-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37661760,
-  "sha256": "775a1ebc9afca94a4b7bf238177e3601cefecf71de58a97ba9a997c40567442c",
+  "sizeBytes": 37665856,
+  "sha256": "56e779a4fd2befd181b0dbb61f0fb5661ebd7b05c5aafe6a6ff9f0a70d8273a2",
   "changelog": "稳定性与内部维护优化。",
   "userFacingChangelog": "一些幕后的优化。",
   "recentReleases": [
-    {
-      "version": 1144,
-      "versionName": "260618-1203-standard",
-      "userFacingChangelog": "拾梦相片日报现在稳稳以你为主角了；声纹识别也更认得出你本人了。",
-      "changelog": "拾梦相片日报全量切到新版(默认主角就是你、统一第二人称、不再把你讲成'分享者/朋友')；同时把声纹\"是不是你本人\"的判定阈值从 0.30 下调到 0.22（之前大量你本人的话被误判成路人），存量也一并下调。",
-      "publishedAtMs": 1781755532000
-    },
     {
       "version": 1145,
       "versionName": "260618-1344-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "一些幕后的优化。",
       "changelog": "稳定性与内部维护优化。",
       "publishedAtMs": 1782461452000
+    },
+    {
+      "version": 1195,
+      "versionName": "260626-1823-standard",
+      "userFacingChangelog": "一些幕后的优化。",
+      "changelog": "稳定性与内部维护优化。",
+      "publishedAtMs": 1782469561000
     }
   ],
-  "publishedAtMs": 1782461452000,
+  "publishedAtMs": 1782469561000,
   "minSupported": 0
 }
