@@ -1,20 +1,13 @@
 {
-  "version": 1203,
-  "versionName": "260627-1016-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1203-260627-1016-standard-slim.apk.bin",
+  "version": 1204,
+  "versionName": "260627-1124-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1204-260627-1124-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37665856,
-  "sha256": "da19780e03609bf11998dc4e41b26000ae7dc4000db74bbd228526f54b464498",
-  "changelog": "隐私时段结束后会更稳地回来继续陪着你；万一没能自动回来，也会在那一刻轻轻提醒你回来看看。",
-  "userFacingChangelog": "隐私时段结束后会更稳地回来继续陪着你；万一没能自动回来，也会在那一刻轻轻提醒你回来看看。",
+  "sizeBytes": 37669952,
+  "sha256": "eb6f055645c2ed3f7f83475d7b08d0b83b178c299516e497d45510a06aeb27b5",
+  "changelog": "更准地认出真正要做的事——不再从听不清、识别错乱的话里编出和原文对不上的待办。",
+  "userFacingChangelog": "更准地认出真正要做的事——不再从听不清、识别错乱的话里编出和原文对不上的待办。",
   "recentReleases": [
-    {
-      "version": 1153,
-      "versionName": "260618-1720-standard",
-      "userFacingChangelog": "时光卡片的长按菜单瘦身了：常用的直接出，其余收进「更多…」。",
-      "changelog": "时光卡片长按菜单瘦身：原来一长条十几项，现在只直出最常用的四样(聊聊这条/让 AI 改改/加到待办/分享成图片)，其余收进「更多…」点开才显示；删除也收进了更多，顺手防误删。",
-      "publishedAtMs": 1781774527000
-    },
     {
       "version": 1154,
       "versionName": "260618-1739-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "隐私时段结束后会更稳地回来继续陪着你；万一没能自动回来，也会在那一刻轻轻提醒你回来看看。",
       "changelog": "隐私时段结束后会更稳地回来继续陪着你；万一没能自动回来，也会在那一刻轻轻提醒你回来看看。",
       "publishedAtMs": 1782526733000
+    },
+    {
+      "version": 1204,
+      "versionName": "260627-1124-standard",
+      "userFacingChangelog": "更准地认出真正要做的事——不再从听不清、识别错乱的话里编出和原文对不上的待办。",
+      "changelog": "更准地认出真正要做的事——不再从听不清、识别错乱的话里编出和原文对不上的待办。",
+      "publishedAtMs": 1782530791000
     }
   ],
-  "publishedAtMs": 1782526733000,
+  "publishedAtMs": 1782530791000,
   "minSupported": 0
 }
