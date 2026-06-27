@@ -1,20 +1,13 @@
 {
-  "version": 1201,
-  "versionName": "260627-0200-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1201-260627-0200-standard-slim.apk.bin",
+  "version": 1202,
+  "versionName": "260627-0853-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1202-260627-0853-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37665856,
-  "sha256": "5e64cd1cc1a64e2731c77d1330359db3c214db0ff074b0a24f8ab722a376d0ba",
+  "sha256": "6762135546a9d85d0f461afabe3f75a9683a53c36f767ff9ef08f38ec5bf52b0",
   "changelog": "稳定性与内部维护优化。",
   "userFacingChangelog": "一些幕后的优化。",
   "recentReleases": [
-    {
-      "version": 1151,
-      "versionName": "260618-1513-standard",
-      "userFacingChangelog": "「识人不准校正」改成纠一次先观察一天，避免连点纠过头。",
-      "changelog": "「识人不准校正」改进：点一次纠正后会锁住一天，让你先观察一天的实际效果，明天要还不对再来点——避免手快连点纠过头。想立刻重来可点「恢复默认」清掉。",
-      "publishedAtMs": 1781766883000
-    },
     {
       "version": 1152,
       "versionName": "260618-1713-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "一些幕后的优化。",
       "changelog": "稳定性与内部维护优化。",
       "publishedAtMs": 1782496987000
+    },
+    {
+      "version": 1202,
+      "versionName": "260627-0853-standard",
+      "userFacingChangelog": "一些幕后的优化。",
+      "changelog": "稳定性与内部维护优化。",
+      "publishedAtMs": 1782521786000
     }
   ],
-  "publishedAtMs": 1782496987000,
+  "publishedAtMs": 1782521786000,
   "minSupported": 0
 }
