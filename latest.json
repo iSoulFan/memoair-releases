@@ -1,20 +1,13 @@
 {
-  "version": 1202,
-  "versionName": "260627-0853-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1202-260627-0853-standard-slim.apk.bin",
+  "version": 1203,
+  "versionName": "260627-1016-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1203-260627-1016-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37665856,
-  "sha256": "6762135546a9d85d0f461afabe3f75a9683a53c36f767ff9ef08f38ec5bf52b0",
-  "changelog": "稳定性与内部维护优化。",
-  "userFacingChangelog": "一些幕后的优化。",
+  "sha256": "da19780e03609bf11998dc4e41b26000ae7dc4000db74bbd228526f54b464498",
+  "changelog": "隐私时段结束后会更稳地回来继续陪着你；万一没能自动回来，也会在那一刻轻轻提醒你回来看看。",
+  "userFacingChangelog": "隐私时段结束后会更稳地回来继续陪着你；万一没能自动回来，也会在那一刻轻轻提醒你回来看看。",
   "recentReleases": [
-    {
-      "version": 1152,
-      "versionName": "260618-1713-standard",
-      "userFacingChangelog": "长按菜单的文字全 App 统一了一遍，看着更一致顺手。",
-      "changelog": "长按菜单文案全 App 统一了一遍：同一个操作以前各处叫法不一(找它聊聊/到对话框去聊一聊、用AI改一下这篇/这一篇、复制/复制原文/原话/全文、隐藏(指纹解锁)…)，现在统一成一套词——聊聊这条、让 AI 改改、改文字、复制文字、分享成图片、隐藏·指纹解锁、删除/删掉这张卡。",
-      "publishedAtMs": 1781774107000
-    },
     {
       "version": 1153,
       "versionName": "260618-1720-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "一些幕后的优化。",
       "changelog": "稳定性与内部维护优化。",
       "publishedAtMs": 1782521786000
+    },
+    {
+      "version": 1203,
+      "versionName": "260627-1016-standard",
+      "userFacingChangelog": "隐私时段结束后会更稳地回来继续陪着你；万一没能自动回来，也会在那一刻轻轻提醒你回来看看。",
+      "changelog": "隐私时段结束后会更稳地回来继续陪着你；万一没能自动回来，也会在那一刻轻轻提醒你回来看看。",
+      "publishedAtMs": 1782526733000
     }
   ],
-  "publishedAtMs": 1782521786000,
+  "publishedAtMs": 1782526733000,
   "minSupported": 0
 }
