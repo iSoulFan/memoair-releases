@@ -1,20 +1,13 @@
 {
-  "version": 1204,
-  "versionName": "260627-1124-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1204-260627-1124-standard-slim.apk.bin",
+  "version": 1205,
+  "versionName": "260628-1104-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1205-260628-1104-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37669952,
-  "sha256": "eb6f055645c2ed3f7f83475d7b08d0b83b178c299516e497d45510a06aeb27b5",
-  "changelog": "更准地认出真正要做的事——不再从听不清、识别错乱的话里编出和原文对不上的待办。",
-  "userFacingChangelog": "更准地认出真正要做的事——不再从听不清、识别错乱的话里编出和原文对不上的待办。",
+  "sha256": "bb8982bf954a17011e5a4d6cfdbb09bd8378beb5f2c5d1061b445a343be2d796",
+  "changelog": "修复打牌 / 桌游主题的拾梦相片有时空白的问题——这类记忆现在会画成干净温和的牌局小景。",
+  "userFacingChangelog": "修复打牌 / 桌游主题的拾梦相片有时空白的问题——这类记忆现在会画成干净温和的牌局小景。",
   "recentReleases": [
-    {
-      "version": 1154,
-      "versionName": "260618-1739-standard",
-      "userFacingChangelog": "纪要的长按菜单也瘦身了，常用直出、其余收进「更多…」。",
-      "changelog": "纪要长按菜单也瘦身了：直出常用的(让 AI 改改/多选/改标题)，其余(历史/隐藏/收藏/长期记忆/复制/分享/删除)收进「更多…」。跟时光卡片菜单一致。",
-      "publishedAtMs": 1781775713000
-    },
     {
       "version": 1155,
       "versionName": "260618-1749-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "更准地认出真正要做的事——不再从听不清、识别错乱的话里编出和原文对不上的待办。",
       "changelog": "更准地认出真正要做的事——不再从听不清、识别错乱的话里编出和原文对不上的待办。",
       "publishedAtMs": 1782530791000
+    },
+    {
+      "version": 1205,
+      "versionName": "260628-1104-standard",
+      "userFacingChangelog": "修复打牌 / 桌游主题的拾梦相片有时空白的问题——这类记忆现在会画成干净温和的牌局小景。",
+      "changelog": "修复打牌 / 桌游主题的拾梦相片有时空白的问题——这类记忆现在会画成干净温和的牌局小景。",
+      "publishedAtMs": 1782616053000
     }
   ],
-  "publishedAtMs": 1782530791000,
+  "publishedAtMs": 1782616053000,
   "minSupported": 0
 }
