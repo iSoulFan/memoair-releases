@@ -1,20 +1,13 @@
 {
-  "version": 1205,
-  "versionName": "260628-1104-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1205-260628-1104-standard-slim.apk.bin",
+  "version": 1206,
+  "versionName": "260628-1841-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1206-260628-1841-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37669952,
-  "sha256": "bb8982bf954a17011e5a4d6cfdbb09bd8378beb5f2c5d1061b445a343be2d796",
-  "changelog": "修复打牌 / 桌游主题的拾梦相片有时空白的问题——这类记忆现在会画成干净温和的牌局小景。",
-  "userFacingChangelog": "修复打牌 / 桌游主题的拾梦相片有时空白的问题——这类记忆现在会画成干净温和的牌局小景。",
+  "sha256": "410bc9248ce9d50631d750d85dc83bac5cc1fb3989ab7e8e42e05697d92838d7",
+  "changelog": "修复折叠屏外屏（折叠态）有时错误显示成双栏的问题——外屏现在始终是单栏。",
+  "userFacingChangelog": "修复折叠屏外屏（折叠态）有时错误显示成双栏的问题——外屏现在始终是单栏。",
   "recentReleases": [
-    {
-      "version": 1155,
-      "versionName": "260618-1749-standard",
-      "userFacingChangelog": "长按菜单精简了一项；隐藏解锁文案改成了「生物识别解锁」。",
-      "changelog": "长按菜单去掉了「关联某人的印象」这一项；隐藏相关文案统一从「指纹解锁」改为「生物识别解锁」(更准确,涵盖指纹/面部)。",
-      "publishedAtMs": 1781776294000
-    },
     {
       "version": 1156,
       "versionName": "260618-2245-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "修复打牌 / 桌游主题的拾梦相片有时空白的问题——这类记忆现在会画成干净温和的牌局小景。",
       "changelog": "修复打牌 / 桌游主题的拾梦相片有时空白的问题——这类记忆现在会画成干净温和的牌局小景。",
       "publishedAtMs": 1782616053000
+    },
+    {
+      "version": 1206,
+      "versionName": "260628-1841-standard",
+      "userFacingChangelog": "修复折叠屏外屏（折叠态）有时错误显示成双栏的问题——外屏现在始终是单栏。",
+      "changelog": "修复折叠屏外屏（折叠态）有时错误显示成双栏的问题——外屏现在始终是单栏。",
+      "publishedAtMs": 1782643447000
     }
   ],
-  "publishedAtMs": 1782616053000,
+  "publishedAtMs": 1782643447000,
   "minSupported": 0
 }
