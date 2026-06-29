@@ -1,20 +1,13 @@
 {
-  "version": 1207,
-  "versionName": "260629-1735-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1207-260629-1735-standard-slim.apk.bin",
+  "version": 1208,
+  "versionName": "260629-1819-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1208-260629-1819-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37595980,
-  "sha256": "84b76281f158a0f0945ac52d41c702554adce86c9ea4cb4e99a6727b42b99a72",
-  "changelog": "清理已下线的旧功能：账本、关系镜像彻底移除（含备份项 / 设置项 / 历史数据），备份分类文案也校正了一遍；另精简了一批内部实验代码。",
-  "userFacingChangelog": "清理了几个早已下线的旧功能（账本、关系镜像），备份和设置更清爽，相关文案也校正了。",
+  "sizeBytes": 37583692,
+  "sha256": "ec7fb1cd17854ee5e976f79a961faa9d0be83912d8c0c86141d29a548c47c2f4",
+  "changelog": "记录收敛为手机麦克风一条路——精简掉早已停用的外接 / 蓝牙麦相关代码与权限，更轻更稳更省电。",
+  "userFacingChangelog": "记录现在只用手机麦克风，更稳定省电（外接 / 蓝牙麦此前已停用）。",
   "recentReleases": [
-    {
-      "version": 1157,
-      "versionName": "260619-0000-standard",
-      "userFacingChangelog": "修复了纪要用 AI 改完后排版/板块丢失变纯文字的问题。",
-      "changelog": "修复纪要「用 AI 改」之后丢失排版的问题：上一版为了让改动生效会清掉结构化数据、退回纯文字，导致漂亮的板块格式没了。现在改成绝不清空——改一个词时连同结构化数据一起替换(格式和改动都在)，复杂改写也保留原排版。",
-      "publishedAtMs": 1781798539000
-    },
     {
       "version": 1158,
       "versionName": "260619-0804-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "清理了几个早已下线的旧功能（账本、关系镜像），备份和设置更清爽，相关文案也校正了。",
       "changelog": "清理已下线的旧功能：账本、关系镜像彻底移除（含备份项 / 设置项 / 历史数据），备份分类文案也校正了一遍；另精简了一批内部实验代码。",
       "publishedAtMs": 1782725907000
+    },
+    {
+      "version": 1208,
+      "versionName": "260629-1819-standard",
+      "userFacingChangelog": "记录现在只用手机麦克风，更稳定省电（外接 / 蓝牙麦此前已停用）。",
+      "changelog": "记录收敛为手机麦克风一条路——精简掉早已停用的外接 / 蓝牙麦相关代码与权限，更轻更稳更省电。",
+      "publishedAtMs": 1782728517000
     }
   ],
-  "publishedAtMs": 1782725907000,
+  "publishedAtMs": 1782728517000,
   "minSupported": 0
 }
