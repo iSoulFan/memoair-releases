@@ -1,20 +1,13 @@
 {
-  "version": 1208,
-  "versionName": "260629-1819-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1208-260629-1819-standard-slim.apk.bin",
+  "version": 1209,
+  "versionName": "260629-1836-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1209-260629-1836-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37583692,
-  "sha256": "ec7fb1cd17854ee5e976f79a961faa9d0be83912d8c0c86141d29a548c47c2f4",
-  "changelog": "记录收敛为手机麦克风一条路——精简掉早已停用的外接 / 蓝牙麦相关代码与权限，更轻更稳更省电。",
-  "userFacingChangelog": "记录现在只用手机麦克风，更稳定省电（外接 / 蓝牙麦此前已停用）。",
+  "sha256": "26cb95b06e686823be50bab6dd7a7a7fd7568dfa67226858403ad3bbdbf4b1e8",
+  "changelog": "录音胶囊交互调整：点一下出「记录设备 + 休息」面板（记录设备区保留手机麦克风 + 实时音量条）；移除了长按手势。",
+  "userFacingChangelog": "录音胶囊点一下就能看「记录设备 / 休息」；今日看板挪到了设置的调试区。",
   "recentReleases": [
-    {
-      "version": 1158,
-      "versionName": "260619-0804-standard",
-      "userFacingChangelog": "「猜你想做」多选时选中的条目前面会打勾了，更清楚。",
-      "changelog": "「猜你想做」展开多选时更清楚了：选中某条，前面的圆圈会直接显示打勾(✓)，不再只是文字加粗——一眼看出在多选、哪几条被选中了。点圈或点整行都能勾选/取消。",
-      "publishedAtMs": 1781827633000
-    },
     {
       "version": 1159,
       "versionName": "260621-0003-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "记录现在只用手机麦克风，更稳定省电（外接 / 蓝牙麦此前已停用）。",
       "changelog": "记录收敛为手机麦克风一条路——精简掉早已停用的外接 / 蓝牙麦相关代码与权限，更轻更稳更省电。",
       "publishedAtMs": 1782728517000
+    },
+    {
+      "version": 1209,
+      "versionName": "260629-1836-standard",
+      "userFacingChangelog": "录音胶囊点一下就能看「记录设备 / 休息」；今日看板挪到了设置的调试区。",
+      "changelog": "录音胶囊交互调整：点一下出「记录设备 + 休息」面板（记录设备区保留手机麦克风 + 实时音量条）；移除了长按手势。",
+      "publishedAtMs": 1782729512000
     }
   ],
-  "publishedAtMs": 1782728517000,
+  "publishedAtMs": 1782729512000,
   "minSupported": 0
 }
