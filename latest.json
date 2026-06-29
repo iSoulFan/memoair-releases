@@ -1,20 +1,13 @@
 {
-  "version": 1206,
-  "versionName": "260628-1841-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1206-260628-1841-standard-slim.apk.bin",
+  "version": 1207,
+  "versionName": "260629-1735-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1207-260629-1735-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37669952,
-  "sha256": "410bc9248ce9d50631d750d85dc83bac5cc1fb3989ab7e8e42e05697d92838d7",
-  "changelog": "修复折叠屏外屏（折叠态）有时错误显示成双栏的问题——外屏现在始终是单栏。",
-  "userFacingChangelog": "修复折叠屏外屏（折叠态）有时错误显示成双栏的问题——外屏现在始终是单栏。",
+  "sizeBytes": 37595980,
+  "sha256": "84b76281f158a0f0945ac52d41c702554adce86c9ea4cb4e99a6727b42b99a72",
+  "changelog": "清理已下线的旧功能：账本、关系镜像彻底移除（含备份项 / 设置项 / 历史数据），备份分类文案也校正了一遍；另精简了一批内部实验代码。",
+  "userFacingChangelog": "清理了几个早已下线的旧功能（账本、关系镜像），备份和设置更清爽，相关文案也校正了。",
   "recentReleases": [
-    {
-      "version": 1156,
-      "versionName": "260618-2245-standard",
-      "userFacingChangelog": "修复了纪要里用 AI 改词改完不生效的问题，现在也秒生效了。",
-      "changelog": "修复纪要里「用 AI 改」一个词改完不生效的问题：新版纪要的正文是从结构化数据渲染的，之前改写只更新了底层 markdown、没更新这份结构化数据，所以看着没变。现在两者一起更新，纪要里改词也能秒生效了(跟时光卡片一致)。",
-      "publishedAtMs": 1781794043000
-    },
     {
       "version": 1157,
       "versionName": "260619-0000-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "修复折叠屏外屏（折叠态）有时错误显示成双栏的问题——外屏现在始终是单栏。",
       "changelog": "修复折叠屏外屏（折叠态）有时错误显示成双栏的问题——外屏现在始终是单栏。",
       "publishedAtMs": 1782643447000
+    },
+    {
+      "version": 1207,
+      "versionName": "260629-1735-standard",
+      "userFacingChangelog": "清理了几个早已下线的旧功能（账本、关系镜像），备份和设置更清爽，相关文案也校正了。",
+      "changelog": "清理已下线的旧功能：账本、关系镜像彻底移除（含备份项 / 设置项 / 历史数据），备份分类文案也校正了一遍；另精简了一批内部实验代码。",
+      "publishedAtMs": 1782725907000
     }
   ],
-  "publishedAtMs": 1782643447000,
+  "publishedAtMs": 1782725907000,
   "minSupported": 0
 }
