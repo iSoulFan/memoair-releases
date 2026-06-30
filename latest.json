@@ -1,20 +1,13 @@
 {
-  "version": 1211,
-  "versionName": "260629-2150-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1211-260629-2150-standard-slim.apk.bin",
+  "version": 1212,
+  "versionName": "260630-1124-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1212-260630-1124-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37583692,
-  "sha256": "810203787984fbd12825c973da69f3748be0e6ae781ada22924af597a5018da0",
-  "changelog": "把界面里露出来的技术术语换成了大白话——你只会看到能看懂的功能名，不再蹦工程词。",
-  "userFacingChangelog": "把界面里一些技术术语换成了大白话，更好懂。",
+  "sizeBytes": 37587788,
+  "sha256": "393ef5ad7e42c1d3ad3a5b743cda235e010ba64ffd03ea138e887e971801df6b",
+  "changelog": "念念不忘修复——不再把听不清、读不通的整段录音流水当成金句塞进卡片，糊掉就留空不出。",
+  "userFacingChangelog": "念念不忘修复：不再把读不通的录音原文当金句，糊掉的内容会直接不出卡。",
   "recentReleases": [
-    {
-      "version": 1161,
-      "versionName": "260622-1056-standard",
-      "userFacingChangelog": "「抉择」更聪明了：同一件纠结的事不会再被重复推给你。",
-      "changelog": "抉择去重加证据时间戳重叠+墓碑+扫描端预防，治『答过的抉择换措辞被重复推送』",
-      "publishedAtMs": 1782103093000
-    },
     {
       "version": 1162,
       "versionName": "260622-2348-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "把界面里一些技术术语换成了大白话，更好懂。",
       "changelog": "把界面里露出来的技术术语换成了大白话——你只会看到能看懂的功能名，不再蹦工程词。",
       "publishedAtMs": 1782741165000
+    },
+    {
+      "version": 1212,
+      "versionName": "260630-1124-standard",
+      "userFacingChangelog": "念念不忘修复：不再把读不通的录音原文当金句，糊掉的内容会直接不出卡。",
+      "changelog": "念念不忘修复——不再把听不清、读不通的整段录音流水当成金句塞进卡片，糊掉就留空不出。",
+      "publishedAtMs": 1782790005000
     }
   ],
-  "publishedAtMs": 1782741165000,
+  "publishedAtMs": 1782790005000,
   "minSupported": 0
 }
