@@ -1,20 +1,13 @@
 {
-  "version": 1212,
-  "versionName": "260630-1124-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1212-260630-1124-standard-slim.apk.bin",
+  "version": 1213,
+  "versionName": "260701-0952-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1213-260701-0952-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37587788,
-  "sha256": "393ef5ad7e42c1d3ad3a5b743cda235e010ba64ffd03ea138e887e971801df6b",
-  "changelog": "念念不忘修复——不再把听不清、读不通的整段录音流水当成金句塞进卡片，糊掉就留空不出。",
-  "userFacingChangelog": "念念不忘修复：不再把读不通的录音原文当金句，糊掉的内容会直接不出卡。",
+  "sha256": "59022c2a6cb2fe0005560ccd90951eaa0bf2b5838f6e33e65807af39e526dfd9",
+  "changelog": "人生来信与日报细节打磨",
+  "userFacingChangelog": "· 人生来信更贴合真实经历，不再把前几天的事说成今天、也不再强行把两句不相干的话拼在一起\n· 修正日报标题偶尔多出「标题：」字样",
   "recentReleases": [
-    {
-      "version": 1162,
-      "versionName": "260622-2348-standard",
-      "userFacingChangelog": "「那天的事」更懂分寸了：拿不准的事不会再硬说成是你，读起来更像一个真正在你身边的朋友陪你回味这一天。",
-      "changelog": "那天的事 v2「在场版」：日报改'见证者'口吻——拿不准谁说的就写主题/氛围/邀请问句、不再默认把不确定的事栽到机主头上、绝不出现第三人称(有人/朋友/同事…)；声纹失效也不露馅。DailyReportVersion 默认 V2_0，v1.1/v1.0 可在设置回滚。",
-      "publishedAtMs": 1782148372000
-    },
     {
       "version": 1163,
       "versionName": "260623-0150-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "念念不忘修复：不再把读不通的录音原文当金句，糊掉的内容会直接不出卡。",
       "changelog": "念念不忘修复——不再把听不清、读不通的整段录音流水当成金句塞进卡片，糊掉就留空不出。",
       "publishedAtMs": 1782790005000
+    },
+    {
+      "version": 1213,
+      "versionName": "260701-0952-standard",
+      "userFacingChangelog": "· 人生来信更贴合真实经历，不再把前几天的事说成今天、也不再强行把两句不相干的话拼在一起\n· 修正日报标题偶尔多出「标题：」字样",
+      "changelog": "人生来信与日报细节打磨",
+      "publishedAtMs": 1782870929000
     }
   ],
-  "publishedAtMs": 1782790005000,
+  "publishedAtMs": 1782870929000,
   "minSupported": 0
 }
