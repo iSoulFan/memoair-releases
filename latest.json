@@ -1,20 +1,13 @@
 {
-  "version": 1216,
-  "versionName": "260702-0642-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1216-260702-0642-standard-slim.apk.bin",
+  "version": 1217,
+  "versionName": "260702-0839-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1217-260702-0839-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37657420,
-  "sha256": "679196315fa381a9054700bf24dd617438177c3291a11a779f89803587839281",
-  "changelog": "v1216 云端语音识别上线(合入 codex/asr-cloud)：memosea 后端接入+流式识别、按住说话与长音频导入可走云端、设置新增语音处理模式开关(云端最优/本地优先,默认云端但 backendConfirmed 确认后才上传)、X-ASR 模型文件 SHA-256 校验加固；含 v1215 自档案卡重做",
-  "userFacingChangelog": "语音识别升级：新增云端识别模式，听得更准更稳；可在 设置 → 记录 → 语音处理模式 里选择云端或仅本机处理",
+  "sha256": "d0eae91c3b3f8cf3091ec8c94d09ec4a539200e2cc44b5a91cad6187563f886d",
+  "changelog": "v1217 云端语音热修：①语音处理模式开关先写本地再同步云端(后端客户端构造失败也能切,根因=MEMOSEA_BASE_URL 未配置时构造即抛,setMode 在写本地前就炸) ②按住说话云端不可用改退回本机识别(去掉'不能降级到本地'硬闸,含 startCloud 抛异常兜底) ③同步失败原因如实显示在设置状态行",
+  "userFacingChangelog": "修复：按住说话不再报错(云端连不上时自动用本机识别顶上)；语音处理模式开关可以正常切换了",
   "recentReleases": [
-    {
-      "version": 1166,
-      "versionName": "260623-1022-standard",
-      "userFacingChangelog": "念念不忘不会再收录没说完的半截话了；关于页那个按钮文字也不会再挤到两行。",
-      "changelog": "念念不忘拒收ASR截断残句(金句必须完整自洽能独立成立·半句/缺主缺宾/没说完的碎片不选·禁止把'没说完'美化成'更有味道'找借口)+关于页检查更新按钮缩短为'看看新版'+maxLines锁单行防换行。",
-      "publishedAtMs": 1782181619000
-    },
     {
       "version": 1167,
       "versionName": "260623-1623-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "语音识别升级：新增云端识别模式，听得更准更稳；可在 设置 → 记录 → 语音处理模式 里选择云端或仅本机处理",
       "changelog": "v1216 云端语音识别上线(合入 codex/asr-cloud)：memosea 后端接入+流式识别、按住说话与长音频导入可走云端、设置新增语音处理模式开关(云端最优/本地优先,默认云端但 backendConfirmed 确认后才上传)、X-ASR 模型文件 SHA-256 校验加固；含 v1215 自档案卡重做",
       "publishedAtMs": 1782999915000
+    },
+    {
+      "version": 1217,
+      "versionName": "260702-0839-standard",
+      "userFacingChangelog": "修复：按住说话不再报错(云端连不上时自动用本机识别顶上)；语音处理模式开关可以正常切换了",
+      "changelog": "v1217 云端语音热修：①语音处理模式开关先写本地再同步云端(后端客户端构造失败也能切,根因=MEMOSEA_BASE_URL 未配置时构造即抛,setMode 在写本地前就炸) ②按住说话云端不可用改退回本机识别(去掉'不能降级到本地'硬闸,含 startCloud 抛异常兜底) ③同步失败原因如实显示在设置状态行",
+      "publishedAtMs": 1783006912000
     }
   ],
-  "publishedAtMs": 1782999915000,
+  "publishedAtMs": 1783006912000,
   "minSupported": 0
 }
