@@ -1,20 +1,13 @@
 {
-  "version": 1215,
-  "versionName": "260702-0410-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1215-260702-0410-standard-slim.apk.bin",
+  "version": 1216,
+  "versionName": "260702-0642-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1216-260702-0642-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37583692,
-  "sha256": "a145c6dd24a089a66081e93a9b223c443d23431d68447a9b4a4624c94e860748",
-  "changelog": "v1215 自己的档案卡重做：本人卡判定改显式参数(不再按名字猜)；删除人物卡里关系镜像残留(能量圆盘/头部英文标/兜底行)；本人卡隐藏并入本人与提及计数；AI 概要对本人改第二人称自我画像、互动模式跳过、旧第三人称缓存一次性清除",
-  "userFacingChangelog": "「我的」里自己的档案页清爽了：不再出现残留的关系数据和\"并入本人\"，AI 会用「你」的口吻写最近的你",
+  "sizeBytes": 37657420,
+  "sha256": "679196315fa381a9054700bf24dd617438177c3291a11a779f89803587839281",
+  "changelog": "v1216 云端语音识别上线(合入 codex/asr-cloud)：memosea 后端接入+流式识别、按住说话与长音频导入可走云端、设置新增语音处理模式开关(云端最优/本地优先,默认云端但 backendConfirmed 确认后才上传)、X-ASR 模型文件 SHA-256 校验加固；含 v1215 自档案卡重做",
+  "userFacingChangelog": "语音识别升级：新增云端识别模式，听得更准更稳；可在 设置 → 记录 → 语音处理模式 里选择云端或仅本机处理",
   "recentReleases": [
-    {
-      "version": 1165,
-      "versionName": "260623-0226-standard",
-      "userFacingChangelog": "修了大屏手机横屏打开会变成左右分屏的问题；长期记忆和人生来信也更稳了，不会把别人的事记成你的、写进你的信里。",
-      "changelog": "长期记忆加来源闸(宁缺勿滥:拿不准是不是本人的一律不记,错记污染全局代价大于漏记)+人生来信在场化([我]/[他人]降级弱提示·不确定不安到你头上·禁匿名三人称·正文过兜底)+修直板大屏机横屏误触折叠屏双栏(isWide第二条件加screenHeightDp>=600)。",
-      "publishedAtMs": 1782152932000
-    },
     {
       "version": 1166,
       "versionName": "260623-1022-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「我的」里自己的档案页清爽了：不再出现残留的关系数据和\"并入本人\"，AI 会用「你」的口吻写最近的你",
       "changelog": "v1215 自己的档案卡重做：本人卡判定改显式参数(不再按名字猜)；删除人物卡里关系镜像残留(能量圆盘/头部英文标/兜底行)；本人卡隐藏并入本人与提及计数；AI 概要对本人改第二人称自我画像、互动模式跳过、旧第三人称缓存一次性清除",
       "publishedAtMs": 1782990777000
+    },
+    {
+      "version": 1216,
+      "versionName": "260702-0642-standard",
+      "userFacingChangelog": "语音识别升级：新增云端识别模式，听得更准更稳；可在 设置 → 记录 → 语音处理模式 里选择云端或仅本机处理",
+      "changelog": "v1216 云端语音识别上线(合入 codex/asr-cloud)：memosea 后端接入+流式识别、按住说话与长音频导入可走云端、设置新增语音处理模式开关(云端最优/本地优先,默认云端但 backendConfirmed 确认后才上传)、X-ASR 模型文件 SHA-256 校验加固；含 v1215 自档案卡重做",
+      "publishedAtMs": 1782999915000
     }
   ],
-  "publishedAtMs": 1782990777000,
+  "publishedAtMs": 1782999915000,
   "minSupported": 0
 }
