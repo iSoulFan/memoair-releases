@@ -1,20 +1,13 @@
 {
-  "version": 1217,
-  "versionName": "260702-0839-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1217-260702-0839-standard-slim.apk.bin",
+  "version": 1218,
+  "versionName": "260702-0855-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1218-260702-0855-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37657420,
-  "sha256": "d0eae91c3b3f8cf3091ec8c94d09ec4a539200e2cc44b5a91cad6187563f886d",
-  "changelog": "v1217 云端语音热修：①语音处理模式开关先写本地再同步云端(后端客户端构造失败也能切,根因=MEMOSEA_BASE_URL 未配置时构造即抛,setMode 在写本地前就炸) ②按住说话云端不可用改退回本机识别(去掉'不能降级到本地'硬闸,含 startCloud 抛异常兜底) ③同步失败原因如实显示在设置状态行",
-  "userFacingChangelog": "修复：按住说话不再报错(云端连不上时自动用本机识别顶上)；语音处理模式开关可以正常切换了",
+  "sha256": "63b5e39f6170a5246204cb05fce7faaa6a6a0ac29538ac8c6a8744db8e72f3c3",
+  "changelog": "v1218 语音处理模式默认改本地优先(owner 拍板:云端后端就绪前 OTA 用户不被动上云)：readState 默认 LOCAL_PRIVACY + 一次性迁移(存量 cloud_best 且 backendConfirmed 从未 true 的拉回本地;已确认的真云端用户不动;迁移只跑一次,之后手动选云端不被覆盖)+单测 3 例",
+  "userFacingChangelog": "语音识别默认使用本机处理；云端模式待后端服务就绪后再开放，可在 设置 → 记录 → 语音处理模式 里查看",
   "recentReleases": [
-    {
-      "version": 1167,
-      "versionName": "260623-1623-standard",
-      "userFacingChangelog": "小幅优化，体验不变。",
-      "changelog": "微光/念念在场兜底的多个独立 strip() LLM 调用并发化(代码质量优化,行为不变)。",
-      "publishedAtMs": 1782203365000
-    },
     {
       "version": 1168,
       "versionName": "260623-1740-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "修复：按住说话不再报错(云端连不上时自动用本机识别顶上)；语音处理模式开关可以正常切换了",
       "changelog": "v1217 云端语音热修：①语音处理模式开关先写本地再同步云端(后端客户端构造失败也能切,根因=MEMOSEA_BASE_URL 未配置时构造即抛,setMode 在写本地前就炸) ②按住说话云端不可用改退回本机识别(去掉'不能降级到本地'硬闸,含 startCloud 抛异常兜底) ③同步失败原因如实显示在设置状态行",
       "publishedAtMs": 1783006912000
+    },
+    {
+      "version": 1218,
+      "versionName": "260702-0855-standard",
+      "userFacingChangelog": "语音识别默认使用本机处理；云端模式待后端服务就绪后再开放，可在 设置 → 记录 → 语音处理模式 里查看",
+      "changelog": "v1218 语音处理模式默认改本地优先(owner 拍板:云端后端就绪前 OTA 用户不被动上云)：readState 默认 LOCAL_PRIVACY + 一次性迁移(存量 cloud_best 且 backendConfirmed 从未 true 的拉回本地;已确认的真云端用户不动;迁移只跑一次,之后手动选云端不被覆盖)+单测 3 例",
+      "publishedAtMs": 1783007822000
     }
   ],
-  "publishedAtMs": 1783006912000,
+  "publishedAtMs": 1783007822000,
   "minSupported": 0
 }
