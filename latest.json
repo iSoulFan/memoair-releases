@@ -1,20 +1,13 @@
 {
-  "version": 1214,
-  "versionName": "260701-1811-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1214-260701-1811-standard-slim.apk.bin",
+  "version": 1215,
+  "versionName": "260702-0410-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1215-260702-0410-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37587788,
-  "sha256": "7339ba0947342142f311c517605f07f77f0e90655c70789c4a9114b47d067e71",
-  "changelog": "微光时刻与那天的事细节打磨",
-  "userFacingChangelog": "· 微光时刻不再把「你送给别人的东西」写反成「别人送你」\n· 那天的事是第二天早上读的，结尾不再出现「晚安 / 明天…」这类对不上的话",
+  "sizeBytes": 37583692,
+  "sha256": "a145c6dd24a089a66081e93a9b223c443d23431d68447a9b4a4624c94e860748",
+  "changelog": "v1215 自己的档案卡重做：本人卡判定改显式参数(不再按名字猜)；删除人物卡里关系镜像残留(能量圆盘/头部英文标/兜底行)；本人卡隐藏并入本人与提及计数；AI 概要对本人改第二人称自我画像、互动模式跳过、旧第三人称缓存一次性清除",
+  "userFacingChangelog": "「我的」里自己的档案页清爽了：不再出现残留的关系数据和\"并入本人\"，AI 会用「你」的口吻写最近的你",
   "recentReleases": [
-    {
-      "version": 1164,
-      "versionName": "260623-0210-standard",
-      "userFacingChangelog": "微光和念念也升级了：不会再把别人的事写成'你做了'，也不会拿一句可能不是你说的话去硬猜你的心思。",
-      "changelog": "在场框架共享层 PresenceFraming(板块无关兜底:洗匿名第三人称/保留具名角色/引用原话不动)+推广到微光(标签软化为弱提示·拿不准不栽'你做了')与念念(不指认说话人/禁匿名三人称/subtext防栽赃留空/narration邀请不断言)。",
-      "publishedAtMs": 1782151983000
-    },
     {
       "version": 1165,
       "versionName": "260623-0226-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "· 微光时刻不再把「你送给别人的东西」写反成「别人送你」\n· 那天的事是第二天早上读的，结尾不再出现「晚安 / 明天…」这类对不上的话",
       "changelog": "微光时刻与那天的事细节打磨",
       "publishedAtMs": 1782954895000
+    },
+    {
+      "version": 1215,
+      "versionName": "260702-0410-standard",
+      "userFacingChangelog": "「我的」里自己的档案页清爽了：不再出现残留的关系数据和\"并入本人\"，AI 会用「你」的口吻写最近的你",
+      "changelog": "v1215 自己的档案卡重做：本人卡判定改显式参数(不再按名字猜)；删除人物卡里关系镜像残留(能量圆盘/头部英文标/兜底行)；本人卡隐藏并入本人与提及计数；AI 概要对本人改第二人称自我画像、互动模式跳过、旧第三人称缓存一次性清除",
+      "publishedAtMs": 1782990777000
     }
   ],
-  "publishedAtMs": 1782954895000,
+  "publishedAtMs": 1782990777000,
   "minSupported": 0
 }
