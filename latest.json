@@ -1,20 +1,13 @@
 {
-  "version": 1218,
-  "versionName": "260702-0855-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1218-260702-0855-standard-slim.apk.bin",
+  "version": 1219,
+  "versionName": "260702-0900-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1219-260702-0900-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37657420,
-  "sha256": "63b5e39f6170a5246204cb05fce7faaa6a6a0ac29538ac8c6a8744db8e72f3c3",
-  "changelog": "v1218 语音处理模式默认改本地优先(owner 拍板:云端后端就绪前 OTA 用户不被动上云)：readState 默认 LOCAL_PRIVACY + 一次性迁移(存量 cloud_best 且 backendConfirmed 从未 true 的拉回本地;已确认的真云端用户不动;迁移只跑一次,之后手动选云端不被覆盖)+单测 3 例",
-  "userFacingChangelog": "语音识别默认使用本机处理；云端模式待后端服务就绪后再开放，可在 设置 → 记录 → 语音处理模式 里查看",
+  "sha256": "0f8210b6af6e0bb802768256e92b61d81a3ff971b08a691df87ac3cca70db436",
+  "changelog": "v1219 猜你想做排序修正：staged 推荐区改 createdAtEpochMs DESC(最新推荐在最前),之前按 due/created ASC 越老越靠前;只动 observeStaged,主列表排序不变",
+  "userFacingChangelog": "「猜你想做」现在最新的推荐排在最前面",
   "recentReleases": [
-    {
-      "version": 1168,
-      "versionName": "260623-1740-standard",
-      "userFacingChangelog": "微调：那天的事在涉及别人时更自然了；底层做了优化，体验更稳。",
-      "changelog": "在场兜底改句级重写(只改含'有人'的行其余不动,省成本+杜绝整篇漂移)+命中率埋点(调试页可看)；日报在场框架补'集体场景'第三档(社交明确才用'朋友之间/同事一起'、默认无主语更稳)。",
-      "publishedAtMs": 1782207799000
-    },
     {
       "version": 1169,
       "versionName": "260623-2124-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "语音识别默认使用本机处理；云端模式待后端服务就绪后再开放，可在 设置 → 记录 → 语音处理模式 里查看",
       "changelog": "v1218 语音处理模式默认改本地优先(owner 拍板:云端后端就绪前 OTA 用户不被动上云)：readState 默认 LOCAL_PRIVACY + 一次性迁移(存量 cloud_best 且 backendConfirmed 从未 true 的拉回本地;已确认的真云端用户不动;迁移只跑一次,之后手动选云端不被覆盖)+单测 3 例",
       "publishedAtMs": 1783007822000
+    },
+    {
+      "version": 1219,
+      "versionName": "260702-0900-standard",
+      "userFacingChangelog": "「猜你想做」现在最新的推荐排在最前面",
+      "changelog": "v1219 猜你想做排序修正：staged 推荐区改 createdAtEpochMs DESC(最新推荐在最前),之前按 due/created ASC 越老越靠前;只动 observeStaged,主列表排序不变",
+      "publishedAtMs": 1783008154000
     }
   ],
-  "publishedAtMs": 1783007822000,
+  "publishedAtMs": 1783008154000,
   "minSupported": 0
 }
