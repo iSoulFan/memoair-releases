@@ -1,20 +1,13 @@
 {
-  "version": 1213,
-  "versionName": "260701-0952-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1213-260701-0952-standard-slim.apk.bin",
+  "version": 1214,
+  "versionName": "260701-1811-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1214-260701-1811-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37587788,
-  "sha256": "59022c2a6cb2fe0005560ccd90951eaa0bf2b5838f6e33e65807af39e526dfd9",
-  "changelog": "人生来信与日报细节打磨",
-  "userFacingChangelog": "· 人生来信更贴合真实经历，不再把前几天的事说成今天、也不再强行把两句不相干的话拼在一起\n· 修正日报标题偶尔多出「标题：」字样",
+  "sha256": "7339ba0947342142f311c517605f07f77f0e90655c70789c4a9114b47d067e71",
+  "changelog": "微光时刻与那天的事细节打磨",
+  "userFacingChangelog": "· 微光时刻不再把「你送给别人的东西」写反成「别人送你」\n· 那天的事是第二天早上读的，结尾不再出现「晚安 / 明天…」这类对不上的话",
   "recentReleases": [
-    {
-      "version": 1163,
-      "versionName": "260623-0150-standard",
-      "userFacingChangelog": "「那天的事」修好了：不会再把你自己的事说成'有人怎么怎么'，读起来就是在说你。",
-      "changelog": "那天的事 v2 彻底封'有人'：① 一次性迁移把存量抬到 V2_0(修6/18手点开关存成v1.1盖住新默认)；② 提示词加改写范例+生成后自检；③ 代码层兜底——生成后扫到'有人/某人/有位…'就触发定向改写只洗第三人称(引用原话不动/失败退回原文)，production+调试都过。",
-      "publishedAtMs": 1782150781000
-    },
     {
       "version": 1164,
       "versionName": "260623-0210-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "· 人生来信更贴合真实经历，不再把前几天的事说成今天、也不再强行把两句不相干的话拼在一起\n· 修正日报标题偶尔多出「标题：」字样",
       "changelog": "人生来信与日报细节打磨",
       "publishedAtMs": 1782870929000
+    },
+    {
+      "version": 1214,
+      "versionName": "260701-1811-standard",
+      "userFacingChangelog": "· 微光时刻不再把「你送给别人的东西」写反成「别人送你」\n· 那天的事是第二天早上读的，结尾不再出现「晚安 / 明天…」这类对不上的话",
+      "changelog": "微光时刻与那天的事细节打磨",
+      "publishedAtMs": 1782954895000
     }
   ],
-  "publishedAtMs": 1782870929000,
+  "publishedAtMs": 1782954895000,
   "minSupported": 0
 }
