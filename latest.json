@@ -1,20 +1,13 @@
 {
-  "version": 1229,
-  "versionName": "260703-0826-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1229-260703-0826-standard-slim.apk.bin",
+  "version": 1230,
+  "versionName": "260703-0845-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1230-260703-0845-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 293674590,
-  "sha256": "b503d9016567344daf36f623b91b52322e569dc3b2c0cff14cddbdb04e6e4b24",
-  "changelog": "v1229 是真的吗生成管线上线(规格照当时拍板)：两段式=①选材 is_it_true.txt(混合块扫最近2天带[今天][昨天]标签+45k字封顶,消费级可查证说法,健康法律政治严肃判断不碰,宁缺毋滥出NONE)②联网核实(chat enableSearch=true 模型自决搜索,verdict true/fake/dunno,unsure查不到不出卡)+揭晓2-5行;奇数日相位+48h冷却由既有闸管;此前 IsItTrue 分支硬编码返回 false,日志误报'LLM拒了提示词太严'",
-  "userFacingChangelog": "新卡「是真的吗？」开始工作了：听到可疑的说法，帮你查证后做成先猜后揭晓的小卡",
+  "sha256": "2c33639b8620bf85a6257ba097fa99fd1f1e4c69b37494defef3f1c00a708664",
+  "changelog": "v1230 纪要 AI 改写二修：字面直通触发门原来只看 markdown——结构化板块内容可超出 markdown('Rocky'只在 visualJson 里)时直通不触发,落 LLM 后 markdown 里也找不到→'没识别到要改哪里';改为 markdown 或 visualJson 任一命中即直通,visual 替换后做 JSON 合法性校验(坏了当没命中)",
+  "userFacingChangelog": "纪要 AI 改写：只出现在卡片板块里的词也能一次改对了",
   "recentReleases": [
-    {
-      "version": 1179,
-      "versionName": "260624-0951-standard",
-      "userFacingChangelog": "「那天的事」回到你喜欢的 V1 板块框架，只把会认错人的地方修好了。",
-      "changelog": "那天的事 v2 以 V1 为底重做：保留 V1 全部板块/框架，只把会'把你的话栽给虚构朋友/同事'的几处归属规则升维(禁匿名'有人'/禁编造身份/拿不准就无主语或当本人/明确是你就放开写你)。",
-      "publishedAtMs": 1782266039000
-    },
     {
       "version": 1180,
       "versionName": "260624-1004-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "新卡「是真的吗？」开始工作了：听到可疑的说法，帮你查证后做成先猜后揭晓的小卡",
       "changelog": "v1229 是真的吗生成管线上线(规格照当时拍板)：两段式=①选材 is_it_true.txt(混合块扫最近2天带[今天][昨天]标签+45k字封顶,消费级可查证说法,健康法律政治严肃判断不碰,宁缺毋滥出NONE)②联网核实(chat enableSearch=true 模型自决搜索,verdict true/fake/dunno,unsure查不到不出卡)+揭晓2-5行;奇数日相位+48h冷却由既有闸管;此前 IsItTrue 分支硬编码返回 false,日志误报'LLM拒了提示词太严'",
       "publishedAtMs": 1783092716000
+    },
+    {
+      "version": 1230,
+      "versionName": "260703-0845-standard",
+      "userFacingChangelog": "纪要 AI 改写：只出现在卡片板块里的词也能一次改对了",
+      "changelog": "v1230 纪要 AI 改写二修：字面直通触发门原来只看 markdown——结构化板块内容可超出 markdown('Rocky'只在 visualJson 里)时直通不触发,落 LLM 后 markdown 里也找不到→'没识别到要改哪里';改为 markdown 或 visualJson 任一命中即直通,visual 替换后做 JSON 合法性校验(坏了当没命中)",
+      "publishedAtMs": 1783093834000
     }
   ],
-  "publishedAtMs": 1783092716000,
+  "publishedAtMs": 1783093834000,
   "minSupported": 0
 }
