@@ -1,20 +1,13 @@
 {
-  "version": 1220,
-  "versionName": "260702-1916-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1220-260702-1916-standard-slim.apk.bin",
+  "version": 1221,
+  "versionName": "260702-1938-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1221-260702-1938-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37653324,
-  "sha256": "b6a73906fccdb811888e3892c7c377dea7ac82d07fbf28a5c53ee6aa5914d9db",
-  "changelog": "v1220 猜你想做加号语义恒定：展开态点行左加号=直接收进待办(原为勾选)，勾选只走点行其他区域；圈内不再显示勾选态(点✓却入库会误导)，选中态靠标题加粗+详情展开；直收时同步清该行勾选/lastTapped;折叠态交互不变",
-  "userFacingChangelog": "「猜你想做」展开后，点左边的 ＋ 直接加进待办；点条目其他位置是选中",
+  "sha256": "a0f3c0852959e844147688bee15bcba7eea5a02dfbefaa3aaed7ed0690077576",
+  "changelog": "v1221 猜你想做折叠态点行修正：根因=open 进程级保活但动画进度 remember 重建恒0,页面回收再回来出现'逻辑展开视觉收起'错位,点行走勾选不走展开;修=进度初值对齐 open + 行勾选/卡片展开判定统一以视觉真展开(open&&recP>0.5)为准",
+  "userFacingChangelog": "「猜你想做」收起状态下，点条目文字会先展开卡片；点 ＋ 依然直接加进待办",
   "recentReleases": [
-    {
-      "version": 1170,
-      "versionName": "260623-2133-standard",
-      "userFacingChangelog": "修正：分享拍立得=好看的相片样式，保存到相册=原图带右下角AI水印。",
-      "changelog": "拍立得分享/保存动作对调修正：分享成图片=拍立得白底样式(白框+底部居中'由记得App AI生成')、保存到相册=原图+右下角'AI生成'水印。",
-      "publishedAtMs": 1782221733000
-    },
     {
       "version": 1171,
       "versionName": "260623-2154-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「猜你想做」展开后，点左边的 ＋ 直接加进待办；点条目其他位置是选中",
       "changelog": "v1220 猜你想做加号语义恒定：展开态点行左加号=直接收进待办(原为勾选)，勾选只走点行其他区域；圈内不再显示勾选态(点✓却入库会误导)，选中态靠标题加粗+详情展开；直收时同步清该行勾选/lastTapped;折叠态交互不变",
       "publishedAtMs": 1783045159000
+    },
+    {
+      "version": 1221,
+      "versionName": "260702-1938-standard",
+      "userFacingChangelog": "「猜你想做」收起状态下，点条目文字会先展开卡片；点 ＋ 依然直接加进待办",
+      "changelog": "v1221 猜你想做折叠态点行修正：根因=open 进程级保活但动画进度 remember 重建恒0,页面回收再回来出现'逻辑展开视觉收起'错位,点行走勾选不走展开;修=进度初值对齐 open + 行勾选/卡片展开判定统一以视觉真展开(open&&recP>0.5)为准",
+      "publishedAtMs": 1783046452000
     }
   ],
-  "publishedAtMs": 1783045159000,
+  "publishedAtMs": 1783046452000,
   "minSupported": 0
 }
