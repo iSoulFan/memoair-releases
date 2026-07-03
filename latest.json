@@ -1,20 +1,13 @@
 {
-  "version": 1223,
-  "versionName": "260702-2034-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1223-260702-2034-standard-slim.apk.bin",
+  "version": 1224,
+  "versionName": "260702-2053-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1224-260702-2053-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37653324,
-  "sha256": "0d2aa065b6d75738b59213ce01aa6f95011c26669fe99e2f169c1e7fd0b0e79b",
-  "changelog": "v1223 开场引导节奏重排(owner 拍板方案1-3)：①T0 只推'挑伙伴'一条——种子微光卡静默入库不推 chat/系统通知,告知并入引导第二条 ②引导第二条改在 AI 回复完整落库后+2s 推(原在用户发消息瞬间,三条齐发) ③引导第三条改下一次冷启动/回前台(距上条≥30min)推;pacer 重构=每次调用最多推1条+分来源门控(maybeAdvance/onAssistantReplied);第二条文案去'刚才'",
-  "userFacingChangelog": "第一次使用时的欢迎消息不再一起涌出来——一步一步来",
+  "sizeBytes": 37657420,
+  "sha256": "1066efa4ff44b7aa0a9043024a1c1ac8be7802e135abc42eccce7d49f2baab92",
+  "changelog": "v1224 开场引导第三条触发细化(owner)：由'下次冷启动/回前台+30min门'改为'离开对话上下文(切走tab/退后台)后再回到对话时推'——pacer 加 markContextBreak(prefs持久化断点,仅idx==2窗口)/onChatVisible(回对话+800ms补推)；MemoAirRoot 挂 pager currentPage+AppForeground 双触发器,宽屏chat常驻只认退后台",
+  "userFacingChangelog": "首次使用的第三条引导，改在你切换页面或切出应用、再回到对话时出现",
   "recentReleases": [
-    {
-      "version": 1173,
-      "versionName": "260623-2337-standard",
-      "userFacingChangelog": "分享拍立得的阴影这次真出来了、也加重了，背景还是白的。",
-      "changelog": "分享拍立得阴影改手绘(之前 elevation 阴影渲不进分享图所以看不到)+明显加重，背景改回白。",
-      "publishedAtMs": 1782229133000
-    },
     {
       "version": 1174,
       "versionName": "260624-0005-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "第一次使用时的欢迎消息不再一起涌出来——一步一步来",
       "changelog": "v1223 开场引导节奏重排(owner 拍板方案1-3)：①T0 只推'挑伙伴'一条——种子微光卡静默入库不推 chat/系统通知,告知并入引导第二条 ②引导第二条改在 AI 回复完整落库后+2s 推(原在用户发消息瞬间,三条齐发) ③引导第三条改下一次冷启动/回前台(距上条≥30min)推;pacer 重构=每次调用最多推1条+分来源门控(maybeAdvance/onAssistantReplied);第二条文案去'刚才'",
       "publishedAtMs": 1783049789000
+    },
+    {
+      "version": 1224,
+      "versionName": "260702-2053-standard",
+      "userFacingChangelog": "首次使用的第三条引导，改在你切换页面或切出应用、再回到对话时出现",
+      "changelog": "v1224 开场引导第三条触发细化(owner)：由'下次冷启动/回前台+30min门'改为'离开对话上下文(切走tab/退后台)后再回到对话时推'——pacer 加 markContextBreak(prefs持久化断点,仅idx==2窗口)/onChatVisible(回对话+800ms补推)；MemoAirRoot 挂 pager currentPage+AppForeground 双触发器,宽屏chat常驻只认退后台",
+      "publishedAtMs": 1783050928000
     }
   ],
-  "publishedAtMs": 1783049789000,
+  "publishedAtMs": 1783050928000,
   "minSupported": 0
 }
