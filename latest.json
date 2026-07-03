@@ -1,20 +1,13 @@
 {
-  "version": 1221,
-  "versionName": "260702-1938-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1221-260702-1938-standard-slim.apk.bin",
+  "version": 1222,
+  "versionName": "260702-1946-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1222-260702-1946-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37653324,
-  "sha256": "a0f3c0852959e844147688bee15bcba7eea5a02dfbefaa3aaed7ed0690077576",
-  "changelog": "v1221 猜你想做折叠态点行修正：根因=open 进程级保活但动画进度 remember 重建恒0,页面回收再回来出现'逻辑展开视觉收起'错位,点行走勾选不走展开;修=进度初值对齐 open + 行勾选/卡片展开判定统一以视觉真展开(open&&recP>0.5)为准",
-  "userFacingChangelog": "「猜你想做」收起状态下，点条目文字会先展开卡片；点 ＋ 依然直接加进待办",
+  "sha256": "ca028ada34b179ae99d7aa9786385f089856c2814b55d2e9aa76f7ca0f651a6c",
+  "changelog": "v1222 猜你想做选中态视觉还原：展开态被勾选的行左圈显示圆圈✓(CirclePlus checked=recsVisuallyOpen&&sel,同全App多选符号,v1220 曾改恒＋)；点圈语义不变=直接收进待办",
+  "userFacingChangelog": "「猜你想做」展开多选时，选中条目左边的圆圈会变成 ✓",
   "recentReleases": [
-    {
-      "version": 1171,
-      "versionName": "260623-2154-standard",
-      "userFacingChangelog": "分享的拍立得现在跟你在时光里看到的那张一模一样了。",
-      "changelog": "分享拍立得改为跟时光里折叠态那张一模一样(复用真实拍立得渲染/方形照片/同比例)+底部居中AI水印；菜单'分享成图片'改名'分享拍立得'。",
-      "publishedAtMs": 1782222972000
-    },
     {
       "version": 1172,
       "versionName": "260623-2329-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「猜你想做」收起状态下，点条目文字会先展开卡片；点 ＋ 依然直接加进待办",
       "changelog": "v1221 猜你想做折叠态点行修正：根因=open 进程级保活但动画进度 remember 重建恒0,页面回收再回来出现'逻辑展开视觉收起'错位,点行走勾选不走展开;修=进度初值对齐 open + 行勾选/卡片展开判定统一以视觉真展开(open&&recP>0.5)为准",
       "publishedAtMs": 1783046452000
+    },
+    {
+      "version": 1222,
+      "versionName": "260702-1946-standard",
+      "userFacingChangelog": "「猜你想做」展开多选时，选中条目左边的圆圈会变成 ✓",
+      "changelog": "v1222 猜你想做选中态视觉还原：展开态被勾选的行左圈显示圆圈✓(CirclePlus checked=recsVisuallyOpen&&sel,同全App多选符号,v1220 曾改恒＋)；点圈语义不变=直接收进待办",
+      "publishedAtMs": 1783046886000
     }
   ],
-  "publishedAtMs": 1783046452000,
+  "publishedAtMs": 1783046886000,
   "minSupported": 0
 }
