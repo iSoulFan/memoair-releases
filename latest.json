@@ -1,20 +1,13 @@
 {
-  "version": 1219,
-  "versionName": "260702-0900-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1219-260702-0900-standard-slim.apk.bin",
+  "version": 1220,
+  "versionName": "260702-1916-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1220-260702-1916-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37657420,
-  "sha256": "0f8210b6af6e0bb802768256e92b61d81a3ff971b08a691df87ac3cca70db436",
-  "changelog": "v1219 猜你想做排序修正：staged 推荐区改 createdAtEpochMs DESC(最新推荐在最前),之前按 due/created ASC 越老越靠前;只动 observeStaged,主列表排序不变",
-  "userFacingChangelog": "「猜你想做」现在最新的推荐排在最前面",
+  "sizeBytes": 37653324,
+  "sha256": "b6a73906fccdb811888e3892c7c377dea7ac82d07fbf28a5c53ee6aa5914d9db",
+  "changelog": "v1220 猜你想做加号语义恒定：展开态点行左加号=直接收进待办(原为勾选)，勾选只走点行其他区域；圈内不再显示勾选态(点✓却入库会误导)，选中态靠标题加粗+详情展开；直收时同步清该行勾选/lastTapped;折叠态交互不变",
+  "userFacingChangelog": "「猜你想做」展开后，点左边的 ＋ 直接加进待办；点条目其他位置是选中",
   "recentReleases": [
-    {
-      "version": 1169,
-      "versionName": "260623-2124-standard",
-      "userFacingChangelog": "拍立得能长按下载啦：折叠时存好看的相片样式图，展开后长按存原图(带AI水印)。",
-      "changelog": "拍立得长按下载两模式：折叠态长按存'拍立得白底样式图'(底部居中'由记得App AI生成')、展开后长按存'原图+右下角AI水印'；修分享图在直板横屏的宽度误判。",
-      "publishedAtMs": 1782221208000
-    },
     {
       "version": 1170,
       "versionName": "260623-2133-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「猜你想做」现在最新的推荐排在最前面",
       "changelog": "v1219 猜你想做排序修正：staged 推荐区改 createdAtEpochMs DESC(最新推荐在最前),之前按 due/created ASC 越老越靠前;只动 observeStaged,主列表排序不变",
       "publishedAtMs": 1783008154000
+    },
+    {
+      "version": 1220,
+      "versionName": "260702-1916-standard",
+      "userFacingChangelog": "「猜你想做」展开后，点左边的 ＋ 直接加进待办；点条目其他位置是选中",
+      "changelog": "v1220 猜你想做加号语义恒定：展开态点行左加号=直接收进待办(原为勾选)，勾选只走点行其他区域；圈内不再显示勾选态(点✓却入库会误导)，选中态靠标题加粗+详情展开；直收时同步清该行勾选/lastTapped;折叠态交互不变",
+      "publishedAtMs": 1783045159000
     }
   ],
-  "publishedAtMs": 1783008154000,
+  "publishedAtMs": 1783045159000,
   "minSupported": 0
 }
