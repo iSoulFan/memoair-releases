@@ -1,20 +1,13 @@
 {
-  "version": 1222,
-  "versionName": "260702-1946-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1222-260702-1946-standard-slim.apk.bin",
+  "version": 1223,
+  "versionName": "260702-2034-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1223-260702-2034-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37653324,
-  "sha256": "ca028ada34b179ae99d7aa9786385f089856c2814b55d2e9aa76f7ca0f651a6c",
-  "changelog": "v1222 猜你想做选中态视觉还原：展开态被勾选的行左圈显示圆圈✓(CirclePlus checked=recsVisuallyOpen&&sel,同全App多选符号,v1220 曾改恒＋)；点圈语义不变=直接收进待办",
-  "userFacingChangelog": "「猜你想做」展开多选时，选中条目左边的圆圈会变成 ✓",
+  "sha256": "0d2aa065b6d75738b59213ce01aa6f95011c26669fe99e2f169c1e7fd0b0e79b",
+  "changelog": "v1223 开场引导节奏重排(owner 拍板方案1-3)：①T0 只推'挑伙伴'一条——种子微光卡静默入库不推 chat/系统通知,告知并入引导第二条 ②引导第二条改在 AI 回复完整落库后+2s 推(原在用户发消息瞬间,三条齐发) ③引导第三条改下一次冷启动/回前台(距上条≥30min)推;pacer 重构=每次调用最多推1条+分来源门控(maybeAdvance/onAssistantReplied);第二条文案去'刚才'",
+  "userFacingChangelog": "第一次使用时的欢迎消息不再一起涌出来——一步一步来",
   "recentReleases": [
-    {
-      "version": 1172,
-      "versionName": "260623-2329-standard",
-      "userFacingChangelog": "分享拍立得加了阴影、恢复了随机微倾斜，不再呆板贴在白底上。",
-      "changelog": "分享拍立得：加软阴影(跟白底拉开)+恢复随机倾斜(摆正太呆板)；背景略调暖灰双保险。",
-      "publishedAtMs": 1782228668000
-    },
     {
       "version": 1173,
       "versionName": "260623-2337-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「猜你想做」展开多选时，选中条目左边的圆圈会变成 ✓",
       "changelog": "v1222 猜你想做选中态视觉还原：展开态被勾选的行左圈显示圆圈✓(CirclePlus checked=recsVisuallyOpen&&sel,同全App多选符号,v1220 曾改恒＋)；点圈语义不变=直接收进待办",
       "publishedAtMs": 1783046886000
+    },
+    {
+      "version": 1223,
+      "versionName": "260702-2034-standard",
+      "userFacingChangelog": "第一次使用时的欢迎消息不再一起涌出来——一步一步来",
+      "changelog": "v1223 开场引导节奏重排(owner 拍板方案1-3)：①T0 只推'挑伙伴'一条——种子微光卡静默入库不推 chat/系统通知,告知并入引导第二条 ②引导第二条改在 AI 回复完整落库后+2s 推(原在用户发消息瞬间,三条齐发) ③引导第三条改下一次冷启动/回前台(距上条≥30min)推;pacer 重构=每次调用最多推1条+分来源门控(maybeAdvance/onAssistantReplied);第二条文案去'刚才'",
+      "publishedAtMs": 1783049789000
     }
   ],
-  "publishedAtMs": 1783046886000,
+  "publishedAtMs": 1783049789000,
   "minSupported": 0
 }
