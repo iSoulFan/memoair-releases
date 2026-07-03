@@ -1,20 +1,13 @@
 {
-  "version": 1227,
-  "versionName": "260703-0204-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1227-260703-0204-standard-slim.apk.bin",
+  "version": 1228,
+  "versionName": "260703-0750-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1228-260703-0750-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 293666323,
-  "sha256": "b4c5e09d7c80b003f41ffd28983949fdee111fc52f90757a70ca76fe812c237f",
-  "changelog": "v1227 端侧 ASR 模型换代 follow_v1(codex 线合入,owner 指令发布)：int8 四件套进包(ModelManager 落点 x-asr-follow-v1,SHA-256 校验,r1920 进 STALE_DIRS 待新模型就绪后清理);slim 本版暂带模型(289M)——OSS 兜底对象已由我补传并验证(models/x-asr/follow_v1/shared/ 四件 http200+哈希一致),下版可恢复剥模型;含 v1226 时间修",
-  "userFacingChangelog": "听力升级：换上了新一代语音识别模型，听得更准。本次更新包较大（约 290M），建议在网络好的时候更新",
+  "sha256": "385a788c9c33a69f2425d78b9ee38513e067e9502643c237d43b7b92df6034da",
+  "changelog": "v1228 纪要 AI 改写假成功修：LiteralRewrite 字面直通大小写敏感——'把rocky改为rokid'撞上正文'Rocky'不命中,落 LLM 路径后 markdown 改了但 visualJson 保留旧值,结构化视图看不到变化还提示成功;修=匹配与替换均大小写不敏感(Regex IGNORE_CASE),直通命中则 markdown+visual 双更新;补 LiteralRewriteTest 4 例",
+  "userFacingChangelog": "纪要的 AI 改写修好了：改英文名字大小写不同也能一次改对",
   "recentReleases": [
-    {
-      "version": 1177,
-      "versionName": "260624-0940-standard",
-      "userFacingChangelog": "「那天的事」结构更丰富、每天不一样了，不再死板套同一个壳。",
-      "changelog": "那天的事 v2 重写：恢复丰富模块菜单+每天结构不同+明确是你的就放开写具体的'你…'+邀请问句降成偶尔；保留不栽赃/禁匿名第三人称的安全底。",
-      "publishedAtMs": 1782265378000
-    },
     {
       "version": 1178,
       "versionName": "260624-0946-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "听力升级：换上了新一代语音识别模型，听得更准。本次更新包较大（约 290M），建议在网络好的时候更新",
       "changelog": "v1227 端侧 ASR 模型换代 follow_v1(codex 线合入,owner 指令发布)：int8 四件套进包(ModelManager 落点 x-asr-follow-v1,SHA-256 校验,r1920 进 STALE_DIRS 待新模型就绪后清理);slim 本版暂带模型(289M)——OSS 兜底对象已由我补传并验证(models/x-asr/follow_v1/shared/ 四件 http200+哈希一致),下版可恢复剥模型;含 v1226 时间修",
       "publishedAtMs": 1783069770000
+    },
+    {
+      "version": 1228,
+      "versionName": "260703-0750-standard",
+      "userFacingChangelog": "纪要的 AI 改写修好了：改英文名字大小写不同也能一次改对",
+      "changelog": "v1228 纪要 AI 改写假成功修：LiteralRewrite 字面直通大小写敏感——'把rocky改为rokid'撞上正文'Rocky'不命中,落 LLM 路径后 markdown 改了但 visualJson 保留旧值,结构化视图看不到变化还提示成功;修=匹配与替换均大小写不敏感(Regex IGNORE_CASE),直通命中则 markdown+visual 双更新;补 LiteralRewriteTest 4 例",
+      "publishedAtMs": 1783090607000
     }
   ],
-  "publishedAtMs": 1783069770000,
+  "publishedAtMs": 1783090607000,
   "minSupported": 0
 }
