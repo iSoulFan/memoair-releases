@@ -1,20 +1,13 @@
 {
-  "version": 1225,
-  "versionName": "260702-2232-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1225-260702-2232-standard-slim.apk.bin",
+  "version": 1226,
+  "versionName": "260703-0147-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1226-260703-0147-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37657420,
-  "sha256": "2860b83ed12ddfe4f7b384319d2dac7b8a0eaab34917091ff68c2668ed961c79",
-  "changelog": "v1225 检索回声治理(A+B,owner 拍板)：A=PttWindows 记按住说话时间窗(±5s buffer/48h保留/悬空封顶3min),insertTranscript 重叠段打 chatEcho 标(DB v33 加列),检索 SQL 排除(LIKE 3条+FTS 2条+向量召回源);B=ChatEchoFilter 召回后回声过滤(bigram Dice,任何年龄≥0.66/30min新鲜段≥0.38,比对当前提问+最近12条用户消息),挂 chat 召回两路+search_transcripts 工具;时间窗/今天块不滤保持忠实还原",
-  "userFacingChangelog": "找原文更准了：AI 不再把你刚提的问题当作检索结果翻出来",
+  "sizeBytes": 37661516,
+  "sha256": "ebc4e6600309c1a6b6c1a538eb1f3c3f964509bd7caaf4f23daa1afb4aa3af6a",
+  "changelog": "v1226 AI 不知道钟点修：chat system prompt 只注入日期星期没有时刻,问'现在几点'AI 联网抓回过期缓存(用户实测14:52 vs 真实16:41)——注入手机本地 HH:mm(权威)+prompt 明令问时间直接答不许联网",
+  "userFacingChangelog": "AI 现在知道准确时间了，问几点直接答",
   "recentReleases": [
-    {
-      "version": 1175,
-      "versionName": "260624-0013-standard",
-      "userFacingChangelog": "暗色模式下分享拍立得的底部署名调暗了，不再刺眼。",
-      "changelog": "暗夜模式分享拍立得底部'由记得App AI生成'压暗(之前太亮)。",
-      "publishedAtMs": 1782231325000
-    },
     {
       "version": 1176,
       "versionName": "260624-0930-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "找原文更准了：AI 不再把你刚提的问题当作检索结果翻出来",
       "changelog": "v1225 检索回声治理(A+B,owner 拍板)：A=PttWindows 记按住说话时间窗(±5s buffer/48h保留/悬空封顶3min),insertTranscript 重叠段打 chatEcho 标(DB v33 加列),检索 SQL 排除(LIKE 3条+FTS 2条+向量召回源);B=ChatEchoFilter 召回后回声过滤(bigram Dice,任何年龄≥0.66/30min新鲜段≥0.38,比对当前提问+最近12条用户消息),挂 chat 召回两路+search_transcripts 工具;时间窗/今天块不滤保持忠实还原",
       "publishedAtMs": 1783056884000
+    },
+    {
+      "version": 1226,
+      "versionName": "260703-0147-standard",
+      "userFacingChangelog": "AI 现在知道准确时间了，问几点直接答",
+      "changelog": "v1226 AI 不知道钟点修：chat system prompt 只注入日期星期没有时刻,问'现在几点'AI 联网抓回过期缓存(用户实测14:52 vs 真实16:41)——注入手机本地 HH:mm(权威)+prompt 明令问时间直接答不许联网",
+      "publishedAtMs": 1783068586000
     }
   ],
-  "publishedAtMs": 1783056884000,
+  "publishedAtMs": 1783068586000,
   "minSupported": 0
 }
