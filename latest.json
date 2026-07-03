@@ -1,20 +1,13 @@
 {
-  "version": 1226,
-  "versionName": "260703-0147-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1226-260703-0147-standard-slim.apk.bin",
+  "version": 1227,
+  "versionName": "260703-0204-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1227-260703-0204-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37661516,
-  "sha256": "ebc4e6600309c1a6b6c1a538eb1f3c3f964509bd7caaf4f23daa1afb4aa3af6a",
-  "changelog": "v1226 AI 不知道钟点修：chat system prompt 只注入日期星期没有时刻,问'现在几点'AI 联网抓回过期缓存(用户实测14:52 vs 真实16:41)——注入手机本地 HH:mm(权威)+prompt 明令问时间直接答不许联网",
-  "userFacingChangelog": "AI 现在知道准确时间了，问几点直接答",
+  "sizeBytes": 293666323,
+  "sha256": "b4c5e09d7c80b003f41ffd28983949fdee111fc52f90757a70ca76fe812c237f",
+  "changelog": "v1227 端侧 ASR 模型换代 follow_v1(codex 线合入,owner 指令发布)：int8 四件套进包(ModelManager 落点 x-asr-follow-v1,SHA-256 校验,r1920 进 STALE_DIRS 待新模型就绪后清理);slim 本版暂带模型(289M)——OSS 兜底对象已由我补传并验证(models/x-asr/follow_v1/shared/ 四件 http200+哈希一致),下版可恢复剥模型;含 v1226 时间修",
+  "userFacingChangelog": "听力升级：换上了新一代语音识别模型，听得更准。本次更新包较大（约 290M），建议在网络好的时候更新",
   "recentReleases": [
-    {
-      "version": 1176,
-      "versionName": "260624-0930-standard",
-      "userFacingChangelog": "暗色模式下分享拍立得也出白天版了，更好看。",
-      "changelog": "分享拍立得始终出白天版(暗夜模式下也用亮色相纸,因夜晚版不好看)。",
-      "publishedAtMs": 1782264806000
-    },
     {
       "version": 1177,
       "versionName": "260624-0940-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "AI 现在知道准确时间了，问几点直接答",
       "changelog": "v1226 AI 不知道钟点修：chat system prompt 只注入日期星期没有时刻,问'现在几点'AI 联网抓回过期缓存(用户实测14:52 vs 真实16:41)——注入手机本地 HH:mm(权威)+prompt 明令问时间直接答不许联网",
       "publishedAtMs": 1783068586000
+    },
+    {
+      "version": 1227,
+      "versionName": "260703-0204-standard",
+      "userFacingChangelog": "听力升级：换上了新一代语音识别模型，听得更准。本次更新包较大（约 290M），建议在网络好的时候更新",
+      "changelog": "v1227 端侧 ASR 模型换代 follow_v1(codex 线合入,owner 指令发布)：int8 四件套进包(ModelManager 落点 x-asr-follow-v1,SHA-256 校验,r1920 进 STALE_DIRS 待新模型就绪后清理);slim 本版暂带模型(289M)——OSS 兜底对象已由我补传并验证(models/x-asr/follow_v1/shared/ 四件 http200+哈希一致),下版可恢复剥模型;含 v1226 时间修",
+      "publishedAtMs": 1783069770000
     }
   ],
-  "publishedAtMs": 1783068586000,
+  "publishedAtMs": 1783069770000,
   "minSupported": 0
 }
