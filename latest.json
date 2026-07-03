@@ -1,20 +1,13 @@
 {
-  "version": 1228,
-  "versionName": "260703-0750-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1228-260703-0750-standard-slim.apk.bin",
+  "version": 1229,
+  "versionName": "260703-0826-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1229-260703-0826-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 293666323,
-  "sha256": "385a788c9c33a69f2425d78b9ee38513e067e9502643c237d43b7b92df6034da",
-  "changelog": "v1228 纪要 AI 改写假成功修：LiteralRewrite 字面直通大小写敏感——'把rocky改为rokid'撞上正文'Rocky'不命中,落 LLM 路径后 markdown 改了但 visualJson 保留旧值,结构化视图看不到变化还提示成功;修=匹配与替换均大小写不敏感(Regex IGNORE_CASE),直通命中则 markdown+visual 双更新;补 LiteralRewriteTest 4 例",
-  "userFacingChangelog": "纪要的 AI 改写修好了：改英文名字大小写不同也能一次改对",
+  "sizeBytes": 293674590,
+  "sha256": "b503d9016567344daf36f623b91b52322e569dc3b2c0cff14cddbdb04e6e4b24",
+  "changelog": "v1229 是真的吗生成管线上线(规格照当时拍板)：两段式=①选材 is_it_true.txt(混合块扫最近2天带[今天][昨天]标签+45k字封顶,消费级可查证说法,健康法律政治严肃判断不碰,宁缺毋滥出NONE)②联网核实(chat enableSearch=true 模型自决搜索,verdict true/fake/dunno,unsure查不到不出卡)+揭晓2-5行;奇数日相位+48h冷却由既有闸管;此前 IsItTrue 分支硬编码返回 false,日志误报'LLM拒了提示词太严'",
+  "userFacingChangelog": "新卡「是真的吗？」开始工作了：听到可疑的说法，帮你查证后做成先猜后揭晓的小卡",
   "recentReleases": [
-    {
-      "version": 1178,
-      "versionName": "260624-0946-standard",
-      "userFacingChangelog": "分享拍立得的外框改成纯白了，发朋友圈跟白底融为一体。",
-      "changelog": "分享拍立得外框底色改纯白 #FFFFFF——发朋友圈时跟微信白底无缝融合(相纸本身仍暖白、靠阴影区分)。",
-      "publishedAtMs": 1782265723000
-    },
     {
       "version": 1179,
       "versionName": "260624-0951-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "纪要的 AI 改写修好了：改英文名字大小写不同也能一次改对",
       "changelog": "v1228 纪要 AI 改写假成功修：LiteralRewrite 字面直通大小写敏感——'把rocky改为rokid'撞上正文'Rocky'不命中,落 LLM 路径后 markdown 改了但 visualJson 保留旧值,结构化视图看不到变化还提示成功;修=匹配与替换均大小写不敏感(Regex IGNORE_CASE),直通命中则 markdown+visual 双更新;补 LiteralRewriteTest 4 例",
       "publishedAtMs": 1783090607000
+    },
+    {
+      "version": 1229,
+      "versionName": "260703-0826-standard",
+      "userFacingChangelog": "新卡「是真的吗？」开始工作了：听到可疑的说法，帮你查证后做成先猜后揭晓的小卡",
+      "changelog": "v1229 是真的吗生成管线上线(规格照当时拍板)：两段式=①选材 is_it_true.txt(混合块扫最近2天带[今天][昨天]标签+45k字封顶,消费级可查证说法,健康法律政治严肃判断不碰,宁缺毋滥出NONE)②联网核实(chat enableSearch=true 模型自决搜索,verdict true/fake/dunno,unsure查不到不出卡)+揭晓2-5行;奇数日相位+48h冷却由既有闸管;此前 IsItTrue 分支硬编码返回 false,日志误报'LLM拒了提示词太严'",
+      "publishedAtMs": 1783092716000
     }
   ],
-  "publishedAtMs": 1783090607000,
+  "publishedAtMs": 1783092716000,
   "minSupported": 0
 }
