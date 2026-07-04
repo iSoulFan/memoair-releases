@@ -1,20 +1,13 @@
 {
-  "version": 1230,
-  "versionName": "260703-0845-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1230-260703-0845-standard-slim.apk.bin",
+  "version": 1231,
+  "versionName": "260703-2220-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1231-260703-2220-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 293674590,
-  "sha256": "2c33639b8620bf85a6257ba097fa99fd1f1e4c69b37494defef3f1c00a708664",
-  "changelog": "v1230 纪要 AI 改写二修：字面直通触发门原来只看 markdown——结构化板块内容可超出 markdown('Rocky'只在 visualJson 里)时直通不触发,落 LLM 后 markdown 里也找不到→'没识别到要改哪里';改为 markdown 或 visualJson 任一命中即直通,visual 替换后做 JSON 合法性校验(坏了当没命中)",
-  "userFacingChangelog": "纪要 AI 改写：只出现在卡片板块里的词也能一次改对了",
+  "sha256": "f90893976831a0f713c36ed556f50815d79a96f54033b09f23034e6ec39e0b42",
+  "changelog": "v1231 回网即补：NetworkCatchup 注册系统网络回调(INTERNET+VALIDATED,manifest 补 ACCESS_NETWORK_STATE)——网络恢复+验证可用即自动跑 catchUpMissedAnchors(10min 防抖+5s 稳网延迟),依托连续记录 FGS 进程保活全天有效;进程死走既有闹钟/开App兜底;含 b2c6b1c 是真的吗进补漏名单",
+  "userFacingChangelog": "离线一天也不怕：网络恢复后，当天该收的卡片会自动补上，不用打开应用等",
   "recentReleases": [
-    {
-      "version": 1180,
-      "versionName": "260624-1004-standard",
-      "userFacingChangelog": "「那天的事」修了一个：别人抱怨的事不会再被写成你的烦恼了。",
-      "changelog": "那天的事 v2:归属门槛按内容私密度分级——别人的感受/抱怨(如找不到车位)不再误写成'你'的;拆掉'拿不准就当机主本人'这个误栽源,改成拿不准就无主语。",
-      "publishedAtMs": 1782266793000
-    },
     {
       "version": 1181,
       "versionName": "260624-1029-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "纪要 AI 改写：只出现在卡片板块里的词也能一次改对了",
       "changelog": "v1230 纪要 AI 改写二修：字面直通触发门原来只看 markdown——结构化板块内容可超出 markdown('Rocky'只在 visualJson 里)时直通不触发,落 LLM 后 markdown 里也找不到→'没识别到要改哪里';改为 markdown 或 visualJson 任一命中即直通,visual 替换后做 JSON 合法性校验(坏了当没命中)",
       "publishedAtMs": 1783093834000
+    },
+    {
+      "version": 1231,
+      "versionName": "260703-2220-standard",
+      "userFacingChangelog": "离线一天也不怕：网络恢复后，当天该收的卡片会自动补上，不用打开应用等",
+      "changelog": "v1231 回网即补：NetworkCatchup 注册系统网络回调(INTERNET+VALIDATED,manifest 补 ACCESS_NETWORK_STATE)——网络恢复+验证可用即自动跑 catchUpMissedAnchors(10min 防抖+5s 稳网延迟),依托连续记录 FGS 进程保活全天有效;进程死走既有闹钟/开App兜底;含 b2c6b1c 是真的吗进补漏名单",
+      "publishedAtMs": 1783142789000
     }
   ],
-  "publishedAtMs": 1783093834000,
+  "publishedAtMs": 1783142789000,
   "minSupported": 0
 }
