@@ -1,20 +1,13 @@
 {
-  "version": 1232,
-  "versionName": "260704-2218-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1232-260704-2218-standard-slim.apk.bin",
+  "version": 1233,
+  "versionName": "260705-0826-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1233-260705-0826-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 293674590,
-  "sha256": "f9f0eaf634e40014d179f535caca6ef947552378415599f3d7aa6a6289b78626",
-  "changelog": "v1232 拾梦相片空白双修：①生成时软化重试——文生图失败后换完全不同主体再试一次(复用排除已画主题机制,同句重试救不了审核拒图),caption 跟新图走 ②存量空白卡自愈 PolaroidBackfill——扫最近10张日报卡 imagePath 空/文件丢的换主题补图,挂 catchUpMissedAnchors 尾部(开App/闹钟/回网三路触发),每卡每天试一次+失败prompt进排除名单防打转",
-  "userFacingChangelog": "拾梦相片不再留空白：生成失败会自动换个主题重画；之前的空白相片也会自动补上图",
+  "sha256": "ed30551f5f996f6fa1cc420c7724ce2e7d5cfb1bc40fa3dc19bc607b0f597f06",
+  "changelog": "v1233 是真的吗质量二修(owner 报'钤还真是但揭晓说不准')：①选材健康类一票否决加硬——疾病成因/身体机理/治疗/用药/营养养生功效全排除+反例写进 prompt(胃食管反流这条本不该被选) ②核实判定加'绝对化断言+部分事实=夸大失真判fake'+输出前一致性自检(揭晓转折否定说法主体时禁判true)",
+  "userFacingChangelog": "「是真的吗」判定更严谨了：说得太绝对的说法不再被判为真",
   "recentReleases": [
-    {
-      "version": 1182,
-      "versionName": "260624-1653-standard",
-      "userFacingChangelog": "声纹注册简化成只录一遍了，台词也改得更自然、顺带告诉你头一天怎么用。",
-      "changelog": "声纹注册砍成只录一遍(多录意义不大还增门槛)+台词改成自然的自言自语版(不再像念诗、含初次使用引导)。",
-      "publishedAtMs": 1782291463000
-    },
     {
       "version": 1183,
       "versionName": "260624-1726-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "拾梦相片不再留空白：生成失败会自动换个主题重画；之前的空白相片也会自动补上图",
       "changelog": "v1232 拾梦相片空白双修：①生成时软化重试——文生图失败后换完全不同主体再试一次(复用排除已画主题机制,同句重试救不了审核拒图),caption 跟新图走 ②存量空白卡自愈 PolaroidBackfill——扫最近10张日报卡 imagePath 空/文件丢的换主题补图,挂 catchUpMissedAnchors 尾部(开App/闹钟/回网三路触发),每卡每天试一次+失败prompt进排除名单防打转",
       "publishedAtMs": 1783229068000
+    },
+    {
+      "version": 1233,
+      "versionName": "260705-0826-standard",
+      "userFacingChangelog": "「是真的吗」判定更严谨了：说得太绝对的说法不再被判为真",
+      "changelog": "v1233 是真的吗质量二修(owner 报'钤还真是但揭晓说不准')：①选材健康类一票否决加硬——疾病成因/身体机理/治疗/用药/营养养生功效全排除+反例写进 prompt(胃食管反流这条本不该被选) ②核实判定加'绝对化断言+部分事实=夸大失真判fake'+输出前一致性自检(揭晓转折否定说法主体时禁判true)",
+      "publishedAtMs": 1783265568000
     }
   ],
-  "publishedAtMs": 1783229068000,
+  "publishedAtMs": 1783265568000,
   "minSupported": 0
 }
