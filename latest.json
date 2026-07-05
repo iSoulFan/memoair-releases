@@ -1,20 +1,13 @@
 {
-  "version": 1231,
-  "versionName": "260703-2220-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1231-260703-2220-standard-slim.apk.bin",
+  "version": 1232,
+  "versionName": "260704-2218-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1232-260704-2218-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 293674590,
-  "sha256": "f90893976831a0f713c36ed556f50815d79a96f54033b09f23034e6ec39e0b42",
-  "changelog": "v1231 回网即补：NetworkCatchup 注册系统网络回调(INTERNET+VALIDATED,manifest 补 ACCESS_NETWORK_STATE)——网络恢复+验证可用即自动跑 catchUpMissedAnchors(10min 防抖+5s 稳网延迟),依托连续记录 FGS 进程保活全天有效;进程死走既有闹钟/开App兜底;含 b2c6b1c 是真的吗进补漏名单",
-  "userFacingChangelog": "离线一天也不怕：网络恢复后，当天该收的卡片会自动补上，不用打开应用等",
+  "sha256": "f9f0eaf634e40014d179f535caca6ef947552378415599f3d7aa6a6289b78626",
+  "changelog": "v1232 拾梦相片空白双修：①生成时软化重试——文生图失败后换完全不同主体再试一次(复用排除已画主题机制,同句重试救不了审核拒图),caption 跟新图走 ②存量空白卡自愈 PolaroidBackfill——扫最近10张日报卡 imagePath 空/文件丢的换主题补图,挂 catchUpMissedAnchors 尾部(开App/闹钟/回网三路触发),每卡每天试一次+失败prompt进排除名单防打转",
+  "userFacingChangelog": "拾梦相片不再留空白：生成失败会自动换个主题重画；之前的空白相片也会自动补上图",
   "recentReleases": [
-    {
-      "version": 1181,
-      "versionName": "260624-1029-standard",
-      "userFacingChangelog": "「那天的事」现在会参考声纹判断:具体事件优先写声纹觉得是你做的,别人的事不再硬安给你。",
-      "changelog": "那天的事 v2 引入声纹软提示(B方案)：每行带[像你说的]/[像旁人]/[不确定]标签,写'你做了X'优先挑声纹觉得是你的、旁人的事件不写成你;但内容明显是你自述可盖过(治误判);软提示不硬卡所以内容不会急剧变少。",
-      "publishedAtMs": 1782268301000
-    },
     {
       "version": 1182,
       "versionName": "260624-1653-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "离线一天也不怕：网络恢复后，当天该收的卡片会自动补上，不用打开应用等",
       "changelog": "v1231 回网即补：NetworkCatchup 注册系统网络回调(INTERNET+VALIDATED,manifest 补 ACCESS_NETWORK_STATE)——网络恢复+验证可用即自动跑 catchUpMissedAnchors(10min 防抖+5s 稳网延迟),依托连续记录 FGS 进程保活全天有效;进程死走既有闹钟/开App兜底;含 b2c6b1c 是真的吗进补漏名单",
       "publishedAtMs": 1783142789000
+    },
+    {
+      "version": 1232,
+      "versionName": "260704-2218-standard",
+      "userFacingChangelog": "拾梦相片不再留空白：生成失败会自动换个主题重画；之前的空白相片也会自动补上图",
+      "changelog": "v1232 拾梦相片空白双修：①生成时软化重试——文生图失败后换完全不同主体再试一次(复用排除已画主题机制,同句重试救不了审核拒图),caption 跟新图走 ②存量空白卡自愈 PolaroidBackfill——扫最近10张日报卡 imagePath 空/文件丢的换主题补图,挂 catchUpMissedAnchors 尾部(开App/闹钟/回网三路触发),每卡每天试一次+失败prompt进排除名单防打转",
+      "publishedAtMs": 1783229068000
     }
   ],
-  "publishedAtMs": 1783142789000,
+  "publishedAtMs": 1783229068000,
   "minSupported": 0
 }
