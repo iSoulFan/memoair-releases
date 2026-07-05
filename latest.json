@@ -1,20 +1,13 @@
 {
-  "version": 1233,
-  "versionName": "260705-0826-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1233-260705-0826-standard-slim.apk.bin",
+  "version": 1234,
+  "versionName": "260705-0847-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1234-260705-0847-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 293674590,
-  "sha256": "ed30551f5f996f6fa1cc420c7724ce2e7d5cfb1bc40fa3dc19bc607b0f597f06",
-  "changelog": "v1233 是真的吗质量二修(owner 报'钤还真是但揭晓说不准')：①选材健康类一票否决加硬——疾病成因/身体机理/治疗/用药/营养养生功效全排除+反例写进 prompt(胃食管反流这条本不该被选) ②核实判定加'绝对化断言+部分事实=夸大失真判fake'+输出前一致性自检(揭晓转折否定说法主体时禁判true)",
-  "userFacingChangelog": "「是真的吗」判定更严谨了：说得太绝对的说法不再被判为真",
+  "sha256": "a0debe84e60c17d0eeb088fb410fabf9780ba3ace9a48c1682f7c268d29b30e9",
+  "changelog": "v1234 是真的吗判定档位修正(owner 定)：'不好说'=看情况档,涵盖两类——①客观无定论 ②半真半假(绝对化表述+事实是两者都有/分场合,揭晓讲清哪对哪过头);fake 收窄为主体断言基本不实/纯以讹传讹;撤回 v1233'绝对化一律判fake'的过狠规则;健康一票否决+一致性自检保留",
+  "userFacingChangelog": "「是真的吗」的'不好说'档位现在会正确接住半真半假的说法",
   "recentReleases": [
-    {
-      "version": 1183,
-      "versionName": "260624-1726-standard",
-      "userFacingChangelog": "声纹注册的台词换成定稿版了——更自然、读着舒服。",
-      "changelog": "声纹注册台词定稿——更自然、温暖、安全感的自言自语版(替你把今天好好收着)。",
-      "publishedAtMs": 1782293329000
-    },
     {
       "version": 1184,
       "versionName": "260625-1040-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「是真的吗」判定更严谨了：说得太绝对的说法不再被判为真",
       "changelog": "v1233 是真的吗质量二修(owner 报'钤还真是但揭晓说不准')：①选材健康类一票否决加硬——疾病成因/身体机理/治疗/用药/营养养生功效全排除+反例写进 prompt(胃食管反流这条本不该被选) ②核实判定加'绝对化断言+部分事实=夸大失真判fake'+输出前一致性自检(揭晓转折否定说法主体时禁判true)",
       "publishedAtMs": 1783265568000
+    },
+    {
+      "version": 1234,
+      "versionName": "260705-0847-standard",
+      "userFacingChangelog": "「是真的吗」的'不好说'档位现在会正确接住半真半假的说法",
+      "changelog": "v1234 是真的吗判定档位修正(owner 定)：'不好说'=看情况档,涵盖两类——①客观无定论 ②半真半假(绝对化表述+事实是两者都有/分场合,揭晓讲清哪对哪过头);fake 收窄为主体断言基本不实/纯以讹传讹;撤回 v1233'绝对化一律判fake'的过狠规则;健康一票否决+一致性自检保留",
+      "publishedAtMs": 1783266791000
     }
   ],
-  "publishedAtMs": 1783265568000,
+  "publishedAtMs": 1783266791000,
   "minSupported": 0
 }
