@@ -1,20 +1,13 @@
 {
-  "version": 1237,
-  "versionName": "260705-2015-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1237-260705-2015-standard-slim.apk.bin",
+  "version": 1238,
+  "versionName": "260706-0257-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1238-260706-0257-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37677975,
-  "sha256": "8e1b0a0a8b134f0c470d34b163780dcbb960f4f60a27978cfafb9cbd16f4611a",
-  "changelog": "v1237 slim 恢复瘦身(36M)：make_slim_apk.sh TARGETS 加回 assets/models/x-asr/*——follow_v1 四件套已在 OSS(v1227 时补传+哈希验证),缺模型设备走 ModelManager.refresh 的 startDownload 自动兜底,旧模型等新模型就位才清;跳级用户(≤v1226 直升本版)后台自动拉模型期间 PTT 退平台识别、记录段排队不丢",
-  "userFacingChangelog": "更新包瘦身回 36MB——之前几版带着新语音模型所以特别大，模型已上云端仓库，以后缺的设备会自动补拉",
+  "sizeBytes": 37673879,
+  "sha256": "c9ce482ae1bea7fabb3cecf4c66a4665c4265e268f2f9d4d1b464127029a6fe3",
+  "changelog": "v1238 开机引导两处视觉修(owner)：①首页删顶部 ITERATION 构建号 kicker ②权限页'✓已授权'去斜体,对齐电池白名单页'已完成'小字样式(labelMedium 13sp Medium 字距0.5)",
+  "userFacingChangelog": "开机引导页面细节优化",
   "recentReleases": [
-    {
-      "version": 1187,
-      "versionName": "260625-1246-standard",
-      "userFacingChangelog": "一些温柔的小改进。",
-      "changelog": "稳定性与陪伴体验优化。",
-      "publishedAtMs": 1782362924000
-    },
     {
       "version": 1188,
       "versionName": "260625-1253-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "更新包瘦身回 36MB——之前几版带着新语音模型所以特别大，模型已上云端仓库，以后缺的设备会自动补拉",
       "changelog": "v1237 slim 恢复瘦身(36M)：make_slim_apk.sh TARGETS 加回 assets/models/x-asr/*——follow_v1 四件套已在 OSS(v1227 时补传+哈希验证),缺模型设备走 ModelManager.refresh 的 startDownload 自动兜底,旧模型等新模型就位才清;跳级用户(≤v1226 直升本版)后台自动拉模型期间 PTT 退平台识别、记录段排队不丢",
       "publishedAtMs": 1783307846000
+    },
+    {
+      "version": 1238,
+      "versionName": "260706-0257-standard",
+      "userFacingChangelog": "开机引导页面细节优化",
+      "changelog": "v1238 开机引导两处视觉修(owner)：①首页删顶部 ITERATION 构建号 kicker ②权限页'✓已授权'去斜体,对齐电池白名单页'已完成'小字样式(labelMedium 13sp Medium 字距0.5)",
+      "publishedAtMs": 1783332038000
     }
   ],
-  "publishedAtMs": 1783307846000,
+  "publishedAtMs": 1783332038000,
   "minSupported": 0
 }
