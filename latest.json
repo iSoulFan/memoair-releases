@@ -1,20 +1,13 @@
 {
-  "version": 1234,
-  "versionName": "260705-0847-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1234-260705-0847-standard-slim.apk.bin",
+  "version": 1235,
+  "versionName": "260705-1927-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1235-260705-1927-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 293674590,
-  "sha256": "a0debe84e60c17d0eeb088fb410fabf9780ba3ace9a48c1682f7c268d29b30e9",
-  "changelog": "v1234 是真的吗判定档位修正(owner 定)：'不好说'=看情况档,涵盖两类——①客观无定论 ②半真半假(绝对化表述+事实是两者都有/分场合,揭晓讲清哪对哪过头);fake 收窄为主体断言基本不实/纯以讹传讹;撤回 v1233'绝对化一律判fake'的过狠规则;健康一票否决+一致性自检保留",
-  "userFacingChangelog": "「是真的吗」的'不好说'档位现在会正确接住半真半假的说法",
+  "sizeBytes": 293678686,
+  "sha256": "797b22c0c96bfe7ca66be893b0a15544faacc199d47a65fe4026f405f9279987",
+  "changelog": "v1235 本地知识库检索打通+来源打标(owner 拍板 A+区分要求)：①DB v34 meetings/memories 加 source 列(''=亲历,upload_doc/upload_audio=上传;存量上传纪要按📄/🎙️前缀回填) ②DocumentImporter 双存打标 ③新 chat 动作 read_meeting(按id拉全文,8000字封顶,带来源标)+search_meetings(关键词搜标题正文) ④注入标注:纪要列表带〔上传文档/音频〕、记忆条目带〔来自上传文档〕+引用口径硬规则(资料只能说'你上传的文档里提到',禁说成亲身说过)",
+  "userFacingChangelog": "上传的文件现在真能被 AI 检索和引用了；AI 会分清哪些是你说过的话、哪些是你上传的资料",
   "recentReleases": [
-    {
-      "version": 1184,
-      "versionName": "260625-1040-standard",
-      "userFacingChangelog": "一些幕后的稳定性优化。",
-      "changelog": "稳定性与内部维护优化。",
-      "publishedAtMs": 1782355371000
-    },
     {
       "version": 1185,
       "versionName": "260625-1136-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「是真的吗」的'不好说'档位现在会正确接住半真半假的说法",
       "changelog": "v1234 是真的吗判定档位修正(owner 定)：'不好说'=看情况档,涵盖两类——①客观无定论 ②半真半假(绝对化表述+事实是两者都有/分场合,揭晓讲清哪对哪过头);fake 收窄为主体断言基本不实/纯以讹传讹;撤回 v1233'绝对化一律判fake'的过狠规则;健康一票否决+一致性自检保留",
       "publishedAtMs": 1783266791000
+    },
+    {
+      "version": 1235,
+      "versionName": "260705-1927-standard",
+      "userFacingChangelog": "上传的文件现在真能被 AI 检索和引用了；AI 会分清哪些是你说过的话、哪些是你上传的资料",
+      "changelog": "v1235 本地知识库检索打通+来源打标(owner 拍板 A+区分要求)：①DB v34 meetings/memories 加 source 列(''=亲历,upload_doc/upload_audio=上传;存量上传纪要按📄/🎙️前缀回填) ②DocumentImporter 双存打标 ③新 chat 动作 read_meeting(按id拉全文,8000字封顶,带来源标)+search_meetings(关键词搜标题正文) ④注入标注:纪要列表带〔上传文档/音频〕、记忆条目带〔来自上传文档〕+引用口径硬规则(资料只能说'你上传的文档里提到',禁说成亲身说过)",
+      "publishedAtMs": 1783305206000
     }
   ],
-  "publishedAtMs": 1783266791000,
+  "publishedAtMs": 1783305206000,
   "minSupported": 0
 }
