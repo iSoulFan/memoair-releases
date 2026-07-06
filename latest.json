@@ -1,20 +1,13 @@
 {
-  "version": 1238,
-  "versionName": "260706-0257-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1238-260706-0257-standard-slim.apk.bin",
+  "version": 1239,
+  "versionName": "260706-0842-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1239-260706-0842-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37673879,
-  "sha256": "c9ce482ae1bea7fabb3cecf4c66a4665c4265e268f2f9d4d1b464127029a6fe3",
-  "changelog": "v1238 开机引导两处视觉修(owner)：①首页删顶部 ITERATION 构建号 kicker ②权限页'✓已授权'去斜体,对齐电池白名单页'已完成'小字样式(labelMedium 13sp Medium 字距0.5)",
-  "userFacingChangelog": "开机引导页面细节优化",
+  "sizeBytes": 37677975,
+  "sha256": "e8d98884907b2b799ebacd48dbfa141e60ed8187811772dbd51075be8f6db5f0",
+  "changelog": "v1239 上线形态文案兼容①③④⑤+言外之意收紧(owner)：①引导麦克风卡去'唯一的输入/不上传任何服务器'改'记录和对话都需要它/音频默认留在本地' ③隐私规则第2条加'默认'+云端模式例外说明 ④云端档描述去 BYOK 工程词 ⑤本地档更名'本地处理优先'；言外之意=字面一致性测试硬闸(直抒胸臆/观点/事实陈述必空)+禁'挖动机+心理判断+行动建议'套路+反例进 prompt+频率压到'一周一两条已算多'",
+  "userFacingChangelog": "文案更严谨了；「言外之意」不再对直白的话强行解读，只在话里真有话时出现",
   "recentReleases": [
-    {
-      "version": 1188,
-      "versionName": "260625-1253-standard",
-      "userFacingChangelog": "一些温柔的小改进。",
-      "changelog": "稳定性与陪伴体验优化。",
-      "publishedAtMs": 1782363325000
-    },
     {
       "version": 1189,
       "versionName": "260625-1302-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "开机引导页面细节优化",
       "changelog": "v1238 开机引导两处视觉修(owner)：①首页删顶部 ITERATION 构建号 kicker ②权限页'✓已授权'去斜体,对齐电池白名单页'已完成'小字样式(labelMedium 13sp Medium 字距0.5)",
       "publishedAtMs": 1783332038000
+    },
+    {
+      "version": 1239,
+      "versionName": "260706-0842-standard",
+      "userFacingChangelog": "文案更严谨了；「言外之意」不再对直白的话强行解读，只在话里真有话时出现",
+      "changelog": "v1239 上线形态文案兼容①③④⑤+言外之意收紧(owner)：①引导麦克风卡去'唯一的输入/不上传任何服务器'改'记录和对话都需要它/音频默认留在本地' ③隐私规则第2条加'默认'+云端模式例外说明 ④云端档描述去 BYOK 工程词 ⑤本地档更名'本地处理优先'；言外之意=字面一致性测试硬闸(直抒胸臆/观点/事实陈述必空)+禁'挖动机+心理判断+行动建议'套路+反例进 prompt+频率压到'一周一两条已算多'",
+      "publishedAtMs": 1783352755000
     }
   ],
-  "publishedAtMs": 1783332038000,
+  "publishedAtMs": 1783352755000,
   "minSupported": 0
 }
