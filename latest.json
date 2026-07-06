@@ -1,20 +1,13 @@
 {
-  "version": 1236,
-  "versionName": "260705-1955-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1236-260705-1955-standard-slim.apk.bin",
+  "version": 1237,
+  "versionName": "260705-2015-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1237-260705-2015-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 293678686,
-  "sha256": "aacfbb0a574d6a481f80dd0a5c7510d160f4eacadc83caf36f48efbd64773b51",
-  "changelog": "v1236 上传附件测试反馈两修(owner 分诊拍板)：①二次导入选择页闪退防御——弹层收起与拉 SAF 选择器不再同帧(收起后缓300ms),加 DocImport 诊断日志(launch/null回调) ②导入失败补对话内 AI 回复(原因+支持格式),不再只弹 toast 已读不回;置灰无提示=系统选择器行为维持现状,标签变白=系统页面不处理",
-  "userFacingChangelog": "上传文件失败时会在对话里告诉你原因；修了再次导入时选择页闪退的问题",
+  "sizeBytes": 37677975,
+  "sha256": "8e1b0a0a8b134f0c470d34b163780dcbb960f4f60a27978cfafb9cbd16f4611a",
+  "changelog": "v1237 slim 恢复瘦身(36M)：make_slim_apk.sh TARGETS 加回 assets/models/x-asr/*——follow_v1 四件套已在 OSS(v1227 时补传+哈希验证),缺模型设备走 ModelManager.refresh 的 startDownload 自动兜底,旧模型等新模型就位才清;跳级用户(≤v1226 直升本版)后台自动拉模型期间 PTT 退平台识别、记录段排队不丢",
+  "userFacingChangelog": "更新包瘦身回 36MB——之前几版带着新语音模型所以特别大，模型已上云端仓库，以后缺的设备会自动补拉",
   "recentReleases": [
-    {
-      "version": 1186,
-      "versionName": "260625-1211-standard",
-      "userFacingChangelog": "一些幕后的优化。",
-      "changelog": "稳定性与内部维护优化。",
-      "publishedAtMs": 1782360814000
-    },
     {
       "version": 1187,
       "versionName": "260625-1246-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "上传文件失败时会在对话里告诉你原因；修了再次导入时选择页闪退的问题",
       "changelog": "v1236 上传附件测试反馈两修(owner 分诊拍板)：①二次导入选择页闪退防御——弹层收起与拉 SAF 选择器不再同帧(收起后缓300ms),加 DocImport 诊断日志(launch/null回调) ②导入失败补对话内 AI 回复(原因+支持格式),不再只弹 toast 已读不回;置灰无提示=系统选择器行为维持现状,标签变白=系统页面不处理",
       "publishedAtMs": 1783306837000
+    },
+    {
+      "version": 1237,
+      "versionName": "260705-2015-standard",
+      "userFacingChangelog": "更新包瘦身回 36MB——之前几版带着新语音模型所以特别大，模型已上云端仓库，以后缺的设备会自动补拉",
+      "changelog": "v1237 slim 恢复瘦身(36M)：make_slim_apk.sh TARGETS 加回 assets/models/x-asr/*——follow_v1 四件套已在 OSS(v1227 时补传+哈希验证),缺模型设备走 ModelManager.refresh 的 startDownload 自动兜底,旧模型等新模型就位才清;跳级用户(≤v1226 直升本版)后台自动拉模型期间 PTT 退平台识别、记录段排队不丢",
+      "publishedAtMs": 1783307846000
     }
   ],
-  "publishedAtMs": 1783306837000,
+  "publishedAtMs": 1783307846000,
   "minSupported": 0
 }
