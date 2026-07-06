@@ -1,20 +1,13 @@
 {
-  "version": 1235,
-  "versionName": "260705-1927-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1235-260705-1927-standard-slim.apk.bin",
+  "version": 1236,
+  "versionName": "260705-1955-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1236-260705-1955-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 293678686,
-  "sha256": "797b22c0c96bfe7ca66be893b0a15544faacc199d47a65fe4026f405f9279987",
-  "changelog": "v1235 本地知识库检索打通+来源打标(owner 拍板 A+区分要求)：①DB v34 meetings/memories 加 source 列(''=亲历,upload_doc/upload_audio=上传;存量上传纪要按📄/🎙️前缀回填) ②DocumentImporter 双存打标 ③新 chat 动作 read_meeting(按id拉全文,8000字封顶,带来源标)+search_meetings(关键词搜标题正文) ④注入标注:纪要列表带〔上传文档/音频〕、记忆条目带〔来自上传文档〕+引用口径硬规则(资料只能说'你上传的文档里提到',禁说成亲身说过)",
-  "userFacingChangelog": "上传的文件现在真能被 AI 检索和引用了；AI 会分清哪些是你说过的话、哪些是你上传的资料",
+  "sha256": "aacfbb0a574d6a481f80dd0a5c7510d160f4eacadc83caf36f48efbd64773b51",
+  "changelog": "v1236 上传附件测试反馈两修(owner 分诊拍板)：①二次导入选择页闪退防御——弹层收起与拉 SAF 选择器不再同帧(收起后缓300ms),加 DocImport 诊断日志(launch/null回调) ②导入失败补对话内 AI 回复(原因+支持格式),不再只弹 toast 已读不回;置灰无提示=系统选择器行为维持现状,标签变白=系统页面不处理",
+  "userFacingChangelog": "上传文件失败时会在对话里告诉你原因；修了再次导入时选择页闪退的问题",
   "recentReleases": [
-    {
-      "version": 1185,
-      "versionName": "260625-1136-standard",
-      "userFacingChangelog": "一些幕后的优化。",
-      "changelog": "稳定性与反馈体验优化。",
-      "publishedAtMs": 1782358710000
-    },
     {
       "version": 1186,
       "versionName": "260625-1211-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "上传的文件现在真能被 AI 检索和引用了；AI 会分清哪些是你说过的话、哪些是你上传的资料",
       "changelog": "v1235 本地知识库检索打通+来源打标(owner 拍板 A+区分要求)：①DB v34 meetings/memories 加 source 列(''=亲历,upload_doc/upload_audio=上传;存量上传纪要按📄/🎙️前缀回填) ②DocumentImporter 双存打标 ③新 chat 动作 read_meeting(按id拉全文,8000字封顶,带来源标)+search_meetings(关键词搜标题正文) ④注入标注:纪要列表带〔上传文档/音频〕、记忆条目带〔来自上传文档〕+引用口径硬规则(资料只能说'你上传的文档里提到',禁说成亲身说过)",
       "publishedAtMs": 1783305206000
+    },
+    {
+      "version": 1236,
+      "versionName": "260705-1955-standard",
+      "userFacingChangelog": "上传文件失败时会在对话里告诉你原因；修了再次导入时选择页闪退的问题",
+      "changelog": "v1236 上传附件测试反馈两修(owner 分诊拍板)：①二次导入选择页闪退防御——弹层收起与拉 SAF 选择器不再同帧(收起后缓300ms),加 DocImport 诊断日志(launch/null回调) ②导入失败补对话内 AI 回复(原因+支持格式),不再只弹 toast 已读不回;置灰无提示=系统选择器行为维持现状,标签变白=系统页面不处理",
+      "publishedAtMs": 1783306837000
     }
   ],
-  "publishedAtMs": 1783305206000,
+  "publishedAtMs": 1783306837000,
   "minSupported": 0
 }
