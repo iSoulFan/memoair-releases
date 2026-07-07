@@ -1,20 +1,13 @@
 {
-  "version": 1251,
-  "versionName": "260707-0312-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1251-260707-0312-standard-slim.apk.bin",
+  "version": 1252,
+  "versionName": "260707-0613-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1252-260707-0613-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37706647,
-  "sha256": "38eb530b92f57c18907723df79ffb980caacb94f565a130c4db9530eefad0a31",
-  "changelog": "v1251 飞行落点实时跟踪(owner 报首装第一次落点偏左后闪跳)：根因=首帧胶囊布局未稳(计时文字后到挤走绿点)而落点只抓一次;改为存起点+兜底落点,绘制时每帧读 pillDotCenterWindow 重算 onbFlightPath,绿点中途挪位轨迹平滑跟随,落点脉冲也取落地瞬间实时坐标",
-  "userFacingChangelog": "收尾光点的落点更准了：现在整个飞行过程都在实时跟着记录胶囊里绿点的真实位置，界面首次加载时的位置微调也不会让它落偏。",
+  "sizeBytes": 37710743,
+  "sha256": "fcc557b717eae6c23a078e6545a4cf5d2819fb34fe58a95559e8998e24b6f9ff",
+  "changelog": "v1252 合规 P0 四项(工具化收敛)：①AI 图片水印 AiWatermark.burnInto 烧进拾梦图 bitmap 本体(白60%/字号3.5%图宽/_aig标记)+5处分享图落款'内容由 AI 生成'②Chat 人设普通版收敛为回答风格5档(简洁/温和/直接/详细/结构化),relation/aiName 不注入不展示,PersonaInterviewer 隐藏,存量方案A自动映射一次性幂等,PasscodeAuth.isAdmin 双层gate,admin 全保留③文案降温:来信陪伴档下线(5→4语气)+安慰档改'整理事实+现实视角'+全局清'我在/抱抱/陪你/想念'类拟人亲密词14处(在场事实性表述保留)④新增'主动联系我'总开关 ProactiveContactPrefs(默认开)统一13条主动路径+静夜22-08扩全部,闲聊类SoftPush(冷知识/英语/节日/回声)白名单停发,功能性通知(OTA/前台/闹钟/回复)明确不管",
+  "userFacingChangelog": "这次是一批产品定位打磨:AI 生成的图片和分享卡现在都带'AI 生成'标识;对话风格设置更清爽(简洁/温和/直接/详细/结构化五档);部分文案表达更朴实;新增「主动联系我」总开关,不想被打扰时一键安静。",
   "recentReleases": [
-    {
-      "version": 1202,
-      "versionName": "260627-0853-standard",
-      "userFacingChangelog": "一些幕后的优化。",
-      "changelog": "稳定性与内部维护优化。",
-      "publishedAtMs": 1782521786000
-    },
     {
       "version": 1203,
       "versionName": "260627-1016-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "收尾光点的落点更准了：现在整个飞行过程都在实时跟着记录胶囊里绿点的真实位置，界面首次加载时的位置微调也不会让它落偏。",
       "changelog": "v1251 飞行落点实时跟踪(owner 报首装第一次落点偏左后闪跳)：根因=首帧胶囊布局未稳(计时文字后到挤走绿点)而落点只抓一次;改为存起点+兜底落点,绘制时每帧读 pillDotCenterWindow 重算 onbFlightPath,绿点中途挪位轨迹平滑跟随,落点脉冲也取落地瞬间实时坐标",
       "publishedAtMs": 1783419298000
+    },
+    {
+      "version": 1252,
+      "versionName": "260707-0613-standard",
+      "userFacingChangelog": "这次是一批产品定位打磨:AI 生成的图片和分享卡现在都带'AI 生成'标识;对话风格设置更清爽(简洁/温和/直接/详细/结构化五档);部分文案表达更朴实;新增「主动联系我」总开关,不想被打扰时一键安静。",
+      "changelog": "v1252 合规 P0 四项(工具化收敛)：①AI 图片水印 AiWatermark.burnInto 烧进拾梦图 bitmap 本体(白60%/字号3.5%图宽/_aig标记)+5处分享图落款'内容由 AI 生成'②Chat 人设普通版收敛为回答风格5档(简洁/温和/直接/详细/结构化),relation/aiName 不注入不展示,PersonaInterviewer 隐藏,存量方案A自动映射一次性幂等,PasscodeAuth.isAdmin 双层gate,admin 全保留③文案降温:来信陪伴档下线(5→4语气)+安慰档改'整理事实+现实视角'+全局清'我在/抱抱/陪你/想念'类拟人亲密词14处(在场事实性表述保留)④新增'主动联系我'总开关 ProactiveContactPrefs(默认开)统一13条主动路径+静夜22-08扩全部,闲聊类SoftPush(冷知识/英语/节日/回声)白名单停发,功能性通知(OTA/前台/闹钟/回复)明确不管",
+      "publishedAtMs": 1783430210000
     }
   ],
-  "publishedAtMs": 1783419298000,
+  "publishedAtMs": 1783430210000,
   "minSupported": 0
 }
