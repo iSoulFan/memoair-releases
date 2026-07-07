@@ -1,20 +1,13 @@
 {
-  "version": 1246,
-  "versionName": "260707-0018-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1246-260707-0018-standard-slim.apk.bin",
+  "version": 1247,
+  "versionName": "260707-0026-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1247-260707-0026-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37706647,
-  "sha256": "962d2e8138fc887c609cf6c2f34a095ea215ff9dde258605b686f1db19a26af3",
-  "changelog": "v1246 声纹页引擎下载闭环(owner 定:声纹必录不许跳过)：引擎未就绪 CTA 改「先下载声音引擎」可点=当场 startDownload 三引擎(ModelManager/VadSplitter/SpeakerEmbedder,挪 IO 防同步哈希卡帧)→「引擎下载中·NN%」(三引擎完成度均值)→就绪自动变「开始录制」；下载失败 CTA 复原+提示行；删「跳过声纹」链接及 finishWithSkip 路径",
-  "userFacingChangelog": "声音引导页更顺了：如果声音引擎还没准备好，按钮会直接变成「先下载声音引擎」，点一下当场下载、进度实时显示，好了自动变成「开始录制」。",
+  "sha256": "f6a26e482355db266f1405ef317cd6aaa1e7733da9192bfb8caa0e5b49ff0dc6",
+  "changelog": "v1247 声纹页三连修(owner 反馈)：①进度%来回跳修复=显示层只进不退取峰值(ModelManager 单文件进度换文件回落被均值放大)+文案改「声音引擎准备中·NN%」②下载完还要多点一步修复=引擎状态懒加载,进页 latch(ASR isReady 才走 startDownload 早退,VAD/EMB refresh)+下载停且无错未就绪时自动补锁 LaunchedEffect ③CTA 朗读光晕不贴按钮修复=去掉多余 6dp 全局外扩,3dp 环紧贴按钮边缘",
+  "userFacingChangelog": "声音引导页打磨了三处：下载进度不再来回跳、下载完按钮直接变成开始录制、朗读时的光晕现在紧贴着按钮。",
   "recentReleases": [
-    {
-      "version": 1197,
-      "versionName": "260626-2216-standard",
-      "userFacingChangelog": "一些幕后的优化。",
-      "changelog": "稳定性与内部维护优化。",
-      "publishedAtMs": 1782483565000
-    },
     {
       "version": 1198,
       "versionName": "260626-2326-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "声音引导页更顺了：如果声音引擎还没准备好，按钮会直接变成「先下载声音引擎」，点一下当场下载、进度实时显示，好了自动变成「开始录制」。",
       "changelog": "v1246 声纹页引擎下载闭环(owner 定:声纹必录不许跳过)：引擎未就绪 CTA 改「先下载声音引擎」可点=当场 startDownload 三引擎(ModelManager/VadSplitter/SpeakerEmbedder,挪 IO 防同步哈希卡帧)→「引擎下载中·NN%」(三引擎完成度均值)→就绪自动变「开始录制」；下载失败 CTA 复原+提示行；删「跳过声纹」链接及 finishWithSkip 路径",
       "publishedAtMs": 1783408826000
+    },
+    {
+      "version": 1247,
+      "versionName": "260707-0026-standard",
+      "userFacingChangelog": "声音引导页打磨了三处：下载进度不再来回跳、下载完按钮直接变成开始录制、朗读时的光晕现在紧贴着按钮。",
+      "changelog": "v1247 声纹页三连修(owner 反馈)：①进度%来回跳修复=显示层只进不退取峰值(ModelManager 单文件进度换文件回落被均值放大)+文案改「声音引擎准备中·NN%」②下载完还要多点一步修复=引擎状态懒加载,进页 latch(ASR isReady 才走 startDownload 早退,VAD/EMB refresh)+下载停且无错未就绪时自动补锁 LaunchedEffect ③CTA 朗读光晕不贴按钮修复=去掉多余 6dp 全局外扩,3dp 环紧贴按钮边缘",
+      "publishedAtMs": 1783409663000
     }
   ],
-  "publishedAtMs": 1783408826000,
+  "publishedAtMs": 1783409663000,
   "minSupported": 0
 }
