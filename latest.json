@@ -1,20 +1,13 @@
 {
-  "version": 1253,
-  "versionName": "260707-0708-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1253-260707-0708-standard-slim.apk.bin",
+  "version": 1254,
+  "versionName": "260707-0718-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1254-260707-0718-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37714839,
-  "sha256": "49ae3c30cabb3014aacd4568dad3c299735c05ce2b35960ba8550262dc003dde",
-  "changelog": "v1253 合规P1+是真的吗两修：①AgeGate 三档年龄门(enforced 默认关,调试菜单可开;确认层 MemoAirRoot 挂载不可跳过)②未成年人受限12个gate点(回答风格锁默认/主动联系TEEN默认关CHILD锁死/静夜21-08/TEEN停情感卡CHILD停全部生成卡/AI删除动作拒绝/危机话术prompt注入/CHILD监护人陪同提示)③ChatUsageTimer 连续使用提醒(120/60/40min,所有档生效)④AI标识补齐(chat首会话一次性提示+5处通知渠道描述;时光/chat页级标识v1075/1076已有,卡面不重复加)⑤是真的吗:真现象+假解释判fake不许dunno兜底(KTV反例进prompt)+一致性自检第二条 ⑥揭晓正文连段左对齐(弃语义断行居中)",
-  "userFacingChangelog": "两处升级：是真的吗的判定更严谨了（给真现象配错原因的说法会明确判'假'），揭晓文字排版也更舒服；另外为公开上线准备了年龄段与未成年人保护机制（当前不影响使用），并新增连续使用提醒。",
+  "sizeBytes": 37718935,
+  "sha256": "36d06e5ecb7770ad574420b2818c6cabb181b7910d9dea50ed263c57b96cbf91",
+  "changelog": "v1254 设置通知组排版修复(owner 打回两个独立框)：主动联系我+年龄段(总闸开才显示)+待办提醒合并进同一个 GroupCard,对齐'其他'/'隐私'组的一容器多行设计规范",
+  "userFacingChangelog": "设置页「通知」区块的排版修正：几项设置现在收在同一张卡片里，和其他区块样式一致。",
   "recentReleases": [
-    {
-      "version": 1204,
-      "versionName": "260627-1124-standard",
-      "userFacingChangelog": "更准地认出真正要做的事——不再从听不清、识别错乱的话里编出和原文对不上的待办。",
-      "changelog": "更准地认出真正要做的事——不再从听不清、识别错乱的话里编出和原文对不上的待办。",
-      "publishedAtMs": 1782530791000
-    },
     {
       "version": 1205,
       "versionName": "260628-1104-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "两处升级：是真的吗的判定更严谨了（给真现象配错原因的说法会明确判'假'），揭晓文字排版也更舒服；另外为公开上线准备了年龄段与未成年人保护机制（当前不影响使用），并新增连续使用提醒。",
       "changelog": "v1253 合规P1+是真的吗两修：①AgeGate 三档年龄门(enforced 默认关,调试菜单可开;确认层 MemoAirRoot 挂载不可跳过)②未成年人受限12个gate点(回答风格锁默认/主动联系TEEN默认关CHILD锁死/静夜21-08/TEEN停情感卡CHILD停全部生成卡/AI删除动作拒绝/危机话术prompt注入/CHILD监护人陪同提示)③ChatUsageTimer 连续使用提醒(120/60/40min,所有档生效)④AI标识补齐(chat首会话一次性提示+5处通知渠道描述;时光/chat页级标识v1075/1076已有,卡面不重复加)⑤是真的吗:真现象+假解释判fake不许dunno兜底(KTV反例进prompt)+一致性自检第二条 ⑥揭晓正文连段左对齐(弃语义断行居中)",
       "publishedAtMs": 1783433449000
+    },
+    {
+      "version": 1254,
+      "versionName": "260707-0718-standard",
+      "userFacingChangelog": "设置页「通知」区块的排版修正：几项设置现在收在同一张卡片里，和其他区块样式一致。",
+      "changelog": "v1254 设置通知组排版修复(owner 打回两个独立框)：主动联系我+年龄段(总闸开才显示)+待办提醒合并进同一个 GroupCard,对齐'其他'/'隐私'组的一容器多行设计规范",
+      "publishedAtMs": 1783434071000
     }
   ],
-  "publishedAtMs": 1783433449000,
+  "publishedAtMs": 1783434071000,
   "minSupported": 0
 }
