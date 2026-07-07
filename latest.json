@@ -1,20 +1,13 @@
 {
-  "version": 1248,
-  "versionName": "260707-0048-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1248-260707-0048-standard-slim.apk.bin",
+  "version": 1249,
+  "versionName": "260707-0119-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1249-260707-0119-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37706647,
-  "sha256": "12b22a0b9818550e78956d702eb96cb24ad2ffcdb456653b2c3a209de7f95e03",
-  "changelog": "v1248 声纹页朗读光晕随声呼吸(owner 定,对齐按住说话声频条逻辑)：声纹注册录制环 80ms 节流喂 RecordingController.setAudioLevel(峰值,录完清零)；onbReadingHalo 读 audioLevel 流(sqrt 压动态+120ms 跟随),两层软光晕随声最多外胀 12dp+呼吸层亮度随声增益,3dp 环不动",
-  "userFacingChangelog": "朗读声纹时的光晕现在会跟着你的声音呼吸：说话时向外舒张、停顿时轻轻收回，像它在听你说。",
+  "sha256": "e78d60bae625c032ff309c1221d358e73335a89e529a3c910187987a9358eab4",
+  "changelog": "v1249 引擎下载前置+向导只卡声纹引擎(owner 定)：①MainActivity 启动块新增 engines.autoDownload——slim 裁掉的端侧引擎(声纹嵌入/VAD/文本嵌入)进 App 即后台 startDownload(缓 2s 等 assets 解压防竞态;ASR 原本 refresh 就自动下)②开机向导 P5 闸门从三引擎收窄为仅 SpeakerEmbedder(录声纹真正需要的只有它),进度/报错/CTA 均只看声纹引擎;ASR/VAD 没下完不挡向导,进主界面继续后台下",
+  "userFacingChangelog": "首次安装的准备更聪明了：所有本地引擎在你打开 App 的那一刻就开始悄悄准备，声音引导页只等声纹这一个引擎，其它的在后台自己下完。",
   "recentReleases": [
-    {
-      "version": 1199,
-      "versionName": "260626-2350-standard",
-      "userFacingChangelog": "一些幕后的优化。",
-      "changelog": "稳定性与内部维护优化。",
-      "publishedAtMs": 1782489176000
-    },
     {
       "version": 1200,
       "versionName": "260627-0005-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "朗读声纹时的光晕现在会跟着你的声音呼吸：说话时向外舒张、停顿时轻轻收回，像它在听你说。",
       "changelog": "v1248 声纹页朗读光晕随声呼吸(owner 定,对齐按住说话声频条逻辑)：声纹注册录制环 80ms 节流喂 RecordingController.setAudioLevel(峰值,录完清零)；onbReadingHalo 读 audioLevel 流(sqrt 压动态+120ms 跟随),两层软光晕随声最多外胀 12dp+呼吸层亮度随声增益,3dp 环不动",
       "publishedAtMs": 1783410636000
+    },
+    {
+      "version": 1249,
+      "versionName": "260707-0119-standard",
+      "userFacingChangelog": "首次安装的准备更聪明了：所有本地引擎在你打开 App 的那一刻就开始悄悄准备，声音引导页只等声纹这一个引擎，其它的在后台自己下完。",
+      "changelog": "v1249 引擎下载前置+向导只卡声纹引擎(owner 定)：①MainActivity 启动块新增 engines.autoDownload——slim 裁掉的端侧引擎(声纹嵌入/VAD/文本嵌入)进 App 即后台 startDownload(缓 2s 等 assets 解压防竞态;ASR 原本 refresh 就自动下)②开机向导 P5 闸门从三引擎收窄为仅 SpeakerEmbedder(录声纹真正需要的只有它),进度/报错/CTA 均只看声纹引擎;ASR/VAD 没下完不挡向导,进主界面继续后台下",
+      "publishedAtMs": 1783412461000
     }
   ],
-  "publishedAtMs": 1783410636000,
+  "publishedAtMs": 1783412461000,
   "minSupported": 0
 }
