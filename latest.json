@@ -1,20 +1,13 @@
 {
-  "version": 1243,
-  "versionName": "260706-2157-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1243-260706-2157-standard-slim.apk.bin",
+  "version": 1244,
+  "versionName": "260706-2320-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1244-260706-2320-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37702551,
-  "sha256": "3318940ff401ea74c164a146512d762492b3f95bbf21e39ca5c9d151519342b7",
-  "changelog": "v1243 预览飞行改真衔接(owner 反馈'两个页面没衔接上')：删除 OnbPreviewFlight 假动画(飞到空白纸面固定点)，预览与真实流程统一走 OnboardingFlightOverlay——launchFlight 后立即关预览层，幕布下露出真实页面，光点落进真实记录胶囊绿点(onGloballyPositioned 真坐标)；绿点全程 Hidden 落位闪烁后才出现；跳过声纹路径同步统一",
-  "userFacingChangelog": "重看开机引导的收尾现在是真交接：光点从引导页起飞后，引导界面淡出、露出你真实的页面，光点落进真正的记录胶囊里——胶囊里的绿点在落位闪烁之后才亮起，整个过程无缝衔接。",
+  "sha256": "e3a9c435a12426cad563b666f2aa3bd28acbb2ad4aee27a81cc53c376273fdb5",
+  "changelog": "v1244 飞行轨迹重设计(owner 反馈谷形抛物线怪)：改勾形swoosh三次贝塞尔 onbFlightPath——起点近垂直坠落(C1=+4%dx,+190dp)→浅弧右掠(C2=+62%dx,+215dp)→末段约50°上挑收进胶囊绿点；最深200dp比例不再深潜360dp；onbBezier 改三次插值",
+  "userFacingChangelog": "收尾光点的飞行路线重新设计了：现在像轻轻打一个勾——先自然落下一小段，贴着弧线掠过，最后上挑收进记录胶囊，落定闪烁。",
   "recentReleases": [
-    {
-      "version": 1193,
-      "versionName": "260626-1608-standard",
-      "userFacingChangelog": "一些幕后的优化。",
-      "changelog": "稳定性与内部维护优化。",
-      "publishedAtMs": 1782461452000
-    },
     {
       "version": 1195,
       "versionName": "260626-1823-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "重看开机引导的收尾现在是真交接：光点从引导页起飞后，引导界面淡出、露出你真实的页面，光点落进真正的记录胶囊里——胶囊里的绿点在落位闪烁之后才亮起，整个过程无缝衔接。",
       "changelog": "v1243 预览飞行改真衔接(owner 反馈'两个页面没衔接上')：删除 OnbPreviewFlight 假动画(飞到空白纸面固定点)，预览与真实流程统一走 OnboardingFlightOverlay——launchFlight 后立即关预览层，幕布下露出真实页面，光点落进真实记录胶囊绿点(onGloballyPositioned 真坐标)；绿点全程 Hidden 落位闪烁后才出现；跳过声纹路径同步统一",
       "publishedAtMs": 1783400367000
+    },
+    {
+      "version": 1244,
+      "versionName": "260706-2320-standard",
+      "userFacingChangelog": "收尾光点的飞行路线重新设计了：现在像轻轻打一个勾——先自然落下一小段，贴着弧线掠过，最后上挑收进记录胶囊，落定闪烁。",
+      "changelog": "v1244 飞行轨迹重设计(owner 反馈谷形抛物线怪)：改勾形swoosh三次贝塞尔 onbFlightPath——起点近垂直坠落(C1=+4%dx,+190dp)→浅弧右掠(C2=+62%dx,+215dp)→末段约50°上挑收进胶囊绿点；最深200dp比例不再深潜360dp；onbBezier 改三次插值",
+      "publishedAtMs": 1783405371000
     }
   ],
-  "publishedAtMs": 1783400367000,
+  "publishedAtMs": 1783405371000,
   "minSupported": 0
 }
