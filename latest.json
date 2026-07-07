@@ -1,20 +1,13 @@
 {
-  "version": 1252,
-  "versionName": "260707-0613-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1252-260707-0613-standard-slim.apk.bin",
+  "version": 1253,
+  "versionName": "260707-0708-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1253-260707-0708-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37710743,
-  "sha256": "fcc557b717eae6c23a078e6545a4cf5d2819fb34fe58a95559e8998e24b6f9ff",
-  "changelog": "v1252 合规 P0 四项(工具化收敛)：①AI 图片水印 AiWatermark.burnInto 烧进拾梦图 bitmap 本体(白60%/字号3.5%图宽/_aig标记)+5处分享图落款'内容由 AI 生成'②Chat 人设普通版收敛为回答风格5档(简洁/温和/直接/详细/结构化),relation/aiName 不注入不展示,PersonaInterviewer 隐藏,存量方案A自动映射一次性幂等,PasscodeAuth.isAdmin 双层gate,admin 全保留③文案降温:来信陪伴档下线(5→4语气)+安慰档改'整理事实+现实视角'+全局清'我在/抱抱/陪你/想念'类拟人亲密词14处(在场事实性表述保留)④新增'主动联系我'总开关 ProactiveContactPrefs(默认开)统一13条主动路径+静夜22-08扩全部,闲聊类SoftPush(冷知识/英语/节日/回声)白名单停发,功能性通知(OTA/前台/闹钟/回复)明确不管",
-  "userFacingChangelog": "这次是一批产品定位打磨:AI 生成的图片和分享卡现在都带'AI 生成'标识;对话风格设置更清爽(简洁/温和/直接/详细/结构化五档);部分文案表达更朴实;新增「主动联系我」总开关,不想被打扰时一键安静。",
+  "sizeBytes": 37714839,
+  "sha256": "49ae3c30cabb3014aacd4568dad3c299735c05ce2b35960ba8550262dc003dde",
+  "changelog": "v1253 合规P1+是真的吗两修：①AgeGate 三档年龄门(enforced 默认关,调试菜单可开;确认层 MemoAirRoot 挂载不可跳过)②未成年人受限12个gate点(回答风格锁默认/主动联系TEEN默认关CHILD锁死/静夜21-08/TEEN停情感卡CHILD停全部生成卡/AI删除动作拒绝/危机话术prompt注入/CHILD监护人陪同提示)③ChatUsageTimer 连续使用提醒(120/60/40min,所有档生效)④AI标识补齐(chat首会话一次性提示+5处通知渠道描述;时光/chat页级标识v1075/1076已有,卡面不重复加)⑤是真的吗:真现象+假解释判fake不许dunno兜底(KTV反例进prompt)+一致性自检第二条 ⑥揭晓正文连段左对齐(弃语义断行居中)",
+  "userFacingChangelog": "两处升级：是真的吗的判定更严谨了（给真现象配错原因的说法会明确判'假'），揭晓文字排版也更舒服；另外为公开上线准备了年龄段与未成年人保护机制（当前不影响使用），并新增连续使用提醒。",
   "recentReleases": [
-    {
-      "version": 1203,
-      "versionName": "260627-1016-standard",
-      "userFacingChangelog": "隐私时段结束后会更稳地回来继续陪着你；万一没能自动回来，也会在那一刻轻轻提醒你回来看看。",
-      "changelog": "隐私时段结束后会更稳地回来继续陪着你；万一没能自动回来，也会在那一刻轻轻提醒你回来看看。",
-      "publishedAtMs": 1782526733000
-    },
     {
       "version": 1204,
       "versionName": "260627-1124-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "这次是一批产品定位打磨:AI 生成的图片和分享卡现在都带'AI 生成'标识;对话风格设置更清爽(简洁/温和/直接/详细/结构化五档);部分文案表达更朴实;新增「主动联系我」总开关,不想被打扰时一键安静。",
       "changelog": "v1252 合规 P0 四项(工具化收敛)：①AI 图片水印 AiWatermark.burnInto 烧进拾梦图 bitmap 本体(白60%/字号3.5%图宽/_aig标记)+5处分享图落款'内容由 AI 生成'②Chat 人设普通版收敛为回答风格5档(简洁/温和/直接/详细/结构化),relation/aiName 不注入不展示,PersonaInterviewer 隐藏,存量方案A自动映射一次性幂等,PasscodeAuth.isAdmin 双层gate,admin 全保留③文案降温:来信陪伴档下线(5→4语气)+安慰档改'整理事实+现实视角'+全局清'我在/抱抱/陪你/想念'类拟人亲密词14处(在场事实性表述保留)④新增'主动联系我'总开关 ProactiveContactPrefs(默认开)统一13条主动路径+静夜22-08扩全部,闲聊类SoftPush(冷知识/英语/节日/回声)白名单停发,功能性通知(OTA/前台/闹钟/回复)明确不管",
       "publishedAtMs": 1783430210000
+    },
+    {
+      "version": 1253,
+      "versionName": "260707-0708-standard",
+      "userFacingChangelog": "两处升级：是真的吗的判定更严谨了（给真现象配错原因的说法会明确判'假'），揭晓文字排版也更舒服；另外为公开上线准备了年龄段与未成年人保护机制（当前不影响使用），并新增连续使用提醒。",
+      "changelog": "v1253 合规P1+是真的吗两修：①AgeGate 三档年龄门(enforced 默认关,调试菜单可开;确认层 MemoAirRoot 挂载不可跳过)②未成年人受限12个gate点(回答风格锁默认/主动联系TEEN默认关CHILD锁死/静夜21-08/TEEN停情感卡CHILD停全部生成卡/AI删除动作拒绝/危机话术prompt注入/CHILD监护人陪同提示)③ChatUsageTimer 连续使用提醒(120/60/40min,所有档生效)④AI标识补齐(chat首会话一次性提示+5处通知渠道描述;时光/chat页级标识v1075/1076已有,卡面不重复加)⑤是真的吗:真现象+假解释判fake不许dunno兜底(KTV反例进prompt)+一致性自检第二条 ⑥揭晓正文连段左对齐(弃语义断行居中)",
+      "publishedAtMs": 1783433449000
     }
   ],
-  "publishedAtMs": 1783430210000,
+  "publishedAtMs": 1783433449000,
   "minSupported": 0
 }
