@@ -1,20 +1,13 @@
 {
-  "version": 1249,
-  "versionName": "260707-0119-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1249-260707-0119-standard-slim.apk.bin",
+  "version": 1250,
+  "versionName": "260707-0256-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1250-260707-0256-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37706647,
-  "sha256": "e78d60bae625c032ff309c1221d358e73335a89e529a3c910187987a9358eab4",
-  "changelog": "v1249 引擎下载前置+向导只卡声纹引擎(owner 定)：①MainActivity 启动块新增 engines.autoDownload——slim 裁掉的端侧引擎(声纹嵌入/VAD/文本嵌入)进 App 即后台 startDownload(缓 2s 等 assets 解压防竞态;ASR 原本 refresh 就自动下)②开机向导 P5 闸门从三引擎收窄为仅 SpeakerEmbedder(录声纹真正需要的只有它),进度/报错/CTA 均只看声纹引擎;ASR/VAD 没下完不挡向导,进主界面继续后台下",
-  "userFacingChangelog": "首次安装的准备更聪明了：所有本地引擎在你打开 App 的那一刻就开始悄悄准备，声音引导页只等声纹这一个引擎，其它的在后台自己下完。",
+  "sha256": "d2a81db9d4011e3c8c655086a9f1ca31cb2f7069f2ef86c3d2da6cb6053fa7da",
+  "changelog": "v1250 声纹光晕安静化+收尾白调转场(owner 定)：①朗读光晕两层软光透明度直接乘声音电平——静音归零只留 3dp 贴边环,说话才绽放(胀幅+亮度都随声)②最终转场时序重排:白调 300ms 渐入(白 85% 涂层)→光点白底上轻抛 900ms→落点脉冲+幕布 800ms 化开主界面慢慢显影(overlay 光点原地陪化开保持连续)→幕布散尽真绿点 pop 接棒+第二次脉冲",
+  "userFacingChangelog": "声音引导的两处打磨：朗读时光晕只在你说话时绽放、安静时收起，对比更清楚；读完后画面会先安静地泛白，光点飞过、主界面再慢慢显影，收尾更从容。",
   "recentReleases": [
-    {
-      "version": 1200,
-      "versionName": "260627-0005-standard",
-      "userFacingChangelog": "一些幕后的优化。",
-      "changelog": "稳定性与内部维护优化。",
-      "publishedAtMs": 1782490206000
-    },
     {
       "version": 1201,
       "versionName": "260627-0200-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "首次安装的准备更聪明了：所有本地引擎在你打开 App 的那一刻就开始悄悄准备，声音引导页只等声纹这一个引擎，其它的在后台自己下完。",
       "changelog": "v1249 引擎下载前置+向导只卡声纹引擎(owner 定)：①MainActivity 启动块新增 engines.autoDownload——slim 裁掉的端侧引擎(声纹嵌入/VAD/文本嵌入)进 App 即后台 startDownload(缓 2s 等 assets 解压防竞态;ASR 原本 refresh 就自动下)②开机向导 P5 闸门从三引擎收窄为仅 SpeakerEmbedder(录声纹真正需要的只有它),进度/报错/CTA 均只看声纹引擎;ASR/VAD 没下完不挡向导,进主界面继续后台下",
       "publishedAtMs": 1783412461000
+    },
+    {
+      "version": 1250,
+      "versionName": "260707-0256-standard",
+      "userFacingChangelog": "声音引导的两处打磨：朗读时光晕只在你说话时绽放、安静时收起，对比更清楚；读完后画面会先安静地泛白，光点飞过、主界面再慢慢显影，收尾更从容。",
+      "changelog": "v1250 声纹光晕安静化+收尾白调转场(owner 定)：①朗读光晕两层软光透明度直接乘声音电平——静音归零只留 3dp 贴边环,说话才绽放(胀幅+亮度都随声)②最终转场时序重排:白调 300ms 渐入(白 85% 涂层)→光点白底上轻抛 900ms→落点脉冲+幕布 800ms 化开主界面慢慢显影(overlay 光点原地陪化开保持连续)→幕布散尽真绿点 pop 接棒+第二次脉冲",
+      "publishedAtMs": 1783418305000
     }
   ],
-  "publishedAtMs": 1783412461000,
+  "publishedAtMs": 1783418305000,
   "minSupported": 0
 }
