@@ -1,20 +1,13 @@
 {
-  "version": 1240,
-  "versionName": "260706-1914-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1240-260706-1914-standard-slim.apk.bin",
+  "version": 1241,
+  "versionName": "260706-2057-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1241-260706-2057-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37677975,
-  "sha256": "9bb95fec32b1434b3e727c3d149dedc2f4a949283eb2684065e61fb3e00d52ee",
-  "changelog": "v1240 实习生体验报告七连修(owner 分诊:做1/2/3/5/6/7B/8,4忽略)：①人名删除改危险胶囊+两段式确认 ②拾梦展开区底部补收起 ③微光卡面加日期(仅日期,Mono随卡色) ⑤翻历史时新消息/流式不抢滚(chatSeated+isAtBottom门,自己发的仍跟底)+滚底按钮亮绿点提示 ⑥英语卡标签中文化(prompt:口语/正式/英式/美式/固定表达+渲染角标'单词·word'式+补idiom分支) ⑦长按菜单'改文字'→'改一下重发'(功能本已存在=删旧+AI重答,纯命名明确化) ⑧SWOT中文全称为主字母降小注",
-  "userFacingChangelog": "一批体验细节优化：删人名有确认了、拾梦底部能收起、微光有日期、看历史消息不再被打断、英语卡更好懂",
+  "sizeBytes": 37706647,
+  "sha256": "d5cb877a0bfd01fc623593e161b0d92c2f23d6182c1914d49f516dcdd77b6b23",
+  "changelog": "v1241 开机引导整体重设计：按设计交付稿重写6页流程(封面/账号/昵称/权限/电池/声纹)+新增手机号登录假页面+最终飞行转场(贝塞尔光点落记录胶囊绿点)+页间转场/水印接力/图章pop；OnboardingUi.kt/OnboardingFlight.kt 新建；全屏预览层修复嵌套bug提为函数级兄弟节点；ChatScreen 绿点上报落点坐标",
+  "userFacingChangelog": "开机引导焕然一新：全新的六页开场——从封面到声纹，每一页都重新设计了版式和动效；读完声纹后，一颗光点会飞进主界面的记录胶囊，作为你和「记得」的第一次交接。设置里的「重看开机引导」现在也是真全屏了。",
   "recentReleases": [
-    {
-      "version": 1190,
-      "versionName": "260625-1459-standard",
-      "userFacingChangelog": "对话现在偶尔能帮你查一点实时信息（如天气），这类内容会标明仅供参考。",
-      "changelog": "对话现在偶尔能帮你查一点实时信息（如天气），这类内容会标明「仅供参考」。",
-      "publishedAtMs": 1782370892000
-    },
     {
       "version": 1191,
       "versionName": "260625-1508-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "一批体验细节优化：删人名有确认了、拾梦底部能收起、微光有日期、看历史消息不再被打断、英语卡更好懂",
       "changelog": "v1240 实习生体验报告七连修(owner 分诊:做1/2/3/5/6/7B/8,4忽略)：①人名删除改危险胶囊+两段式确认 ②拾梦展开区底部补收起 ③微光卡面加日期(仅日期,Mono随卡色) ⑤翻历史时新消息/流式不抢滚(chatSeated+isAtBottom门,自己发的仍跟底)+滚底按钮亮绿点提示 ⑥英语卡标签中文化(prompt:口语/正式/英式/美式/固定表达+渲染角标'单词·word'式+补idiom分支) ⑦长按菜单'改文字'→'改一下重发'(功能本已存在=删旧+AI重答,纯命名明确化) ⑧SWOT中文全称为主字母降小注",
       "publishedAtMs": 1783390672000
+    },
+    {
+      "version": 1241,
+      "versionName": "260706-2057-standard",
+      "userFacingChangelog": "开机引导焕然一新：全新的六页开场——从封面到声纹，每一页都重新设计了版式和动效；读完声纹后，一颗光点会飞进主界面的记录胶囊，作为你和「记得」的第一次交接。设置里的「重看开机引导」现在也是真全屏了。",
+      "changelog": "v1241 开机引导整体重设计：按设计交付稿重写6页流程(封面/账号/昵称/权限/电池/声纹)+新增手机号登录假页面+最终飞行转场(贝塞尔光点落记录胶囊绿点)+页间转场/水印接力/图章pop；OnboardingUi.kt/OnboardingFlight.kt 新建；全屏预览层修复嵌套bug提为函数级兄弟节点；ChatScreen 绿点上报落点坐标",
+      "publishedAtMs": 1783396746000
     }
   ],
-  "publishedAtMs": 1783390672000,
+  "publishedAtMs": 1783396746000,
   "minSupported": 0
 }
