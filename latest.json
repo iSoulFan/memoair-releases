@@ -1,20 +1,13 @@
 {
-  "version": 1245,
-  "versionName": "260706-2334-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1245-260706-2334-standard-slim.apk.bin",
+  "version": 1246,
+  "versionName": "260707-0018-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1246-260707-0018-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37702551,
-  "sha256": "fea4aa1a60f1dfd4280bb5d57f65fecbe7d2caaa1d2fd7d6de53d7117087b36a",
-  "changelog": "v1245 飞行轨迹改轻抛真抛物线(owner 选定方案1)：onbFlightPath 改单一二次贝塞尔等价三次(apex=起点+58%dx/上方44dp比例,起飞角约-15°/入点角约45°从上方落进胶囊,弧顶仅高起点~12dp)；时长 1100→900ms、缓动改 LinearEasing(线性推参≈水平匀速+垂直抛物=弹射速度感,末端停顿由落点闪烁吸收)；删除未用 OnbFlightEase",
-  "userFacingChangelog": "收尾光点改成一次轻抛：从进度条的点被轻轻弹出、微微上扬，然后自然下落，从上方落进记录胶囊，闪烁定住——一条真正的抛物线。",
+  "sizeBytes": 37706647,
+  "sha256": "962d2e8138fc887c609cf6c2f34a095ea215ff9dde258605b686f1db19a26af3",
+  "changelog": "v1246 声纹页引擎下载闭环(owner 定:声纹必录不许跳过)：引擎未就绪 CTA 改「先下载声音引擎」可点=当场 startDownload 三引擎(ModelManager/VadSplitter/SpeakerEmbedder,挪 IO 防同步哈希卡帧)→「引擎下载中·NN%」(三引擎完成度均值)→就绪自动变「开始录制」；下载失败 CTA 复原+提示行；删「跳过声纹」链接及 finishWithSkip 路径",
+  "userFacingChangelog": "声音引导页更顺了：如果声音引擎还没准备好，按钮会直接变成「先下载声音引擎」，点一下当场下载、进度实时显示，好了自动变成「开始录制」。",
   "recentReleases": [
-    {
-      "version": 1196,
-      "versionName": "260626-1836-standard",
-      "userFacingChangelog": "一些幕后的优化。",
-      "changelog": "稳定性与内部维护优化。",
-      "publishedAtMs": 1782470347000
-    },
     {
       "version": 1197,
       "versionName": "260626-2216-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "收尾光点改成一次轻抛：从进度条的点被轻轻弹出、微微上扬，然后自然下落，从上方落进记录胶囊，闪烁定住——一条真正的抛物线。",
       "changelog": "v1245 飞行轨迹改轻抛真抛物线(owner 选定方案1)：onbFlightPath 改单一二次贝塞尔等价三次(apex=起点+58%dx/上方44dp比例,起飞角约-15°/入点角约45°从上方落进胶囊,弧顶仅高起点~12dp)；时长 1100→900ms、缓动改 LinearEasing(线性推参≈水平匀速+垂直抛物=弹射速度感,末端停顿由落点闪烁吸收)；删除未用 OnbFlightEase",
       "publishedAtMs": 1783406186000
+    },
+    {
+      "version": 1246,
+      "versionName": "260707-0018-standard",
+      "userFacingChangelog": "声音引导页更顺了：如果声音引擎还没准备好，按钮会直接变成「先下载声音引擎」，点一下当场下载、进度实时显示，好了自动变成「开始录制」。",
+      "changelog": "v1246 声纹页引擎下载闭环(owner 定:声纹必录不许跳过)：引擎未就绪 CTA 改「先下载声音引擎」可点=当场 startDownload 三引擎(ModelManager/VadSplitter/SpeakerEmbedder,挪 IO 防同步哈希卡帧)→「引擎下载中·NN%」(三引擎完成度均值)→就绪自动变「开始录制」；下载失败 CTA 复原+提示行；删「跳过声纹」链接及 finishWithSkip 路径",
+      "publishedAtMs": 1783408826000
     }
   ],
-  "publishedAtMs": 1783406186000,
+  "publishedAtMs": 1783408826000,
   "minSupported": 0
 }
