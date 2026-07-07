@@ -1,20 +1,13 @@
 {
-  "version": 1244,
-  "versionName": "260706-2320-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1244-260706-2320-standard-slim.apk.bin",
+  "version": 1245,
+  "versionName": "260706-2334-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1245-260706-2334-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37702551,
-  "sha256": "e3a9c435a12426cad563b666f2aa3bd28acbb2ad4aee27a81cc53c376273fdb5",
-  "changelog": "v1244 飞行轨迹重设计(owner 反馈谷形抛物线怪)：改勾形swoosh三次贝塞尔 onbFlightPath——起点近垂直坠落(C1=+4%dx,+190dp)→浅弧右掠(C2=+62%dx,+215dp)→末段约50°上挑收进胶囊绿点；最深200dp比例不再深潜360dp；onbBezier 改三次插值",
-  "userFacingChangelog": "收尾光点的飞行路线重新设计了：现在像轻轻打一个勾——先自然落下一小段，贴着弧线掠过，最后上挑收进记录胶囊，落定闪烁。",
+  "sha256": "fea4aa1a60f1dfd4280bb5d57f65fecbe7d2caaa1d2fd7d6de53d7117087b36a",
+  "changelog": "v1245 飞行轨迹改轻抛真抛物线(owner 选定方案1)：onbFlightPath 改单一二次贝塞尔等价三次(apex=起点+58%dx/上方44dp比例,起飞角约-15°/入点角约45°从上方落进胶囊,弧顶仅高起点~12dp)；时长 1100→900ms、缓动改 LinearEasing(线性推参≈水平匀速+垂直抛物=弹射速度感,末端停顿由落点闪烁吸收)；删除未用 OnbFlightEase",
+  "userFacingChangelog": "收尾光点改成一次轻抛：从进度条的点被轻轻弹出、微微上扬，然后自然下落，从上方落进记录胶囊，闪烁定住——一条真正的抛物线。",
   "recentReleases": [
-    {
-      "version": 1195,
-      "versionName": "260626-1823-standard",
-      "userFacingChangelog": "一些幕后的优化。",
-      "changelog": "稳定性与内部维护优化。",
-      "publishedAtMs": 1782469561000
-    },
     {
       "version": 1196,
       "versionName": "260626-1836-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "收尾光点的飞行路线重新设计了：现在像轻轻打一个勾——先自然落下一小段，贴着弧线掠过，最后上挑收进记录胶囊，落定闪烁。",
       "changelog": "v1244 飞行轨迹重设计(owner 反馈谷形抛物线怪)：改勾形swoosh三次贝塞尔 onbFlightPath——起点近垂直坠落(C1=+4%dx,+190dp)→浅弧右掠(C2=+62%dx,+215dp)→末段约50°上挑收进胶囊绿点；最深200dp比例不再深潜360dp；onbBezier 改三次插值",
       "publishedAtMs": 1783405371000
+    },
+    {
+      "version": 1245,
+      "versionName": "260706-2334-standard",
+      "userFacingChangelog": "收尾光点改成一次轻抛：从进度条的点被轻轻弹出、微微上扬，然后自然下落，从上方落进记录胶囊，闪烁定住——一条真正的抛物线。",
+      "changelog": "v1245 飞行轨迹改轻抛真抛物线(owner 选定方案1)：onbFlightPath 改单一二次贝塞尔等价三次(apex=起点+58%dx/上方44dp比例,起飞角约-15°/入点角约45°从上方落进胶囊,弧顶仅高起点~12dp)；时长 1100→900ms、缓动改 LinearEasing(线性推参≈水平匀速+垂直抛物=弹射速度感,末端停顿由落点闪烁吸收)；删除未用 OnbFlightEase",
+      "publishedAtMs": 1783406186000
     }
   ],
-  "publishedAtMs": 1783405371000,
+  "publishedAtMs": 1783406186000,
   "minSupported": 0
 }
