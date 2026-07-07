@@ -1,20 +1,13 @@
 {
-  "version": 1247,
-  "versionName": "260707-0026-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1247-260707-0026-standard-slim.apk.bin",
+  "version": 1248,
+  "versionName": "260707-0048-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1248-260707-0048-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37706647,
-  "sha256": "f6a26e482355db266f1405ef317cd6aaa1e7733da9192bfb8caa0e5b49ff0dc6",
-  "changelog": "v1247 声纹页三连修(owner 反馈)：①进度%来回跳修复=显示层只进不退取峰值(ModelManager 单文件进度换文件回落被均值放大)+文案改「声音引擎准备中·NN%」②下载完还要多点一步修复=引擎状态懒加载,进页 latch(ASR isReady 才走 startDownload 早退,VAD/EMB refresh)+下载停且无错未就绪时自动补锁 LaunchedEffect ③CTA 朗读光晕不贴按钮修复=去掉多余 6dp 全局外扩,3dp 环紧贴按钮边缘",
-  "userFacingChangelog": "声音引导页打磨了三处：下载进度不再来回跳、下载完按钮直接变成开始录制、朗读时的光晕现在紧贴着按钮。",
+  "sha256": "12b22a0b9818550e78956d702eb96cb24ad2ffcdb456653b2c3a209de7f95e03",
+  "changelog": "v1248 声纹页朗读光晕随声呼吸(owner 定,对齐按住说话声频条逻辑)：声纹注册录制环 80ms 节流喂 RecordingController.setAudioLevel(峰值,录完清零)；onbReadingHalo 读 audioLevel 流(sqrt 压动态+120ms 跟随),两层软光晕随声最多外胀 12dp+呼吸层亮度随声增益,3dp 环不动",
+  "userFacingChangelog": "朗读声纹时的光晕现在会跟着你的声音呼吸：说话时向外舒张、停顿时轻轻收回，像它在听你说。",
   "recentReleases": [
-    {
-      "version": 1198,
-      "versionName": "260626-2326-standard",
-      "userFacingChangelog": "一些幕后的优化。",
-      "changelog": "稳定性与内部维护优化。",
-      "publishedAtMs": 1782487733000
-    },
     {
       "version": 1199,
       "versionName": "260626-2350-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "声音引导页打磨了三处：下载进度不再来回跳、下载完按钮直接变成开始录制、朗读时的光晕现在紧贴着按钮。",
       "changelog": "v1247 声纹页三连修(owner 反馈)：①进度%来回跳修复=显示层只进不退取峰值(ModelManager 单文件进度换文件回落被均值放大)+文案改「声音引擎准备中·NN%」②下载完还要多点一步修复=引擎状态懒加载,进页 latch(ASR isReady 才走 startDownload 早退,VAD/EMB refresh)+下载停且无错未就绪时自动补锁 LaunchedEffect ③CTA 朗读光晕不贴按钮修复=去掉多余 6dp 全局外扩,3dp 环紧贴按钮边缘",
       "publishedAtMs": 1783409663000
+    },
+    {
+      "version": 1248,
+      "versionName": "260707-0048-standard",
+      "userFacingChangelog": "朗读声纹时的光晕现在会跟着你的声音呼吸：说话时向外舒张、停顿时轻轻收回，像它在听你说。",
+      "changelog": "v1248 声纹页朗读光晕随声呼吸(owner 定,对齐按住说话声频条逻辑)：声纹注册录制环 80ms 节流喂 RecordingController.setAudioLevel(峰值,录完清零)；onbReadingHalo 读 audioLevel 流(sqrt 压动态+120ms 跟随),两层软光晕随声最多外胀 12dp+呼吸层亮度随声增益,3dp 环不动",
+      "publishedAtMs": 1783410636000
     }
   ],
-  "publishedAtMs": 1783409663000,
+  "publishedAtMs": 1783410636000,
   "minSupported": 0
 }
