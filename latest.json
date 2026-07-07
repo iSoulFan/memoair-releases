@@ -1,20 +1,13 @@
 {
-  "version": 1250,
-  "versionName": "260707-0256-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1250-260707-0256-standard-slim.apk.bin",
+  "version": 1251,
+  "versionName": "260707-0312-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1251-260707-0312-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37706647,
-  "sha256": "d2a81db9d4011e3c8c655086a9f1ca31cb2f7069f2ef86c3d2da6cb6053fa7da",
-  "changelog": "v1250 声纹光晕安静化+收尾白调转场(owner 定)：①朗读光晕两层软光透明度直接乘声音电平——静音归零只留 3dp 贴边环,说话才绽放(胀幅+亮度都随声)②最终转场时序重排:白调 300ms 渐入(白 85% 涂层)→光点白底上轻抛 900ms→落点脉冲+幕布 800ms 化开主界面慢慢显影(overlay 光点原地陪化开保持连续)→幕布散尽真绿点 pop 接棒+第二次脉冲",
-  "userFacingChangelog": "声音引导的两处打磨：朗读时光晕只在你说话时绽放、安静时收起，对比更清楚；读完后画面会先安静地泛白，光点飞过、主界面再慢慢显影，收尾更从容。",
+  "sha256": "38eb530b92f57c18907723df79ffb980caacb94f565a130c4db9530eefad0a31",
+  "changelog": "v1251 飞行落点实时跟踪(owner 报首装第一次落点偏左后闪跳)：根因=首帧胶囊布局未稳(计时文字后到挤走绿点)而落点只抓一次;改为存起点+兜底落点,绘制时每帧读 pillDotCenterWindow 重算 onbFlightPath,绿点中途挪位轨迹平滑跟随,落点脉冲也取落地瞬间实时坐标",
+  "userFacingChangelog": "收尾光点的落点更准了：现在整个飞行过程都在实时跟着记录胶囊里绿点的真实位置，界面首次加载时的位置微调也不会让它落偏。",
   "recentReleases": [
-    {
-      "version": 1201,
-      "versionName": "260627-0200-standard",
-      "userFacingChangelog": "一些幕后的优化。",
-      "changelog": "稳定性与内部维护优化。",
-      "publishedAtMs": 1782496987000
-    },
     {
       "version": 1202,
       "versionName": "260627-0853-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "声音引导的两处打磨：朗读时光晕只在你说话时绽放、安静时收起，对比更清楚；读完后画面会先安静地泛白，光点飞过、主界面再慢慢显影，收尾更从容。",
       "changelog": "v1250 声纹光晕安静化+收尾白调转场(owner 定)：①朗读光晕两层软光透明度直接乘声音电平——静音归零只留 3dp 贴边环,说话才绽放(胀幅+亮度都随声)②最终转场时序重排:白调 300ms 渐入(白 85% 涂层)→光点白底上轻抛 900ms→落点脉冲+幕布 800ms 化开主界面慢慢显影(overlay 光点原地陪化开保持连续)→幕布散尽真绿点 pop 接棒+第二次脉冲",
       "publishedAtMs": 1783418305000
+    },
+    {
+      "version": 1251,
+      "versionName": "260707-0312-standard",
+      "userFacingChangelog": "收尾光点的落点更准了：现在整个飞行过程都在实时跟着记录胶囊里绿点的真实位置，界面首次加载时的位置微调也不会让它落偏。",
+      "changelog": "v1251 飞行落点实时跟踪(owner 报首装第一次落点偏左后闪跳)：根因=首帧胶囊布局未稳(计时文字后到挤走绿点)而落点只抓一次;改为存起点+兜底落点,绘制时每帧读 pillDotCenterWindow 重算 onbFlightPath,绿点中途挪位轨迹平滑跟随,落点脉冲也取落地瞬间实时坐标",
+      "publishedAtMs": 1783419298000
     }
   ],
-  "publishedAtMs": 1783418305000,
+  "publishedAtMs": 1783419298000,
   "minSupported": 0
 }
