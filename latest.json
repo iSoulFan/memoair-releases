@@ -1,20 +1,13 @@
 {
-  "version": 1241,
-  "versionName": "260706-2057-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1241-260706-2057-standard-slim.apk.bin",
+  "version": 1242,
+  "versionName": "260706-2138-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1242-260706-2138-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37706647,
-  "sha256": "d5cb877a0bfd01fc623593e161b0d92c2f23d6182c1914d49f516dcdd77b6b23",
-  "changelog": "v1241 开机引导整体重设计：按设计交付稿重写6页流程(封面/账号/昵称/权限/电池/声纹)+新增手机号登录假页面+最终飞行转场(贝塞尔光点落记录胶囊绿点)+页间转场/水印接力/图章pop；OnboardingUi.kt/OnboardingFlight.kt 新建；全屏预览层修复嵌套bug提为函数级兄弟节点；ChatScreen 绿点上报落点坐标",
-  "userFacingChangelog": "开机引导焕然一新：全新的六页开场——从封面到声纹，每一页都重新设计了版式和动效；读完声纹后，一颗光点会飞进主界面的记录胶囊，作为你和「记得」的第一次交接。设置里的「重看开机引导」现在也是真全屏了。",
+  "sha256": "615e5a90e9695517c0837eb13b61c1fa330ab9f855874430e490ac02e6d25a2d",
+  "changelog": "v1242 开机引导飞行转场轨迹重定(owner 反馈)：起点改进度条第5个PI点(onGloballyPositioned实时上报,CTA中心/比例双兜底)、贝塞尔控制点改谷形抛物线(下潜再上扬收进胶囊绿点)、落定光晕两次脉冲闪烁(OnbFlashCanvas 360ms+300ms,与绿点pop并行)；真实流程+预览流程同步",
+  "userFacingChangelog": "开机引导的收尾更有仪式感了：读完声纹后，光点现在从页眉进度条的最后一个点起飞，画一道抛物线落进右上角的记录胶囊，落定时会闪烁一下光晕——表示「记得」开始为你记录了。",
   "recentReleases": [
-    {
-      "version": 1191,
-      "versionName": "260625-1508-standard",
-      "userFacingChangelog": "联网查询时的等待提示更明确了。",
-      "changelog": "联网查询时的等待提示更明确了，联网内容的标注也更清楚。",
-      "publishedAtMs": 1782371541000
-    },
     {
       "version": 1192,
       "versionName": "260626-1552-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "开机引导焕然一新：全新的六页开场——从封面到声纹，每一页都重新设计了版式和动效；读完声纹后，一颗光点会飞进主界面的记录胶囊，作为你和「记得」的第一次交接。设置里的「重看开机引导」现在也是真全屏了。",
       "changelog": "v1241 开机引导整体重设计：按设计交付稿重写6页流程(封面/账号/昵称/权限/电池/声纹)+新增手机号登录假页面+最终飞行转场(贝塞尔光点落记录胶囊绿点)+页间转场/水印接力/图章pop；OnboardingUi.kt/OnboardingFlight.kt 新建；全屏预览层修复嵌套bug提为函数级兄弟节点；ChatScreen 绿点上报落点坐标",
       "publishedAtMs": 1783396746000
+    },
+    {
+      "version": 1242,
+      "versionName": "260706-2138-standard",
+      "userFacingChangelog": "开机引导的收尾更有仪式感了：读完声纹后，光点现在从页眉进度条的最后一个点起飞，画一道抛物线落进右上角的记录胶囊，落定时会闪烁一下光晕——表示「记得」开始为你记录了。",
+      "changelog": "v1242 开机引导飞行转场轨迹重定(owner 反馈)：起点改进度条第5个PI点(onGloballyPositioned实时上报,CTA中心/比例双兜底)、贝塞尔控制点改谷形抛物线(下潜再上扬收进胶囊绿点)、落定光晕两次脉冲闪烁(OnbFlashCanvas 360ms+300ms,与绿点pop并行)；真实流程+预览流程同步",
+      "publishedAtMs": 1783399223000
     }
   ],
-  "publishedAtMs": 1783396746000,
+  "publishedAtMs": 1783399223000,
   "minSupported": 0
 }
