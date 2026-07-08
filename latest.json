@@ -1,20 +1,13 @@
 {
-  "version": 1257,
-  "versionName": "260707-1932-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1257-260707-1932-standard-slim.apk.bin",
+  "version": 1258,
+  "versionName": "260707-2010-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1258-260707-2010-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37723031,
-  "sha256": "f4a26898386d6474b1d065851be363881abebdec27b868494149ef55dac0ebf3",
-  "changelog": "v1257 拾梦书签角标+保存拍立得：①头图长按(折叠拍立得/展开hero两处)从Popup菜单改为卡片右上角3枚燕尾书签角标(36×46dp纸色+hairline+轻投影,240ms滑出错峰40ms,scrim点外收回):收藏星(已收藏实心)/下载原图/保存拍立得 ②polaroidStyledBitmap 加 tiltDeg 参数(分享路径不变),保存拍立得=tilt0摆正+无caption(图+日期+落款)存 Pictures/MemoAir ③随旧菜单移除:回忆那天的事(单击卡片即达)/聊聊这张/删掉这张图(暂无入口,待owner定去留)",
-  "userFacingChangelog": "拾梦相片的长按换了新交互：轻轻长按头图，卡片右上角会垂下三枚小书签——收藏、下载原图、保存拍立得（摆正的白框版本，适合存进相册）。",
+  "sizeBytes": 37727127,
+  "sha256": "2a6cc3c58c8e77c10b3550bc1850c1f7b42154dae4320169ab54cd0f2a07e3c2",
+  "changelog": "v1258 四项(owner 拍板)：①折叠态拍立得长按恢复 v1256 Popup 菜单+新增保存拍立得项(8项:回忆那天的事/收藏/保存到相册/保存拍立得/分享拍立得/聊聊这张/删图或删卡);展开态 hero 保持3枚书签角标 ②微光 prompt 铁律4:恶心/不适素材硬排除(虫子进食/呕吐/污秽/伤病/异物入口,蚊子反例进prompt,宁可无卡) ③chat OTA 升级条低饱和黄绿底(PI 12%叠Surface+22%细边,亮#E9F1DF/暗#353825) ④那天的事收起与日期同行(SpaceBetween,日期左收起右)+LocalShareImageRender 分享图排除交互元素(收起/重选一次/猜真假/翻面引导/英语播放钮)",
+  "userFacingChangelog": "一批打磨：拾梦长按菜单回来了（还多了保存拍立得）；升级提示条换上淡黄绿底更好认；那天的事底部收起不再占一大块；分享出去的卡片图不会再带按钮文字；微光时刻会避开让人不适的素材。",
   "recentReleases": [
-    {
-      "version": 1208,
-      "versionName": "260629-1819-standard",
-      "userFacingChangelog": "记录现在只用手机麦克风，更稳定省电（外接 / 蓝牙麦此前已停用）。",
-      "changelog": "记录收敛为手机麦克风一条路——精简掉早已停用的外接 / 蓝牙麦相关代码与权限，更轻更稳更省电。",
-      "publishedAtMs": 1782728517000
-    },
     {
       "version": 1209,
       "versionName": "260629-1836-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "拾梦相片的长按换了新交互：轻轻长按头图，卡片右上角会垂下三枚小书签——收藏、下载原图、保存拍立得（摆正的白框版本，适合存进相册）。",
       "changelog": "v1257 拾梦书签角标+保存拍立得：①头图长按(折叠拍立得/展开hero两处)从Popup菜单改为卡片右上角3枚燕尾书签角标(36×46dp纸色+hairline+轻投影,240ms滑出错峰40ms,scrim点外收回):收藏星(已收藏实心)/下载原图/保存拍立得 ②polaroidStyledBitmap 加 tiltDeg 参数(分享路径不变),保存拍立得=tilt0摆正+无caption(图+日期+落款)存 Pictures/MemoAir ③随旧菜单移除:回忆那天的事(单击卡片即达)/聊聊这张/删掉这张图(暂无入口,待owner定去留)",
       "publishedAtMs": 1783478117000
+    },
+    {
+      "version": 1258,
+      "versionName": "260707-2010-standard",
+      "userFacingChangelog": "一批打磨：拾梦长按菜单回来了（还多了保存拍立得）；升级提示条换上淡黄绿底更好认；那天的事底部收起不再占一大块；分享出去的卡片图不会再带按钮文字；微光时刻会避开让人不适的素材。",
+      "changelog": "v1258 四项(owner 拍板)：①折叠态拍立得长按恢复 v1256 Popup 菜单+新增保存拍立得项(8项:回忆那天的事/收藏/保存到相册/保存拍立得/分享拍立得/聊聊这张/删图或删卡);展开态 hero 保持3枚书签角标 ②微光 prompt 铁律4:恶心/不适素材硬排除(虫子进食/呕吐/污秽/伤病/异物入口,蚊子反例进prompt,宁可无卡) ③chat OTA 升级条低饱和黄绿底(PI 12%叠Surface+22%细边,亮#E9F1DF/暗#353825) ④那天的事收起与日期同行(SpaceBetween,日期左收起右)+LocalShareImageRender 分享图排除交互元素(收起/重选一次/猜真假/翻面引导/英语播放钮)",
+      "publishedAtMs": 1783480372000
     }
   ],
-  "publishedAtMs": 1783478117000,
+  "publishedAtMs": 1783480372000,
   "minSupported": 0
 }
