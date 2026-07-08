@@ -1,20 +1,13 @@
 {
-  "version": 1258,
-  "versionName": "260707-2010-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1258-260707-2010-standard-slim.apk.bin",
+  "version": 1259,
+  "versionName": "260708-0635-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1259-260708-0635-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37727127,
-  "sha256": "2a6cc3c58c8e77c10b3550bc1850c1f7b42154dae4320169ab54cd0f2a07e3c2",
-  "changelog": "v1258 四项(owner 拍板)：①折叠态拍立得长按恢复 v1256 Popup 菜单+新增保存拍立得项(8项:回忆那天的事/收藏/保存到相册/保存拍立得/分享拍立得/聊聊这张/删图或删卡);展开态 hero 保持3枚书签角标 ②微光 prompt 铁律4:恶心/不适素材硬排除(虫子进食/呕吐/污秽/伤病/异物入口,蚊子反例进prompt,宁可无卡) ③chat OTA 升级条低饱和黄绿底(PI 12%叠Surface+22%细边,亮#E9F1DF/暗#353825) ④那天的事收起与日期同行(SpaceBetween,日期左收起右)+LocalShareImageRender 分享图排除交互元素(收起/重选一次/猜真假/翻面引导/英语播放钮)",
-  "userFacingChangelog": "一批打磨：拾梦长按菜单回来了（还多了保存拍立得）；升级提示条换上淡黄绿底更好认；那天的事底部收起不再占一大块；分享出去的卡片图不会再带按钮文字；微光时刻会避开让人不适的素材。",
+  "sizeBytes": 37731223,
+  "sha256": "fa68bcbdbc7ee385d9eed73fa6b1ba3cc42cf0032ef764c3512ce68fadd1d236",
+  "changelog": "v1259 纪要两项(owner 拍板)：①展开页改按钮收起——点正文不再收起,底部页脚=Hairline+日期落款左/「收起↑」右(44dp胶囊ripple),BackHandler 保留;卡片 onClick 只展开 ②段级逐字修改——正文段 LongPressMenu「修改这一段」→EditSectionDialog 预填原文→新函数 MeetingAiRewriter.rewriteSectionLiteral 纯字面替换(markdown 精确替换+visualJson 转义匹配+parse 校验,EditHistory 快照'逐字修改前',零 LLM 分支);对不上原文如实报失败;老纪要(无 visualJson)不支持段级改仍走 AI 改改",
+  "userFacingChangelog": "纪要卡两处升级：展开后点正文不会再意外收起（底部有明确的收起按钮，和那天的事一致）；长按正文任意一段可以直接修改文字，正文和板块同步更新。",
   "recentReleases": [
-    {
-      "version": 1209,
-      "versionName": "260629-1836-standard",
-      "userFacingChangelog": "录音胶囊点一下就能看「记录设备 / 休息」；今日看板挪到了设置的调试区。",
-      "changelog": "录音胶囊交互调整：点一下出「记录设备 + 休息」面板（记录设备区保留手机麦克风 + 实时音量条）；移除了长按手势。",
-      "publishedAtMs": 1782729512000
-    },
     {
       "version": 1210,
       "versionName": "260629-2108-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "一批打磨：拾梦长按菜单回来了（还多了保存拍立得）；升级提示条换上淡黄绿底更好认；那天的事底部收起不再占一大块；分享出去的卡片图不会再带按钮文字；微光时刻会避开让人不适的素材。",
       "changelog": "v1258 四项(owner 拍板)：①折叠态拍立得长按恢复 v1256 Popup 菜单+新增保存拍立得项(8项:回忆那天的事/收藏/保存到相册/保存拍立得/分享拍立得/聊聊这张/删图或删卡);展开态 hero 保持3枚书签角标 ②微光 prompt 铁律4:恶心/不适素材硬排除(虫子进食/呕吐/污秽/伤病/异物入口,蚊子反例进prompt,宁可无卡) ③chat OTA 升级条低饱和黄绿底(PI 12%叠Surface+22%细边,亮#E9F1DF/暗#353825) ④那天的事收起与日期同行(SpaceBetween,日期左收起右)+LocalShareImageRender 分享图排除交互元素(收起/重选一次/猜真假/翻面引导/英语播放钮)",
       "publishedAtMs": 1783480372000
+    },
+    {
+      "version": 1259,
+      "versionName": "260708-0635-standard",
+      "userFacingChangelog": "纪要卡两处升级：展开后点正文不会再意外收起（底部有明确的收起按钮，和那天的事一致）；长按正文任意一段可以直接修改文字，正文和板块同步更新。",
+      "changelog": "v1259 纪要两项(owner 拍板)：①展开页改按钮收起——点正文不再收起,底部页脚=Hairline+日期落款左/「收起↑」右(44dp胶囊ripple),BackHandler 保留;卡片 onClick 只展开 ②段级逐字修改——正文段 LongPressMenu「修改这一段」→EditSectionDialog 预填原文→新函数 MeetingAiRewriter.rewriteSectionLiteral 纯字面替换(markdown 精确替换+visualJson 转义匹配+parse 校验,EditHistory 快照'逐字修改前',零 LLM 分支);对不上原文如实报失败;老纪要(无 visualJson)不支持段级改仍走 AI 改改",
+      "publishedAtMs": 1783517920000
     }
   ],
-  "publishedAtMs": 1783480372000,
+  "publishedAtMs": 1783517920000,
   "minSupported": 0
 }
