@@ -1,20 +1,13 @@
 {
-  "version": 1259,
-  "versionName": "260708-0635-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1259-260708-0635-standard-slim.apk.bin",
+  "version": 1260,
+  "versionName": "260708-1232-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1260-260708-1232-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37731223,
-  "sha256": "fa68bcbdbc7ee385d9eed73fa6b1ba3cc42cf0032ef764c3512ce68fadd1d236",
-  "changelog": "v1259 纪要两项(owner 拍板)：①展开页改按钮收起——点正文不再收起,底部页脚=Hairline+日期落款左/「收起↑」右(44dp胶囊ripple),BackHandler 保留;卡片 onClick 只展开 ②段级逐字修改——正文段 LongPressMenu「修改这一段」→EditSectionDialog 预填原文→新函数 MeetingAiRewriter.rewriteSectionLiteral 纯字面替换(markdown 精确替换+visualJson 转义匹配+parse 校验,EditHistory 快照'逐字修改前',零 LLM 分支);对不上原文如实报失败;老纪要(无 visualJson)不支持段级改仍走 AI 改改",
-  "userFacingChangelog": "纪要卡两处升级：展开后点正文不会再意外收起（底部有明确的收起按钮，和那天的事一致）；长按正文任意一段可以直接修改文字，正文和板块同步更新。",
+  "sha256": "19e642c332a6ffeb8a9f67b18c18b9d0faf82206208f0b60cadc4bd7398573c4",
+  "changelog": "v1260 长按菜单统一大改(owner 拍板)：①纪要展开态右上 chevron→与页脚同款「收起↑」可点 ②长按统一模型:任何区域=同一份整卡菜单,正文段/板块文本元素长按=「修改这一段」hot置顶+整卡菜单;结构化板块(核心结论bullets/议题标题lead句bullets/流程/脑图)文本元素全部可逐字修改,from取visualJson解码原值走 rewriteSectionLiteral(表格单元格除外,网格对齐风险) ③菜单全平铺(删两处MenuAction.More)+统一排序骨架(完成类提前/删除danger置底)+「添加到长期记忆」改名「让AI记住这条」(toast同步「✓记住了」)+补缺:纪要+聊聊这条/抉择+聊聊+复制/成就+分享入口;不渲染图标",
+  "userFacingChangelog": "卡片长按菜单全面梳理：菜单不再折叠、所有选项一眼可见；顺序按最常用重排（完成类操作提到最前、删除永远在最底）；纪要现在任何位置长按都能修改文字——包括上面的彩色板块；纪要和抉择补上了「聊聊这条」。",
   "recentReleases": [
-    {
-      "version": 1210,
-      "versionName": "260629-2108-standard",
-      "userFacingChangelog": "人生来信改回从真实记录里写（不再绕卡片摘要），更扎实、更少凭空发挥。",
-      "changelog": "人生来信质量改进——重新从你真实的记录里写，不再从卡片摘要里二手提炼，少了瞎编、回到扎实。",
-      "publishedAtMs": 1782738649000
-    },
     {
       "version": 1211,
       "versionName": "260629-2150-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "纪要卡两处升级：展开后点正文不会再意外收起（底部有明确的收起按钮，和那天的事一致）；长按正文任意一段可以直接修改文字，正文和板块同步更新。",
       "changelog": "v1259 纪要两项(owner 拍板)：①展开页改按钮收起——点正文不再收起,底部页脚=Hairline+日期落款左/「收起↑」右(44dp胶囊ripple),BackHandler 保留;卡片 onClick 只展开 ②段级逐字修改——正文段 LongPressMenu「修改这一段」→EditSectionDialog 预填原文→新函数 MeetingAiRewriter.rewriteSectionLiteral 纯字面替换(markdown 精确替换+visualJson 转义匹配+parse 校验,EditHistory 快照'逐字修改前',零 LLM 分支);对不上原文如实报失败;老纪要(无 visualJson)不支持段级改仍走 AI 改改",
       "publishedAtMs": 1783517920000
+    },
+    {
+      "version": 1260,
+      "versionName": "260708-1232-standard",
+      "userFacingChangelog": "卡片长按菜单全面梳理：菜单不再折叠、所有选项一眼可见；顺序按最常用重排（完成类操作提到最前、删除永远在最底）；纪要现在任何位置长按都能修改文字——包括上面的彩色板块；纪要和抉择补上了「聊聊这条」。",
+      "changelog": "v1260 长按菜单统一大改(owner 拍板)：①纪要展开态右上 chevron→与页脚同款「收起↑」可点 ②长按统一模型:任何区域=同一份整卡菜单,正文段/板块文本元素长按=「修改这一段」hot置顶+整卡菜单;结构化板块(核心结论bullets/议题标题lead句bullets/流程/脑图)文本元素全部可逐字修改,from取visualJson解码原值走 rewriteSectionLiteral(表格单元格除外,网格对齐风险) ③菜单全平铺(删两处MenuAction.More)+统一排序骨架(完成类提前/删除danger置底)+「添加到长期记忆」改名「让AI记住这条」(toast同步「✓记住了」)+补缺:纪要+聊聊这条/抉择+聊聊+复制/成就+分享入口;不渲染图标",
+      "publishedAtMs": 1783539381000
     }
   ],
-  "publishedAtMs": 1783517920000,
+  "publishedAtMs": 1783539381000,
   "minSupported": 0
 }
