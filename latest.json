@@ -1,20 +1,13 @@
 {
-  "version": 1261,
-  "versionName": "260708-1942-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1261-260708-1942-standard-slim.apk.bin",
+  "version": 1262,
+  "versionName": "260708-2028-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1262-260708-2028-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37731223,
-  "sha256": "2e43ff3abebfa72fe7b2878bfbaede7828e9eab88da88943f223389c4ce053c0",
-  "changelog": "v1261 实习生Day3四连修：①人名双名修复(peopleBlock 注入别名 trim+≠主名+distinct 去重+prompt 列名只写主名)+人名点击统一(删 PersonConfirmedStore 分流,虚线人名一律进 PersonFactCard 人物大卡,拼写确认弹窗收进大卡改名入口;Timeline 日报/知识卡同步接大卡)+能力边界补'人名链接是真实功能' ②声纹录制中隐藏状态行倒计时(面板剩X秒独占,消除双计时不同步) ③改一下重发/指正这段两处按钮改右对齐主次分明(取消细线左/保存实底右) ④PersonNameMarkup 加 excludeNames:用户自称(preferredCall+selfNames+我哨兵)不再链接化",
-  "userFacingChangelog": "细节修复一批：人名列表不再出现重复的括号别名，点人名统一打开人物卡片；声音录制界面只保留一个倒计时；编辑重发的按钮更好点了；AI 提到你的称呼时不再带下划线。",
+  "sizeBytes": 37739415,
+  "sha256": "5bceda912cd405a1d5b856117256c4c70fc05419005e3773aa436159eb6222d7",
+  "changelog": "v1262 板块编辑升级整块编辑(owner 打回单句粒度)：①VisualElementLongPress 元素级包壳拆除,换 ModuleLongPress 模块容器级(核心结论整卡/议题彩卡/流程step/流程标题/脑图根+分支;表格保持不挂)②ModuleEditDialog:内容型标题单独一栏+正文多行框一行一条可增删行③新 rewriteVisualModule:VisualModuleRef 结构索引定位(不做字符串匹配)+解码copy写回+parse校验+EditHistory快照'板块整段修改前'+visualJson绝不置null,零LLM;markdown 尽力同步(removed/added按序zip配对逐行精确替换,不命中静默跳过)",
+  "userFacingChangelog": "纪要板块的文字修改升级了：长按板块任意位置就能整块编辑——标题一栏、内容一行一条，可以增删行，不用再精准按中某一句。",
   "recentReleases": [
-    {
-      "version": 1212,
-      "versionName": "260630-1124-standard",
-      "userFacingChangelog": "念念不忘修复：不再把读不通的录音原文当金句，糊掉的内容会直接不出卡。",
-      "changelog": "念念不忘修复——不再把听不清、读不通的整段录音流水当成金句塞进卡片，糊掉就留空不出。",
-      "publishedAtMs": 1782790005000
-    },
     {
       "version": 1213,
       "versionName": "260701-0952-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "细节修复一批：人名列表不再出现重复的括号别名，点人名统一打开人物卡片；声音录制界面只保留一个倒计时；编辑重发的按钮更好点了；AI 提到你的称呼时不再带下划线。",
       "changelog": "v1261 实习生Day3四连修：①人名双名修复(peopleBlock 注入别名 trim+≠主名+distinct 去重+prompt 列名只写主名)+人名点击统一(删 PersonConfirmedStore 分流,虚线人名一律进 PersonFactCard 人物大卡,拼写确认弹窗收进大卡改名入口;Timeline 日报/知识卡同步接大卡)+能力边界补'人名链接是真实功能' ②声纹录制中隐藏状态行倒计时(面板剩X秒独占,消除双计时不同步) ③改一下重发/指正这段两处按钮改右对齐主次分明(取消细线左/保存实底右) ④PersonNameMarkup 加 excludeNames:用户自称(preferredCall+selfNames+我哨兵)不再链接化",
       "publishedAtMs": 1783565179000
+    },
+    {
+      "version": 1262,
+      "versionName": "260708-2028-standard",
+      "userFacingChangelog": "纪要板块的文字修改升级了：长按板块任意位置就能整块编辑——标题一栏、内容一行一条，可以增删行，不用再精准按中某一句。",
+      "changelog": "v1262 板块编辑升级整块编辑(owner 打回单句粒度)：①VisualElementLongPress 元素级包壳拆除,换 ModuleLongPress 模块容器级(核心结论整卡/议题彩卡/流程step/流程标题/脑图根+分支;表格保持不挂)②ModuleEditDialog:内容型标题单独一栏+正文多行框一行一条可增删行③新 rewriteVisualModule:VisualModuleRef 结构索引定位(不做字符串匹配)+解码copy写回+parse校验+EditHistory快照'板块整段修改前'+visualJson绝不置null,零LLM;markdown 尽力同步(removed/added按序zip配对逐行精确替换,不命中静默跳过)",
+      "publishedAtMs": 1783567830000
     }
   ],
-  "publishedAtMs": 1783565179000,
+  "publishedAtMs": 1783567830000,
   "minSupported": 0
 }
