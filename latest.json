@@ -1,20 +1,13 @@
 {
-  "version": 1260,
-  "versionName": "260708-1232-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1260-260708-1232-standard-slim.apk.bin",
+  "version": 1261,
+  "versionName": "260708-1942-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1261-260708-1942-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37731223,
-  "sha256": "19e642c332a6ffeb8a9f67b18c18b9d0faf82206208f0b60cadc4bd7398573c4",
-  "changelog": "v1260 长按菜单统一大改(owner 拍板)：①纪要展开态右上 chevron→与页脚同款「收起↑」可点 ②长按统一模型:任何区域=同一份整卡菜单,正文段/板块文本元素长按=「修改这一段」hot置顶+整卡菜单;结构化板块(核心结论bullets/议题标题lead句bullets/流程/脑图)文本元素全部可逐字修改,from取visualJson解码原值走 rewriteSectionLiteral(表格单元格除外,网格对齐风险) ③菜单全平铺(删两处MenuAction.More)+统一排序骨架(完成类提前/删除danger置底)+「添加到长期记忆」改名「让AI记住这条」(toast同步「✓记住了」)+补缺:纪要+聊聊这条/抉择+聊聊+复制/成就+分享入口;不渲染图标",
-  "userFacingChangelog": "卡片长按菜单全面梳理：菜单不再折叠、所有选项一眼可见；顺序按最常用重排（完成类操作提到最前、删除永远在最底）；纪要现在任何位置长按都能修改文字——包括上面的彩色板块；纪要和抉择补上了「聊聊这条」。",
+  "sha256": "2e43ff3abebfa72fe7b2878bfbaede7828e9eab88da88943f223389c4ce053c0",
+  "changelog": "v1261 实习生Day3四连修：①人名双名修复(peopleBlock 注入别名 trim+≠主名+distinct 去重+prompt 列名只写主名)+人名点击统一(删 PersonConfirmedStore 分流,虚线人名一律进 PersonFactCard 人物大卡,拼写确认弹窗收进大卡改名入口;Timeline 日报/知识卡同步接大卡)+能力边界补'人名链接是真实功能' ②声纹录制中隐藏状态行倒计时(面板剩X秒独占,消除双计时不同步) ③改一下重发/指正这段两处按钮改右对齐主次分明(取消细线左/保存实底右) ④PersonNameMarkup 加 excludeNames:用户自称(preferredCall+selfNames+我哨兵)不再链接化",
+  "userFacingChangelog": "细节修复一批：人名列表不再出现重复的括号别名，点人名统一打开人物卡片；声音录制界面只保留一个倒计时；编辑重发的按钮更好点了；AI 提到你的称呼时不再带下划线。",
   "recentReleases": [
-    {
-      "version": 1211,
-      "versionName": "260629-2150-standard",
-      "userFacingChangelog": "把界面里一些技术术语换成了大白话，更好懂。",
-      "changelog": "把界面里露出来的技术术语换成了大白话——你只会看到能看懂的功能名，不再蹦工程词。",
-      "publishedAtMs": 1782741165000
-    },
     {
       "version": 1212,
       "versionName": "260630-1124-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "卡片长按菜单全面梳理：菜单不再折叠、所有选项一眼可见；顺序按最常用重排（完成类操作提到最前、删除永远在最底）；纪要现在任何位置长按都能修改文字——包括上面的彩色板块；纪要和抉择补上了「聊聊这条」。",
       "changelog": "v1260 长按菜单统一大改(owner 拍板)：①纪要展开态右上 chevron→与页脚同款「收起↑」可点 ②长按统一模型:任何区域=同一份整卡菜单,正文段/板块文本元素长按=「修改这一段」hot置顶+整卡菜单;结构化板块(核心结论bullets/议题标题lead句bullets/流程/脑图)文本元素全部可逐字修改,from取visualJson解码原值走 rewriteSectionLiteral(表格单元格除外,网格对齐风险) ③菜单全平铺(删两处MenuAction.More)+统一排序骨架(完成类提前/删除danger置底)+「添加到长期记忆」改名「让AI记住这条」(toast同步「✓记住了」)+补缺:纪要+聊聊这条/抉择+聊聊+复制/成就+分享入口;不渲染图标",
       "publishedAtMs": 1783539381000
+    },
+    {
+      "version": 1261,
+      "versionName": "260708-1942-standard",
+      "userFacingChangelog": "细节修复一批：人名列表不再出现重复的括号别名，点人名统一打开人物卡片；声音录制界面只保留一个倒计时；编辑重发的按钮更好点了；AI 提到你的称呼时不再带下划线。",
+      "changelog": "v1261 实习生Day3四连修：①人名双名修复(peopleBlock 注入别名 trim+≠主名+distinct 去重+prompt 列名只写主名)+人名点击统一(删 PersonConfirmedStore 分流,虚线人名一律进 PersonFactCard 人物大卡,拼写确认弹窗收进大卡改名入口;Timeline 日报/知识卡同步接大卡)+能力边界补'人名链接是真实功能' ②声纹录制中隐藏状态行倒计时(面板剩X秒独占,消除双计时不同步) ③改一下重发/指正这段两处按钮改右对齐主次分明(取消细线左/保存实底右) ④PersonNameMarkup 加 excludeNames:用户自称(preferredCall+selfNames+我哨兵)不再链接化",
+      "publishedAtMs": 1783565179000
     }
   ],
-  "publishedAtMs": 1783539381000,
+  "publishedAtMs": 1783565179000,
   "minSupported": 0
 }
