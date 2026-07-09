@@ -1,20 +1,13 @@
 {
-  "version": 1262,
-  "versionName": "260708-2028-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1262-260708-2028-standard-slim.apk.bin",
+  "version": 1263,
+  "versionName": "260708-2244-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1263-260708-2244-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37739415,
-  "sha256": "5bceda912cd405a1d5b856117256c4c70fc05419005e3773aa436159eb6222d7",
-  "changelog": "v1262 板块编辑升级整块编辑(owner 打回单句粒度)：①VisualElementLongPress 元素级包壳拆除,换 ModuleLongPress 模块容器级(核心结论整卡/议题彩卡/流程step/流程标题/脑图根+分支;表格保持不挂)②ModuleEditDialog:内容型标题单独一栏+正文多行框一行一条可增删行③新 rewriteVisualModule:VisualModuleRef 结构索引定位(不做字符串匹配)+解码copy写回+parse校验+EditHistory快照'板块整段修改前'+visualJson绝不置null,零LLM;markdown 尽力同步(removed/added按序zip配对逐行精确替换,不命中静默跳过)",
-  "userFacingChangelog": "纪要板块的文字修改升级了：长按板块任意位置就能整块编辑——标题一栏、内容一行一条，可以增删行，不用再精准按中某一句。",
+  "sha256": "a71ec11add61286dad58867c2e7aec03117e3199cb9f81d72aa48467c7e609b6",
+  "changelog": "v1263 聊天两项：总结写回入口改推荐回答chip + AI长回复不抢滚",
+  "userFacingChangelog": "聊天页更新：①「把这段聊天总结写回卡片」的入口改到最新一条 AI 回复下面的推荐选项里，跟其它推荐回答并排，点一下就总结写回 ②AI 回长消息时画面不再自动滚到底部又跳回，现在保持在原位置，你自己往下滑着看，右下角按钮会亮绿点提示有新内容",
   "recentReleases": [
-    {
-      "version": 1213,
-      "versionName": "260701-0952-standard",
-      "userFacingChangelog": "· 人生来信更贴合真实经历，不再把前几天的事说成今天、也不再强行把两句不相干的话拼在一起\n· 修正日报标题偶尔多出「标题：」字样",
-      "changelog": "人生来信与日报细节打磨",
-      "publishedAtMs": 1782870929000
-    },
     {
       "version": 1214,
       "versionName": "260701-1811-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "纪要板块的文字修改升级了：长按板块任意位置就能整块编辑——标题一栏、内容一行一条，可以增删行，不用再精准按中某一句。",
       "changelog": "v1262 板块编辑升级整块编辑(owner 打回单句粒度)：①VisualElementLongPress 元素级包壳拆除,换 ModuleLongPress 模块容器级(核心结论整卡/议题彩卡/流程step/流程标题/脑图根+分支;表格保持不挂)②ModuleEditDialog:内容型标题单独一栏+正文多行框一行一条可增删行③新 rewriteVisualModule:VisualModuleRef 结构索引定位(不做字符串匹配)+解码copy写回+parse校验+EditHistory快照'板块整段修改前'+visualJson绝不置null,零LLM;markdown 尽力同步(removed/added按序zip配对逐行精确替换,不命中静默跳过)",
       "publishedAtMs": 1783567830000
+    },
+    {
+      "version": 1263,
+      "versionName": "260708-2244-standard",
+      "userFacingChangelog": "聊天页更新：①「把这段聊天总结写回卡片」的入口改到最新一条 AI 回复下面的推荐选项里，跟其它推荐回答并排，点一下就总结写回 ②AI 回长消息时画面不再自动滚到底部又跳回，现在保持在原位置，你自己往下滑着看，右下角按钮会亮绿点提示有新内容",
+      "changelog": "v1263 聊天两项：总结写回入口改推荐回答chip + AI长回复不抢滚",
+      "publishedAtMs": 1783576046000
     }
   ],
-  "publishedAtMs": 1783567830000,
+  "publishedAtMs": 1783576046000,
   "minSupported": 0
 }
