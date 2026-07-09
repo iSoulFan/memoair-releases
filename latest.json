@@ -1,20 +1,13 @@
 {
-  "version": 1263,
-  "versionName": "260708-2244-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1263-260708-2244-standard-slim.apk.bin",
+  "version": 1264,
+  "versionName": "260708-2345-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1264-260708-2345-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37739415,
-  "sha256": "a71ec11add61286dad58867c2e7aec03117e3199cb9f81d72aa48467c7e609b6",
-  "changelog": "v1263 聊天两项：总结写回入口改推荐回答chip + AI长回复不抢滚",
-  "userFacingChangelog": "聊天页更新：①「把这段聊天总结写回卡片」的入口改到最新一条 AI 回复下面的推荐选项里，跟其它推荐回答并排，点一下就总结写回 ②AI 回长消息时画面不再自动滚到底部又跳回，现在保持在原位置，你自己往下滑着看，右下角按钮会亮绿点提示有新内容",
+  "sha256": "09433228ee1596fe140dc067f0fc3fe009eea548b080143b176890d6684659c9",
+  "changelog": "v1264 实习生反馈两修：private解锁密码路径改系统真锁屏页 + 纪要二字提示词避免截半个词",
+  "userFacingChangelog": "两处修复：①private 内容解锁——「用锁屏密码」现在走系统标准的锁屏确认页，输完密码正常校验，不再出现输了密码却没法确认的情况 ②纪要卡片左上角的二字标签更贴内容主题了，不再出现「如何」「新员」这种像截了半句话的词",
   "recentReleases": [
-    {
-      "version": 1214,
-      "versionName": "260701-1811-standard",
-      "userFacingChangelog": "· 微光时刻不再把「你送给别人的东西」写反成「别人送你」\n· 那天的事是第二天早上读的，结尾不再出现「晚安 / 明天…」这类对不上的话",
-      "changelog": "微光时刻与那天的事细节打磨",
-      "publishedAtMs": 1782954895000
-    },
     {
       "version": 1215,
       "versionName": "260702-0410-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "聊天页更新：①「把这段聊天总结写回卡片」的入口改到最新一条 AI 回复下面的推荐选项里，跟其它推荐回答并排，点一下就总结写回 ②AI 回长消息时画面不再自动滚到底部又跳回，现在保持在原位置，你自己往下滑着看，右下角按钮会亮绿点提示有新内容",
       "changelog": "v1263 聊天两项：总结写回入口改推荐回答chip + AI长回复不抢滚",
       "publishedAtMs": 1783576046000
+    },
+    {
+      "version": 1264,
+      "versionName": "260708-2345-standard",
+      "userFacingChangelog": "两处修复：①private 内容解锁——「用锁屏密码」现在走系统标准的锁屏确认页，输完密码正常校验，不再出现输了密码却没法确认的情况 ②纪要卡片左上角的二字标签更贴内容主题了，不再出现「如何」「新员」这种像截了半句话的词",
+      "changelog": "v1264 实习生反馈两修：private解锁密码路径改系统真锁屏页 + 纪要二字提示词避免截半个词",
+      "publishedAtMs": 1783579651000
     }
   ],
-  "publishedAtMs": 1783576046000,
+  "publishedAtMs": 1783579651000,
   "minSupported": 0
 }
