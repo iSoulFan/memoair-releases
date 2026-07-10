@@ -1,20 +1,13 @@
 {
-  "version": 1265,
-  "versionName": "260709-0311-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1265-260709-0311-standard-slim.apk.bin",
+  "version": 1266,
+  "versionName": "260709-1951-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1266-260709-1951-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37743511,
-  "sha256": "4496f4808b07fbe04b37de73e6fa640bbc8f8f154eb2c19177c422f0e59b9aa4",
-  "changelog": "v1265 待办完成仪式感动画（划线变灰→收拢入已完成）+ 已完成按最新完成倒序",
-  "userFacingChangelog": "待办更新：①勾选完成不再瞬间消失——先在原地划线变灰，再轻轻收拢滑进底部「已完成」，画面保持原位 ②「已完成」区改为最新完成的排最上面",
+  "sha256": "604026e07b2124c9e6b309e4900ccde2cda34bc09be724826041dc0ff681e6ff",
+  "changelog": "v1266 愿望「不想了」可撤销：百叶窗退场动画+4秒撤销条，不再瞬间消失",
+  "userFacingChangelog": "愿望更新：点「不想了」不再瞬间消失——卡片会轻轻翻起收走，底部出现 4 秒「撤销」条，点一下就能反悔拿回来",
   "recentReleases": [
-    {
-      "version": 1216,
-      "versionName": "260702-0642-standard",
-      "userFacingChangelog": "语音识别升级：新增云端识别模式，听得更准更稳；可在 设置 → 记录 → 语音处理模式 里选择云端或仅本机处理",
-      "changelog": "v1216 云端语音识别上线(合入 codex/asr-cloud)：memosea 后端接入+流式识别、按住说话与长音频导入可走云端、设置新增语音处理模式开关(云端最优/本地优先,默认云端但 backendConfirmed 确认后才上传)、X-ASR 模型文件 SHA-256 校验加固；含 v1215 自档案卡重做",
-      "publishedAtMs": 1782999915000
-    },
     {
       "version": 1217,
       "versionName": "260702-0839-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "待办更新：①勾选完成不再瞬间消失——先在原地划线变灰，再轻轻收拢滑进底部「已完成」，画面保持原位 ②「已完成」区改为最新完成的排最上面",
       "changelog": "v1265 待办完成仪式感动画（划线变灰→收拢入已完成）+ 已完成按最新完成倒序",
       "publishedAtMs": 1783592108000
+    },
+    {
+      "version": 1266,
+      "versionName": "260709-1951-standard",
+      "userFacingChangelog": "愿望更新：点「不想了」不再瞬间消失——卡片会轻轻翻起收走，底部出现 4 秒「撤销」条，点一下就能反悔拿回来",
+      "changelog": "v1266 愿望「不想了」可撤销：百叶窗退场动画+4秒撤销条，不再瞬间消失",
+      "publishedAtMs": 1783652067000
     }
   ],
-  "publishedAtMs": 1783592108000,
+  "publishedAtMs": 1783652067000,
   "minSupported": 0
 }
