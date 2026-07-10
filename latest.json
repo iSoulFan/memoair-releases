@@ -1,20 +1,13 @@
 {
-  "version": 1267,
-  "versionName": "260709-2010-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1267-260709-2010-standard-slim.apk.bin",
+  "version": 1268,
+  "versionName": "260709-2201-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1268-260709-2201-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37747607,
-  "sha256": "59597faf960bce58f33caaeabcc895743323591ac27e7497098a50726eff4a2b",
-  "changelog": "v1267 撤销后滚到复原卡片处——愿望/待办/纪要三处统一",
-  "userFacingChangelog": "小更新：删除后点「撤销」，如果复原的卡片不在当前屏幕里，页面会自动滚到它那里，亲眼看到它回来——不用再自己滑上去找了",
+  "sha256": "35b8368089e43703d7320e9cffe4e398daaabe30a2ba62f4c4ac046e391721c8",
+  "changelog": "v1268 记得星球文案改意境版：这一秒抬头看看天空/记得星球今晚也亮着灯",
+  "userFacingChangelog": "「我的」页记得星球照片下的小字换了一句：这一秒抬头看看天空，记得星球今晚也亮着灯",
   "recentReleases": [
-    {
-      "version": 1218,
-      "versionName": "260702-0855-standard",
-      "userFacingChangelog": "语音识别默认使用本机处理；云端模式待后端服务就绪后再开放，可在 设置 → 记录 → 语音处理模式 里查看",
-      "changelog": "v1218 语音处理模式默认改本地优先(owner 拍板:云端后端就绪前 OTA 用户不被动上云)：readState 默认 LOCAL_PRIVACY + 一次性迁移(存量 cloud_best 且 backendConfirmed 从未 true 的拉回本地;已确认的真云端用户不动;迁移只跑一次,之后手动选云端不被覆盖)+单测 3 例",
-      "publishedAtMs": 1783007822000
-    },
     {
       "version": 1219,
       "versionName": "260702-0900-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "小更新：删除后点「撤销」，如果复原的卡片不在当前屏幕里，页面会自动滚到它那里，亲眼看到它回来——不用再自己滑上去找了",
       "changelog": "v1267 撤销后滚到复原卡片处——愿望/待办/纪要三处统一",
       "publishedAtMs": 1783653153000
+    },
+    {
+      "version": 1268,
+      "versionName": "260709-2201-standard",
+      "userFacingChangelog": "「我的」页记得星球照片下的小字换了一句：这一秒抬头看看天空，记得星球今晚也亮着灯",
+      "changelog": "v1268 记得星球文案改意境版：这一秒抬头看看天空/记得星球今晚也亮着灯",
+      "publishedAtMs": 1783659807000
     }
   ],
-  "publishedAtMs": 1783653153000,
+  "publishedAtMs": 1783659807000,
   "minSupported": 0
 }
