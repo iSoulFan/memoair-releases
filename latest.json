@@ -1,20 +1,13 @@
 {
-  "version": 1266,
-  "versionName": "260709-1951-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1266-260709-1951-standard-slim.apk.bin",
+  "version": 1267,
+  "versionName": "260709-2010-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1267-260709-2010-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37743511,
-  "sha256": "604026e07b2124c9e6b309e4900ccde2cda34bc09be724826041dc0ff681e6ff",
-  "changelog": "v1266 愿望「不想了」可撤销：百叶窗退场动画+4秒撤销条，不再瞬间消失",
-  "userFacingChangelog": "愿望更新：点「不想了」不再瞬间消失——卡片会轻轻翻起收走，底部出现 4 秒「撤销」条，点一下就能反悔拿回来",
+  "sizeBytes": 37747607,
+  "sha256": "59597faf960bce58f33caaeabcc895743323591ac27e7497098a50726eff4a2b",
+  "changelog": "v1267 撤销后滚到复原卡片处——愿望/待办/纪要三处统一",
+  "userFacingChangelog": "小更新：删除后点「撤销」，如果复原的卡片不在当前屏幕里，页面会自动滚到它那里，亲眼看到它回来——不用再自己滑上去找了",
   "recentReleases": [
-    {
-      "version": 1217,
-      "versionName": "260702-0839-standard",
-      "userFacingChangelog": "修复：按住说话不再报错(云端连不上时自动用本机识别顶上)；语音处理模式开关可以正常切换了",
-      "changelog": "v1217 云端语音热修：①语音处理模式开关先写本地再同步云端(后端客户端构造失败也能切,根因=MEMOSEA_BASE_URL 未配置时构造即抛,setMode 在写本地前就炸) ②按住说话云端不可用改退回本机识别(去掉'不能降级到本地'硬闸,含 startCloud 抛异常兜底) ③同步失败原因如实显示在设置状态行",
-      "publishedAtMs": 1783006912000
-    },
     {
       "version": 1218,
       "versionName": "260702-0855-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "愿望更新：点「不想了」不再瞬间消失——卡片会轻轻翻起收走，底部出现 4 秒「撤销」条，点一下就能反悔拿回来",
       "changelog": "v1266 愿望「不想了」可撤销：百叶窗退场动画+4秒撤销条，不再瞬间消失",
       "publishedAtMs": 1783652067000
+    },
+    {
+      "version": 1267,
+      "versionName": "260709-2010-standard",
+      "userFacingChangelog": "小更新：删除后点「撤销」，如果复原的卡片不在当前屏幕里，页面会自动滚到它那里，亲眼看到它回来——不用再自己滑上去找了",
+      "changelog": "v1267 撤销后滚到复原卡片处——愿望/待办/纪要三处统一",
+      "publishedAtMs": 1783653153000
     }
   ],
-  "publishedAtMs": 1783652067000,
+  "publishedAtMs": 1783653153000,
   "minSupported": 0
 }
