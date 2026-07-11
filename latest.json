@@ -1,20 +1,13 @@
 {
-  "version": 1268,
-  "versionName": "260709-2201-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1268-260709-2201-standard-slim.apk.bin",
+  "version": 1269,
+  "versionName": "260711-0818-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1269-260711-0818-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37747607,
-  "sha256": "35b8368089e43703d7320e9cffe4e398daaabe30a2ba62f4c4ac046e391721c8",
-  "changelog": "v1268 记得星球文案改意境版：这一秒抬头看看天空/记得星球今晚也亮着灯",
-  "userFacingChangelog": "「我的」页记得星球照片下的小字换了一句：这一秒抬头看看天空，记得星球今晚也亮着灯",
+  "sha256": "40a2bd0c7a804f6223eb24b255c7027e991e2a45149b5400eeb4a241b21aa4ac",
+  "changelog": "v1269 拾梦空白自愈加密度：当天新卡最多补试3次/天（老卡仍1次）",
+  "userFacingChangelog": "拾梦相片小更新：当天的相片如果没生成出来，App 会在你开 App、回到网络时多补几次（每次都换主题），不用等到第二天",
   "recentReleases": [
-    {
-      "version": 1219,
-      "versionName": "260702-0900-standard",
-      "userFacingChangelog": "「猜你想做」现在最新的推荐排在最前面",
-      "changelog": "v1219 猜你想做排序修正：staged 推荐区改 createdAtEpochMs DESC(最新推荐在最前),之前按 due/created ASC 越老越靠前;只动 observeStaged,主列表排序不变",
-      "publishedAtMs": 1783008154000
-    },
     {
       "version": 1220,
       "versionName": "260702-1916-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "「我的」页记得星球照片下的小字换了一句：这一秒抬头看看天空，记得星球今晚也亮着灯",
       "changelog": "v1268 记得星球文案改意境版：这一秒抬头看看天空/记得星球今晚也亮着灯",
       "publishedAtMs": 1783659807000
+    },
+    {
+      "version": 1269,
+      "versionName": "260711-0818-standard",
+      "userFacingChangelog": "拾梦相片小更新：当天的相片如果没生成出来，App 会在你开 App、回到网络时多补几次（每次都换主题），不用等到第二天",
+      "changelog": "v1269 拾梦空白自愈加密度：当天新卡最多补试3次/天（老卡仍1次）",
+      "publishedAtMs": 1783783292000
     }
   ],
-  "publishedAtMs": 1783659807000,
+  "publishedAtMs": 1783783292000,
   "minSupported": 0
 }
