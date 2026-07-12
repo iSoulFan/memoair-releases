@@ -1,20 +1,13 @@
 {
-  "version": 1269,
-  "versionName": "260711-0818-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1269-260711-0818-standard-slim.apk.bin",
+  "version": 1270,
+  "versionName": "260711-2329-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1270-260711-2329-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37747607,
-  "sha256": "40a2bd0c7a804f6223eb24b255c7027e991e2a45149b5400eeb4a241b21aa4ac",
-  "changelog": "v1269 拾梦空白自愈加密度：当天新卡最多补试3次/天（老卡仍1次）",
-  "userFacingChangelog": "拾梦相片小更新：当天的相片如果没生成出来，App 会在你开 App、回到网络时多补几次（每次都换主题），不用等到第二天",
+  "sha256": "920157911b509f92062c163c68ca8ba6eb4b9d531bc2716f7a8e79545d91c854",
+  "changelog": "v1270 拾梦无图态改未显影相纸（方案A落地）：乳剂质感+显影潮线+轻点催显影小字",
+  "userFacingChangelog": "拾梦相片更新：图片没生成出来的日子，拍立得不再是黑框——相纸里是一片还没显影的奶白乳剂，会轻轻呼吸；下面一行小字「轻点催它一下」可以手动催一次",
   "recentReleases": [
-    {
-      "version": 1220,
-      "versionName": "260702-1916-standard",
-      "userFacingChangelog": "「猜你想做」展开后，点左边的 ＋ 直接加进待办；点条目其他位置是选中",
-      "changelog": "v1220 猜你想做加号语义恒定：展开态点行左加号=直接收进待办(原为勾选)，勾选只走点行其他区域；圈内不再显示勾选态(点✓却入库会误导)，选中态靠标题加粗+详情展开；直收时同步清该行勾选/lastTapped;折叠态交互不变",
-      "publishedAtMs": 1783045159000
-    },
     {
       "version": 1221,
       "versionName": "260702-1938-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "拾梦相片小更新：当天的相片如果没生成出来，App 会在你开 App、回到网络时多补几次（每次都换主题），不用等到第二天",
       "changelog": "v1269 拾梦空白自愈加密度：当天新卡最多补试3次/天（老卡仍1次）",
       "publishedAtMs": 1783783292000
+    },
+    {
+      "version": 1270,
+      "versionName": "260711-2329-standard",
+      "userFacingChangelog": "拾梦相片更新：图片没生成出来的日子，拍立得不再是黑框——相纸里是一片还没显影的奶白乳剂，会轻轻呼吸；下面一行小字「轻点催它一下」可以手动催一次",
+      "changelog": "v1270 拾梦无图态改未显影相纸（方案A落地）：乳剂质感+显影潮线+轻点催显影小字",
+      "publishedAtMs": 1783837977000
     }
   ],
-  "publishedAtMs": 1783783292000,
+  "publishedAtMs": 1783837977000,
   "minSupported": 0
 }
