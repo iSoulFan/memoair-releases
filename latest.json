@@ -1,20 +1,13 @@
 {
-  "version": 1270,
-  "versionName": "260711-2329-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1270-260711-2329-standard-slim.apk.bin",
+  "version": 1271,
+  "versionName": "260712-1806-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1271-260712-1806-standard-slim.apk.bin",
   "fallbackUrl": "",
-  "sizeBytes": 37747607,
-  "sha256": "920157911b509f92062c163c68ca8ba6eb4b9d531bc2716f7a8e79545d91c854",
-  "changelog": "v1270 拾梦无图态改未显影相纸（方案A落地）：乳剂质感+显影潮线+轻点催显影小字",
-  "userFacingChangelog": "拾梦相片更新：图片没生成出来的日子，拍立得不再是黑框——相纸里是一片还没显影的奶白乳剂，会轻轻呼吸；下面一行小字「轻点催它一下」可以手动催一次",
+  "sizeBytes": 37751703,
+  "sha256": "072b63235e24cf8d886b015074c80bbfb4ffe2a42e3915999b7aa08547283f40",
+  "changelog": "v1271 拾梦三修：审核连拒上安全兜底图保证有图+日报截断修复+催显影原地显影不出第二张",
+  "userFacingChangelog": "拾梦相片修复：①图片一定会有了——就算当天内容全被图片服务拒绝，也会保底生成一张安静的静物照片 ②那天的事末尾不再出现写了一半的句子 ③空白相片「催它一下」改为在原相纸上直接显影，不再冒出第二张卡片；失败也不再扣次数",
   "recentReleases": [
-    {
-      "version": 1221,
-      "versionName": "260702-1938-standard",
-      "userFacingChangelog": "「猜你想做」收起状态下，点条目文字会先展开卡片；点 ＋ 依然直接加进待办",
-      "changelog": "v1221 猜你想做折叠态点行修正：根因=open 进程级保活但动画进度 remember 重建恒0,页面回收再回来出现'逻辑展开视觉收起'错位,点行走勾选不走展开;修=进度初值对齐 open + 行勾选/卡片展开判定统一以视觉真展开(open&&recP>0.5)为准",
-      "publishedAtMs": 1783046452000
-    },
     {
       "version": 1222,
       "versionName": "260702-1946-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "拾梦相片更新：图片没生成出来的日子，拍立得不再是黑框——相纸里是一片还没显影的奶白乳剂，会轻轻呼吸；下面一行小字「轻点催它一下」可以手动催一次",
       "changelog": "v1270 拾梦无图态改未显影相纸（方案A落地）：乳剂质感+显影潮线+轻点催显影小字",
       "publishedAtMs": 1783837977000
+    },
+    {
+      "version": 1271,
+      "versionName": "260712-1806-standard",
+      "userFacingChangelog": "拾梦相片修复：①图片一定会有了——就算当天内容全被图片服务拒绝，也会保底生成一张安静的静物照片 ②那天的事末尾不再出现写了一半的句子 ③空白相片「催它一下」改为在原相纸上直接显影，不再冒出第二张卡片；失败也不再扣次数",
+      "changelog": "v1271 拾梦三修：审核连拒上安全兜底图保证有图+日报截断修复+催显影原地显影不出第二张",
+      "publishedAtMs": 1783904967000
     }
   ],
-  "publishedAtMs": 1783837977000,
+  "publishedAtMs": 1783904967000,
   "minSupported": 0
 }
