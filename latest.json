@@ -1,20 +1,13 @@
 {
-  "version": 1271,
-  "versionName": "260712-1806-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1271-260712-1806-standard-slim.apk.bin",
+  "version": 1272,
+  "versionName": "260712-1836-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1272-260712-1836-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37751703,
-  "sha256": "072b63235e24cf8d886b015074c80bbfb4ffe2a42e3915999b7aa08547283f40",
-  "changelog": "v1271 拾梦三修：审核连拒上安全兜底图保证有图+日报截断修复+催显影原地显影不出第二张",
-  "userFacingChangelog": "拾梦相片修复：①图片一定会有了——就算当天内容全被图片服务拒绝，也会保底生成一张安静的静物照片 ②那天的事末尾不再出现写了一半的句子 ③空白相片「催它一下」改为在原相纸上直接显影，不再冒出第二张卡片；失败也不再扣次数",
+  "sha256": "767dd92bf3a11191338a826bbbc6ff67730e276c181e9c96cc3c07e016cdc80f",
+  "changelog": "v1272 真根因修复：关闭推理模型思考模式——空图与日报截断的共同根因",
+  "userFacingChangelog": "重要修复：找到了照片出不来和日报写一半的真正原因（AI 服务商悄悄改了模型行为，回答配额被内部消耗掉了）。已修复，照片和完整日报都会回来",
   "recentReleases": [
-    {
-      "version": 1222,
-      "versionName": "260702-1946-standard",
-      "userFacingChangelog": "「猜你想做」展开多选时，选中条目左边的圆圈会变成 ✓",
-      "changelog": "v1222 猜你想做选中态视觉还原：展开态被勾选的行左圈显示圆圈✓(CirclePlus checked=recsVisuallyOpen&&sel,同全App多选符号,v1220 曾改恒＋)；点圈语义不变=直接收进待办",
-      "publishedAtMs": 1783046886000
-    },
     {
       "version": 1223,
       "versionName": "260702-2034-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "拾梦相片修复：①图片一定会有了——就算当天内容全被图片服务拒绝，也会保底生成一张安静的静物照片 ②那天的事末尾不再出现写了一半的句子 ③空白相片「催它一下」改为在原相纸上直接显影，不再冒出第二张卡片；失败也不再扣次数",
       "changelog": "v1271 拾梦三修：审核连拒上安全兜底图保证有图+日报截断修复+催显影原地显影不出第二张",
       "publishedAtMs": 1783904967000
+    },
+    {
+      "version": 1272,
+      "versionName": "260712-1836-standard",
+      "userFacingChangelog": "重要修复：找到了照片出不来和日报写一半的真正原因（AI 服务商悄悄改了模型行为，回答配额被内部消耗掉了）。已修复，照片和完整日报都会回来",
+      "changelog": "v1272 真根因修复：关闭推理模型思考模式——空图与日报截断的共同根因",
+      "publishedAtMs": 1783906711000
     }
   ],
-  "publishedAtMs": 1783904967000,
+  "publishedAtMs": 1783906711000,
   "minSupported": 0
 }
