@@ -1,20 +1,13 @@
 {
-  "version": 1273,
-  "versionName": "260714-2107-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1273-260714-2107-standard-slim.apk.bin",
+  "version": 1274,
+  "versionName": "260714-2229-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1274-260714-2229-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37751703,
-  "sha256": "b23cc27145cea2b2e8f24bbdc8ce99ab8faaee4acb0ea68224360890793e4c04",
-  "changelog": "v1273 发送回复即跳到最新消息（显式跳底，不再被不抢滚门误拦）",
-  "userFacingChangelog": "对话小更新：发出回复后画面立刻跳到最新一条，不管你发送前停在哪里",
+  "sha256": "2bdf9820d6ef0e3442a29387192056c1912cb28ff9cbef996b0e381d41af9de8",
+  "changelog": "v1274 开场人设恢复 AURY/OLLIE 挑伙伴（全员），设置页回答风格五档维持现状",
+  "userFacingChangelog": "开场体验恢复：第一次见面重新是 AURY 和 OLLIE 的挑伙伴对话，也可以直接说出你想象中它的样子",
   "recentReleases": [
-    {
-      "version": 1224,
-      "versionName": "260702-2053-standard",
-      "userFacingChangelog": "首次使用的第三条引导，改在你切换页面或切出应用、再回到对话时出现",
-      "changelog": "v1224 开场引导第三条触发细化(owner)：由'下次冷启动/回前台+30min门'改为'离开对话上下文(切走tab/退后台)后再回到对话时推'——pacer 加 markContextBreak(prefs持久化断点,仅idx==2窗口)/onChatVisible(回对话+800ms补推)；MemoAirRoot 挂 pager currentPage+AppForeground 双触发器,宽屏chat常驻只认退后台",
-      "publishedAtMs": 1783050928000
-    },
     {
       "version": 1225,
       "versionName": "260702-2232-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "对话小更新：发出回复后画面立刻跳到最新一条，不管你发送前停在哪里",
       "changelog": "v1273 发送回复即跳到最新消息（显式跳底，不再被不抢滚门误拦）",
       "publishedAtMs": 1784088703000
+    },
+    {
+      "version": 1274,
+      "versionName": "260714-2229-standard",
+      "userFacingChangelog": "开场体验恢复：第一次见面重新是 AURY 和 OLLIE 的挑伙伴对话，也可以直接说出你想象中它的样子",
+      "changelog": "v1274 开场人设恢复 AURY/OLLIE 挑伙伴（全员），设置页回答风格五档维持现状",
+      "publishedAtMs": 1784093512000
     }
   ],
-  "publishedAtMs": 1784088703000,
+  "publishedAtMs": 1784093512000,
   "minSupported": 0
 }
