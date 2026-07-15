@@ -1,20 +1,13 @@
 {
-  "version": 1274,
-  "versionName": "260714-2229-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1274-260714-2229-standard-slim.apk.bin",
+  "version": 1275,
+  "versionName": "260715-0014-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1275-260715-0014-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37751703,
-  "sha256": "2bdf9820d6ef0e3442a29387192056c1912cb28ff9cbef996b0e381d41af9de8",
-  "changelog": "v1274 开场人设恢复 AURY/OLLIE 挑伙伴（全员），设置页回答风格五档维持现状",
-  "userFacingChangelog": "开场体验恢复：第一次见面重新是 AURY 和 OLLIE 的挑伙伴对话，也可以直接说出你想象中它的样子",
+  "sha256": "6a9a7a538855955d3237ac7fc876cff81bf36b979d19ee10cbfdac8b087fabdd",
+  "changelog": "v1275 设置页预设补 AURY/OLLIE 两项+关系栏放开；简洁直接融合为一档",
+  "userFacingChangelog": "设置更新：「我的」页回答风格里现在能看到 AURY 和 OLLIE 两个伙伴预设了，点一下就能换上、往下能改它的设定；「简洁」和「直接」合并成了一档",
   "recentReleases": [
-    {
-      "version": 1225,
-      "versionName": "260702-2232-standard",
-      "userFacingChangelog": "找原文更准了：AI 不再把你刚提的问题当作检索结果翻出来",
-      "changelog": "v1225 检索回声治理(A+B,owner 拍板)：A=PttWindows 记按住说话时间窗(±5s buffer/48h保留/悬空封顶3min),insertTranscript 重叠段打 chatEcho 标(DB v33 加列),检索 SQL 排除(LIKE 3条+FTS 2条+向量召回源);B=ChatEchoFilter 召回后回声过滤(bigram Dice,任何年龄≥0.66/30min新鲜段≥0.38,比对当前提问+最近12条用户消息),挂 chat 召回两路+search_transcripts 工具;时间窗/今天块不滤保持忠实还原",
-      "publishedAtMs": 1783056884000
-    },
     {
       "version": 1226,
       "versionName": "260703-0147-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "开场体验恢复：第一次见面重新是 AURY 和 OLLIE 的挑伙伴对话，也可以直接说出你想象中它的样子",
       "changelog": "v1274 开场人设恢复 AURY/OLLIE 挑伙伴（全员），设置页回答风格五档维持现状",
       "publishedAtMs": 1784093512000
+    },
+    {
+      "version": 1275,
+      "versionName": "260715-0014-standard",
+      "userFacingChangelog": "设置更新：「我的」页回答风格里现在能看到 AURY 和 OLLIE 两个伙伴预设了，点一下就能换上、往下能改它的设定；「简洁」和「直接」合并成了一档",
+      "changelog": "v1275 设置页预设补 AURY/OLLIE 两项+关系栏放开；简洁直接融合为一档",
+      "publishedAtMs": 1784099765000
     }
   ],
-  "publishedAtMs": 1784093512000,
+  "publishedAtMs": 1784099765000,
   "minSupported": 0
 }
