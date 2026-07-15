@@ -1,20 +1,13 @@
 {
-  "version": 1272,
-  "versionName": "260712-1836-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1272-260712-1836-standard-slim.apk.bin",
+  "version": 1273,
+  "versionName": "260714-2107-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1273-260714-2107-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37751703,
-  "sha256": "767dd92bf3a11191338a826bbbc6ff67730e276c181e9c96cc3c07e016cdc80f",
-  "changelog": "v1272 真根因修复：关闭推理模型思考模式——空图与日报截断的共同根因",
-  "userFacingChangelog": "重要修复：找到了照片出不来和日报写一半的真正原因（AI 服务商悄悄改了模型行为，回答配额被内部消耗掉了）。已修复，照片和完整日报都会回来",
+  "sha256": "b23cc27145cea2b2e8f24bbdc8ce99ab8faaee4acb0ea68224360890793e4c04",
+  "changelog": "v1273 发送回复即跳到最新消息（显式跳底，不再被不抢滚门误拦）",
+  "userFacingChangelog": "对话小更新：发出回复后画面立刻跳到最新一条，不管你发送前停在哪里",
   "recentReleases": [
-    {
-      "version": 1223,
-      "versionName": "260702-2034-standard",
-      "userFacingChangelog": "第一次使用时的欢迎消息不再一起涌出来——一步一步来",
-      "changelog": "v1223 开场引导节奏重排(owner 拍板方案1-3)：①T0 只推'挑伙伴'一条——种子微光卡静默入库不推 chat/系统通知,告知并入引导第二条 ②引导第二条改在 AI 回复完整落库后+2s 推(原在用户发消息瞬间,三条齐发) ③引导第三条改下一次冷启动/回前台(距上条≥30min)推;pacer 重构=每次调用最多推1条+分来源门控(maybeAdvance/onAssistantReplied);第二条文案去'刚才'",
-      "publishedAtMs": 1783049789000
-    },
     {
       "version": 1224,
       "versionName": "260702-2053-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "重要修复：找到了照片出不来和日报写一半的真正原因（AI 服务商悄悄改了模型行为，回答配额被内部消耗掉了）。已修复，照片和完整日报都会回来",
       "changelog": "v1272 真根因修复：关闭推理模型思考模式——空图与日报截断的共同根因",
       "publishedAtMs": 1783906711000
+    },
+    {
+      "version": 1273,
+      "versionName": "260714-2107-standard",
+      "userFacingChangelog": "对话小更新：发出回复后画面立刻跳到最新一条，不管你发送前停在哪里",
+      "changelog": "v1273 发送回复即跳到最新消息（显式跳底，不再被不抢滚门误拦）",
+      "publishedAtMs": 1784088703000
     }
   ],
-  "publishedAtMs": 1783906711000,
+  "publishedAtMs": 1784088703000,
   "minSupported": 0
 }
