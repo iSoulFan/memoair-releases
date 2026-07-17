@@ -1,20 +1,13 @@
 {
-  "version": 1275,
-  "versionName": "260715-0014-standard",
-  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1275-260715-0014-standard-slim.apk.bin",
+  "version": 1276,
+  "versionName": "260716-1803-standard",
+  "downloadUrl": "https://memoair-ota.oss-cn-shenzhen.aliyuncs.com/memoair-v1276-260716-1803-standard-slim.apk.bin",
   "fallbackUrl": "",
   "sizeBytes": 37751703,
-  "sha256": "6a9a7a538855955d3237ac7fc876cff81bf36b979d19ee10cbfdac8b087fabdd",
-  "changelog": "v1275 设置页预设补 AURY/OLLIE 两项+关系栏放开；简洁直接融合为一档",
-  "userFacingChangelog": "设置更新：「我的」页回答风格里现在能看到 AURY 和 OLLIE 两个伙伴预设了，点一下就能换上、往下能改它的设定；「简洁」和「直接」合并成了一档",
+  "sha256": "8862492d8e800e7bba285dfd80ab39f506181afc17f61b11d19a12546f2ffa25",
+  "changelog": "v1276 备份导出OOM修复：加密层改分块流式GCM(v2格式),内存峰值8MB与库大小无关",
+  "userFacingChangelog": "重要修复：数据导出和每晚自动备份恢复正常——记录量大的库之前导出会失败，现在多大都能导",
   "recentReleases": [
-    {
-      "version": 1226,
-      "versionName": "260703-0147-standard",
-      "userFacingChangelog": "AI 现在知道准确时间了，问几点直接答",
-      "changelog": "v1226 AI 不知道钟点修：chat system prompt 只注入日期星期没有时刻,问'现在几点'AI 联网抓回过期缓存(用户实测14:52 vs 真实16:41)——注入手机本地 HH:mm(权威)+prompt 明令问时间直接答不许联网",
-      "publishedAtMs": 1783068586000
-    },
     {
       "version": 1227,
       "versionName": "260703-0204-standard",
@@ -357,8 +350,15 @@
       "userFacingChangelog": "设置更新：「我的」页回答风格里现在能看到 AURY 和 OLLIE 两个伙伴预设了，点一下就能换上、往下能改它的设定；「简洁」和「直接」合并成了一档",
       "changelog": "v1275 设置页预设补 AURY/OLLIE 两项+关系栏放开；简洁直接融合为一档",
       "publishedAtMs": 1784099765000
+    },
+    {
+      "version": 1276,
+      "versionName": "260716-1803-standard",
+      "userFacingChangelog": "重要修复：数据导出和每晚自动备份恢复正常——记录量大的库之前导出会失败，现在多大都能导",
+      "changelog": "v1276 备份导出OOM修复：加密层改分块流式GCM(v2格式),内存峰值8MB与库大小无关",
+      "publishedAtMs": 1784250366000
     }
   ],
-  "publishedAtMs": 1784099765000,
+  "publishedAtMs": 1784250366000,
   "minSupported": 0
 }
